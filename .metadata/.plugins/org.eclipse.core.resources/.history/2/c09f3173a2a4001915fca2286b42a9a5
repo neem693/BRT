@@ -1,0 +1,3 @@
+
+server.servlet.context-path=TctPro
+server.port=8081

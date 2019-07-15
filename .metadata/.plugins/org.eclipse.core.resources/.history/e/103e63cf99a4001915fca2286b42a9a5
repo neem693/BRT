@@ -1,0 +1,21 @@
+package com.framework.Tct.test;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class Test {
+	private static Map<String,Object> test;
+	static{
+		test = new HashMap<String,Object>();
+		test.put("one", "일");
+		test.put("two", "이");
+		
+	}
+	
+	
+	
+
+}
