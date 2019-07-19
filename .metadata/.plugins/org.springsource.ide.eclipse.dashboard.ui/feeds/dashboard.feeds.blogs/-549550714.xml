@@ -5,7 +5,31 @@
   <link rel="self" href="https://spring.io/blog.atom" />
   <id>http://spring.io/blog.atom</id>
   <icon>https://spring.io/favicon.ico</icon>
-  <updated>2019-07-12T13:21:58Z</updated>
+  <updated>2019-07-16T18:53:03Z</updated>
+  <entry>
+    <title>This Week in Spring - July 16, 2019</title>
+    <link rel="alternate" href="https://spring.io/blog/2019/07/16/this-week-in-spring-july-16-2019" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Josh Long</name>
+    </author>
+    <id>tag:spring.io,2019-07-16:3746</id>
+    <updated>2019-07-16T18:53:03Z</updated>
+    <content type="html">&lt;p&gt;HI Spring fans! Welcome to another installment of &lt;em&gt;This Week in Spring&lt;/em&gt;! I&amp;rsquo;ve just returned from Lima, Peru, for JConf Peru, and then today finished speaking at the SpringOne Tour Philadelphia event. Now, I&amp;rsquo;m off to Portland, OR, for the epic OSCON show. As usual, we&amp;rsquo;ve got tons to cover so let&amp;rsquo;s get to it! &lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2019/07/12/spring-tools-4-3-1-released"&gt;Spring Tools 4.3.1 released&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;In last week&amp;rsquo;s installment of &lt;a href="https://spring.io/blog/2019/07/12/a-bootiful-podcast-mike-amundsen-on-apis-http-rest-and-more"&gt;&lt;em&gt;A Bootiful Podcast&lt;/em&gt;, I interview Mr. REST / HATEOAS, Mike Amundsen, on APIs, HTTP, REST and more&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;This is an interesting post &lt;a href="https://www.cloudfoundry.org/blog/orange-makes-novel-use-of-cloud-foundry-for-best-developer-experience/"&gt;on how Orange makes use of Cloud Foundry&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://github.com/spring-cloud/spring-cloud-gateway/issues/1160"&gt;Check out this resolution for those using Spring Cloud Gateway and experiencing issues doing a retry &lt;code&gt;POST&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Check out &lt;a href="https://medium.com/netifi/rsocket-video-channel-on-youtube-d33f1562a493"&gt;the RSocket YouTube channel&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Have you registered for SpringOne Platform 2019? &lt;a href="https://springoneplatform.io/register?utm_campaign=s1p-website-social&amp;utm_content=1561151675&amp;utm_medium=social-sprout&amp;utm_source=twitter"&gt;Do it&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;This is amazing - &lt;a href="https://github.com/neo4j/sdn-rx"&gt;a new reactive Spring Data Neo4J implementation&lt;/a&gt; is coming!&lt;/li&gt;
+  &lt;li&gt;Check this out - &lt;a href="https://content.pivotal.io/blog/introducing-rabbitmq-for-kubernetes"&gt;there&amp;rsquo;s now a Kubernetes-ready distribution of RabbitMQ&lt;/a&gt;. &lt;em&gt;Now&lt;/em&gt; it&amp;rsquo;s cloud-native!&lt;/li&gt;
+  &lt;li&gt;I love the new Microsoft Azure API development guidelines which encourage the use of Project Reactor &lt;a href="https://azuresdkspecs.z5.web.core.windows.net/JavaSpec.html"&gt;to build elegant, asynchronous, reactive APIs&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Here&amp;rsquo;s a nice post by JHipster lead and Azure Developer Advocate Julien Dubois on going &lt;a href="https://dev.to/azure/going-full-reactive-with-spring-webflux-and-the-new-cosmosdb-api-v3-1n2a"&gt;fully reactive with Spring Webflux and the new CosmosDB API v3&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
+  </entry>
   <entry>
     <title>Spring Tools 4.3.1 released</title>
     <link rel="alternate" href="https://spring.io/blog/2019/07/12/spring-tools-4-3-1-released" />
@@ -1046,19 +1070,6 @@ dependencies {&#xD;
 &lt;p&gt;Spring Tools 4.3.1 is scheduled to be released in late July 2019.&lt;/p&gt;
 &lt;p&gt;Enjoy!&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;P.S.: Due to a system outage, the update to the tools web page will take a little longer, please go to &lt;a href="https://github.com/spring-projects/sts4/wiki/Installation"&gt;https://github.com/spring-projects/sts4/wiki/Installation&lt;/a&gt; in the meantime for details about the new Theia packages.&lt;/em&gt;&lt;/p&gt;
-&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
-  </entry>
-  <entry>
-    <title>A Bootiful Podcast: IBM's Pratik Patel on Java, Functions-as-a-service, cloud infrastructure, Spring and Devnexus</title>
-    <link rel="alternate" href="https://spring.io/blog/2019/06/21/a-bootiful-podcast-ibm-s-pratik-patel-on-java-functions-as-a-service-cloud-infrastructure-spring-and-devnexus" />
-    <category term="engineering" label="Engineering" />
-    <author>
-      <name>Josh Long</name>
-    </author>
-    <id>tag:spring.io,2019-06-21:3726</id>
-    <updated>2019-06-21T07:23:20Z</updated>
-    <content type="html">&lt;p&gt;Hi Spring fans! This week &lt;a href="http://twitter.com/Starbuxman"&gt;Josh Long (@starbuxman)&lt;/a&gt; speaks to &lt;a href="http://twitter.com/PrPatel"&gt;@IBM&amp;rsquo;s Pratik Patel (@prpatel)&lt;/a&gt; about function-as-a-service, Spring Cloud Function, Spring, Java and Devnexus&lt;/p&gt;
-&lt;iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/639959205&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true"&gt;&lt;/iframe&gt;
 &lt;!-- rendered by Sagan Renderer Service --&gt;</content>
   </entry>
 </feed>

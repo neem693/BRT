@@ -1,0 +1,10 @@
+@font-face{
+  font-family: 'My-Font';
+  src: url('./NanumGothic-Regular.ttf'),url('./NanumGothicCoding-Regular.ttf');
+}
+
+.hello {
+    color: red;
+    font-family: 'My-Font';
+    background: url('./recycle.png');
+  }

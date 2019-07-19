@@ -1,0 +1,16 @@
+{
+  "name": "npm-tutorial",
+  "version": "1.0.0",
+  "description": "how to use npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "oratree",
+  "license": "MIT",
+  "keywords": [],
+  "dependencies": {
+    "upper-case": "^1.1.3"
+  },
+  "devDependencies": {}
+}
