@@ -1,9 +1,10 @@
 <!--The content below is only a placeholder and can be replaced.-->
 <div style="text-align:center">
   <h1 changeText>
-    Welcome to {{ myservice.title }} {{dateStr}}!
+    Welcome to {{ title }} {{dateStr}}!
   </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
+  <img width="300" alt="Angular Logo"
+    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
 </div>
 <h2>Here are some links to help you start: </h2>
 <ul>
@@ -21,7 +22,7 @@
 
   <span>{{title | uppercase}} uppercase</span><br>
   <span>{{title | lowercase}} lowercase </span>
-  
+
   <p>{{6489.23 | currency: "USD"}} currency </p>
   <p>{{6489.23 | currency: "USD":true}} currency </p>
   <p>{{6498.23 | currency: "KRW"}} currency KRW</p>
@@ -32,7 +33,7 @@
   <b>{{23454.8738434 | number: '3.4-4'}}</b>
 
   <h1>JSON PIPE</h1>
-  <b>{{ jsonval | json}}</b>
+  <b>{{ jsonVal | json}}</b>
   <h1>Percent Pipe</h1>
   <b>{{00.54565 | percent}}</b>
   <h1>Slice Pipe</h1>
@@ -43,47 +44,110 @@
 
   <h1>Custom Pipe</h1>
   <b>Square root of 25 is: {{25 | sqrt}}</b>
-  <br/>
+  <br />
   <b>Square root of 729 is : {{729 | sqrt}}</b>
 
 </div>
-<div> Months : 
-  <select [(ngModel)] = "month_value" (change) = "changemonths($event)"> 
-     <option value="{{i}}" *ngFor = "let i of months">{{i}}</option> 
-  </select> 
-</div> 
+<div> Months :
+  <select [(ngModel)]="month_value" (change)="changemonths($event)">
+    <option value="{{i}}" *ngFor="let i of months">{{i}}</option>
+  </select>
+</div>
 
-<span *ngIf = "isvaildate; then condition1 else condition2">
+<span *ngIf="isvaildate; then condition1 else condition2">
 
 </span>
 <!--#condition1 #condition2 로 할라고 했으나, IE11에서 안됨-->
-<p *ngIf = "isvaildate">Condition is valid form template</p>
-<p *ngIf = "!isvaildate">Condition is invalid form template</p>
+<p *ngIf="isvaildate">Condition is valid form template</p>
+<p *ngIf="!isvaildate">Condition is invalid form template</p>
 
-<button (click) = "myClickFunction($event)">눌러야할까?</button>
+<button (click)="myClickFunction($event)">눌러야할까?</button>
 {{todaydate}}
 <h3>Service Property: {{componetproperty}} </h3>
-<app-new-cmp></app-new-cmp><
-<a routerLink = "/Home/home">Home</a>>
-<a routerLink = "/ContactUs">ContactUs</a>
-<router-outlet></router-outlet>
-
-<h3>User Data</h3>
-<ul>
-  <li *ngFor = "let item of persondata; let i = index">
-    {{item.name}}
-  </li>
-</ul>
-
-<form [formGroup] = "formdata" (ngSubmit) = "onClickSubmit(formdata.value)">
-  <input required type = "email" name = "emailid" placeholder = "emailid" formControlName = "emailid">
+<app-new-cmp></app-new-cmp>
+ <a routerLink="/Home/home">Home</a>
+ <br>
+  <a routerLink="/ContactUs">ContactUs</a>
   <br>
-  <input required type = "password" name = "passwd" placeholder="passwd" formControlName = "passwd" >
+  <a routerLink="/product/view">product</a>
   <br>
-  <input [disabled] = "!formdata.valid" type = "submit" value = "submit">
-</form>
-<p>{{formdata.value|json}}</p>
-<p>{{formdata.valid}}</p>
-<p>{{formdata.value.emailid}}이메일</p>
+  <a routerLink="/product/addProduct">addProduct</a>
+  <router-outlet></router-outlet>
+
+  <h3>User Data</h3>
+  <ul>
+    <li *ngFor="let item of persondata; let i = index">
+      {{item.name}}
+    </li>
+  </ul>
+
+  <form [formGroup]="formdata" (ngSubmit)="onClickSubmit(formdata.value)">
+    <input required type="email" name="emailid" placeholder="emailid" formControlName="emailid">
+    <br>
+    <input required type="password" name="passwd" placeholder="passwd" formControlName="passwd">
+    <br>
+    <input [disabled]="!formdata.valid" type="submit" value="submit">
+  </form>
+  <p>{{formdata.value|json}}</p>
+  <p>{{formdata.valid}}</p>
+  <p>{{formdata.value.emailid}}이메일</p>
+
+  <cdk-virtual-scroll-viewport [itemSize]="20">
+    <table>
+      <thead>
+        <tr>
+          <td>ID</td>
+          <td>ThumbNail</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *cdkVirtualFor="let album of albumData">
+          <td>{{album.id}}</td>
+          <td><img src="{{album.thumbnailUrl}}" width=" 100" height="100"></td>
+        </tr>
+      </tbody>
+    </table>
 
 
+  </cdk-virtual-scroll-viewport>
+
+  <h3>Angular - Drag and Drop Module</h3>
+  <div cdkDropList #personList="cdkDropList" [cdkDropListData]="persondata" [cdkDropListConnectedTo]="[personList]"
+    class="example-list" (cdkDropListDropped)="onDrop($event)">
+    <div *ngFor="let item of persondata; let i =index" class="divlayout" cdkDrag>
+      {{item.name}}
+    </div>
+
+  </div>
+
+  <div style="display:block; height:300px; border:1px solid black">
+    <button (click)="animation()">Click Me</button>
+    <div [@myanimation]="state" class="rotate">
+      <img src="assets/global-network.png" width="100" height="100">
+    </div>
+
+  </div>
+
+  <button mat-button [matMenuTriggerFor]="menu">Menu</button>
+  <mat-menu #menu="matMenu">
+    <button mat-menu-item>File</button>
+    <button mat-menu-item>Save As</button>
+  </mat-menu>
+
+  <mat-sidenav-container class="example-container">
+    <mat-sidenav #sidenav class="example-sidenav">
+      Angular 8
+    </mat-sidenav>
+    <div class="example-sidenav-content">
+      <button type="button" mat-button (click)="sidenav.open()">
+        Open sidenav
+      </button>
+    </div>
+
+  </mat-sidenav-container>
+
+   <mat-form-field>
+    <input matInput [matDatepicker]="picker" placeholder="Choose a date">
+    <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+    <mat-datepicker #picker></mat-datepicker>
+  </mat-form-field> 

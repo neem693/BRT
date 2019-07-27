@@ -1,5 +1,6 @@
 import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 import { MyServiceService } from '../my-service.service';
+import { CommonData } from '../common/common-data';
 
 @Component({
   selector: 'app-home',
@@ -8,12 +9,19 @@ import { MyServiceService } from '../my-service.service';
 })
 export class HomeComponent implements OnInit {
 
-  constructor(private myservice:MyServiceService) {
-    this.myservice.title = "Home"; 
+  title:string;
+
+  constructor(private myservice:MyServiceService,private commonData:CommonData) {
+    commonData.title = "Home"; 
+    
     console.log("home change");
   }
 
   ngOnInit() {
+
+    this.myservice.title.subscribe(x=> this.title = x);
+    this.myservice.changeTitle('Home');
+   
     
   }
 

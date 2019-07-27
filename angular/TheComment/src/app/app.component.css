@@ -1,0 +1,41 @@
+
+table {
+    width: 100%;
+ }
+ cdk-virtual-scroll-viewport {
+    height: 500px;
+ }
+
+ .divlayout{
+    width: 40%;
+    background-color: #ccc;
+    margin-bottom: 5px;
+    padding: 10px 10px;
+    border: 3px solid #73AD21;
+ }
+
+ div {
+    margin: 0 auto;
+    text-align: center;
+    width:200px;
+ }
+ .rotate {
+    width:100px;
+    height:100px;
+    border:solid 1px red;
+ }
+
+ .example-container { 
+   width: 500px;  
+   height: 300px; 
+   border: 1px solid rgba(0, 0, 0, 0.5); 
+}
+.example-sidenav{ 
+   display: block;
+   padding: 20px; 
+   width: 150px; 
+   font-size: 20px;
+   border: 1px solid rgba(0, 0, 0, 0.5); 
+   background-color: #ccc; 
+   color:white; 
+}

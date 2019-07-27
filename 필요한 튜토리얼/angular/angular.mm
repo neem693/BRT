@@ -59,14 +59,15 @@
 <node CREATED="1563806967959" ID="ID_1243385139" MODIFIED="1563806967959" TEXT="2:12 child =&gt; parent - via ViewChild()"/>
 <node CREATED="1563806967961" ID="ID_867623772" MODIFIED="1563806967961" TEXT="3:01 Any =&gt; Any - via a shared service"/>
 <node CREATED="1563806967963" ID="ID_842357256" MODIFIED="1563806967963" TEXT="Thanks a lot for that great video!"/>
+<node CREATED="1564221341382" LINK="https://angularfirebase.com/lessons/sharing-data-between-angular-components-four-methods/" MODIFIED="1564221341382" TEXT="https://angularfirebase.com/lessons/sharing-data-between-angular-components-four-methods/"/>
 </node>
-<node CREATED="1563894476943" FOLDED="true" ID="ID_543289386" MODIFIED="1563895329999" POSITION="right" TEXT="&#xac4d; &#xc774;&#xba54;&#xc77c;&#xc740; &#xadf8;&#xb0e5; &#xc774;&#xac70; &#xc368;&#xb77c;">
+<node CREATED="1563894476943" ID="ID_543289386" MODIFIED="1564219366146" POSITION="right" TEXT="&#xac4d; &#xc774;&#xba54;&#xc77c;&#xc740; &#xadf8;&#xb0e5; &#xc774;&#xac70; &#xc368;&#xb77c;">
 <node CREATED="1563894578067" ID="ID_35178321" LINK="mailto:()\[\]\\.,;:\s@&quot;]+(\.[^" MODIFIED="1563895327656" TEXT="regexp = new RegExp( &#x9;&#xa;/^(([^&lt;&gt;()\[\]\\.,;:\s@&quot;]+(\.[^&lt;&gt;()\[\]\\.,;:\s@&quot;]+)*)|(&quot;.+&quot;))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;"/>
 </node>
 <node CREATED="1563896414568" ID="ID_391363340" MODIFIED="1563896418756" POSITION="right" TEXT="vscode &#xcf54;&#xb4dc; &#xc815;&#xb82c;">
 <node CREATED="1563896419795" ID="ID_1497481914" MODIFIED="1563896428106" TEXT="ctrl +k, ctrl + f"/>
 </node>
-<node CREATED="1563899020482" ID="ID_461820893" MODIFIED="1563899027731" POSITION="right" TEXT="formGroup&#xc744; &#xc0ac;&#xc6a9;&#xd560;&#xc2dc;">
+<node CREATED="1563899020482" FOLDED="true" ID="ID_461820893" MODIFIED="1564219369386" POSITION="right" TEXT="formGroup&#xc744; &#xc0ac;&#xc6a9;&#xd560;&#xc2dc;">
 <node CREATED="1563899036418" ID="ID_1678306153" MODIFIED="1563899036418" TEXT="Can&apos;t bind to &apos;formGroup&apos; since it isn&apos;t a known property of &apos;form&apos;. ("/>
 <node CREATED="1563899037346" ID="ID_1833468736" MODIFIED="1563899041889" TEXT="&#xb2e4;&#xc74c;&#xacfc; &#xac19;&#xc740; &#xc624;&#xb958;&#xac00; &#xb098;&#xc62c; &#xc218;&#xac00; &#xc788;&#xb2e4;."/>
 <node CREATED="1563899314087" ID="ID_1309310290" MODIFIED="1563899321217" TEXT="&#xc774;&#xb294; &#xb2e4;&#xc74c;&#xc744; &#xc784;&#xd3ec;&#xd2b8; &#xd574;&#xc57c; &#xd55c;&#xb2e4;&#xace0; &#xd55c;&#xb2e4;.(REACTIVE_FORM_DIRECTIVES )"/>
@@ -93,9 +94,9 @@
 </node>
 <node CREATED="1563902883437" ID="ID_1136410641" MODIFIED="1563903582768" TEXT="&#xcee4;&#xc2a4;&#xd140; &#xbca8;&#xb9ac;&#xb370;&#xc774;&#xd130;">
 <node CREATED="1563902886393" ID="ID_1529904474" MODIFIED="1563902886393" TEXT="this.formdata = new FormGroup({">
-<node CREATED="1563902886394" MODIFIED="1563902886394" TEXT="emailid: new FormControl(&quot;&quot;,Validators.compose([">
+<node CREATED="1563902886394" ID="ID_1832856705" MODIFIED="1563902886394" TEXT="emailid: new FormControl(&quot;&quot;,Validators.compose([">
 <node CREATED="1563902886394" MODIFIED="1563902886394" TEXT="Validators.required,"/>
-<node CREATED="1563902886395" LINK="mailto:()\[\]\\.,;:\s@&quot;]+(\.[^" MODIFIED="1563902886395" TEXT="Validators.pattern( /^(([^&lt;&gt;()\[\]\\.,;:\s@&quot;]+(\.[^&lt;&gt;()\[\]\\.,;:\s@&quot;]+)*)|(&quot;.+&quot;))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/)"/>
+<node CREATED="1563902886395" ID="ID_1082982973" LINK="mailto:()\[\]\\.,;:\s@&quot;]+(\.[^" MODIFIED="1563902886395" TEXT="Validators.pattern( /^(([^&lt;&gt;()\[\]\\.,;:\s@&quot;]+(\.[^&lt;&gt;()\[\]\\.,;:\s@&quot;]+)*)|(&quot;.+&quot;))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/)"/>
 </node>
 <node CREATED="1563902886400" MODIFIED="1563902886400" TEXT="])),"/>
 <node CREATED="1563902886400" MODIFIED="1563902886400" TEXT="passwd: new FormControl(&quot;&quot;,this.pwdValidator)"/>
@@ -116,6 +117,85 @@
 </node>
 <node CREATED="1563902886404" ID="ID_1257991095" MODIFIED="1563902886404" TEXT="}"/>
 </node>
+</node>
+<node COLOR="#3333ff" CREATED="1564062824311" FOLDED="true" ID="ID_1449702870" MODIFIED="1564219371626" POSITION="right" STYLE="bubble" TEXT="angular/meterial/datepicker &#xc774;&#xc6a9;&#xd560; &#xb54c;">
+<font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
+<node CREATED="1564062857846" ID="ID_818220073" LINK="https://material.angular.io/components/datepicker/overview" MODIFIED="1564062857846" TEXT="https://material.angular.io/components/datepicker/overview"/>
+<node CREATED="1564062858847" ID="ID_1638069554" MODIFIED="1564062862526" TEXT="&#xae30;&#xbcf8;&#xc801;&#xc778; &#xb85c;&#xc9c1;&#xc740; &#xc5ec;&#xae30;&#xc5d0; &#xc788;&#xb2e4;.">
+<node CREATED="1564063105158" ID="ID_211039038" MODIFIED="1564063105158" TEXT="providers: [MyServiceService,">
+<node CREATED="1564063105170" MODIFIED="1564063105170" TEXT="AlbumFetchService,"/>
+<node CREATED="1564063105170" ID="ID_807170787" MODIFIED="1564063105170" TEXT="{provide:MAT_DATE_LOCALE,useValue:&apos;ko&apos;},"/>
+<node CREATED="1564063105171" MODIFIED="1564063105171" TEXT="{provide:MAT_DATE_FORMATS,useValue:KoreaDateFormat}],"/>
+</node>
+<node CREATED="1564063105171" ID="ID_1741610925" MODIFIED="1564063105171" TEXT="bootstrap: [AppComponent]"/>
+<node CREATED="1564063105172" ID="ID_1732082593" MODIFIED="1564063105172" TEXT="})"/>
+</node>
+<node CREATED="1564062862747" ID="ID_221578341" MODIFIED="1564065601487" TEXT="&#xc9c0;&#xc5ed; &#xac12;&#xc744; &#xc801;&#xc6a9;&#xd558;&#xb294;&#xac8c; &#xc788;&#xb2e4;. app.module.ts&#xc5d0; &#xc801;&#xc6a9;&#xb428;">
+<node CREATED="1564063921666" ID="ID_1757698374" MODIFIED="1564063921666" TEXT="providers: [MyServiceService,">
+<node CREATED="1564063921670" MODIFIED="1564063921670" TEXT="AlbumFetchService,"/>
+<node COLOR="#3333ff" CREATED="1564063921671" ID="ID_1405804125" MODIFIED="1564063924239" STYLE="bubble" TEXT="{provide:MAT_DATE_LOCALE,useValue:&apos;ko&apos;},">
+<font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
+</node>
+<node CREATED="1564063921672" MODIFIED="1564063921672" TEXT="{provide:MAT_DATE_FORMATS,useValue:KoreaDateFormat}],"/>
+</node>
+<node CREATED="1564063921673" ID="ID_897882716" MODIFIED="1564063921673" TEXT="bootstrap: [AppComponent]"/>
+<node CREATED="1564063921674" ID="ID_1594417374" MODIFIED="1564063921674" TEXT="})"/>
+</node>
+<node CREATED="1564064771823" ID="ID_574547094" MODIFIED="1564064923274" TEXT="&#xc5ec;&#xae30;&#xc11c; &#xc0ac;&#xc6a9;&#xd558;&#xb294; &#xc9c0;&#xc5ed;&#xac12;(locale_id)&#xb294; ISO &#xad6d;&#xc81c;&#xad6d;&#xac00;&#xd45c;&#xc900;&#xc744; &#xb9d0;&#xd55c;&#xb2e4;.">
+<node CREATED="1564064829464" ID="ID_1112844960" LINK="https://ko.wikipedia.org/wiki/ISO_639-1_%EC%BD%94%EB%93%9C_%EB%AA%A9%EB%A1%9D" MODIFIED="1564064829464" TEXT="https://ko.wikipedia.org/wiki/ISO_639-1_%EC%BD%94%EB%93%9C_%EB%AA%A9%EB%A1%9D"/>
+<node CREATED="1564064914048" ID="ID_835107322" LINK="https://www.andiamo.co.uk/resources/iso-language-codes/" MODIFIED="1564064914048" TEXT="https://www.andiamo.co.uk/resources/iso-language-codes/"/>
+</node>
+<node CREATED="1564065061682" FOLDED="true" ID="ID_23855071" MODIFIED="1564065607410" TEXT="&#xadfc;&#xb370; &#xc77c;&#xb2e8; &#xc800;&#xb807;&#xac8c; &#xc801;&#xc6a9;&#xc744; &#xd574;&#xb3c4;, &#xc774;&#xc0c1;&#xd558;&#xac8c; &#xc801;&#xc6a9;&#xc774; &#xb41c;&#xb2e4;. &#xc774;&#xb7f4; &#xb54c;&#xb294; moment&#xb97c; &#xac00;&#xc9c0;&#xace0;&#xc640;&#xc11c; module&#xc5d0; &#xc801;&#xc6a9;&#xc2dc;&#xcf1c;&#xc57c; &#xd55c;&#xb2e4;.">
+<linktarget COLOR="#b0b0b0" DESTINATION="ID_23855071" ENDARROW="Default" ENDINCLINATION="186;0;" ID="Arrow_ID_1243974182" SOURCE="ID_1237623825" STARTARROW="None" STARTINCLINATION="186;0;"/>
+<node COLOR="#3333ff" CREATED="1564065096763" ID="ID_221254901" MODIFIED="1564065099231" STYLE="bubble" TEXT="import {MatMomentDateModule} from &apos;@angular/material-moment-adapter&apos;">
+<font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
+</node>
+</node>
+<node CREATED="1564064966657" FOLDED="true" ID="ID_1599411377" MODIFIED="1564065552014" TEXT="datePicker&#xc758; format &#xc0ac;&#xc6a9; &#xd560; &#xb54c;&#xb294; &#xae30;&#xbcf8;&#xc801;&#xc73c;&#xb85c; &#xd574;&#xb2f9; format&#xd2c0;&#xc774; &#xc788;&#xb2e4;.">
+<node COLOR="#3333ff" CREATED="1564065321006" ID="ID_369764962" MODIFIED="1564065549778" STYLE="bubble" TEXT="export const KoreaDateFormat = {">
+<font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
+<node CREATED="1564065321007" ID="ID_1802818931" MODIFIED="1564065327014" TEXT="parse: {">
+<node CREATED="1564065321007" MODIFIED="1564065327014" TEXT="dateInput: &apos;YYYYMMDD&apos;"/>
+</node>
+<node CREATED="1564065321011" ID="ID_474470454" MODIFIED="1564065327014" TEXT="},"/>
+<node COLOR="#3333ff" CREATED="1564065321011" ID="ID_1527030749" MODIFIED="1564065329812" STYLE="bubble" TEXT="display: {">
+<font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
+<node COLOR="#3333ff" CREATED="1564065321012" ID="ID_610031767" MODIFIED="1564065330695" STYLE="bubble" TEXT="dateInput: &apos;YYYY&#xb144;MM&#xc6d4;DD&#xc77c;&apos;,">
+<font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
+</node>
+<node COLOR="#3333ff" CREATED="1564065321012" ID="ID_1054566409" MODIFIED="1564065330947" STYLE="bubble" TEXT="monthYearLabel: &apos;YYYY&#xb144;MM&#xc6d4;&apos;,">
+<font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
+</node>
+<node COLOR="#3333ff" CREATED="1564065321013" ID="ID_828133131" MODIFIED="1564065331137" STYLE="bubble" TEXT="dateA11yLabel: &apos;YYYY&#xb144;MM&#xc6d4;DD&#xc77c;&apos;,">
+<font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
+</node>
+<node COLOR="#3333ff" CREATED="1564065321013" ID="ID_1843144634" MODIFIED="1564065331329" STYLE="bubble" TEXT="monthYearA11yLabel: &apos;YYYY&#xb144;MM&#xc6d4;&apos;">
+<font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
+</node>
+</node>
+<node CREATED="1564065321014" MODIFIED="1564065327014" TEXT="}"/>
+</node>
+<node CREATED="1564065321014" MODIFIED="1564065321014" TEXT="};"/>
+</node>
+<node CREATED="1564065568979" ID="ID_1237623825" MODIFIED="1564065606403" TEXT="&#xc5ec;&#xae30;&#xc11c; &#xc0ac;&#xc6a9;&#xd558;&#xb294; format&#xd2c0;&#xc774; moment &#xae30;&#xc900;&#xc774;&#xae30; &#xb54c;&#xbb38;&#xc5d0; &#xb2e4;&#xc74c;&#xc744; &#xaf2d; &#xac00;&#xc838;&#xc640;&#xc57c; &#xd55c;&#xb2e4;.">
+<arrowlink DESTINATION="ID_23855071" ENDARROW="Default" ENDINCLINATION="186;0;" ID="Arrow_ID_1243974182" STARTARROW="None" STARTINCLINATION="186;0;"/>
+</node>
+<node CREATED="1564065431403" FOLDED="true" ID="ID_366507701" MODIFIED="1564065554684" TEXT="&#xadf8;&#xb9ac;&#xace0; MAT_DATE_FORMATS&#xc744; &#xc801;&#xc6a9;&#xc2dc;&#xd0a8;&#xb2e4;. app.module.ts &#xc5d0; &#xc801;&#xc6a9;">
+<node CREATED="1564063921666" ID="ID_134463331" MODIFIED="1564063921666" TEXT="providers: [MyServiceService,">
+<node CREATED="1564063921670" MODIFIED="1564063921670" TEXT="AlbumFetchService,"/>
+<node CREATED="1564063921671" ID="ID_293940995" MODIFIED="1564065489597" TEXT="{provide:MAT_DATE_LOCALE,useValue:&apos;ko&apos;},">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#3333ff" CREATED="1564063921672" ID="ID_1847259754" MODIFIED="1564065489792" STYLE="bubble" TEXT="{provide:MAT_DATE_FORMATS,useValue:KoreaDateFormat}],">
+<font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
+</node>
+</node>
+<node CREATED="1564063921673" ID="ID_1796940346" MODIFIED="1564063921673" TEXT="bootstrap: [AppComponent]"/>
+<node CREATED="1564063921674" ID="ID_1666313107" MODIFIED="1564063921674" TEXT="})"/>
+</node>
+</node>
+<node CREATED="1564086472181" FOLDED="true" ID="ID_1028655791" MODIFIED="1564086487264" POSITION="right" TEXT="angular promise&#xb294; &#xc774;&#xacf3;&#xc744; &#xcc38;&#xc870;&#xd560;&#xac83;">
+<node CREATED="1564086486360" ID="ID_1681409536" LINK="https://www.geek-programmer.com/angular-promise-make-it-or-break-it/" MODIFIED="1564086486360" TEXT="https://www.geek-programmer.com/angular-promise-make-it-or-break-it/"/>
 </node>
 </node>
 </map>

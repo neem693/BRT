@@ -1,5 +1,7 @@
 import { Component, OnInit,Input } from '@angular/core';
 
+import { MyServiceService } from '../my-service.service';
+
 @Component({
   selector: 'app-contact-us',
   templateUrl: './contact-us.component.html',
@@ -7,11 +9,13 @@ import { Component, OnInit,Input } from '@angular/core';
 })
 export class ContactUsComponent implements OnInit {
 
+  title:string;
 
-  constructor() { }
+  constructor(private myservice:MyServiceService) { }
 
   ngOnInit() {
-    
+    this.myservice.title.subscribe(x=> this.title = x );
+    this.myservice.changeTitle('Contact Us');
   }
 
 }
