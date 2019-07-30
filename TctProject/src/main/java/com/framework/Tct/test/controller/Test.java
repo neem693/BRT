@@ -29,7 +29,7 @@ import com.framework.Tct.test.service.TestService;
 
 @RestController
 @RequestMapping(value = "/test")
-@CrossOrigin(origins = "http://127.0.0.1:4200")
+@CrossOrigin(origins = "http://127.0.0.1:4200,http://127.0.0.1:8111")
 public class Test {
 	
 	@Autowired

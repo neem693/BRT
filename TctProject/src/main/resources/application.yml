@@ -1,0 +1,23 @@
+
+
+                
+eureka:
+  client:
+    service-url:
+      default-zone: http://127.0.0.1:8761/eureka
+  instance:
+    prefer-ip-address: true
+    
+ 
+ 
+
+#zuul:
+#  routes:
+#    test:
+#      path: /v1/api/**
+#      url: 127.0.0.1:8080
+
+
+logging:
+  level:
+    root: info

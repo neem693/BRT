@@ -7,6 +7,9 @@ import { Observable, Observer, observable } from 'rxjs';
   providedIn: 'root'
 })
 export class ProductServiceService {
+  postProduct(arg0: string):Observable<any> {
+    return this.http.post(environment.ApiUrl + '/test/post',arg0);
+  }
 
 
 

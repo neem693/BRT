@@ -1,0 +1,22 @@
+spring: 
+  application: 
+    name: Tct
+  thymeleaf:
+    enabled: false
+    prefix: ./
+    suffix: .html
+  cloud:
+    config:
+      uri: http://localhost:8889
+  profiles:
+    active: native
+    
+server:  
+  servlet:
+    context-path: /TctPro
+    port: 8081
+#  ssl:
+#    key-store: keystore.p12
+#    key-password: oratreecrgw1257dx@
+#    key-store-type: PKCS12
+#    key-alias: tomcat

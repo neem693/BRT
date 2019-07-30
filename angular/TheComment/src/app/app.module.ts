@@ -62,6 +62,7 @@ import { ProductServiceService } from './product/product-service.service';
     MatNativeDateModule,
     MatMomentDateModule,
     PipeModule
+    
 ],
   providers: [MyServiceService,
               AlbumFetchService,

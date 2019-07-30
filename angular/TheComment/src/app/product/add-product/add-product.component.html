@@ -1,1 +1,9 @@
 <p>add-product works!</p>
+<div *ngIf = 'queryNum == 0'>
+    <input id = "paramText" [(ngModel)]='param'>
+    <button (click)="submitParam()">submit</button>
+</div>
+
+<div *ngIf = 'queryNum == 1'>
+    <p>one:{{jsonData.one}}<br>two:{{jsonData.two}}<br>three:{{jsonData.three}}</p>
+</div>
