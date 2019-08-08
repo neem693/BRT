@@ -67,7 +67,7 @@
 <node CREATED="1563896414568" ID="ID_391363340" MODIFIED="1563896418756" POSITION="right" TEXT="vscode &#xcf54;&#xb4dc; &#xc815;&#xb82c;">
 <node CREATED="1563896419795" ID="ID_1497481914" MODIFIED="1563896428106" TEXT="ctrl +k, ctrl + f"/>
 </node>
-<node CREATED="1563899020482" FOLDED="true" ID="ID_461820893" MODIFIED="1564219369386" POSITION="right" TEXT="formGroup&#xc744; &#xc0ac;&#xc6a9;&#xd560;&#xc2dc;">
+<node CREATED="1563899020482" FOLDED="true" ID="ID_461820893" MODIFIED="1565211269898" POSITION="right" TEXT="formGroup&#xc744; &#xc0ac;&#xc6a9;&#xd560;&#xc2dc;">
 <node CREATED="1563899036418" ID="ID_1678306153" MODIFIED="1563899036418" TEXT="Can&apos;t bind to &apos;formGroup&apos; since it isn&apos;t a known property of &apos;form&apos;. ("/>
 <node CREATED="1563899037346" ID="ID_1833468736" MODIFIED="1563899041889" TEXT="&#xb2e4;&#xc74c;&#xacfc; &#xac19;&#xc740; &#xc624;&#xb958;&#xac00; &#xb098;&#xc62c; &#xc218;&#xac00; &#xc788;&#xb2e4;."/>
 <node CREATED="1563899314087" ID="ID_1309310290" MODIFIED="1563899321217" TEXT="&#xc774;&#xb294; &#xb2e4;&#xc74c;&#xc744; &#xc784;&#xd3ec;&#xd2b8; &#xd574;&#xc57c; &#xd55c;&#xb2e4;&#xace0; &#xd55c;&#xb2e4;.(REACTIVE_FORM_DIRECTIVES )"/>

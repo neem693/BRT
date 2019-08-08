@@ -4,9 +4,13 @@ import java.util.Locale;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
 import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.LocaleResolver;
+import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
+import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
+import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 import org.springframework.web.servlet.i18n.LocaleChangeInterceptor;
@@ -14,13 +18,18 @@ import org.springframework.web.servlet.i18n.SessionLocaleResolver;
 
 import com.framework.Tct.interceptor.TctInterCeptor;
 
-@Component
+import springfox.documentation.builders.RequestHandlerSelectors;
+import springfox.documentation.spi.DocumentationType;
+import springfox.documentation.spring.web.plugins.Docket;
+
+@Configuration
 public class WebConfig implements WebMvcConfigurer{
 	
 	@Autowired
 	TctInterCeptor interceptorTct;
 	
-	
+
+
 
 	@Override
 	public void addInterceptors(InterceptorRegistry registry) {
@@ -45,8 +54,6 @@ public class WebConfig implements WebMvcConfigurer{
 		return localeChangeInterceptor;
 	}
 	
-	
 
-	
 	
 }

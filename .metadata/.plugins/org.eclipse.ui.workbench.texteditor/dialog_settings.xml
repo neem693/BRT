@@ -2,26 +2,27 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="e:" key="selection"/>
+		<item value="finalName" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
-			<item value="E:"/>
-			<item value="config-pro"/>
-			<item value="8888"/>
-			<item value="localhost"/>
-			<item value="local"/>
-			<item value="127.0.0.1"/>
-			<item value="http:"/>
-			<item value="eureka"/>
-			<item value="eureka/status"/>
-			<item value="org.springframework-version"/>
-			<item value="spring core"/>
-			<item value="org.slf4j-version"/>
-			<item value="SLf4j"/>
-			<item value="properties"/>
+			<item value="finalName"/>
+			<item value=".war"/>
+			<item value="dockerapp"/>
+			<item value="docker"/>
+			<item value="package"/>
+			<item value="artifactId"/>
+			<item value="TctProject"/>
+			<item value="src"/>
+			<item value="swagger-ui"/>
+			<item value="swagger"/>
+			<item value="webjars"/>
+			<item value="swagger-resources"/>
+			<item value="core"/>
+			<item value="swagger-ui.html"/>
+			<item value="install"/>
 		</list>
 		<list key="replacehistory">
 		</list>

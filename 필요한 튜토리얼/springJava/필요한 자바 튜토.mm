@@ -74,5 +74,94 @@
 </node>
 </node>
 </node>
+<node CREATED="1565202033021" ID="ID_1142579295" MODIFIED="1565202045538" POSITION="right" TEXT="swagger-ui.html&#xc774; 404 &#xb5a8;&#xc5b4;&#xc9c8;&#xb54c;">
+<node CREATED="1565202046273" ID="ID_356155014" MODIFIED="1565202747081" TEXT="swagger-ui.html 404 &#xc5d0;&#xb7ec; &#xb098; &#xac19;&#xc740; &#xacbd;&#xc6b0; &#xc2a4;&#xd504;&#xb9c1; &#xbd80;&#xd2b8; 2.1.6 &#xc0ac;&#xc6a9;&#xd558;&#xace0; &#xc788;&#xc744; &#xb584; springfox-swagger2&#xc640; springfox-swagger-ui&#xb97c; &#xc0ac;&#xc6a9;&#xd560;&#xb54c; /v2/api-docs &#xb294; &#xc798;&#xb418;&#xb294;&#xb370; swagger-ui.html&#xc774; &#xc528;&#xc54c;&#xb3c4; &#xc548;&#xba39;&#xd788;&#xb354;&#xb77c;. &#xadf8;&#xb798;&#xc11c; swagger&#xc640; ui&#xb97c; 2.7.0&#xc73c;&#xb85c; &#xbc14;&#xafb8;&#xb2c8;&#xae4c; &#xc798;&#xb418;&#xb354;&#xb77c;. &#xcc38;&#xace0;&#xbc14;&#xb78c; "/>
+</node>
+<node CREATED="1565211325121" ID="ID_1017006133" MODIFIED="1565211327178" POSITION="right" TEXT="&#xd3ec;&#xd2b8; &#xd655;&#xc778;">
+<node CREATED="1565211327619" ID="ID_798013240" MODIFIED="1565211327619" TEXT="netstat -a -b"/>
+</node>
+<node CREATED="1565221709741" ID="ID_738072142" MODIFIED="1565221713329" POSITION="right" TEXT="&#xb3c4;&#xcee4;(Docker)">
+<node CREATED="1565221676493" ID="ID_375625165" MODIFIED="1565221709034" TEXT="docker&#xb294; docker&#xb97c; &#xc124;&#xce58;&#xd558;&#xc5ec;&#xc57c;&#xb9cc; &#xc9c4;&#xd589;&#xd560; &#xc218; &#xc788;&#xc744; &#xb4ef; &#xd558;&#xb2e4;. &#xadf8;&#xb7ec;&#xb098; &#xc774;&#xac78; &#xb610; &#xc124;&#xce58;&#xd560;&#xb824;&#xba74; &#xc708;&#xb3c4;&#xc6b0;&#xb97c; &#xc5c5;&#xb370;&#xc774;&#xd2b8; &#xd558;&#xc5ec;&#xc57c; &#xd55c;&#xb2e4;. &#xadf8;&#xb7f0;&#xb370; &#xc708;&#xb3c4;&#xc6b0; &#xc5c5;&#xb370;&#xc774;&#xd2b8;&#xac00; &#xc548;&#xb41c;&#xb2e4;. &#xadf8;&#xb798;&#xc11c; &#xc774;&#xbc88;&#xaec0;&#xc740; &#xb118;&#xae34;&#xb2e4;."/>
+<node CREATED="1565223531807" ID="ID_1696233639" MODIFIED="1565223538882" TEXT="&#xc778;&#xc904; &#xc54c;&#xc558;&#xb294;&#xb370; ">
+<node CREATED="1565223539338" LINK="https://docs.docker.com/docker-for-windows/install/#what-to-know-before-you-install" MODIFIED="1565223539338" TEXT="https://docs.docker.com/docker-for-windows/install/#what-to-know-before-you-install"/>
+</node>
+<node CREATED="1565223540341" FOLDED="true" ID="ID_413818247" MODIFIED="1565287249507" TEXT="&#xb808;&#xac70;&#xc2dc; &#xc2dc;&#xc2a4;&#xd15c;&#xc5d0;&#xc11c;&#xb3c4; &#xbc1b;&#xc744; &#xc218; &#xc788;&#xb3c4;&#xb85d; &#xd560;&#xc218;&#xc788;&#xb2e4;.">
+<node CREATED="1565223557336" LINK="https://docs.docker.com/toolbox/overview/" MODIFIED="1565223557336" TEXT="https://docs.docker.com/toolbox/overview/"/>
+</node>
+<node CREATED="1565223588285" ID="ID_77051114" MODIFIED="1565223595154" TEXT="&#xadf8;&#xac8c; &#xbc14;&#xb85c; docker toolbox&#xc778;&#xac70; &#xac19;&#xb2e4;."/>
+<node CREATED="1565227758101" ID="ID_914672298" MODIFIED="1565227817627">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      https&#47196; &#51217;&#49549;&#49884; &#51064;&#51613;&#50640; &#45824;&#54620; &#44221;&#47196; &#49444;&#51221;&#51012;&#160;&#54644;&#51480;&#50556; &#54616;&#44256; &#44536;&#44163;&#51012; &#52628;&#44032;&#49884;&#53020;&#51452;&#47732; &#46108;&#45796;.
+    </p>
+  </body>
+</html></richcontent>
+<font NAME="SansSerif" SIZE="12"/>
+<node CREATED="1565227767066" ID="ID_1280610625" LINK="https://stackoverflow.com/questions/39240560/spring-boot-with-docker-unable-to-find-valid-certification-path-to-requested-tar" MODIFIED="1565227767066" TEXT="https://stackoverflow.com/questions/39240560/spring-boot-with-docker-unable-to-find-valid-certification-path-to-requested-tar"/>
+</node>
+<node COLOR="#3333ff" CREATED="1565286026082" ID="ID_710344508" MODIFIED="1565286027254" STYLE="bubble" TEXT="ADD failed : No such file/Directory">
+<font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
+<node CREATED="1565286164679" ID="ID_632226530" MODIFIED="1565286384723" TEXT="&#xc815;&#xd655;&#xd788; &#xb9d0;&#xd558;&#xba74; Failed to execute goal com.spotify:docker-maven-plugin:1.0.0:build (default-cli) on project TctProject: Exception caught: ADD failed: stat /mnt/sda1/var/lib/docker/tmp/docker-builder056676213/TctProject-0.0.1-SNAPSHOT.war: no such file or directory "/>
+<node CREATED="1565286390223" ID="ID_1613055189" MODIFIED="1565286391923" TEXT="&#xc774; &#xc5d0;&#xb7ec;&#xc778;&#xb370;"/>
+<node CREATED="1565286038944" ID="ID_1759184669" MODIFIED="1565286071773" TEXT="&#xc774;&#xb294; docker build&#xb97c; &#xd560; &#xb54c; &#xb9e8;&#xcc98;&#xc74c; war&#xd30c;&#xc77c;&#xc744; docker-context-path&#xc5d0; copy&#xac00; &#xb418;&#xc9c0; &#xc54a;&#xc544;&#xc11c; &#xc0dd;&#xae34; &#xc99d;&#xc0c1;&#xc774;&#xb2e4;."/>
+<node CREATED="1565286408960" ID="ID_1885714031" MODIFIED="1565286460580" TEXT="&#xd574;&#xb2f9;&#xd558;&#xb294; &#xd50c;&#xb7ec;&#xadf8;&#xc778;&#xc5d0;&#xc11c; &#xac15;&#xc870;&#xb41c; &#xbd80;&#xbd84;&#xc5d0; &#xd574;&#xb2f9;&#xd55c;&#xb2e4;.">
+<node CREATED="1565286452456" ID="ID_1378043070" MODIFIED="1565286452456" TEXT="&lt;plugin&gt;">
+<node CREATED="1565286452463" MODIFIED="1565286452463" TEXT="&lt;groupId&gt;com.spotify&lt;/groupId&gt;"/>
+<node CREATED="1565286452463" MODIFIED="1565286452463" TEXT="&lt;artifactId&gt;docker-maven-plugin&lt;/artifactId&gt;"/>
+<node CREATED="1565286452464" MODIFIED="1565286452464" TEXT="&lt;version&gt;1.0.0&lt;/version&gt;"/>
+<node CREATED="1565286452464" ID="ID_1424120310" MODIFIED="1565286452464" TEXT="&lt;configuration&gt;">
+<node CREATED="1565286452465" LINK="https://192.168.99.100:2376&lt;/dockerHost&gt;" MODIFIED="1565286452465" TEXT="&lt;dockerHost&gt;https://192.168.99.100:2376&lt;/dockerHost&gt;"/>
+<node CREATED="1565286452468" MODIFIED="1565286452468" TEXT="&lt;imageName&gt;${docker.image.prefix}/tctproject&lt;/imageName&gt;"/>
+<node CREATED="1565286452469" MODIFIED="1565286452469" TEXT="&lt;dockerDirectory&gt;src/main/docker&lt;/dockerDirectory&gt;"/>
+<node CREATED="1565286452469" ID="ID_1500038146" MODIFIED="1565286452469" TEXT="&lt;dockerCertPath&gt;C:\Users\UIO\.docker\machine\machines\default&lt;/dockerCertPath&gt;"/>
+<node CREATED="1565286452471" ID="ID_980807735" MODIFIED="1565286452471" TEXT="&lt;resources&gt;">
+<node CREATED="1565286452471" ID="ID_1480040666" MODIFIED="1565286452471" TEXT="&lt;resource&gt;">
+<node COLOR="#3333ff" CREATED="1565286452472" ID="ID_1063560732" MODIFIED="1565286462647" STYLE="bubble" TEXT="&lt;directory&gt;${project.build.directory}&lt;/directory&gt;">
+<font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
+</node>
+<node COLOR="#3333ff" CREATED="1565286452472" ID="ID_348494186" MODIFIED="1565286652774" STYLE="bubble" TEXT="&lt;include&gt;${project.build.finalName}.war&lt;/include&gt;">
+<font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
+</node>
+</node>
+<node CREATED="1565286452473" MODIFIED="1565286452473" TEXT="&lt;/resource&gt;"/>
+</node>
+<node CREATED="1565286452473" MODIFIED="1565286452473" TEXT="&lt;/resources&gt;"/>
+</node>
+<node CREATED="1565286452474" MODIFIED="1565286452474" TEXT="&lt;/configuration&gt;"/>
+<node CREATED="1565286452475" MODIFIED="1565286452475" TEXT="&lt;/plugin&gt;"/>
+</node>
+</node>
+<node CREATED="1565286654704" ID="ID_1046641712" MODIFIED="1565286684724" TEXT="&#xc5ec;&#xae30;&#xc11c; &lt;include&gt;${project.build.finalName}.war&lt;/include&gt;  &#xbd80;&#xbd84;&#xc740; build&#xb97c; &#xd560;&#xb54c; maven&#xc5d0;&#xc11c; packaging&#xc744; &#xc124;&#xc815;&#xd55c; &#xb370;&#xb85c; &#xd574;&#xc918;&#xc57c; &#xd568;&#xc744; &#xba85;&#xc2ec;&#xd558;&#xc790;"/>
+<node CREATED="1565286702023" ID="ID_567945016" MODIFIED="1565287066388" TEXT="&#xadf8;&#xb7ec;&#xba74;  &#xb2e4;&#xc74c;&#xacfc; &#xac19;&#xc740; &#xac83;&#xc744; docker build&#xb97c; &#xd560;&#xb54c; &#xcf58;&#xc194;&#xc5d0;&#xc11c; &#xbcfc; &#xc218;&#xac00; &#xc788;&#xc744; &#xac83;&#xc774;&#xb2e4;. docker-context-path&#xc5d0; &#xbcf5;&#xc0ac;&#xac00; &#xb418;&#xb294; &#xac78; &#xbcfc; &#xc218; &#xc788;&#xb2e4;.">
+<node CREATED="1565286971657" ID="ID_1837520671" MODIFIED="1565286971657" TEXT="Copying E:\BRT\TctProject\target\TctProject-0.0.1-SNAPSHOT.war -&gt; E:\BRT\TctProject\target\docker\TctProject-0.0.1-SNAPSHOT.war"/>
+</node>
+<node CREATED="1565287074567" ID="ID_813955792" MODIFIED="1565287743168" TEXT="&#xc774;&#xb807;&#xac8c; &#xc62e;&#xaca8;&#xb9cc; &#xc9c4;&#xb2e4;&#xace0; &#xb2e4;&#xac00; &#xc544;&#xb2c8;&#xace0; &#xc815;&#xd655;&#xd788; dockerfile&#xc5d0; &#xb300;&#xd574;&#xc11c; &#xc800; war&#xc5d0; &#xb300;&#xd55c; &#xba85;&#xce6d; &#xc815;&#xc758;&#xac00; &#xd544;&#xc694;&#xd558;&#xb2e4;. &#xac15;&#xc870;&#xb41c; &#xbd80;&#xbd84;&#xc744; &#xcc38;&#xace0;&#xd558;&#xc2dc;&#xb77c;">
+<node CREATED="1565287299034" MODIFIED="1565287299034" TEXT="FROM java:8"/>
+<node CREATED="1565287299035" MODIFIED="1565287299035" TEXT="VOLUME /tmp"/>
+<node COLOR="#3333ff" CREATED="1565287299035" ID="ID_704684853" MODIFIED="1565287300748" STYLE="bubble" TEXT="ADD /TctProject-0.0.1-SNAPSHOT.war app.jar">
+<font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
+</node>
+<node CREATED="1565287299036" MODIFIED="1565287299036" TEXT="RUN bash -c &apos;touch /app.jar&apos;"/>
+<node CREATED="1565287299036" MODIFIED="1565287299036" TEXT="ENTRYPOINT [&quot;java&quot;,&quot;-Djava.security.egd=file:/dev/./urandom&quot;,&quot;-jar&quot;,&quot;/app.jar&quot;]"/>
+</node>
+<node CREATED="1565287744009" ID="ID_433676764" MODIFIED="1565287755395" TEXT="&#xadf8;&#xb2e4;&#xc74c; &#xbc14;&#xb85c; docker:build&#xb97c; &#xc2e4;&#xd589;&#xd558;&#xc790;">
+<node CREATED="1565287755731" MODIFIED="1565287755731">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="&#xd544;&#xc694;&#xd55c; &#xc790;&#xbc14; &#xd29c;&#xd1a0;_6113619079066766267.jpeg" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
 </node>
 </map>

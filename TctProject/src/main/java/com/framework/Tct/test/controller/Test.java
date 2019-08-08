@@ -9,6 +9,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.io.InputStreamResource;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
@@ -34,6 +35,8 @@ public class Test {
 	
 	@Autowired
 	public TestService testService;
+	@Value("${welcome.message}")
+	String message;
 	
 	
 	
@@ -167,6 +170,14 @@ public class Test {
 		return responseEntity;
 		
 		
+	}
+	
+	@RequestMapping(value="/configServerData", method = RequestMethod.GET)
+	public String getConfigServerData(@RequestParam Map<String,Object> param) {
+		
+		
+		
+		return message;
 	}
 
 }

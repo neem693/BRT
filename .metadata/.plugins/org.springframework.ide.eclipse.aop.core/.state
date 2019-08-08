@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aop-reference-model>
 <aop-project name="zuulSever"/>
+<aop-project name="adminServer"/>
 <aop-project name="TctProject"/>
+<aop-project name="docker"/>
 <aop-project name="eurekaServer Initializaer"/>
 <aop-project name="configServer"/>
 </aop-reference-model>

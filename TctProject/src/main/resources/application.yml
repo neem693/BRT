@@ -1,4 +1,12 @@
-
+server:  
+  servlet:
+    context-path: /TctPro
+  port: 8081
+#  ssl:
+#    key-store: keystore.p12
+#    key-password: oratreecrgw1257dx@
+#    key-store-type: PKCS12
+#    key-alias: tomcat
 
                 
 eureka:
@@ -20,4 +28,22 @@ eureka:
 
 logging:
   level:
-    root: info
+    root: debug
+    
+#스프링 부트 2.0 이상부터는 management.endpoints.web.exposure.include를 사용해야 한다.
+#management.security.enabled대신 위에껄 사용해야 한다.
+#필요한 내용은 https://www.baeldung.com/spring-boot-actuators 이곳에 있다.
+management:
+#  security:
+#    enabled: false
+  server:
+    port: 9090
+  endpoint:
+    metrics:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: metrics,trace,env,beans,health,info
+  
+
