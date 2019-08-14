@@ -78,18 +78,20 @@
 <node CREATED="1565202046273" ID="ID_356155014" MODIFIED="1565202747081" TEXT="swagger-ui.html 404 &#xc5d0;&#xb7ec; &#xb098; &#xac19;&#xc740; &#xacbd;&#xc6b0; &#xc2a4;&#xd504;&#xb9c1; &#xbd80;&#xd2b8; 2.1.6 &#xc0ac;&#xc6a9;&#xd558;&#xace0; &#xc788;&#xc744; &#xb584; springfox-swagger2&#xc640; springfox-swagger-ui&#xb97c; &#xc0ac;&#xc6a9;&#xd560;&#xb54c; /v2/api-docs &#xb294; &#xc798;&#xb418;&#xb294;&#xb370; swagger-ui.html&#xc774; &#xc528;&#xc54c;&#xb3c4; &#xc548;&#xba39;&#xd788;&#xb354;&#xb77c;. &#xadf8;&#xb798;&#xc11c; swagger&#xc640; ui&#xb97c; 2.7.0&#xc73c;&#xb85c; &#xbc14;&#xafb8;&#xb2c8;&#xae4c; &#xc798;&#xb418;&#xb354;&#xb77c;. &#xcc38;&#xace0;&#xbc14;&#xb78c; "/>
 </node>
 <node CREATED="1565211325121" ID="ID_1017006133" MODIFIED="1565211327178" POSITION="right" TEXT="&#xd3ec;&#xd2b8; &#xd655;&#xc778;">
-<node CREATED="1565211327619" ID="ID_798013240" MODIFIED="1565211327619" TEXT="netstat -a -b"/>
+<node CREATED="1565211327619" ID="ID_798013240" MODIFIED="1565624634640" TEXT="netstat -ano"/>
+<node CREATED="1565624758878" ID="ID_1113092189" MODIFIED="1565624758878" TEXT="taskkill /F /PID 3792"/>
+<node CREATED="1565624764382" ID="ID_930944999" MODIFIED="1565624768464" TEXT="3792&#xb97c; &#xc8fd;&#xc784;"/>
 </node>
 <node CREATED="1565221709741" ID="ID_738072142" MODIFIED="1565221713329" POSITION="right" TEXT="&#xb3c4;&#xcee4;(Docker)">
 <node CREATED="1565221676493" ID="ID_375625165" MODIFIED="1565221709034" TEXT="docker&#xb294; docker&#xb97c; &#xc124;&#xce58;&#xd558;&#xc5ec;&#xc57c;&#xb9cc; &#xc9c4;&#xd589;&#xd560; &#xc218; &#xc788;&#xc744; &#xb4ef; &#xd558;&#xb2e4;. &#xadf8;&#xb7ec;&#xb098; &#xc774;&#xac78; &#xb610; &#xc124;&#xce58;&#xd560;&#xb824;&#xba74; &#xc708;&#xb3c4;&#xc6b0;&#xb97c; &#xc5c5;&#xb370;&#xc774;&#xd2b8; &#xd558;&#xc5ec;&#xc57c; &#xd55c;&#xb2e4;. &#xadf8;&#xb7f0;&#xb370; &#xc708;&#xb3c4;&#xc6b0; &#xc5c5;&#xb370;&#xc774;&#xd2b8;&#xac00; &#xc548;&#xb41c;&#xb2e4;. &#xadf8;&#xb798;&#xc11c; &#xc774;&#xbc88;&#xaec0;&#xc740; &#xb118;&#xae34;&#xb2e4;."/>
-<node CREATED="1565223531807" ID="ID_1696233639" MODIFIED="1565223538882" TEXT="&#xc778;&#xc904; &#xc54c;&#xc558;&#xb294;&#xb370; ">
+<node CREATED="1565223531807" FOLDED="true" ID="ID_1696233639" MODIFIED="1565624465393" TEXT="&#xc778;&#xc904; &#xc54c;&#xc558;&#xb294;&#xb370; ">
 <node CREATED="1565223539338" LINK="https://docs.docker.com/docker-for-windows/install/#what-to-know-before-you-install" MODIFIED="1565223539338" TEXT="https://docs.docker.com/docker-for-windows/install/#what-to-know-before-you-install"/>
 </node>
 <node CREATED="1565223540341" FOLDED="true" ID="ID_413818247" MODIFIED="1565287249507" TEXT="&#xb808;&#xac70;&#xc2dc; &#xc2dc;&#xc2a4;&#xd15c;&#xc5d0;&#xc11c;&#xb3c4; &#xbc1b;&#xc744; &#xc218; &#xc788;&#xb3c4;&#xb85d; &#xd560;&#xc218;&#xc788;&#xb2e4;.">
 <node CREATED="1565223557336" LINK="https://docs.docker.com/toolbox/overview/" MODIFIED="1565223557336" TEXT="https://docs.docker.com/toolbox/overview/"/>
 </node>
 <node CREATED="1565223588285" ID="ID_77051114" MODIFIED="1565223595154" TEXT="&#xadf8;&#xac8c; &#xbc14;&#xb85c; docker toolbox&#xc778;&#xac70; &#xac19;&#xb2e4;."/>
-<node CREATED="1565227758101" ID="ID_914672298" MODIFIED="1565227817627">
+<node CREATED="1565227758101" FOLDED="true" ID="ID_914672298" MODIFIED="1565624465393">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -103,7 +105,7 @@
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1565227767066" ID="ID_1280610625" LINK="https://stackoverflow.com/questions/39240560/spring-boot-with-docker-unable-to-find-valid-certification-path-to-requested-tar" MODIFIED="1565227767066" TEXT="https://stackoverflow.com/questions/39240560/spring-boot-with-docker-unable-to-find-valid-certification-path-to-requested-tar"/>
 </node>
-<node COLOR="#3333ff" CREATED="1565286026082" ID="ID_710344508" MODIFIED="1565286027254" STYLE="bubble" TEXT="ADD failed : No such file/Directory">
+<node COLOR="#3333ff" CREATED="1565286026082" FOLDED="true" ID="ID_710344508" MODIFIED="1565624465398" STYLE="bubble" TEXT="ADD failed : No such file/Directory">
 <font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
 <node CREATED="1565286164679" ID="ID_632226530" MODIFIED="1565286384723" TEXT="&#xc815;&#xd655;&#xd788; &#xb9d0;&#xd558;&#xba74; Failed to execute goal com.spotify:docker-maven-plugin:1.0.0:build (default-cli) on project TctProject: Exception caught: ADD failed: stat /mnt/sda1/var/lib/docker/tmp/docker-builder056676213/TctProject-0.0.1-SNAPSHOT.war: no such file or directory "/>
 <node CREATED="1565286390223" ID="ID_1613055189" MODIFIED="1565286391923" TEXT="&#xc774; &#xc5d0;&#xb7ec;&#xc778;&#xb370;"/>
@@ -157,10 +159,30 @@
   <body>
     <img src="&#xd544;&#xc694;&#xd55c; &#xc790;&#xbc14; &#xd29c;&#xd1a0;_6113619079066766267.jpeg" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
+</node>
+</node>
+<node CREATED="1565631351067" ID="ID_1846173704" MODIFIED="1565631368208" POSITION="right" TEXT="&#xb9c8;&#xb9ac;&#xc544;DB --&gt; id, pwd ">
+<node CREATED="1565631369063" ID="ID_955855352" MODIFIED="1565631408751" TEXT="root"/>
+<node CREATED="1565631371685" ID="ID_1503716678" MODIFIED="1565631381951" TEXT="oratree12341234aa"/>
+</node>
+<node CREATED="1565647048431" ID="ID_1370038050" MODIFIED="1565647058305" POSITION="right" TEXT="gmail less secure app">
+<node CREATED="1565647059045" LINK="https://myaccount.google.com/lesssecureapps?pli=1" MODIFIED="1565647059045" TEXT="https://myaccount.google.com/lesssecureapps?pli=1"/>
+</node>
+<node CREATED="1565714861390" ID="ID_295040871" MODIFIED="1565714869265" POSITION="right" TEXT="websocket">
+<node CREATED="1565714885843" ID="ID_449998338" LINK="https://www.tutorialspoint.com/spring_boot/spring_boot_web_socket.htm" MODIFIED="1565714886630" TEXT="https://www.tutorialspoint.com/spring_boot/spring_boot_web_socket.htm"/>
+<node CREATED="1565714887694" ID="ID_1540854741" MODIFIED="1565714956013" TEXT="&#xd29c;&#xd1a0;&#xb9ac;&#xc5bc; &#xd3ec;&#xc778;&#xd2b8;&#xc5d0;&#xc11c; &#xc6f9; &#xc18c;&#xcf13;&#xc5d0; &#xb300;&#xd55c; &#xb0b4;&#xc6a9;&#xc774; &#xc788;&#xb294;&#xb370;"/>
+<node CREATED="1565714956190" ID="ID_671373614" MODIFIED="1565714965785" TEXT="&#xc5ec;&#xae30;&#xc11c; &#xd544;&#xc694;&#xd55c; &#xd074;&#xb798;&#xc2a4;&#xac00; &#xc798; &#xb098;&#xc624;&#xc9c0; &#xc54a;&#xb294;&#xb370; &#xbc11;&#xc744; &#xcc38;&#xace0;&#xd558;&#xba74; &#xc798; &#xb098;&#xc628;&#xb2e4;."/>
+<node CREATED="1565714873204" ID="ID_425794876" LINK="https://spring.io/guides/gs/messaging-stomp-websocket/" MODIFIED="1565714873204" TEXT="https://spring.io/guides/gs/messaging-stomp-websocket/"/>
+<node CREATED="1565716635299" ID="ID_983703411" MODIFIED="1565716709752" TEXT="AbstractWebSocketMessageBrokerConfigurer &#xc4f0;&#xc9c0;&#xb9d0;&#xb79c;&#xb2e4;">
+<node COLOR="#3333ff" CREATED="1565716638086" ID="ID_923872869" MODIFIED="1565716657839" STYLE="bubble" TEXT="AbstractWebSocketMessageBrokerConfigurer Deprecated.  as of 5.0 in favor of simply using WebSocketMessageBrokerConfigurer which has default methods, made possible by a Java 8 baseline.">
+<font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
+</node>
+<node CREATED="1565716642781" ID="ID_242748651" MODIFIED="1565716644952" TEXT="WebSocketMessageBrokerConfigurer &#xc774;&#xac70; &#xc4f0;&#xb79c;&#xb2e4;."/>
+<node CREATED="1565716771909" ID="ID_923939358" MODIFIED="1565716775936" TEXT="&#xc815;&#xd655;&#xd788; WebSocketMessageBrokerConfigurationSupport &#xc774;&#xac83;&#xc778;&#xac70; &#xac19;&#xb2e4;."/>
+<node CREATED="1565722446250" ID="ID_660950122" MODIFIED="1565722463045" TEXT="&#xc544;&#xb2c8;&#xb2e4;. WebSocketMessageBrokerConfigurer &#xb294; &#xc778;&#xd130;&#xd398;&#xc774;&#xc2a4;&#xb85c; &#xc0c1;&#xc18d;&#xbc1b;&#xb294;&#xac8c; &#xc544;&#xb2c8;&#xb77c; &#xad6c;&#xd604;&#xbc1b;&#xc544;&#xc57c; &#xd55c;&#xb2e4;."/>
 </node>
 </node>
 </node>

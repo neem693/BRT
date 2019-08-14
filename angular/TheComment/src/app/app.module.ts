@@ -7,6 +7,7 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations'
 import { MatButtonModule, MatMenuModule, MatSidenavModule, MatDatepicker, MatInputModule, MatNativeDateModule, MatDatepickerModule,MAT_DATE_LOCALE,MAT_DATE_FORMATS } from '@angular/material'
 import {MatMomentDateModule} from '@angular/material-moment-adapter'
 import { PipeModule } from './pipe/pipe-module';
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap'
 
 import { AppRoutingModule,RoutingComponent } from './app-routing.module';
 
@@ -28,6 +29,7 @@ import { CommonData } from './common/common-data';
 import { ViewProductComponent } from './product/view-product/view-product.component';
 import { AddProductComponent } from './product/add-product/add-product.component';
 import { ProductServiceService } from './product/product-service.service';
+import { WebSocketComponent } from './web-socket/web-socket.component';
 
 
 
@@ -42,7 +44,8 @@ import { ProductServiceService } from './product/product-service.service';
     ContactUsComponent,
     RoutingComponent,
     ViewProductComponent,
-    AddProductComponent
+    AddProductComponent,
+    WebSocketComponent
 
   ],
   imports: [
@@ -61,7 +64,8 @@ import { ProductServiceService } from './product/product-service.service';
     MatInputModule,
     MatNativeDateModule,
     MatMomentDateModule,
-    PipeModule
+    PipeModule,
+    NgbModule
     
 ],
   providers: [MyServiceService,

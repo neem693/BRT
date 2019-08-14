@@ -9,6 +9,7 @@ import { trigger, state, style, transition, animate } from '@angular/animations'
 import { CommonData } from './common/common-data';
 import {environment} from '../environments/environment'
 
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',

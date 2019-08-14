@@ -5,7 +5,45 @@
   <link rel="self" href="https://spring.io/blog.atom" />
   <id>http://spring.io/blog.atom</id>
   <icon>https://spring.io/favicon.ico</icon>
-  <updated>2019-08-08T15:43:09Z</updated>
+  <updated>2019-08-13T23:16:55Z</updated>
+  <entry>
+    <title>This Week in Spring - August 13, 2019</title>
+    <link rel="alternate" href="https://spring.io/blog/2019/08/13/this-week-in-spring-august-13-2019" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Josh Long</name>
+    </author>
+    <id>tag:spring.io,2019-08-13:3769</id>
+    <updated>2019-08-13T23:16:55Z</updated>
+    <content type="html">&lt;p&gt;Hi Spring fans! Welcome to another installment of a &lt;em&gt;This Week in Spring&lt;/em&gt;! I&amp;rsquo;ve just finished one of the most amazing experiences of my life - O&amp;rsquo;Reilly&amp;rsquo;s &amp;ldquo;Foo Camp,&amp;rdquo; an unconference where invited guests can camp on the O&amp;rsquo;Reilly Media campus headquarters and talk to each other. I met, among a zillion other people, former California governor Jerry Brown, former Estonian president Toomas Hendrik Ilves, and so many more. Now I&amp;rsquo;m in terrific Texas talking to our wonderful customers in Austin, San Antonio, Dallas and Plano. I&amp;rsquo;m also speaking at the &lt;a href="https://www.javamug.org"&gt;Dallas MUG&lt;/a&gt; tomorrow night, if you&amp;rsquo;re around and want to come and hang out. &lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s shaping up to be a fun week worth of content so let&amp;rsquo;s get to it!&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;I hope you enjoy last week&amp;rsquo;s installment of &lt;a href="https://spring.io/blog/2019/08/09/a-bootiful-podcast-john-willis-on-devops-cloud-computing-process-and-so-much-more"&gt;&lt;em&gt;A Bootiful Podcast&lt;/em&gt; wherein I interview John Willis on DevOps, cloud computing, process, and so much more&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2019/08/08/spring-statemachine-goes-reactive-with-3-0-0-m1"&gt;Spring Statemachine Goes Reactive with 3.0.0.M1&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Check out the new releases of &lt;a href="https://spring.io/blog/2019/08/08/new-spring-integration-amqp-kafka-maintenance-and-milestone-releases"&gt;the messaging projects&lt;/a&gt;: Spring AMQP (Spring for RabbitMQ), Spring Integration, and Spring for Apache Kafka.&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2019/08/06/spring-session-corn-m3-and-bean-sr7-released"&gt;Spring Session Corn-M3 and Bean-SR7 Released&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://twitter.com/springcentral/status/1161303604927578112"&gt;I love our community&lt;/a&gt;. Thanks to each and everyone of you who has helped make the Spring ecosystem so amazing.&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://twitter.com/maciejwalkowiak/status/1161216285184864256?s=12"&gt;twitter.com&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Grab an alpha of Neo4j 4.0 and try out the reactive Java driver that works with both RxJava2 and Project Reactor, grab a starter for Spring Boot or even try new [reactive Spring Data Repositories on this post(&lt;a href="https://twitter.com/rotnroll666/status/1158434761460867072"&gt;https://twitter.com/rotnroll666/status/1158434761460867072&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://twitter.com/springcloud/status/1159854281996062720"&gt;Want to contribute to Spring Cloud Kubernetes?&lt;/a&gt; Here&amp;rsquo;s a realtively easy issue we&amp;rsquo;d love some help on&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://twitter.com/springcloud/status/1159840277122564098"&gt;As a reminder, Spring Cloud Edgware (compatible with Spring Boot 1.5.x) reached end-of-life earlier this month.&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://twitter.com/cloudfoundry/status/1159208018824687616"&gt;Comcast is hiring!&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
+  </entry>
+  <entry>
+    <title>A Bootiful Podcast: John Willis on DevOps, cloud computing, process, and so much more</title>
+    <link rel="alternate" href="https://spring.io/blog/2019/08/09/a-bootiful-podcast-john-willis-on-devops-cloud-computing-process-and-so-much-more" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Josh Long</name>
+    </author>
+    <id>tag:spring.io,2019-08-09:3768</id>
+    <updated>2019-08-09T06:06:57Z</updated>
+    <content type="html">&lt;p&gt;Hi Spring fans! In this week&amp;rsquo;s installment, Josh Long (&lt;a href="http://twitter.com/starbuxman"&gt;@starbuxman&lt;/a&gt;) talk to DevOps luminary, cloud-computing visionary, and all-around-great-guy John Willis (&lt;a href="http://twitter.com/botchagalupe"&gt;@botchagalupe&lt;/a&gt;). This a white-knuckle rollercoaster ride of knowledge, so buckle up and enjoy!&lt;/p&gt;
+&lt;iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/663320411&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true"&gt;&lt;/iframe&gt;
+&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
+  </entry>
   <entry>
     <title>New Spring Integration, AMQP, Kafka Maintenance and Milestone Releases</title>
     <link rel="alternate" href="https://spring.io/blog/2019/08/08/new-spring-integration-amqp-kafka-maintenance-and-milestone-releases" />
@@ -949,48 +987,6 @@ Of course, if you have not done so already, you should first read the &lt;a href
 &lt;p&gt;You can expect to see the other providers move during the release of a future major Spring Cloud train, as a major release is the right time to make a serious change such as this.&lt;/p&gt;
 &lt;p&gt;Note that this is purely describing the situation and plan for the main Spring Cloud train at this time; it isn¡¯t impacting other projects (for example, Spring Cloud Stream binders).&lt;/p&gt;
 &lt;p&gt;We hope that the reasoning above explains what we are trying to achieve with this strategy. As always, we are receptive to feedback ? please let us know what you think. Giving project owners full flexibility to build and release software that better aligns with their culture, whilst continuing to offer all of the benefits of working closely with us on code reviews and project promotion, should benefit everyone.&lt;/p&gt;
-&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
-  </entry>
-  <entry>
-    <title>This Week in Spring - July 23, 2019</title>
-    <link rel="alternate" href="https://spring.io/blog/2019/07/23/this-week-in-spring-july-23-2019" />
-    <category term="engineering" label="Engineering" />
-    <author>
-      <name>Josh Long</name>
-    </author>
-    <id>tag:spring.io,2019-07-23:3748</id>
-    <updated>2019-07-23T13:18:10Z</updated>
-    <content type="html">&lt;p&gt;Hi Spring fans! Welcome to another installment of &lt;em&gt;This Week in Spring&lt;/em&gt;! I concluded my time in Portland, OR, for OSCON on Sunday, went to Chicago for the epic Chicago, IL Cloud Conf yesterday; today I am in Denver, CO, for meetings; and then Wednesday I am off to Burlington, MA for the SpringOne Tour 2019 event. We&amp;rsquo;ve got some good stuff this week so let&amp;rsquo;s get to it! &lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Hi Spring fans! In last week&amp;rsquo;s episode of &lt;a href="https://spring.io/blog/2019/07/19/a-bootiful-podcast-azul-cto-gil-tene-on-java-jvms-garbage-collection-and-a-ton-more"&gt;&lt;em&gt;A Bootiful Podcast&lt;/em&gt;, I talk to Azul CTO Gil Tene on Java, JVMs, garbage collection, and a ton more&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;There&amp;rsquo;s an interesting new feature on &lt;code&gt;master&lt;/code&gt; for Spring Cloud Gateway giving &lt;a href="https://github.com/spring-cloud/spring-cloud-gateway/pull/785#issuecomment-513988787"&gt;improved details about your routes in the Actuator&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Check out how the Dutch government uses &lt;a href="https://www.cloudfoundry.org/blog/dutch-government-uses-cloud-foundry-enhance-user-experience/"&gt;Cloud Foundry to enhance users experience&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;It&amp;rsquo;s finally here! Check out the new support for the &lt;a href="https://content.pivotal.io/pivotal-announcements/pivotal-makes-kubernetes-easier-for-developers-and-operators?utm_campaign=pr-pivotal-makes-kubernetes-easier-q219&amp;utm_source=twitter&amp;utm_medium=social&amp;utm_content=1562979455"&gt;Cloud Foundry PAS running on Kubernetes&lt;/a&gt;. Here&amp;rsquo;s another post with details from our partners over at VMWare &lt;a href="https://blogs.vmware.com/cloudnative/2019/07/16/pas-on-kubernetes-improves-the-developer-experience/"&gt;on how PAS on Kubernetes improves the developer experience&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;A nice post on the Okta blog on how to &lt;a href="https://developer.okta.com/blog/2019/07/17/monitoring-with-actuator"&gt;monitor your Java applications with the Spring Boot Actuator &lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://springonetour.io/2019/burlington"&gt;Have you registered for the Burlington, MA installment of the SpringOne Tour&lt;/a&gt;?&lt;/li&gt;
-  &lt;li&gt;An interesting &lt;a href="https://www.youtube.com/watch?v=-wruptabpq4&amp;feature=share"&gt;video on creating REST APIs with Spring Boot&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;InfoQ has a nice post on &lt;a href="https://www.infoq.com/news/2019/07/spring-initializr-tool-updated/?itm_source=presentations_about_Spring-Boot&amp;itm_medium=link&amp;itm_campaign=Spring-Boot"&gt;the updates to the Spring Initializr tool&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;I liked this post by Andriy Redko on &lt;a href="https://dzone.com/articles/testing-spring-boot-conditionals-the-sane-way"&gt;testing Spring Boot &lt;code&gt;Conditional&lt;/code&gt;s&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Check out Rajesh Bjojwani&amp;rsquo;s look at the &lt;a href="https://dzone.com/articles/pcf-26-feature-app-revisions"&gt;feature called App Revisions in Pivotal Cloud Foundry 2.6&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
-  </entry>
-  <entry>
-    <title>A Bootiful Podcast: Azul CTO Gil Tene on Java, JVMs, garbage collection, and a ton more</title>
-    <link rel="alternate" href="https://spring.io/blog/2019/07/19/a-bootiful-podcast-azul-cto-gil-tene-on-java-jvms-garbage-collection-and-a-ton-more" />
-    <category term="engineering" label="Engineering" />
-    <author>
-      <name>Josh Long</name>
-    </author>
-    <id>tag:spring.io,2019-07-19:3747</id>
-    <updated>2019-07-19T07:42:45Z</updated>
-    <content type="html">&lt;p&gt;Hi Spring fans! Welcome to another installment of a Bootiful Podcast! In this week I&amp;rsquo;m joined by my old friend, Azul CTO, Gil Tene as we discuss Java, JVMs, garbage collection, and a ton more in this extra packed 90 minute-plus episode. &lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="http://twitter.com/GilTene"&gt;Gil on Twitter&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.azul.com/"&gt;Azul Systems&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.azul.com/products/zing/"&gt;Zing&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/653361302&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true"&gt;&lt;/iframe&gt;
 &lt;!-- rendered by Sagan Renderer Service --&gt;</content>
   </entry>
 </feed>

@@ -65,89 +65,91 @@
 {{todaydate}}
 <h3>Service Property: {{componetproperty}} </h3>
 <app-new-cmp></app-new-cmp>
- <a routerLink="/Home/home">Home</a>
- <br>
-  <a routerLink="/ContactUs">ContactUs</a>
+<a routerLink="/Home/home">Home</a>
+<br>
+<a routerLink="/ContactUs">ContactUs</a>
+<br>
+<a routerLink="/product/view">product</a>
+<br>
+<a routerLink="/product/addProduct">addProduct</a>
+<br>
+<a routerLink="/WebSocket">WebSocket</a>
+<router-outlet></router-outlet>
+
+<h3>User Data</h3>
+<ul>
+  <li *ngFor="let item of persondata; let i = index">
+    {{item.name}}
+  </li>
+</ul>
+
+<form [formGroup]="formdata" (ngSubmit)="onClickSubmit(formdata.value)">
+  <input required type="email" name="emailid" placeholder="emailid" formControlName="emailid">
   <br>
-  <a routerLink="/product/view">product</a>
+  <input required type="password" name="passwd" placeholder="passwd" formControlName="passwd">
   <br>
-  <a routerLink="/product/addProduct">addProduct</a>
-  <router-outlet></router-outlet>
+  <input [disabled]="!formdata.valid" type="submit" value="submit">
+</form>
+<p>{{formdata.value|json}}</p>
+<p>{{formdata.valid}}</p>
+<p>{{formdata.value.emailid}}이메일</p>
 
-  <h3>User Data</h3>
-  <ul>
-    <li *ngFor="let item of persondata; let i = index">
-      {{item.name}}
-    </li>
-  </ul>
-
-  <form [formGroup]="formdata" (ngSubmit)="onClickSubmit(formdata.value)">
-    <input required type="email" name="emailid" placeholder="emailid" formControlName="emailid">
-    <br>
-    <input required type="password" name="passwd" placeholder="passwd" formControlName="passwd">
-    <br>
-    <input [disabled]="!formdata.valid" type="submit" value="submit">
-  </form>
-  <p>{{formdata.value|json}}</p>
-  <p>{{formdata.valid}}</p>
-  <p>{{formdata.value.emailid}}이메일</p>
-
-  <cdk-virtual-scroll-viewport [itemSize]="20">
-    <table>
-      <thead>
-        <tr>
-          <td>ID</td>
-          <td>ThumbNail</td>
-        </tr>
-      </thead>
-      <tbody>
-        <tr *cdkVirtualFor="let album of albumData">
-          <td>{{album.id}}</td>
-          <td><img src="{{album.thumbnailUrl}}" width=" 100" height="100"></td>
-        </tr>
-      </tbody>
-    </table>
+<cdk-virtual-scroll-viewport [itemSize]="20">
+  <table>
+    <thead>
+      <tr>
+        <td>ID</td>
+        <td>ThumbNail</td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *cdkVirtualFor="let album of albumData">
+        <td>{{album.id}}</td>
+        <td><img src="{{album.thumbnailUrl}}" width=" 100" height="100"></td>
+      </tr>
+    </tbody>
+  </table>
 
 
-  </cdk-virtual-scroll-viewport>
+</cdk-virtual-scroll-viewport>
 
-  <h3>Angular - Drag and Drop Module</h3>
-  <div cdkDropList #personList="cdkDropList" [cdkDropListData]="persondata" [cdkDropListConnectedTo]="[personList]"
-    class="example-list" (cdkDropListDropped)="onDrop($event)">
-    <div *ngFor="let item of persondata; let i =index" class="divlayout" cdkDrag>
-      {{item.name}}
-    </div>
-
+<h3>Angular - Drag and Drop Module</h3>
+<div cdkDropList #personList="cdkDropList" [cdkDropListData]="persondata" [cdkDropListConnectedTo]="[personList]"
+  class="example-list" (cdkDropListDropped)="onDrop($event)">
+  <div *ngFor="let item of persondata; let i =index" class="divlayout" cdkDrag>
+    {{item.name}}
   </div>
 
-  <div style="display:block; height:300px; border:1px solid black">
-    <button (click)="animation()">Click Me</button>
-    <div [@myanimation]="state" class="rotate">
-      <img src="assets/global-network.png" width="100" height="100">
-    </div>
+</div>
 
+<div style="display:block; height:300px; border:1px solid black">
+  <button (click)="animation()">Click Me</button>
+  <div [@myanimation]="state" class="rotate">
+    <img src="assets/global-network.png" width="100" height="100">
   </div>
 
-  <button mat-button [matMenuTriggerFor]="menu">Menu</button>
-  <mat-menu #menu="matMenu">
-    <button mat-menu-item>File</button>
-    <button mat-menu-item>Save As</button>
-  </mat-menu>
+</div>
 
-  <mat-sidenav-container class="example-container">
-    <mat-sidenav #sidenav class="example-sidenav">
-      Angular 8
-    </mat-sidenav>
-    <div class="example-sidenav-content">
-      <button type="button" mat-button (click)="sidenav.open()">
-        Open sidenav
-      </button>
-    </div>
+<button mat-button [matMenuTriggerFor]="menu">Menu</button>
+<mat-menu #menu="matMenu">
+  <button mat-menu-item>File</button>
+  <button mat-menu-item>Save As</button>
+</mat-menu>
 
-  </mat-sidenav-container>
+<mat-sidenav-container class="example-container">
+  <mat-sidenav #sidenav class="example-sidenav">
+    Angular 8
+  </mat-sidenav>
+  <div class="example-sidenav-content">
+    <button type="button" mat-button (click)="sidenav.open()">
+      Open sidenav
+    </button>
+  </div>
 
-   <mat-form-field>
-    <input matInput [matDatepicker]="picker" placeholder="Choose a date">
-    <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
-    <mat-datepicker #picker></mat-datepicker>
-  </mat-form-field> 
+</mat-sidenav-container>
+
+<mat-form-field>
+  <input matInput [matDatepicker]="picker" placeholder="Choose a date">
+  <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+  <mat-datepicker #picker></mat-datepicker>
+</mat-form-field>

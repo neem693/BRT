@@ -8,6 +8,7 @@ import javax.servlet.FilterConfig;
 import javax.servlet.ServletException;
 import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;
+import javax.servlet.http.HttpServletRequest;
 
 import org.springframework.stereotype.Component;
 @Component
@@ -20,6 +21,8 @@ public class CommonFilter implements Filter{
 		
 		System.out.println(req.getRemoteHost());
 		System.out.println(req.getRemoteAddr());
+		HttpServletRequest req2 = (HttpServletRequest) req;
+		System.out.println(req2.getRequestURI());
 		filterChain.doFilter(req, res);
 		
 		

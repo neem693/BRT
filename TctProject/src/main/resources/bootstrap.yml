@@ -14,4 +14,29 @@ spring:
     admin:
       client:
         url: http://127.0.0.1:9091
+  zipkin:
+    base-url: http://127.0.0.1:9411/
+  sleuth:
+    sampler:
+      probability: 1.0
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/test?autoreconnect=true
+    password: "oratree12341234aa"
+    username: "root"
+    dbcp2:
+      test-on-borrow: true
+      test-while-idle: true
+      time-between-eviction-runs-millis: 60000
+      min-evictable-idle-time-millis: 30000
+      validation-query: SELECT 1
+      max-wait-millis: 8000
+      max-idle: 10
+      max-open-prepared-statements: 15
+  flyway:
+    url: jdbc:mysql://127.0.0.1:3306/test
+    schemas: test
+    user: "root"
+    password: "oratree12341234aa"
+      
     

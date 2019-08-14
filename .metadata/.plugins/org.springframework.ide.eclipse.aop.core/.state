@@ -2,7 +2,11 @@
 <aop-reference-model>
 <aop-project name="zuulSever"/>
 <aop-project name="adminServer"/>
-<aop-project name="TctProject"/>
+<aop-project name="TctProject">
+<aspect-definition advice-class-name="com.netflix.hystrix.contrib.javanica.aop.aspectj.HystrixCommandAspect" advice-method-name="methodsAnnotatedWithHystrixCommand(org.aspectj.lang.ProceedingJoinPoint)" advice-type="AROUND" aspect-end-line-number="-1" aspect-name="hystrixCommandAspect" aspect-start-line-number="-1" factory-id="org.springframework.ide.eclipse.aop.core.annotationAspectDefinitionElementFactory" file="/TctProject/src/main/java/com/framework/Tct/TctProjectApplication.java" pointcut-expression="hystrixCommandAnnotationPointcut() || hystrixCollapserAnnotationPointcut()" proxy-target-class="true">
+<aop-reference advice-type="AROUND" bean="1:BeansModel|2:TctProject|3:java:com.framework.Tct.TctProjectApplication|8:test:38" bean-file="/TctProject/src/main/java/com/framework/Tct/test/controller/Test.java" bean-start-line="38" factory-id="org.springframework.ide.eclipse.aop.core.aopReferenceElementFactory" file="/TctProject/src/main/java/com/framework/Tct/TctProjectApplication.java" source="=TctProject/C:\/Users\/UIO\/.m2\/repository\/com\/netflix\/hystrix\/hystrix-javanica\/1.5.18\/hystrix-javanica-1.5.18.jar&lt;com.netflix.hystrix.contrib.javanica.aop.aspectj(HystrixCommandAspect.class[HystrixCommandAspect~methodsAnnotatedWithHystrixCommand~Lorg.aspectj.lang.ProceedingJoinPoint;" source-start-line="-1" target="=TctProject/src\/main\/java&lt;com.framework.Tct.test.controller{Test.java[Test~hello" target-start-line="187"/>
+</aspect-definition>
+</aop-project>
 <aop-project name="docker"/>
 <aop-project name="eurekaServer Initializaer"/>
 <aop-project name="configServer"/>

@@ -67,7 +67,7 @@
 <node CREATED="1563896414568" ID="ID_391363340" MODIFIED="1563896418756" POSITION="right" TEXT="vscode &#xcf54;&#xb4dc; &#xc815;&#xb82c;">
 <node CREATED="1563896419795" ID="ID_1497481914" MODIFIED="1563896428106" TEXT="ctrl +k, ctrl + f"/>
 </node>
-<node CREATED="1563899020482" FOLDED="true" ID="ID_461820893" MODIFIED="1565211269898" POSITION="right" TEXT="formGroup&#xc744; &#xc0ac;&#xc6a9;&#xd560;&#xc2dc;">
+<node CREATED="1563899020482" ID="ID_461820893" MODIFIED="1565723208935" POSITION="right" TEXT="formGroup&#xc744; &#xc0ac;&#xc6a9;&#xd560;&#xc2dc;">
 <node CREATED="1563899036418" ID="ID_1678306153" MODIFIED="1563899036418" TEXT="Can&apos;t bind to &apos;formGroup&apos; since it isn&apos;t a known property of &apos;form&apos;. ("/>
 <node CREATED="1563899037346" ID="ID_1833468736" MODIFIED="1563899041889" TEXT="&#xb2e4;&#xc74c;&#xacfc; &#xac19;&#xc740; &#xc624;&#xb958;&#xac00; &#xb098;&#xc62c; &#xc218;&#xac00; &#xc788;&#xb2e4;."/>
 <node CREATED="1563899314087" ID="ID_1309310290" MODIFIED="1563899321217" TEXT="&#xc774;&#xb294; &#xb2e4;&#xc74c;&#xc744; &#xc784;&#xd3ec;&#xd2b8; &#xd574;&#xc57c; &#xd55c;&#xb2e4;&#xace0; &#xd55c;&#xb2e4;.(REACTIVE_FORM_DIRECTIVES )"/>
@@ -194,8 +194,36 @@
 <node CREATED="1564063921674" ID="ID_1666313107" MODIFIED="1564063921674" TEXT="})"/>
 </node>
 </node>
-<node CREATED="1564086472181" FOLDED="true" ID="ID_1028655791" MODIFIED="1564086487264" POSITION="right" TEXT="angular promise&#xb294; &#xc774;&#xacf3;&#xc744; &#xcc38;&#xc870;&#xd560;&#xac83;">
+<node CREATED="1564086472181" ID="ID_1028655791" MODIFIED="1565723207232" POSITION="right" TEXT="angular promise&#xb294; &#xc774;&#xacf3;&#xc744; &#xcc38;&#xc870;&#xd560;&#xac83;">
 <node CREATED="1564086486360" ID="ID_1681409536" LINK="https://www.geek-programmer.com/angular-promise-make-it-or-break-it/" MODIFIED="1564086486360" TEXT="https://www.geek-programmer.com/angular-promise-make-it-or-break-it/"/>
+</node>
+<node CREATED="1565725750586" ID="ID_1596199556" MODIFIED="1565725759749" POSITION="right" TEXT="npm &#xd0c0;&#xc785;&#xc2a4;&#xd06c;&#xb9bd;&#xd2b8; &#xae30;&#xbc18;&#xc73c;&#xb85c; &#xc124;&#xce58;">
+<node CREATED="1565725760071" MODIFIED="1565725760071" TEXT="npm install @types/jquery --save-dev"/>
+</node>
+<node COLOR="#3333ff" CREATED="1565732965664" ID="ID_305801689" MODIFIED="1565733367940" POSITION="right" STYLE="bubble" TEXT="javascript&#xb97c; &#xd0c0;&#xc785;&#xc2a4;&#xd06c;&#xb9bd;&#xd2b8;&#xb85c; &#xac00;&#xc9c0;&#xace0; &#xc62c;&#xb54c;">
+<font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
+<node CREATED="1565734170431" ID="ID_1442440104" LINK="https://www.typescriptlang.org/docs/handbook/module-resolution.html" MODIFIED="1565734170431" TEXT="https://www.typescriptlang.org/docs/handbook/module-resolution.html"/>
+<node CREATED="1565734278091" ID="ID_1835131169" LINK="https://typescript-kr.github.io/pages/Module%20Resolution.html?q=" MODIFIED="1565734278091" TEXT="https://typescript-kr.github.io/pages/Module%20Resolution.html?q="/>
+<node CREATED="1565734286075" ID="ID_1690440175" MODIFIED="1565734299094" TEXT="&#xd0c0;&#xc785;&#xc2a4;&#xd06c;&#xb9bd;&#xd2b8;&#xb97c; &#xac00;&#xc9c0;&#xace0; &#xc62c; &#xb54c;&#xc758; &#xae30;&#xcd08;"/>
+<node CREATED="1565734509954" ID="ID_1184539467" LINK="https://www.typescriptlang.org/docs/handbook/modules.html#working-with-other-javascript-libraries" MODIFIED="1565734509954" TEXT="https://www.typescriptlang.org/docs/handbook/modules.html#working-with-other-javascript-libraries"/>
+<node COLOR="#3333ff" CREATED="1565734520343" ID="ID_528557409" MODIFIED="1565734523302" STYLE="bubble" TEXT="import * as Stomp from &apos;stomp-websocket/lib/stomp&apos;;">
+<font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
+</node>
+<node CREATED="1565734523514" ID="ID_1922683989" MODIFIED="1565734696718" TEXT="&#xc800;&#xac8c; &#xb9cc;&#xc57d; stomp-websocket &#xc73c;&#xb85c; import&#xb85c; &#xd588;&#xc744; &#xb54c; &#xc798; &#xc791;&#xb3d9;&#xd558;&#xc9c0; &#xc54a;&#xb294;&#xb2e4;."/>
+<node CREATED="1565734696891" ID="ID_1447574573" MODIFIED="1565734990934" TEXT="&#xadf8; &#xc774;&#xc720;&#xb294; index.js&#xc5d0;&#xc11c; &#xd3ec;&#xd568;&#xb418;&#xb294; stopm-node.js&#xb294; net &#xae4c;&#xc9c0; &#xd3ec;&#xd568;&#xd558;&#xb294;&#xb370;, &#xc9c0;&#xae08; &#xc800; &#xc5fc;&#xbcd1;&#xd560; node.js&#xac00; net&#xc744; &#xd3ec;&#xd568;&#xd558;&#xace0; &#xd558;&#xace0; &#xc788;&#xc9c0; &#xc54a;&#xb2e4;."/>
+<node CREATED="1565734991178" ID="ID_1804744298" MODIFIED="1565735003870" TEXT="&#xadf8;&#xb798;&#xc11c; index.js&#xac00; &#xc548;&#xba39;&#xd788;&#xb294; &#xac83;&#xc774;&#xc9c0; &#xc815;&#xc0c1;&#xc801;&#xc778; npm&#xc774;&#xba74; &#xc6d4;&#xb798; &#xba39;&#xd788;&#xb294; &#xac83;&#xc774;&#xb2e4;."/>
+<node CREATED="1565735004042" ID="ID_1847062712" MODIFIED="1565735398286" TEXT="&#xb530;&#xb77c;&#xc11c; stomp&#xb97c; &#xac00;&#xc9c0;&#xace0; &#xc788;&#xb294; &#xbaa8;&#xb4c8;&#xb9cc; &#xac00;&#xc9c0;&#xace0; &#xc624;&#xba74; &#xc791;&#xb3d9;&#xb41c;&#xb2e4;. &#xc774; &#xacbd;&#xc6b0; stomp.js&#xb97c; &#xac00;&#xc9c0;&#xace0; &#xc624;&#xb294; &#xac83;&#xc774;&#xb2e4;."/>
+<node CREATED="1565735041250" ID="ID_1720005602" MODIFIED="1565735416278" TEXT="&#xadf8;&#xb7ec;&#xb098; &#xc774;&#xb7ec;&#xd55c; &#xbc29;&#xc2dd; &#xadf8;&#xb7ec;&#xb2c8;&#xae4c; &#xd0c0;&#xc785;&#xc2a4;&#xd06c;&#xb9bd;&#xd2b8;&#xac00; &#xc544;&#xb2cc; &#xc790;&#xbc14;&#xc2a4;&#xd06c;&#xb9bd;&#xc73c;&#xb85c; &#xd558;&#xba74; &#xc790;&#xb3d9;&#xc644;&#xc131;&#xc774;&#xb77c;&#xb4e0;&#xc9c0; visual studio &#xc5d0;&#xc11c; &#xc9c0;&#xb784;&#xc744; &#xd560; &#xc5fc;&#xb824;&#xac00; &#xc788;&#xb2e4;."/>
+<node CREATED="1565735421658" ID="ID_470133337" MODIFIED="1565735424941" TEXT="&#xc0ac;&#xc6a9;&#xd558;&#xae30; &#xbd88;&#xd3b8;&#xd558;&#xb2e4; &#xc774;&#xb9d0;&#xc774;&#xb2e4;."/>
+<node CREATED="1565736068034" ID="ID_104066914" MODIFIED="1565736069406" TEXT="@stomp/stompjs"/>
+<node CREATED="1565736069778" ID="ID_1467232216" MODIFIED="1565736072210" TEXT="&#xc800;&#xac78;&#xc368;&#xb77c;"/>
+</node>
+<node CREATED="1565737438718" ID="ID_328244843" MODIFIED="1565737444773" POSITION="right" TEXT="angular bootstrap">
+<node CREATED="1565737450036" ID="ID_278211881" LINK="https://ng-bootstrap.github.io/#/getting-started" MODIFIED="1565737450036" TEXT="https://ng-bootstrap.github.io/#/getting-started"/>
+<node CREATED="1565750200969" ID="ID_78583383" MODIFIED="1565750204508" TEXT="bootstrap &#xae54;&#xace0;"/>
+<node CREATED="1565750204762" ID="ID_491497157" MODIFIED="1565750225878" TEXT="&#xae00;&#xb85c;&#xbc8c; css &#xcd94;&#xac00;&#xd574;&#xb193;&#xace0; &#xc800; module&#xc744; &#xc4f0;&#xba74; &#xb418;&#xc9c0;&#xb9cc;"/>
+<node CREATED="1565750226234" ID="ID_319098530" MODIFIED="1565750230358" TEXT="&#xbcc4;&#xb85c; &#xcd94;&#xcc9c;&#xc740; &#xd558;&#xace0; &#xc2f6;&#xc9c0; &#xc54a;&#xb2e4;."/>
+<node CREATED="1565750230562" ID="ID_1677494858" MODIFIED="1565750246030" TEXT="&#xadf8;&#xb0e5; bootstrap&#xae54;&#xace0; &#xadf8; css&#xb9cc; w3s &#xbcf4;&#xace0; &#xc774;&#xc6a9;&#xd558;&#xb294;&#xac8c; &#xb354; &#xc88b;&#xc9c0; &#xc54a;&#xc744;&#xae4c; &#xc2f6;&#xb2e4;."/>
 </node>
 </node>
 </map>
