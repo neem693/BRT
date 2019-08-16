@@ -9,13 +9,14 @@ import com.framework.Tct.websocket.socketResource.Greeting;
 import com.framework.Tct.websocket.socketResource.HelloMessage;
 
 @Controller
-@RequestMapping(value ="/websocket")
+/*@RequestMapping(value ="/websocket")*/
 public class WebsocketController {
 	
 	@MessageMapping("/hello")
 	@SendTo("/topic/greetings")
 	public Greeting greeting(HelloMessage message) throws Exception{
 		Thread.sleep(1000);
+		System.out.println("실행중 ");
 		return new Greeting("Hello, " + message.getName() + "!");
 	}
 

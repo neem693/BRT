@@ -7,6 +7,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.LocaleResolver;
+import org.springframework.web.servlet.config.annotation.CorsRegistry;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
@@ -52,6 +53,12 @@ public class WebConfig implements WebMvcConfigurer{
 		LocaleChangeInterceptor localeChangeInterceptor = new LocaleChangeInterceptor();
 		localeChangeInterceptor.setParamName("language");
 		return localeChangeInterceptor;
+	}
+	
+	@Override
+	public void addCorsMappings(CorsRegistry registry) {
+		// TODO Auto-generated method stub
+		registry.addMapping("/**").allowedOrigins("http://127.0.0.1:4200","http://127.0.0.1:8111");
 	}
 	
 

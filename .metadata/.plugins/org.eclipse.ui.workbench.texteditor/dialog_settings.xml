@@ -2,12 +2,14 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="hystrix" key="selection"/>
+		<item value="close" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="close"/>
+			<item value="ma"/>
 			<item value="hystrix"/>
 			<item value="mysql"/>
 			<item value="3306"/>
@@ -21,8 +23,6 @@
 			<item value="@@@"/>
 			<item value="aspectj"/>
 			<item value="aspectjweaver"/>
-			<item value="finalName"/>
-			<item value=".war"/>
 		</list>
 		<list key="replacehistory">
 		</list>

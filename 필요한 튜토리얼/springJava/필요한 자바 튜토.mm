@@ -185,5 +185,151 @@
 <node CREATED="1565722446250" ID="ID_660950122" MODIFIED="1565722463045" TEXT="&#xc544;&#xb2c8;&#xb2e4;. WebSocketMessageBrokerConfigurer &#xb294; &#xc778;&#xd130;&#xd398;&#xc774;&#xc2a4;&#xb85c; &#xc0c1;&#xc18d;&#xbc1b;&#xb294;&#xac8c; &#xc544;&#xb2c8;&#xb77c; &#xad6c;&#xd604;&#xbc1b;&#xc544;&#xc57c; &#xd55c;&#xb2e4;."/>
 </node>
 </node>
+<node CREATED="1565796565923" ID="ID_1376475978" MODIFIED="1565796576360" POSITION="right" TEXT="cors filter&#xb97c; &#xae00;&#xb85c;&#xbc8c; &#xd558;&#xac8c;">
+<node CREATED="1565796936430" MODIFIED="1565796936430" TEXT="package com.framework.Tct.filter;"/>
+<node CREATED="1565796936431" MODIFIED="1565796936431" TEXT="import java.io.IOException;"/>
+<node CREATED="1565796936432" MODIFIED="1565796936432" TEXT="import javax.servlet.Filter;"/>
+<node CREATED="1565796936432" MODIFIED="1565796936432" TEXT="import javax.servlet.FilterChain;"/>
+<node CREATED="1565796936432" MODIFIED="1565796936432" TEXT="import javax.servlet.FilterConfig;"/>
+<node CREATED="1565796936433" MODIFIED="1565796936433" TEXT="import javax.servlet.ServletException;"/>
+<node CREATED="1565796936433" MODIFIED="1565796936433" TEXT="import javax.servlet.ServletRequest;"/>
+<node CREATED="1565796936433" MODIFIED="1565796936433" TEXT="import javax.servlet.ServletResponse;"/>
+<node CREATED="1565796936434" MODIFIED="1565796936434" TEXT="import javax.servlet.http.HttpServletResponse;"/>
+<node CREATED="1565796936434" MODIFIED="1565796936434" TEXT="import org.springframework.stereotype.Component;"/>
+<node CREATED="1565796936434" ID="ID_963586907" MODIFIED="1565796936434" TEXT="@Component"/>
+<node CREATED="1565796936435" ID="ID_618403991" MODIFIED="1565796936435" TEXT="public class CORSFilter implements Filter {">
+<node CREATED="1565796936435" MODIFIED="1565796936435" TEXT="@Override"/>
+<node CREATED="1565796936435" MODIFIED="1565796936435" TEXT="public void init(FilterConfig filterConfig) throws ServletException {"/>
+<node CREATED="1565796936436" MODIFIED="1565796936436" TEXT="}"/>
+<node CREATED="1565796936436" MODIFIED="1565796936436" TEXT="@Override"/>
+<node CREATED="1565796936437" ID="ID_1711699566" MODIFIED="1565796936437" TEXT="public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain filterChain) throws IOException, ServletException {">
+<node CREATED="1565796936445" MODIFIED="1565796936445" TEXT="HttpServletResponse response = (HttpServletResponse) servletResponse;"/>
+<node CREATED="1565796936446" ID="ID_771522844" MODIFIED="1565796958714" TEXT="response.setHeader(&quot;Access-Control-Allow-Origin&quot;, &quot;*&quot;);">
+<linktarget COLOR="#b0b0b0" DESTINATION="ID_771522844" ENDARROW="Default" ENDINCLINATION="1106;0;" ID="Arrow_ID_471463116" SOURCE="ID_294244476" STARTARROW="None" STARTINCLINATION="1106;0;"/>
+</node>
+<node CREATED="1565796936446" MODIFIED="1565796936446" TEXT="response.setHeader(&quot;Access-Control-Allow-Methods&quot;, &quot;POST, GET, PUT, OPTIONS, DELETE, PATCH&quot;);"/>
+<node CREATED="1565796936447" MODIFIED="1565796936447" TEXT="response.setHeader(&quot;Access-Control-Max-Age&quot;, &quot;3600&quot;);"/>
+<node CREATED="1565796936447" MODIFIED="1565796936447" TEXT="response.setHeader(&quot;Access-Control-Allow-Headers&quot;, &quot;Origin, Content-Type, Accept&quot;);"/>
+<node CREATED="1565796936447" MODIFIED="1565796936447" TEXT="response.setHeader(&quot;Access-Control-Expose-Headers&quot;, &quot;Location&quot;);"/>
+<node CREATED="1565796936448" MODIFIED="1565796936448" TEXT="filterChain.doFilter(servletRequest, servletResponse);"/>
+</node>
+<node CREATED="1565796936448" MODIFIED="1565796936448" TEXT="}"/>
+<node CREATED="1565796936448" MODIFIED="1565796936448" TEXT="@Override"/>
+<node CREATED="1565796936449" MODIFIED="1565796936449" TEXT="public void destroy() {"/>
+<node CREATED="1565796936449" MODIFIED="1565796936449" TEXT="}"/>
+</node>
+<node CREATED="1565796936449" ID="ID_1410557514" MODIFIED="1565796936449" TEXT="}"/>
+<node CREATED="1565796938108" ID="ID_294244476" MODIFIED="1565796958715" TEXT="//&#xc800; &#xc624;&#xb9ac;&#xc9c4;&#xc5d0; &#xac12;&#xc744; &#xb123;&#xc5b4;&#xb77c;">
+<arrowlink DESTINATION="ID_771522844" ENDARROW="Default" ENDINCLINATION="1106;0;" ID="Arrow_ID_471463116" STARTARROW="None" STARTINCLINATION="1106;0;"/>
+</node>
+</node>
+<node CREATED="1565799539899" FOLDED="true" ID="ID_160182894" MODIFIED="1565799554308" POSITION="right" TEXT="websocket cors">
+<node CREATED="1565799551022" MODIFIED="1565799551022" TEXT="@Override"/>
+<node CREATED="1565799551024" ID="ID_528557940" MODIFIED="1565799551024" TEXT="public void addCorsMappings(CorsRegistry registry) {">
+<node CREATED="1565799551025" MODIFIED="1565799551025" TEXT="// TODO Auto-generated method stub"/>
+<node COLOR="#3333ff" CREATED="1565799551025" ID="ID_1327370618" LINK="http://127.0.0.1:4200" MODIFIED="1565799552600" STYLE="bubble" TEXT="registry.addMapping(&quot;/**&quot;).allowedOrigins(&quot;http://127.0.0.1:4200&quot;,&quot;http://127.0.0.1:8111&quot;);">
+<font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
+</node>
+</node>
+<node CREATED="1565799551030" MODIFIED="1565799551030" TEXT="}"/>
+</node>
+<node CREATED="1565799603895" ID="ID_126925543" MODIFIED="1565799621238" POSITION="right" TEXT="sockjs-client &#xc5d0;&#xc11c; global &#xbcc0;&#xc218;&#xac00; &#xc815;&#xc758;&#xb418;&#xc9c0; &#xc54a;&#xc558;&#xb2e4;&#xace0; &#xb730; &#xb54c;">
+<node CREATED="1565799622151" ID="ID_530425315" LINK="https://github.com/sockjs/sockjs-client/issues/439" MODIFIED="1565799622151" TEXT="https://github.com/sockjs/sockjs-client/issues/439"/>
+<node CREATED="1565799623163" ID="ID_1488279981" MODIFIED="1565799630702" TEXT="global &#xc744; window&#xb85c; &#xc815;&#xc758;&#xd574;&#xc918;&#xc57c;&#xd568;">
+<node CREATED="1565799636975" MODIFIED="1565799636975" TEXT="&lt;script&gt;">
+<node CREATED="1565799636976" MODIFIED="1565799636976" TEXT="var global = window;"/>
+</node>
+<node CREATED="1565799636976" MODIFIED="1565799636976" TEXT="&lt;/script&gt;"/>
+</node>
+<node CREATED="1565799678913" ID="ID_1385664685" LINK="https://github.com/stomp-js/ng2-stompjs/issues/70" MODIFIED="1565799678913" TEXT="https://github.com/stomp-js/ng2-stompjs/issues/70"/>
+<node CREATED="1565799679969" ID="ID_1860577442" MODIFIED="1565799683686" TEXT="angular&#xb97c; &#xc774;&#xb807;&#xac8c;&#xd568;">
+<node COLOR="#3333ff" CREATED="1565799689375" ID="ID_1130073980" MODIFIED="1565799692435" STYLE="bubble" TEXT="(window as any).global = window;">
+<font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
+</node>
+<node CREATED="1565799689378" ID="ID_928810396" MODIFIED="1565799689378" TEXT="to angular-clis polyfill.ts file. right now couldn&apos;t see any sideeffects"/>
+</node>
+</node>
+<node CREATED="1565932198016" ID="ID_718731204" MODIFIED="1565933115663" POSITION="right" TEXT="&#xc6f9; &#xc18c;&#xcf13;&#xc5d0; &#xb300;&#xd55c; &#xc815;&#xb9ac;">
+<node CREATED="1565932222238" ID="ID_169774616" MODIFIED="1565932236394" TEXT="&#xae30;&#xbcf8;&#xc801;&#xc73c;&#xb85c; angular 8 + spring 2.1.6&#xc744; &#xc0ac;&#xc6a9;&#xd55c; &#xac83;"/>
+<node CREATED="1565932331134" ID="ID_1296553527" MODIFIED="1565932337938" TEXT="&#xd29c;&#xd1a0;&#xb9ac;&#xc5bc; &#xd3ec;&#xc778;&#xd2b8;&#xb97c; &#xae30;&#xbcf8;&#xc801;&#xc73c;&#xb85c; &#xcc38;&#xace0;">
+<node CREATED="1565932338271" ID="ID_81431862" LINK="https://www.tutorialspoint.com/spring_boot/spring_boot_web_socket.htm" MODIFIED="1565932338271" TEXT="https://www.tutorialspoint.com/spring_boot/spring_boot_web_socket.htm"/>
+</node>
+<node CREATED="1565932339349" ID="ID_1790914735" MODIFIED="1565932347610" TEXT="angular 8&#xc5d0;&#xc11c; &#xc0ac;&#xc6a9;&#xd55c; &#xbaa8;&#xb4c8;">
+<node CREATED="1565932441342" ID="ID_960084271" MODIFIED="1565932444673" TEXT="npm install @types/sockjs"/>
+<node CREATED="1565932594115" ID="ID_909739163" MODIFIED="1565933126706" TEXT="npm install @types/sockjs-client"/>
+<node CREATED="1565932452901" ID="ID_1794270471" LINK="#ID_126925543" MODIFIED="1565932471714" TEXT="sockjs&#xb294; global &#xbcc0;&#xc218;&#xac00; &#xc5c6;&#xb2e4;&#xace0; &#xb728;&#xb2c8; &#xb2e4;&#xc74c;&#xc744; &#xcc38;&#xace0;"/>
+</node>
+<node CREATED="1565932655061" FOLDED="true" ID="ID_187154817" MODIFIED="1565932837576" TEXT="&#xcd08;&#xae30;&#xd654;(&#xc774;&#xbbf8;&#xc9c0;)">
+<node CREATED="1565932832902" MODIFIED="1565932832902">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="&#xd544;&#xc694;&#xd55c; &#xc790;&#xbc14; &#xd29c;&#xd1a0;_1057530845740162558.jpeg" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1565932669550" FOLDED="true" ID="ID_1543561114" MODIFIED="1565932849367" TEXT="response&#xb300;&#xae30; &amp; response &#xbc1c;&#xc1a1;(&#xc774;&#xbbf8;&#xc9c0;)">
+<node CREATED="1565932848803" MODIFIED="1565932848803">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="&#xd544;&#xc694;&#xd55c; &#xc790;&#xbc14; &#xd29c;&#xd1a0;_9066862867563416584.jpeg" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1565932799167" FOLDED="true" ID="ID_23517283" MODIFIED="1565932964709" TEXT="&#xacb0;&#xacfc;(&#xc774;&#xbbf8;&#xc9c0;)">
+<node CREATED="1565932964388" MODIFIED="1565932964388">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="&#xd544;&#xc694;&#xd55c; &#xc790;&#xbc14; &#xd29c;&#xd1a0;_3905903370955449598.jpeg" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1565932801094" FOLDED="true" ID="ID_378806869" MODIFIED="1565932976949" TEXT="&#xc6f9; &#xc18c;&#xcf13; &#xc2a4;&#xcf00;&#xc974;&#xb9c1;(&#xc774;&#xbbf8;&#xc9c0;)">
+<node CREATED="1565932905882" MODIFIED="1565932905882">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="&#xd544;&#xc694;&#xd55c; &#xc790;&#xbc14; &#xd29c;&#xd1a0;_3808019953913013532.jpeg" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1565932810406" FOLDED="true" ID="ID_1348791827" MODIFIED="1565932977773" TEXT="&#xacb0;&#xacfc;(&#xc774;&#xbbf8;&#xc9c0;)">
+<node CREATED="1565932971027" MODIFIED="1565932971027">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="&#xd544;&#xc694;&#xd55c; &#xc790;&#xbc14; &#xd29c;&#xd1a0;_6534264726674078772.jpeg" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1565936865269" FOLDED="true" ID="ID_42721197" MODIFIED="1565937037078" TEXT="&#xc911;&#xc694;!!">
+<node CREATED="1565936870253" ID="ID_456157295" MODIFIED="1565937023936" TEXT="&#xd574;&#xb2f9; &#xd398;&#xc774;&#xc9c0;&#xc758; OnDestory &#xc778;&#xd130;&#xd398;&#xc774;&#xc2a4;&#xb97c; &#xd574;&#xb2f9; &#xd074;&#xb798;&#xc2a4;&#xc5d0;&#xc11c; &#xad6c;&#xd604;&#xd574;&#xc11c; &#xd398;&#xc774;&#xc9c0; &#xbc97;&#xc5b4;&#xb0a0; &#xb584;&#xb9c8;&#xb2e4; disconnect&#xb97c; &#xd574;&#xc918;&#xc57c; &#xd55c;&#xb2e4;.">
+<node CREATED="1565936921059" ID="ID_1635874714" MODIFIED="1565936923998" TEXT="export class WebSocketComponent implements OnInit,OnDestroy"/>
+<node CREATED="1565936909433" ID="ID_619442801" MODIFIED="1565936944817" TEXT="ngOnDestroy(): void { this.disconnect(); }  "/>
+</node>
+</node>
+</node>
 </node>
 </map>

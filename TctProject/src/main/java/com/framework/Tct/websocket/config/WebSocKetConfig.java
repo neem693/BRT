@@ -12,7 +12,7 @@ import org.springframework.web.socket.config.annotation.WebSocketMessageBrokerCo
 @Configuration
 @EnableWebSocketMessageBroker
 public class WebSocKetConfig implements WebSocketMessageBrokerConfigurer {
-	
+
 	@Override
 	public void configureMessageBroker(MessageBrokerRegistry registry) {
 		// TODO Auto-generated method stub
@@ -23,8 +23,8 @@ public class WebSocKetConfig implements WebSocketMessageBrokerConfigurer {
 	@Override
 	public void registerStompEndpoints(StompEndpointRegistry registry) {
 		// TODO Auto-generated method stub
-		registry.addEndpoint("/Tct_websocket").withSockJS();
-		
+		registry.addEndpoint("/Tct_websocket").setAllowedOrigins("http://127.0.0.1:4200").withSockJS();
+
 	}
 
 }

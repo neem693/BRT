@@ -34,7 +34,7 @@ import com.netflix.hystrix.contrib.javanica.annotation.HystrixProperty;
 
 @RestController
 @RequestMapping(value = "/test")
-@CrossOrigin(origins = "http://127.0.0.1:4200,http://127.0.0.1:8111")
+//@CrossOrigin(origins = "http://127.0.0.1:4200,http://127.0.0.1:8111")
 public class Test {
 	private static final Logger LOG = Logger.getLogger(Test.class.getName());
 	@Autowired
