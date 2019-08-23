@@ -19,6 +19,17 @@ spring:
   sleuth:
     sampler:
       probability: 1.0
+  flyway:
+    url: jdbc:mysql://127.0.0.1:3306/test
+    schemas: test
+    user: "root"
+    password: "oratree12341234aa"
+    baseline-on-migrate: true
+  batch:
+    initialize-schema: always
+    
+    
+app:
   datasource:
     driver-class-name: org.mariadb.jdbc.Driver
     url: jdbc:mysql://127.0.0.1:3306/test?autoreconnect=true
@@ -33,10 +44,5 @@ spring:
       max-wait-millis: 8000
       max-idle: 10
       max-open-prepared-statements: 15
-  flyway:
-    url: jdbc:mysql://127.0.0.1:3306/test
-    schemas: test
-    user: "root"
-    password: "oratree12341234aa"
       
     

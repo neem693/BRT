@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 
 import com.framework.Tct.websocket.socketResource.Greeting;
 
-@Component
+//@Component
 public class WebSocketScehduled {
 	
 	@Autowired

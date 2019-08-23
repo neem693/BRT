@@ -2,27 +2,27 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="close" key="selection"/>
+		<item value="Received Message in group" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
-			<item value="close"/>
-			<item value="ma"/>
-			<item value="hystrix"/>
-			<item value="mysql"/>
-			<item value="3306"/>
-			<item value="my"/>
-			<item value="/test"/>
-			<item value="jdbc"/>
-			<item value="9411"/>
-			<item value="http://localhost:9411/api/v2/spans"/>
-			<item value="localhost"/>
-			<item value="zipkin"/>
-			<item value="@@@"/>
-			<item value="aspectj"/>
-			<item value="aspectjweaver"/>
+			<item value="Received Message in group"/>
+			<item value="Received"/>
+			<item value="https://kafka.apache.org/20/documentation.html#quickstart"/>
+			<item value="kafka"/>
+			<item value="welcome"/>
+			<item value="Hi"/>
+			<item value="Hi Welcome to"/>
+			<item value="Hi Welcome to Spring for Apache kafka"/>
+			<item value="hi"/>
+			<item value="2181"/>
+			<item value="9092"/>
+			<item value="9"/>
+			<item value="consumerFactory"/>
+			<item value="group-id: "/>
+			<item value="Received Message in group - group-id:"/>
 		</list>
 		<list key="replacehistory">
 		</list>
