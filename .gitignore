@@ -24,4 +24,4 @@ hs_err_pid*
 
 .metadata
 .recommenders
-TctProject/src/main/java/com/framework/Tct/PrivateConst.java
+TctProject/src/main/java/com/framework/Tct/Const/PrivateConst.java
