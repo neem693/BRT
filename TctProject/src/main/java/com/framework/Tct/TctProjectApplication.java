@@ -16,12 +16,23 @@ import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.scheduling.annotation.EnableScheduling;
 import org.springframework.web.client.RestTemplate;
 
+import com.framework.Tct.Const.PrivateConst;
+import com.twilio.Twilio;
+
 @SpringBootApplication
 @EnableScheduling
 @EnableEurekaClient
 @RefreshScope
 @EnableHystrix
 public class TctProjectApplication extends SpringBootServletInitializer implements ApplicationRunner {
+	
+	static {
+		
+		Twilio.init(
+				PrivateConst.TWILO.ACCOUNTSID, 
+				PrivateConst.TWILO.TOKKEN);
+	}
+	
 	
 	@Autowired
 	private KafkaTemplate<String, String> kafkaTemplate;

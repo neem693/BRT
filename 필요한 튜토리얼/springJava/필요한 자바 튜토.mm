@@ -456,7 +456,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1566377216061" ID="ID_773715394" MODIFIED="1566562723908" POSITION="right" TEXT="kafka&#xc624;&#xb958;">
+<node CREATED="1566377216061" FOLDED="true" ID="ID_773715394" MODIFIED="1567514382749" POSITION="right" TEXT="kafka&#xc624;&#xb958;">
 <node CREATED="1566566164289" FOLDED="true" ID="ID_474549072" MODIFIED="1566566561547" TEXT="&#xae30;&#xbcf8;&#xc801;&#xc778; &#xac1c;&#xb150;&#xb3c4;(&#xc774;&#xbbf8;&#xc9c0;)">
 <node CREATED="1566566169604" MODIFIED="1566566169604">
 <richcontent TYPE="NODE"><html>
@@ -571,8 +571,7 @@
   <body>
     <img src="&#xd544;&#xc694;&#xd55c; &#xc790;&#xbc14; &#xd29c;&#xd1a0;_6312331157045623200.jpeg" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1566564270750" ID="ID_1289516077" MODIFIED="1566565011036" TEXT="&#xb530;&#xb85c; &#xcf58;&#xc194;&#xc5d0;&#xc11c; &#xbc1b;&#xae30;(&#xc774;&#xbbf8;&#xc9c0;)">
@@ -584,8 +583,7 @@
   <body>
     <img src="&#xd544;&#xc694;&#xd55c; &#xc790;&#xbc14; &#xd29c;&#xd1a0;_3104344258364705377.jpeg" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1566565013360" ID="ID_956550789" MODIFIED="1566565032748" TEXT="&#xc798;&#xbcf4;&#xba74; &#xcf58;&#xc194;&#xc5d0;&#xc11c; &#xbc1b;&#xae30; &#xd560;&#xb54c;&#xb3c4; 9092&#xc778;&#xb370; &#xd29c;&#xd1a0;&#xb9ac;&#xc5bc; &#xd3ec;&#xc778;&#xd2b8;&#xc5d0;&#xc11c; 2181 &#xb85c; &#xb418;&#xc5b4;&#xc788;&#xb2e4;."/>
@@ -597,11 +595,14 @@
 <node CREATED="1566566124325" ID="ID_616826091" MODIFIED="1566566124325" TEXT="E:\BRT\kafka_2.11-2.0.1&gt;bin\windows\kafka-server-start.bat config\server.properties"/>
 </node>
 <node CREATED="1566566506674" ID="ID_1924425489" MODIFIED="1566566509791" TEXT="&#xbcf4;&#xb0b4;&#xae30;&#xbc1b;&#xae30; &#xc774;&#xacf3;&#xcc38;&#xace0;">
-<node CREATED="1566566510093" LINK="https://kafka.apache.org/quickstart#quickstart_send" MODIFIED="1566566510093" TEXT="https://kafka.apache.org/quickstart#quickstart_send"/>
+<node CREATED="1566566510093" ID="ID_1382332745" LINK="https://kafka.apache.org/quickstart#quickstart_send" MODIFIED="1566566510093" TEXT="https://kafka.apache.org/quickstart#quickstart_send"/>
 </node>
 <node CREATED="1566565926849" ID="ID_1441422343" MODIFIED="1566565936509" TEXT="springboot &#xc2e4;&#xd589;(&#xb2e8;&#xcd95;&#xd0a4;&#xb204;&#xb974;&#xc790; &#xadf8;&#xb0e5;)"/>
 </node>
 </node>
+</node>
+<node CREATED="1567514383933" ID="ID_1570463181" MODIFIED="1567514401431" POSITION="right" TEXT="twilio &#xc624;&#xb958;">
+<node CREATED="1567514389176" ID="ID_1925461937" MODIFIED="1567514389176" TEXT="Authentication Error - invalid username"/>
 </node>
 </node>
 </map>
