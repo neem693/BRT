@@ -30,5 +30,3 @@ build/
 ### VS Code ###
 .vscode/
 
-src/main/java/com/framework/Tct/Const/PrivateConst.java
-

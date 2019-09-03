@@ -25,4 +25,7 @@ hs_err_pid*
 .metadata
 .recommenders
 
-
+git rm -r --cached .
+git add .
+git commit -m "fixed untracked files"
+TctProject/src/main/java/com/framework/Tct/Const/PrivateConst.java
