@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring accessors="true" comment="Delete 3 elements from project &apos;TctProject&apos;&#x0D;&#x0A;- Original project: &apos;TctProject&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     HELP.md&#x0D;&#x0A;     mvnw&#x0D;&#x0A;     mvnw.cmd" description="Delete elements" element1="HELP.md" element2="mvnw" element3="mvnw.cmd" elements="0" flags="589830" id="org.eclipse.jdt.ui.delete" resources="3" stamp="1562256542319" subPackages="false" version="1.0"/>
-</session>

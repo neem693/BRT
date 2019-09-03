@@ -1,5 +1,0 @@
-INDEX VERSION 1.130
-E:\BRT\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1244326566.index
-\brt_project\src\main\java
-E:\BRT\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3798386533.index
-\brtSpring\src\main\java

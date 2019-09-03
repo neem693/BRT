@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Move element &apos;HomeController.java&apos; to &apos;brt_project/src/main/java/com.framework.Tct.config&apos;&#x0D;&#x0A;- Original project: &apos;brt_project&apos;&#x0D;&#x0A;- Destination element: &apos;brt_project/src/main/java/com.framework.Tct.config&apos;&#x0D;&#x0A;- Original element: &apos;com.framework.Tct.HomeController.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src\/main\/java&lt;com.framework.Tct.config" element1="/src\/main\/java&lt;com.framework.Tct{HomeController.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1562255251121" units="1" version="1.0"/>
-</session>
