@@ -456,7 +456,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1566377216061" FOLDED="true" ID="ID_773715394" MODIFIED="1567514382749" POSITION="right" TEXT="kafka&#xc624;&#xb958;">
+<node CREATED="1566377216061" ID="ID_773715394" MODIFIED="1567533585190" POSITION="right" TEXT="kafka&#xc624;&#xb958;">
 <node CREATED="1566566164289" FOLDED="true" ID="ID_474549072" MODIFIED="1566566561547" TEXT="&#xae30;&#xbcf8;&#xc801;&#xc778; &#xac1c;&#xb150;&#xb3c4;(&#xc774;&#xbbf8;&#xc9c0;)">
 <node CREATED="1566566169604" MODIFIED="1566566169604">
 <richcontent TYPE="NODE"><html>
@@ -601,8 +601,21 @@
 </node>
 </node>
 </node>
-<node CREATED="1567514383933" ID="ID_1570463181" MODIFIED="1567514401431" POSITION="right" TEXT="twilio &#xc624;&#xb958;">
+<node CREATED="1567514383933" ID="ID_1570463181" MODIFIED="1567533567208" POSITION="right" TEXT="twilio &#xc624;&#xb958;">
+<node CREATED="1567533567188" ID="ID_23357300" MODIFIED="1567533569334" TEXT="&#xbb38;&#xc81c;">
 <node CREATED="1567514389176" ID="ID_1925461937" MODIFIED="1567514389176" TEXT="Authentication Error - invalid username"/>
+</node>
+<node CREATED="1567533570814" ID="ID_1251405342" LINK="https://www.twilio.com/docs/libraries/java" MODIFIED="1567533592379" TEXT="https://www.twilio.com/docs/libraries/java"/>
+<node CREATED="1567533569786" ID="ID_268792101" MODIFIED="1567533570414" TEXT="&#xd574;&#xacb0;">
+<node CREATED="1567533593954" ID="ID_250112871" MODIFIED="1567533626533" TEXT="init &#xd560;&#xb54c; &#xbcc0;&#xc218;&#xba85;&#xc774; username,password&#xb85c; &#xb418;&#xc5b4;&#xc788;&#xb294;&#xb370;, &#xc800;&#xacf3;&#xc5d0;&#xb294; &#xc720;&#xc800;&#xc5d0; &#xb300;&#xd55c; &#xc815;&#xbcf4;&#xac00; &#xc544;&#xb2c8;&#xb77c; ID&#xc640; token&#xac12;&#xc744; &#xc785;&#xb825;&#xd574;&#xc57c; &#xd55c;&#xb2e4;."/>
+<node CREATED="1567533637841" ID="ID_1972765338" MODIFIED="1567533670567" TEXT="&#xb610;&#xd55c; twili&#xc5d0;&#xc11c; &#xbc88;&#xd638;&#xb97c; &#xbc1b;&#xc544;&#xc57c; &#xd558;&#xba70;, &#xd574;&#xb2f9; &#xbc88;&#xd638;&#xb294; message&#xb97c; &#xbcf4;&#xb0bc; &#xb54c; from&#xac12;&#xc5d0; &#xb123;&#xc5b4;&#xc918;&#xc57c; &#xd55c;&#xb2e4;. &#xadf8;&#xb807;&#xc9c0; &#xc54a;&#xc73c;&#xba74; &#xc528;&#xc54c;&#xb3c4; &#xc548;&#xba39;&#xd798;&#xc744; &#xba85;&#xc2ec;&#xd558;&#xb77c;"/>
+</node>
+<node CREATED="1567539072548" ID="ID_34394798" MODIFIED="1567539073379" TEXT="&#xbb38;&#xc81c;">
+<node CREATED="1567539073678" ID="ID_1886263691" LINK="https://www.twilio.com/console/voice/calls/geo-permissions/low-risk" MODIFIED="1567539081587" TEXT="Account not authorized to call +82&#xc774;&#xd558;&#xc0dd;&#xb7b5;. Perhaps you need to enable some international permissions: https://www.twilio.com/console/voice/calls/geo-permissions/low-risk"/>
+</node>
+<node CREATED="1567539087581" ID="ID_910722538" MODIFIED="1567539088483" TEXT="&#xd574;&#xacb0;">
+<node CREATED="1567539091214" ID="ID_1135191498" MODIFIED="1567539101843" TEXT="&#xc8fc;&#xc5b4;&#xc9c4; &#xc0ac;&#xc774;&#xd2b8;&#xb85c; &#xac00;&#xc11c; &#xc77c;&#xb2e8; &#xad6d;&#xac00; &#xd074;&#xb9ad;&#xd574;&#xb193;&#xc74c;"/>
+</node>
 </node>
 </node>
 </map>
