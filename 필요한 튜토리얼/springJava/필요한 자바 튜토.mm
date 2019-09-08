@@ -589,10 +589,56 @@
 <node CREATED="1566565013360" ID="ID_956550789" MODIFIED="1566565032748" TEXT="&#xc798;&#xbcf4;&#xba74; &#xcf58;&#xc194;&#xc5d0;&#xc11c; &#xbc1b;&#xae30; &#xd560;&#xb54c;&#xb3c4; 9092&#xc778;&#xb370; &#xd29c;&#xd1a0;&#xb9ac;&#xc5bc; &#xd3ec;&#xc778;&#xd2b8;&#xc5d0;&#xc11c; 2181 &#xb85c; &#xb418;&#xc5b4;&#xc788;&#xb2e4;."/>
 <node CREATED="1566565812537" ID="ID_43925296" MODIFIED="1566565815613" TEXT="&#xba85;&#xb839;&#xc5b4;">
 <node CREATED="1566565819889" ID="ID_730970808" MODIFIED="1566565822006" TEXT="&#xc8fc;&#xd0a4;&#xd37c;&#xc2e4;&#xd589;">
-<node CREATED="1566565892414" ID="ID_773623198" MODIFIED="1566565892414" TEXT="E:\BRT\kafka_2.11-2.0.1&gt;bin\windows\zookeeper-server-start.bat config\zookeeper.properties"/>
+<node CREATED="1566565892414" ID="ID_773623198" MODIFIED="1567795257484">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      E:\BRT\kafka_2.11-2.0.1&gt;
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1567795257490" ID="ID_1704879667" MODIFIED="1567795257493">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      bin\windows\zookeeper-server-start.bat config\zookeeper.properties
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
 </node>
 <node CREATED="1566565922544" ID="ID_1948237140" MODIFIED="1566565924694" TEXT="&#xce74;&#xd504;&#xce74;&#xc2e4;&#xd589;">
-<node CREATED="1566566124325" ID="ID_616826091" MODIFIED="1566566124325" TEXT="E:\BRT\kafka_2.11-2.0.1&gt;bin\windows\kafka-server-start.bat config\server.properties"/>
+<node CREATED="1566566124325" ID="ID_616826091" MODIFIED="1567795264232">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      E:\BRT\kafka_2.11-2.0.1&gt;
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1567795264235" ID="ID_276495592" MODIFIED="1567795264239">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      bin\windows\kafka-server-start.bat config\server.properties
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
 </node>
 <node CREATED="1566566506674" ID="ID_1924425489" MODIFIED="1566566509791" TEXT="&#xbcf4;&#xb0b4;&#xae30;&#xbc1b;&#xae30; &#xc774;&#xacf3;&#xcc38;&#xace0;">
 <node CREATED="1566566510093" ID="ID_1382332745" LINK="https://kafka.apache.org/quickstart#quickstart_send" MODIFIED="1566566510093" TEXT="https://kafka.apache.org/quickstart#quickstart_send"/>
@@ -615,6 +661,33 @@
 </node>
 <node CREATED="1567539087581" ID="ID_910722538" MODIFIED="1567539088483" TEXT="&#xd574;&#xacb0;">
 <node CREATED="1567539091214" ID="ID_1135191498" MODIFIED="1567539101843" TEXT="&#xc8fc;&#xc5b4;&#xc9c4; &#xc0ac;&#xc774;&#xd2b8;&#xb85c; &#xac00;&#xc11c; &#xc77c;&#xb2e8; &#xad6d;&#xac00; &#xd074;&#xb9ad;&#xd574;&#xb193;&#xc74c;"/>
+</node>
+</node>
+<node CREATED="1567909143978" ID="ID_1017386506" MODIFIED="1567909144528" POSITION="right" TEXT="Unit Test Cases">
+<node CREATED="1567909145995" ID="ID_748592316" MODIFIED="1567909148287" TEXT="&#xbb38;&#xc81c;">
+<node CREATED="1567909149804" ID="ID_1771944278" MODIFIED="1567909157446" TEXT="&#xbd80;&#xd305;&#xd574;&#xb3c4; &#xc544;&#xbb34;&#xac83;&#xb3c4; &#xb728;&#xc9c0; &#xc54a;&#xb294;&#xb2e4;."/>
+</node>
+<node CREATED="1567914233893" ID="ID_1779869352" MODIFIED="1567914234809" TEXT="&#xd574;&#xacb0;">
+<node CREATED="1567914235470" ID="ID_371913256" MODIFIED="1567914252337" TEXT="maven install&#xc744; &#xd560;&#xc2dc;&#xc5d0; &#xac19;&#xc774; &#xc2e4;&#xd58b;&#xb418;&#xb294; &#xac83;&#xc774;&#xc9c0;, &#xc774;&#xd074;&#xb9bd;&#xc2a4; &#xc548;&#xc5d0;&#xc11c; &#xb514;&#xbc84;&#xadf8; &#xd560; &#xb54c;&#xb294; &#xc2e4;&#xd589;&#xb418;&#xc9c0; &#xc54a;&#xb294;&#xb2e4;."/>
+</node>
+<node CREATED="1567914255526" ID="ID_124274143" MODIFIED="1567914256168" TEXT="&#xbb38;&#xc81c;">
+<node CREATED="1567915615667" ID="ID_1418202825" MODIFIED="1567915615667" TEXT="org.junit.ComparisonFailure: expected:&lt;Mock[ ]Name&gt; but was:&lt;Mock[]Name&gt;"/>
+</node>
+<node CREATED="1567915704365" ID="ID_51206383" MODIFIED="1567915705809" TEXT="&#xd574;&#xacb0;">
+<node CREATED="1567915706478" ID="ID_24029366" MODIFIED="1567915708793" TEXT="&#xb450;&#xac1c;&#xac00; &#xac19;&#xc544;&#xc57c; &#xd560;&#xb4ef;"/>
+<node CREATED="1567915708990" ID="ID_1912566619" MODIFIED="1567915710881" TEXT="&#xc774;&#xbbf8;&#xc9c0;">
+<node CREATED="1567915711317" MODIFIED="1567915711317">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="&#xd544;&#xc694;&#xd55c; &#xc790;&#xbc14; &#xd29c;&#xd1a0;_3370019955237776890.jpeg" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
 </node>
 </node>
 </node>
