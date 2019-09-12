@@ -20,6 +20,7 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
 
 import { MyServiceService } from './my-service.service'
 import {AlbumFetchService} from './album-fetch.service'
+import { AuthService } from './auth/auth.service';
 
 import { ChangeTextDirective } from './change-text.directive';
 
@@ -30,6 +31,9 @@ import { ViewProductComponent } from './product/view-product/view-product.compon
 import { AddProductComponent } from './product/add-product/add-product.component';
 import { ProductServiceService } from './product/product-service.service';
 import { WebSocketComponent } from './web-socket/web-socket.component';
+import { LoginComponent } from './auth/login/login.component';
+
+
 
 
 
@@ -45,7 +49,8 @@ import { WebSocketComponent } from './web-socket/web-socket.component';
     RoutingComponent,
     ViewProductComponent,
     AddProductComponent,
-    WebSocketComponent
+    WebSocketComponent,
+    LoginComponent
 
   ],
   imports: [
@@ -72,6 +77,7 @@ import { WebSocketComponent } from './web-socket/web-socket.component';
               AlbumFetchService,
               CommonData,
               ProductServiceService,
+              AuthService,
               {provide:MAT_DATE_LOCALE,useValue:'ko'},
             {provide:MAT_DATE_FORMATS,useValue:KoreaDateFormat}],
   bootstrap: [AppComponent]

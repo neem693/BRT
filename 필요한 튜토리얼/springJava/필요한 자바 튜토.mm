@@ -589,7 +589,7 @@
 <node CREATED="1566565013360" ID="ID_956550789" MODIFIED="1566565032748" TEXT="&#xc798;&#xbcf4;&#xba74; &#xcf58;&#xc194;&#xc5d0;&#xc11c; &#xbc1b;&#xae30; &#xd560;&#xb54c;&#xb3c4; 9092&#xc778;&#xb370; &#xd29c;&#xd1a0;&#xb9ac;&#xc5bc; &#xd3ec;&#xc778;&#xd2b8;&#xc5d0;&#xc11c; 2181 &#xb85c; &#xb418;&#xc5b4;&#xc788;&#xb2e4;."/>
 <node CREATED="1566565812537" ID="ID_43925296" MODIFIED="1566565815613" TEXT="&#xba85;&#xb839;&#xc5b4;">
 <node CREATED="1566565819889" ID="ID_730970808" MODIFIED="1566565822006" TEXT="&#xc8fc;&#xd0a4;&#xd37c;&#xc2e4;&#xd589;">
-<node CREATED="1566565892414" ID="ID_773623198" MODIFIED="1567795257484">
+<node CREATED="1566565892414" ID="ID_773623198" MODIFIED="1568273112907">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -684,10 +684,153 @@
   <body>
     <img src="&#xd544;&#xc694;&#xd55c; &#xc790;&#xbc14; &#xd29c;&#xd1a0;_3370019955237776890.jpeg" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
+</node>
+</node>
+<node CREATED="1568042534093" ID="ID_1122918597" MODIFIED="1568042543305" POSITION="right" TEXT="Database Handling">
+<node CREATED="1568042544125" ID="ID_1162996308" MODIFIED="1568042547521" TEXT="h2"/>
+<node CREATED="1568042547757" ID="ID_800868004" MODIFIED="1568042550538" TEXT="Redis">
+<node CREATED="1568042551477" ID="ID_138312707" MODIFIED="1568042558257" TEXT="&#xbb38;&#xc81c;">
+<node CREATED="1568042558919" ID="ID_224356156" MODIFIED="1568042576721" TEXT="jedis hostname&#xc774; deprecated&#xc784;"/>
+</node>
+<node CREATED="1568042578294" ID="ID_861407679" MODIFIED="1568042578896" TEXT="&#xd574;&#xacb0;">
+<node CREATED="1568042600508" ID="ID_424455188" LINK="https://stackoverflow.com/questions/49021994/jedisconnectionfactory-sethostname-is-deprecated" MODIFIED="1568042600508" TEXT="https://stackoverflow.com/questions/49021994/jedisconnectionfactory-sethostname-is-deprecated"/>
+<node CREATED="1568043567248" ID="ID_1935792906" LINK="https://docs.spring.io/spring-data/data-redis/docs/current/reference/html/#get-started" MODIFIED="1568043569253" TEXT="https://docs.spring.io/spring-data/data-redis/docs/current/reference/html/#get-started"/>
+<node CREATED="1568042611505" ID="ID_164426431" MODIFIED="1568042649457" TEXT="RedisStandaloneConfiguration&#xc0ac;&#xc6a9;&#xd574;&#xb77c;"/>
+</node>
+<node CREATED="1568044712485" ID="ID_1311667910" MODIFIED="1568044713210" TEXT="&#xbb38;&#xc81c;">
+<node CREATED="1568044713465" ID="ID_187839442" MODIFIED="1568044722305" TEXT="The type redis.clients.jedis.JedisPoolConfig cannot be resolved"/>
+</node>
+<node CREATED="1568045091189" ID="ID_376527001" MODIFIED="1568045093690" TEXT="&#xd574;&#xacb0;">
+<node CREATED="1568045094026" ID="ID_1732477594" LINK="https://www.concretepage.com/questions/599" MODIFIED="1568045094026" TEXT="https://www.concretepage.com/questions/599"/>
+<node CREATED="1568045188700" ID="ID_1297552016" MODIFIED="1568045207537" TEXT="LettuceConnectionFactory &#xb85c; &#xbcc0;&#xacbd;&#xd574;&#xc11c; &#xc9c4;&#xd589;&#xd574;&#xbcfc;&#xac83;"/>
+</node>
+<node CREATED="1568060266752" ID="ID_1101043057" MODIFIED="1568060267474" TEXT="&#xbb38;&#xc81c;">
+<node CREATED="1568060267785" MODIFIED="1568060267785" TEXT="Connection refused: no further information: localhost/127.0.0.1:6000"/>
+</node>
+<node CREATED="1568065557804" ID="ID_685378862" MODIFIED="1568065559057" TEXT="&#xd574;&#xacb0;">
+<node CREATED="1568065562827" ID="ID_1488974326" LINK="https://www.baeldung.com/java-redis-lettuce" MODIFIED="1568065562827" TEXT="https://www.baeldung.com/java-redis-lettuce"/>
+<node CREATED="1568065564330" ID="ID_720283908" MODIFIED="1568089392129" TEXT="luttech &#xc0ac;&#xc6a9;&#xbc95;&#xc778;&#xb370;, &#xc774;&#xacf3;&#xc5d0;&#xc11c; redis &#xc124;&#xce58;&#xbc95;&#xc774; &#xb098;&#xc628;&#xb2e4;."/>
+<node CREATED="1568089446327" ID="ID_135274014" MODIFIED="1568089454873" TEXT="&#xd604;&#xc7ac; windows &#xd658;&#xacbd;&#xc774;&#xb2c8; windows git&#xc8fc;&#xc18c;&#xb294; &#xc774;&#xb807;&#xb2e4;."/>
+<node CREATED="1568089455621" ID="ID_173439907" LINK="https://github.com/MicrosoftArchive/redis" MODIFIED="1568089455621" TEXT="https://github.com/MicrosoftArchive/redis"/>
+<node CREATED="1568089473493" FOLDED="true" ID="ID_1413105240" MODIFIED="1568090292425" TEXT="&#xc774;&#xb807;&#xac8c; redis&#xb97c; &#xc124;&#xce58;&#xd558;&#xace0; &#xc2e4;&#xd589;&#xd55c;&#xb2e4;.(&#xc774;&#xbbf8;&#xc9c0;)">
+<node CREATED="1568089569368" ID="ID_1300944335" MODIFIED="1568089569368">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="&#xd544;&#xc694;&#xd55c; &#xc790;&#xbc14; &#xd29c;&#xd1a0;_7667580728636180695.jpeg" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1568089575526" FOLDED="true" ID="ID_1934547715" MODIFIED="1568090320791" TEXT="&#xb370;&#xc774;&#xd130; &#xc800;&#xc7a5; &#xb370;&#xc774;&#xd130; &#xbf51;&#xae30;(&#xc774;&#xbbf8;&#xc9c0;)">
+<node CREATED="1568090246011" ID="ID_933854715" MODIFIED="1568090246011">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="&#xd544;&#xc694;&#xd55c; &#xc790;&#xbc14; &#xd29c;&#xd1a0;_3578286928181540969.jpeg" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1568090321533" ID="ID_349432353" MODIFIED="1568090330218" TEXT="&#xb370;&#xc774;&#xd130; &#xbf51;&#xc744; &#xc2dc; &#xacb0;&#xacfc;">
+<node CREATED="1568090326146" MODIFIED="1568090326146" TEXT="{eee=efef}"/>
+</node>
+</node>
+</node>
+<node CREATED="1568090615245" FOLDED="true" ID="ID_433850" MODIFIED="1568093389766" TEXT="JDBC TEMPLATE &amp;&amp; Multiple DataSource">
+<node CREATED="1568093379895" ID="ID_1945093058" MODIFIED="1568093385396" TEXT="&#xc9c4;&#xd589;&#xc774;&#xbbf8;&#xc9c0;">
+<node CREATED="1568093387037" MODIFIED="1568093387037">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="&#xd544;&#xc694;&#xd55c; &#xc790;&#xbc14; &#xd29c;&#xd1a0;_6044406536922202153.jpeg" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1568136171473" ID="ID_1513202297" MODIFIED="1568136174857" POSITION="right" TEXT="springSecurity">
+<node CREATED="1568136225277" ID="ID_829841707" MODIFIED="1568136227225" TEXT="&#xbb38;&#xc81c;">
+<node CREATED="1568136227916" ID="ID_1806002014" MODIFIED="1568136231017" TEXT="&#xb85c;&#xadf8;&#xc778; &#xd398;&#xc774;&#xc9c0;&#xb85c; &#xc548;&#xac10;"/>
+</node>
+<node CREATED="1568136231708" ID="ID_1242731002" MODIFIED="1568136237857" TEXT="&#xd574;&#xacb0;">
+<node CREATED="1568136238597" FOLDED="true" ID="ID_1213230462" MODIFIED="1568141282023" TEXT="configure&#xb97c; &#xd574;&#xc81c;&#xd568; (&#xc774;&#xbbf8;&#xc9c0;)">
+<node CREATED="1568141259587" MODIFIED="1568141259587">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="&#xd544;&#xc694;&#xd55c; &#xc790;&#xbc14; &#xd29c;&#xd1a0;_7515362011340452822.jpeg" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1568141371182" ID="ID_1504682387" MODIFIED="1568141372146" TEXT="&#xbb38;&#xc81c;">
+<node CREATED="1568141414667" ID="ID_1417966876" MODIFIED="1568141415770" TEXT="java.lang.IllegalArgumentException: There is no PasswordEncoder mapped for the id &quot;null&quot;"/>
+</node>
+<node CREATED="1568141417725" ID="ID_348260147" MODIFIED="1568141418410" TEXT="&#xd574;&#xacb0;">
+<node CREATED="1568141390123" ID="ID_304229500" LINK="https://www.mkyong.com/spring-boot/spring-security-there-is-no-passwordencoder-mapped-for-the-id-null/" MODIFIED="1568141419587" TEXT="https://www.mkyong.com/spring-boot/spring-security-there-is-no-passwordencoder-mapped-for-the-id-null/"/>
+<node CREATED="1568141425141" ID="ID_1325149619" MODIFIED="1568141432370" TEXT="&#xd328;&#xc2a4;&#xc6cc;&#xb4dc;&#xc5d0; {noop}&#xc744; &#xb123;&#xc5b4;&#xc90c;"/>
+</node>
+<node CREATED="1568141454509" ID="ID_1819427320" MODIFIED="1568141457609" TEXT="&#xc774;&#xac8c; &#xb9de;&#xb294;&#xac00;?">
+<node CREATED="1568141435709" ID="ID_1503332080" MODIFIED="1568141448106" TEXT="&#xadf8;&#xb7ec;&#xba74; &#xb300;&#xac15; &#xb85c;&#xadf8;&#xc778;&#xc774; &#xc131;&#xb9bd;&#xc774; &#xb428;"/>
+<node CREATED="1568141461054" ID="ID_149249130" MODIFIED="1568141584426" TEXT="&#xadf8;&#xb7ec;&#xb098; &#xc774;&#xb7ec;&#xd55c; &#xbc29;&#xbc95;&#xc740; custom login page&#xac00; &#xba39;&#xd788;&#xc9c0; &#xc54a;&#xb294;&#xb2e4;&#xb294; &#xb2e8;&#xc810;&#xc774; &#xc874;&#xc7ac;&#xd568;"/>
+<node CREATED="1568141616549" ID="ID_1225540165" MODIFIED="1568141635250" TEXT="&#xb610;&#xd55c; Angular&#xc5d0;&#xc11c; &#xd574;&#xb2f9; &#xd398;&#xc774;&#xc9c0;&#xb85c; &#xc811;&#xadfc;&#xac00;&#xb2a5;&#xd55c; &#xbc29;&#xbc95;&#xc774; &#xadf8;&#xb807;&#xac8c; &#xc720;&#xc6a9;&#xd558;&#xb2e4;&#xace0; &#xbcfc; &#xc218;&#xb294; &#xc5c6;&#xc74c;"/>
+<node CREATED="1568141640389" ID="ID_1045235407" MODIFIED="1568141655834" TEXT="&#xc5b4;&#xca0b;&#xb4e0; &#xc77c;&#xbd80;&#xb7ec; &#xc774;&#xb7f0; &#xbc29;&#xc2dd;&#xc744; &#xc0ac;&#xc6a9;&#xd558;&#xc5ec; angular&#xc5d0;&#xc11c; &#xc2dc;&#xb3c4;&#xd574;&#xc57c; &#xd568;"/>
+</node>
+<node CREATED="1568311134739" FOLDED="true" ID="ID_708755987" MODIFIED="1568314328169" TEXT="&#xc77c;&#xb2e8; &#xc815;&#xb9ac;&#xb97c; &#xd574;&#xbcf4;&#xba74;">
+<node CREATED="1568311139069" ID="ID_920316633" MODIFIED="1568311156343" TEXT="&#xc77c;&#xbc18;&#xc801;&#xc73c;&#xb85c; form &#xd615;&#xc2dd;&#xc73c;&#xb85c; &#xb418;&#xc5b4; &#xc788;&#xc74c;&#xc744; &#xc54c;&#xace0; &#xc788;&#xc5b4;&#xc57c; &#xd55c;&#xb2e4;."/>
+<node CREATED="1568313050329" FOLDED="true" ID="ID_1435451748" MODIFIED="1568313092456" TEXT="&#xb85c;&#xadf8;&#xc778; &#xacfc;&#xc815;(&#xc774;&#xbbf8;&#xc9c0;)">
+<node CREATED="1568313055665" ID="ID_242761916" MODIFIED="1568313055665">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="&#xd544;&#xc694;&#xd55c; &#xc790;&#xbc14; &#xd29c;&#xd1a0;_7877622929877684556.jpeg" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1568313061591" ID="ID_1534782026" MODIFIED="1568313069307" TEXT="&#xc5ec;&#xae30;&#xc11c; csrf&#xac12;&#xc740; &#xacc4;&#xc18d; &#xbc14;&#xb00c;&#xb294; &#xac83;&#xc744; &#xba85;&#xc2ec;&#xd574;&#xc57c; &#xd55c;&#xb2e4;."/>
+<node CREATED="1568313093366" FOLDED="true" ID="ID_1544244835" MODIFIED="1568313686776" TEXT="&#xb85c;&#xadf8;&#xc544;&#xc6c3; &#xacfc;&#xc815;(&#xc774;&#xbbf8;&#xc9c0;)">
+<node CREATED="1568313117764" MODIFIED="1568313117764">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="&#xd544;&#xc694;&#xd55c; &#xc790;&#xbc14; &#xd29c;&#xd1a0;_4527473175593190141.jpeg" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1568313756080" ID="ID_1246584457" MODIFIED="1568313757828" TEXT="&#xae30;&#xbcf8;&#xc801;&#xc778; &#xbb38;&#xc11c;">
+<node CREATED="1568313758137" LINK="https://docs.spring.io/spring-security/site/docs/current/reference/htmlsingle/" MODIFIED="1568313758137" TEXT="https://docs.spring.io/spring-security/site/docs/current/reference/htmlsingle/"/>
+</node>
+<node CREATED="1568313705816" ID="ID_202724480" MODIFIED="1568313731700" TEXT="&#xc5ec;&#xae30;&#xc5d0; &#xb300;&#xd55c; &#xae30;&#xbcf8;&#xc801;&#xc778; &#xc124;&#xba85; &#xbc0f; &#xd574;&#xb2f9; form&#xc744; ajax&#xb85c; &#xd558;&#xc5ec;&#xae08; &#xac00;&#xc838;&#xc624;&#xb294; &#xb9c1;&#xd06c;&#xb294; &#xb2e4;&#xc74c;&#xacfc; &#xac19;&#xb2e4;.">
+<node CREATED="1568313739355" ID="ID_127590107" LINK="https://www.baeldung.com/securing-a-restful-web-service-with-spring-security" MODIFIED="1568313739355" TEXT="https://www.baeldung.com/securing-a-restful-web-service-with-spring-security"/>
+<node CREATED="1568314270324" ID="ID_552933409" LINK="https://spring.io/guides/tutorials/spring-security-and-angular-js/" MODIFIED="1568314270324" TEXT="https://spring.io/guides/tutorials/spring-security-and-angular-js/"/>
+</node>
+<node CREATED="1568314272248" ID="ID_282317820" MODIFIED="1568314295845" TEXT="&#xb610; &#xc5ec;&#xae30;&#xc11c; &#xadf8;&#xb0e5; Rest&#xd615;&#xc2dd;&#xc73c;&#xb85c; &#xbc14;&#xb85c; &#xb85c;&#xadf8;&#xc778; &#xd558;&#xb294; &#xbc29;&#xbc95;&#xb3c4; &#xc788;&#xb2e4;.">
+<node CREATED="1568314309740" LINK="https://medium.com/better-programming/secure-a-spring-boot-rest-api-with-json-web-token-reference-to-angular-integration-e57a25806c50" MODIFIED="1568314309740" TEXT="https://medium.com/better-programming/secure-a-spring-boot-rest-api-with-json-web-token-reference-to-angular-integration-e57a25806c50"/>
+<node CREATED="1568314315867" LINK="https://cusonar.tistory.com/17" MODIFIED="1568314315867" TEXT="https://cusonar.tistory.com/17"/>
+</node>
+</node>
+<node CREATED="1568315248485" FOLDED="true" ID="ID_1302497736" MODIFIED="1568315260489" TEXT="&#xba40;&#xd2f0; &#xc2a4;&#xd504;&#xb9c1; security">
+<node CREATED="1568315259848" LINK="https://www.baeldung.com/spring-security-multiple-entry-points" MODIFIED="1568315259848" TEXT="https://www.baeldung.com/spring-security-multiple-entry-points"/>
 </node>
 </node>
 </node>

@@ -1,0 +1,8 @@
+<h1>Login</h1>
+<form [formGroup]="loginData" (ngSubmit)="loginFunction(loginData.value)">
+    <input required type="username" name="username" placeholder="username" formControlName="username">
+    <br>
+    <input required type="password" name="password" placeholder="password" formControlName="password">
+    <br>
+    <input [disabled]="!loginData.valid" type="submit" value="submit">
+</form>

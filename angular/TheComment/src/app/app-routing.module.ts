@@ -5,6 +5,7 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
 import { ViewProductComponent } from './product/view-product/view-product.component';
 import { AddProductComponent } from './product/add-product/add-product.component';
 import { WebSocketComponent } from './web-socket/web-socket.component';
+import { LoginComponent } from './auth/login/login.component';
 
 
 const routes: Routes = [
@@ -16,7 +17,8 @@ const routes: Routes = [
     {path:'addProduct',component:AddProductComponent},
     
   ]},
-  {path:"WebSocket",component:WebSocketComponent}
+  {path:"WebSocket",component:WebSocketComponent},
+  {path:"login",component:LoginComponent},
 ];
 
 @NgModule({
