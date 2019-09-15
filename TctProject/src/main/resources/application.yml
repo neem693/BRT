@@ -1,6 +1,7 @@
 server:  
   servlet:
-    context-path: /TctPro
+#    context-path: 
+    context-path: /Tct
   port: 8081
 #  ssl:
 #    key-store: keystore.p12

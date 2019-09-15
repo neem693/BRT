@@ -18,8 +18,9 @@ import org.springframework.security.web.access.AccessDeniedHandler;
 import org.springframework.security.web.authentication.AuthenticationFailureHandler;
 import org.springframework.security.web.authentication.AuthenticationSuccessHandler;
 import org.springframework.security.web.csrf.CookieCsrfTokenRepository;
+import org.springframework.security.web.csrf.HttpSessionCsrfTokenRepository;
 
-import com.sun.jersey.api.client.filter.HTTPBasicAuthFilter;
+import com.framework.Tct.Const.PublicConst;
 
 @Configuration
 public class webSecuryConfig extends WebSecurityConfigurerAdapter {
@@ -28,13 +29,19 @@ public class webSecuryConfig extends WebSecurityConfigurerAdapter {
 	protected void configure(HttpSecurity http) throws Exception {
 		// TODO Auto-generated method stub
 		// super.configure(http);
-		http.cors().and().csrf().csrfTokenRepository(CookieCsrfTokenRepository.withHttpOnlyFalse()).and()
-				.authorizeRequests().antMatchers("/", "/*.js", "/*.css", "/assets/**", "/Home/**").permitAll()
-				.anyRequest().authenticated()
-				.and().formLogin().successHandler(successHandler()).failureHandler(failureHandler())
-//				 .loginPage("/login")
-				 .permitAll()
-				.and().logout().permitAll();
+
+		 HttpSessionCsrfTokenRepository sessionCsrf = new HttpSessionCsrfTokenRepository();
+		 sessionCsrf.setSessionAttributeName(PublicConst.SPRING_SCURITY.CSRF_TOKEN);
+
+		http.cors().and()
+				//.csrf().disable()
+				.csrf().csrfTokenRepository(CookieCsrfTokenRepository.withHttpOnlyFalse()).and()
+				//.csrf().csrfTokenRepository(sessionCsrf).and()
+				.authorizeRequests().antMatchers("/", "/*.js", "/*.css", "/assets/**", "/Home/**", "/getCsrfToken","/login")
+				.permitAll().anyRequest().authenticated().and().formLogin().successHandler(successHandler())
+				.failureHandler(failureHandler())
+				// .loginPage("/login")
+				.permitAll().and().logout().permitAll();
 	}
 
 	@Override

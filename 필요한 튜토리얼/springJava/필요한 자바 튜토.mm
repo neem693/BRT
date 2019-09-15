@@ -760,10 +760,10 @@
 </node>
 </node>
 <node CREATED="1568136171473" ID="ID_1513202297" MODIFIED="1568136174857" POSITION="right" TEXT="springSecurity">
-<node CREATED="1568136225277" ID="ID_829841707" MODIFIED="1568136227225" TEXT="&#xbb38;&#xc81c;">
+<node CREATED="1568136225277" FOLDED="true" ID="ID_829841707" MODIFIED="1568497133377" TEXT="&#xbb38;&#xc81c;">
 <node CREATED="1568136227916" ID="ID_1806002014" MODIFIED="1568136231017" TEXT="&#xb85c;&#xadf8;&#xc778; &#xd398;&#xc774;&#xc9c0;&#xb85c; &#xc548;&#xac10;"/>
 </node>
-<node CREATED="1568136231708" ID="ID_1242731002" MODIFIED="1568136237857" TEXT="&#xd574;&#xacb0;">
+<node CREATED="1568136231708" FOLDED="true" ID="ID_1242731002" MODIFIED="1568497133380" TEXT="&#xd574;&#xacb0;">
 <node CREATED="1568136238597" FOLDED="true" ID="ID_1213230462" MODIFIED="1568141282023" TEXT="configure&#xb97c; &#xd574;&#xc81c;&#xd568; (&#xc774;&#xbbf8;&#xc9c0;)">
 <node CREATED="1568141259587" MODIFIED="1568141259587">
 <richcontent TYPE="NODE"><html>
@@ -777,22 +777,22 @@
 </node>
 </node>
 </node>
-<node CREATED="1568141371182" ID="ID_1504682387" MODIFIED="1568141372146" TEXT="&#xbb38;&#xc81c;">
+<node CREATED="1568141371182" FOLDED="true" ID="ID_1504682387" MODIFIED="1568497133380" TEXT="&#xbb38;&#xc81c;">
 <node CREATED="1568141414667" ID="ID_1417966876" MODIFIED="1568141415770" TEXT="java.lang.IllegalArgumentException: There is no PasswordEncoder mapped for the id &quot;null&quot;"/>
 </node>
-<node CREATED="1568141417725" ID="ID_348260147" MODIFIED="1568141418410" TEXT="&#xd574;&#xacb0;">
+<node CREATED="1568141417725" FOLDED="true" ID="ID_348260147" MODIFIED="1568497133380" TEXT="&#xd574;&#xacb0;">
 <node CREATED="1568141390123" ID="ID_304229500" LINK="https://www.mkyong.com/spring-boot/spring-security-there-is-no-passwordencoder-mapped-for-the-id-null/" MODIFIED="1568141419587" TEXT="https://www.mkyong.com/spring-boot/spring-security-there-is-no-passwordencoder-mapped-for-the-id-null/"/>
 <node CREATED="1568141425141" ID="ID_1325149619" MODIFIED="1568141432370" TEXT="&#xd328;&#xc2a4;&#xc6cc;&#xb4dc;&#xc5d0; {noop}&#xc744; &#xb123;&#xc5b4;&#xc90c;"/>
 </node>
-<node CREATED="1568141454509" ID="ID_1819427320" MODIFIED="1568141457609" TEXT="&#xc774;&#xac8c; &#xb9de;&#xb294;&#xac00;?">
+<node CREATED="1568141454509" FOLDED="true" ID="ID_1819427320" MODIFIED="1568497133380" TEXT="&#xc774;&#xac8c; &#xb9de;&#xb294;&#xac00;?">
 <node CREATED="1568141435709" ID="ID_1503332080" MODIFIED="1568141448106" TEXT="&#xadf8;&#xb7ec;&#xba74; &#xb300;&#xac15; &#xb85c;&#xadf8;&#xc778;&#xc774; &#xc131;&#xb9bd;&#xc774; &#xb428;"/>
 <node CREATED="1568141461054" ID="ID_149249130" MODIFIED="1568141584426" TEXT="&#xadf8;&#xb7ec;&#xb098; &#xc774;&#xb7ec;&#xd55c; &#xbc29;&#xbc95;&#xc740; custom login page&#xac00; &#xba39;&#xd788;&#xc9c0; &#xc54a;&#xb294;&#xb2e4;&#xb294; &#xb2e8;&#xc810;&#xc774; &#xc874;&#xc7ac;&#xd568;"/>
 <node CREATED="1568141616549" ID="ID_1225540165" MODIFIED="1568141635250" TEXT="&#xb610;&#xd55c; Angular&#xc5d0;&#xc11c; &#xd574;&#xb2f9; &#xd398;&#xc774;&#xc9c0;&#xb85c; &#xc811;&#xadfc;&#xac00;&#xb2a5;&#xd55c; &#xbc29;&#xbc95;&#xc774; &#xadf8;&#xb807;&#xac8c; &#xc720;&#xc6a9;&#xd558;&#xb2e4;&#xace0; &#xbcfc; &#xc218;&#xb294; &#xc5c6;&#xc74c;"/>
 <node CREATED="1568141640389" ID="ID_1045235407" MODIFIED="1568141655834" TEXT="&#xc5b4;&#xca0b;&#xb4e0; &#xc77c;&#xbd80;&#xb7ec; &#xc774;&#xb7f0; &#xbc29;&#xc2dd;&#xc744; &#xc0ac;&#xc6a9;&#xd558;&#xc5ec; angular&#xc5d0;&#xc11c; &#xc2dc;&#xb3c4;&#xd574;&#xc57c; &#xd568;"/>
 </node>
-<node CREATED="1568311134739" FOLDED="true" ID="ID_708755987" MODIFIED="1568314328169" TEXT="&#xc77c;&#xb2e8; &#xc815;&#xb9ac;&#xb97c; &#xd574;&#xbcf4;&#xba74;">
+<node CREATED="1568311134739" FOLDED="true" ID="ID_708755987" MODIFIED="1568497133380" TEXT="&#xc815;&#xb9ac;&#xd560; &#xd544;&#xc694;&#xac00; &#xc788;&#xb2e4;.">
 <node CREATED="1568311139069" ID="ID_920316633" MODIFIED="1568311156343" TEXT="&#xc77c;&#xbc18;&#xc801;&#xc73c;&#xb85c; form &#xd615;&#xc2dd;&#xc73c;&#xb85c; &#xb418;&#xc5b4; &#xc788;&#xc74c;&#xc744; &#xc54c;&#xace0; &#xc788;&#xc5b4;&#xc57c; &#xd55c;&#xb2e4;."/>
-<node CREATED="1568313050329" FOLDED="true" ID="ID_1435451748" MODIFIED="1568313092456" TEXT="&#xb85c;&#xadf8;&#xc778; &#xacfc;&#xc815;(&#xc774;&#xbbf8;&#xc9c0;)">
+<node CREATED="1568313050329" FOLDED="true" ID="ID_1435451748" MODIFIED="1568455526246" TEXT="&#xb85c;&#xadf8;&#xc778; &#xacfc;&#xc815;(&#xc774;&#xbbf8;&#xc9c0;)">
 <node CREATED="1568313055665" ID="ID_242761916" MODIFIED="1568313055665">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -805,8 +805,63 @@
 </node>
 </node>
 <node CREATED="1568313061591" ID="ID_1534782026" MODIFIED="1568313069307" TEXT="&#xc5ec;&#xae30;&#xc11c; csrf&#xac12;&#xc740; &#xacc4;&#xc18d; &#xbc14;&#xb00c;&#xb294; &#xac83;&#xc744; &#xba85;&#xc2ec;&#xd574;&#xc57c; &#xd55c;&#xb2e4;."/>
-<node CREATED="1568313093366" FOLDED="true" ID="ID_1544244835" MODIFIED="1568313686776" TEXT="&#xb85c;&#xadf8;&#xc544;&#xc6c3; &#xacfc;&#xc815;(&#xc774;&#xbbf8;&#xc9c0;)">
-<node CREATED="1568313117764" MODIFIED="1568313117764">
+<node CREATED="1568442100218" ID="ID_770976836" MODIFIED="1568442103749" TEXT="csrf&#xc5d0; &#xb300;&#xd55c; &#xc815;&#xc11d;">
+<node CREATED="1568443272583" ID="ID_1815280582" LINK="https://itstory.tk/entry/CSRF-%EA%B3%B5%EA%B2%A9%EC%9D%B4%EB%9E%80-%EA%B7%B8%EB%A6%AC%EA%B3%A0-CSRF-%EB%B0%A9%EC%96%B4-%EB%B0%A9%EB%B2%95" MODIFIED="1568443273313" TEXT="https://itstory.tk/entry/CSRF-%EA%B3%B5%EA%B2%A9%EC%9D%B4%EB%9E%80-%EA%B7%B8%EB%A6%AC%EA%B3%A0-CSRF-%EB%B0%A9%EC%96%B4-%EB%B0%A9%EB%B2%95"/>
+<node CREATED="1568442104059" ID="ID_302411213" LINK="https://cheese10yun.github.io/spring-csrf/" MODIFIED="1568442104059" TEXT="https://cheese10yun.github.io/spring-csrf/"/>
+</node>
+<node CREATED="1568443275701" FOLDED="true" ID="ID_903599090" MODIFIED="1568455533766" TEXT="&#xb2e4;&#xc74c;&#xacfc; &#xac19;&#xc740; &#xc124;&#xc815;&#xc744; &#xd558;&#xba74; cookie&#xc5d0; csrf&#xd1a0;&#xd070;&#xc774; &#xb9cc;&#xb4e4;&#xc5b4;&#xc9c0;&#xba74; &#xadf8;&#xac78; parameter&#xb098; header&#xc5d0; &#xb123;&#xc5b4;&#xc11c; &#xd310;&#xb2e8;&#xd560; &#xc218; &#xc788;&#xc74c;">
+<node CREATED="1568450461305" ID="ID_937158051" MODIFIED="1568450461305" TEXT=".csrf().csrfTokenRepository(CookieCsrfTokenRepository.withHttpOnlyFalse()).and()"/>
+<node CREATED="1568451043395" ID="ID_1341482368" MODIFIED="1568451052056" TEXT="&#xd574;&#xb2f9; key &#xac12;">
+<node CREATED="1568451052477" ID="ID_1129280002" MODIFIED="1568451052477">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="&#xd544;&#xc694;&#xd55c; &#xc790;&#xbc14; &#xd29c;&#xd1a0;_8332026707814930212.jpeg" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1568450468818" ID="ID_1185239794" MODIFIED="1568455541573" TEXT="&#xae30;&#xbcf8;&#xac12;&#xc740; HttpSessionCsrfTokenRepository&#xc73c;&#xb85c; &#xc704;&#xc640; &#xac19;&#xc740; &#xc124;&#xc815;&#xc744; &#xc548;&#xd558;&#xba74; &#xc138;&#xc158;&#xc5d0; &#xae30;&#xb85d;&#xc774; &#xb428;(&#xc774;&#xbbf8;&#xc9c0;)">
+<node CREATED="1568450513280" ID="ID_1201735062" MODIFIED="1568450513280">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="&#xd544;&#xc694;&#xd55c; &#xc790;&#xbc14; &#xd29c;&#xd1a0;_6291916685446520198.jpeg" />
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1568450883439" ID="ID_1258490975" MODIFIED="1568450883439">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="&#xd544;&#xc694;&#xd55c; &#xc790;&#xbc14; &#xd29c;&#xd1a0;_1274980966365675840.jpeg" />
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1568456733593" ID="ID_1812801222" MODIFIED="1568456733593">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="&#xd544;&#xc694;&#xd55c; &#xc790;&#xbc14; &#xd29c;&#xd1a0;_6159957515725029981.jpeg" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1568313093366" FOLDED="true" ID="ID_1544244835" MODIFIED="1568455510375" TEXT="&#xb85c;&#xadf8;&#xc544;&#xc6c3; &#xacfc;&#xc815;(&#xc774;&#xbbf8;&#xc9c0;)">
+<node CREATED="1568313117764" ID="ID_479823995" MODIFIED="1568313117764">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -818,7 +873,7 @@
 </node>
 </node>
 <node CREATED="1568313756080" ID="ID_1246584457" MODIFIED="1568313757828" TEXT="&#xae30;&#xbcf8;&#xc801;&#xc778; &#xbb38;&#xc11c;">
-<node CREATED="1568313758137" LINK="https://docs.spring.io/spring-security/site/docs/current/reference/htmlsingle/" MODIFIED="1568313758137" TEXT="https://docs.spring.io/spring-security/site/docs/current/reference/htmlsingle/"/>
+<node CREATED="1568313758137" ID="ID_254142837" LINK="https://docs.spring.io/spring-security/site/docs/current/reference/htmlsingle/" MODIFIED="1568313758137" TEXT="https://docs.spring.io/spring-security/site/docs/current/reference/htmlsingle/"/>
 </node>
 <node CREATED="1568313705816" ID="ID_202724480" MODIFIED="1568313731700" TEXT="&#xc5ec;&#xae30;&#xc5d0; &#xb300;&#xd55c; &#xae30;&#xbcf8;&#xc801;&#xc778; &#xc124;&#xba85; &#xbc0f; &#xd574;&#xb2f9; form&#xc744; ajax&#xb85c; &#xd558;&#xc5ec;&#xae08; &#xac00;&#xc838;&#xc624;&#xb294; &#xb9c1;&#xd06c;&#xb294; &#xb2e4;&#xc74c;&#xacfc; &#xac19;&#xb2e4;.">
 <node CREATED="1568313739355" ID="ID_127590107" LINK="https://www.baeldung.com/securing-a-restful-web-service-with-spring-security" MODIFIED="1568313739355" TEXT="https://www.baeldung.com/securing-a-restful-web-service-with-spring-security"/>
@@ -829,9 +884,10 @@
 <node CREATED="1568314315867" LINK="https://cusonar.tistory.com/17" MODIFIED="1568314315867" TEXT="https://cusonar.tistory.com/17"/>
 </node>
 </node>
-<node CREATED="1568315248485" FOLDED="true" ID="ID_1302497736" MODIFIED="1568315260489" TEXT="&#xba40;&#xd2f0; &#xc2a4;&#xd504;&#xb9c1; security">
+<node CREATED="1568315248485" ID="ID_1302497736" MODIFIED="1568497134469" TEXT="&#xba40;&#xd2f0; &#xc2a4;&#xd504;&#xb9c1; security">
 <node CREATED="1568315259848" LINK="https://www.baeldung.com/spring-security-multiple-entry-points" MODIFIED="1568315259848" TEXT="https://www.baeldung.com/spring-security-multiple-entry-points"/>
 </node>
+<node CREATED="1568497135171" ID="ID_800973937" MODIFIED="1568497145305" TEXT="context-path&#xb97c; &#xc9c0;&#xc6b0;&#xace0; &#xc2f6;&#xc740;&#xb370; &#xc9c0;&#xc6cc;&#xc9c0;&#xc9c0;&#xac00; &#xc54a;&#xb294;&#xb2e4;."/>
 </node>
 </node>
 </map>

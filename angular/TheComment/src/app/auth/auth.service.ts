@@ -15,11 +15,17 @@ export class AuthService {
   // }
 
   login(loginData:any){
-    return this.http.post(environment.ApiUrl + "/login",loginData);
+    return this.http.post(environment.ApiUrl + "/login",loginData,{
+      withCredentials: true
+    });
   }
 
   logout(){
     return this.http.post(environment.ApiUrl + "/logout","");
+  }
+
+  getToken(){
+    return this.http.get(environment.ApiUrl + "/getCsrfToken");
   }
 
 }

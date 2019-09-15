@@ -166,7 +166,7 @@
 <node CREATED="1563423909198" MODIFIED="1563423909198" TEXT="console.log(1);"/>
 </node>
 </node>
-<node CREATED="1563423910453" FOLDED="true" ID="ID_1982412557" MODIFIED="1563443222961" POSITION="right" TEXT="http">
+<node CREATED="1563423910453" ID="ID_1982412557" MODIFIED="1568491914206" POSITION="right" TEXT="http">
 <node CREATED="1563424209734" ID="ID_1033775365" MODIFIED="1563424212616" TEXT="&#xc11c;&#xbc84;&#xb9cc;&#xb4e4;&#xae30;">
 <node CREATED="1563425549613" MODIFIED="1563425549613" TEXT="const http = require(&apos;http&apos;);"/>
 <node COLOR="#3333ff" CREATED="1563425549617" ID="ID_1184270054" MODIFIED="1563425551392" STYLE="bubble" TEXT="const server = http.createServer((req,res) =&gt;{">
@@ -181,7 +181,7 @@
 <node CREATED="1563425549633" MODIFIED="1563425549633" TEXT="console.log(&apos;server is running&apos;);"/>
 </node>
 </node>
-<node CREATED="1563425853972" FOLDED="true" ID="ID_292138073" MODIFIED="1563443222962" POSITION="right" TEXT="stream">
+<node CREATED="1563425853972" FOLDED="true" ID="ID_292138073" MODIFIED="1568491913984" POSITION="right" TEXT="stream">
 <node CREATED="1563425860213" ID="ID_1931335726" MODIFIED="1563425862655" TEXT="&#xc11c;&#xbc84;&#xc5d0;&#xc11c; &#xc2a4;&#xd2b8;&#xb9bc;">
 <node CREATED="1563427575386" ID="ID_1982757786" MODIFIED="1563427575386" TEXT="const http = require(&apos;http&apos;);"/>
 <node CREATED="1563427575389" ID="ID_608998583" MODIFIED="1563427575389" TEXT="const fs = require(&apos;fs&apos;);"/>
@@ -196,7 +196,7 @@
 <node CREATED="1563427694213" ID="ID_1244147440" MODIFIED="1563427698848" TEXT="&#xc6f9;&#xc11c;&#xbc84;&#xc5d0;&#xc11c; &#xd074;&#xb77c;&#xc774;&#xc5b8;&#xd2b8;&#xb85c;"/>
 <node CREATED="1563427699068" ID="ID_1653974345" MODIFIED="1563427703632" TEXT="&#xd074;&#xb77c;&#xc774;&#xc5b8;&#xd2b8;&#xc5d0;&#xc11c; &#xc6f9;&#xc11c;&#xbc84;&#xb85c;"/>
 </node>
-<node CREATED="1563429441100" FOLDED="true" ID="ID_1372718028" MODIFIED="1563443222963" POSITION="right" TEXT="pipe">
+<node CREATED="1563429441100" FOLDED="true" ID="ID_1372718028" MODIFIED="1568491911455" POSITION="right" TEXT="pipe">
 <node CREATED="1563429463188" ID="ID_1845978297" MODIFIED="1563429463188" TEXT="const http = require(&apos;http&apos;);"/>
 <node CREATED="1563429463191" ID="ID_133149780" MODIFIED="1563429463191" TEXT="const fs = require(&apos;fs&apos;);"/>
 <node CREATED="1563429463193" ID="ID_903223537" MODIFIED="1563429463193" TEXT="const readable = fs.createReadStream(&apos;./message.txt&apos;);"/>
@@ -219,7 +219,7 @@
 <node CREATED="1563429463206" ID="ID_1640393921" MODIFIED="1563429463206" TEXT="console.log(&apos;server is running&apos;);"/>
 <node CREATED="1563429463207" ID="ID_1294326038" MODIFIED="1563429463207" TEXT="//readable.pipe(writable);"/>
 </node>
-<node CREATED="1563430757907" FOLDED="true" ID="ID_1723751535" MODIFIED="1563443222964" POSITION="right" TEXT="html pipie">
+<node CREATED="1563430757907" FOLDED="true" ID="ID_1723751535" MODIFIED="1568491909534" POSITION="right" TEXT="html pipie">
 <node CREATED="1563430760953" ID="ID_341156972" MODIFIED="1563430760953" TEXT="const http = require(&apos;http&apos;);"/>
 <node CREATED="1563430760954" ID="ID_366084648" MODIFIED="1563430760954" TEXT="const fs = require(&apos;fs&apos;);"/>
 <node CREATED="1563430760955" ID="ID_755998239" MODIFIED="1563430760955" TEXT="const readable = fs.createReadStream(&apos;./message.html&apos;);"/>
@@ -240,7 +240,7 @@
 <node CREATED="1563430760968" MODIFIED="1563430760968" TEXT="console.log(&apos;server is running&apos;);"/>
 <node CREATED="1563430760969" MODIFIED="1563430760969" TEXT="//readable.pipe(writable);"/>
 </node>
-<node CREATED="1563443192403" FOLDED="true" ID="ID_28399277" MODIFIED="1563443200861" POSITION="right" TEXT="&#xac04;&#xb2e8;&#xd55c; &#xb77c;&#xc6b0;&#xd305;">
+<node CREATED="1563443192403" ID="ID_28399277" MODIFIED="1568491895555" POSITION="right" TEXT="&#xac04;&#xb2e8;&#xd55c; &#xb77c;&#xc6b0;&#xd305;">
 <node CREATED="1563443200031" MODIFIED="1563443200031" TEXT="const http = require(&apos;http&apos;);"/>
 <node CREATED="1563443200033" MODIFIED="1563443200033" TEXT="const fs = require(&apos;fs&apos;);"/>
 <node CREATED="1563443200033" MODIFIED="1563443200033" TEXT="// readable.on(&apos;data&apos;,(data) =&gt;{"/>

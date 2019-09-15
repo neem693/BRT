@@ -58,7 +58,7 @@ public class WebConfig implements WebMvcConfigurer{
 	@Override
 	public void addCorsMappings(CorsRegistry registry) {
 		// TODO Auto-generated method stub
-		registry.addMapping("/**").allowedOrigins("http://127.0.0.1:4200","http://127.0.0.1:8111");
+		registry.addMapping("/**").allowedOrigins("http://127.0.0.1:4200","http://127.0.0.1:8111").allowCredentials(true);
 	}
 	
 
