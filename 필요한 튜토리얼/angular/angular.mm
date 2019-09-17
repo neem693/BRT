@@ -258,7 +258,7 @@
 <node CREATED="1565935728590" FOLDED="true" ID="ID_1076129162" MODIFIED="1568492014972" POSITION="right" TEXT="&#xc6f9;&#xc18c;&#xcf13; angular 8">
 <node CREATED="1565935736461" ID="ID_1135322578" MODIFIED="1565935754284" TEXT="&#xd574;&#xb2f9; &#xbd80;&#xbd84;&#xc740; &quot;&#xd544;&#xc694;&#xd55c; &#xc790;&#xbc14; &#xd29c;&#xd1a0;.mm&quot;&#xc5d0; &#xc218;&#xb85d;"/>
 </node>
-<node CREATED="1565935977236" FOLDED="true" ID="ID_1913734800" MODIFIED="1568492017268" POSITION="right" TEXT="build,&#xd560;&#xb54c; &#xc800;&#xb807;&#xac8c; &#xc548;&#xd558;&#xba74; optimiation &#xc548;&#xb418;&#xc11c; &#xc18d;&#xb3c4;&#xac00; &#xb290;&#xb9bc;">
+<node CREATED="1565935977236" ID="ID_1913734800" MODIFIED="1568537863378" POSITION="right" TEXT="build,&#xd560;&#xb54c; &#xc800;&#xb807;&#xac8c; &#xc548;&#xd558;&#xba74; optimiation &#xc548;&#xb418;&#xc11c; &#xc18d;&#xb3c4;&#xac00; &#xb290;&#xb9bc;">
 <node CREATED="1565935988343" ID="ID_1908958448" MODIFIED="1565935988343" TEXT="ng build --configuration=production"/>
 </node>
 <node CREATED="1568145413258" FOLDED="true" ID="ID_1724462060" MODIFIED="1568492018835" POSITION="right" TEXT="CLI">
@@ -297,6 +297,21 @@
 </node>
 <node CREATED="1568493941697" FOLDED="true" ID="ID_1616242021" MODIFIED="1568493950703" POSITION="right" TEXT="angular header &#xbc14;&#xafb8;&#xae30;">
 <node CREATED="1568493949141" LINK="https://stackoverflow.com/questions/45286764/angular-httpclient-doesnt-send-header" MODIFIED="1568493949141" TEXT="https://stackoverflow.com/questions/45286764/angular-httpclient-doesnt-send-header"/>
+</node>
+<node COLOR="#3333ff" CREATED="1568562718559" ID="ID_1095909481" MODIFIED="1568562725650" POSITION="right" STYLE="bubble" TEXT="angular context path &#xbd99;&#xc774;&#xae30;">
+<font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
+<node CREATED="1568562726198" MODIFIED="1568562726198" TEXT="ng serve --base-href &quot;/TctPro&quot;"/>
+</node>
+<node CREATED="1568562727956" ID="ID_1520797188" MODIFIED="1568562733841" POSITION="right" TEXT="&#xd504;&#xb85d;&#xc2dc; &#xc11c;&#xbc84; &#xc0ac;&#xc6a9;">
+<node CREATED="1568562749885" LINK="https://angular.io/guide/build#proxying-to-a-backend-server" MODIFIED="1568562749885" TEXT="https://angular.io/guide/build#proxying-to-a-backend-server"/>
+<node CREATED="1568570863814" LINK="https://www.youtube.com/watch?v=OjmZPPKaj6A" MODIFIED="1568570863814" TEXT="https://www.youtube.com/watch?v=OjmZPPKaj6A"/>
+</node>
+<node CREATED="1568572211565" ID="ID_1968995380" MODIFIED="1568572212958" POSITION="right" TEXT="&#xcfe0;&#xd0a4;">
+<node CREATED="1568572217297" LINK="https://developer.mozilla.org/ko/docs/Web/HTTP/Cookies" MODIFIED="1568572217297" TEXT="https://developer.mozilla.org/ko/docs/Web/HTTP/Cookies"/>
+</node>
+<node CREATED="1568624291452" ID="ID_781460189" MODIFIED="1568624295245" POSITION="right" TEXT="httpInterceptor">
+<node CREATED="1568624295861" ID="ID_369433407" LINK="https://angular.io/api/common/http/HttpInterceptor" MODIFIED="1568624295861" TEXT="https://angular.io/api/common/http/HttpInterceptor"/>
+<node CREATED="1568628813376" ID="ID_574785617" LINK="https://blog.angularindepth.com/top-10-ways-to-use-interceptors-in-angular-db450f8a62d6" MODIFIED="1568628813376" TEXT="https://blog.angularindepth.com/top-10-ways-to-use-interceptors-in-angular-db450f8a62d6"/>
 </node>
 </node>
 </map>

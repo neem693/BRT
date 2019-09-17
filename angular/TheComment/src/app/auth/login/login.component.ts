@@ -49,32 +49,33 @@ export class LoginComponent implements OnInit {
 
 
 
-    // this.authService.getToken().subscribe(
-    //   (data)=>{
-    //     console.log(data);
-    //     this.token.value = data['value'];
-    //     this.token.load = true;
-    //   },
-    //   (error)=>{
+    this.authService.getToken().subscribe(
+      (data)=>{
+        // console.log(data);
+        // this.token.value = data['value'];
+        // this.token.load = true;
+        // Cookies.set("JSESSIONID", data['sessionId']);
+      },
+      (error)=>{
 
-    //   }
-    //   )
+      }
+      )
   }
 
   loginFunction(data: any) {
-    this.token.value = Cookies.get("XSRF-TOKEN")
-    console.log(data);
-    let form_data = new FormData();
+   // this.token.value = Cookies.get("XSRF-TOKEN")
+    //console.log(data);
+    // let form_data = new FormData();
 
-    for (var key in data) {
-      form_data.append(key, data[key]);
-    }
-    console.log(this.token.value);
-    form_data.append("_csrf",this.token.value);
+    // for (var key in data) {
+    //   form_data.append(key, data[key]);
+    // }
+    //console.log(this.token.value);
+   // form_data.append("_csrf",this.token.value);
     
 
-    console.log(form_data);
-    this.authService.login(form_data).subscribe(
+    console.log(data);
+    this.authService.login(data).subscribe(
       (next) => {
         console.log(next);
       }, (error) => {

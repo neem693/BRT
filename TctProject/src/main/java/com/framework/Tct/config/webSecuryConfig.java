@@ -6,11 +6,14 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.access.AccessDeniedException;
+import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
+import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.AuthenticationException;
 import org.springframework.security.web.AuthenticationEntryPoint;
@@ -19,6 +22,8 @@ import org.springframework.security.web.authentication.AuthenticationFailureHand
 import org.springframework.security.web.authentication.AuthenticationSuccessHandler;
 import org.springframework.security.web.csrf.CookieCsrfTokenRepository;
 import org.springframework.security.web.csrf.HttpSessionCsrfTokenRepository;
+import org.springframework.web.server.session.HeaderWebSessionIdResolver;
+import org.springframework.web.server.session.WebSessionIdResolver;
 
 import com.framework.Tct.Const.PublicConst;
 
@@ -34,14 +39,18 @@ public class webSecuryConfig extends WebSecurityConfigurerAdapter {
 		 sessionCsrf.setSessionAttributeName(PublicConst.SPRING_SCURITY.CSRF_TOKEN);
 
 		http.cors().and()
+				.sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS).and()
 				//.csrf().disable()
-				.csrf().csrfTokenRepository(CookieCsrfTokenRepository.withHttpOnlyFalse()).and()
+				.csrf().csrfTokenRepository(getCookieCsfrTokenRepository()).and()
 				//.csrf().csrfTokenRepository(sessionCsrf).and()
 				.authorizeRequests().antMatchers("/", "/*.js", "/*.css", "/assets/**", "/Home/**", "/getCsrfToken","/login")
-				.permitAll().anyRequest().authenticated().and().formLogin().successHandler(successHandler())
-				.failureHandler(failureHandler())
-				// .loginPage("/login")
-				.permitAll().and().logout().permitAll();
+				.permitAll()
+				.anyRequest().authenticated().and()
+//				.formLogin()
+//				.successHandler(successHandler())
+//				.failureHandler(failureHandler())
+//			    .loginPage("/login").permitAll().and()
+				.logout().permitAll();
 	}
 
 	@Override
@@ -77,28 +86,20 @@ public class webSecuryConfig extends WebSecurityConfigurerAdapter {
 			}
 		};
 	}
-
-	private AccessDeniedHandler accessDeniedHandler() {
-		return new AccessDeniedHandler() {
-			@Override
-			public void handle(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse,
-					AccessDeniedException e) throws IOException, ServletException {
-				httpServletResponse.getWriter().append("Access denied");
-				httpServletResponse.setStatus(403);
-			}
-		};
+	
+	@Bean
+	public CookieCsrfTokenRepository getCookieCsfrTokenRepository(){
+		// TODO Auto-generated method stub
+		CookieCsrfTokenRepository cookieTokenConfig = CookieCsrfTokenRepository.withHttpOnlyFalse();
+		//cookieTokenConfig.setCookiePath("/");
+		return cookieTokenConfig;
 	}
-
-	private AuthenticationEntryPoint authenticationEntryPoint() {
-		return new AuthenticationEntryPoint() {
-			@Override
-			public void commence(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse,
-					AuthenticationException e) throws IOException, ServletException {
-				httpServletResponse.getWriter().append("Not authenticated");
-				httpServletResponse.setStatus(401);
-			}
-
-		};
+	
+	@Bean
+	public AuthenticationManager getAuthenticationManager() throws Exception {
+		return super.authenticationManager();
 	}
+	
+
 
 }

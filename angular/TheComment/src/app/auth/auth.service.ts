@@ -16,7 +16,7 @@ export class AuthService {
 
   login(loginData:any){
     return this.http.post(environment.ApiUrl + "/login",loginData,{
-      withCredentials: true
+      withCredentials:true
     });
   }
 

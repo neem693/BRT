@@ -1,7 +1,7 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1563357265691" ID="ID_1123568473" MODIFIED="1563357388156" TEXT="nodeJS">
-<node CREATED="1563357371681" FOLDED="true" ID="ID_900935524" MODIFIED="1563443222958" POSITION="right" TEXT="&#xd568;&#xc218;&#xc5d0; &#xb300;&#xd55c; &#xac83;">
+<node CREATED="1563357371681" ID="ID_900935524" MODIFIED="1568491948473" POSITION="right" TEXT="&#xd568;&#xc218;&#xc5d0; &#xb300;&#xd55c; &#xac83;">
 <node CREATED="1563357392161" ID="ID_1798328365" MODIFIED="1563357492595" TEXT="&#xd568;&#xc218;&#xc120;&#xc5b8;">
 <node CREATED="1563357492575" FOLDED="true" ID="ID_536169701" MODIFIED="1563357510240" TEXT="&#xd568;&#xc218; statement">
 <node CREATED="1563357375056" ID="ID_724845151" MODIFIED="1563357504596" TEXT="function callHero(){">
@@ -31,14 +31,14 @@
 </node>
 <node CREATED="1563358533579" ID="ID_712661176" MODIFIED="1563358533579" TEXT="};"/>
 <node CREATED="1563358533580" ID="ID_1395401675" MODIFIED="1563358533580" TEXT="module.exports.heroList = [&apos;Superman&apos;,&apos;Birdman&apos;];"/>
-<node CREATED="1563358533580" MODIFIED="1563358533580" TEXT="module.exports.adder = function adder(a,b){">
+<node CREATED="1563358533580" ID="ID_1705311839" MODIFIED="1563358533580" TEXT="module.exports.adder = function adder(a,b){">
 <node CREATED="1563358533580" MODIFIED="1563358533580" TEXT="return a+b;"/>
 </node>
-<node CREATED="1563358533581" MODIFIED="1563358533581" TEXT="};"/>
+<node CREATED="1563358533581" ID="ID_1067486499" MODIFIED="1563358533581" TEXT="};"/>
 </node>
 <node COLOR="#3333ff" CREATED="1563358633504" ID="ID_1408078538" MODIFIED="1563358641477" STYLE="bubble" TEXT="heroes.js(&#xbcf4;&#xd1b5; &#xc774;&#xb807;&#xac8c; &#xbaa8;&#xb4c8; &#xc124;&#xc815;)">
 <font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
-<node CREATED="1563358641972" MODIFIED="1563358641972" TEXT="function callHero(){">
+<node CREATED="1563358641972" ID="ID_1693513068" MODIFIED="1563358641972" TEXT="function callHero(){">
 <node CREATED="1563358641973" MODIFIED="1563358641973" TEXT="console.log(&quot;hi, Superman, it is a function statement&quot;);"/>
 </node>
 <node CREATED="1563358641974" MODIFIED="1563358641974" TEXT="}"/>
@@ -55,37 +55,37 @@
 <node CREATED="1563358641978" MODIFIED="1563358641978" TEXT="}"/>
 </node>
 </node>
-<node CREATED="1563365545801" FOLDED="true" ID="ID_1925728577" MODIFIED="1563365549602" POSITION="right" TEXT="event">
-<node CREATED="1563365549144" MODIFIED="1563365549144" TEXT="const events = require(&apos;events&apos;);"/>
-<node CREATED="1563365549149" MODIFIED="1563365549149" TEXT="const util = require(&apos;util&apos;);"/>
-<node CREATED="1563365549150" MODIFIED="1563365549150" TEXT="const Hero = function(name){">
+<node CREATED="1563365545801" ID="ID_1925728577" MODIFIED="1568491921442" POSITION="right" TEXT="event">
+<node CREATED="1563365549144" ID="ID_625422859" MODIFIED="1563365549144" TEXT="const events = require(&apos;events&apos;);"/>
+<node CREATED="1563365549149" ID="ID_647051559" MODIFIED="1563365549149" TEXT="const util = require(&apos;util&apos;);"/>
+<node CREATED="1563365549150" ID="ID_1583106363" MODIFIED="1563365549150" TEXT="const Hero = function(name){">
 <node CREATED="1563365549151" MODIFIED="1563365549151" TEXT="this.name = name;"/>
 </node>
-<node CREATED="1563365549152" MODIFIED="1563365549152" TEXT="}"/>
-<node CREATED="1563365549153" MODIFIED="1563365549153" TEXT="util.inherits(Hero,events.EventEmitter);"/>
-<node CREATED="1563365549154" MODIFIED="1563365549154" TEXT="const superman = new Hero(&apos;Superman&apos;); // {name : &apos;Superman&apos;}"/>
-<node CREATED="1563365549155" MODIFIED="1563365549155" TEXT="const birdman = new Hero(&apos;birdman&apos;); // {name : &apos;Superman&apos;}"/>
-<node CREATED="1563365549156" MODIFIED="1563365549156" TEXT="const batman = new Hero(&apos;batman&apos;); // {name : &apos;Superman&apos;}"/>
-<node CREATED="1563365549157" MODIFIED="1563365549157" TEXT="console.log(superman);"/>
-<node CREATED="1563365549158" MODIFIED="1563365549158" TEXT="const heroList =[superman,birdman,batman];"/>
-<node CREATED="1563365549159" MODIFIED="1563365549159" TEXT="heroList.forEach(function(hero) {">
-<node CREATED="1563365549159" MODIFIED="1563365549159" TEXT="hero.on(&apos;call&apos;,function(message){">
-<node CREATED="1563365549161" MODIFIED="1563365549161" TEXT="console.log(hero.name + &apos;fights with Joker&apos; + message);"/>
+<node CREATED="1563365549152" ID="ID_1308933056" MODIFIED="1563365549152" TEXT="}"/>
+<node CREATED="1563365549153" ID="ID_1170255190" MODIFIED="1563365549153" TEXT="util.inherits(Hero,events.EventEmitter);"/>
+<node CREATED="1563365549154" ID="ID_1471697943" MODIFIED="1563365549154" TEXT="const superman = new Hero(&apos;Superman&apos;); // {name : &apos;Superman&apos;}"/>
+<node CREATED="1563365549155" ID="ID_1958120807" MODIFIED="1563365549155" TEXT="const birdman = new Hero(&apos;birdman&apos;); // {name : &apos;Superman&apos;}"/>
+<node CREATED="1563365549156" ID="ID_934978965" MODIFIED="1563365549156" TEXT="const batman = new Hero(&apos;batman&apos;); // {name : &apos;Superman&apos;}"/>
+<node CREATED="1563365549157" ID="ID_1932754477" MODIFIED="1563365549157" TEXT="console.log(superman);"/>
+<node CREATED="1563365549158" ID="ID_1454619982" MODIFIED="1563365549158" TEXT="const heroList =[superman,birdman,batman];"/>
+<node CREATED="1563365549159" ID="ID_976573246" MODIFIED="1563365549159" TEXT="heroList.forEach(function(hero) {">
+<node CREATED="1563365549159" ID="ID_1038830448" MODIFIED="1563365549159" TEXT="hero.on(&apos;call&apos;,function(message){">
+<node CREATED="1563365549161" ID="ID_980430017" MODIFIED="1563365549161" TEXT="console.log(hero.name + &apos;fights with Joker&apos; + message);"/>
 </node>
 <node CREATED="1563365549162" MODIFIED="1563365549162" TEXT="})"/>
 </node>
-<node CREATED="1563365549163" MODIFIED="1563365549163" TEXT="});"/>
-<node CREATED="1563365549163" MODIFIED="1563365549163" TEXT="superman.emit(&apos;call&apos;,&apos;&#xace0;&#xb9c8;&#xc6cc;&#xc694;&apos;);"/>
+<node CREATED="1563365549163" ID="ID_1120359937" MODIFIED="1563365549163" TEXT="});"/>
+<node CREATED="1563365549163" ID="ID_874936945" MODIFIED="1563365549163" TEXT="superman.emit(&apos;call&apos;,&apos;&#xace0;&#xb9c8;&#xc6cc;&#xc694;&apos;);"/>
 <node CREATED="1563365549164" MODIFIED="1563365549164" TEXT="birdman.emit(&apos;call&apos;,&apos;&#xace0;&#xb9c8;&#xc6cc;&#xc694;&apos;);"/>
 <node CREATED="1563365549165" MODIFIED="1563365549165" TEXT="batman.emit(&apos;call&apos;,&apos;&#xace0;&#xb9c8;&#xc6cc;&#xc694;&apos;);"/>
 </node>
-<node CREATED="1563366224519" FOLDED="true" ID="ID_270163606" MODIFIED="1563443222961" POSITION="right" TEXT="File">
-<node CREATED="1563366231553" ID="ID_794467239" MODIFIED="1563373484184" TEXT="&#xb3d9;&#xae30;&#xb85c; &#xc77d;&#xae30;">
+<node CREATED="1563366224519" FOLDED="true" ID="ID_270163606" MODIFIED="1568491921110" POSITION="right" TEXT="File">
+<node CREATED="1563366231553" FOLDED="true" ID="ID_794467239" MODIFIED="1568491920269" TEXT="&#xb3d9;&#xae30;&#xb85c; &#xc77d;&#xae30;">
 <node CREATED="1563366226079" ID="ID_478986182" MODIFIED="1563366238533" TEXT="let fs = require(&apos;fs&apos;);"/>
 <node CREATED="1563366226082" ID="ID_1071618222" MODIFIED="1563366238536" TEXT="const fsTest = fs.readFileSync(&apos;app.js&apos;,&apos;utf-8&apos;);"/>
 <node CREATED="1563366226085" ID="ID_1103269532" MODIFIED="1563366226085" TEXT="console.log(fsTest);"/>
 </node>
-<node CREATED="1563366281438" ID="ID_500955411" MODIFIED="1563373471648" TEXT="&#xbe44;&#xb3d9;&#xae30;&#xb85c; &#xc77d;&#xae30;1">
+<node CREATED="1563366281438" FOLDED="true" ID="ID_500955411" MODIFIED="1568491920269" TEXT="&#xbe44;&#xb3d9;&#xae30;&#xb85c; &#xc77d;&#xae30;1">
 <node CREATED="1563366421055" MODIFIED="1563366421055" TEXT="let fs = require(&apos;fs&apos;);"/>
 <node CREATED="1563366421056" ID="ID_1803967208" MODIFIED="1563366421056" TEXT="const fsTest = fs.readFile(&apos;app.js&apos;, (err, data) =&gt; {">
 <node CREATED="1563366421057" MODIFIED="1563366421057" TEXT="if (err) throw err;"/>
@@ -106,7 +106,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1563366539550" ID="ID_518358552" MODIFIED="1563373481053" TEXT="&#xbe44;&#xb3d9;&#xae30;&#xb85c; &#xc77d;&#xae30;2(utf-8&#xb85c; &#xc124;&#xc815;)">
+<node CREATED="1563366539550" FOLDED="true" ID="ID_518358552" MODIFIED="1568491920269" TEXT="&#xbe44;&#xb3d9;&#xae30;&#xb85c; &#xc77d;&#xae30;2(utf-8&#xb85c; &#xc124;&#xc815;)">
 <node CREATED="1563366547996" ID="ID_270132078" MODIFIED="1563366547996" TEXT="let fs = require(&apos;fs&apos;);"/>
 <node CREATED="1563366547998" ID="ID_1494433046" MODIFIED="1563366547998" TEXT="const fsTest = fs.readFile(&apos;app.js&apos;,&apos;utf-8&apos;, (err, data) =&gt; {">
 <node CREATED="1563366548000" MODIFIED="1563366548000" TEXT="if (err) throw err;"/>
@@ -115,7 +115,7 @@
 </node>
 <node CREATED="1563366548008" ID="ID_337999808" MODIFIED="1563366548008" TEXT="console.log(&apos;efe&apos;);"/>
 </node>
-<node CREATED="1563414295389" ID="ID_1965360417" MODIFIED="1563414300015" TEXT="&#xb3d9;&#xae30;&#xb85c; &#xc4f0;&#xae30;">
+<node CREATED="1563414295389" FOLDED="true" ID="ID_1965360417" MODIFIED="1568491920269" TEXT="&#xb3d9;&#xae30;&#xb85c; &#xc4f0;&#xae30;">
 <node CREATED="1563414315840" ID="ID_668386652" MODIFIED="1563414315840" TEXT="const fsTest = fs.readFile(&apos;app.js&apos;,&apos;utf-8&apos;, (err, data) =&gt; {">
 <node CREATED="1563414315841" MODIFIED="1563414315841" TEXT="if (err) throw err;"/>
 <node CREATED="1563414315842" ID="ID_1901540075" MODIFIED="1563414315842" TEXT="console.log(data);"/>
@@ -127,26 +127,26 @@
 </node>
 </node>
 </node>
-<node CREATED="1563414616985" ID="ID_1961446835" MODIFIED="1563414619086" TEXT="&#xbe44;&#xb3d9;&#xae30;&#xb85c; &#xc4f0;&#xae30;">
+<node CREATED="1563414616985" FOLDED="true" ID="ID_1961446835" MODIFIED="1568491920269" TEXT="&#xbe44;&#xb3d9;&#xae30;&#xb85c; &#xc4f0;&#xae30;">
 <node COLOR="#3333ff" CREATED="1563414619424" ID="ID_893731851" MODIFIED="1563414620529" STYLE="bubble" TEXT="  fs.writeFile(&apos;message11.txt&apos;,&apos;wefwefwf&apos;,(err) =&gt; {&#xa;    if(err) throw err;&#xa;    console.log(&apos;file completly write&apos;);&#xa;  });">
 <font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
 </node>
 </node>
-<node CREATED="1563422899420" ID="ID_1871672481" MODIFIED="1563422903113" TEXT="&#xb3d9;&#xae30;&#xb85c; &#xc0ad;&#xc81c;">
+<node CREATED="1563422899420" FOLDED="true" ID="ID_1871672481" MODIFIED="1568491920269" TEXT="&#xb3d9;&#xae30;&#xb85c; &#xc0ad;&#xc81c;">
 <node CREATED="1563422917917" MODIFIED="1563422917917" TEXT="const fs = require(&apos;fs&apos;);"/>
 <node CREATED="1563422917919" MODIFIED="1563422917919" TEXT="fs.unlinkSync(&apos;message.txt&apos;);"/>
 <node CREATED="1563422917920" MODIFIED="1563422917920" TEXT="console.log(1);"/>
 </node>
-<node CREATED="1563422903573" ID="ID_1552590923" MODIFIED="1563422905104" TEXT="&#xbe44;&#xb3d9;&#xae30;&#xb85c; &#xc0ad;&#xc81c;">
+<node CREATED="1563422903573" FOLDED="true" ID="ID_1552590923" MODIFIED="1568491920269" TEXT="&#xbe44;&#xb3d9;&#xae30;&#xb85c; &#xc0ad;&#xc81c;">
 <node CREATED="1563423033704" MODIFIED="1563423033704" TEXT="fs.unlink(&apos;message.txt&apos;,()=&gt;{">
 <node CREATED="1563423033708" MODIFIED="1563423033708" TEXT="console.log(&quot;deleted the file.&quot;);"/>
 </node>
 <node CREATED="1563423033711" MODIFIED="1563423033711" TEXT="});"/>
 </node>
-<node CREATED="1563423111555" ID="ID_965960079" MODIFIED="1563423116049" TEXT="&#xb3d9;&#xae30;&#xb85c; &#xd3f4;&#xb354; &#xb9cc;&#xb4e4;&#xae30;">
+<node CREATED="1563423111555" FOLDED="true" ID="ID_965960079" MODIFIED="1568491920269" TEXT="&#xb3d9;&#xae30;&#xb85c; &#xd3f4;&#xb354; &#xb9cc;&#xb4e4;&#xae30;">
 <node CREATED="1563423123634" MODIFIED="1563423123634" TEXT="fs.mkdirSync(&apos;test&apos;);"/>
 </node>
-<node CREATED="1563423140582" ID="ID_1132718361" MODIFIED="1563423142872" TEXT="&#xc2f1;&#xd06c;&#xb85c; &#xd3f4;&#xb354; &#xc0ad;&#xc81c;">
+<node CREATED="1563423140582" FOLDED="true" ID="ID_1132718361" MODIFIED="1568491920269" TEXT="&#xc2f1;&#xd06c;&#xb85c; &#xd3f4;&#xb354; &#xc0ad;&#xc81c;">
 <node CREATED="1563423143155" MODIFIED="1563423143155" TEXT="fs.rmdirSync(&apos;test&apos;);"/>
 </node>
 <node CREATED="1563423906031" FOLDED="true" ID="ID_36913592" MODIFIED="1563423909762" TEXT="&#xbcf5;&#xd569;&#xc801; &#xc5f0;&#xc2b5;">
@@ -175,7 +175,7 @@
 <node CREATED="1563425549623" ID="ID_1855956603" MODIFIED="1563425551371" TEXT="res.end(&apos;Okay, I am listening your request, give me one.&apos;);"/>
 <node CREATED="1563425549625" ID="ID_1182708515" MODIFIED="1563425551371" TEXT="console.log(&apos;Server is listening...&apos;);"/>
 </node>
-<node CREATED="1563425549627" MODIFIED="1563425549627" TEXT="})"/>
+<node CREATED="1563425549627" ID="ID_1700884553" MODIFIED="1563425549627" TEXT="})"/>
 <node CREATED="1563425549629" MODIFIED="1563425549629" TEXT="server.listen(5500,&apos;127.0.0.1&apos;);"/>
 <node CREATED="1563425549631" MODIFIED="1563425549631" TEXT="console.log(&apos;&apos;);"/>
 <node CREATED="1563425549633" MODIFIED="1563425549633" TEXT="console.log(&apos;server is running&apos;);"/>

@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import {HttpClientModule} from '@angular/common/http';
+import {HttpClientModule, HTTP_INTERCEPTORS} from '@angular/common/http';
 import {ScrollDispatchModule} from '@angular/cdk/scrolling'
 import {DragDropModule} from '@angular/cdk/drag-drop'
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations'
@@ -32,7 +32,7 @@ import { AddProductComponent } from './product/add-product/add-product.component
 import { ProductServiceService } from './product/product-service.service';
 import { WebSocketComponent } from './web-socket/web-socket.component';
 import { LoginComponent } from './auth/login/login.component';
-
+import { AuthInterceptor } from './httpInterceptor/authInterceptor';
 
 
 
@@ -79,7 +79,12 @@ import { LoginComponent } from './auth/login/login.component';
               ProductServiceService,
               AuthService,
               {provide:MAT_DATE_LOCALE,useValue:'ko'},
-            {provide:MAT_DATE_FORMATS,useValue:KoreaDateFormat}],
+            {provide:MAT_DATE_FORMATS,useValue:KoreaDateFormat},
+            {provide:HTTP_INTERCEPTORS,
+            useClass:AuthInterceptor,
+            multi:true
+            }],
+
   bootstrap: [AppComponent]
 })
 export class AppModule { }

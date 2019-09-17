@@ -2,9 +2,8 @@ welcome:
     message: 잘 왔다 이곳에 이곳은 클라이언트 콘피그지 하하하하
 server:  
   servlet:
-    context-path: /TctPro
+    context-path: /
     port: 8081
-    
     
 spring:
   application:
