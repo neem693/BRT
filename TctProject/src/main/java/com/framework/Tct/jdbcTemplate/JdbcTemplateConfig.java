@@ -15,7 +15,8 @@ public class JdbcTemplateConfig {
 	@Bean
 	@Qualifier("getPrimaryTemplate")
 	public JdbcTemplate getPrimaryJdbcTemplate(@Qualifier("primaryDataSource") DataSource ds) {
-		return new JdbcTemplate(ds);
+		JdbcTemplate jdbcTemplate = new JdbcTemplate(ds);
+		return jdbcTemplate;
 	}
 
 }

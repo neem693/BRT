@@ -14,6 +14,8 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.scheduling.annotation.EnableScheduling;
+import org.springframework.security.oauth2.config.annotation.web.configuration.EnableAuthorizationServer;
+import org.springframework.security.oauth2.config.annotation.web.configuration.EnableResourceServer;
 import org.springframework.web.client.RestTemplate;
 
 import com.framework.Tct.Const.PrivateConst;
@@ -24,6 +26,8 @@ import com.twilio.Twilio;
 @EnableEurekaClient
 @RefreshScope
 @EnableHystrix
+@EnableAuthorizationServer
+@EnableResourceServer
 public class TctProjectApplication extends SpringBootServletInitializer implements ApplicationRunner {
 	
 	static {

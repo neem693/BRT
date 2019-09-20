@@ -28,6 +28,10 @@ eureka:
 logging:
   level:
     root: debug
+    org:
+      springframework:
+        jdbc: debug
+    
     
 #스프링 부트 2.0 이상부터는 management.endpoints.web.exposure.include를 사용해야 한다.
 #management.security.enabled대신 위에껄 사용해야 한다.
@@ -46,7 +50,7 @@ management:
         include: metrics,trace,env,beans,health,info
       cors:
         allowed-origins: http://127.0.0.1:4200,http://127.0.0.1:8111
-  
+
   
 
 

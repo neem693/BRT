@@ -1,7 +1,7 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1563506704097" ID="ID_1368787532" MODIFIED="1563506746549" TEXT="webpack">
-<node BACKGROUND_COLOR="#ffffff" COLOR="#ff3333" CREATED="1563506921971" ID="ID_243728185" MODIFIED="1564416755674" POSITION="right" STYLE="bubble" TEXT="&#xd574;&#xb2f9; &#xd29c;&#xd1a0;&#xb9ac;&#xc5bc;&#xc740; &#xc5ec;&#xae30;&#xc5d0; &#xc788;&#xc73c;&#xba70; &#xc9c4;&#xd589;&#xd558;&#xba74;&#xb41c;&#xb2e4;.">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#ff3333" CREATED="1563506921971" FOLDED="true" ID="ID_243728185" MODIFIED="1568878954494" POSITION="right" STYLE="bubble" TEXT="&#xd574;&#xb2f9; &#xd29c;&#xd1a0;&#xb9ac;&#xc5bc;&#xc740; &#xc5ec;&#xae30;&#xc5d0; &#xc788;&#xc73c;&#xba70; &#xc9c4;&#xd589;&#xd558;&#xba74;&#xb41c;&#xb2e4;.">
 <font BOLD="true" NAME="a&#xace0;&#xb515;15" SIZE="24"/>
 <node CREATED="1563506926113" ID="ID_1097539556" LINK="https://webpack.js.org/guides/getting-started/" MODIFIED="1563508109429" TEXT="https://webpack.js.org/guides/getting-started/"/>
 <node CREATED="1563506775475" ID="ID_1439468985" MODIFIED="1563508606747" TEXT="webpack-demo &#xd3f4;&#xb354;&#xb97c; &#xb9cc;&#xb4e4;&#xace0; npm&#xc73c;&#xb85c; webpck&#xacfc; &#xad00;&#xb828;&#xb41c; &#xb450;&#xac1c; &#xc124;&#xce58;">
@@ -78,7 +78,7 @@
 </node>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#ff3333" CREATED="1563507059786" ID="ID_1967967712" MODIFIED="1563508624858" POSITION="right" STYLE="bubble" TEXT="&#xb450;&#xbc88;&#xc9f8; &#xd29c;&#xd1a0;&#xb9ac;&#xc5bc;&#xc740; asset &#xad00;&#xb9ac;&#xc774;&#xb2e4;.">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#ff3333" CREATED="1563507059786" FOLDED="true" ID="ID_1967967712" MODIFIED="1568878954495" POSITION="right" STYLE="bubble" TEXT="&#xb450;&#xbc88;&#xc9f8; &#xd29c;&#xd1a0;&#xb9ac;&#xc5bc;&#xc740; asset &#xad00;&#xb9ac;&#xc774;&#xb2e4;.">
 <font BOLD="true" NAME="a&#xace0;&#xb515;15" SIZE="24"/>
 <node CREATED="1563507073827" LINK="https://webpack.js.org/guides/asset-management/" MODIFIED="1563508110726" TEXT="https://webpack.js.org/guides/asset-management/"/>
 <node CREATED="1563508624834" ID="ID_110331369" MODIFIED="1563512314142" TEXT="css loading">

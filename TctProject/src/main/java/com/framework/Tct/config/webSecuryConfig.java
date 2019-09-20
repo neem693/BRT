@@ -6,16 +6,22 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.access.AccessDeniedException;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
+import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
+import org.springframework.security.config.annotation.web.builders.WebSecurity;
+import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.AuthenticationException;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.AuthenticationEntryPoint;
 import org.springframework.security.web.access.AccessDeniedHandler;
 import org.springframework.security.web.authentication.AuthenticationFailureHandler;
@@ -26,9 +32,15 @@ import org.springframework.web.server.session.HeaderWebSessionIdResolver;
 import org.springframework.web.server.session.WebSessionIdResolver;
 
 import com.framework.Tct.Const.PublicConst;
+import com.framework.Tct.oAuth2.CustomDetailService;
 
 @Configuration
+@EnableWebSecurity
+@EnableGlobalMethodSecurity(prePostEnabled = true)
 public class webSecuryConfig extends WebSecurityConfigurerAdapter {
+	
+	@Autowired
+	CustomDetailService customDetailService;
 
 	@Override
 	protected void configure(HttpSecurity http) throws Exception {
@@ -38,8 +50,9 @@ public class webSecuryConfig extends WebSecurityConfigurerAdapter {
 		 HttpSessionCsrfTokenRepository sessionCsrf = new HttpSessionCsrfTokenRepository();
 		 sessionCsrf.setSessionAttributeName(PublicConst.SPRING_SCURITY.CSRF_TOKEN);
 
+		 /* 시큐리티 기본 베이직 
 		http.cors().and()
-				.sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS).and()
+				//.sessionManagement().sessionCreationPolicy(SessionCreationPolicy.NEVER).and()
 				//.csrf().disable()
 				.csrf().csrfTokenRepository(getCookieCsfrTokenRepository()).and()
 				//.csrf().csrfTokenRepository(sessionCsrf).and()
@@ -50,15 +63,38 @@ public class webSecuryConfig extends WebSecurityConfigurerAdapter {
 //				.successHandler(successHandler())
 //				.failureHandler(failureHandler())
 //			    .loginPage("/login").permitAll().and()
-				.logout().permitAll();
+				.logout().permitAll();*/
+		
+		 
+		 //oAUth2 전용
+		http.cors().and()
+		.sessionManagement().sessionCreationPolicy(SessionCreationPolicy.NEVER).and()
+		.csrf().disable()
+		//.csrf().csrfTokenRepository(getCookieCsfrTokenRepository()).and()
+		.authorizeRequests().antMatchers("/", "/*.js", "/*.css", "/assets/**", "/Home/**", "/getCsrfToken","/login","/oauth/token")
+		.permitAll()
+		.anyRequest().authenticated().and()
+		.logout().permitAll();
+		
+	}
+	
+	@Bean
+	public PasswordEncoder encoder() {
+		return new BCryptPasswordEncoder();
+	}
+	
+	@Override
+	public void configure(WebSecurity web) throws Exception {
+		// TODO Auto-generated method stub
+		web.ignoring();
 	}
 
 	@Override
 	protected void configure(AuthenticationManagerBuilder auth) throws Exception {
 		// TODO Auto-generated method stub
 		// super.configure(auth);
-		auth.inMemoryAuthentication().withUser("user").password("{noop}password").roles("USER");
-
+		//auth.inMemoryAuthentication().withUser("user").password("{noop}password").roles("USER");
+		auth.userDetailsService(customDetailService).passwordEncoder(encoder());
 	}
 
 	private AuthenticationSuccessHandler successHandler() {
@@ -99,6 +135,8 @@ public class webSecuryConfig extends WebSecurityConfigurerAdapter {
 	public AuthenticationManager getAuthenticationManager() throws Exception {
 		return super.authenticationManager();
 	}
+	
+
 	
 
 

@@ -4,6 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
 import org.apache.http.auth.UsernamePasswordCredentials;
@@ -29,6 +30,8 @@ public class LoginRestController {
 	HttpSession session;
 	@Autowired
 	HttpServletRequest request;
+	@Autowired
+	HttpServletResponse response;
 	@Autowired
 	CookieCsrfTokenRepository cookieTokenMaker;
 	@Autowired
@@ -66,6 +69,10 @@ public class LoginRestController {
 		Authentication authentication = authenticationManager.authenticate(token);
 		SecurityContextHolder.getContext().setAuthentication(authentication);
 		session.setAttribute(HttpSessionSecurityContextRepository.SPRING_SECURITY_CONTEXT_KEY, SecurityContextHolder.getContext());
+		
+		CsrfToken csrfToken = cookieTokenMaker.generateToken(request);
+		cookieTokenMaker.saveToken(csrfToken, request, response);
+		
 		
 		
 		return "성공";
