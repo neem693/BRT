@@ -1,0 +1,24 @@
+server:  
+  port: 8082
+  
+logging:
+  level:
+    root: debug
+     
+
+app:
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/test?autoreconnect=true
+    password: "oratree12341234aa"
+    username: "root"
+    initialization-mode: always
+    dbcp2:
+      test-on-borrow: true
+      test-while-idle: true
+      time-between-eviction-runs-millis: 60000
+      min-evictable-idle-time-millis: 30000
+      validation-query: SELECT 1
+      max-wait-millis: 8000
+      max-idle: 10
+      max-open-prepared-statements: 15

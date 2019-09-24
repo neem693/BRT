@@ -35,6 +35,7 @@ app:
     url: jdbc:mysql://127.0.0.1:3306/test?autoreconnect=true
     password: "oratree12341234aa"
     username: "root"
+    initialization-mode: always
     dbcp2:
       test-on-borrow: true
       test-while-idle: true

@@ -69,9 +69,9 @@ public class webSecuryConfig extends WebSecurityConfigurerAdapter {
 		 //oAUth2 전용
 		http.cors().and()
 		.sessionManagement().sessionCreationPolicy(SessionCreationPolicy.NEVER).and()
-		.csrf().disable()
-		//.csrf().csrfTokenRepository(getCookieCsfrTokenRepository()).and()
-		.authorizeRequests().antMatchers("/", "/*.js", "/*.css", "/assets/**", "/Home/**", "/getCsrfToken","/login","/oauth/token")
+		//.csrf().disable()
+		.csrf().csrfTokenRepository(getCookieCsfrTokenRepository()).and()
+		.authorizeRequests().antMatchers("/", "/*.js", "/*.css", "/assets/**", "/Home/**", "/getCsrfToken","/login")
 		.permitAll()
 		.anyRequest().authenticated().and()
 		.logout().permitAll();
@@ -83,11 +83,11 @@ public class webSecuryConfig extends WebSecurityConfigurerAdapter {
 		return new BCryptPasswordEncoder();
 	}
 	
-	@Override
+/*	@Override
 	public void configure(WebSecurity web) throws Exception {
 		// TODO Auto-generated method stub
 		web.ignoring();
-	}
+	}*/
 
 	@Override
 	protected void configure(AuthenticationManagerBuilder auth) throws Exception {

@@ -26,8 +26,6 @@ import com.twilio.Twilio;
 @EnableEurekaClient
 @RefreshScope
 @EnableHystrix
-@EnableAuthorizationServer
-@EnableResourceServer
 public class TctProjectApplication extends SpringBootServletInitializer implements ApplicationRunner {
 	
 	static {
