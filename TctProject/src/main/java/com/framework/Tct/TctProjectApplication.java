@@ -36,8 +36,7 @@ public class TctProjectApplication extends SpringBootServletInitializer implemen
 	}
 	
 	
-	@Autowired
-	private KafkaTemplate<String, String> kafkaTemplate;
+	
 	
 	@Override
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
@@ -56,21 +55,22 @@ public class TctProjectApplication extends SpringBootServletInitializer implemen
 		SpringApplication.run(TctProjectApplication.class, args);
 	}
 
-
+//	@Autowired
+//	private KafkaTemplate<String, String> kafkaTemplate;
 	
-	public void sendMessage(String msg) {
-		kafkaTemplate.send("TCTREGISTER",msg);
-	}
-	
-	@KafkaListener(topics = "TCTREGISTER",groupId = "foo")
-	public void listen(String message) {
-		System.out.println("Received Message in group - group-id: " + message);
-	}
-	
+//	public void sendMessage(String msg) {
+//		kafkaTemplate.send("TCTREGISTER",msg);
+//	}
+//	
+//	@KafkaListener(topics = "TCTREGISTER",groupId = "foo")
+//	public void listen(String message) {
+//		System.out.println("Received Message in group - group-id: " + message);
+//	}
+//	
 	@Override
 	public void run(ApplicationArguments args) throws Exception {
 		// TODO Auto-generated method stub
-		sendMessage("Hi Welcome to Spring for Apache kafka");
+//		sendMessage("Hi Welcome to Spring for Apache kafka");
 	}
 
 }

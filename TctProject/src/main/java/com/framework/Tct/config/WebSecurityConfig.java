@@ -26,22 +26,26 @@ import org.springframework.security.web.AuthenticationEntryPoint;
 import org.springframework.security.web.access.AccessDeniedHandler;
 import org.springframework.security.web.authentication.AuthenticationFailureHandler;
 import org.springframework.security.web.authentication.AuthenticationSuccessHandler;
+import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 import org.springframework.security.web.csrf.CookieCsrfTokenRepository;
 import org.springframework.security.web.csrf.HttpSessionCsrfTokenRepository;
 import org.springframework.web.server.session.HeaderWebSessionIdResolver;
 import org.springframework.web.server.session.WebSessionIdResolver;
 
 import com.framework.Tct.Const.PublicConst;
+import com.framework.Tct.oAuth2.CustomAuthFilter;
 import com.framework.Tct.oAuth2.CustomDetailService;
+import com.framework.Tct.oAuth2.CustomProvider;
 
 @Configuration
 @EnableWebSecurity
 @EnableGlobalMethodSecurity(prePostEnabled = true)
-public class webSecuryConfig extends WebSecurityConfigurerAdapter {
+public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 	
 	@Autowired
-	CustomDetailService customDetailService;
-
+//	CustomDetailService customDetailService;
+	CustomProvider customProvider;
+	
 	@Override
 	protected void configure(HttpSecurity http) throws Exception {
 		// TODO Auto-generated method stub
@@ -49,6 +53,10 @@ public class webSecuryConfig extends WebSecurityConfigurerAdapter {
 
 		 HttpSessionCsrfTokenRepository sessionCsrf = new HttpSessionCsrfTokenRepository();
 		 sessionCsrf.setSessionAttributeName(PublicConst.SPRING_SCURITY.CSRF_TOKEN);
+		 
+		CustomAuthFilter filter = new CustomAuthFilter();
+        filter.setAuthenticationManager(authenticationManagerBean());
+        filter.setAuthenticationFailureHandler(failureHandler());
 
 		 /* 시큐리티 기본 베이직 
 		http.cors().and()
@@ -68,12 +76,15 @@ public class webSecuryConfig extends WebSecurityConfigurerAdapter {
 		 
 		 //oAUth2 전용
 		http.cors().and()
+		.addFilterBefore(filter, UsernamePasswordAuthenticationFilter.class)
 		.sessionManagement().sessionCreationPolicy(SessionCreationPolicy.NEVER).and()
 		//.csrf().disable()
 		.csrf().csrfTokenRepository(getCookieCsfrTokenRepository()).and()
-		.authorizeRequests().antMatchers("/", "/*.js", "/*.css", "/assets/**", "/Home/**", "/getCsrfToken","/login")
+		.authorizeRequests().antMatchers("/", "/*.js", "/*.css", "/assets/**", "/Home/**", "/getCsrfToken","/login","/oauth/authorize")
 		.permitAll()
 		.anyRequest().authenticated().and()
+		.formLogin().permitAll().and()
+		//.oauth2Login().permitAll().and()
 		.logout().permitAll();
 		
 	}
@@ -94,7 +105,7 @@ public class webSecuryConfig extends WebSecurityConfigurerAdapter {
 		// TODO Auto-generated method stub
 		// super.configure(auth);
 		//auth.inMemoryAuthentication().withUser("user").password("{noop}password").roles("USER");
-		auth.userDetailsService(customDetailService).passwordEncoder(encoder());
+		auth.authenticationProvider(customProvider);
 	}
 
 	private AuthenticationSuccessHandler successHandler() {

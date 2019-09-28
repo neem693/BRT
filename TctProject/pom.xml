@@ -300,21 +300,20 @@
 			<version>1.0.10.RELEASE</version>
 		</dependency>
 
-
-		<!-- https://mvnrepository.com/artifact/org.springframework.security/spring-security-test -->
-		<dependency>
-			<groupId>org.springframework.security</groupId>
-			<artifactId>spring-security-test</artifactId>
-			<version>5.1.6.RELEASE</version>
-			<scope>test</scope>
-		</dependency>
-
 		<!-- https://mvnrepository.com/artifact/org.bouncycastle/bcprov-jdk15on -->
 		<dependency>
 			<groupId>org.bouncycastle</groupId>
 			<artifactId>bcprov-jdk15on</artifactId>
 			<version>1.63</version>
 		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.springframework.security/spring-security-oauth2-client -->
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-oauth2-client</artifactId>
+			<version>5.1.6.RELEASE</version>
+		</dependency>
+
 
 
 

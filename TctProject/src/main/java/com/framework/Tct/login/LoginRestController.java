@@ -59,24 +59,24 @@ public class LoginRestController {
 		//return map;
 	}
 	
-	@RequestMapping(value= "/login",method=RequestMethod.POST)
-	public String login(@RequestBody Map<String,Object> authTry) {
-		
-		String username = authTry.get("username").toString();
-		String password = authTry.get("password").toString();
-		
-		UsernamePasswordAuthenticationToken token = new UsernamePasswordAuthenticationToken(username, password);
-		Authentication authentication = authenticationManager.authenticate(token);
-		SecurityContextHolder.getContext().setAuthentication(authentication);
-		session.setAttribute(HttpSessionSecurityContextRepository.SPRING_SECURITY_CONTEXT_KEY, SecurityContextHolder.getContext());
-		
-		CsrfToken csrfToken = cookieTokenMaker.generateToken(request);
-		cookieTokenMaker.saveToken(csrfToken, request, response);
-		
-		
-		
-		return "성공";
-		
-	}
+//	@RequestMapping(value= "/login",method=RequestMethod.POST)
+//	public String login(@RequestBody Map<String,Object> authTry) {
+//		
+//		String username = authTry.get("username").toString();
+//		String password = authTry.get("password").toString();
+//		
+//		UsernamePasswordAuthenticationToken token = new UsernamePasswordAuthenticationToken(username, password);
+//		Authentication authentication = authenticationManager.authenticate(token);
+//		SecurityContextHolder.getContext().setAuthentication(authentication);
+//		session.setAttribute(HttpSessionSecurityContextRepository.SPRING_SECURITY_CONTEXT_KEY, SecurityContextHolder.getContext());
+//		
+//		CsrfToken csrfToken = cookieTokenMaker.generateToken(request);
+//		cookieTokenMaker.saveToken(csrfToken, request, response);
+//		
+//		
+//		
+//		return "성공";
+//		
+//	}
 
 }
