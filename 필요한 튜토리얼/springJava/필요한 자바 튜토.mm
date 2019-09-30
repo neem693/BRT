@@ -2374,38 +2374,38 @@
 </node>
 <node CREATED="1569851827090" ID="ID_494780542" MODIFIED="1569851827090" TEXT="&lt;/dependency&gt;"/>
 </node>
-<node CREATED="1569486869099" ID="ID_435723941" MODIFIED="1569867928620" TEXT="2. authorizationServer">
+<node CREATED="1569486869099" FOLDED="true" ID="ID_435723941" MODIFIED="1569870291840" TEXT="2. authorizationServer">
 <node CREATED="1569488041996" ID="ID_1158556452" MODIFIED="1569867930359" TEXT="&#xcf54;&#xb4dc;">
-<node CREATED="1569868151413" MODIFIED="1569868151413" TEXT="package com.framework.Tct.oAuth2;"/>
-<node CREATED="1569868151416" MODIFIED="1569868151416" TEXT="import java.io.IOException;"/>
-<node CREATED="1569868151418" MODIFIED="1569868151418" TEXT="import java.util.ArrayList;"/>
-<node CREATED="1569868151420" MODIFIED="1569868151420" TEXT="import java.util.List;"/>
-<node CREATED="1569868151422" MODIFIED="1569868151422" TEXT="import javax.sql.DataSource;"/>
-<node CREATED="1569868151424" MODIFIED="1569868151424" TEXT="import org.apache.commons.io.IOUtils;"/>
-<node CREATED="1569868151425" MODIFIED="1569868151425" TEXT="import org.mockito.internal.util.io.IOUtil;"/>
-<node CREATED="1569868151427" MODIFIED="1569868151427" TEXT="import org.springframework.beans.factory.annotation.Autowired;"/>
-<node CREATED="1569868151428" MODIFIED="1569868151428" TEXT="import org.springframework.beans.factory.annotation.Qualifier;"/>
-<node CREATED="1569868151432" MODIFIED="1569868151432" TEXT="import org.springframework.context.annotation.Bean;"/>
-<node CREATED="1569868151433" MODIFIED="1569868151433" TEXT="import org.springframework.context.annotation.Configuration;"/>
-<node CREATED="1569868151435" MODIFIED="1569868151435" TEXT="import org.springframework.core.io.ClassPathResource;"/>
-<node CREATED="1569868151437" MODIFIED="1569868151437" TEXT="import org.springframework.core.io.Resource;"/>
-<node CREATED="1569868151440" MODIFIED="1569868151440" TEXT="import org.springframework.security.authentication.AuthenticationManager;"/>
-<node CREATED="1569868151441" MODIFIED="1569868151441" TEXT="import org.springframework.security.crypto.password.PasswordEncoder;"/>
-<node CREATED="1569868151443" MODIFIED="1569868151443" TEXT="import org.springframework.security.oauth2.config.annotation.configurers.ClientDetailsServiceConfigurer;"/>
-<node CREATED="1569868151444" MODIFIED="1569868151444" TEXT="import org.springframework.security.oauth2.config.annotation.web.configuration.AuthorizationServerConfigurerAdapter;"/>
-<node CREATED="1569868151445" MODIFIED="1569868151445" TEXT="import org.springframework.security.oauth2.config.annotation.web.configuration.EnableAuthorizationServer;"/>
-<node CREATED="1569868151446" MODIFIED="1569868151446" TEXT="import org.springframework.security.oauth2.config.annotation.web.configurers.AuthorizationServerEndpointsConfigurer;"/>
-<node CREATED="1569868151447" MODIFIED="1569868151447" TEXT="import org.springframework.security.oauth2.config.annotation.web.configurers.AuthorizationServerSecurityConfigurer;"/>
-<node CREATED="1569868151449" MODIFIED="1569868151449" TEXT="import org.springframework.security.oauth2.provider.token.TokenEnhancer;"/>
-<node CREATED="1569868151450" MODIFIED="1569868151450" TEXT="import org.springframework.security.oauth2.provider.token.TokenEnhancerChain;"/>
-<node CREATED="1569868151451" MODIFIED="1569868151451" TEXT="import org.springframework.security.oauth2.provider.token.TokenStore;"/>
-<node CREATED="1569868151451" MODIFIED="1569868151451" TEXT="import org.springframework.security.oauth2.provider.token.store.JdbcTokenStore;"/>
-<node CREATED="1569868151452" MODIFIED="1569868151452" TEXT="import org.springframework.security.oauth2.provider.token.store.JwtAccessTokenConverter;"/>
-<node CREATED="1569868151453" MODIFIED="1569868151453" TEXT="import org.springframework.security.oauth2.provider.token.store.JwtTokenStore;"/>
-<node CREATED="1569868151453" MODIFIED="1569868151453" TEXT="@Configuration"/>
-<node CREATED="1569868151454" MODIFIED="1569868151454" TEXT="@EnableAuthorizationServer"/>
-<node CREATED="1569868151455" LINK="mailto://@EnableResourceServer" MODIFIED="1569868151455" TEXT="//@EnableResourceServer"/>
-<node CREATED="1569868151455" MODIFIED="1569868151455" TEXT="public class OAuth2Config extends AuthorizationServerConfigurerAdapter  {">
+<node CREATED="1569868151413" ID="ID_1609509202" MODIFIED="1569868151413" TEXT="package com.framework.Tct.oAuth2;"/>
+<node CREATED="1569868151416" ID="ID_807616539" MODIFIED="1569868151416" TEXT="import java.io.IOException;"/>
+<node CREATED="1569868151418" ID="ID_644889233" MODIFIED="1569868151418" TEXT="import java.util.ArrayList;"/>
+<node CREATED="1569868151420" ID="ID_1902118232" MODIFIED="1569868151420" TEXT="import java.util.List;"/>
+<node CREATED="1569868151422" ID="ID_1324796756" MODIFIED="1569868151422" TEXT="import javax.sql.DataSource;"/>
+<node CREATED="1569868151424" ID="ID_1512110862" MODIFIED="1569868151424" TEXT="import org.apache.commons.io.IOUtils;"/>
+<node CREATED="1569868151425" ID="ID_61281955" MODIFIED="1569868151425" TEXT="import org.mockito.internal.util.io.IOUtil;"/>
+<node CREATED="1569868151427" ID="ID_1601306162" MODIFIED="1569868151427" TEXT="import org.springframework.beans.factory.annotation.Autowired;"/>
+<node CREATED="1569868151428" ID="ID_1905102304" MODIFIED="1569868151428" TEXT="import org.springframework.beans.factory.annotation.Qualifier;"/>
+<node CREATED="1569868151432" ID="ID_1816425708" MODIFIED="1569868151432" TEXT="import org.springframework.context.annotation.Bean;"/>
+<node CREATED="1569868151433" ID="ID_318578177" MODIFIED="1569868151433" TEXT="import org.springframework.context.annotation.Configuration;"/>
+<node CREATED="1569868151435" ID="ID_679027415" MODIFIED="1569868151435" TEXT="import org.springframework.core.io.ClassPathResource;"/>
+<node CREATED="1569868151437" ID="ID_1268879878" MODIFIED="1569868151437" TEXT="import org.springframework.core.io.Resource;"/>
+<node CREATED="1569868151440" ID="ID_1118003219" MODIFIED="1569868151440" TEXT="import org.springframework.security.authentication.AuthenticationManager;"/>
+<node CREATED="1569868151441" ID="ID_46949733" MODIFIED="1569868151441" TEXT="import org.springframework.security.crypto.password.PasswordEncoder;"/>
+<node CREATED="1569868151443" ID="ID_1593076932" MODIFIED="1569868151443" TEXT="import org.springframework.security.oauth2.config.annotation.configurers.ClientDetailsServiceConfigurer;"/>
+<node CREATED="1569868151444" ID="ID_1412941387" MODIFIED="1569868151444" TEXT="import org.springframework.security.oauth2.config.annotation.web.configuration.AuthorizationServerConfigurerAdapter;"/>
+<node CREATED="1569868151445" ID="ID_330932638" MODIFIED="1569868151445" TEXT="import org.springframework.security.oauth2.config.annotation.web.configuration.EnableAuthorizationServer;"/>
+<node CREATED="1569868151446" ID="ID_1536631897" MODIFIED="1569868151446" TEXT="import org.springframework.security.oauth2.config.annotation.web.configurers.AuthorizationServerEndpointsConfigurer;"/>
+<node CREATED="1569868151447" ID="ID_1831014863" MODIFIED="1569868151447" TEXT="import org.springframework.security.oauth2.config.annotation.web.configurers.AuthorizationServerSecurityConfigurer;"/>
+<node CREATED="1569868151449" ID="ID_38241691" MODIFIED="1569868151449" TEXT="import org.springframework.security.oauth2.provider.token.TokenEnhancer;"/>
+<node CREATED="1569868151450" ID="ID_86126638" MODIFIED="1569868151450" TEXT="import org.springframework.security.oauth2.provider.token.TokenEnhancerChain;"/>
+<node CREATED="1569868151451" ID="ID_432955388" MODIFIED="1569868151451" TEXT="import org.springframework.security.oauth2.provider.token.TokenStore;"/>
+<node CREATED="1569868151451" ID="ID_1373559199" MODIFIED="1569868151451" TEXT="import org.springframework.security.oauth2.provider.token.store.JdbcTokenStore;"/>
+<node CREATED="1569868151452" ID="ID_945461854" MODIFIED="1569868151452" TEXT="import org.springframework.security.oauth2.provider.token.store.JwtAccessTokenConverter;"/>
+<node CREATED="1569868151453" ID="ID_21314894" MODIFIED="1569868151453" TEXT="import org.springframework.security.oauth2.provider.token.store.JwtTokenStore;"/>
+<node CREATED="1569868151453" ID="ID_66777160" MODIFIED="1569868151453" TEXT="@Configuration"/>
+<node CREATED="1569868151454" ID="ID_4652886" MODIFIED="1569868151454" TEXT="@EnableAuthorizationServer"/>
+<node CREATED="1569868151455" ID="ID_96642946" LINK="mailto://@EnableResourceServer" MODIFIED="1569868151455" TEXT="//@EnableResourceServer"/>
+<node CREATED="1569868151455" FOLDED="true" ID="ID_1783500746" MODIFIED="1569868153139" TEXT="public class OAuth2Config extends AuthorizationServerConfigurerAdapter  {">
 <node CREATED="1569868151456" MODIFIED="1569868151456" TEXT="@Autowired"/>
 <node CREATED="1569868151456" MODIFIED="1569868151456" TEXT="PasswordEncoder encoder;"/>
 <node CREATED="1569868151457" MODIFIED="1569868151457" TEXT="@Autowired"/>
@@ -2474,18 +2474,18 @@
 </node>
 <node CREATED="1569868151483" MODIFIED="1569868151483" TEXT="}"/>
 </node>
-<node CREATED="1569868151483" MODIFIED="1569868151483" TEXT="// jwt &#xb9d0;&#xace0; deault &#xd1a0;&#xd070;"/>
-<node CREATED="1569868151484" MODIFIED="1569868151484" TEXT="//        @Override"/>
-<node CREATED="1569868151484" MODIFIED="1569868151484" TEXT="//        public void configure(AuthorizationServerEndpointsConfigurer endpoints) throws Exception {"/>
-<node CREATED="1569868151485" MODIFIED="1569868151485" TEXT="//                // TODO Auto-generated method stub"/>
-<node CREATED="1569868151485" MODIFIED="1569868151485" TEXT="//                //super.configure(endpoints);"/>
-<node CREATED="1569868151485" MODIFIED="1569868151485" TEXT="//                endpoints"/>
-<node CREATED="1569868151486" MODIFIED="1569868151486" TEXT="//                .authenticationManager(authenticationManager)"/>
-<node CREATED="1569868151486" MODIFIED="1569868151486" TEXT="//                .tokenStore(tokenStore())"/>
-<node CREATED="1569868151487" MODIFIED="1569868151487" TEXT="//                .accessTokenConverter(new DefaultAccessTokenConverter())"/>
-<node CREATED="1569868151487" MODIFIED="1569868151487" TEXT="//                .userDetailsService(userDetailsService)"/>
-<node CREATED="1569868151488" MODIFIED="1569868151488" TEXT="//                .tokenEnhancer(tokenEnhancer());"/>
-<node CREATED="1569868151488" MODIFIED="1569868151488" TEXT="//        }">
+<node CREATED="1569868151483" ID="ID_1947509677" MODIFIED="1569868151483" TEXT="// jwt &#xb9d0;&#xace0; deault &#xd1a0;&#xd070;"/>
+<node CREATED="1569868151484" ID="ID_361365589" MODIFIED="1569868151484" TEXT="//        @Override"/>
+<node CREATED="1569868151484" ID="ID_103147488" MODIFIED="1569868151484" TEXT="//        public void configure(AuthorizationServerEndpointsConfigurer endpoints) throws Exception {"/>
+<node CREATED="1569868151485" ID="ID_1987369597" MODIFIED="1569868151485" TEXT="//                // TODO Auto-generated method stub"/>
+<node CREATED="1569868151485" ID="ID_1881520222" MODIFIED="1569868151485" TEXT="//                //super.configure(endpoints);"/>
+<node CREATED="1569868151485" ID="ID_1422105856" MODIFIED="1569868151485" TEXT="//                endpoints"/>
+<node CREATED="1569868151486" ID="ID_863824986" MODIFIED="1569868151486" TEXT="//                .authenticationManager(authenticationManager)"/>
+<node CREATED="1569868151486" ID="ID_1562829535" MODIFIED="1569868151486" TEXT="//                .tokenStore(tokenStore())"/>
+<node CREATED="1569868151487" ID="ID_661515842" MODIFIED="1569868151487" TEXT="//                .accessTokenConverter(new DefaultAccessTokenConverter())"/>
+<node CREATED="1569868151487" ID="ID_928389912" MODIFIED="1569868151487" TEXT="//                .userDetailsService(userDetailsService)"/>
+<node CREATED="1569868151488" ID="ID_1208989461" MODIFIED="1569868151488" TEXT="//                .tokenEnhancer(tokenEnhancer());"/>
+<node CREATED="1569868151488" FOLDED="true" ID="ID_1056953318" MODIFIED="1569868153140" TEXT="//        }">
 <node CREATED="1569868151489" MODIFIED="1569868151489" TEXT="@Override"/>
 <node CREATED="1569868151489" MODIFIED="1569868151489" TEXT="public void configure(AuthorizationServerEndpointsConfigurer endpoints) throws Exception {">
 <node CREATED="1569868151490" MODIFIED="1569868151490" TEXT="// TODO Auto-generated method stub"/>
@@ -2513,7 +2513,7 @@
 </node>
 <node CREATED="1569868151497" MODIFIED="1569868151497" TEXT="}"/>
 </node>
-<node CREATED="1569868151497" MODIFIED="1569868151497" TEXT="}"/>
+<node CREATED="1569868151497" ID="ID_352466602" MODIFIED="1569868151497" TEXT="}"/>
 </node>
 <node CREATED="1569488036395" ID="ID_371569491" MODIFIED="1569801856529" TEXT="&#xc124;&#xba85;">
 <node CREATED="1569488116644" ID="ID_1784599909" MODIFIED="1569631623267">
@@ -2530,49 +2530,49 @@
 </node>
 </node>
 </node>
-<node CREATED="1569488246196" FOLDED="true" ID="ID_563097025" MODIFIED="1569851992185" TEXT="3. websecurity">
-<node CREATED="1569850773739" FOLDED="true" ID="ID_1559625962" MODIFIED="1569850777122" TEXT="&#xcf54;&#xb4dc;">
-<node CREATED="1569850776349" MODIFIED="1569850776349" TEXT="package com.framework.Tct.config;"/>
-<node CREATED="1569850776350" MODIFIED="1569850776350" TEXT="import java.io.IOException;"/>
-<node CREATED="1569850776350" MODIFIED="1569850776350" TEXT="import javax.servlet.ServletException;"/>
-<node CREATED="1569850776351" MODIFIED="1569850776351" TEXT="import javax.servlet.http.HttpServletRequest;"/>
-<node CREATED="1569850776351" MODIFIED="1569850776351" TEXT="import javax.servlet.http.HttpServletResponse;"/>
-<node CREATED="1569850776351" MODIFIED="1569850776351" TEXT="import org.springframework.beans.factory.annotation.Autowired;"/>
-<node CREATED="1569850776352" MODIFIED="1569850776352" TEXT="import org.springframework.context.annotation.Bean;"/>
-<node CREATED="1569850776352" MODIFIED="1569850776352" TEXT="import org.springframework.context.annotation.Configuration;"/>
-<node CREATED="1569850776352" MODIFIED="1569850776352" TEXT="import org.springframework.security.access.AccessDeniedException;"/>
-<node CREATED="1569850776353" MODIFIED="1569850776353" TEXT="import org.springframework.security.authentication.AuthenticationManager;"/>
-<node CREATED="1569850776353" MODIFIED="1569850776353" TEXT="import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;"/>
-<node CREATED="1569850776355" MODIFIED="1569850776355" TEXT="import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;"/>
-<node CREATED="1569850776355" MODIFIED="1569850776355" TEXT="import org.springframework.security.config.annotation.web.builders.HttpSecurity;"/>
-<node CREATED="1569850776356" MODIFIED="1569850776356" TEXT="import org.springframework.security.config.annotation.web.builders.WebSecurity;"/>
-<node CREATED="1569850776356" MODIFIED="1569850776356" TEXT="import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;"/>
-<node CREATED="1569850776357" MODIFIED="1569850776357" TEXT="import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;"/>
-<node CREATED="1569850776357" MODIFIED="1569850776357" TEXT="import org.springframework.security.config.http.SessionCreationPolicy;"/>
-<node CREATED="1569850776357" MODIFIED="1569850776357" TEXT="import org.springframework.security.core.Authentication;"/>
-<node CREATED="1569850776358" MODIFIED="1569850776358" TEXT="import org.springframework.security.core.AuthenticationException;"/>
-<node CREATED="1569850776358" MODIFIED="1569850776358" TEXT="import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;"/>
-<node CREATED="1569850776358" MODIFIED="1569850776358" TEXT="import org.springframework.security.crypto.password.PasswordEncoder;"/>
-<node CREATED="1569850776359" MODIFIED="1569850776359" TEXT="import org.springframework.security.web.AuthenticationEntryPoint;"/>
-<node CREATED="1569850776359" MODIFIED="1569850776359" TEXT="import org.springframework.security.web.access.AccessDeniedHandler;"/>
-<node CREATED="1569850776360" MODIFIED="1569850776360" TEXT="import org.springframework.security.web.authentication.AuthenticationFailureHandler;"/>
-<node CREATED="1569850776360" MODIFIED="1569850776360" TEXT="import org.springframework.security.web.authentication.AuthenticationSuccessHandler;"/>
-<node CREATED="1569850776361" MODIFIED="1569850776361" TEXT="import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;"/>
-<node CREATED="1569850776361" MODIFIED="1569850776361" TEXT="import org.springframework.security.web.csrf.CookieCsrfTokenRepository;"/>
-<node CREATED="1569850776361" MODIFIED="1569850776361" TEXT="import org.springframework.security.web.csrf.HttpSessionCsrfTokenRepository;"/>
-<node CREATED="1569850776362" MODIFIED="1569850776362" TEXT="import org.springframework.web.server.session.HeaderWebSessionIdResolver;"/>
-<node CREATED="1569850776362" MODIFIED="1569850776362" TEXT="import org.springframework.web.server.session.WebSessionIdResolver;"/>
-<node CREATED="1569850776362" MODIFIED="1569850776362" TEXT="import com.framework.Tct.Const.PublicConst;"/>
-<node CREATED="1569850776363" MODIFIED="1569850776363" TEXT="import com.framework.Tct.oAuth2.CustomAuthFilter;"/>
-<node CREATED="1569850776363" MODIFIED="1569850776363" TEXT="import com.framework.Tct.oAuth2.CustomDetailService;"/>
-<node CREATED="1569850776363" MODIFIED="1569850776363" TEXT="import com.framework.Tct.oAuth2.CustomProvider;"/>
-<node CREATED="1569850776363" MODIFIED="1569850776363" TEXT="@Configuration"/>
-<node CREATED="1569850776364" MODIFIED="1569850776364" TEXT="@EnableWebSecurity"/>
-<node CREATED="1569850776364" MODIFIED="1569850776364" TEXT="@EnableGlobalMethodSecurity(prePostEnabled = true)"/>
-<node CREATED="1569850776364" MODIFIED="1569850776364" TEXT="public class WebSecurityConfig extends WebSecurityConfigurerAdapter {">
+<node CREATED="1569488246196" FOLDED="true" ID="ID_563097025" MODIFIED="1569870773659" TEXT="3. websecurity">
+<node CREATED="1569850773739" ID="ID_1559625962" MODIFIED="1569870294801" TEXT="&#xcf54;&#xb4dc;">
+<node CREATED="1569850776349" ID="ID_1406013403" MODIFIED="1569850776349" TEXT="package com.framework.Tct.config;"/>
+<node CREATED="1569850776350" ID="ID_623403460" MODIFIED="1569850776350" TEXT="import java.io.IOException;"/>
+<node CREATED="1569850776350" ID="ID_461450938" MODIFIED="1569850776350" TEXT="import javax.servlet.ServletException;"/>
+<node CREATED="1569850776351" ID="ID_1791255362" MODIFIED="1569850776351" TEXT="import javax.servlet.http.HttpServletRequest;"/>
+<node CREATED="1569850776351" ID="ID_1625162814" MODIFIED="1569850776351" TEXT="import javax.servlet.http.HttpServletResponse;"/>
+<node CREATED="1569850776351" ID="ID_1109799316" MODIFIED="1569850776351" TEXT="import org.springframework.beans.factory.annotation.Autowired;"/>
+<node CREATED="1569850776352" ID="ID_978891143" MODIFIED="1569850776352" TEXT="import org.springframework.context.annotation.Bean;"/>
+<node CREATED="1569850776352" ID="ID_1402946977" MODIFIED="1569850776352" TEXT="import org.springframework.context.annotation.Configuration;"/>
+<node CREATED="1569850776352" ID="ID_673362215" MODIFIED="1569850776352" TEXT="import org.springframework.security.access.AccessDeniedException;"/>
+<node CREATED="1569850776353" ID="ID_565215927" MODIFIED="1569850776353" TEXT="import org.springframework.security.authentication.AuthenticationManager;"/>
+<node CREATED="1569850776353" ID="ID_327874549" MODIFIED="1569850776353" TEXT="import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;"/>
+<node CREATED="1569850776355" ID="ID_681487399" MODIFIED="1569850776355" TEXT="import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;"/>
+<node CREATED="1569850776355" ID="ID_1988964452" MODIFIED="1569850776355" TEXT="import org.springframework.security.config.annotation.web.builders.HttpSecurity;"/>
+<node CREATED="1569850776356" ID="ID_1262119936" MODIFIED="1569850776356" TEXT="import org.springframework.security.config.annotation.web.builders.WebSecurity;"/>
+<node CREATED="1569850776356" ID="ID_167361162" MODIFIED="1569850776356" TEXT="import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;"/>
+<node CREATED="1569850776357" ID="ID_466062584" MODIFIED="1569850776357" TEXT="import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;"/>
+<node CREATED="1569850776357" ID="ID_1121326994" MODIFIED="1569850776357" TEXT="import org.springframework.security.config.http.SessionCreationPolicy;"/>
+<node CREATED="1569850776357" ID="ID_1641395510" MODIFIED="1569850776357" TEXT="import org.springframework.security.core.Authentication;"/>
+<node CREATED="1569850776358" ID="ID_1771114813" MODIFIED="1569850776358" TEXT="import org.springframework.security.core.AuthenticationException;"/>
+<node CREATED="1569850776358" ID="ID_661967601" MODIFIED="1569850776358" TEXT="import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;"/>
+<node CREATED="1569850776358" ID="ID_1107283630" MODIFIED="1569850776358" TEXT="import org.springframework.security.crypto.password.PasswordEncoder;"/>
+<node CREATED="1569850776359" ID="ID_1145156621" MODIFIED="1569850776359" TEXT="import org.springframework.security.web.AuthenticationEntryPoint;"/>
+<node CREATED="1569850776359" ID="ID_238109980" MODIFIED="1569850776359" TEXT="import org.springframework.security.web.access.AccessDeniedHandler;"/>
+<node CREATED="1569850776360" ID="ID_1132097428" MODIFIED="1569850776360" TEXT="import org.springframework.security.web.authentication.AuthenticationFailureHandler;"/>
+<node CREATED="1569850776360" ID="ID_213157045" MODIFIED="1569850776360" TEXT="import org.springframework.security.web.authentication.AuthenticationSuccessHandler;"/>
+<node CREATED="1569850776361" ID="ID_1504335355" MODIFIED="1569850776361" TEXT="import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;"/>
+<node CREATED="1569850776361" ID="ID_1493509528" MODIFIED="1569850776361" TEXT="import org.springframework.security.web.csrf.CookieCsrfTokenRepository;"/>
+<node CREATED="1569850776361" ID="ID_24127557" MODIFIED="1569850776361" TEXT="import org.springframework.security.web.csrf.HttpSessionCsrfTokenRepository;"/>
+<node CREATED="1569850776362" ID="ID_332109152" MODIFIED="1569850776362" TEXT="import org.springframework.web.server.session.HeaderWebSessionIdResolver;"/>
+<node CREATED="1569850776362" ID="ID_385885756" MODIFIED="1569850776362" TEXT="import org.springframework.web.server.session.WebSessionIdResolver;"/>
+<node CREATED="1569850776362" ID="ID_1379558249" MODIFIED="1569850776362" TEXT="import com.framework.Tct.Const.PublicConst;"/>
+<node CREATED="1569850776363" ID="ID_1455956246" MODIFIED="1569850776363" TEXT="import com.framework.Tct.oAuth2.CustomAuthFilter;"/>
+<node CREATED="1569850776363" ID="ID_36917399" MODIFIED="1569850776363" TEXT="import com.framework.Tct.oAuth2.CustomDetailService;"/>
+<node CREATED="1569850776363" ID="ID_1131314943" MODIFIED="1569850776363" TEXT="import com.framework.Tct.oAuth2.CustomProvider;"/>
+<node CREATED="1569850776363" ID="ID_1609171645" MODIFIED="1569850776363" TEXT="@Configuration"/>
+<node CREATED="1569850776364" ID="ID_179277427" MODIFIED="1569850776364" TEXT="@EnableWebSecurity"/>
+<node CREATED="1569850776364" ID="ID_58870878" MODIFIED="1569850776364" TEXT="@EnableGlobalMethodSecurity(prePostEnabled = true)"/>
+<node CREATED="1569850776364" ID="ID_409068704" MODIFIED="1569850776364" TEXT="public class WebSecurityConfig extends WebSecurityConfigurerAdapter {">
 <node CREATED="1569850776364" MODIFIED="1569850776364" TEXT="@Autowired"/>
 </node>
-<node CREATED="1569850776365" MODIFIED="1569850776365" TEXT="//        CustomDetailService customDetailService;">
+<node CREATED="1569850776365" ID="ID_1806519719" MODIFIED="1569850776365" TEXT="//        CustomDetailService customDetailService;">
 <node CREATED="1569850776365" MODIFIED="1569850776365" TEXT="CustomProvider customProvider;"/>
 <node CREATED="1569850776366" MODIFIED="1569850776366" TEXT="@Override"/>
 <node CREATED="1569850776366" MODIFIED="1569850776366" TEXT="protected void configure(HttpSecurity http) throws Exception {">
@@ -2597,10 +2597,10 @@
 </node>
 </node>
 </node>
-<node CREATED="1569850776372" MODIFIED="1569850776372" TEXT="//                                .formLogin()"/>
-<node CREATED="1569850776373" MODIFIED="1569850776373" TEXT="//                                .successHandler(successHandler())"/>
-<node CREATED="1569850776373" MODIFIED="1569850776373" TEXT="//                                .failureHandler(failureHandler())"/>
-<node CREATED="1569850776373" MODIFIED="1569850776373" TEXT="//                            .loginPage(&quot;/login&quot;).permitAll().and()">
+<node CREATED="1569850776372" ID="ID_1646868974" MODIFIED="1569850776372" TEXT="//                                .formLogin()"/>
+<node CREATED="1569850776373" ID="ID_750940194" MODIFIED="1569850776373" TEXT="//                                .successHandler(successHandler())"/>
+<node CREATED="1569850776373" ID="ID_1214549029" MODIFIED="1569850776373" TEXT="//                                .failureHandler(failureHandler())"/>
+<node CREATED="1569850776373" ID="ID_1050909738" MODIFIED="1569850776373" TEXT="//                            .loginPage(&quot;/login&quot;).permitAll().and()">
 <node CREATED="1569850776374" MODIFIED="1569850776374" TEXT=".logout().permitAll();*/"/>
 <node CREATED="1569850776374" MODIFIED="1569850776374" TEXT="//oAUth2 &#xc804;&#xc6a9;"/>
 <node CREATED="1569850776374" MODIFIED="1569850776374" TEXT="http.cors().and()"/>
@@ -2621,7 +2621,7 @@
 </node>
 <node CREATED="1569850776380" MODIFIED="1569850776380" TEXT="}"/>
 </node>
-<node CREATED="1569850776381" MODIFIED="1569850776381" TEXT="/*        @Override">
+<node CREATED="1569850776381" ID="ID_160646085" MODIFIED="1569850776381" TEXT="/*        @Override">
 <node CREATED="1569850776381" MODIFIED="1569850776381" TEXT="public void configure(WebSecurity web) throws Exception {">
 <node CREATED="1569850776381" MODIFIED="1569850776381" TEXT="// TODO Auto-generated method stub"/>
 <node CREATED="1569850776382" MODIFIED="1569850776382" TEXT="web.ignoring();"/>
@@ -2679,7 +2679,7 @@
 </node>
 <node CREATED="1569850776396" MODIFIED="1569850776396" TEXT="}"/>
 </node>
-<node CREATED="1569850776396" MODIFIED="1569850776396" TEXT="}"/>
+<node CREATED="1569850776396" ID="ID_1728927783" MODIFIED="1569850776396" TEXT="}"/>
 </node>
 <node CREATED="1569488435372" ID="ID_1044287730" MODIFIED="1569850885365" TEXT="&#xc124;&#xba85;">
 <node CREATED="1569491563570" ID="ID_828315265" LINK="https://www.tutorialspoint.com/spring_boot/spring_boot_oauth2_with_jwt.htm" MODIFIED="1569491564360" TEXT="https://www.tutorialspoint.com/spring_boot/spring_boot_oauth2_with_jwt.htm"/>
@@ -2687,8 +2687,8 @@
 <node CREATED="1569491472507" ID="ID_1123163526" MODIFIED="1569491526067" TEXT="formlogin&#xc744; &#xb2e8;&#xac83;&#xc740; implicit grant type&#xc744; &#xad6c;&#xd604;&#xd558;&#xae30; &#xc704;&#xd55c; &#xac83;"/>
 </node>
 </node>
-<node CREATED="1569491621157" FOLDED="true" ID="ID_1216788914" MODIFIED="1569867180105" TEXT="4. access token">
-<node CREATED="1569850962016" ID="ID_1995640605" MODIFIED="1569851009135" TEXT="&#xd5e4;&#xb354;">
+<node CREATED="1569491621157" ID="ID_1216788914" MODIFIED="1569870774751" TEXT="4. access token">
+<node CREATED="1569850962016" ID="ID_1995640605" MODIFIED="1569870806896" TEXT="&#xd5e4;&#xb354;">
 <node CREATED="1569850963876" ID="ID_1756678103" MODIFIED="1569850963876" TEXT="POST /oauth/token HTTP/1.1"/>
 <node CREATED="1569850963879" ID="ID_344878254" MODIFIED="1569850963879" TEXT="Host: 127.0.0.1:8081"/>
 <node CREATED="1569850963882" ID="ID_1508327375" MODIFIED="1569850963882" TEXT="Content-Type: application/x-www-form-urlencoded"/>
@@ -2704,9 +2704,9 @@
 <node CREATED="1569850963897" ID="ID_1008509173" MODIFIED="1569850963897" TEXT="cache-control: no-cache"/>
 <node CREATED="1569850963898" ID="ID_992720492" MODIFIED="1569850963898" TEXT="username=TctTest%40gmail.com&amp;password=12341234aa&amp;grant_type=password&amp;domain33=wfwefwefwef"/>
 </node>
-<node CREATED="1569491672493" ID="ID_1896450679" MODIFIED="1569851012838" TEXT="&#xacb0;&#xacfc;">
+<node CREATED="1569491672493" ID="ID_1896450679" MODIFIED="1569870890192" TEXT="&#xacb0;&#xacfc;">
 <node CREATED="1569850971841" ID="ID_1864140291" MODIFIED="1569850971841" TEXT="{">
-<node CREATED="1569850971841" MODIFIED="1569850971841" TEXT="&quot;access_token&quot;: &quot;eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJUY3RUZXN0QGdtYWlsLmNvbSIsInNjb3BlIjpbInJlYWQiLCJ3cml0ZSJdLCJleHAiOjE1Njk4OTM3MjEsInVzZXJJZCI6IjEyMzEyMyIsImF1dGhvcml0aWVzIjpbIlJPTEVfU1lTVEVNQURNSU4iXSwianRpIjoiMmI3MTllYTctMWI4Zi00MGNiLWJmZWEtZWNhMjcxMWMwYmYyIiwiY2xpZW50X2lkIjoiVGN0VGVzdCJ9.tG0hFsOhuBwzAYhuDsgqJK7ZkD_cRQfzTETOoRsVLB3g6lCFlFt_Si6rCOCniAa4aQn-bsd5SAKnM1xpwSJ7yPYK3FIGUOhwVw3uXreDCBE00I1hRibGXRGtMTCdkjTMqR1u5rxxlysPyVwwyIottSkown71ueNAnnvfKrCwEQarJTDmMndQD5KgvMJMrgslK1du06NPU5yA01HPDDN1PYe2S5-MUFkDUyMo4N5_PKovX-us5OHeRKqkOiEBvprvJk_FXncuyidsZZVUHsDPojtJobKKoQ63OrldkJDD9nEhhcE-pTF78jvR0aUg1kmjs-ovyiMHzoAJc04anrk0Lg&quot;,"/>
+<node CREATED="1569850971841" ID="ID_930624071" MODIFIED="1569850971841" TEXT="&quot;access_token&quot;: &quot;eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJUY3RUZXN0QGdtYWlsLmNvbSIsInNjb3BlIjpbInJlYWQiLCJ3cml0ZSJdLCJleHAiOjE1Njk4OTM3MjEsInVzZXJJZCI6IjEyMzEyMyIsImF1dGhvcml0aWVzIjpbIlJPTEVfU1lTVEVNQURNSU4iXSwianRpIjoiMmI3MTllYTctMWI4Zi00MGNiLWJmZWEtZWNhMjcxMWMwYmYyIiwiY2xpZW50X2lkIjoiVGN0VGVzdCJ9.tG0hFsOhuBwzAYhuDsgqJK7ZkD_cRQfzTETOoRsVLB3g6lCFlFt_Si6rCOCniAa4aQn-bsd5SAKnM1xpwSJ7yPYK3FIGUOhwVw3uXreDCBE00I1hRibGXRGtMTCdkjTMqR1u5rxxlysPyVwwyIottSkown71ueNAnnvfKrCwEQarJTDmMndQD5KgvMJMrgslK1du06NPU5yA01HPDDN1PYe2S5-MUFkDUyMo4N5_PKovX-us5OHeRKqkOiEBvprvJk_FXncuyidsZZVUHsDPojtJobKKoQ63OrldkJDD9nEhhcE-pTF78jvR0aUg1kmjs-ovyiMHzoAJc04anrk0Lg&quot;,"/>
 <node CREATED="1569850971848" MODIFIED="1569850971848" TEXT="&quot;token_type&quot;: &quot;bearer&quot;,"/>
 <node CREATED="1569850971848" ID="ID_1129587796" MODIFIED="1569850971848" TEXT="&quot;refresh_token&quot;: &quot;eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJUY3RUZXN0QGdtYWlsLmNvbSIsInNjb3BlIjpbInJlYWQiLCJ3cml0ZSJdLCJhdGkiOiIyYjcxOWVhNy0xYjhmLTQwY2ItYmZlYS1lY2EyNzExYzBiZjIiLCJleHAiOjE1NzI0NDI1MjEsInVzZXJJZCI6IjEyMzEyMyIsImF1dGhvcml0aWVzIjpbIlJPTEVfU1lTVEVNQURNSU4iXSwianRpIjoiN2JkMDkxNmUtMTQxOS00NDc5LTgxOWMtN2FmNGM5OGM5MGE0IiwiY2xpZW50X2lkIjoiVGN0VGVzdCJ9.HCbtWm1pT8aBe68q1-UHADmfU-g7DitT0HYBc27WUAFLxHtUQzKZI9e5HDWaPq2nkSpJrtI1FevHjeSiKvV-_q_ulNY_VGU-LV0BahZN3L5H-pEyRvIQctACUXijgyhP03b63PiNs6k80Z-1wIUVLves00e_DAxi1MnkWFbdvlgXjOGXt_CCdaR01ndM3pzx0sOIHBrZKdZAQwMzr-oZLrRxM6KWpXr1deviP9RUv7uf0cTAIAX768TdLQDeR9wrXUNGf9D_yPd37a52ndpdtoxq0G5JoNQlU8Nybh-HDxipPbTVy_OxofPY8FG8pcayhc5IYDGLyofM6bS-v-7b9Q&quot;,"/>
 <node CREATED="1569850971855" ID="ID_924802611" MODIFIED="1569850971855" TEXT="&quot;expires_in&quot;: 43198,"/>
@@ -2717,23 +2717,23 @@
 <node CREATED="1569850971856" ID="ID_313915641" MODIFIED="1569850971856" TEXT="}"/>
 </node>
 </node>
-<node CREATED="1569491675765" FOLDED="true" ID="ID_232019336" MODIFIED="1569851992186" TEXT="5. refresh token">
+<node CREATED="1569491675765" ID="ID_232019336" MODIFIED="1569870921648" TEXT="5. refresh token">
 <node CREATED="1569491680294" ID="ID_1970765616" MODIFIED="1569491804304" TEXT="&#xd5e4;&#xb354;">
-<node CREATED="1569851141319" MODIFIED="1569851141319" TEXT="POST /oauth/token HTTP/1.1"/>
-<node CREATED="1569851141322" MODIFIED="1569851141322" TEXT="Host: 127.0.0.1:8081"/>
-<node CREATED="1569851141323" MODIFIED="1569851141323" TEXT="Content-Type: application/x-www-form-urlencoded"/>
-<node CREATED="1569851141325" MODIFIED="1569851141325" TEXT="X-XSRF-TOKEN: 595b50c4-9980-4fe8-b83a-a1983f68a7f3"/>
-<node CREATED="1569851141326" MODIFIED="1569851141326" TEXT="Authorization: Basic VGN0VGVzdDoxMjM0MTIzNGFh"/>
-<node CREATED="1569851141326" MODIFIED="1569851141326" TEXT="User-Agent: PostmanRuntime/7.17.1"/>
-<node CREATED="1569851141327" MODIFIED="1569851141327" TEXT="Accept: */*"/>
-<node CREATED="1569851141328" MODIFIED="1569851141328" TEXT="Cache-Control: no-cache"/>
-<node CREATED="1569851141328" MODIFIED="1569851141328" TEXT="Postman-Token: a9660373-719d-4833-aa7a-ee8f29661156,97aabf54-dd75-4564-a912-e65bd34c06b5"/>
-<node CREATED="1569851141329" MODIFIED="1569851141329" TEXT="Host: 127.0.0.1:8081"/>
-<node CREATED="1569851141329" MODIFIED="1569851141329" TEXT="Accept-Encoding: gzip, deflate"/>
-<node CREATED="1569851141330" MODIFIED="1569851141330" TEXT="Content-Length: 739"/>
-<node CREATED="1569851141330" MODIFIED="1569851141330" TEXT="Connection: keep-alive"/>
-<node CREATED="1569851141331" MODIFIED="1569851141331" TEXT="cache-control: no-cache"/>
-<node CREATED="1569851141332" MODIFIED="1569851141332" TEXT="refresh_token=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJUY3RUZXN0QGdtYWlsLmNvbSIsInNjb3BlIjpbInJlYWQiLCJ3cml0ZSJdLCJhdGkiOiIyYjcxOWVhNy0xYjhmLTQwY2ItYmZlYS1lY2EyNzExYzBiZjIiLCJleHAiOjE1NzI0NDI1MjEsInVzZXJJZCI6IjEyMzEyMyIsImF1dGhvcml0aWVzIjpbIlJPTEVfU1lTVEVNQURNSU4iXSwianRpIjoiN2JkMDkxNmUtMTQxOS00NDc5LTgxOWMtN2FmNGM5OGM5MGE0IiwiY2xpZW50X2lkIjoiVGN0VGVzdCJ9.HCbtWm1pT8aBe68q1-UHADmfU-g7DitT0HYBc27WUAFLxHtUQzKZI9e5HDWaPq2nkSpJrtI1FevHjeSiKvV-_q_ulNY_VGU-LV0BahZN3L5H-pEyRvIQctACUXijgyhP03b63PiNs6k80Z-1wIUVLves00e_DAxi1MnkWFbdvlgXjOGXt_CCdaR01ndM3pzx0sOIHBrZKdZAQwMzr-oZLrRxM6KWpXr1deviP9RUv7uf0cTAIAX768TdLQDeR9wrXUNGf9D_yPd37a52ndpdtoxq0G5JoNQlU8Nybh-HDxipPbTVy_OxofPY8FG8pcayhc5IYDGLyofM6bS-v-7b9Q&amp;grant_type=refresh_token"/>
+<node CREATED="1569851141319" ID="ID_1741960645" MODIFIED="1569851141319" TEXT="POST /oauth/token HTTP/1.1"/>
+<node CREATED="1569851141322" ID="ID_590271066" MODIFIED="1569851141322" TEXT="Host: 127.0.0.1:8081"/>
+<node CREATED="1569851141323" ID="ID_1581864490" MODIFIED="1569851141323" TEXT="Content-Type: application/x-www-form-urlencoded"/>
+<node CREATED="1569851141325" ID="ID_695398832" MODIFIED="1569851141325" TEXT="X-XSRF-TOKEN: 595b50c4-9980-4fe8-b83a-a1983f68a7f3"/>
+<node CREATED="1569851141326" ID="ID_285947324" MODIFIED="1569851141326" TEXT="Authorization: Basic VGN0VGVzdDoxMjM0MTIzNGFh"/>
+<node CREATED="1569851141326" ID="ID_1861974097" MODIFIED="1569851141326" TEXT="User-Agent: PostmanRuntime/7.17.1"/>
+<node CREATED="1569851141327" ID="ID_1308027782" MODIFIED="1569851141327" TEXT="Accept: */*"/>
+<node CREATED="1569851141328" ID="ID_488931712" MODIFIED="1569851141328" TEXT="Cache-Control: no-cache"/>
+<node CREATED="1569851141328" ID="ID_591406718" MODIFIED="1569851141328" TEXT="Postman-Token: a9660373-719d-4833-aa7a-ee8f29661156,97aabf54-dd75-4564-a912-e65bd34c06b5"/>
+<node CREATED="1569851141329" ID="ID_531247525" MODIFIED="1569851141329" TEXT="Host: 127.0.0.1:8081"/>
+<node CREATED="1569851141329" ID="ID_1345889834" MODIFIED="1569851141329" TEXT="Accept-Encoding: gzip, deflate"/>
+<node CREATED="1569851141330" ID="ID_473671566" MODIFIED="1569851141330" TEXT="Content-Length: 739"/>
+<node CREATED="1569851141330" ID="ID_984970352" MODIFIED="1569851141330" TEXT="Connection: keep-alive"/>
+<node CREATED="1569851141331" ID="ID_1437752192" MODIFIED="1569851141331" TEXT="cache-control: no-cache"/>
+<node CREATED="1569851141332" ID="ID_954440376" MODIFIED="1569851141332" TEXT="refresh_token=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJUY3RUZXN0QGdtYWlsLmNvbSIsInNjb3BlIjpbInJlYWQiLCJ3cml0ZSJdLCJhdGkiOiIyYjcxOWVhNy0xYjhmLTQwY2ItYmZlYS1lY2EyNzExYzBiZjIiLCJleHAiOjE1NzI0NDI1MjEsInVzZXJJZCI6IjEyMzEyMyIsImF1dGhvcml0aWVzIjpbIlJPTEVfU1lTVEVNQURNSU4iXSwianRpIjoiN2JkMDkxNmUtMTQxOS00NDc5LTgxOWMtN2FmNGM5OGM5MGE0IiwiY2xpZW50X2lkIjoiVGN0VGVzdCJ9.HCbtWm1pT8aBe68q1-UHADmfU-g7DitT0HYBc27WUAFLxHtUQzKZI9e5HDWaPq2nkSpJrtI1FevHjeSiKvV-_q_ulNY_VGU-LV0BahZN3L5H-pEyRvIQctACUXijgyhP03b63PiNs6k80Z-1wIUVLves00e_DAxi1MnkWFbdvlgXjOGXt_CCdaR01ndM3pzx0sOIHBrZKdZAQwMzr-oZLrRxM6KWpXr1deviP9RUv7uf0cTAIAX768TdLQDeR9wrXUNGf9D_yPd37a52ndpdtoxq0G5JoNQlU8Nybh-HDxipPbTVy_OxofPY8FG8pcayhc5IYDGLyofM6bS-v-7b9Q&amp;grant_type=refresh_token"/>
 </node>
 <node CREATED="1569491696446" ID="ID_148977533" MODIFIED="1569491697589" TEXT="&#xacb0;&#xacfc;">
 <node CREATED="1569851147907" ID="ID_1874888439" MODIFIED="1569851147907" TEXT="{">
@@ -2748,22 +2748,22 @@
 <node CREATED="1569851147931" ID="ID_1274587156" MODIFIED="1569851147931" TEXT="}"/>
 </node>
 </node>
-<node CREATED="1569492883942" FOLDED="true" ID="ID_703905643" MODIFIED="1569867180105" TEXT="6. check_token">
+<node CREATED="1569492883942" ID="ID_703905643" MODIFIED="1569871236463" TEXT="6. check_token">
 <node CREATED="1569492889919" ID="ID_1068238089" MODIFIED="1569492891387" TEXT="&#xd5e4;&#xb354;">
-<node CREATED="1569851375989" MODIFIED="1569851375989" TEXT="GET /oauth/check_token?token=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJUY3RUZXN0QGdtYWlsLmNvbSIsInNjb3BlIjpbInJlYWQiLCJ3cml0ZSJdLCJleHAiOjE1Njk4OTQzMjEsInVzZXJJZCI6IjEyMzEyMyIsImF1dGhvcml0aWVzIjpbIlJPTEVfU1lTVEVNQURNSU4iXSwianRpIjoiNmE5MWQwOGUtMzM4Yy00NTU4LWIxNmQtNTU1NzQ4ZGY1YTllIiwiY2xpZW50X2lkIjoiVGN0VGVzdCJ9.YQvg-ETJNvCRGLGjWrr3t7nHE0aN1waobUReAMgr9c6r2W9dj2OFCGC2Rmp-LpLCcw92jZBlp7RdE-Cqc0kZj_JGbgSU0GOi47PcXq7Q0OmBQKV68alqsbNHWnqjqjNedSbqvWWL-fkUVXb0dcjueZeiyM-xAgOP6wF9E_TnbHZLjNHQ3r1PIp50Kpas1mFWt4tmPZxHr18LsDcs2WHG17L6RhU2EuyIVVYbsnXXpWK331fwI_BtGaotKcwBVTZRoj51eY4HJK0ui6JHAzNIsKwztEPEvM0g6Yiq-yANJxqKk57P0HgJGtHDRlO_3wbLW8pnKsY3Rr4CY4nYylD-pg HTTP/1.1"/>
-<node CREATED="1569851376003" MODIFIED="1569851376003" TEXT="Host: 127.0.0.1:8081"/>
-<node CREATED="1569851376003" MODIFIED="1569851376003" TEXT="Authorization: Basic VGN0VGVzdDoxMjM0MTIzNGFh"/>
-<node CREATED="1569851376004" MODIFIED="1569851376004" TEXT="User-Agent: PostmanRuntime/7.17.1"/>
-<node CREATED="1569851376005" MODIFIED="1569851376005" TEXT="Accept: */*"/>
-<node CREATED="1569851376006" MODIFIED="1569851376006" TEXT="Cache-Control: no-cache"/>
-<node CREATED="1569851376007" MODIFIED="1569851376007" TEXT="Postman-Token: 247c21f7-5b3b-431f-99de-6846a7ba9be1,459c41d4-638e-4616-aad0-b66829ac5001"/>
-<node CREATED="1569851376008" MODIFIED="1569851376008" TEXT="Host: 127.0.0.1:8081"/>
-<node CREATED="1569851376008" MODIFIED="1569851376008" TEXT="Accept-Encoding: gzip, deflate"/>
-<node CREATED="1569851376009" MODIFIED="1569851376009" TEXT="Connection: keep-alive"/>
-<node CREATED="1569851376010" MODIFIED="1569851376010" TEXT="cache-control: no-cache"/>
+<node CREATED="1569851375989" ID="ID_611642438" MODIFIED="1569851375989" TEXT="GET /oauth/check_token?token=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJUY3RUZXN0QGdtYWlsLmNvbSIsInNjb3BlIjpbInJlYWQiLCJ3cml0ZSJdLCJleHAiOjE1Njk4OTQzMjEsInVzZXJJZCI6IjEyMzEyMyIsImF1dGhvcml0aWVzIjpbIlJPTEVfU1lTVEVNQURNSU4iXSwianRpIjoiNmE5MWQwOGUtMzM4Yy00NTU4LWIxNmQtNTU1NzQ4ZGY1YTllIiwiY2xpZW50X2lkIjoiVGN0VGVzdCJ9.YQvg-ETJNvCRGLGjWrr3t7nHE0aN1waobUReAMgr9c6r2W9dj2OFCGC2Rmp-LpLCcw92jZBlp7RdE-Cqc0kZj_JGbgSU0GOi47PcXq7Q0OmBQKV68alqsbNHWnqjqjNedSbqvWWL-fkUVXb0dcjueZeiyM-xAgOP6wF9E_TnbHZLjNHQ3r1PIp50Kpas1mFWt4tmPZxHr18LsDcs2WHG17L6RhU2EuyIVVYbsnXXpWK331fwI_BtGaotKcwBVTZRoj51eY4HJK0ui6JHAzNIsKwztEPEvM0g6Yiq-yANJxqKk57P0HgJGtHDRlO_3wbLW8pnKsY3Rr4CY4nYylD-pg HTTP/1.1"/>
+<node CREATED="1569851376003" ID="ID_22526389" MODIFIED="1569851376003" TEXT="Host: 127.0.0.1:8081"/>
+<node CREATED="1569851376003" ID="ID_803590403" MODIFIED="1569851376003" TEXT="Authorization: Basic VGN0VGVzdDoxMjM0MTIzNGFh"/>
+<node CREATED="1569851376004" ID="ID_256847179" MODIFIED="1569851376004" TEXT="User-Agent: PostmanRuntime/7.17.1"/>
+<node CREATED="1569851376005" ID="ID_101862941" MODIFIED="1569851376005" TEXT="Accept: */*"/>
+<node CREATED="1569851376006" ID="ID_862766373" MODIFIED="1569851376006" TEXT="Cache-Control: no-cache"/>
+<node CREATED="1569851376007" ID="ID_1296845910" MODIFIED="1569851376007" TEXT="Postman-Token: 247c21f7-5b3b-431f-99de-6846a7ba9be1,459c41d4-638e-4616-aad0-b66829ac5001"/>
+<node CREATED="1569851376008" ID="ID_321150643" MODIFIED="1569851376008" TEXT="Host: 127.0.0.1:8081"/>
+<node CREATED="1569851376008" ID="ID_610300590" MODIFIED="1569851376008" TEXT="Accept-Encoding: gzip, deflate"/>
+<node CREATED="1569851376009" ID="ID_308207196" MODIFIED="1569851376009" TEXT="Connection: keep-alive"/>
+<node CREATED="1569851376010" ID="ID_695176784" MODIFIED="1569851376010" TEXT="cache-control: no-cache"/>
 </node>
 <node CREATED="1569492892638" ID="ID_1323215982" MODIFIED="1569851179776" TEXT="&#xacb0;&#xacfc;">
-<node CREATED="1569851384209" MODIFIED="1569851384209" TEXT="{">
+<node CREATED="1569851384209" ID="ID_1898277854" MODIFIED="1569851384209" TEXT="{">
 <node CREATED="1569851384211" LINK="mailto:&quot;TctTest@gmail.com&quot;," MODIFIED="1569851384211" TEXT="&quot;user_name&quot;: &quot;TctTest@gmail.com&quot;,"/>
 <node CREATED="1569851384216" MODIFIED="1569851384216" TEXT="&quot;scope&quot;: [">
 <node CREATED="1569851384217" MODIFIED="1569851384217" TEXT="&quot;read&quot;,"/>
@@ -2779,23 +2779,23 @@
 <node CREATED="1569851384231" MODIFIED="1569851384231" TEXT="&quot;jti&quot;: &quot;6a91d08e-338c-4558-b16d-555748df5a9e&quot;,"/>
 <node CREATED="1569851384233" MODIFIED="1569851384233" TEXT="&quot;client_id&quot;: &quot;TctTest&quot;"/>
 </node>
-<node CREATED="1569851384233" MODIFIED="1569851384233" TEXT="}"/>
+<node CREATED="1569851384233" ID="ID_843026294" MODIFIED="1569851384233" TEXT="}"/>
 </node>
 </node>
-<node CREATED="1569854507655" FOLDED="true" ID="ID_1887485124" MODIFIED="1569867180106" TEXT="7. implicit">
+<node CREATED="1569854507655" ID="ID_1887485124" MODIFIED="1569871364423" TEXT="7. implicit">
 <node CREATED="1569858624071" ID="ID_495094094" MODIFIED="1569863599043" TEXT="&#xcf54;&#xb4dc;">
-<node CREATED="1569858625234" MODIFIED="1569858625234" TEXT="//oAUth2 &#xc804;&#xc6a9;"/>
-<node CREATED="1569858625237" MODIFIED="1569858625237" TEXT="http.cors().and()"/>
-<node CREATED="1569858625238" MODIFIED="1569858625238" TEXT=".addFilterBefore(filter, UsernamePasswordAuthenticationFilter.class)"/>
-<node CREATED="1569858625240" MODIFIED="1569858625240" TEXT=".sessionManagement().sessionCreationPolicy(SessionCreationPolicy.NEVER).and()"/>
-<node CREATED="1569858625242" MODIFIED="1569858625242" TEXT="//.csrf().disable()"/>
-<node CREATED="1569858625244" MODIFIED="1569858625244" TEXT=".csrf().csrfTokenRepository(getCookieCsfrTokenRepository()).and()"/>
+<node CREATED="1569858625234" ID="ID_60225774" MODIFIED="1569858625234" TEXT="//oAUth2 &#xc804;&#xc6a9;"/>
+<node CREATED="1569858625237" ID="ID_1465521856" MODIFIED="1569858625237" TEXT="http.cors().and()"/>
+<node CREATED="1569858625238" ID="ID_1265418578" MODIFIED="1569858625238" TEXT=".addFilterBefore(filter, UsernamePasswordAuthenticationFilter.class)"/>
+<node CREATED="1569858625240" ID="ID_546416824" MODIFIED="1569858625240" TEXT=".sessionManagement().sessionCreationPolicy(SessionCreationPolicy.NEVER).and()"/>
+<node CREATED="1569858625242" ID="ID_94164822" MODIFIED="1569858625242" TEXT="//.csrf().disable()"/>
+<node CREATED="1569858625244" ID="ID_1783653590" MODIFIED="1569858625244" TEXT=".csrf().csrfTokenRepository(getCookieCsfrTokenRepository()).and()"/>
 <node CREATED="1569858625244" ID="ID_1718199875" MODIFIED="1569858625244" TEXT=".authorizeRequests().antMatchers(&quot;/&quot;, &quot;/*.js&quot;, &quot;/*.css&quot;, &quot;/assets/**&quot;, &quot;/Home/**&quot;, &quot;/getCsrfToken&quot;,&quot;/login&quot;,&quot;/oauth/authorize&quot;)"/>
-<node CREATED="1569858625246" MODIFIED="1569858625246" TEXT=".permitAll()"/>
-<node CREATED="1569858625247" MODIFIED="1569858625247" TEXT=".anyRequest().authenticated().and()"/>
-<node CREATED="1569858625248" MODIFIED="1569858625248" TEXT=".formLogin().permitAll().and()"/>
-<node CREATED="1569858625249" MODIFIED="1569858625249" TEXT="//.oauth2Login().permitAll().and()"/>
-<node CREATED="1569858625249" MODIFIED="1569858625249" TEXT=".logout().permitAll();"/>
+<node CREATED="1569858625246" ID="ID_1682260142" MODIFIED="1569858625246" TEXT=".permitAll()"/>
+<node CREATED="1569858625247" ID="ID_721799506" MODIFIED="1569858625247" TEXT=".anyRequest().authenticated().and()"/>
+<node CREATED="1569858625248" ID="ID_1716316977" MODIFIED="1569858625248" TEXT=".formLogin().permitAll().and()"/>
+<node CREATED="1569858625249" ID="ID_1434916657" MODIFIED="1569858625249" TEXT="//.oauth2Login().permitAll().and()"/>
+<node CREATED="1569858625249" ID="ID_1415753918" MODIFIED="1569858625249" TEXT=".logout().permitAll();"/>
 </node>
 <node CREATED="1569863601194" ID="ID_927026698" MODIFIED="1569863624570" TEXT="implicit&#xc5d0; &#xb300;&#xd55c; redirecturl &#xd5c8;&#xc6a9;">
 <node CREATED="1569863613342" ID="ID_369477582" MODIFIED="1569863613342" TEXT="@Override">
@@ -2831,31 +2831,31 @@
 <node CREATED="1569858669648" ID="ID_1822720078" MODIFIED="1569858706146" TEXT="https://www.daum.net/#access_token=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJUY3RUZXN0QGdtYWlsLmNvbSIsInNjb3BlIjpbInJlYWQiXSwiZXhwIjoxNTY5ODk5OTU2LCJ1c2VySWQiOiIxMjMxMjMiLCJhdXRob3JpdGllcyI6WyJST0xFX1NZU1RFTUFETUlOIl0sImp0aSI6IjQzYTJhM2E3LTc0NDUtNDQxYS05YzNhLTJmMDU3NDVlMWFiNCIsImNsaWVudF9pZCI6InNhbXBsZUNsaW5ldElkIn0.FLPnydth_MiwTY-Bu9UzfH69uQljCbPdBXUT6HQxx_zvGV61n64Rn1PfCZL3u4G6U-L2mPoDovy-pkev-4sZzxrOxjF1xaarDDtJ1gtfmP4Eo763gmnfssbxEZxRC9zimN_-_exloky1ycfv84YSQxWHz60aJJNwA3Zv0ZRU7dlwG7qNSCLe9S1o8EjDZ4YBH3F0XxfOUeliRrmtcKAyxu-rF1_KgNu8WNM_wAEaXbEjQMM9NNb78ZkIySvSvf9EMrGniLuxWBpJ3wDoE1TRgYUn3kZZWKYQDwqWRPD68duVIZSlPsNDlaVl3G0m0Y9M-y5_qJlOUqWz39PLfCXW7g&amp;token_type=bearer&amp;expires_in=43199&amp;userId=123123&amp;jti=43a2a3a7-7445-441a-9c3a-2f05745e1ab4"/>
 </node>
 </node>
-<node CREATED="1569850815584" FOLDED="true" ID="ID_38472663" MODIFIED="1569867180107" TEXT="7, &#xb9ac;&#xc18c;&#xc2a4; &#xc11c;&#xbc84; config">
-<node CREATED="1569851589026" FOLDED="true" ID="ID_371823389" MODIFIED="1569854485328" TEXT="&#xcf54;&#xb4dc;">
-<node CREATED="1569851592478" MODIFIED="1569851592478" TEXT="package com.example.demo.oAuth2;"/>
-<node CREATED="1569851592480" MODIFIED="1569851592480" TEXT="import java.io.IOException;"/>
-<node CREATED="1569851592482" MODIFIED="1569851592482" TEXT="import org.aopalliance.intercept.MethodInterceptor;"/>
-<node CREATED="1569851592483" MODIFIED="1569851592483" TEXT="import org.apache.commons.io.IOUtils;"/>
-<node CREATED="1569851592485" MODIFIED="1569851592485" TEXT="import org.springframework.beans.factory.annotation.Autowired;"/>
-<node CREATED="1569851592486" MODIFIED="1569851592486" TEXT="import org.springframework.context.annotation.Bean;"/>
-<node CREATED="1569851592488" MODIFIED="1569851592488" TEXT="import org.springframework.context.annotation.Configuration;"/>
-<node CREATED="1569851592489" MODIFIED="1569851592489" TEXT="import org.springframework.context.annotation.Primary;"/>
-<node CREATED="1569851592491" MODIFIED="1569851592491" TEXT="import org.springframework.core.io.ClassPathResource;"/>
-<node CREATED="1569851592492" MODIFIED="1569851592492" TEXT="import org.springframework.core.io.Resource;"/>
-<node CREATED="1569851592494" MODIFIED="1569851592494" TEXT="import org.springframework.security.access.expression.method.MethodSecurityExpressionHandler;"/>
-<node CREATED="1569851592495" MODIFIED="1569851592495" TEXT="import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;"/>
-<node CREATED="1569851592496" MODIFIED="1569851592496" TEXT="import org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration;"/>
-<node CREATED="1569851592498" MODIFIED="1569851592498" TEXT="import org.springframework.security.oauth2.config.annotation.web.configuration.EnableResourceServer;"/>
-<node CREATED="1569851592499" MODIFIED="1569851592499" TEXT="import org.springframework.security.oauth2.provider.expression.OAuth2MethodSecurityExpressionHandler;"/>
-<node CREATED="1569851592501" MODIFIED="1569851592501" TEXT="import org.springframework.security.oauth2.provider.token.DefaultTokenServices;"/>
-<node CREATED="1569851592502" MODIFIED="1569851592502" TEXT="import org.springframework.security.oauth2.provider.token.TokenStore;"/>
-<node CREATED="1569851592502" MODIFIED="1569851592502" TEXT="import org.springframework.security.oauth2.provider.token.store.JwtAccessTokenConverter;"/>
+<node CREATED="1569850815584" ID="ID_38472663" MODIFIED="1569872687768" TEXT="7, &#xb9ac;&#xc18c;&#xc2a4; &#xc11c;&#xbc84; config">
+<node CREATED="1569851589026" FOLDED="true" ID="ID_371823389" MODIFIED="1569874259326" TEXT="&#xcf54;&#xb4dc;">
+<node CREATED="1569851592478" ID="ID_1115590666" MODIFIED="1569851592478" TEXT="package com.example.demo.oAuth2;"/>
+<node CREATED="1569851592480" ID="ID_1557595924" MODIFIED="1569851592480" TEXT="import java.io.IOException;"/>
+<node CREATED="1569851592482" ID="ID_367437289" MODIFIED="1569851592482" TEXT="import org.aopalliance.intercept.MethodInterceptor;"/>
+<node CREATED="1569851592483" ID="ID_1093031406" MODIFIED="1569851592483" TEXT="import org.apache.commons.io.IOUtils;"/>
+<node CREATED="1569851592485" ID="ID_1707385426" MODIFIED="1569851592485" TEXT="import org.springframework.beans.factory.annotation.Autowired;"/>
+<node CREATED="1569851592486" ID="ID_1525781438" MODIFIED="1569851592486" TEXT="import org.springframework.context.annotation.Bean;"/>
+<node CREATED="1569851592488" ID="ID_767733436" MODIFIED="1569851592488" TEXT="import org.springframework.context.annotation.Configuration;"/>
+<node CREATED="1569851592489" ID="ID_166253680" MODIFIED="1569851592489" TEXT="import org.springframework.context.annotation.Primary;"/>
+<node CREATED="1569851592491" ID="ID_248145264" MODIFIED="1569851592491" TEXT="import org.springframework.core.io.ClassPathResource;"/>
+<node CREATED="1569851592492" ID="ID_976469553" MODIFIED="1569851592492" TEXT="import org.springframework.core.io.Resource;"/>
+<node CREATED="1569851592494" ID="ID_910455403" MODIFIED="1569851592494" TEXT="import org.springframework.security.access.expression.method.MethodSecurityExpressionHandler;"/>
+<node CREATED="1569851592495" ID="ID_319389153" MODIFIED="1569851592495" TEXT="import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;"/>
+<node CREATED="1569851592496" ID="ID_1885329867" MODIFIED="1569851592496" TEXT="import org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration;"/>
+<node CREATED="1569851592498" ID="ID_1042128253" MODIFIED="1569851592498" TEXT="import org.springframework.security.oauth2.config.annotation.web.configuration.EnableResourceServer;"/>
+<node CREATED="1569851592499" ID="ID_1401981539" MODIFIED="1569851592499" TEXT="import org.springframework.security.oauth2.provider.expression.OAuth2MethodSecurityExpressionHandler;"/>
+<node CREATED="1569851592501" ID="ID_881013060" MODIFIED="1569851592501" TEXT="import org.springframework.security.oauth2.provider.token.DefaultTokenServices;"/>
+<node CREATED="1569851592502" ID="ID_798018885" MODIFIED="1569851592502" TEXT="import org.springframework.security.oauth2.provider.token.TokenStore;"/>
+<node CREATED="1569851592502" ID="ID_1630595744" MODIFIED="1569851592502" TEXT="import org.springframework.security.oauth2.provider.token.store.JwtAccessTokenConverter;"/>
 <node CREATED="1569851592504" ID="ID_907880560" MODIFIED="1569851592504" TEXT="import org.springframework.security.oauth2.provider.token.store.JwtTokenStore;"/>
-<node CREATED="1569851592504" MODIFIED="1569851592504" TEXT="import com.example.demo.config.CheckTokenConverter;"/>
-<node CREATED="1569851592505" MODIFIED="1569851592505" TEXT="@Configuration"/>
-<node CREATED="1569851592506" MODIFIED="1569851592506" TEXT="@EnableResourceServer"/>
-<node CREATED="1569851592507" MODIFIED="1569851592507" TEXT="@EnableGlobalMethodSecurity(prePostEnabled = true)"/>
+<node CREATED="1569851592504" ID="ID_1570495899" MODIFIED="1569851592504" TEXT="import com.example.demo.config.CheckTokenConverter;"/>
+<node CREATED="1569851592505" ID="ID_1575430358" MODIFIED="1569851592505" TEXT="@Configuration"/>
+<node CREATED="1569851592506" ID="ID_494749497" MODIFIED="1569851592506" TEXT="@EnableResourceServer"/>
+<node CREATED="1569851592507" ID="ID_1306756574" MODIFIED="1569851592507" TEXT="@EnableGlobalMethodSecurity(prePostEnabled = true)"/>
 <node CREATED="1569851592508" FOLDED="true" ID="ID_1742306814" MODIFIED="1569851997529" TEXT="public class ResoureConfig extends GlobalMethodSecurityConfiguration {">
 <node CREATED="1569851592509" MODIFIED="1569851592509" TEXT="@Autowired"/>
 <node CREATED="1569851592510" MODIFIED="1569851592510" TEXT="CheckTokenConverter converter;"/>
@@ -2903,28 +2903,28 @@
 </node>
 <node CREATED="1569851592538" MODIFIED="1569851592538" TEXT="}"/>
 </node>
-<node CREATED="1569851592539" MODIFIED="1569851592539" TEXT="//        @Primary"/>
-<node CREATED="1569851592540" MODIFIED="1569851592540" TEXT="//        @Bean"/>
-<node CREATED="1569851592541" MODIFIED="1569851592541" TEXT="//        public RemoteTokenServices tokenService() {"/>
-<node CREATED="1569851592542" MODIFIED="1569851592542" TEXT="//"/>
-<node CREATED="1569851592542" MODIFIED="1569851592542" TEXT="//                RemoteTokenServices tokenService = new RemoteTokenServices();"/>
-<node CREATED="1569851592543" LINK="http://localhost:8081/oauth/check_token" MODIFIED="1569851592543" TEXT="//                tokenService.setCheckTokenEndpointUrl(&quot;http://localhost:8081/oauth/check_token&quot;);"/>
-<node CREATED="1569851592545" MODIFIED="1569851592545" TEXT="//                tokenService.setClientId(&quot;TctTest&quot;);"/>
-<node CREATED="1569851592546" MODIFIED="1569851592546" TEXT="//                tokenService.setClientSecret(&quot;12341234aa&quot;);"/>
-<node CREATED="1569851592547" MODIFIED="1569851592547" TEXT="//                tokenService.setAccessTokenConverter(converter);"/>
-<node CREATED="1569851592548" MODIFIED="1569851592548" TEXT="//                return tokenService;"/>
-<node CREATED="1569851592548" MODIFIED="1569851592548" TEXT="//"/>
-<node CREATED="1569851592549" MODIFIED="1569851592549" TEXT="//        }"/>
-<node CREATED="1569851592550" MODIFIED="1569851592550" TEXT="}"/>
+<node CREATED="1569851592539" ID="ID_570519564" MODIFIED="1569851592539" TEXT="//        @Primary"/>
+<node CREATED="1569851592540" ID="ID_1045331191" MODIFIED="1569851592540" TEXT="//        @Bean"/>
+<node CREATED="1569851592541" ID="ID_1798709059" MODIFIED="1569851592541" TEXT="//        public RemoteTokenServices tokenService() {"/>
+<node CREATED="1569851592542" ID="ID_1874723311" MODIFIED="1569851592542" TEXT="//"/>
+<node CREATED="1569851592542" ID="ID_1764363754" MODIFIED="1569851592542" TEXT="//                RemoteTokenServices tokenService = new RemoteTokenServices();"/>
+<node CREATED="1569851592543" ID="ID_1615846270" LINK="http://localhost:8081/oauth/check_token" MODIFIED="1569851592543" TEXT="//                tokenService.setCheckTokenEndpointUrl(&quot;http://localhost:8081/oauth/check_token&quot;);"/>
+<node CREATED="1569851592545" ID="ID_226437311" MODIFIED="1569851592545" TEXT="//                tokenService.setClientId(&quot;TctTest&quot;);"/>
+<node CREATED="1569851592546" ID="ID_794139775" MODIFIED="1569851592546" TEXT="//                tokenService.setClientSecret(&quot;12341234aa&quot;);"/>
+<node CREATED="1569851592547" ID="ID_1120730192" MODIFIED="1569851592547" TEXT="//                tokenService.setAccessTokenConverter(converter);"/>
+<node CREATED="1569851592548" ID="ID_1529739026" MODIFIED="1569851592548" TEXT="//                return tokenService;"/>
+<node CREATED="1569851592548" ID="ID_1610947394" MODIFIED="1569851592548" TEXT="//"/>
+<node CREATED="1569851592549" ID="ID_264539936" MODIFIED="1569851592549" TEXT="//        }"/>
+<node CREATED="1569851592550" ID="ID_1873870086" MODIFIED="1569851592550" TEXT="}"/>
 </node>
-<node CREATED="1569851593512" ID="ID_947243585" MODIFIED="1569853857138" TEXT="&#xc124;&#xba85;">
+<node CREATED="1569851593512" FOLDED="true" ID="ID_947243585" MODIFIED="1569874259327" TEXT="&#xc124;&#xba85;">
 <node CREATED="1569851596274" ID="ID_796872601" MODIFIED="1569851696589" TEXT="jwt&#xb97c; &#xc790;&#xccb4;&#xc801;&#xc73c;&#xb85c; &#xd1a0;&#xd070;&#xc774; &#xc720;&#xd6a8;&#xd55c;&#xc9c0; &#xd310;&#xb2e8;&#xd55c;&#xb2e4;."/>
 <node CREATED="1569851640728" ID="ID_1920380340" MODIFIED="1569852098557" TEXT="autorization &#xc11c;&#xbc84;&#xc758; check_token&#xc73c;&#xb85c; &#xc811;&#xc18d;&#xd558;&#xc5ec; &#xc77c;&#xc77c;&#xc774; &#xb530;&#xb85c; &#xd574;&#xb2f9; &#xd1a0;&#xd070;&#xc774; &#xc720;&#xd6a8;&#xd55c;&#xc9c0;&#xb3c4; &#xd30c;&#xc545;&#xd560; &#xc218; &#xc788;&#xb2e4;. &#xc774;&#xb7f4; &#xb54c;&#xc5d0;&#xb294; RemoteTokenServices&#xb97c; &#xc774;&#xc6a9;&#xd558;&#xba74; &#xb418;&#xba70;, &#xd604;&#xc7ac; &#xcf54;&#xb4dc;&#xc5d0;&#xc11c;&#xb294; &#xc8fc;&#xc11d;&#xcc98;&#xb9ac; &#xb418;&#xc5b4;&#xc788;&#xb2e4;."/>
-<node CREATED="1569852157514" FOLDED="true" ID="ID_1751979313" MODIFIED="1569853861328" TEXT="&#xc774;&#xc5d0; &#xb300;&#xd55c; &#xb0b4;&#xc6a9;&#xc740; &#xb2e4;&#xc74c;&#xc5d0; &#xd29c;&#xd1a0;&#xb9ac;&#xc5bc;&#xc5d0;&#xc11c; &#xc911;&#xc810;&#xc801;&#xc73c;&#xb85c; &#xc9c4;&#xd589;&#xc774; &#xb41c;&#xb2e4;.">
+<node CREATED="1569852157514" ID="ID_1751979313" MODIFIED="1569872816472" TEXT="&#xc774;&#xc5d0; &#xb300;&#xd55c; &#xb0b4;&#xc6a9;&#xc740; &#xb2e4;&#xc74c;&#xc5d0; &#xd29c;&#xd1a0;&#xb9ac;&#xc5bc;&#xc5d0;&#xc11c; &#xc911;&#xc810;&#xc801;&#xc73c;&#xb85c; &#xc9c4;&#xd589;&#xc774; &#xb41c;&#xb2e4;.">
 <node CREATED="1569491563570" ID="ID_1073354598" LINK="https://www.tutorialspoint.com/spring_boot/spring_boot_oauth2_with_jwt.htm" MODIFIED="1569491564360" TEXT="https://www.tutorialspoint.com/spring_boot/spring_boot_oauth2_with_jwt.htm"/>
 </node>
 </node>
-<node CREATED="1569852577644" ID="ID_1334995201" MODIFIED="1569863140926" TEXT="&#xcee4;&#xc2a4;&#xd140; &#xcee8;&#xbc84;&#xd130; &#xc138;&#xd305;">
+<node CREATED="1569852577644" FOLDED="true" ID="ID_1334995201" MODIFIED="1569874259327" TEXT="&#xcee4;&#xc2a4;&#xd140; &#xcee8;&#xbc84;&#xd130; &#xc138;&#xd305;">
 <node CREATED="1569852616245" ID="ID_144680134" MODIFIED="1569852702156" TEXT="@Autowired"/>
 <node CREATED="1569852616248" ID="ID_1292424387" MODIFIED="1569852702157" TEXT="CheckTokenConverter converter;"/>
 <node CREATED="1569852603167" ID="ID_1070887902" MODIFIED="1569852603167" TEXT="@Bean">
@@ -2946,14 +2946,14 @@
 <node CREATED="1569852603195" MODIFIED="1569852603195" TEXT="}"/>
 </node>
 </node>
-<node CREATED="1569852707954" ID="ID_146602442" MODIFIED="1569863138343" TEXT="&#xcee4;&#xc2a4;&#xd140; &#xcee8;&#xbc84;&#xd130;">
-<node CREATED="1569852710508" MODIFIED="1569852710508" TEXT="package com.example.demo.config;"/>
-<node CREATED="1569852710510" MODIFIED="1569852710510" TEXT="import java.util.HashMap;"/>
-<node CREATED="1569852710511" MODIFIED="1569852710511" TEXT="import java.util.Map;"/>
-<node CREATED="1569852710513" MODIFIED="1569852710513" TEXT="import org.springframework.beans.factory.annotation.Autowired;"/>
-<node CREATED="1569852710514" MODIFIED="1569852710514" TEXT="import org.springframework.security.oauth2.provider.OAuth2Authentication;"/>
-<node CREATED="1569852710516" MODIFIED="1569852710516" TEXT="import org.springframework.security.oauth2.provider.token.DefaultAccessTokenConverter;"/>
-<node CREATED="1569852710518" MODIFIED="1569852710518" TEXT="import org.springframework.stereotype.Component;"/>
+<node CREATED="1569852707954" FOLDED="true" ID="ID_146602442" MODIFIED="1569874259327" TEXT="&#xcee4;&#xc2a4;&#xd140; &#xcee8;&#xbc84;&#xd130;">
+<node CREATED="1569852710508" ID="ID_564378419" MODIFIED="1569852710508" TEXT="package com.example.demo.config;"/>
+<node CREATED="1569852710510" ID="ID_306225014" MODIFIED="1569852710510" TEXT="import java.util.HashMap;"/>
+<node CREATED="1569852710511" ID="ID_1005288708" MODIFIED="1569852710511" TEXT="import java.util.Map;"/>
+<node CREATED="1569852710513" ID="ID_1793086413" MODIFIED="1569852710513" TEXT="import org.springframework.beans.factory.annotation.Autowired;"/>
+<node CREATED="1569852710514" ID="ID_122839233" MODIFIED="1569852710514" TEXT="import org.springframework.security.oauth2.provider.OAuth2Authentication;"/>
+<node CREATED="1569852710516" ID="ID_1134936311" MODIFIED="1569852710516" TEXT="import org.springframework.security.oauth2.provider.token.DefaultAccessTokenConverter;"/>
+<node CREATED="1569852710518" ID="ID_998691690" MODIFIED="1569852710518" TEXT="import org.springframework.stereotype.Component;"/>
 <node CREATED="1569852710520" ID="ID_936636115" MODIFIED="1569852710520" TEXT="@Component"/>
 <node CREATED="1569852710521" ID="ID_1112560124" MODIFIED="1569852710521" TEXT="public class CheckTokenConverter extends DefaultAccessTokenConverter {">
 <node CREATED="1569852710523" MODIFIED="1569852710523" TEXT="private Map checkTokenResult;"/>
@@ -2975,13 +2975,13 @@
 </node>
 <node CREATED="1569852710545" MODIFIED="1569852710545" TEXT="}"/>
 </node>
-<node CREATED="1569852710546" MODIFIED="1569852710546" TEXT="}"/>
+<node CREATED="1569852710546" ID="ID_716189259" MODIFIED="1569852710546" TEXT="}"/>
 </node>
-<node CREATED="1569852594867" FOLDED="true" ID="ID_875060908" MODIFIED="1569854489921" TEXT="&#xc124;&#xba85;">
+<node CREATED="1569852594867" FOLDED="true" ID="ID_875060908" MODIFIED="1569874259327" TEXT="&#xc124;&#xba85;">
 <node CREATED="1569852473283" ID="ID_1846030939" MODIFIED="1569852597048" TEXT="&#xb610;&#xd55c; &#xb9ac;&#xc18c;&#xc2a4; &#xc11c;&#xbc84;&#xc5d0;&#xc11c; &#xd574;&#xb2f9; &#xd1a0;&#xd070;&#xc5d0; &#xbd80;&#xd569;&#xd558;&#xb294; &#xb370;&#xc774;&#xd130;&#xb97c; &#xae01;&#xc5b4;&#xc640;&#xc57c; &#xd558;&#xb294; &#xacbd;&#xc6b0;&#xac00; &#xb9ce;&#xc774; &#xc788;&#xb2e4;."/>
 <node CREATED="1569852505130" ID="ID_125684144" MODIFIED="1569852597046" TEXT="&#xc774;&#xc5d0; &#xb300;&#xd55c; &#xacbd;&#xc6b0;&#xb294; AccessTokenConverter&#xc5d0;&#xc11c; &#xb530;&#xb85c; CustomConverter&#xb97c; &#xc138;&#xd305;&#xd558;&#xc5ec; &#xc0ac;&#xc6a9;&#xd558;&#xba74; &#xb41c;&#xb2e4;."/>
 </node>
-<node CREATED="1569852727475" FOLDED="true" ID="ID_1676526657" MODIFIED="1569854498289" TEXT="&#xcee8;&#xd2b8;&#xb864;&#xb7ec;">
+<node CREATED="1569852727475" FOLDED="true" ID="ID_1676526657" MODIFIED="1569874259327" TEXT="&#xcee8;&#xd2b8;&#xb864;&#xb7ec;">
 <node CREATED="1569852860173" ID="ID_783014786" MODIFIED="1569852860173" TEXT="package com.example.demo.oAuth2;"/>
 <node CREATED="1569852860173" ID="ID_1567537639" MODIFIED="1569852860173" TEXT="import java.security.Principal;"/>
 <node CREATED="1569852860174" ID="ID_399339181" MODIFIED="1569852860174" TEXT="import javax.servlet.http.HttpServletRequest;"/>
@@ -3019,21 +3019,21 @@
 </node>
 <node CREATED="1569852860185" ID="ID_1634168542" MODIFIED="1569852860185" TEXT="}"/>
 </node>
-<node CREATED="1569852890251" ID="ID_244908803" MODIFIED="1569863134901" TEXT="&#xd5e4;&#xb354;">
-<node CREATED="1569852905053" MODIFIED="1569852905053" TEXT="GET /foo/1 HTTP/1.1"/>
-<node CREATED="1569852905053" MODIFIED="1569852905053" TEXT="Host: 127.0.0.1:8082"/>
-<node CREATED="1569852905054" MODIFIED="1569852905054" TEXT="Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJUY3RUZXN0QGdtYWlsLmNvbSIsInNjb3BlIjpbInJlYWQiLCJ3cml0ZSJdLCJleHAiOjE1Njk4OTQzMjEsInVzZXJJZCI6IjEyMzEyMyIsImF1dGhvcml0aWVzIjpbIlJPTEVfU1lTVEVNQURNSU4iXSwianRpIjoiNmE5MWQwOGUtMzM4Yy00NTU4LWIxNmQtNTU1NzQ4ZGY1YTllIiwiY2xpZW50X2lkIjoiVGN0VGVzdCJ9.YQvg-ETJNvCRGLGjWrr3t7nHE0aN1waobUReAMgr9c6r2W9dj2OFCGC2Rmp-LpLCcw92jZBlp7RdE-Cqc0kZj_JGbgSU0GOi47PcXq7Q0OmBQKV68alqsbNHWnqjqjNedSbqvWWL-fkUVXb0dcjueZeiyM-xAgOP6wF9E_TnbHZLjNHQ3r1PIp50Kpas1mFWt4tmPZxHr18LsDcs2WHG17L6RhU2EuyIVVYbsnXXpWK331fwI_BtGaotKcwBVTZRoj51eY4HJK0ui6JHAzNIsKwztEPEvM0g6Yiq-yANJxqKk57P0HgJGtHDRlO_3wbLW8pnKsY3Rr4CY4nYylD-pg"/>
+<node CREATED="1569852890251" FOLDED="true" ID="ID_244908803" MODIFIED="1569874258206" TEXT="&#xd5e4;&#xb354;">
+<node CREATED="1569852905053" ID="ID_1331666855" MODIFIED="1569852905053" TEXT="GET /foo/1 HTTP/1.1"/>
+<node CREATED="1569852905053" ID="ID_1581733648" MODIFIED="1569852905053" TEXT="Host: 127.0.0.1:8082"/>
+<node CREATED="1569852905054" ID="ID_1784834784" MODIFIED="1569852905054" TEXT="Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJUY3RUZXN0QGdtYWlsLmNvbSIsInNjb3BlIjpbInJlYWQiLCJ3cml0ZSJdLCJleHAiOjE1Njk4OTQzMjEsInVzZXJJZCI6IjEyMzEyMyIsImF1dGhvcml0aWVzIjpbIlJPTEVfU1lTVEVNQURNSU4iXSwianRpIjoiNmE5MWQwOGUtMzM4Yy00NTU4LWIxNmQtNTU1NzQ4ZGY1YTllIiwiY2xpZW50X2lkIjoiVGN0VGVzdCJ9.YQvg-ETJNvCRGLGjWrr3t7nHE0aN1waobUReAMgr9c6r2W9dj2OFCGC2Rmp-LpLCcw92jZBlp7RdE-Cqc0kZj_JGbgSU0GOi47PcXq7Q0OmBQKV68alqsbNHWnqjqjNedSbqvWWL-fkUVXb0dcjueZeiyM-xAgOP6wF9E_TnbHZLjNHQ3r1PIp50Kpas1mFWt4tmPZxHr18LsDcs2WHG17L6RhU2EuyIVVYbsnXXpWK331fwI_BtGaotKcwBVTZRoj51eY4HJK0ui6JHAzNIsKwztEPEvM0g6Yiq-yANJxqKk57P0HgJGtHDRlO_3wbLW8pnKsY3Rr4CY4nYylD-pg"/>
 <node CREATED="1569852905062" ID="ID_613444832" MODIFIED="1569852905062" TEXT="User-Agent: PostmanRuntime/7.17.1"/>
-<node CREATED="1569852905063" MODIFIED="1569852905063" TEXT="Accept: */*"/>
-<node CREATED="1569852905063" MODIFIED="1569852905063" TEXT="Cache-Control: no-cache"/>
-<node CREATED="1569852905064" MODIFIED="1569852905064" TEXT="Postman-Token: 6f05e8f5-c59f-43dd-a9cb-023aa1de2c30,e786871f-d71c-4f33-8350-76a37b5066ef"/>
-<node CREATED="1569852905064" MODIFIED="1569852905064" TEXT="Host: 127.0.0.1:8082"/>
-<node CREATED="1569852905065" MODIFIED="1569852905065" TEXT="Accept-Encoding: gzip, deflate"/>
-<node CREATED="1569852905065" MODIFIED="1569852905065" TEXT="Connection: keep-alive"/>
-<node CREATED="1569852905065" MODIFIED="1569852905065" TEXT="cache-control: no-cache"/>
+<node CREATED="1569852905063" ID="ID_396727791" MODIFIED="1569852905063" TEXT="Accept: */*"/>
+<node CREATED="1569852905063" ID="ID_824440878" MODIFIED="1569852905063" TEXT="Cache-Control: no-cache"/>
+<node CREATED="1569852905064" ID="ID_1423194450" MODIFIED="1569852905064" TEXT="Postman-Token: 6f05e8f5-c59f-43dd-a9cb-023aa1de2c30,e786871f-d71c-4f33-8350-76a37b5066ef"/>
+<node CREATED="1569852905064" ID="ID_775144107" MODIFIED="1569852905064" TEXT="Host: 127.0.0.1:8082"/>
+<node CREATED="1569852905065" ID="ID_1867369251" MODIFIED="1569852905065" TEXT="Accept-Encoding: gzip, deflate"/>
+<node CREATED="1569852905065" ID="ID_1643097271" MODIFIED="1569852905065" TEXT="Connection: keep-alive"/>
+<node CREATED="1569852905065" ID="ID_234782694" MODIFIED="1569852905065" TEXT="cache-control: no-cache"/>
 </node>
 </node>
-<node CREATED="1569852202698" FOLDED="true" ID="ID_1407077227" MODIFIED="1569861443000" TEXT="8. &#xc778;&#xc99d;&#xc2dc; &#xcd94;&#xac00;&#xc801;&#xc778; &#xd30c;&#xb77c;&#xbbf8;&#xd130; &#xbcf4;&#xb0b4;&#xae30;">
+<node CREATED="1569852202698" FOLDED="true" ID="ID_1407077227" MODIFIED="1569874985688" TEXT="8. &#xc778;&#xc99d;&#xc2dc; &#xcd94;&#xac00;&#xc801;&#xc778; &#xd30c;&#xb77c;&#xbbf8;&#xd130; &#xbcf4;&#xb0b4;&#xae30;">
 <node CREATED="1569853820037" ID="ID_144187703" MODIFIED="1569853831817" TEXT="&#xd574;&#xb2f9;&#xd558;&#xb294; git&#xc744; &#xbca0;&#xc774;&#xc2a4;&#xb85c; &#xae54;&#xace0; &#xc791;&#xc5c5;&#xd55c;&#xb2e4;.">
 <node CREATED="1569483281901" ID="ID_1332736189" LINK="https://github.com/eugenp/tutorials/blob/master/spring-5-security/src/main/java/com/baeldung/loginextrafieldscustom/CustomUserDetailsAuthenticationProvider.java" MODIFIED="1569483281901" TEXT="https://github.com/eugenp/tutorials/blob/master/spring-5-security/src/main/java/com/baeldung/loginextrafieldscustom/CustomUserDetailsAuthenticationProvider.java"/>
 </node>
@@ -3054,18 +3054,18 @@
 </node>
 <node CREATED="1569853952231" ID="ID_1748113851" MODIFIED="1569853952231" TEXT="}"/>
 </node>
-<node CREATED="1569853989601" FOLDED="true" ID="ID_1196163102" MODIFIED="1569854035967" TEXT="CustomProvider">
-<node CREATED="1569854032730" MODIFIED="1569854032730" TEXT="package com.framework.Tct.oAuth2;"/>
-<node CREATED="1569854032731" MODIFIED="1569854032731" TEXT="import java.util.Map;"/>
-<node CREATED="1569854032732" MODIFIED="1569854032732" TEXT="import org.springframework.beans.factory.annotation.Autowired;"/>
-<node CREATED="1569854032734" MODIFIED="1569854032734" TEXT="import org.springframework.security.authentication.BadCredentialsException;"/>
-<node CREATED="1569854032735" MODIFIED="1569854032735" TEXT="import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;"/>
-<node CREATED="1569854032736" MODIFIED="1569854032736" TEXT="import org.springframework.security.authentication.dao.AbstractUserDetailsAuthenticationProvider;"/>
-<node CREATED="1569854032738" MODIFIED="1569854032738" TEXT="import org.springframework.security.core.AuthenticationException;"/>
-<node CREATED="1569854032739" MODIFIED="1569854032739" TEXT="import org.springframework.security.core.userdetails.UserDetails;"/>
-<node CREATED="1569854032740" MODIFIED="1569854032740" TEXT="import org.springframework.security.crypto.password.PasswordEncoder;"/>
-<node CREATED="1569854032741" MODIFIED="1569854032741" TEXT="import org.springframework.stereotype.Service;"/>
-<node CREATED="1569854032742" MODIFIED="1569854032742" TEXT="@Service"/>
+<node CREATED="1569853989601" ID="ID_1196163102" MODIFIED="1569874466073" TEXT="CustomProvider">
+<node CREATED="1569854032730" ID="ID_506992251" MODIFIED="1569854032730" TEXT="package com.framework.Tct.oAuth2;"/>
+<node CREATED="1569854032731" ID="ID_1077590182" MODIFIED="1569854032731" TEXT="import java.util.Map;"/>
+<node CREATED="1569854032732" ID="ID_100134424" MODIFIED="1569854032732" TEXT="import org.springframework.beans.factory.annotation.Autowired;"/>
+<node CREATED="1569854032734" ID="ID_416950939" MODIFIED="1569854032734" TEXT="import org.springframework.security.authentication.BadCredentialsException;"/>
+<node CREATED="1569854032735" ID="ID_103523816" MODIFIED="1569854032735" TEXT="import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;"/>
+<node CREATED="1569854032736" ID="ID_1203955564" MODIFIED="1569854032736" TEXT="import org.springframework.security.authentication.dao.AbstractUserDetailsAuthenticationProvider;"/>
+<node CREATED="1569854032738" ID="ID_1410103842" MODIFIED="1569854032738" TEXT="import org.springframework.security.core.AuthenticationException;"/>
+<node CREATED="1569854032739" ID="ID_609653132" MODIFIED="1569854032739" TEXT="import org.springframework.security.core.userdetails.UserDetails;"/>
+<node CREATED="1569854032740" ID="ID_1252268909" MODIFIED="1569854032740" TEXT="import org.springframework.security.crypto.password.PasswordEncoder;"/>
+<node CREATED="1569854032741" ID="ID_1861627927" MODIFIED="1569854032741" TEXT="import org.springframework.stereotype.Service;"/>
+<node CREATED="1569854032742" ID="ID_743970374" MODIFIED="1569854032742" TEXT="@Service"/>
 <node CREATED="1569854032743" FOLDED="true" ID="ID_303612566" MODIFIED="1569854034187" TEXT="public class CustomProvider extends AbstractUserDetailsAuthenticationProvider {">
 <node CREATED="1569854032745" MODIFIED="1569854032745" TEXT="@Autowired"/>
 <node CREATED="1569854032746" MODIFIED="1569854032746" TEXT="CustomDetailService customDetailService;"/>
@@ -3100,10 +3100,10 @@
 <node CREATED="1569854032761" MODIFIED="1569854032761" TEXT="// TODO Auto-generated method stub"/>
 </node>
 </node>
-<node CREATED="1569854032761" MODIFIED="1569854032761" TEXT="//                CustomAuthentication auth = (CustomAuthentication)authentication;"/>
-<node CREATED="1569854032762" MODIFIED="1569854032762" TEXT="//"/>
-<node CREATED="1569854032762" MODIFIED="1569854032762" TEXT="//                String username = auth.getName();"/>
-<node CREATED="1569854032762" FOLDED="true" ID="ID_714310113" MODIFIED="1569854034187" TEXT="//                String domain = auth.getDomain();">
+<node CREATED="1569854032761" ID="ID_889668325" MODIFIED="1569854032761" TEXT="//                CustomAuthentication auth = (CustomAuthentication)authentication;"/>
+<node CREATED="1569854032762" ID="ID_1663164074" MODIFIED="1569854032762" TEXT="//"/>
+<node CREATED="1569854032762" ID="ID_231842311" MODIFIED="1569854032762" TEXT="//                String username = auth.getName();"/>
+<node CREATED="1569854032762" ID="ID_714310113" MODIFIED="1569874471582" TEXT="//                String domain = auth.getDomain();">
 <node CREATED="1569854032762" MODIFIED="1569854032762" TEXT="Map&lt;String,Object&gt; authMap = (Map&lt;String,Object&gt;)authentication.getDetails();"/>
 <node CREATED="1569854032763" MODIFIED="1569854032763" TEXT="String username = authentication.getName();"/>
 <node CREATED="1569854032763" MODIFIED="1569854032763" TEXT="String domain33 = &quot;&quot;;"/>
@@ -3117,10 +3117,10 @@
 <node CREATED="1569854032766" MODIFIED="1569854032766" TEXT="return user;"/>
 <node CREATED="1569854032766" MODIFIED="1569854032766" TEXT="}"/>
 </node>
-<node CREATED="1569854032766" MODIFIED="1569854032766" TEXT="}"/>
+<node CREATED="1569854032766" ID="ID_226651037" MODIFIED="1569854032766" TEXT="}"/>
 </node>
 <node CREATED="1569854053566" ID="ID_1835558224" MODIFIED="1569854055522" TEXT="&#xc124;&#xba85;">
-<node CREATED="1569854415647" FOLDED="true" ID="ID_235308373" MODIFIED="1569854440875" TEXT="provider &#xae30;&#xbcf8; &#xac1c;&#xb150;(&#xc774;&#xbbf8;&#xc9c0;)">
+<node CREATED="1569854415647" ID="ID_235308373" MODIFIED="1569874565200" TEXT="provider &#xae30;&#xbcf8; &#xac1c;&#xb150;(&#xc774;&#xbbf8;&#xc9c0;)">
 <node CREATED="1569854422689" ID="ID_1269065793" MODIFIED="1569854422689">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -3155,18 +3155,18 @@
 <node CREATED="1569850963897" ID="ID_1216308929" MODIFIED="1569850963897" TEXT="cache-control: no-cache"/>
 <node CREATED="1569850963898" ID="ID_1379628881" MODIFIED="1569850963898" TEXT="username=TctTest%40gmail.com&amp;password=12341234aa&amp;grant_type=password&amp;domain33=wfwefwefwef"/>
 </node>
-<node CREATED="1569859991331" FOLDED="true" ID="ID_1881372330" MODIFIED="1569861442232" TEXT="&#xc5ec;&#xae30;&#xc11c; implicit&#xb85c; &#xc778;&#xc99d; &#xd560; &#xacbd;&#xc6b0; &#xadf8;&#xb7ec;&#xb2c8;&#xae4c; login &#xd654;&#xba74;&#xc744; &#xd1b5;&#xd574;&#xc11c; &#xc778;&#xc99d;&#xc744; &#xd560; &#xacbd;&#xc6b0; customAutehntication&#xc744; &#xb9cc;&#xb4e4;&#xc5b4;&#xc57c; &#xd558;&#xba70;, &#xc5ec;&#xae30;&#xc5d0; &#xb300;&#xd55c; &#xb0b4;&#xc6a9;&#xc740; &#xc774;&#xacf3;&#xc744; &#xcc38;&#xc870;&#xd558;&#xc2dc;&#xb77c;">
+<node CREATED="1569859991331" ID="ID_1881372330" MODIFIED="1569874921989" TEXT="&#xc5ec;&#xae30;&#xc11c; implicit&#xb85c; &#xc778;&#xc99d; &#xd560; &#xacbd;&#xc6b0; &#xadf8;&#xb7ec;&#xb2c8;&#xae4c; login &#xd654;&#xba74;&#xc744; &#xd1b5;&#xd574;&#xc11c; &#xc778;&#xc99d;&#xc744; &#xd560; &#xacbd;&#xc6b0; customAutehntication&#xc744; &#xb9cc;&#xb4e4;&#xc5b4;&#xc57c; &#xd558;&#xba70;, &#xc5ec;&#xae30;&#xc5d0; &#xb300;&#xd55c; &#xb0b4;&#xc6a9;&#xc740; &#xc774;&#xacf3;&#xc744; &#xcc38;&#xc870;&#xd558;&#xc2dc;&#xb77c;">
 <node CREATED="1569432975815" ID="ID_1981683381" LINK="https://www.baeldung.com/spring-security-extra-login-fields" MODIFIED="1569432975815" TEXT="https://www.baeldung.com/spring-security-extra-login-fields"/>
 </node>
 </node>
-<node CREATED="1569861471333" FOLDED="true" ID="ID_977774096" MODIFIED="1569867180107" TEXT="9. &#xcd94;&#xac00;&#xc801;&#xc778; &#xd1a0;&#xd070; &#xc815;&#xbcf4; &#xac00;&#xc838;&#xc624;&#xae30;">
-<node CREATED="1569861753127" FOLDED="true" ID="ID_1754096133" MODIFIED="1569864815605" TEXT="&#xc720;&#xc800;&#xc11c;&#xbe44;&#xc2a4;">
-<node CREATED="1569861906932" MODIFIED="1569861906932" TEXT="package com.framework.Tct.oAuth2;"/>
-<node CREATED="1569861906935" MODIFIED="1569861906935" TEXT="import org.springframework.beans.factory.annotation.Autowired;"/>
-<node CREATED="1569861906936" MODIFIED="1569861906936" TEXT="import org.springframework.security.core.userdetails.UserDetailsService;"/>
-<node CREATED="1569861906939" MODIFIED="1569861906939" TEXT="import org.springframework.security.core.userdetails.UsernameNotFoundException;"/>
-<node CREATED="1569861906941" MODIFIED="1569861906941" TEXT="import org.springframework.stereotype.Service;"/>
-<node CREATED="1569861906943" MODIFIED="1569861906943" TEXT="@Service"/>
+<node CREATED="1569861471333" ID="ID_977774096" MODIFIED="1569874988200" TEXT="9. &#xcd94;&#xac00;&#xc801;&#xc778; &#xd1a0;&#xd070; &#xc815;&#xbcf4; &#xac00;&#xc838;&#xc624;&#xae30;">
+<node CREATED="1569861753127" ID="ID_1754096133" MODIFIED="1569875094444" TEXT="&#xc720;&#xc800;&#xc11c;&#xbe44;&#xc2a4;">
+<node CREATED="1569861906932" ID="ID_983252093" MODIFIED="1569861906932" TEXT="package com.framework.Tct.oAuth2;"/>
+<node CREATED="1569861906935" ID="ID_251116445" MODIFIED="1569861906935" TEXT="import org.springframework.beans.factory.annotation.Autowired;"/>
+<node CREATED="1569861906936" ID="ID_1136103315" MODIFIED="1569861906936" TEXT="import org.springframework.security.core.userdetails.UserDetailsService;"/>
+<node CREATED="1569861906939" ID="ID_1021396482" MODIFIED="1569861906939" TEXT="import org.springframework.security.core.userdetails.UsernameNotFoundException;"/>
+<node CREATED="1569861906941" ID="ID_429573351" MODIFIED="1569861906941" TEXT="import org.springframework.stereotype.Service;"/>
+<node CREATED="1569861906943" ID="ID_654702340" MODIFIED="1569861906943" TEXT="@Service"/>
 <node CREATED="1569861906944" ID="ID_501472218" MODIFIED="1569861906944" TEXT="public class CustomDetailService implements UserDetailsService {">
 <node CREATED="1569861906945" MODIFIED="1569861906945" TEXT="@Autowired"/>
 <node CREATED="1569861906946" MODIFIED="1569861906946" TEXT="OAuthDao oauthDao;"/>
@@ -3188,18 +3188,18 @@
 </node>
 <node CREATED="1569861906959" MODIFIED="1569861906959" TEXT="}"/>
 </node>
-<node CREATED="1569861906959" MODIFIED="1569861906959" TEXT="}"/>
+<node CREATED="1569861906959" ID="ID_1462655496" MODIFIED="1569861906959" TEXT="}"/>
 </node>
-<node CREATED="1569861912366" FOLDED="true" ID="ID_1020485196" MODIFIED="1569864814476" TEXT="provider&#xc5d0;&#xc11c; userService &#xc0ac;&#xc6a9;">
-<node CREATED="1569861979134" MODIFIED="1569861979134" TEXT="@Override">
+<node CREATED="1569861912366" ID="ID_1020485196" MODIFIED="1569875147701" TEXT="provider&#xc5d0;&#xc11c; userService &#xc0ac;&#xc6a9;">
+<node CREATED="1569861979134" ID="ID_564890527" MODIFIED="1569861979134" TEXT="@Override">
 <node CREATED="1569861979136" MODIFIED="1569861979136" TEXT="protected UserDetails retrieveUser(String arg0, UsernamePasswordAuthenticationToken authentication)">
 <node CREATED="1569861979139" MODIFIED="1569861979139" TEXT="throws AuthenticationException {"/>
 <node CREATED="1569861979141" MODIFIED="1569861979141" TEXT="// TODO Auto-generated method stub"/>
 </node>
 </node>
-<node CREATED="1569861979143" MODIFIED="1569861979143" TEXT="//                CustomAuthentication auth = (CustomAuthentication)authentication;"/>
-<node CREATED="1569861979146" MODIFIED="1569861979146" TEXT="//"/>
-<node CREATED="1569861979147" MODIFIED="1569861979147" TEXT="//                String username = auth.getName();"/>
+<node CREATED="1569861979143" ID="ID_828543407" MODIFIED="1569861979143" TEXT="//                CustomAuthentication auth = (CustomAuthentication)authentication;"/>
+<node CREATED="1569861979146" ID="ID_438974446" MODIFIED="1569861979146" TEXT="//"/>
+<node CREATED="1569861979147" ID="ID_1938357901" MODIFIED="1569861979147" TEXT="//                String username = auth.getName();"/>
 <node CREATED="1569861979149" ID="ID_215014803" MODIFIED="1569861979149" TEXT="//                String domain = auth.getDomain();">
 <node CREATED="1569861979151" MODIFIED="1569861979151" TEXT="Map&lt;String, Object&gt; authMap = new HashMap&lt;String, Object&gt;();"/>
 <node CREATED="1569861979153" MODIFIED="1569861979153" TEXT="try {">
@@ -3223,9 +3223,9 @@
 <node CREATED="1569861979163" MODIFIED="1569861979163" TEXT="}"/>
 </node>
 </node>
-<node CREATED="1569862906823" FOLDED="true" ID="ID_347361084" MODIFIED="1569864573723" TEXT="customUser">
-<node CREATED="1569862907942" MODIFIED="1569862907942" TEXT="package com.framework.Tct.oAuth2;"/>
-<node CREATED="1569862907946" MODIFIED="1569862907946" TEXT="import org.springframework.security.core.userdetails.User;"/>
+<node CREATED="1569862906823" ID="ID_347361084" MODIFIED="1569875575333" TEXT="customUser">
+<node CREATED="1569862907942" ID="ID_1926493811" MODIFIED="1569862907942" TEXT="package com.framework.Tct.oAuth2;"/>
+<node CREATED="1569862907946" ID="ID_1931572899" MODIFIED="1569862907946" TEXT="import org.springframework.security.core.userdetails.User;"/>
 <node CREATED="1569862907948" ID="ID_1241499879" MODIFIED="1569862907948" TEXT="public class CustomUser extends User {">
 <node CREATED="1569862907950" MODIFIED="1569862907950" TEXT="private String userId;"/>
 <node CREATED="1569862907952" MODIFIED="1569862907952" TEXT="public String getUserId() {">
@@ -3248,7 +3248,7 @@
 </node>
 <node CREATED="1569862907979" MODIFIED="1569862907979" TEXT="}"/>
 </node>
-<node CREATED="1569862907981" MODIFIED="1569862907981" TEXT="}"/>
+<node CREATED="1569862907981" ID="ID_1095957636" MODIFIED="1569862907981" TEXT="}"/>
 </node>
 <node CREATED="1569861909414" FOLDED="true" ID="ID_449471868" MODIFIED="1569864872422" TEXT="&#xc124;&#xba85;">
 <node CREATED="1569861984735" ID="ID_1845064978" MODIFIED="1569862168787" TEXT="&#xae30;&#xbcf8;&#xc801;&#xc73c;&#xb85c; provider&#xc5d0;&#xc11c; UserDetails&#xb97c; &#xb9ac;&#xd134; &#xc2dc;&#xcf1c;&#xc918;&#xc57c;&#xb9cc; &#xd558;&#xace0;"/>
@@ -3258,8 +3258,8 @@
 <node CREATED="1569862977416" ID="ID_1351589831" MODIFIED="1569863122300" TEXT="&#xc774;&#xb7f0; &#xbc29;&#xc2dd;&#xc73c;&#xb85c; &#xd558;&#xba74; user&#xac00; authentication&#xc5d0; &#xc800;&#xc7a5;&#xb41c;&#xb2e4;. getPrincipal&#xc744; &#xd1b5;&#xd574;&#xc11c; &#xd574;&#xb2f9; user&#xc5d0; &#xb300;&#xd55c; &#xc815;&#xbcf4;&#xb97c; &#xac00;&#xc838;&#xc62c; &#xc218; &#xc788;&#xb2e4;."/>
 <node CREATED="1569863299056" ID="ID_306666418" MODIFIED="1569863317076" TEXT="&#xd574;&#xb2f9; &#xcee4;&#xc2a4;&#xd140;&#xc720;&#xc800;&#xc5d0;&#xc11c; userId&#xc744; &#xd53d;&#xc2a4;&#xd574;&#xc11c; &#xc800;&#xc7a5;&#xd588;&#xb2e4;."/>
 </node>
-<node CREATED="1569863984842" FOLDED="true" ID="ID_20863535" MODIFIED="1569864905142" TEXT="&#xc561;&#xc138;&#xc2a4; &#xd1a0;&#xd070;&#xc5d0; &#xd574;&#xb2f9; &#xc720;&#xc800; &#xc815;&#xbcf4; &#xcd94;&#xac00;">
-<node CREATED="1569864011495" MODIFIED="1569864011495" TEXT="@Bean"/>
+<node CREATED="1569863984842" ID="ID_20863535" MODIFIED="1569875901786" TEXT="&#xc561;&#xc138;&#xc2a4; &#xd1a0;&#xd070;&#xc5d0; &#xd574;&#xb2f9; &#xc720;&#xc800; &#xc815;&#xbcf4; &#xcd94;&#xac00;">
+<node CREATED="1569864011495" ID="ID_651770771" MODIFIED="1569864011495" TEXT="@Bean"/>
 <node CREATED="1569864011497" ID="ID_943779449" MODIFIED="1569864011497" TEXT="public TokenEnhancer tokenEnhancer() {">
 <node CREATED="1569864011501" ID="ID_522226192" MODIFIED="1569864011501" TEXT="return new CustomDefaultTokenEnhancer();"/>
 </node>
@@ -3302,14 +3302,14 @@
 <node CREATED="1569864079329" MODIFIED="1569864079329" TEXT="}"/>
 </node>
 </node>
-<node CREATED="1569864110178" FOLDED="true" ID="ID_1008567181" MODIFIED="1569864883636" TEXT="&#xc5ec;&#xae30;&#xc11c; &#xc0ac;&#xc6a9;&#xd558;&#xace0; &#xc788;&#xb294; CustomDefaultTokenEnhancer &#xc5d0;&#xc11c; CustomUser&#xb97c; &#xbd88;&#xb7ec;&#xc640; &#xcd94;&#xac00;&#xc815;&#xbcf4; &#xc561;&#xc138;&#xc2a4; &#xd1a0;&#xd070;&#xc5d0; &#xc800;&#xc7a5;">
-<node CREATED="1569864368869" MODIFIED="1569864368869" TEXT="package com.framework.Tct.oAuth2;"/>
-<node CREATED="1569864368871" MODIFIED="1569864368871" TEXT="import java.util.HashMap;"/>
-<node CREATED="1569864368872" MODIFIED="1569864368872" TEXT="import java.util.Map;"/>
-<node CREATED="1569864368874" MODIFIED="1569864368874" TEXT="import org.springframework.security.oauth2.common.DefaultOAuth2AccessToken;"/>
-<node CREATED="1569864368876" MODIFIED="1569864368876" TEXT="import org.springframework.security.oauth2.common.OAuth2AccessToken;"/>
-<node CREATED="1569864368877" MODIFIED="1569864368877" TEXT="import org.springframework.security.oauth2.provider.OAuth2Authentication;"/>
-<node CREATED="1569864368879" MODIFIED="1569864368879" TEXT="import org.springframework.security.oauth2.provider.token.DefaultAccessTokenConverter;"/>
+<node CREATED="1569864110178" ID="ID_1008567181" MODIFIED="1569876035710" TEXT="&#xc5ec;&#xae30;&#xc11c; &#xc0ac;&#xc6a9;&#xd558;&#xace0; &#xc788;&#xb294; CustomDefaultTokenEnhancer &#xc5d0;&#xc11c; CustomUser&#xb97c; &#xbd88;&#xb7ec;&#xc640; &#xcd94;&#xac00;&#xc815;&#xbcf4; &#xc561;&#xc138;&#xc2a4; &#xd1a0;&#xd070;&#xc5d0; &#xc800;&#xc7a5;">
+<node CREATED="1569864368869" ID="ID_1959369014" MODIFIED="1569864368869" TEXT="package com.framework.Tct.oAuth2;"/>
+<node CREATED="1569864368871" ID="ID_199474048" MODIFIED="1569864368871" TEXT="import java.util.HashMap;"/>
+<node CREATED="1569864368872" ID="ID_1264573644" MODIFIED="1569864368872" TEXT="import java.util.Map;"/>
+<node CREATED="1569864368874" ID="ID_1780334684" MODIFIED="1569864368874" TEXT="import org.springframework.security.oauth2.common.DefaultOAuth2AccessToken;"/>
+<node CREATED="1569864368876" ID="ID_1756896124" MODIFIED="1569864368876" TEXT="import org.springframework.security.oauth2.common.OAuth2AccessToken;"/>
+<node CREATED="1569864368877" ID="ID_1964476369" MODIFIED="1569864368877" TEXT="import org.springframework.security.oauth2.provider.OAuth2Authentication;"/>
+<node CREATED="1569864368879" ID="ID_699442487" MODIFIED="1569864368879" TEXT="import org.springframework.security.oauth2.provider.token.DefaultAccessTokenConverter;"/>
 <node CREATED="1569864368881" ID="ID_1589832491" MODIFIED="1569864368881" TEXT="import org.springframework.security.oauth2.provider.token.TokenEnhancer;"/>
 <node CREATED="1569864368884" ID="ID_1991553357" MODIFIED="1569864368884" TEXT="public class CustomDefaultTokenEnhancer implements TokenEnhancer {">
 <node CREATED="1569864368886" MODIFIED="1569864368886" TEXT="@Override"/>
