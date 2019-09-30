@@ -38,7 +38,8 @@ public class FooContoroller {
 		//tokenService.readAccessToken(oauth_user_data.)
 		
 		
-		System.out.println(auth.getDetails());
+		//System.out.println(auth.getDetails());
+		
 		System.out.println(checkConverter.getCheckTokenResult().toString());
 	
 		return

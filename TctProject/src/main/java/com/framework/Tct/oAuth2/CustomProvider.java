@@ -1,5 +1,6 @@
 package com.framework.Tct.oAuth2;
 
+import java.util.HashMap;
 import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -51,7 +52,13 @@ public class CustomProvider extends AbstractUserDetailsAuthenticationProvider {
 //		String username = auth.getName();
 //		String domain = auth.getDomain();
 		
-		Map<String,Object> authMap = (Map<String,Object>)authentication.getDetails();
+		Map<String, Object> authMap = new HashMap<String, Object>();
+		try {
+			authMap = (Map<String,Object>)authentication.getDetails();
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		
 		String username = authentication.getName();
 		String domain33 = "";
