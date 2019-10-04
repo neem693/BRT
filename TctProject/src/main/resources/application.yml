@@ -27,10 +27,17 @@ eureka:
 
 logging:
   level:
-    root: debug
+    root: info
     org:
       springframework:
         jdbc: debug
+  org:
+    hibernate:
+      SQL: DEBUG
+      type: 
+      descriptor:
+        sql:
+          BasicBinder: TRACE
     
     
 #스프링 부트 2.0 이상부터는 management.endpoints.web.exposure.include를 사용해야 한다.
@@ -51,6 +58,6 @@ management:
       cors:
         allowed-origins: http://127.0.0.1:4200,http://127.0.0.1:8111
 
-  
+
 
 

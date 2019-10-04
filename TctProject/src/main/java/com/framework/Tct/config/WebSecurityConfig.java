@@ -80,7 +80,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 		.sessionManagement().sessionCreationPolicy(SessionCreationPolicy.NEVER).and()
 		//.csrf().disable()
 		.csrf().csrfTokenRepository(getCookieCsfrTokenRepository()).and()
-		.authorizeRequests().antMatchers("/", "/*.js", "/*.css", "/assets/**", "/Home/**", "/getCsrfToken","/login","/oauth/authorize")
+		.authorizeRequests().antMatchers("/", "/*.js", "/*.css", "/assets/**", "/Home/**", "/getCsrfToken","/login","/oauth/authorize","/h2-console/*")
 		.permitAll()
 		.anyRequest().authenticated().and()
 		.formLogin().permitAll().and()

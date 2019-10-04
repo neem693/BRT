@@ -27,7 +27,8 @@ spring:
     baseline-on-migrate: true
   batch:
     initialize-schema: always
-    
+  jpa:
+    show-sql: true
     
 app:
   datasource:
