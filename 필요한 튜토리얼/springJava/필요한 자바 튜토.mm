@@ -328,7 +328,7 @@
 </node>
 </node>
 <node CREATED="1566173568044" ID="ID_1816867178" MODIFIED="1566173574807" POSITION="right" TEXT="alt + shift + s"/>
-<node CREATED="1566190490009" FOLDED="true" ID="ID_767685997" MODIFIED="1569323918722" POSITION="right" TEXT="batchService &#xc624;&#xb958; &amp; flyway">
+<node CREATED="1566190490009" FOLDED="true" ID="ID_767685997" MODIFIED="1570217400138" POSITION="right" TEXT="batchService &#xc624;&#xb958; &amp; flyway">
 <node CREATED="1566191547662" FOLDED="true" ID="ID_1410866249" MODIFIED="1569323917092" TEXT="1">
 <node CREATED="1566191549334" ID="ID_1054801273" MODIFIED="1566191549334" TEXT="Caused by: java.lang.IllegalArgumentException: DatabaseType not found for product name: [MariaDB]"/>
 </node>
@@ -690,7 +690,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1568042534093" FOLDED="true" ID="ID_1122918597" MODIFIED="1569353232438" POSITION="right" TEXT="Database Handling">
+<node CREATED="1568042534093" FOLDED="true" ID="ID_1122918597" MODIFIED="1570217411132" POSITION="right" TEXT="Database Handling">
 <node CREATED="1568042544125" ID="ID_1162996308" LINK="#ID_633062079" MODIFIED="1569312233104" TEXT="h2"/>
 <node CREATED="1568042547757" ID="ID_800868004" MODIFIED="1568042550538" TEXT="Redis">
 <node CREATED="1568042551477" ID="ID_138312707" MODIFIED="1568042558257" TEXT="&#xbb38;&#xc81c;">
@@ -1526,7 +1526,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1569182120317" ID="ID_273830192" MODIFIED="1569954715210" POSITION="right" TEXT="oauthJDBC">
+<node CREATED="1569182120317" FOLDED="true" ID="ID_273830192" MODIFIED="1570217534606" POSITION="right" TEXT="oauthJDBC">
 <node CREATED="1569189995745" FOLDED="true" ID="ID_1959524425" MODIFIED="1569926454057" TEXT="&#xd574;&#xb2f9;&#xb9c1;&#xd06c;">
 <node CREATED="1569190011486" ID="ID_103840936" LINK="https://www.baeldung.com/rest-api-spring-oauth2-angular" MODIFIED="1569190011486" TEXT="https://www.baeldung.com/rest-api-spring-oauth2-angular"/>
 </node>
@@ -1545,7 +1545,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1569183183182" FOLDED="true" ID="ID_633062079" MODIFIED="1569926452244" TEXT="&#xd574;&#xacb0;">
+<node CREATED="1569183183182" FOLDED="true" ID="ID_633062079" MODIFIED="1570217401395" TEXT="&#xd574;&#xacb0;">
 <node CREATED="1569189881547" ID="ID_731658508" MODIFIED="1569189933942" TEXT="&#xd574;&#xb2f9; &#xd14c;&#xc774;&#xbe14;&#xc740; &#xc11c;&#xbc84;&#xb97c; &#xb2e4;&#xc2dc; &#xc2dc;&#xc791; &#xd560; &#xb54c; &#xb2e4;&#xc2dc; &#xc2f9; &#xb2e4; &#xac08;&#xc544; &#xc5ce;&#xb294; &#xc758;&#xb3c4;&#xc774;&#xb2e4;."/>
 <node CREATED="1569190332930" ID="ID_805933713" MODIFIED="1569190377062" TEXT="&#xbb38;&#xc81c;&#xb294; &#xd574;&#xb2f9; &#xd14c;&#xc774;&#xbe14;&#xc5d0; &#xc774;&#xbbf8; &#xac12;&#xc774; &#xc788;&#xace0;, &#xadf8; &#xac12;&#xc744; &#xcd94;&#xac00;&#xd558;&#xb294;&#xb370; primary&#xd0a4;&#xb77c;&#xc11c; &#xc911;&#xbcf5; &#xc624;&#xb958;&#xac00; &#xb41c;&#xb2e4;&#xb294; &#xac83;"/>
 <node CREATED="1569190377345" ID="ID_222843852" MODIFIED="1569190395078" TEXT="&#xbc29;&#xae08; &#xb9d0;&#xd588;&#xb4ef;&#xc774; &#xc6d4;&#xb798;&#xb294; &#xd574;&#xb2f9; &#xd14c;&#xc774;&#xbe14;&#xc5d0; &#xc544;&#xbb34;&#xac83;&#xb3c4; &#xc5c6;&#xc5b4;&#xc57c; &#xd55c;&#xb2e4;."/>
@@ -1603,9 +1603,9 @@
 <node CREATED="1569314924540" ID="ID_1588639229" MODIFIED="1569954715211" TEXT="&#xbb38;&#xc81c;">
 <node CREATED="1569314925497" ID="ID_1068000342" MODIFIED="1569321848030" TEXT="Failed to determine a suitable driver class"/>
 </node>
-<node CREATED="1569321735177" FOLDED="true" ID="ID_1428543512" MODIFIED="1569926456652" TEXT="&#xd574;&#xacb0;">
+<node CREATED="1569321735177" ID="ID_1428543512" MODIFIED="1570217501832" TEXT="&#xd574;&#xacb0;">
 <node CREATED="1569321736591" ID="ID_101254332" LINK="https://www.baeldung.com/configuration-properties-in-spring-boot" MODIFIED="1569321736591" TEXT="https://www.baeldung.com/configuration-properties-in-spring-boot"/>
-<node CREATED="1569322516778" ID="ID_157240482" MODIFIED="1569322530964" TEXT="&#xd574;&#xacb0;&#xc774;&#xbbf8;&#xc9c0;">
+<node CREATED="1569322516778" FOLDED="true" ID="ID_157240482" MODIFIED="1570217533229" TEXT="&#xd574;&#xacb0;&#xc774;&#xbbf8;&#xc9c0;">
 <node CREATED="1569322528396" ID="ID_1454887887" MODIFIED="1569322528396">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2323,7 +2323,7 @@
 <node CREATED="1569631391291" ID="ID_1834659066" MODIFIED="1569631411704" TEXT="&#xb9ac;&#xc18c;&#xc2a4; &#xc11c;&#xbc84;&#xb294; publickey&#xb9cc; &#xb611;&#xac19;&#xc774; &#xc124;&#xc815;&#xd55c;&#xb2e4;."/>
 </node>
 </node>
-<node CREATED="1569486116611" ID="ID_1594071695" MODIFIED="1570033193562" POSITION="right" TEXT="oauth &#xc815;&#xb9ac;">
+<node CREATED="1569486116611" FOLDED="true" ID="ID_1594071695" MODIFIED="1570217409148" POSITION="right" TEXT="oauth &#xc815;&#xb9ac;">
 <node CREATED="1569486121620" ID="ID_1004995870" MODIFIED="1569486326063" TEXT="&#xc774; &#xc815;&#xb9ac;&#xb294; authorization server&#xc640; resource server &#xc804;&#xc6a9;&#xc73c;&#xb85c; &#xd55c;&#xb2e4;."/>
 <node CREATED="1569851795826" FOLDED="true" ID="ID_1918509835" MODIFIED="1569926435541" TEXT="&#xcc38;&#xc870;&#xd55c; &#xb9c1;&#xd06c;">
 <node CREATED="1569491563570" ID="ID_239934634" LINK="https://www.tutorialspoint.com/spring_boot/spring_boot_oauth2_with_jwt.htm" MODIFIED="1569491564360" TEXT="https://www.tutorialspoint.com/spring_boot/spring_boot_oauth2_with_jwt.htm"/>
@@ -2374,7 +2374,7 @@
 </node>
 <node CREATED="1569851827090" ID="ID_494780542" MODIFIED="1569851827090" TEXT="&lt;/dependency&gt;"/>
 </node>
-<node CREATED="1569486869099" FOLDED="true" ID="ID_435723941" MODIFIED="1569870291840" TEXT="2. authorizationServer">
+<node CREATED="1569486869099" FOLDED="true" ID="ID_435723941" MODIFIED="1570217408085" TEXT="2. authorizationServer">
 <node CREATED="1569488041996" ID="ID_1158556452" MODIFIED="1569867930359" TEXT="&#xcf54;&#xb4dc;">
 <node CREATED="1569868151413" ID="ID_1609509202" MODIFIED="1569868151413" TEXT="package com.framework.Tct.oAuth2;"/>
 <node CREATED="1569868151416" ID="ID_807616539" MODIFIED="1569868151416" TEXT="import java.io.IOException;"/>
@@ -2405,12 +2405,12 @@
 <node CREATED="1569868151453" ID="ID_66777160" MODIFIED="1569868151453" TEXT="@Configuration"/>
 <node CREATED="1569868151454" ID="ID_4652886" MODIFIED="1569868151454" TEXT="@EnableAuthorizationServer"/>
 <node CREATED="1569868151455" ID="ID_96642946" LINK="mailto://@EnableResourceServer" MODIFIED="1569868151455" TEXT="//@EnableResourceServer"/>
-<node CREATED="1569868151455" FOLDED="true" ID="ID_1783500746" MODIFIED="1569868153139" TEXT="public class OAuth2Config extends AuthorizationServerConfigurerAdapter  {">
+<node CREATED="1569868151455" FOLDED="true" ID="ID_1783500746" MODIFIED="1570217406938" TEXT="public class OAuth2Config extends AuthorizationServerConfigurerAdapter  {">
 <node CREATED="1569868151456" MODIFIED="1569868151456" TEXT="@Autowired"/>
 <node CREATED="1569868151456" MODIFIED="1569868151456" TEXT="PasswordEncoder encoder;"/>
 <node CREATED="1569868151457" MODIFIED="1569868151457" TEXT="@Autowired"/>
-<node CREATED="1569868151457" MODIFIED="1569868151457" TEXT="@Qualifier(&quot;primaryDataSource&quot;)"/>
-<node CREATED="1569868151458" MODIFIED="1569868151458" TEXT="DataSource primaryDatasource;"/>
+<node CREATED="1569868151457" ID="ID_882019401" MODIFIED="1569868151457" TEXT="@Qualifier(&quot;primaryDataSource&quot;)"/>
+<node CREATED="1569868151458" ID="ID_1181186890" MODIFIED="1569868151458" TEXT="DataSource primaryDatasource;"/>
 <node CREATED="1569868151458" MODIFIED="1569868151458" TEXT="@Autowired"/>
 <node CREATED="1569868151459" MODIFIED="1569868151459" TEXT="CustomDetailService userDetailsService;"/>
 <node CREATED="1569868151459" MODIFIED="1569868151459" TEXT="private String clinetId = &quot;TctTest&quot;;"/>
@@ -2458,7 +2458,7 @@
 <node CREATED="1569868151477" MODIFIED="1569868151477" TEXT="//super.configure(clients);"/>
 <node CREATED="1569868151477" MODIFIED="1569868151477" TEXT="System.out.println(&quot;passsssssssssssssssssssssssssssssssssss&quot;);"/>
 <node CREATED="1569868151477" MODIFIED="1569868151477" TEXT="System.out.println(encoder.encode(clientSeceret));"/>
-<node CREATED="1569868151478" MODIFIED="1569868151478" TEXT="clients.jdbc(primaryDatasource)"/>
+<node CREATED="1569868151478" ID="ID_90539352" MODIFIED="1569868151478" TEXT="clients.jdbc(primaryDatasource)"/>
 <node CREATED="1569868151478" MODIFIED="1569868151478" TEXT=".withClient(&quot;sampleClinetId&quot;)"/>
 <node CREATED="1569868151478" MODIFIED="1569868151478" TEXT=".authorizedGrantTypes(&quot;implicit&quot;)"/>
 <node CREATED="1569868151479" MODIFIED="1569868151479" TEXT=".scopes(&quot;read&quot;,&quot;write&quot;)"/>
@@ -2485,7 +2485,7 @@
 <node CREATED="1569868151487" ID="ID_661515842" MODIFIED="1569868151487" TEXT="//                .accessTokenConverter(new DefaultAccessTokenConverter())"/>
 <node CREATED="1569868151487" ID="ID_928389912" MODIFIED="1569868151487" TEXT="//                .userDetailsService(userDetailsService)"/>
 <node CREATED="1569868151488" ID="ID_1208989461" MODIFIED="1569868151488" TEXT="//                .tokenEnhancer(tokenEnhancer());"/>
-<node CREATED="1569868151488" FOLDED="true" ID="ID_1056953318" MODIFIED="1569868153140" TEXT="//        }">
+<node CREATED="1569868151488" FOLDED="true" ID="ID_1056953318" MODIFIED="1570217408083" TEXT="//        }">
 <node CREATED="1569868151489" MODIFIED="1569868151489" TEXT="@Override"/>
 <node CREATED="1569868151489" MODIFIED="1569868151489" TEXT="public void configure(AuthorizationServerEndpointsConfigurer endpoints) throws Exception {">
 <node CREATED="1569868151490" MODIFIED="1569868151490" TEXT="// TODO Auto-generated method stub"/>
@@ -2509,7 +2509,7 @@
 <node CREATED="1569868151496" MODIFIED="1569868151496" TEXT="}"/>
 <node CREATED="1569868151496" MODIFIED="1569868151496" TEXT="@Bean"/>
 <node CREATED="1569868151496" MODIFIED="1569868151496" TEXT="public TokenStore tokenStore() {">
-<node CREATED="1569868151497" MODIFIED="1569868151497" TEXT="return new JdbcTokenStore(primaryDatasource);"/>
+<node CREATED="1569868151497" ID="ID_654130941" MODIFIED="1569868151497" TEXT="return new JdbcTokenStore(primaryDatasource);"/>
 </node>
 <node CREATED="1569868151497" MODIFIED="1569868151497" TEXT="}"/>
 </node>
@@ -2782,7 +2782,7 @@
 <node CREATED="1569851384233" ID="ID_843026294" MODIFIED="1569851384233" TEXT="}"/>
 </node>
 </node>
-<node CREATED="1569854507655" FOLDED="true" ID="ID_1887485124" MODIFIED="1569926435547" TEXT="7. implicit">
+<node CREATED="1569854507655" FOLDED="true" ID="ID_1887485124" MODIFIED="1570217409147" TEXT="7. implicit">
 <node CREATED="1569858624071" ID="ID_495094094" MODIFIED="1569863599043" TEXT="&#xcf54;&#xb4dc;">
 <node CREATED="1569858625234" ID="ID_60225774" MODIFIED="1569858625234" TEXT="//oAUth2 &#xc804;&#xc6a9;"/>
 <node CREATED="1569858625237" ID="ID_1465521856" MODIFIED="1569858625237" TEXT="http.cors().and()"/>
@@ -2804,7 +2804,7 @@
 <node CREATED="1569863613347" MODIFIED="1569863613347" TEXT="//super.configure(clients);"/>
 <node CREATED="1569863613349" MODIFIED="1569863613349" TEXT="System.out.println(&quot;passsssssssssssssssssssssssssssssssssss&quot;);"/>
 <node CREATED="1569863613350" MODIFIED="1569863613350" TEXT="System.out.println(encoder.encode(clientSeceret));"/>
-<node CREATED="1569863613351" MODIFIED="1569863613351" TEXT="clients.jdbc(primaryDatasource)"/>
+<node CREATED="1569863613351" ID="ID_1563371941" MODIFIED="1569863613351" TEXT="clients.jdbc(primaryDatasource)"/>
 <node CREATED="1569863613352" MODIFIED="1569863613352" TEXT=".withClient(&quot;sampleClinetId&quot;)"/>
 <node CREATED="1569863613353" MODIFIED="1569863613353" TEXT=".authorizedGrantTypes(&quot;implicit&quot;)"/>
 <node CREATED="1569863613354" ID="ID_1972647576" MODIFIED="1569863613354" TEXT=".scopes(&quot;read&quot;,&quot;write&quot;)"/>
@@ -3343,10 +3343,10 @@
 </node>
 </node>
 </node>
-<node CREATED="1569321838984" ID="ID_1289431196" MODIFIED="1569954714015" POSITION="right" TEXT="JDBC &#xc624;&#xb958;">
+<node CREATED="1569321838984" FOLDED="true" ID="ID_1289431196" MODIFIED="1570217327994" POSITION="right" TEXT="JDBC &#xc624;&#xb958;">
 <node CREATED="1569321843353" ID="ID_437120369" LINK="#ID_1068000342" MODIFIED="1569321851842" TEXT="Failed to determine a suitable driver class "/>
 </node>
-<node CREATED="1569954720531" ID="ID_1310219766" MODIFIED="1570132716686" POSITION="right" TEXT="&#xd558;&#xc774;&#xbc84;&#xb124;&#xc774;&#xd2b8;(jpa)">
+<node CREATED="1569954720531" FOLDED="true" ID="ID_1310219766" MODIFIED="1570217327994" POSITION="right" TEXT="&#xd558;&#xc774;&#xbc84;&#xb124;&#xc774;&#xd2b8;(jpa)">
 <node CREATED="1570118271397" ID="ID_1098857026" LINK="https://www.baeldung.com/spring-data-jpa-multiple-databases" MODIFIED="1570118271397" TEXT="https://www.baeldung.com/spring-data-jpa-multiple-databases"/>
 <node CREATED="1570132753122" ID="ID_977131534" MODIFIED="1570132757806" TEXT="select &#xc870;&#xac74;&#xbb38;">
 <node CREATED="1570132709848" ID="ID_263076276" LINK="https://www.petrikainulainen.net/programming/spring-framework/spring-data-jpa-tutorial-introduction-to-query-methods/" MODIFIED="1570132709848" TEXT="https://www.petrikainulainen.net/programming/spring-framework/spring-data-jpa-tutorial-introduction-to-query-methods/"/>
@@ -3373,8 +3373,7 @@
   <body>
     <img src="&#xd544;&#xc694;&#xd55c; &#xc790;&#xbc14; &#xd29c;&#xd1a0;_165376303784384702.jpeg" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1570136286969" ID="ID_1216395012" MODIFIED="1570136312478" TEXT="manytomany &#xb3d9;&#xc0ac; &#xd14c;&#xc774;&#xbe14;">
@@ -3389,6 +3388,68 @@
 <node CREATED="1570142505951" ID="ID_668810708" MODIFIED="1570142511579" TEXT="jpa &#xd398;&#xc774;&#xc9c0;&#xb124;&#xc774;&#xc158;">
 <node CREATED="1570149645253" ID="ID_1551741864" LINK="https://www.baeldung.com/spring-data-jpa-pagination-sorting" MODIFIED="1570149648037" TEXT="https://www.baeldung.com/spring-data-jpa-pagination-sorting"/>
 <node CREATED="1570142511971" ID="ID_785756353" LINK="https://stackoverflow.com/questions/23136469/order-by-count-using-spring-data-jparepository" MODIFIED="1570142511971" TEXT="https://stackoverflow.com/questions/23136469/order-by-count-using-spring-data-jparepository"/>
+</node>
+</node>
+<node CREATED="1570220267695" ID="ID_432910582" MODIFIED="1570220276964" POSITION="right" TEXT="datasource &#xcee4;&#xc2a4;&#xd140; yml &#xc801;&#xc6a9;">
+<node CREATED="1570217513818" ID="ID_179807009" LINK="#ID_1428543512" MODIFIED="1570217526138" TEXT="datasource &#xc798; &#xc548; &#xc801;&#xc6a9;&#xb420; &#xb54c;"/>
+<node CREATED="1570220279808" ID="ID_1723667928" MODIFIED="1570220282579" TEXT="&#xc5ec;&#xae30;&#xc11c; &#xb354; &#xd544;&#xc694;&#xd55c;&#xac8c; &#xc788;&#xb2e4;."/>
+<node CREATED="1570220296720" ID="ID_377681665" MODIFIED="1570220296720" TEXT="@PropertySource(value =&quot;classpath:dataSourceConfig.yml&quot;, factory=YamlPropertyLoaderFactory.class)"/>
+<node CREATED="1570220304591" FOLDED="true" ID="ID_1576111198" MODIFIED="1570220337376" TEXT="YamlPropertyLoaderFactory &#xd074;&#xb798;&#xc2a4;&#xb97c; &#xc0c8;&#xb85c; &#xb354; &#xb9cc;&#xb4e4;&#xc5b4;&#xc57c; &#xd55c;&#xb2e4;.">
+<node CREATED="1570220317652" ID="ID_857943319" MODIFIED="1570220317652" TEXT="package com.theComments.brt.config;"/>
+<node CREATED="1570220317654" ID="ID_1420286366" MODIFIED="1570220317654" TEXT="import java.io.IOException;"/>
+<node CREATED="1570220317655" ID="ID_687790669" MODIFIED="1570220317655" TEXT="import java.util.List;"/>
+<node CREATED="1570220317657" ID="ID_490235910" MODIFIED="1570220317657" TEXT="import org.springframework.boot.env.YamlPropertySourceLoader;"/>
+<node CREATED="1570220317659" ID="ID_1031204556" MODIFIED="1570220317659" TEXT="import org.springframework.core.env.PropertySource;"/>
+<node CREATED="1570220317660" ID="ID_1660608982" MODIFIED="1570220317660" TEXT="import org.springframework.core.io.support.DefaultPropertySourceFactory;"/>
+<node CREATED="1570220317663" ID="ID_34999912" MODIFIED="1570220317663" TEXT="import org.springframework.core.io.support.EncodedResource;"/>
+<node CREATED="1570220317664" ID="ID_1306641141" MODIFIED="1570220325729" TEXT="public class YamlPropertyLoaderFactory extends DefaultPropertySourceFactory {">
+<node CREATED="1570220317665" MODIFIED="1570220317665" TEXT="@Override"/>
+<node CREATED="1570220317666" ID="ID_940423770" MODIFIED="1570220317666" TEXT="public PropertySource&lt;?&gt; createPropertySource(String name, EncodedResource resource) throws IOException {">
+<node CREATED="1570220317687" MODIFIED="1570220317687" TEXT="if (resource == null){">
+<node CREATED="1570220317688" MODIFIED="1570220317688" TEXT="return super.createPropertySource(name, resource);"/>
+</node>
+<node CREATED="1570220317689" ID="ID_1466097914" MODIFIED="1570220317689" TEXT="}"/>
+<node CREATED="1570220317690" ID="ID_1116845627" MODIFIED="1570220317690" TEXT="return new YamlPropertySourceLoader().load(resource.getResource().getFilename(), resource.getResource()).get(0);"/>
+</node>
+<node CREATED="1570220317692" ID="ID_1470118413" MODIFIED="1570220317692" TEXT="}"/>
+</node>
+<node CREATED="1570220317693" ID="ID_624244484" MODIFIED="1570220317693" TEXT="}"/>
+</node>
+<node CREATED="1570220352455" ID="ID_481032358" MODIFIED="1570220353396" TEXT="&#xc804;&#xccb4;&#xcf54;&#xb4dc;">
+<node CREATED="1570220418706" MODIFIED="1570220418706" TEXT="package com.theComments.brt.config;"/>
+<node CREATED="1570220418709" MODIFIED="1570220418709" TEXT="import javax.sql.DataSource;"/>
+<node CREATED="1570220418711" MODIFIED="1570220418711" TEXT="import org.springframework.beans.factory.annotation.Qualifier;"/>
+<node CREATED="1570220418713" MODIFIED="1570220418713" TEXT="import org.springframework.boot.autoconfigure.jdbc.DataSourceProperties;"/>
+<node CREATED="1570220418715" MODIFIED="1570220418715" TEXT="import org.springframework.boot.context.properties.ConfigurationProperties;"/>
+<node CREATED="1570220418718" MODIFIED="1570220418718" TEXT="import org.springframework.boot.test.context.ConfigFileApplicationContextInitializer;"/>
+<node CREATED="1570220418720" MODIFIED="1570220418720" TEXT="import org.springframework.context.annotation.Bean;"/>
+<node CREATED="1570220418722" MODIFIED="1570220418722" TEXT="import org.springframework.context.annotation.Configuration;"/>
+<node CREATED="1570220418724" MODIFIED="1570220418724" TEXT="import org.springframework.context.annotation.Primary;"/>
+<node CREATED="1570220418726" MODIFIED="1570220418726" TEXT="import org.springframework.context.annotation.PropertySource;"/>
+<node CREATED="1570220418728" MODIFIED="1570220418728" TEXT="import org.springframework.test.context.ContextConfiguration;"/>
+<node CREATED="1570220418729" MODIFIED="1570220418729" TEXT="import org.springframework.test.context.TestPropertySource;"/>
+<node CREATED="1570220418731" MODIFIED="1570220418731" TEXT="@Configuration"/>
+<node CREATED="1570220418733" MODIFIED="1570220418733" TEXT="@PropertySource(value =&quot;classpath:dataSourceConfig.yml&quot;, factory=YamlPropertyLoaderFactory.class)"/>
+<node CREATED="1570220418735" MODIFIED="1570220418735" TEXT="public class DataSourceConfig {">
+<node CREATED="1570220418737" MODIFIED="1570220418737" TEXT="@Bean"/>
+<node CREATED="1570220418741" MODIFIED="1570220418741" TEXT="@Primary"/>
+<node CREATED="1570220418743" MODIFIED="1570220418743" TEXT="@Qualifier(&quot;primaryDataSource&quot;)"/>
+<node CREATED="1570220418744" MODIFIED="1570220418744" TEXT="public DataSource primaryDataSource(DataSourceProperties properties) {">
+<node CREATED="1570220418746" MODIFIED="1570220418746" TEXT="return primaryDataSourceProperties().initializeDataSourceBuilder().build();"/>
+</node>
+<node CREATED="1570220418748" MODIFIED="1570220418748" TEXT="}"/>
+<node CREATED="1570220418752" MODIFIED="1570220418752" TEXT="@Bean"/>
+<node CREATED="1570220418754" MODIFIED="1570220418754" TEXT="@Primary"/>
+<node CREATED="1570220418756" MODIFIED="1570220418756" TEXT="@ConfigurationProperties(&quot;app.datasource&quot;)"/>
+<node CREATED="1570220418758" MODIFIED="1570220418758" TEXT="public DataSourceProperties primaryDataSourceProperties() {">
+<node CREATED="1570220418760" MODIFIED="1570220418760" TEXT="return new DataSourceProperties();"/>
+</node>
+<node CREATED="1570220418762" MODIFIED="1570220418762" TEXT="}"/>
+</node>
+<node CREATED="1570220418766" MODIFIED="1570220418766" TEXT="}"/>
+</node>
+<node CREATED="1570220353560" ID="ID_705265850" MODIFIED="1570220354116" TEXT="&#xcc38;&#xc870;">
+<node CREATED="1570220408211" ID="ID_1369956177" LINK="https://stackoverflow.com/a/51392715" MODIFIED="1570220408211" TEXT="https://stackoverflow.com/a/51392715"/>
 </node>
 </node>
 </node>
