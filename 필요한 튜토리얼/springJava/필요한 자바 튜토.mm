@@ -3390,11 +3390,11 @@
 <node CREATED="1570142511971" ID="ID_785756353" LINK="https://stackoverflow.com/questions/23136469/order-by-count-using-spring-data-jparepository" MODIFIED="1570142511971" TEXT="https://stackoverflow.com/questions/23136469/order-by-count-using-spring-data-jparepository"/>
 </node>
 </node>
-<node CREATED="1570220267695" ID="ID_432910582" MODIFIED="1570220276964" POSITION="right" TEXT="datasource &#xcee4;&#xc2a4;&#xd140; yml &#xc801;&#xc6a9;">
+<node CREATED="1570220267695" ID="ID_432910582" MODIFIED="1570220430844" POSITION="right" TEXT="datasource &#xcee4;&#xc2a4;&#xd140; yml &#xc73c;&#xb85c; &#xc124;&#xc815; &#xc801;&#xc6a9;">
 <node CREATED="1570217513818" ID="ID_179807009" LINK="#ID_1428543512" MODIFIED="1570217526138" TEXT="datasource &#xc798; &#xc548; &#xc801;&#xc6a9;&#xb420; &#xb54c;"/>
 <node CREATED="1570220279808" ID="ID_1723667928" MODIFIED="1570220282579" TEXT="&#xc5ec;&#xae30;&#xc11c; &#xb354; &#xd544;&#xc694;&#xd55c;&#xac8c; &#xc788;&#xb2e4;."/>
 <node CREATED="1570220296720" ID="ID_377681665" MODIFIED="1570220296720" TEXT="@PropertySource(value =&quot;classpath:dataSourceConfig.yml&quot;, factory=YamlPropertyLoaderFactory.class)"/>
-<node CREATED="1570220304591" FOLDED="true" ID="ID_1576111198" MODIFIED="1570220337376" TEXT="YamlPropertyLoaderFactory &#xd074;&#xb798;&#xc2a4;&#xb97c; &#xc0c8;&#xb85c; &#xb354; &#xb9cc;&#xb4e4;&#xc5b4;&#xc57c; &#xd55c;&#xb2e4;.">
+<node CREATED="1570220304591" ID="ID_1576111198" MODIFIED="1570220518692" TEXT="YamlPropertyLoaderFactory &#xd074;&#xb798;&#xc2a4;&#xb97c; &#xc0c8;&#xb85c; &#xb354; &#xb9cc;&#xb4e4;&#xc5b4;&#xc57c; &#xd55c;&#xb2e4;.">
 <node CREATED="1570220317652" ID="ID_857943319" MODIFIED="1570220317652" TEXT="package com.theComments.brt.config;"/>
 <node CREATED="1570220317654" ID="ID_1420286366" MODIFIED="1570220317654" TEXT="import java.io.IOException;"/>
 <node CREATED="1570220317655" ID="ID_687790669" MODIFIED="1570220317655" TEXT="import java.util.List;"/>
@@ -3415,22 +3415,22 @@
 </node>
 <node CREATED="1570220317693" ID="ID_624244484" MODIFIED="1570220317693" TEXT="}"/>
 </node>
-<node CREATED="1570220352455" ID="ID_481032358" MODIFIED="1570220353396" TEXT="&#xc804;&#xccb4;&#xcf54;&#xb4dc;">
-<node CREATED="1570220418706" MODIFIED="1570220418706" TEXT="package com.theComments.brt.config;"/>
-<node CREATED="1570220418709" MODIFIED="1570220418709" TEXT="import javax.sql.DataSource;"/>
-<node CREATED="1570220418711" MODIFIED="1570220418711" TEXT="import org.springframework.beans.factory.annotation.Qualifier;"/>
-<node CREATED="1570220418713" MODIFIED="1570220418713" TEXT="import org.springframework.boot.autoconfigure.jdbc.DataSourceProperties;"/>
-<node CREATED="1570220418715" MODIFIED="1570220418715" TEXT="import org.springframework.boot.context.properties.ConfigurationProperties;"/>
-<node CREATED="1570220418718" MODIFIED="1570220418718" TEXT="import org.springframework.boot.test.context.ConfigFileApplicationContextInitializer;"/>
-<node CREATED="1570220418720" MODIFIED="1570220418720" TEXT="import org.springframework.context.annotation.Bean;"/>
-<node CREATED="1570220418722" MODIFIED="1570220418722" TEXT="import org.springframework.context.annotation.Configuration;"/>
-<node CREATED="1570220418724" MODIFIED="1570220418724" TEXT="import org.springframework.context.annotation.Primary;"/>
-<node CREATED="1570220418726" MODIFIED="1570220418726" TEXT="import org.springframework.context.annotation.PropertySource;"/>
-<node CREATED="1570220418728" MODIFIED="1570220418728" TEXT="import org.springframework.test.context.ContextConfiguration;"/>
-<node CREATED="1570220418729" MODIFIED="1570220418729" TEXT="import org.springframework.test.context.TestPropertySource;"/>
-<node CREATED="1570220418731" MODIFIED="1570220418731" TEXT="@Configuration"/>
-<node CREATED="1570220418733" MODIFIED="1570220418733" TEXT="@PropertySource(value =&quot;classpath:dataSourceConfig.yml&quot;, factory=YamlPropertyLoaderFactory.class)"/>
-<node CREATED="1570220418735" MODIFIED="1570220418735" TEXT="public class DataSourceConfig {">
+<node CREATED="1570220352455" ID="ID_481032358" MODIFIED="1570220551237" TEXT="&#xc804;&#xccb4;&#xcf54;&#xb4dc;">
+<node CREATED="1570220418706" ID="ID_1343343200" MODIFIED="1570220418706" TEXT="package com.theComments.brt.config;"/>
+<node CREATED="1570220418709" ID="ID_1182085315" MODIFIED="1570220418709" TEXT="import javax.sql.DataSource;"/>
+<node CREATED="1570220418711" ID="ID_1288552317" MODIFIED="1570220418711" TEXT="import org.springframework.beans.factory.annotation.Qualifier;"/>
+<node CREATED="1570220418713" ID="ID_1440524559" MODIFIED="1570220418713" TEXT="import org.springframework.boot.autoconfigure.jdbc.DataSourceProperties;"/>
+<node CREATED="1570220418715" ID="ID_1442416780" MODIFIED="1570220418715" TEXT="import org.springframework.boot.context.properties.ConfigurationProperties;"/>
+<node CREATED="1570220418718" ID="ID_1661220178" MODIFIED="1570220418718" TEXT="import org.springframework.boot.test.context.ConfigFileApplicationContextInitializer;"/>
+<node CREATED="1570220418720" ID="ID_721997296" MODIFIED="1570220418720" TEXT="import org.springframework.context.annotation.Bean;"/>
+<node CREATED="1570220418722" ID="ID_1559172874" MODIFIED="1570220418722" TEXT="import org.springframework.context.annotation.Configuration;"/>
+<node CREATED="1570220418724" ID="ID_1766358102" MODIFIED="1570220418724" TEXT="import org.springframework.context.annotation.Primary;"/>
+<node CREATED="1570220418726" ID="ID_1684254564" MODIFIED="1570220418726" TEXT="import org.springframework.context.annotation.PropertySource;"/>
+<node CREATED="1570220418728" ID="ID_1881284030" MODIFIED="1570220418728" TEXT="import org.springframework.test.context.ContextConfiguration;"/>
+<node CREATED="1570220418729" ID="ID_637729100" MODIFIED="1570220418729" TEXT="import org.springframework.test.context.TestPropertySource;"/>
+<node CREATED="1570220418731" ID="ID_1814282401" MODIFIED="1570220418731" TEXT="@Configuration"/>
+<node CREATED="1570220418733" ID="ID_117711000" MODIFIED="1570220418733" TEXT="@PropertySource(value =&quot;classpath:dataSourceConfig.yml&quot;, factory=YamlPropertyLoaderFactory.class)"/>
+<node CREATED="1570220418735" ID="ID_1256408520" MODIFIED="1570220418735" TEXT="public class DataSourceConfig {">
 <node CREATED="1570220418737" MODIFIED="1570220418737" TEXT="@Bean"/>
 <node CREATED="1570220418741" MODIFIED="1570220418741" TEXT="@Primary"/>
 <node CREATED="1570220418743" MODIFIED="1570220418743" TEXT="@Qualifier(&quot;primaryDataSource&quot;)"/>
@@ -3446,7 +3446,7 @@
 </node>
 <node CREATED="1570220418762" MODIFIED="1570220418762" TEXT="}"/>
 </node>
-<node CREATED="1570220418766" MODIFIED="1570220418766" TEXT="}"/>
+<node CREATED="1570220418766" ID="ID_1330865509" MODIFIED="1570220418766" TEXT="}"/>
 </node>
 <node CREATED="1570220353560" ID="ID_705265850" MODIFIED="1570220354116" TEXT="&#xcc38;&#xc870;">
 <node CREATED="1570220408211" ID="ID_1369956177" LINK="https://stackoverflow.com/a/51392715" MODIFIED="1570220408211" TEXT="https://stackoverflow.com/a/51392715"/>
