@@ -377,8 +377,7 @@
   <body>
     <img src="angular_5804726460925666913.jpeg" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1570194792086" FOLDED="true" ID="ID_1197955743" MODIFIED="1570194797156" TEXT="css">
@@ -408,6 +407,11 @@
 <node CREATED="1570194808961" ID="ID_1117590146" MODIFIED="1570194808961" TEXT="&lt;div id=&quot;triangle-right&quot;&gt;&lt;/div&gt;"/>
 </node>
 </node>
+</node>
+<node CREATED="1570409067852" ID="ID_981427335" MODIFIED="1570409073984" POSITION="right" TEXT="&#xd558;&#xc774;&#xd37c;&#xb9c1;&#xd06c; &#xbbf8;&#xb9ac;&#xbcf4;&#xae30;">
+<node CREATED="1570409074546" ID="ID_266553586" MODIFIED="1570409083255" TEXT="&#xc774; &#xd558;&#xc774;&#xd37c;&#xb9c1;&#xd06c; &#xbbf8;&#xb9ac;&#xbcf4;&#xae30;&#xb294; &#xc624;&#xd508; &#xadf8;&#xb798;&#xd504; &#xd504;&#xb85c;&#xd1a0;&#xcf5c;&#xc774;&#xb2e4;."/>
+<node CREATED="1570409083899" ID="ID_673890638" LINK="https://ogp.me/" MODIFIED="1570409083899" TEXT="https://ogp.me/"/>
+<node CREATED="1570409089098" ID="ID_312897652" MODIFIED="1570409096918" TEXT="&#xd574;&#xb2f9;&#xd558;&#xb294;&#xac78; &#xc5f0;&#xad6c;&#xd574;&#xbcf4;&#xba74; &#xb420;&#xb4ef; &#xd558;&#xb2e4;."/>
 </node>
 </node>
 </map>

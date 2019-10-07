@@ -2323,7 +2323,7 @@
 <node CREATED="1569631391291" ID="ID_1834659066" MODIFIED="1569631411704" TEXT="&#xb9ac;&#xc18c;&#xc2a4; &#xc11c;&#xbc84;&#xb294; publickey&#xb9cc; &#xb611;&#xac19;&#xc774; &#xc124;&#xc815;&#xd55c;&#xb2e4;."/>
 </node>
 </node>
-<node CREATED="1569486116611" FOLDED="true" ID="ID_1594071695" MODIFIED="1570217409148" POSITION="right" TEXT="oauth &#xc815;&#xb9ac;">
+<node CREATED="1569486116611" ID="ID_1594071695" MODIFIED="1570402102697" POSITION="right" TEXT="oauth &#xc815;&#xb9ac;">
 <node CREATED="1569486121620" ID="ID_1004995870" MODIFIED="1569486326063" TEXT="&#xc774; &#xc815;&#xb9ac;&#xb294; authorization server&#xc640; resource server &#xc804;&#xc6a9;&#xc73c;&#xb85c; &#xd55c;&#xb2e4;."/>
 <node CREATED="1569851795826" FOLDED="true" ID="ID_1918509835" MODIFIED="1569926435541" TEXT="&#xcc38;&#xc870;&#xd55c; &#xb9c1;&#xd06c;">
 <node CREATED="1569491563570" ID="ID_239934634" LINK="https://www.tutorialspoint.com/spring_boot/spring_boot_oauth2_with_jwt.htm" MODIFIED="1569491564360" TEXT="https://www.tutorialspoint.com/spring_boot/spring_boot_oauth2_with_jwt.htm"/>
@@ -3343,14 +3343,41 @@
 </node>
 </node>
 </node>
-<node CREATED="1569321838984" FOLDED="true" ID="ID_1289431196" MODIFIED="1570217327994" POSITION="right" TEXT="JDBC &#xc624;&#xb958;">
+<node CREATED="1569321838984" ID="ID_1289431196" MODIFIED="1570402101899" POSITION="right" TEXT="JDBC &#xc624;&#xb958;">
 <node CREATED="1569321843353" ID="ID_437120369" LINK="#ID_1068000342" MODIFIED="1569321851842" TEXT="Failed to determine a suitable driver class "/>
 </node>
-<node CREATED="1569954720531" FOLDED="true" ID="ID_1310219766" MODIFIED="1570217327994" POSITION="right" TEXT="&#xd558;&#xc774;&#xbc84;&#xb124;&#xc774;&#xd2b8;(jpa)">
+<node CREATED="1569954720531" ID="ID_1310219766" MODIFIED="1570402110160" POSITION="right" TEXT="&#xd558;&#xc774;&#xbc84;&#xb124;&#xc774;&#xd2b8;(jpa)">
 <node CREATED="1570118271397" ID="ID_1098857026" LINK="https://www.baeldung.com/spring-data-jpa-multiple-databases" MODIFIED="1570118271397" TEXT="https://www.baeldung.com/spring-data-jpa-multiple-databases"/>
 <node CREATED="1570132753122" ID="ID_977131534" MODIFIED="1570132757806" TEXT="select &#xc870;&#xac74;&#xbb38;">
 <node CREATED="1570132709848" ID="ID_263076276" LINK="https://www.petrikainulainen.net/programming/spring-framework/spring-data-jpa-tutorial-introduction-to-query-methods/" MODIFIED="1570132709848" TEXT="https://www.petrikainulainen.net/programming/spring-framework/spring-data-jpa-tutorial-introduction-to-query-methods/"/>
 <node CREATED="1570146978432" ID="ID_1135334450" LINK="https://www.baeldung.com/jpa-join-types" MODIFIED="1570146978432" TEXT="https://www.baeldung.com/jpa-join-types"/>
+</node>
+<node CREATED="1570395906141" ID="ID_1399637032" MODIFIED="1570395909655" TEXT="fechType">
+<node CREATED="1570395914157" ID="ID_156686172" MODIFIED="1570395915162" TEXT="&#xac1c;&#xb150;">
+<node CREATED="1570396150241" ID="ID_66838895" LINK="https://www.baeldung.com/jpa-join-types" MODIFIED="1570396150241" TEXT="https://www.baeldung.com/jpa-join-types"/>
+<node CREATED="1570396209803" ID="ID_1917710412" MODIFIED="1570396211343" TEXT="&#xb450;&#xac00;&#xc9c0;&#xac00; &#xc788;&#xb2e4;.">
+<node CREATED="1570396535238" ID="ID_1657050966" MODIFIED="1570396538768" TEXT="Eager">
+<node CREATED="1570396607204" ID="ID_81456367" MODIFIED="1570396754840" TEXT="&#xcc98;&#xc74c; &#xb370;&#xc774;&#xd130;&#xb97c; &#xbd88;&#xb7ec;&#xc62c; &#xb54c; &#xc678;&#xb798;&#xd0a4;&#xb85c; &#xc5f0;&#xacb0;&#xb41c; &#xc815;&#xbcf4;&#xb97c; &#xb2e4; &#xbd88;&#xb7ec;&#xac16;&#xace0; &#xc628;&#xb2e4;."/>
+<node CREATED="1570396654036" ID="ID_1383107079" MODIFIED="1570396660655" TEXT="&#xadf8;&#xb7ec;&#xb2c8;&#xae4c; &#xcffc;&#xb9ac;&#xb97c; &#xc878;&#xb77c;&#xac8c; &#xb9ce;&#xc774; &#xd55c;&#xb2e4;&#xb294; &#xac83;&#xc774;&#xb2e4;."/>
+<node CREATED="1570396660796" ID="ID_1597348987" MODIFIED="1570396668327" TEXT="&#xc774;&#xac74; &#xc131;&#xb2a5; &#xd558;&#xb77d;&#xc758; &#xbb38;&#xc81c;&#xac00; &#xc0dd;&#xae38; &#xc218; &#xc788;&#xb2e4;."/>
+</node>
+<node CREATED="1570396539924" ID="ID_431531930" MODIFIED="1570396540263" TEXT="Lazy">
+<node CREATED="1570396716380" ID="ID_1290369929" MODIFIED="1570396772527" TEXT="&#xcc98;&#xc74c; &#xb370;&#xc774;&#xd130;&#xb97c; &#xbd88;&#xb7ec;&#xc62c; &#xb54c; &#xc678;&#xb798;&#xd0a4;&#xb85c; &#xc5f0;&#xacb0;&#xb41c; &#xc815;&#xbcf4;&#xb97c; &#xc548;&#xac00;&#xc9c0;&#xace0; &#xc628;&#xb2e4;."/>
+<node CREATED="1570410464884" ID="ID_771123849" LINK="https://stackoverflow.com/a/11754441" MODIFIED="1570410464884" TEXT="https://stackoverflow.com/a/11754441"/>
+<node CREATED="1570410466275" ID="ID_26069361" MODIFIED="1570410483807" TEXT="join&#xc744; &#xd574;&#xb3c4; &#xc548;&#xac00;&#xc9c0;&#xace0;&#xc624;&#xace0;, &#xc624;&#xb85c;&#xc9c0; JOIN FETCH&#xb97c; &#xd574;&#xc57c;&#xc9c0;&#xb9cc; &#xb4e4;&#xace0;&#xc628;&#xb2e4;."/>
+<node CREATED="1570410487282" ID="ID_788636855" MODIFIED="1570410499879" TEXT="get&#xc73c;&#xb85c; &#xac00;&#xc838;&#xc624;&#xb294;&#xac74; &#xc798; &#xc548;&#xb41c;&#xb2e4;."/>
+</node>
+<node CREATED="1570396623836" ID="ID_1299789073" MODIFIED="1570396625032" TEXT="&#xb514;&#xd3f4;&#xd2b8; &#xac12;">
+<node CREATED="1570396625588" ID="ID_449098869" MODIFIED="1570396636231" TEXT="To One &#xc77c; &#xb584;&#xb294; Eager"/>
+<node CREATED="1570396636876" ID="ID_1931274780" MODIFIED="1570396647663" TEXT="To Many &#xc77c; &#xb54c;&#xb294; Lazy"/>
+</node>
+</node>
+</node>
+<node CREATED="1570395926604" ID="ID_1279543763" MODIFIED="1570395929287" TEXT="&#xc5b4;&#xb5bb;&#xac8c; &#xd558;&#xb294;&#xac00;?">
+<node CREATED="1570395947463" ID="ID_1045552211" LINK="https://www.youtube.com/watch?v=Zs8Dse_Mpyk" MODIFIED="1570395948135" TEXT="https://www.youtube.com/watch?v=Zs8Dse_Mpyk"/>
+<node CREATED="1570395929891" ID="ID_997639178" MODIFIED="1570395938295" TEXT="&#xadf8;&#xb0e5; &#xd544;&#xc694; &#xc788;&#xb294; &#xc815;&#xbcf4;&#xb9cc; &#xbd88;&#xb7ec;&#xc628;&#xb2e4;."/>
+<node CREATED="1570395949140" ID="ID_124777700" MODIFIED="1570396828216" TEXT="&#xc870;&#xc778;&#xc744; &#xba85;&#xc2dc;&#xc801;&#xc73c;&#xb85c; &#xd558;&#xc5ec; &#xbd88;&#xb7ec;&#xc628;&#xb2e4;&#xb294; &#xac83;&#xc774;&#xb2e4;."/>
+</node>
 </node>
 <node CREATED="1570134149228" ID="ID_331811455" MODIFIED="1570134161897" TEXT="emtityManagerFactory &#xb530;&#xb85c; &#xbd88;&#xb7ec;&#xc624;&#xae30;">
 <node CREATED="1570134174494" ID="ID_951237667" LINK="https://okky.kr/article/306418" MODIFIED="1570134176036" TEXT="https://okky.kr/article/306418"/>
@@ -3377,7 +3404,7 @@
 </node>
 </node>
 <node CREATED="1570136286969" ID="ID_1216395012" MODIFIED="1570136312478" TEXT="manytomany &#xb3d9;&#xc0ac; &#xd14c;&#xc774;&#xbe14;">
-<node CREATED="1570136322966" LINK="https://www.baeldung.com/jpa-many-to-many" MODIFIED="1570136322966" TEXT="https://www.baeldung.com/jpa-many-to-many"/>
+<node CREATED="1570136322966" ID="ID_485248602" LINK="https://www.baeldung.com/jpa-many-to-many" MODIFIED="1570136322966" TEXT="https://www.baeldung.com/jpa-many-to-many"/>
 </node>
 <node CREATED="1570140550929" ID="ID_293990608" MODIFIED="1570140566430" TEXT="hbm2ddl.auto&#xc5d0; &#xb300;&#xd558;&#xc5ec;">
 <node CREATED="1570140544833" ID="ID_1106298599" LINK="https://www.onlinetutorialspoint.com/hibernate/hbm2ddl-auto-example-hibernate-xml-config.html" MODIFIED="1570140544833" TEXT="https://www.onlinetutorialspoint.com/hibernate/hbm2ddl-auto-example-hibernate-xml-config.html"/>
@@ -3389,12 +3416,36 @@
 <node CREATED="1570149645253" ID="ID_1551741864" LINK="https://www.baeldung.com/spring-data-jpa-pagination-sorting" MODIFIED="1570149648037" TEXT="https://www.baeldung.com/spring-data-jpa-pagination-sorting"/>
 <node CREATED="1570142511971" ID="ID_785756353" LINK="https://stackoverflow.com/questions/23136469/order-by-count-using-spring-data-jparepository" MODIFIED="1570142511971" TEXT="https://stackoverflow.com/questions/23136469/order-by-count-using-spring-data-jparepository"/>
 </node>
+<node CREATED="1570382601549" ID="ID_1921398831" MODIFIED="1570382637864" TEXT="ManyToMany&#xc5d0;&#xc11c; &#xc8fc;&#xc5b4; &#xbd80;&#xbb38;&#xc5d0;&#xc11c; &#xc0ac;&#xc6a9;&#xd558;&#xb294; Set &#xc815;&#xb9ac;">
+<node CREATED="1570382638158" ID="ID_1236691051" LINK="https://stackoverflow.com/questions/1035008/what-is-the-difference-between-set-and-list" MODIFIED="1570382638158" TEXT="https://stackoverflow.com/questions/1035008/what-is-the-difference-between-set-and-list"/>
+<node CREATED="1570382645164" FOLDED="true" ID="ID_1867481301" MODIFIED="1570382684889" TEXT="set&#xacfc; list&#xc758; &#xcc28;&#xc774;&#xc810;(&#xc774;&#xbbf8;&#xc9c0;)">
+<node CREATED="1570382676478" MODIFIED="1570382676478">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="&#xd544;&#xc694;&#xd55c; &#xc790;&#xbc14; &#xd29c;&#xd1a0;_8865931172472596015.jpeg" />
+  </body>
+</html>
+</richcontent>
 </node>
-<node CREATED="1570220267695" ID="ID_432910582" MODIFIED="1570220430844" POSITION="right" TEXT="datasource &#xcee4;&#xc2a4;&#xd140; yml &#xc73c;&#xb85c; &#xc124;&#xc815; &#xc801;&#xc6a9;">
+</node>
+</node>
+<node CREATED="1570387036030" ID="ID_687925263" MODIFIED="1570387039690" TEXT="&#xc77d;&#xc744;&#xac70;&#xb9ac;">
+<node CREATED="1570387040271" ID="ID_975731217" MODIFIED="1570387047602" TEXT="oneToMany&#xb294; &#xc591;&#xbc29;&#xd5a5; &#xc124;&#xc815;&#xd574;&#xc918;&#xc57c;&#xd568;">
+<node CREATED="1570387048023" LINK="https://velog.io/@dpudpu/5" MODIFIED="1570387048023" TEXT="https://velog.io/@dpudpu/5"/>
+</node>
+<node CREATED="1570387397223" ID="ID_256733425" MODIFIED="1570387403018" TEXT="mappedBy&#xac00; &#xbb34;&#xc5c7;&#xc778;&#xac00;?">
+<node CREATED="1570387403329" LINK="https://www.baeldung.com/jpa-joincolumn-vs-mappedby" MODIFIED="1570387403329" TEXT="https://www.baeldung.com/jpa-joincolumn-vs-mappedby"/>
+</node>
+</node>
+</node>
+<node CREATED="1570220267695" ID="ID_432910582" MODIFIED="1570402107873" POSITION="right" TEXT="datasource &#xcee4;&#xc2a4;&#xd140; yml &#xc73c;&#xb85c; &#xc124;&#xc815; &#xc801;&#xc6a9;">
 <node CREATED="1570217513818" ID="ID_179807009" LINK="#ID_1428543512" MODIFIED="1570217526138" TEXT="datasource &#xc798; &#xc548; &#xc801;&#xc6a9;&#xb420; &#xb54c;"/>
 <node CREATED="1570220279808" ID="ID_1723667928" MODIFIED="1570220282579" TEXT="&#xc5ec;&#xae30;&#xc11c; &#xb354; &#xd544;&#xc694;&#xd55c;&#xac8c; &#xc788;&#xb2e4;."/>
 <node CREATED="1570220296720" ID="ID_377681665" MODIFIED="1570220296720" TEXT="@PropertySource(value =&quot;classpath:dataSourceConfig.yml&quot;, factory=YamlPropertyLoaderFactory.class)"/>
-<node CREATED="1570220304591" ID="ID_1576111198" MODIFIED="1570220518692" TEXT="YamlPropertyLoaderFactory &#xd074;&#xb798;&#xc2a4;&#xb97c; &#xc0c8;&#xb85c; &#xb354; &#xb9cc;&#xb4e4;&#xc5b4;&#xc57c; &#xd55c;&#xb2e4;.">
+<node CREATED="1570220304591" FOLDED="true" ID="ID_1576111198" MODIFIED="1570375538999" TEXT="YamlPropertyLoaderFactory &#xd074;&#xb798;&#xc2a4;&#xb97c; &#xc0c8;&#xb85c; &#xb354; &#xb9cc;&#xb4e4;&#xc5b4;&#xc57c; &#xd55c;&#xb2e4;.">
 <node CREATED="1570220317652" ID="ID_857943319" MODIFIED="1570220317652" TEXT="package com.theComments.brt.config;"/>
 <node CREATED="1570220317654" ID="ID_1420286366" MODIFIED="1570220317654" TEXT="import java.io.IOException;"/>
 <node CREATED="1570220317655" ID="ID_687790669" MODIFIED="1570220317655" TEXT="import java.util.List;"/>
@@ -3415,7 +3466,7 @@
 </node>
 <node CREATED="1570220317693" ID="ID_624244484" MODIFIED="1570220317693" TEXT="}"/>
 </node>
-<node CREATED="1570220352455" ID="ID_481032358" MODIFIED="1570220551237" TEXT="&#xc804;&#xccb4;&#xcf54;&#xb4dc;">
+<node CREATED="1570220352455" FOLDED="true" ID="ID_481032358" MODIFIED="1570375539002" TEXT="&#xc804;&#xccb4;&#xcf54;&#xb4dc;">
 <node CREATED="1570220418706" ID="ID_1343343200" MODIFIED="1570220418706" TEXT="package com.theComments.brt.config;"/>
 <node CREATED="1570220418709" ID="ID_1182085315" MODIFIED="1570220418709" TEXT="import javax.sql.DataSource;"/>
 <node CREATED="1570220418711" ID="ID_1288552317" MODIFIED="1570220418711" TEXT="import org.springframework.beans.factory.annotation.Qualifier;"/>
@@ -3448,8 +3499,21 @@
 </node>
 <node CREATED="1570220418766" ID="ID_1330865509" MODIFIED="1570220418766" TEXT="}"/>
 </node>
-<node CREATED="1570220353560" ID="ID_705265850" MODIFIED="1570220354116" TEXT="&#xcc38;&#xc870;">
+<node CREATED="1570220353560" FOLDED="true" ID="ID_705265850" MODIFIED="1570375539003" TEXT="&#xcc38;&#xc870;">
 <node CREATED="1570220408211" ID="ID_1369956177" LINK="https://stackoverflow.com/a/51392715" MODIFIED="1570220408211" TEXT="https://stackoverflow.com/a/51392715"/>
+</node>
+</node>
+<node CREATED="1570379803994" ID="ID_1626839634" MODIFIED="1570402107157" POSITION="right" TEXT="date&#xb294; LocalDateTime&#xc744; &#xc4f0;&#xb294;&#xac8c; &#xc88b;&#xc744; &#xb4ef; &#xd558;&#xb2e4;.">
+<node CREATED="1570381223900" ID="ID_237953713" MODIFIED="1570381227799" TEXT="&#xadf8;&#xb0e5; &#xbcf4;&#xc548;&#xc0c1; &#xadf8;&#xac70; &#xc4f0;&#xb798; &#xc528;&#xbc1c;"/>
+</node>
+<node CREATED="1570398499501" ID="ID_438936036" MODIFIED="1570398518933" POSITION="right" TEXT="&#xc720;&#xb2db; &#xd14c;&#xc2a4;&#xd2b8; &#xd560; &#xb54c;">
+<node CREATED="1570398518920" ID="ID_160186925" MODIFIED="1570398525097" TEXT="&#xbb38;&#xc81c;">
+<node CREATED="1570398509065" ID="ID_1790794922" MODIFIED="1570398509065" TEXT="java.lang.IllegalStateException: Unable to find a @SpringBootConfiguration, you need to use @ContextConfiguration or @SpringBootTest(classes=...) with your test"/>
+</node>
+<node CREATED="1570398525277" ID="ID_348925721" MODIFIED="1570398525801" TEXT="&#xd574;&#xacb0;">
+<node CREATED="1570398527152" ID="ID_1502695658" LINK="https://stackoverflow.com/questions/39084491/unable-to-find-a-springbootconfiguration-when-doing-a-jpatest" MODIFIED="1570398527152" TEXT="https://stackoverflow.com/questions/39084491/unable-to-find-a-springbootconfiguration-when-doing-a-jpatest"/>
+<node CREATED="1570403172570" ID="ID_1279156131" MODIFIED="1570403172570" TEXT="@SpringBootTest(classes=DemoApplication.class)"/>
+<node CREATED="1570403173536" ID="ID_1105931799" MODIFIED="1570403189396" TEXT="&#xadf8;&#xb0e5; main&#xc5d0; &#xc788;&#xb294; application class&#xb97c; &#xbd88;&#xb7ec;&#xc624;&#xb294; &#xac83;&#xc73c;&#xb85c; &#xd574;&#xacb0;"/>
 </node>
 </node>
 </node>
