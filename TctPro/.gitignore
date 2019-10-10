@@ -30,3 +30,5 @@ build/
 ### VS Code ###
 .vscode/
 src/main/resources/dataSourceConfig.yml
+src/main/resources/key/privateKey.txt
+src/main/resources/key/publicKey.txt
