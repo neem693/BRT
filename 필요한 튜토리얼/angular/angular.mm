@@ -796,7 +796,7 @@
 <node CREATED="1570947766121" MODIFIED="1570947766121" TEXT="}"/>
 </node>
 </node>
-<node CREATED="1570947769623" ID="ID_1063021933" MODIFIED="1570947878588" TEXT="&#xc801;&#xc6a9;(html&#xc5d0;&#xc11c; &#xadf8;&#xb0e5; blur &#xc774;&#xbca4;&#xd2b8; &#xc90c; &#xcf54;&#xb4dc;)">
+<node CREATED="1570947769623" FOLDED="true" ID="ID_1063021933" MODIFIED="1570947881052" TEXT="&#xc801;&#xc6a9;(html&#xc5d0;&#xc11c; &#xadf8;&#xb0e5; blur &#xc774;&#xbca4;&#xd2b8; &#xc90c; &#xcf54;&#xb4dc;)">
 <node CREATED="1570947867267" MODIFIED="1570947867267" TEXT="&lt;input (blur) = &quot;loginIdDuplicate(loginData.user_login_id)&quot; matInput [formControl]=&quot;loginData.user_login_id&quot; placeholder=&quot;&#xc544;&#xc774;&#xb514;&quot; value=&quot;&quot;&gt;"/>
 </node>
 </node>
