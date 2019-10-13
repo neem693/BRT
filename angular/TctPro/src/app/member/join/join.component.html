@@ -1,0 +1,54 @@
+<hr class="hr_01">
+<h1 class="subject">회원가입</h1>
+<hr class="hr_01">
+{{duplicate.user_login_id}}
+<form class="joinForm">
+  <mat-form-field class="input_form_01" appearance="outline">
+    <mat-label>아이디</mat-label>
+    <input (blur) = "loginIdDuplicate(loginData.user_login_id)" matInput [formControl]="loginData.user_login_id" placeholder="아이디" value="">
+    <mat-hint>5~20 영문소(대)문자, 숫자만 가능</mat-hint>
+    <mat-error *ngIf="loginData.user_login_id.hasError('required')">아이디를 입력해주세요.</mat-error>
+    <mat-error *ngIf="loginData.user_login_id.hasError('pattern')">5~20 영문소(대)문자, 숫자만 가능합니다.</mat-error>
+    <mat-error *ngIf="loginData.user_login_id.hasError('customVali')">이미 등록된 아이디 입니다.</mat-error>
+  </mat-form-field>
+  <div *ngIf='duplicate.user_login_id'>이미 등록된 아이디 입니다.</div>
+
+  <button type="button">werfwewf</button>
+
+  <mat-form-field class="input_form_01" appearance="outline">
+    <mat-label>패스워드</mat-label>
+    <input matInput [formControl]="loginData.password" [type]="'password'" placeholder="" value="">
+    <mat-hint>8~20 영문(대소문자),숫자,특수기호 포함</mat-hint>
+    <mat-error *ngIf="loginData.password.hasError('required')">필수 입력 항목입니다.</mat-error>
+    <mat-error *ngIf="loginData.password.hasError('pattern')">8~20 영문(대소문자),숫자,특수기호 포함해야 합니다.</mat-error>
+  </mat-form-field>
+
+  <mat-form-field class="input_form_01" appearance="outline">
+    <mat-label>다시입력해주세요</mat-label>
+    <input matInput [formControl]="password_confirm" [type]="'password'" placeholder="패스워드 다시입력" value="">
+    <mat-hint>8~20 영문(대소문자),숫자,특수기호 포함</mat-hint>
+    <mat-error *ngIf="password_confirm.hasError('required')">필수 입력 항목입니다.</mat-error>
+    <mat-error *ngIf="password_confirm.hasError('pattern')">8~20 영문(대소문자),숫자,특수기호 포함해야 합니다.</mat-error>
+    <mat-error *ngIf="password_confirm.value != loginData.user_login_id.value">입력했던 패스워드와 동일하게 입력해주세요.</mat-error>
+  </mat-form-field>
+
+  <mat-form-field class="input_form_01" appearance="outline">
+    <mat-label>닉네임/별명</mat-label>
+    <input matInput [formControl]="loginData.nickname" [type]="'text'" placeholder="닉네임 다시입력" value="">
+    <mat-hint>3~20자 안에 한글,영문,숫자만 입력 가능</mat-hint>
+    <mat-error *ngIf="loginData.nickname.hasError('required')">필수 입력 항목입니다.</mat-error>
+    <mat-error *ngIf="loginData.nickname.hasError('pattern')">한글,영문,숫자만 입력가능합니다.</mat-error>
+  </mat-form-field>
+
+  <mat-form-field class="input_form_01" appearance="outline">
+    <mat-label>이메일</mat-label>
+    <input matInput [formControl]="loginData.email" [type]="'text'" placeholder="닉네임 다시입력" value="">
+    <mat-hint>이메일 입력</mat-hint>
+    <mat-error *ngIf="loginData.email.hasError('required')">필수 입력 항목입니다.</mat-error>
+    <mat-error *ngIf="loginData.email.hasError('pattern')">이메일 형식을 지켜주세요.</mat-error>
+  </mat-form-field>
+
+  <button type="submit" (click) = "saveMember(loginData)" mat-raised-button>가입</button>
+
+
+</form>

@@ -5,6 +5,8 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
 
 @Entity
@@ -14,10 +16,11 @@ public class Works {
 	@GeneratedValue(strategy=GenerationType.AUTO)
 	Long work_id;
 	
-	String subject;
+	@ManyToOne
+	@JoinColumn(name="type2_id")
+	Type2 type2;
 	
-	Integer type1;
-	Integer type2;
+	String subject;
 	
 	@OneToMany(mappedBy="works")
 	List<Evaluate> evaluate;
@@ -27,6 +30,9 @@ public class Works {
 	
 	@OneToMany(mappedBy="works")
 	List<Create_art> create;
+	
+	@OneToMany(mappedBy="works")
+	List<FileSave> fileSave;
 
 	public Long getWork_id() {
 		return work_id;
@@ -36,28 +42,20 @@ public class Works {
 		this.work_id = work_id;
 	}
 
+	public Type2 getType2() {
+		return type2;
+	}
+
+	public void setType2(Type2 type2) {
+		this.type2 = type2;
+	}
+
 	public String getSubject() {
 		return subject;
 	}
 
 	public void setSubject(String subject) {
 		this.subject = subject;
-	}
-
-	public Integer getType1() {
-		return type1;
-	}
-
-	public void setType1(Integer type1) {
-		this.type1 = type1;
-	}
-
-	public Integer getType2() {
-		return type2;
-	}
-
-	public void setType2(Integer type2) {
-		this.type2 = type2;
 	}
 
 	public List<Evaluate> getEvaluate() {
@@ -83,6 +81,17 @@ public class Works {
 	public void setCreate(List<Create_art> create) {
 		this.create = create;
 	}
+
+	public List<FileSave> getFileSave() {
+		return fileSave;
+	}
+
+	public void setFileSave(List<FileSave> fileSave) {
+		this.fileSave = fileSave;
+	}
+
+	
+	
 	
 	
 	

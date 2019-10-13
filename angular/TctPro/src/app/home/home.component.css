@@ -1,0 +1,269 @@
+
+
+
+.eval_home_list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.eval_container_outer_01 {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 5px;
+    
+}
+
+.eval_container_01 {
+    width: 50%;
+    border: 3px solid #404040;
+    border-radius: 5px;
+    background-color: #262626;
+}
+
+.eval_artist_date_01 {
+    /* display: inline-block; */
+    /* background-color: rgb(151, 159, 194); */
+}
+
+.eval_artist_01 {
+    display: block;
+}
+
+.eval_subject_01 {
+    /* display: inline-block; */
+    /* background-color: aqua */
+    font-size: 20px;
+}
+
+.eval_type1_type2_01 {
+    /* display: inline-block */
+}
+
+.eval_type1_01 {
+    display: block
+}
+
+.eval_type2_01 {
+    display: block;
+}
+
+.eval_matter_01 {
+    color: #8EB4E3;
+    font-weight: bold;
+    text-align: center;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.eval_subjectMatter_01:before {
+    content: "소재 - ";
+}
+
+.eval_text_01 {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.eval_text_01:before {
+    content: "\"";
+}
+
+.eval_text_01:after {
+    content: "\"";
+}
+
+.eval_evaluation_content_01{
+    display: flex;
+    justify-content: center;
+}
+
+.eval_sq_arrow_01 {
+    width: 35px;
+    height: 70px;
+    position: relative;
+    background: #F2F2F2;
+}
+
+.eval_sq_arrow_01:after{
+    content: "";
+    position: absolute;
+    border-top: 35px solid transparent;
+    border-bottom: 35px solid transparent;
+    bottom: 0;
+    width: 0;
+    height: 0;
+}
+
+.eval_sq_arrow_01:before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-top: 35px solid transparent;
+    border-bottom: 35px solid transparent;
+}
+
+.eval_arrow_warning_01 {
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.eval_arrow_warning_01:after {
+   
+    left: 16px;
+    border-right: 20px solid #262626;
+  
+}
+
+.eval_arrow_warning_01:before {
+   
+    right: 34px;
+    border-right: 20px solid #F2F2F2;
+   
+}
+
+.eval_arrow_warning_01.active {
+    background-color: black;
+    color: white;
+}
+
+.eval_arrow_warning_01.active:before {
+    border-right-color: black;
+}
+
+.eval_arrow_01 {
+    width: 0;
+    height: 0;
+    position: relative;
+    border-top: 35px solid transparent;
+    border-bottom: 35px solid transparent;
+}
+.eval_arrow_01:after{
+    content: "";
+    position: absolute;
+    bottom: -35px;
+    width: 0;
+    height: 0;
+    border-top: 35px solid transparent;
+    border-bottom: 35px solid transparent;
+}
+
+.eval_arrow_bad_01{
+    border-right: 40px solid #F2F2F2;
+}
+
+.eval_arrow_bad_01:after{
+    left: 25px;
+    border-right: 15px solid #262626;
+}
+
+.eval_arrow_bad_01.active{
+    border-right-color: rgb(116, 110, 110);
+}
+
+.eval_arrow_good_01{
+    border-left: 40px solid #F2F2F2;
+}
+.eval_arrow_good_01:after{
+    right: 25px;
+    border-left: 15px solid #262626;
+}
+.eval_arrow_good_01.active{
+    border-left-color: #00B0F0;
+}
+
+.eval_arrow_reco_01{
+    font-weight: bold;
+    text-align: right;
+    color: black;
+    margin-right: 20px;
+
+}
+
+.eval_arrow_reco_01:after{
+   
+    left: 0;
+    border-left: 20px solid #262626;
+   
+}
+
+.eval_arrow_reco_01:before{
+  
+    right: -19px;
+    border-left: 20px solid #F2F2F2;
+  
+}
+
+.eval_arrow_reco_01.active{
+    color:white;
+    background-color: #00B0F0;
+}
+
+.eval_arrow_reco_01.active:before{
+    border-left-color: #00B0F0;
+}
+
+.eval_arrow_very_good_01{
+    border-left: 40px solid #F2F2F2;
+}
+.eval_arrow_very_good_01:after{
+    right: 25px;
+    border-left: 15px solid #262626;
+}
+.eval_arrow_very_good_01.active{
+    border-left-color: yellow;
+}
+
+.eval_arrow_excellect_01:after{
+   
+    left: 0;
+    border-left: 20px solid #262626;
+   
+}
+
+.eval_arrow_excellect_01:before{
+  
+    right: -19px;
+    border-left: 20px solid #F2F2F2;
+  
+}
+
+.eval_arrow_excellect_01.active{
+    color:white;
+    background-color: yellow;
+}
+
+.eval_arrow_excellect_01.active:before{
+    border-left-color:yellow;
+}
+
+.between_bad_good{
+    margin: 0 4px;
+}
+
+
+
+.outer_matter_01{
+    flex-basis: 30%;
+}
+
+@media screen and (max-width: 1060px) {
+    .eval_home_list {
+        justify-content: inherit;
+        flex-wrap: wrap;
+       
+    }
+    .eval_container_01 {
+        width: 100%;
+        border: 1px solid black;
+    }
+}
+
+@media screen and (max-width: 992px) {
+   
+}

@@ -1,6 +1,6 @@
 server:
   port: 8085
 
-#logging:
-#  level:
-#    root: debug
+logging:
+  level:
+    root: debug

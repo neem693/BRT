@@ -18,7 +18,7 @@ public class Evaluation_item {
 	String subjectMatter;
 	
 	String ev_text1;
-	String ev_test2;
+	String ev_text2;
 	
 	String donation;
 	
@@ -51,12 +51,12 @@ public class Evaluation_item {
 		this.ev_text1 = ev_text1;
 	}
 
-	public String getEv_test2() {
-		return ev_test2;
+	public String getEv_text2() {
+		return ev_text2;
 	}
 
-	public void setEv_test2(String ev_test2) {
-		this.ev_test2 = ev_test2;
+	public void setEv_text2(String ev_text2) {
+		this.ev_text2 = ev_text2;
 	}
 
 	public String getDonation() {

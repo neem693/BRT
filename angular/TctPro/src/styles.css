@@ -1,0 +1,21 @@
+/* You can add global styles to this file, and also import other style files */
+@import '@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+
+.subject {
+    display: flex;
+    /* justify-content: center; */
+    color: gray;
+}
+.hr_01 {
+    
+    border-top: 3px solid gray;
+    width: 0%;
+    margin-left: 0px;
+    transition: width 2s;
+
+}
+
+.hr_01.active{
+    width: 70%;
+}

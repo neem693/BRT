@@ -32,7 +32,7 @@
     "classlist.js": "^1.1.20150312",
     "jquery": "^3.4.1",
     "js-cookie": "^2.2.1",
-    "rxjs": "~6.4.0",
+    "rxjs": "^6.4.0",
     "tslib": "^1.9.0",
     "web-animations-js": "^2.3.2",
     "zone.js": "~0.9.1"
