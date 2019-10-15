@@ -79,6 +79,7 @@
 .eval_evaluation_content_01{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .eval_sq_arrow_01 {
@@ -86,6 +87,11 @@
     height: 70px;
     position: relative;
     background: #F2F2F2;
+}
+
+.eval_sq_arrow_01.active {
+    width: 45px;
+    height: 80px;
 }
 
 .eval_sq_arrow_01:after{
@@ -98,6 +104,11 @@
     height: 0;
 }
 
+.eval_sq_arrow_01.active:after {
+    border-top: 40px solid transparent;
+    border-bottom: 40px solid transparent;
+}
+
 .eval_sq_arrow_01:before{
     content: "";
     position: absolute;
@@ -106,6 +117,11 @@
     height: 0;
     border-top: 35px solid transparent;
     border-bottom: 35px solid transparent;
+}
+
+.eval_sq_arrow_01.active:before {
+    border-top: 40px solid transparent;
+    border-bottom: 40px solid transparent;
 }
 
 .eval_arrow_warning_01 {
@@ -132,7 +148,14 @@
     color: white;
 }
 
+.eval_arrow_warning_01.active:after {
+   
+    left: 26px;
+  
+}
+
 .eval_arrow_warning_01.active:before {
+    right: 44px;
     border-right-color: black;
 }
 
@@ -143,6 +166,10 @@
     border-top: 35px solid transparent;
     border-bottom: 35px solid transparent;
 }
+.eval_arrow_01.active {
+    border-top: 45px solid transparent;
+    border-bottom: 45px solid transparent;
+}
 .eval_arrow_01:after{
     content: "";
     position: absolute;
@@ -151,6 +178,11 @@
     height: 0;
     border-top: 35px solid transparent;
     border-bottom: 35px solid transparent;
+}
+.eval_arrow_01.active:after {
+    border-top: 45px solid transparent;
+    border-bottom: 45px solid transparent;
+    bottom: -45px;
 }
 
 .eval_arrow_bad_01{

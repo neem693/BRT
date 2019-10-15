@@ -12,8 +12,14 @@
     border-top: 3px solid gray;
     width: 0%;
     margin-left: 0px;
+    text-align: left;
     transition: width 2s;
 
+}
+
+button:focus{
+    outline: none !important;
+    outline-style: none !important;
 }
 
 .hr_01.active{

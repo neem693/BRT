@@ -1,0 +1,18 @@
+<hr class="hr_01">
+<h1 class="subject">로그인</h1>
+<hr class="hr_01">
+
+
+<div class="login_div">
+    <form>
+        <mat-form-field class="input_form_01" appearance="outline">
+            <mat-label>아이디</mat-label>
+            <input matInput [formControl]="loginData.user_login_id" placeholder="아이디" value="">
+        </mat-form-field>
+
+        <mat-form-field class="input_form_01" appearance="outline">
+            <mat-label>패스워드</mat-label>
+            <input matInput [formControl]="loginData.password" [type]="'password'" placeholder="" value="">
+        </mat-form-field>
+    </form>
+</div>

@@ -3,19 +3,19 @@
 <node CREATED="1563522454767" ID="ID_1812649479" MODIFIED="1570469809655" TEXT="angular">
 <hook NAME="accessories/plugins/RevisionPlugin.properties"/>
 <hook NAME="accessories/plugins/CreationModificationPlugin_new.properties"/>
-<node CREATED="1563522718142" ID="ID_1024043872" MODIFIED="1570831086818" POSITION="right" TEXT="&#xd604;&#xc7ac; &#xd29c;&#xd1a0;&#xb9ac;&#xc5bc;">
+<node CREATED="1563522718142" FOLDED="true" ID="ID_1024043872" MODIFIED="1571055012268" POSITION="right" TEXT="&#xd604;&#xc7ac; &#xd29c;&#xd1a0;&#xb9ac;&#xc5bc;">
 <node CREATED="1563522713920" ID="ID_792755994" LINK="https://www.tutorialspoint.com/angular7/angular7_project_setup.htm" MODIFIED="1563522716082" TEXT="https://www.tutorialspoint.com/angular7/angular7_project_setup.htm"/>
 </node>
 <node CREATED="1563522479507" ID="ID_1263144163" MODIFIED="1563522480750" POSITION="right" TEXT="npm install -g @angular/cli"/>
-<node COLOR="#3333ff" CREATED="1563522504544" ID="ID_331620290" MODIFIED="1570831088027" POSITION="right" STYLE="bubble" TEXT="nodeJS&#xb85c; &#xc2e4;&#xd589;">
+<node COLOR="#3333ff" CREATED="1563522504544" FOLDED="true" ID="ID_331620290" MODIFIED="1571055012269" POSITION="right" STYLE="bubble" TEXT="nodeJS&#xb85c; &#xc2e4;&#xd589;">
 <font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
 <node CREATED="1563522500194" ID="ID_137429030" MODIFIED="1563522517468" TEXT="ng serve"/>
 </node>
 <node CREATED="1563539766218" ID="ID_1186572759" MODIFIED="1563539774077" POSITION="right" TEXT="IE&#xc5d0;&#xc11c; template&#xb294; &#xba39;&#xd788;&#xc9c0; &#xc54a;&#xc73c;&#xb2c8; &#xc8fc;&#xc758;&#xd560; &#xac83;"/>
-<node CREATED="1563539774431" ID="ID_1207941584" MODIFIED="1570831089137" POSITION="right" TEXT="IE&#xc5d0;&#xc11c; angular &#xb744;&#xc6b0;&#xb294; &#xbc29;&#xbc95;">
+<node CREATED="1563539774431" ID="ID_1207941584" MODIFIED="1571077266548" POSITION="right" TEXT="IE&#xc5d0;&#xc11c; angular &#xb744;&#xc6b0;&#xb294; &#xbc29;&#xbc95;">
 <node CREATED="1563539796867" ID="ID_425692759" LINK="https://stackoverflow.com/questions/56379067/how-do-i-support-internet-explorer-in-an-angular-8-application" MODIFIED="1563539797870" TEXT="https://stackoverflow.com/questions/56379067/how-do-i-support-internet-explorer-in-an-angular-8-application"/>
 <node CREATED="1563539791370" ID="ID_1546286933" LINK="https://github.com/angular/angular-cli/issues/14455" MODIFIED="1563539791370" TEXT="https://github.com/angular/angular-cli/issues/14455"/>
-<node COLOR="#3333ff" CREATED="1563539846048" FOLDED="true" ID="ID_1106477685" MODIFIED="1563539875291" STYLE="bubble" TEXT="&#xc8fc;&#xc758;&#xd560;&#xac74; angular.json&#xc5d0;&#xc11c; es5&#xb97c; &#xc801;&#xc744; &#xb54c; &#xccab; &#xbb38;&#xc790;&#xac00; &#xd504;&#xb85c;&#xc81d;&#xd2b8; &#xc774;&#xb984;&#xc774;&#xb77c;&#xb294; &#xac83; ">
+<node COLOR="#3333ff" CREATED="1563539846048" ID="ID_1106477685" MODIFIED="1571077271263" STYLE="bubble" TEXT="&#xc8fc;&#xc758;&#xd560;&#xac74; angular.json&#xc5d0;&#xc11c; es5&#xb97c; &#xc801;&#xc744; &#xb54c; &#xccab; &#xbb38;&#xc790;&#xac00; &#xd504;&#xb85c;&#xc81d;&#xd2b8; &#xc774;&#xb984;&#xc774;&#xb77c;&#xb294; &#xac83; ">
 <font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
 <node CREATED="1563539869539" ID="ID_824996096" MODIFIED="1563539869539" TEXT="&quot;serve&quot;: {">
 <node CREATED="1563539869541" LINK="mailto:&quot;@angular-devkit/build-angular:dev-server&quot;," MODIFIED="1563539869541" TEXT="&quot;builder&quot;: &quot;@angular-devkit/build-angular:dev-server&quot;,"/>
@@ -45,7 +45,7 @@
 <node CREATED="1563539869581" MODIFIED="1563539869581" TEXT="},"/>
 </node>
 </node>
-<node CREATED="1563805243499" ID="ID_1491213453" MODIFIED="1570831090379" POSITION="right" TEXT="Understanding @Output and EventEmitter in Angular ">
+<node CREATED="1563805243499" FOLDED="true" ID="ID_1491213453" MODIFIED="1571055012273" POSITION="right" TEXT="Understanding @Output and EventEmitter in Angular ">
 <node CREATED="1563805247865" ID="ID_1901503569" LINK="https://dzone.com/articles/understanding-output-and-eventemitter-in-angular" MODIFIED="1563805247865" TEXT="https://dzone.com/articles/understanding-output-and-eventemitter-in-angular"/>
 </node>
 <node COLOR="#3333ff" CREATED="1563806818244" FOLDED="true" ID="ID_1883414726" MODIFIED="1570709661267" POSITION="right" STYLE="bubble" TEXT="Sharing Data between Components in Angular (Rxbehavior)">
@@ -78,7 +78,7 @@
 <node CREATED="1563894476943" FOLDED="true" ID="ID_543289386" MODIFIED="1570696160768" POSITION="right" TEXT="&#xac4d; &#xc774;&#xba54;&#xc77c;&#xc740; &#xadf8;&#xb0e5; &#xc774;&#xac70; &#xc368;&#xb77c;">
 <node CREATED="1563894578067" ID="ID_35178321" LINK="mailto:()\[\]\\.,;:\s@&quot;]+(\.[^" MODIFIED="1563895327656" TEXT="regexp = new RegExp( &#x9;&#xa;/^(([^&lt;&gt;()\[\]\\.,;:\s@&quot;]+(\.[^&lt;&gt;()\[\]\\.,;:\s@&quot;]+)*)|(&quot;.+&quot;))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;"/>
 </node>
-<node COLOR="#3333ff" CREATED="1563896414568" FOLDED="true" ID="ID_391363340" MODIFIED="1570696160769" POSITION="right" STYLE="bubble" TEXT="vscode &#xcf54;&#xb4dc; &#xc815;&#xb82c;">
+<node COLOR="#3333ff" CREATED="1563896414568" FOLDED="true" ID="ID_391363340" MODIFIED="1571077257274" POSITION="right" STYLE="bubble" TEXT="vscode &#xcf54;&#xb4dc; &#xc815;&#xb82c;">
 <font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
 <node COLOR="#3333ff" CREATED="1563896419795" ID="ID_1497481914" MODIFIED="1568448134398" STYLE="bubble" TEXT="ctrl +k, ctrl + f">
 <font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
@@ -491,7 +491,8 @@
 <node CREATED="1570478049991" LINK="https://google.github.io/material-design-icons/" MODIFIED="1570478049991" TEXT="https://google.github.io/material-design-icons/"/>
 </node>
 </node>
-<node CREATED="1570481463185" FOLDED="true" ID="ID_1592856275" MODIFIED="1570709661268" POSITION="right" TEXT="&#xd398;&#xc774;&#xc9c0; &#xb118;&#xae30;&#xae30;">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#ff3333" CREATED="1570481463185" FOLDED="true" ID="ID_1592856275" MODIFIED="1571077257281" POSITION="right" STYLE="bubble" TEXT="&#xd398;&#xc774;&#xc9c0; &#xb118;&#xae30;&#xae30;">
+<font BOLD="true" NAME="a&#xace0;&#xb515;15" SIZE="24"/>
 <node CREATED="1570481465245" ID="ID_779952897" MODIFIED="1570481465245" TEXT="routerLink"/>
 <node CREATED="1570481470585" ID="ID_311617540" MODIFIED="1570481472068" TEXT="&#xc608;&#xc2dc;">
 <node CREATED="1570481472518" MODIFIED="1570481472518" TEXT="&lt;h1&gt;Angular 7 Routing Demo&lt;/h1&gt;"/>
@@ -501,6 +502,86 @@
 </node>
 <node CREATED="1570481472521" MODIFIED="1570481472521" TEXT="&lt;/nav&gt;"/>
 <node CREATED="1570481472522" MODIFIED="1570481472522" TEXT="&lt;router-outlet&gt;&lt;/router-outlet&gt;"/>
+</node>
+<node COLOR="#3333ff" CREATED="1571065991422" FOLDED="true" ID="ID_1134816267" MODIFIED="1571066521474" STYLE="bubble" TEXT="How to get parameter on Angular2 route in Angular way?">
+<font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
+<node CREATED="1571065997834" ID="ID_72689011" LINK="https://stackoverflow.com/questions/40275862/how-to-get-parameter-on-angular2-route-in-angular-way" MODIFIED="1571065997834" TEXT="https://stackoverflow.com/questions/40275862/how-to-get-parameter-on-angular2-route-in-angular-way"/>
+<node CREATED="1571065998728" ID="ID_876332385" MODIFIED="1571066060534" TEXT="&#xcf54;&#xb4dc;">
+<node CREATED="1571066005910" MODIFIED="1571066005910" TEXT="this.route.paramMap.subscribe( paramMap =&gt;">
+<node CREATED="1571066005911" MODIFIED="1571066005911" TEXT="this.bankName = paramMap.get(&apos;bank&apos;);"/>
+</node>
+<node CREATED="1571066005912" MODIFIED="1571066005912" TEXT=")"/>
+</node>
+</node>
+<node CREATED="1571066544832" FOLDED="true" ID="ID_1098300839" MODIFIED="1571070345562" TEXT="&#xd30c;&#xb77c;&#xbbf8;&#xd130; &#xbcf4;&#xc774;&#xac8c; &#xd558;&#xae30;">
+<node CREATED="1571066729080" ID="ID_394385929" MODIFIED="1571066804916" TEXT="&#xb77c;&#xc6b0;&#xd130;&#xb85c; &#xd30c;&#xb77c;&#xbbf8;&#xd130;&#xb97c; &#xb118;&#xae38; &#xb54c; default&#xac12;&#xc73c;&#xb85c; url&#xc5d0; &#xc124;&#xc815;&#xb41c;&#xb2e4;."/>
+<node CREATED="1571067642496" FOLDED="true" ID="ID_1245734094" MODIFIED="1571067764305" TEXT="&#xcf54;&#xb4dc;">
+<node CREATED="1571067658273" ID="ID_1326116737" MODIFIED="1571067659413" TEXT="&#xb77c;&#xc6b0;&#xd130;">
+<node CREATED="1571067659645" ID="ID_1873350571" MODIFIED="1571067659645" TEXT="const routes: Routes = [">
+<node CREATED="1571067659646" MODIFIED="1571067659646" TEXT="{path:&quot;&quot;,component:HomeComponent},"/>
+<node CREATED="1571067659646" MODIFIED="1571067659646" TEXT="{path:&quot;home&quot;,component:HomeComponent},"/>
+<node CREATED="1571067659646" MODIFIED="1571067659646" TEXT="{path:&quot;member&quot;,children:[">
+<node CREATED="1571067659647" MODIFIED="1571067659647" TEXT="{path:&quot;join&quot;,component:JoinComponent},"/>
+<node CREATED="1571067659648" MODIFIED="1571067659648" TEXT="{path:&quot;join_success/:user_login_id&quot;,component:JoinSuccessComponent}"/>
+</node>
+<node CREATED="1571067659648" MODIFIED="1571067659648" TEXT="]}"/>
+</node>
+<node CREATED="1571067659649" MODIFIED="1571067659649" TEXT="];"/>
+</node>
+<node CREATED="1571067671704" ID="ID_1437759812" MODIFIED="1571067673365" TEXT="&#xbcf4;&#xb0b4;&#xae30;">
+<node CREATED="1571067673563" MODIFIED="1571067673563" TEXT="this.router.navigate([&apos;/member/join_success&apos;,">
+<node CREATED="1571067673564" MODIFIED="1571067673564" TEXT="memberInfo[&apos;user_login_id&apos;]"/>
+</node>
+<node CREATED="1571067673564" MODIFIED="1571067673564" TEXT="])"/>
+</node>
+</node>
+<node CREATED="1571067766816" FOLDED="true" ID="ID_259841125" MODIFIED="1571070267830" TEXT="queryString&#xc73c;&#xb85c; &#xbcf4;&#xb0b4;&#xb294; &#xbc95;">
+<node CREATED="1571067772873" LINK="https://alligator.io/angular/query-parameters/" MODIFIED="1571067772873" TEXT="https://alligator.io/angular/query-parameters/"/>
+</node>
+<node CREATED="1571067773840" ID="ID_1322117971" MODIFIED="1571067774517" TEXT="&#xcf54;&#xb4dc;">
+<node CREATED="1571070269014" ID="ID_1811388006" MODIFIED="1571070269014" TEXT="this.router.navigate([&apos;/member/join_success&apos;],">
+<node CREATED="1571070269015" MODIFIED="1571070269015" TEXT="{">
+<node CREATED="1571070269015" MODIFIED="1571070269015" TEXT="queryParams: {">
+<node CREATED="1571070269015" MODIFIED="1571070269015" TEXT="user_login_id: memberInfo[&apos;user_login_id&apos;]"/>
+</node>
+<node CREATED="1571070269016" MODIFIED="1571070269016" TEXT="}"/>
+</node>
+<node CREATED="1571070269016" MODIFIED="1571070269016" TEXT="})"/>
+</node>
+</node>
+<node CREATED="1571070272986" FOLDED="true" ID="ID_88192697" MODIFIED="1571070344642" TEXT="&#xacb0;&#xacfc;(&#xc774;&#xbbf8;&#xc9c0;)">
+<node CREATED="1571070340510" MODIFIED="1571070340510">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="angular_6914440363959402321.jpeg" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1571067629537" ID="ID_967832370" MODIFIED="1571067637733" TEXT="queryString get &#xd558;&#xb294; &#xbc29;&#xbc95;">
+<node CREATED="1571067638225" LINK="https://stackoverflow.com/questions/47455734/how-to-get-query-parameters-from-url-in-angular-5" MODIFIED="1571067638225" TEXT="https://stackoverflow.com/questions/47455734/how-to-get-query-parameters-from-url-in-angular-5"/>
+</node>
+</node>
+<node CREATED="1571066537744" FOLDED="true" ID="ID_1825484587" MODIFIED="1571070346434" TEXT="&#xd30c;&#xb77c;&#xbbf8;&#xd130; &#xc548;&#xbcf4;&#xc774;&#xac8c; &#xd558;&#xae30;">
+<node CREATED="1571066548925" ID="ID_171163113" LINK="https://github.com/angular/angular/issues/9798" MODIFIED="1571066548925" TEXT="https://github.com/angular/angular/issues/9798"/>
+<node CREATED="1571066549841" ID="ID_1996970142" MODIFIED="1571066563301" TEXT="skipLocationChange  :true &#xc774;&#xc6a9;"/>
+<node CREATED="1571066724832" ID="ID_1549420066" MODIFIED="1571066725621" TEXT="&#xcf54;&#xb4dc;">
+<node CREATED="1571066725851" MODIFIED="1571066725851" TEXT="this.router.navigate([&apos;/member/join_success&apos;,">
+<node CREATED="1571066725852" MODIFIED="1571066725852" TEXT="{">
+<node CREATED="1571066725853" MODIFIED="1571066725853" TEXT="user_login_id: memberInfo[&apos;user_login_id&apos;]"/>
+</node>
+<node CREATED="1571066725853" MODIFIED="1571066725853" TEXT="}"/>
+<node CREATED="1571066725854" MODIFIED="1571066725854" TEXT="],{">
+<node CREATED="1571066725854" MODIFIED="1571066725854" TEXT="skipLocationChange:true"/>
+</node>
+<node CREATED="1571066725854" MODIFIED="1571066725854" TEXT="})"/>
+</node>
+</node>
+<node CREATED="1571066768872" ID="ID_710859686" MODIFIED="1571066790356" TEXT="&#xc774; &#xbc29;&#xbc95;&#xc740; &#xd574;&#xb2f9; url&#xc774; &#xbcc0;&#xacbd;&#xb418;&#xc9c0; &#xc54a;&#xb294; &#xac83;&#xc73c;&#xb85c; &#xd310;&#xb2e8;&#xd574;&#xc57c; &#xd55c;&#xb2e4;."/>
 </node>
 </node>
 <node CREATED="1570484156136" FOLDED="true" ID="ID_1098382851" MODIFIED="1570709661268" POSITION="right" TEXT="flex">
@@ -646,7 +727,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1570728891653" ID="ID_1041003978" MODIFIED="1570841616467" POSITION="right" TEXT="Material Dialog">
+<node CREATED="1570728891653" FOLDED="true" ID="ID_1041003978" MODIFIED="1571055012281" POSITION="right" TEXT="Material Dialog">
 <node CREATED="1570729058059" ID="ID_1105461681" MODIFIED="1570729060320" TEXT="&#xbb38;&#xc81c;">
 <node CREATED="1570729074755" ID="ID_834457035" MODIFIED="1570729074755" TEXT="No component factory found for ConfirmComponent. Did you add it to @NgModule.entryComponents?"/>
 <node CREATED="1570729083244" ID="ID_842617751" MODIFIED="1570729218168" TEXT="matrial &#xb2e4;&#xc774;&#xc5bc;&#xb85c;&#xadf8;&#xb97c; &#xc0ac;&#xc6a9;&#xd560; &#xb54c; &#xc886;&#xb3c4; &#xc548;&#xb418;&#xba74;&#xc11c; &#xc800;&#xb7f0; &#xc624;&#xb958;&#xac00; &#xb72c;&#xb2e4;."/>
@@ -681,14 +762,14 @@
 </node>
 </node>
 </node>
-<node COLOR="#3333ff" CREATED="1570830467661" ID="ID_1793587929" MODIFIED="1570830476983" POSITION="right" STYLE="bubble" TEXT="angular DOM Events">
+<node COLOR="#3333ff" CREATED="1570830467661" FOLDED="true" ID="ID_1793587929" MODIFIED="1571055012281" POSITION="right" STYLE="bubble" TEXT="angular DOM Events">
 <font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
 <node CREATED="1570841522282" ID="ID_1002123114" MODIFIED="1570841525898" TEXT="(blur)"/>
 <node CREATED="1570841526150" ID="ID_676071708" MODIFIED="1570841528737" TEXT="(click)"/>
 </node>
-<node COLOR="#3333ff" CREATED="1570841694142" ID="ID_388035471" MODIFIED="1570841704592" POSITION="right" STYLE="bubble" TEXT="custom FormController Validator">
+<node COLOR="#3333ff" CREATED="1570841694142" FOLDED="true" ID="ID_388035471" MODIFIED="1571077257281" POSITION="right" STYLE="bubble" TEXT="custom FormController Validator">
 <font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
-<node CREATED="1570920285550" ID="ID_536989299" MODIFIED="1570920288634" TEXT="map&#xc5d0; &#xb300;&#xd574;&#xc11c;">
+<node CREATED="1570920285550" FOLDED="true" ID="ID_536989299" MODIFIED="1571070255426" TEXT="map&#xc5d0; &#xb300;&#xd574;&#xc11c;">
 <node CREATED="1570917181665" ID="ID_1861611693" MODIFIED="1570920292148" TEXT="map&#xc740; obersable &#xc744; &#xb9c8;&#xb294;&#xac83;&#xc774;&#xb2e4;.">
 <node CREATED="1570917180593" ID="ID_266568892" LINK="https://blog.angularindepth.com/reading-the-rxjs-6-sources-map-and-pipe-94d51fec71c2" MODIFIED="1570917180593" TEXT="https://blog.angularindepth.com/reading-the-rxjs-6-sources-map-and-pipe-94d51fec71c2"/>
 </node>
@@ -712,20 +793,19 @@
   <body>
     <img src="angular_6084521021462195978.jpeg" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
-<node CREATED="1570852883336" ID="ID_1805544125" MODIFIED="1570852886120" TEXT="html form &#xc0c1;&#xc2dd;">
+<node CREATED="1570852883336" FOLDED="true" ID="ID_1805544125" MODIFIED="1571070254338" TEXT="html form &#xc0c1;&#xc2dd;">
 <node CREATED="1570852886485" ID="ID_1109226762" LINK="http://blog.freezner.com/archives/807" MODIFIED="1570852886485" TEXT="blog.freezner.com &gt; Archives &gt; 807"/>
 <node CREATED="1570936803214" ID="ID_1227786870" MODIFIED="1570936814674" TEXT="&#xbc84;&#xd2bc; &#xd0c0;&#xc785;&#xc744; &#xba85;&#xd655;&#xd788; &#xc815;&#xc758;&#xd558;&#xb294;&#xac8c; &#xac00;&#xc7a5; &#xc88b;&#xb2e4;."/>
 </node>
-<node CREATED="1570853881658" ID="ID_1778241895" MODIFIED="1570853885414" TEXT="customValidator">
+<node CREATED="1570853881658" FOLDED="true" ID="ID_1778241895" MODIFIED="1571070252762" TEXT="customValidator">
 <node CREATED="1570853921591" ID="ID_1076172460" LINK="https://angular.io/guide/form-validation#custom-validators" MODIFIED="1570853921591" TEXT="https://angular.io/guide/form-validation#custom-validators"/>
 </node>
 <node CREATED="1570936816139" ID="ID_1395963731" MODIFIED="1570936849792" TEXT="customValidator&#xb97c; &#xc774;&#xc6a9;&#xd560; &#xc218;&#xb3c4; &#xc788;&#xc9c0;&#xb9cc;, &#xadf8;&#xb0e5; &#xd568;&#xc218;&#xb97c; &#xc774;&#xc6a9;&#xd558;&#xb294;&#xac8c; &#xb354; &#xc88b;&#xc744; &#xc218;&#xb3c4; &#xc788;&#xb2e4;."/>
-<node CREATED="1570936851157" FOLDED="true" ID="ID_1210699400" MODIFIED="1570947395449" TEXT="customValidator &#xc774;&#xc6a9;(&#xcf54;&#xb4dc;)">
+<node CREATED="1570936851157" FOLDED="true" ID="ID_1210699400" MODIFIED="1571070251090" TEXT="customValidator &#xc774;&#xc6a9;(&#xcf54;&#xb4dc;)">
 <node CREATED="1570936874410" MODIFIED="1570936874410" TEXT="@Injectable({">
 <node CREATED="1570936874413" MODIFIED="1570936874413" TEXT="providedIn: &apos;root&apos;"/>
 </node>
@@ -750,8 +830,8 @@
 <node CREATED="1570936874423" MODIFIED="1570936874423" TEXT="}"/>
 </node>
 </node>
-<node CREATED="1570944579652" FOLDED="true" ID="ID_1174015922" MODIFIED="1570947765100" TEXT="&#xc801;&#xc6a9;(&#xcf54;&#xb4dc;)">
-<node CREATED="1570944590019" ID="ID_263033947" MODIFIED="1570944590019" TEXT="loginData = {">
+<node CREATED="1570944579652" FOLDED="true" ID="ID_1174015922" MODIFIED="1571070249746" TEXT="&#xc801;&#xc6a9;(&#xcf54;&#xb4dc;)">
+<node CREATED="1570944590019" ID="ID_263033947" MODIFIED="1571070247609" TEXT="loginData = {">
 <node CREATED="1570944590020" ID="ID_1278488531" MODIFIED="1570944590020" TEXT="user_login_id: new FormControl(&quot;&quot;, {validators: Validators.compose([">
 <node CREATED="1570944590021" MODIFIED="1570944590021" TEXT="Validators.required,"/>
 <node CREATED="1570944590021" MODIFIED="1570944590021" TEXT="Validators.pattern(/^[a-zA-z0-9]{5,20}$/),"/>
@@ -764,30 +844,30 @@
 <node CREATED="1570944590027" MODIFIED="1570944590027" TEXT="}),"/>
 </node>
 </node>
-<node CREATED="1570947753880" ID="ID_1921192517" MODIFIED="1570947760748" TEXT="&#xadf8;&#xb0e5;&#xd568;&#xc218; (&#xcf54;&#xb4dc;)">
-<node CREATED="1570947766101" MODIFIED="1570947766101" TEXT="loginIdDuplicate(userId:FormControl){">
+<node CREATED="1570947753880" ID="ID_1921192517" MODIFIED="1571070232216" TEXT="&#xadf8;&#xb0e5;&#xd568;&#xc218; (&#xcf54;&#xb4dc;)">
+<node CREATED="1570947766101" ID="ID_1385863375" MODIFIED="1571071705824" TEXT="loginIdDuplicate(userId:FormControl){">
 <node CREATED="1570947766103" MODIFIED="1570947766103" TEXT="if(this.loginData.user_login_id.hasError(&quot;pattern&quot;)){">
 <node CREATED="1570947766104" MODIFIED="1570947766104" TEXT="return;"/>
 </node>
 <node CREATED="1570947766105" MODIFIED="1570947766105" TEXT="}"/>
 <node CREATED="1570947766106" MODIFIED="1570947766106" TEXT="this.memberService.loginIdDuplicate({&quot;user_login_id&quot;:userId.value})"/>
-<node CREATED="1570947766107" MODIFIED="1570947766107" TEXT=".subscribe((x)=&gt;{">
-<node CREATED="1570947766107" MODIFIED="1570947766107" TEXT="if(x[&quot;dup&quot;] == 1){">
-<node CREATED="1570947766109" MODIFIED="1570947766109" TEXT="let error = userId.errors;"/>
-<node CREATED="1570947766110" MODIFIED="1570947766110" TEXT="if(error == null){">
+<node CREATED="1570947766107" ID="ID_1157491348" MODIFIED="1570947766107" TEXT=".subscribe((x)=&gt;{">
+<node CREATED="1570947766107" ID="ID_367796643" MODIFIED="1570947766107" TEXT="if(x[&quot;dup&quot;] == 1){">
+<node CREATED="1570947766109" ID="ID_1112146894" MODIFIED="1570947766109" TEXT="let error = userId.errors;"/>
+<node CREATED="1570947766110" ID="ID_1742981387" MODIFIED="1570947766110" TEXT="if(error == null){">
 <node CREATED="1570947766110" MODIFIED="1570947766110" TEXT="error = {&apos;customVal&apos;:true};"/>
 </node>
-<node CREATED="1570947766111" MODIFIED="1570947766111" TEXT="}else{">
+<node CREATED="1570947766111" ID="ID_1823044148" MODIFIED="1570947766111" TEXT="}else{">
 <node CREATED="1570947766112" MODIFIED="1570947766112" TEXT="error[&apos;customVal&apos;] = true;"/>
 </node>
-<node CREATED="1570947766113" MODIFIED="1570947766113" TEXT="}"/>
-<node CREATED="1570947766114" MODIFIED="1570947766114" TEXT="userId.setErrors(error);"/>
+<node CREATED="1570947766113" ID="ID_1733641741" MODIFIED="1570947766113" TEXT="}"/>
+<node CREATED="1570947766114" ID="ID_963238996" MODIFIED="1570947766114" TEXT="userId.setErrors(error);"/>
 </node>
-<node CREATED="1570947766115" MODIFIED="1570947766115" TEXT="}else{">
-<node CREATED="1570947766116" MODIFIED="1570947766116" TEXT="if(userId.errors == null){">
-<node CREATED="1570947766117" MODIFIED="1570947766117" TEXT="return;"/>
+<node CREATED="1570947766115" ID="ID_1130500487" MODIFIED="1570947766115" TEXT="}else{">
+<node CREATED="1570947766116" ID="ID_629524548" MODIFIED="1570947766116" TEXT="if(userId.errors == null){">
+<node CREATED="1570947766117" ID="ID_1842850460" MODIFIED="1570947766117" TEXT="return;"/>
 </node>
-<node CREATED="1570947766117" MODIFIED="1570947766117" TEXT="}"/>
+<node CREATED="1570947766117" ID="ID_1940405479" MODIFIED="1570947766117" TEXT="}"/>
 <node CREATED="1570947766118" MODIFIED="1570947766118" TEXT="delete userId.errors[&apos;customVal&apos;];"/>
 </node>
 <node CREATED="1570947766120" MODIFIED="1570947766120" TEXT="}"/>
@@ -796,8 +876,25 @@
 <node CREATED="1570947766121" MODIFIED="1570947766121" TEXT="}"/>
 </node>
 </node>
-<node CREATED="1570947769623" FOLDED="true" ID="ID_1063021933" MODIFIED="1570947881052" TEXT="&#xc801;&#xc6a9;(html&#xc5d0;&#xc11c; &#xadf8;&#xb0e5; blur &#xc774;&#xbca4;&#xd2b8; &#xc90c; &#xcf54;&#xb4dc;)">
-<node CREATED="1570947867267" MODIFIED="1570947867267" TEXT="&lt;input (blur) = &quot;loginIdDuplicate(loginData.user_login_id)&quot; matInput [formControl]=&quot;loginData.user_login_id&quot; placeholder=&quot;&#xc544;&#xc774;&#xb514;&quot; value=&quot;&quot;&gt;"/>
+<node CREATED="1570947769623" ID="ID_1063021933" MODIFIED="1571071695701" TEXT="&#xc801;&#xc6a9;(html&#xc5d0;&#xc11c; &#xadf8;&#xb0e5; blur &#xc774;&#xbca4;&#xd2b8; &#xc90c; &#xcf54;&#xb4dc;)">
+<node CREATED="1570947867267" ID="ID_633417385" MODIFIED="1570947867267" TEXT="&lt;input (blur) = &quot;loginIdDuplicate(loginData.user_login_id)&quot; matInput [formControl]=&quot;loginData.user_login_id&quot; placeholder=&quot;&#xc544;&#xc774;&#xb514;&quot; value=&quot;&quot;&gt;"/>
+</node>
+</node>
+<node COLOR="#3333ff" CREATED="1571055030913" FOLDED="true" ID="ID_1622315856" MODIFIED="1571077257282" POSITION="right" STYLE="bubble" TEXT="http client response &#xbc1b;&#xae30;">
+<font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
+<node COLOR="#3333ff" CREATED="1571055042638" ID="ID_306864185" MODIFIED="1571055047944" STYLE="bubble" TEXT="observe:response">
+<font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
+</node>
+<node CREATED="1571055124126" ID="ID_360768576" MODIFIED="1571058043511" TEXT="ex(&#xcf54;&#xb4dc;)">
+<node CREATED="1571055126964" ID="ID_1220528273" MODIFIED="1571055126964" TEXT="this._http.get(&quot;SomeUrl&quot;, {observe:&quot;response&quot;});"/>
+</node>
+<node CREATED="1571065965144" ID="ID_250548892" LINK="https://stackoverflow.com/questions/40275862/how-to-get-parameter-on-angular2-route-in-angular-way" MODIFIED="1571065965144" TEXT="https://stackoverflow.com/questions/40275862/how-to-get-parameter-on-angular2-route-in-angular-way"/>
+</node>
+<node BACKGROUND_COLOR="#ffffff" COLOR="#ff3333" CREATED="1571072094020" FOLDED="true" ID="ID_1659072331" MODIFIED="1571077257282" POSITION="right" STYLE="bubble" TEXT="change vs ngModelChange">
+<font BOLD="true" NAME="a&#xace0;&#xb515;15" SIZE="24"/>
+<node CREATED="1571072107759" ID="ID_1658087419" LINK="https://stackoverflow.com/questions/44840735/change-vs-ngmodelchange-in-angular" MODIFIED="1571072111683" TEXT="https://stackoverflow.com/questions/44840735/change-vs-ngmodelchange-in-angular"/>
+<node CREATED="1571072112970" ID="ID_1210777488" MODIFIED="1571072114351" TEXT="&#xacb0;&#xb860;">
+<node CREATED="1571072122962" ID="ID_1780711004" MODIFIED="1571072128191" TEXT="ngModelChange &#xb97c; &#xc368;&#xb77c;"/>
 </node>
 </node>
 </node>

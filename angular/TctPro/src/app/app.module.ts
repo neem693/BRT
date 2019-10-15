@@ -15,6 +15,9 @@ import { MemberServiceService } from './member/member-service.service';
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { CookieService } from 'ngx-cookie-service'
 import { AuthInterceptor } from './HttpInterceptor/AuthInterceptor';
+import { JoinSuccessComponent } from './member/join-success/join-success.component';
+import { AddWorksComponent } from './works/add-works/add-works.component';
+import { LoginComponent } from './member/login/login.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +27,9 @@ import { AuthInterceptor } from './HttpInterceptor/AuthInterceptor';
     HomeComponent,
     JoinComponent,
     JoinFailComponent,
+    JoinSuccessComponent,
+    AddWorksComponent,
+    LoginComponent,
   ],
   imports: [
     BrowserModule,

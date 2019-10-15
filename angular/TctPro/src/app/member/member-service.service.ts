@@ -15,7 +15,7 @@ export class MemberServiceService {
   }
 
   JoinMember_common(param:any):Observable<any>{
-   return this.http.post(environment.baseApiUrl + "/member_public/joinMember_common",param);
+   return this.http.post(environment.baseApiUrl + "/member_public/joinMember_common",param,{observe:'response'});
   }
 
   loginIdDuplicate(param:any):Observable<any>{
@@ -24,6 +24,10 @@ export class MemberServiceService {
 
   emailDuplicate(param:any):Observable<any>{
     return this.http.post(environment.baseApiUrl + "/member_public/emailDuplicate",param);
+  }
+
+  nicknameCheck(param:any):Observable<any>{
+    return this.http.post(environment.baseApiUrl + "/member_public/nicknameCheck",param);
   }
 
  

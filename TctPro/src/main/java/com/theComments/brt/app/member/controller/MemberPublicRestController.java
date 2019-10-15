@@ -37,7 +37,6 @@ public class MemberPublicRestController {
 	
 
 	@RequestMapping(value="/joinMember_common",method=RequestMethod.POST)
-	@Transactional("userTransactionManager")
 	public void saveMember(@RequestBody Eva_user user) {
 		
 		System.out.println(user);
@@ -48,17 +47,35 @@ public class MemberPublicRestController {
 	}
 	
 	@RequestMapping(value="/loginIdDuplicate",method=RequestMethod.POST)
-	@Transactional("userTransactionManager")
 	public Map<String,Object> loginIdDuplicate(@RequestBody Eva_user user) {
 		
 		int result = memberCommonService.loginIdDuplicate(user);
 		
 		Map<String,Object> map = new HashMap<String,Object>();
-		
 		map.put("dup", result);
-		
 		return map;
-//		user.setPassword(password);
+
+	}
+	
+	@RequestMapping(value="/emailDuplicate",method=RequestMethod.POST)
+	public Map<String,Object> emailDuplicate(@RequestBody Eva_user user) {
+		
+		int result = memberCommonService.emailDuplicate(user);
+		
+		Map<String,Object> map = new HashMap<String,Object>();
+		map.put("dup", result);
+		return map;
+
+	}
+	
+	@RequestMapping(value="/nicknameCheck",method=RequestMethod.POST)
+	public Map<String,Object> nicknameCheck(@RequestBody Eva_user user) {
+		
+		int result = memberCommonService.nicknameCheck(user);
+		
+		Map<String,Object> map = new HashMap<String,Object>();
+		map.put("dup", result);
+		return map;
 		
 	}
 	

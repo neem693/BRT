@@ -17,5 +17,7 @@ public interface Eva_user_dao extends JpaRepository<Eva_user,Long>{
 	
 	List<Eva_user> findByEmail(String email);
 	
+	List<Eva_user> findByNickname(String nickname);
+	
 
 }
