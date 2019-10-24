@@ -4,16 +4,22 @@ import { HomeComponent } from './home/home.component';
 import { JoinComponent } from './member/join/join.component';
 import { JoinSuccessComponent } from './member/join-success/join-success.component';
 import { LoginComponent } from './member/login/login.component';
+import { AddWorksComponent } from './works/add-works/add-works.component';
 
 
 const routes: Routes = [
-  {path:"",component:HomeComponent},
+
   {path:"home",component:HomeComponent},
   {path:"member",children:[
     {path:"join",component:JoinComponent},
-    {path:"join_success/:id",component:JoinSuccessComponent}
+    {path:"join_success/:id",component:JoinSuccessComponent},
     {path:"login",component:LoginComponent}
-  ]}
+  ]},
+  {path:"works",children:[
+    {path:"addWork",component:AddWorksComponent}
+  ]},
+  {path:"**",redirectTo:"home"},
+  {path:"",component:HomeComponent},
 ];
 
 @NgModule({

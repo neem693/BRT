@@ -1,6 +1,9 @@
 package com.theComments.brt.jpa.theComment.model;
 
+import java.time.LocalDateTime;
 import java.util.List;
+
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -33,6 +36,12 @@ public class Works {
 	
 	@OneToMany(mappedBy="works")
 	List<FileSave> fileSave;
+	
+	int is_series;
+	
+	@Column(nullable=false)
+	LocalDateTime create_date;
+	LocalDateTime create_end_date2;
 
 	public Long getWork_id() {
 		return work_id;
@@ -88,6 +97,30 @@ public class Works {
 
 	public void setFileSave(List<FileSave> fileSave) {
 		this.fileSave = fileSave;
+	}
+
+	public int getIs_series() {
+		return is_series;
+	}
+
+	public void setIs_series(int is_series) {
+		this.is_series = is_series;
+	}
+
+	public LocalDateTime getCreate_date() {
+		return create_date;
+	}
+
+	public void setCreate_date(LocalDateTime create_date) {
+		this.create_date = create_date;
+	}
+
+	public LocalDateTime getCreate_end_date2() {
+		return create_end_date2;
+	}
+
+	public void setCreate_end_date2(LocalDateTime create_end_date2) {
+		this.create_end_date2 = create_end_date2;
 	}
 
 	

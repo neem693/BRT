@@ -3,6 +3,7 @@ import { HttpInterceptor, HttpRequest, HttpHandler, HttpEvent } from "@angular/c
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { CookieService } from 'ngx-cookie-service';
+import { member_const } from '../member/member_const/member_cosnt';
 
 @Injectable()
 export class AuthInterceptor implements HttpInterceptor{
@@ -12,15 +13,15 @@ export class AuthInterceptor implements HttpInterceptor{
     intercept(req:HttpRequest<any>, next: HttpHandler): Observable<HttpEvent<any>> {
     
         let headerSet:any = {};
-        let token:any = this.cookieService.get("tct_accessToken");
+        let token:any = localStorage.getItem(member_const.token_key);
         let csrf_token:any = this.cookieService.get("XSRF-TOKEN");
 
         if(csrf_token != ""){
             headerSet["X-XSRF-TOKEN"] = csrf_token;
         }
 
-        if(token != ""){
-            headerSet["Authorization"] = token;
+        if(token != null){
+            headerSet["Authorization"] = "bearer " +  token;
         }
 
 

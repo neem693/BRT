@@ -1,0 +1,79 @@
+<h1 mat-dialog-title>아티스트 찾기(Search Artist)</h1>
+<div mat-dialog-content>
+    <div id="artist_search_list" class="artist_search_list">
+        <h1>아티스트 선택</h1>
+        <mat-form-field>
+            <input matInput placeholder="저작자 검색">
+        </mat-form-field>
+        <button mat-raised-button color="accent">검색</button>
+        <mat-accordion>
+            <mat-expansion-panel [expanded]="artist.step.list == i" (opened)="setStepList($event,i)"
+                *ngFor="let item of works_list; let i = index">
+                <mat-expansion-panel-header>
+                    <mat-panel-title>
+                        <span id="w_{{i}}"></span>
+                        <mat-checkbox [(ngModel)]="artist.checkBox.list[i]" color="primary"
+                            (change)="checkAddArtist($event,i)" (click)="removeEventEffectAnymore($event)">
+                        </mat-checkbox>
+                    </mat-panel-title>
+                    <mat-panel-description>
+                        {{item.name}}
+                    </mat-panel-description>
+                </mat-expansion-panel-header>
+                <!-- <span id = "w_{{i}}"></span> -->
+                <mat-form-field>
+                    <input matInput placeholder="First name">
+                </mat-form-field>
+
+                <mat-form-field>
+                    <input matInput placeholder="Age">
+                </mat-form-field>
+                <mat-action-row>
+                    <button *ngIf="artist.checkBox.list[i] == undefined || artist.checkBox.list[i] == false" mat-button
+                        (click)="addArtist(i)">저작자로 추가</button>
+                    <button *ngIf="artist.checkBox.list[i] == true" mat-button (click)="removeArtist(i)">제거</button>
+                </mat-action-row>
+            </mat-expansion-panel>
+        </mat-accordion>
+        <!-- <ngb-pagination 
+        [collectionSize]="works_list.length"  
+        [pageSize]="works_list_pro.pageSize" 
+        [(page)]="works_list_pro.page" 
+        aria-label="Default pagination"
+        (pageChange)= "works_list_pro.pageChange()"></ngb-pagination> -->
+    </div>
+    <hr class="artist_dialog_hr">
+    <div class="artist_selected_list">
+        <h1>선택된 아티스트</h1>
+        <mat-accordion>
+            <mat-expansion-panel [expanded]="artist.step.sel_list == i" (opened)="setStepSelList(i)"
+                *ngFor="let item of art_create_list; let i = index">
+                <mat-expansion-panel-header>
+                    <mat-panel-title>
+                        <button mat-button (click)="removeSelArtist(i)">제거</button>
+                    </mat-panel-title>
+                    <mat-panel-description>
+                        {{item.name}}
+                    </mat-panel-description>
+                </mat-expansion-panel-header>
+                <span id="s_{{i}}"></span>
+                <mat-form-field>
+                    <input matInput placeholder="First name">
+                </mat-form-field>
+
+                <mat-form-field>
+                    <input matInput placeholder="Age">
+                </mat-form-field>
+                <mat-action-row>
+                    <button mat-button (click)="removeSelArtist(i)">제거</button>
+                </mat-action-row>
+            </mat-expansion-panel>
+        </mat-accordion>
+    </div>
+</div>
+<div mat-dialog-actions>
+    <button mat-raised-button color="primary" (click)="confirm()">확인</button>
+    <button mat-button (click)="close()">취소</button>
+    <div class = "work_create_date_div"></div>
+    <!-- <button mat-button [mat-dialog-close]="data.animal" cdkFocusInitial>Ok</button> -->
+</div>

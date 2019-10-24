@@ -3,6 +3,7 @@ package com.theComments.brt.app.member.service;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -14,10 +15,16 @@ public class MemberCommonService {
 
 	@Autowired
 	Eva_user_dao userDao;
+	
+	@Autowired
+	PasswordEncoder encoder;
 
 	@Transactional("userTransactionManager")
 	public int userCommonJoin(Eva_user user) {
 
+		String encodedPwd = encoder.encode(user.getPassword());
+		user.setPassword(encodedPwd);
+		
 		userDao.save(user);
 		return 200;
 

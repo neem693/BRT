@@ -6,3 +6,13 @@ logging:
     root: debug
     
 
+spring:
+  flyway:
+    url: jdbc:mysql://127.0.0.1:3306/tct
+    user: "root"
+    password: "oratree12341234aa"
+    baseline-on-migrate: true
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size: 5MB

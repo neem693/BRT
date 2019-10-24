@@ -1,6 +1,8 @@
 package com.theComments.brt.config;
 
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
 import javax.sql.DataSource;
 
@@ -17,11 +19,16 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.oauth2.config.annotation.configurers.ClientDetailsServiceConfigurer;
 import org.springframework.security.oauth2.config.annotation.web.configuration.AuthorizationServerConfigurerAdapter;
 import org.springframework.security.oauth2.config.annotation.web.configuration.EnableAuthorizationServer;
+import org.springframework.security.oauth2.config.annotation.web.configuration.EnableResourceServer;
 import org.springframework.security.oauth2.config.annotation.web.configurers.AuthorizationServerEndpointsConfigurer;
 import org.springframework.security.oauth2.config.annotation.web.configurers.AuthorizationServerSecurityConfigurer;
+import org.springframework.security.oauth2.provider.token.TokenEnhancer;
+import org.springframework.security.oauth2.provider.token.TokenEnhancerChain;
 import org.springframework.security.oauth2.provider.token.TokenStore;
 import org.springframework.security.oauth2.provider.token.store.JdbcTokenStore;
 import org.springframework.security.oauth2.provider.token.store.JwtAccessTokenConverter;
+
+import com.theComments.brt.auth.CustomTokenEnhancer;
 
 @Configuration
 @EnableAuthorizationServer
@@ -64,12 +71,18 @@ public class Oauth2Config extends AuthorizationServerConfigurerAdapter {
 		return converter;
 
 	}
+	@Bean
+	public TokenEnhancer getCustomTokenEnhancer() {
+		return new CustomTokenEnhancer();
+	}
 
 	@Override
 	public void configure(AuthorizationServerSecurityConfigurer security) throws Exception {
 		// TODO Auto-generated method stub
 		// super.configure(security);
-		security.tokenKeyAccess("permitAll()").checkTokenAccess("isAuthenticated()");
+		security
+		.tokenKeyAccess("permitAll()")
+		.checkTokenAccess("isAuthenticated()");
 	}
 
 	@Override
@@ -98,10 +111,18 @@ public class Oauth2Config extends AuthorizationServerConfigurerAdapter {
 		// TODO Auto-generated method stub
 //		super.configure(endpoints);
 		
+		TokenEnhancerChain chain = new TokenEnhancerChain();
+		List<TokenEnhancer> tokenList = new ArrayList<TokenEnhancer>();
+		
+		tokenList.add(getCustomTokenEnhancer());
+		tokenList.add(tokenEnhancerJwt());
+		
+		chain.setTokenEnhancers(tokenList);
+		
 		endpoints
 		.authenticationManager(authenticationManager)
 		.tokenStore(jdbcTokenStore())
-		.tokenEnhancer(tokenEnhancerJwt());
+		.tokenEnhancer(chain);
 	}
 
 }

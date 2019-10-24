@@ -25,3 +25,35 @@ button:focus{
 .hr_01.active{
     width: 70%;
 }
+
+.root_main{
+    
+    min-height: 1100px;
+    margin:0 auto;
+    width: 70%;
+    /* border:1px solid black; */
+}
+
+/* angular material 체크박스 */
+.mat-checkbox-inner-container{
+    height:20px !important;
+    width:20px !important;
+}
+
+.work_input.isEndDate .mat-checkbox-inner-container{
+    height:35px !important;
+    width:35px !important;
+}
+
+
+
+@media screen and (max-width: 1060px) {
+   
+.root_main{
+    
+    min-height: 500px;
+    margin:0 auto;
+    width: 98%;
+    /* border:1px solid black; */
+}
+}

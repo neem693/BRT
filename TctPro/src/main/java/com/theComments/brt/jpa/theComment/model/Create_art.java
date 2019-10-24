@@ -27,9 +27,7 @@ public class Create_art{
 	@JoinColumn(name="work_id")
 	Works works;
 	
-	@Column(nullable=false)
-	LocalDateTime create_date;
-	LocalDateTime create_end_date2;
+
 	
 	
 	public Long getCreate_id() {
@@ -49,18 +47,6 @@ public class Create_art{
 	}
 	public void setWorks(Works works) {
 		this.works = works;
-	}
-	public LocalDateTime getCreate_date() {
-		return create_date;
-	}
-	public void setCreate_date(LocalDateTime create_date) {
-		this.create_date = create_date;
-	}
-	public LocalDateTime getCreate_end_date2() {
-		return create_end_date2;
-	}
-	public void setCreate_end_date2(LocalDateTime create_end_date2) {
-		this.create_end_date2 = create_end_date2;
 	}
 	
 	

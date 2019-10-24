@@ -8,6 +8,8 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 @Entity
 public class Type1 {
 	
@@ -16,6 +18,7 @@ public class Type1 {
 	Long type1_id;
 	
 	String type1_name;
+	
 	
 	@OneToMany(mappedBy="type1")
 	List<Type2> type2;

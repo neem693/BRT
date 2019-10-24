@@ -10,8 +10,16 @@
             <li class="nav-item active">
                 <a class="nav-link" routerLink="/home">홈 <span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">코멘트 등록</a>
+            <li class="nav-item active">
+                    <a class="nav-link" routerLink="/home">코멘트 등록</a>
+                </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle"  role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false" href="#">등록</a>
+                <div class="dropdown-menu " role="button" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" routerLink = "works/addWork">저작물 등록</a>
+                        <a class="dropdown-item" href="#">아티스트 등록</a>
+                    </div>
             </li>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
@@ -38,9 +46,17 @@
 
             </li>
         </ul>
-        <button routerLink="member/join" mat-button style="font-size: 38px" class="material-icons">
+        <button *ngIf="loginstate == false" routerLink="member/login" mat-button class="material-icons">
             person
         </button>
+        <button *ngIf="loginstate == true" mat-button [matMenuTriggerFor]="myMenu" class="material-icons">
+            verified_user
+        </button>
+        <mat-menu class = "mymenu_01" #myMenu="matMenu">
+            <button  mat-menu-item>마이페이지</button>
+            <button  (click) = "logout()" mat-menu-item>로그아웃</button>
+        </mat-menu>
+
 
     </div>
 </nav>

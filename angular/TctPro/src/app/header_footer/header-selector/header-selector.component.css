@@ -1,0 +1,14 @@
+.material-icons{
+    font-size: 38px;
+}
+
+
+
+@media screen and (max-width: 1060px) {
+    .mymenu_01{
+        
+        width:100%;
+        max-width: 100%;
+    
+    }
+}

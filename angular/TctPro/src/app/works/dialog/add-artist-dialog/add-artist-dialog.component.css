@@ -1,0 +1,37 @@
+.artist_search_list,.artist_selected_list{
+    width: 50%;
+    display: inline-block;
+    height: 500px;
+    overflow: auto;
+}
+
+.artist_selected_list{
+    float: right;
+}
+
+.artist_selected_list .mat-expansion-panel{
+    background-color: rgb(218, 223, 222);
+}
+
+.artist_dialog_hr{
+    display: none;
+}
+
+@media screen and (max-width: 1060px) {
+    h1{
+        font-size: large;
+    }
+    
+    .artist_search_list,.artist_selected_list{
+        width:100%;
+        display: block;
+        height: 300px;
+    }
+    .artist_selected_list{
+        float: none;
+    }
+    .artist_dialog_hr{
+        display: block;
+    }
+    
+}

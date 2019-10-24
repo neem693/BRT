@@ -1,1 +1,105 @@
-<p>add-works works!</p>
+<hr class="hr_01">
+<h1 class="subject">저작물 등록</h1>
+<hr class="hr_01">
+
+<form class="addwork_div">
+    <div class="addwork_sub">
+        <mat-icon class="work_icon">subject</mat-icon>
+        <mat-form-field class="work_input" appearance="fill">
+            <mat-label>저작물 제목</mat-label>
+            <input [formControl]= "work.subject" matInput placeholder="제목">
+            <mat-hint>저작물 제목</mat-hint>
+            <mat-error *ngIf = "work.subject.hasError('required')">제목은 반드시 입력해야합니다.</mat-error>
+        </mat-form-field>
+    </div>
+    <div class="addwork_sub">
+        <mat-icon class="work_icon">linear_scale</mat-icon>
+        <mat-form-field appearance="fill" class="work_type_select">
+            <mat-label>저작물 대분류</mat-label>
+            <mat-select (ngModelChange) = "type1Select(work.type1.value)" [formControl]="work.type1" required>
+                <mat-option>--</mat-option>
+                <mat-option *ngFor="let type1 of typeList.data; let i = index;" [value]="type1.type1_id">
+                    {{type1.type1_name}}
+                </mat-option>
+            </mat-select>
+            <mat-error *ngIf="work.type1.hasError('required')">대분류 선택 필요</mat-error>
+            <mat-hint>저작물 대분류</mat-hint>
+        </mat-form-field>
+        <mat-form-field appearance="fill" class="work_type_select type2_select">
+            <mat-label>소분류</mat-label>
+            <mat-select [formControl]="work.type2" required>
+                <mat-option>--</mat-option>
+                <mat-option *ngFor="let type2 of typeList.type2" [value]="type2.type2_id">
+                        {{type2.type2_name}}
+                    </mat-option>
+            </mat-select>
+            <mat-error *ngIf="work.type2.hasError('required')">소분류 선택 필요</mat-error>
+            <mat-hint>저작물 소분류</mat-hint>
+        </mat-form-field>
+    </div>
+    <div id="imgWork" class="addwork_sub imgDefaultHeight">
+        <mat-icon class="work_icon">collections</mat-icon>
+        <div class="custom-file work_input">
+            <input id="fileUpload1" class="custom-file-input" type="file" (change)="fileUpload($event.target.files)"
+                multiple>
+            <button type="button" class="work_input work_imageUpload_button" mat-raised-button color="accent"
+                onclick="document.getElementById('fileUpload1').click();">저작물 이미지 업로드</button>
+            <div>
+                <mat-card class="add_work_img_item" *ngFor="let item of work.fileList; let i = index">
+                    <span class="one_line_span">{{item.file.name}}</span>
+                    <img src="{{item.tempData}}">
+                    <mat-icon (click)="deleteWorkImg(i)" class="delete">delete</mat-icon>
+                </mat-card>
+            </div>
+        </div>
+    </div>
+    <div class="addwork_sub">
+        <mat-icon class="work_icon">date_range</mat-icon>
+        <div class="work_create_date_div">
+            <mat-form-field  class="work_input date_input" appearance="fill">
+                <mat-label>창작 날짜</mat-label>
+                <input (ngModelChange) = "check_work_date()" [formControl]= "work.create_date" matInput (click)="create_date.open()" [matDatepicker]="create_date" placeholder="창작 날짜">
+                <mat-datepicker-toggle matSuffix [for]="create_date"></mat-datepicker-toggle>
+                <mat-datepicker  #create_date></mat-datepicker>
+                <mat-hint>창작 날짜</mat-hint>
+                <mat-error *ngIf="work.create_date.hasError('required')">창작 날짜는 필수값입니다.</mat-error>
+            </mat-form-field>
+            <mat-checkbox color="primary" class ="work_input isEndDate" [(ngModel)]="work.is_series" [ngModelOptions]="{standalone: true}">시리즈나<br>장편일 경우 체크</mat-checkbox>
+            <mat-form-field *ngIf="work.is_series == true" class="work_input date_input end_date" appearance="fill">
+                <mat-label>완결 날짜</mat-label>
+                <input (ngModelChange) = "check_work_date()" [formControl]= "work.create_end_date" matInput (click)="create_end_date.open()" [matDatepicker]="create_end_date" placeholder="창작 날짜">
+                <mat-datepicker-toggle matSuffix [for]="create_end_date"></mat-datepicker-toggle>
+                <mat-datepicker #create_end_date></mat-datepicker>
+                <mat-hint>완결 날짜<br>
+                현재 완결나지 않았다면 비워두시기 바랍니다.</mat-hint>
+                <mat-error *ngIf="work.create_end_date.hasError('biggerThan_create')">창작 날짜 보다 빠릅니다.</mat-error>
+            </mat-form-field>
+        </div>
+
+    </div>
+    <div class="addwork_sub">
+        <mat-icon class="work_icon">create</mat-icon>
+        <div class="artist_div">
+            <mat-form-field *ngIf="work.artistList.length == 0" class="work_input artist_input" appearance="fill">
+                <mat-label>정해지지 않음</mat-label>
+                <input (click)="searchArtist()" readonly matInput placeholder="아티스트">
+                <mat-hint>저작자 이름<br>만약 해당 저작자가 없을 경우<br>저작물을 등록후 저작자 등록 페이지로 가서 <br>새로운 저작자를 등록해주시기 바랍니다.</mat-hint>
+            </mat-form-field>
+            <mat-form-field *ngFor="let item of work.artistList" class="work_input artist_input" appearance="fill">
+                <mat-label>{{item.name}}</mat-label>
+                <input (click)="searchArtist()" readonly matInput placeholder="아티스트">
+                <mat-hint>저작자 이름</mat-hint>
+            </mat-form-field>
+            <button type="button" (click)="searchArtist()" class="work_input artist_search_button" mat-raised-button color="accent">
+                찾기</button>
+        </div>
+
+    </div>
+    
+    <div class="clear"></div>
+    <div class = "works_save"><button (click) = "worksSave()" type="submit" mat-raised-button color="primary" >저작물 저장</button></div>
+    
+   
+
+
+</form>
