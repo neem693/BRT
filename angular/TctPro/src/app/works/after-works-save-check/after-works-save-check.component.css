@@ -1,0 +1,82 @@
+.after_works_save {
+    position: relative;
+    padding: 100px 0;
+    margin: 200px auto 300px auto;
+    width: 50%;
+    border: 3px dotted rgb(184, 184, 184);
+    text-align: center;
+}
+
+.regist_block button {
+    position: static;
+    display: block;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.before_works_mark {
+    position: absolute;
+    top: -25px;
+    left: 45%;
+    margin: 0 auto;
+}
+
+.regist_block {
+    position: relative;
+    font-size: xx-large;
+    margin: 10px 0;
+}
+.regist_block .regist_icon{
+    float:left;
+    margin-left:5%;
+}
+
+.regist_icon.mat-icon {
+    font-size: xx-large;
+    color: rgb(255, 255, 255);
+    padding: 12px;
+    width: inherit;
+    height: inherit;
+    text-align: center;
+    border-radius: 100%;
+    background-color: gainsboro;
+}
+
+.regist_icon.active {
+    background-color: blue;
+}
+
+.regist_block span {
+    color: rgb(161, 159, 159);
+}
+
+.regist_block span.active {
+    color: blue;
+}
+
+@media screen and (max-width: 1060px) {
+    .after_works_save {
+        width: 100%;
+    }
+    .regist_icon.mat-icon {
+        padding: 12px;
+        display: block;
+        width: 58px;
+        margin: 0 auto;
+       
+    }
+    .regist_block {
+        font-size: x-large;
+    }
+    .regist_block button {
+        position: static;
+        display: block;
+        padding: 10px;
+        margin: 0 auto;
+        /* top:10px; */
+    }
+    .regist_block .regist_icon{
+        float: none;
+        margin-left: auto;
+    }
+}

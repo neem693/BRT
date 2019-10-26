@@ -23,7 +23,9 @@ import { LoginComponent } from './member/login/login.component';
 import { LoginFailComponent } from './member/dialog/login-fail/login-fail.component';
 import { AddArtistDialogComponent } from './works/dialog/add-artist-dialog/add-artist-dialog.component';
 import { WorksSerivceService } from './works/works-serivce.service';
-import {NgbPaginationModule} from '@ng-bootstrap/ng-bootstrap'
+import {NgbPaginationModule} from '@ng-bootstrap/ng-bootstrap';
+import { AfterWorksSaveCheckComponent } from './works/after-works-save-check/after-works-save-check.component';
+import { ArtistAddComponent } from './artist/artist-add/artist-add.component';
 
 @NgModule({
   declarations: [
@@ -38,6 +40,8 @@ import {NgbPaginationModule} from '@ng-bootstrap/ng-bootstrap'
     LoginComponent,
     LoginFailComponent,
     AddArtistDialogComponent,
+    AfterWorksSaveCheckComponent,
+    ArtistAddComponent,
 
     
   ],

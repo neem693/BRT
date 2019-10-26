@@ -2,12 +2,14 @@ package com.theComments.brt.app.works.service;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
 
 import javax.servlet.http.HttpServletRequest;
 
+import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -17,6 +19,7 @@ import com.theComments.brt.app.common.CommonSecure;
 import com.theComments.brt.app.common.FileManager;
 import com.theComments.brt.constFile.FileConst;
 import com.theComments.brt.jpa.dto.SimpleUserDto;
+import com.theComments.brt.jpa.dto.WorksDto;
 import com.theComments.brt.jpa.theComment.dao.Eva_user_dao;
 import com.theComments.brt.jpa.theComment.dao.FileSave_dao;
 import com.theComments.brt.jpa.theComment.dao.Type2_dao;
@@ -27,6 +30,7 @@ import com.theComments.brt.jpa.theComment.model.FileSave;
 import com.theComments.brt.jpa.theComment.model.Type2;
 import com.theComments.brt.jpa.theComment.model.Works;
 import com.theComments.brt.jpa.theComment.model.WorksSave;
+import com.theComments.brt.util.ResultMap;
 
 @Service
 public class WorksService {
@@ -50,14 +54,21 @@ public class WorksService {
 	HttpServletRequest request;
 
 	/**
-	 * 
+	 * 저작물을 저장하는 서비스
 	 * @param f
 	 * @param data
-	 * @return
+	 * @return Map 200일 경우 정상, 201일경우 저장은 했으나, 저작자가 존재하지 않음. id라는 key가 있음. 해당 id는 works 에 등록된 id
 	 * @throws Exception 파일 문제,403005:파일이 4개이상
 	 */
 	@Transactional("userTransactionManager")
-	public int saveWorks(MultipartFile[] f, Map<String, Object> data) throws Exception {
+	public ResultMap saveWorks(MultipartFile[] f, Map<String, Object> data) throws Exception {
+		
+		ResultMap result = new ResultMap();
+		result.setResult(200);
+		if(data.get("artistList") == null || data.get("artistList").toString().isEmpty())
+		{
+			result.setResult(201);
+		}
 
 		long type2Id = new Long(data.get("type2").toString());
 		Optional<Type2> type2 = tpye2Dao.findById(type2Id);
@@ -89,6 +100,7 @@ public class WorksService {
 		works.setCreate_end_date2(create_end_date);
 		works.setIs_series(is_series_data);
 		Works savedWorks = worksDao.save(works);
+		result.setId(savedWorks.getWork_id());
 		//저작물 저장 끝 ////////////////////////////////////
 		
 		List<FileSave> fileSaveArray = new ArrayList<FileSave>();
@@ -124,7 +136,43 @@ public class WorksService {
 		worksSaveDao.save(worksSave);
 		//유저 저작물 저장에 대한 정보 저장 끝///////////
 		
-		return 200;
+		return result;
+	}
+	
+	/**
+	 * id로 저작물 셀렉트
+	 * 
+	 * @param param
+	 * @return result 200 저작물 저작자 모두 있음 201 저작물 존재 하지 않음, 202 저작자 존재하지 않음 
+	 */
+	public ResultMap worksSelectOne(Map<String, Object> param) {
+		// TODO Auto-generated method stub
+		ResultMap result  = new ResultMap();
+		
+		Long id = Long.parseLong(param.get("id").toString());
+		
+		Optional<Works> workM = worksDao.findById(id);
+		if(workM.isPresent() == false) {
+			result.setResult(201);
+			return result;
+		}
+		
+		Works work = workM.get();
+		
+		WorksDto worksDto = new WorksDto();
+		
+		BeanUtils.copyProperties(work, worksDto);
+		
+		if(work.getCreate().size() ==0) {
+			result.setResult(202);
+			result.setData(worksDto);
+			return result;
+		}
+		
+		
+		//200인건 아티스트 삽입하고 만들기
+		
+		return null;
 	}
 
 }

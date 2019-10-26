@@ -7,6 +7,8 @@ import * as moment from 'moment';
 import { WorksSerivceService } from '../works-serivce.service';
 import { type } from 'os';
 import { SSL_OP_NO_SESSION_RESUMPTION_ON_RENEGOTIATION } from 'constants';
+import { RESULT } from 'src/const/publicConst';
+import { Router } from '@angular/router';
 declare const $: any;
 
 @Component({
@@ -43,7 +45,7 @@ export class AddWorksComponent implements OnInit {
     type2: []
   }
 
-  constructor(private dialog: MatDialog, private workService: WorksSerivceService) { }
+  constructor(private router:Router, private dialog: MatDialog, private workService: WorksSerivceService) { }
 
   ngOnInit() {
 
@@ -179,10 +181,10 @@ export class AddWorksComponent implements OnInit {
 
   /***저작물 저장*** */
   worksSave() {
-   
+
     let f = new FormData();
     for (let key in this.work) {
-     
+
 
       //formData
       if (
@@ -201,43 +203,51 @@ export class AddWorksComponent implements OnInit {
           }
         }
         //시간은 moment로 포맷해서 보냄
-        if(key == "create_date" || key == "create_end_date"){
-          let data:any = moment(this.work[key]['value']).unix();
-          f.append(key,data);
+        if (key == "create_date" || key == "create_end_date") {
+          let data: any = moment(this.work[key]['value']).unix();
+          f.append(key, data);
           continue;
         }
-        
 
-        f.append(key,this.work[key]['value']);
+
+        f.append(key, this.work[key]['value']);
         continue;
-      
-      
-      }
-      
-      //파일 리스트
-      if(key == "fileList"){
 
-        if(this.work[key].length > 4){
+
+      }
+
+      //파일 리스트
+      if (key == "fileList") {
+
+        if (this.work[key].length > 4) {
           return;
         }
 
-        for(let file of this.work[key]){
+        for (let file of this.work[key]) {
           let data = file['file'];
           let fileName = file['file']['name'];
-          f.append(key,data,fileName);
+          f.append(key, data, fileName);
         }
       }
       //나머지 다른 폼 데이터
-      else{
-        f.append(key,this.work[key]);
+      else {
+        f.append(key, this.work[key]);
       }
-     
+
     }
-    
-    this.workService.worksSave(f).subscribe(x=>{
-      console.log(x);
+
+    this.workService.worksSave(f).subscribe(x => {
+      if (x.status == 200) {
+        let data = x.body;
+        let message = data[RESULT.MESSAGE_KEY];
+        let code = RESULT.GET_MASSAGE_CODE(message);
+        if(code == RESULT.WORKS_SAVE_CODE.ARTIST_NOT_EXIST){
+          //this.router.navigate([""])
+          this.router.navigate(['/works/worksSaveCheck',data[RESULT.ID_KEY]])
+        }
+      }
     });
-    
+
 
   }
 }

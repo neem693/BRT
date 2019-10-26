@@ -14,7 +14,11 @@ export class WorksSerivceService {
      return this.http.get(environment.baseApiUrl + "/type/getWorkAllType");
    }
    
-   worksSave(data:FormData){
+   worksSave(data:any){
      return this.http.post(environment.baseApiUrl + "/works/workSave",data,{observe:'response'});
+   }
+   
+   worksSelectOne(data:any){
+     return this.http.get(environment.baseApiUrl + "/works/worksSelectOne",{params:data});
    }
 }
