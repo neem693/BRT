@@ -1,5 +1,6 @@
 package com.theComments.brt.jpa.theComment.model;
 
+import java.time.LocalDateTime;
 import java.util.List;
 
 import javax.persistence.Entity;
@@ -24,6 +25,11 @@ public class Artist {
 	
 	@OneToMany(fetch=FetchType.LAZY,mappedBy = "artist")
 	List<Create_art> create;
+	
+	LocalDateTime add_date;
+	
+	@OneToMany(mappedBy = "artist")
+	List<ArtistSave> artistSave;
 
 	public Long getArtist_id() {
 		return artist_id;
@@ -56,6 +62,26 @@ public class Artist {
 	public void setCreate(List<Create_art> create) {
 		this.create = create;
 	}
+
+	public LocalDateTime getAdd_date() {
+		return add_date;
+	}
+
+	public void setAdd_date(LocalDateTime add_date) {
+		this.add_date = add_date;
+	}
+
+	public List<ArtistSave> getArtistSave() {
+		return artistSave;
+	}
+
+	public void setArtistSave(List<ArtistSave> artistSave) {
+		this.artistSave = artistSave;
+	}
+	
+	
+	
+	
 	
 	
 	

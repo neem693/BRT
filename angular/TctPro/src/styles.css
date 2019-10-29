@@ -3,17 +3,38 @@
 
 
 .subject {
-    display: flex;
+    /* display: flex; */
     /* justify-content: center; */
+    text-align: center;
     color: gray;
+    /* min-height: 50px; */
+    height:50px;
+    width:50%;
+    opacity: 0;
+    white-space: nowrap;
+    background-color: #262626;
+    color:white;
+    position: relative;
+    /* line-height: 0px; */
+    transition: opacity 2s, width 2s;
+    margin: 0 auto;
 }
+
+.subject.active{
+    width:100%;
+    opacity: 1;
+}
+
 .hr_01 {
     
     border-top: 3px solid gray;
     width: 0%;
-    margin-left: 0px;
-    text-align: left;
+    /* margin-left: 0px; */
+    /* text-align: left; */
     transition: width 2s;
+    /* margin:1px 0 ; */
+    margin-top: 5px;
+    margin-bottom: 5px;
 
 }
 
@@ -23,7 +44,7 @@ button:focus{
 }
 
 .hr_01.active{
-    width: 70%;
+    width: 100%;
 }
 
 .root_main{
@@ -43,6 +64,10 @@ button:focus{
 .work_input.isEndDate .mat-checkbox-inner-container{
     height:35px !important;
     width:35px !important;
+}
+.clear{
+    clear: both;
+    margin-bottom: 100px;
 }
 
 

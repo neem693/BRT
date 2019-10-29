@@ -22,7 +22,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class WorksDto {
+public class WorksDto extends Page{
 
 	Long work_id;
 	Type2Dto type2;

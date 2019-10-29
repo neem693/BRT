@@ -30,7 +30,8 @@ public class Oauth2ResourceServer extends ResourceServerConfigurerAdapter {
 	
 	private String [] common_user_auth = {
 			"/v1/type/**",
-			"/v1/works/**"
+			"/v1/works/**",
+			"/v1/artist/**"
 	};
 	
 	@Override

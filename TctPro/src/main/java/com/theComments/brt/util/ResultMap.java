@@ -1,17 +1,21 @@
 package com.theComments.brt.util;
 
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
+
+import com.theComments.brt.jpa.dto.Page;
+import com.theComments.brt.jpa.theComment.model.Works;
 
 /**
  * RESULT에 대해서 요약한것, Integer result,Integer id, String message, Object data 가 각각 존재
- * id는 insert를 하던가 했을 때 가져오는 저장된 id값
+ * id는 insert를 하던가 했을 때 가져오는 저장된 id값,그냥 참조 id라고 생각
  * Result는 신호를 의미(200성공, 201부터 임의의 의미를 지님)
  * message는 상세 에러나, 특이사항
  * @author UIO
  *
  */
-public class ResultMap {
+public class ResultMap extends Page{
 	
 	Integer result;
 	Long id;
@@ -51,11 +55,11 @@ public class ResultMap {
 		result.put("id",this.getId());
 		result.put("message",this.getMessage());
 		result.put("data",this.getData());
+		result.put("totalSize", this.getTotalSize());
 		
 		return result;
 		
 	}
-	
 
 	
 	

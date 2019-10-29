@@ -5,10 +5,9 @@ import { AddArtistDialogComponent } from '../dialog/add-artist-dialog/add-artist
 import { Moment } from 'moment';
 import * as moment from 'moment';
 import { WorksSerivceService } from '../works-serivce.service';
-import { type } from 'os';
-import { SSL_OP_NO_SESSION_RESUMPTION_ON_RENEGOTIATION } from 'constants';
 import { RESULT } from 'src/const/publicConst';
-import { Router } from '@angular/router';
+import { Router, ActivatedRoute } from '@angular/router';
+import { ArtistService } from 'src/app/artist/artist.service';
 declare const $: any;
 
 @Component({
@@ -45,11 +44,29 @@ export class AddWorksComponent implements OnInit {
     type2: []
   }
 
-  constructor(private router:Router, private dialog: MatDialog, private workService: WorksSerivceService) { }
+  constructor(
+    private router: Router,
+    private dialog: MatDialog,
+    private workService: WorksSerivceService,
+    private route: ActivatedRoute,
+    private artistService: ArtistService
+  ) { }
 
   ngOnInit() {
 
     this.getAllType();
+    console.log(this.route.params);
+    this.route.params.subscribe(x => {
+
+      if (x.id != null) {
+
+        let data = {};
+        data['id'] = x.id;
+
+        this.selectArtistOneInitialize(data);
+
+      }
+    })
 
   }
 
@@ -229,6 +246,10 @@ export class AddWorksComponent implements OnInit {
           f.append(key, data, fileName);
         }
       }
+      //artistList OR OtherArray
+      else if (key == "artistList") {
+        f.append(key, JSON.stringify(this.work[key]));
+      }
       //나머지 다른 폼 데이터
       else {
         f.append(key, this.work[key]);
@@ -239,15 +260,30 @@ export class AddWorksComponent implements OnInit {
     this.workService.worksSave(f).subscribe(x => {
       if (x.status == 200) {
         let data = x.body;
-        let message = data[RESULT.MESSAGE_KEY];
-        let code = RESULT.GET_MASSAGE_CODE(message);
-        if(code == RESULT.WORKS_SAVE_CODE.ARTIST_NOT_EXIST){
-          //this.router.navigate([""])
-          this.router.navigate(['/works/worksSaveCheck',data[RESULT.ID_KEY]])
+
+        if (data[RESULT.RESULT_KEY] == 201) {
+          let message = data[RESULT.MESSAGE_KEY];
+
+          let code = RESULT.GET_MASSAGE_CODE(message);
+          if (code == RESULT.WORKS_SAVE_CODE.ARTIST_NOT_EXIST) {
+            //this.router.navigate([""])
+          }
         }
+        this.router.navigate(['/works/worksSaveCheck', data[RESULT.ID_KEY]])
       }
     });
 
 
   }
+
+  /**저작자 정보 불러옴 */
+  selectArtistOneInitialize(data: any) {
+    return this.artistService.selectArtistOne(data).subscribe(x => {
+      if (x['result'] == 202) {
+        let artist = x['data']['artistDto'];
+        this.work.artistList.push(artist);
+      }
+    });
+  }
+
 }

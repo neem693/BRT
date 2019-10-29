@@ -9,14 +9,16 @@
 
 .regist_block button {
     position: static;
-    /* display: block; */
+    display: inline-block;
     padding: 10px;
     /* margin: 0 auto; */
 }
 
-.regist_block span, .regist_block button {
+.regist_block span,.regist_block button{
     margin-left: 5%;
 }
+
+
 
 .before_works_mark {
     position: absolute;
@@ -30,10 +32,9 @@
     font-size: xx-large;
     margin: 10px 0;
 }
-
-.regist_block .regist_icon {
-    float: left;
-    margin-left: 20%;
+.regist_block .regist_icon{
+    float:left;
+    margin-left:20%;
 }
 
 .regist_icon.mat-icon {
@@ -59,7 +60,7 @@
     color: blue;
 }
 
-.after_works_save.active {
+.after_works_save.active{
     border: 3px solid blue;
 }
 
@@ -68,24 +69,22 @@
         width: 100%;
         text-align: center;
     }
-    .after_works_save.active {
-        color:blue;
-    }
     .regist_icon.mat-icon {
         padding: 12px;
         display: block;
         width: 58px;
         margin: 0 auto;
+       
     }
     .regist_block {
         font-size: x-large;
     }
-    .regist_block span, .regist_block button {
+    .regist_block span,.regist_block button{
         display: inline-block;
-        margin-top: 15px;
+        margin-top: 30px;
         margin-left: 0;
     }
-    .regist_block .regist_icon {
+    .regist_block .regist_icon{
         float: none;
         margin-left: auto;
     }

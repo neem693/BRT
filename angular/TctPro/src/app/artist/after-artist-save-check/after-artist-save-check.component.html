@@ -1,0 +1,28 @@
+<hr class="hr_01">
+<h1 class="subject">저작자 체크</h1>
+<hr class="hr_01">
+
+<div class="after_works_save" [ngClass]="{'active':add.evaluateAdd}">
+    <div class="before_works_mark">
+        <mat-icon *ngIf = "add.evaluateAdd == false" [ngClass]="{'active':add.evaluateAdd}" class="regist_icon">block</mat-icon>
+        <mat-icon *ngIf = "add.evaluateAdd == true" [ngClass]="{'active':add.evaluateAdd}" class="regist_icon">done_outline</mat-icon>
+    </div>
+    <div class="regist_block">
+        <mat-icon [ngClass]="{'active':add.artistAdd}" class="regist_icon">create</mat-icon><span
+            *ngIf="add.artistAdd == false">저작자 등록안됨</span><span *ngIf="add.artistAdd == true"
+            class="active">{{data.artist.art_name}}</span>
+    </div>
+    <div class="regist_block">
+        <mat-icon [ngClass]="{'active':add.worksAdd}" class="regist_icon">subject</mat-icon><span
+            *ngIf="add.worksAdd == false">저작물 등록안됨</span><span *ngIf="add.worksAdd == true"
+            class="active">{{data.work.subject}}</span>
+        <button *ngIf="add.artistAdd == true && add.worksAdd == false" (click)= "worksAdd()" mat-raised-button color="primary">등록</button>
+    </div>
+
+    <div class="regist_block">
+        <mat-icon [ngClass]="{'active':add.evaluateAdd}" class="regist_icon">comment</mat-icon><span
+            *ngIf="add.evaluateAdd == false">코멘트 등록불가</span><button *ngIf="add.evaluateAdd == true" mat-raised-button
+            color="primary">등록가능</button>
+    </div>
+
+</div>

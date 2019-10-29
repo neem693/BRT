@@ -34,6 +34,9 @@ public class Eva_user {
 	@OneToMany(mappedBy = "eva_user")
 	List<WorksSave> worksSave;
 	
+	@OneToMany(mappedBy = "eva_user")
+	List<ArtistSave> artistSave;
+	
 	@OneToOne(mappedBy = "eva_user")
 	Artist artist;
 
@@ -102,6 +105,16 @@ public class Eva_user {
 	public void setArtist(Artist artist) {
 		this.artist = artist;
 	}
+
+	public List<ArtistSave> getArtistSave() {
+		return artistSave;
+	}
+
+	public void setArtistSave(List<ArtistSave> artistSave) {
+		this.artistSave = artistSave;
+	}
+	
+	
 	
 	
 
