@@ -14,7 +14,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
-import org.springframework.expression.spel.ast.OpInc;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -34,8 +33,6 @@ import com.theComments.brt.jpa.theComment.model.Create_art;
 import com.theComments.brt.jpa.theComment.model.Eva_user;
 import com.theComments.brt.jpa.theComment.model.Works;
 import com.theComments.brt.util.ResultMap;
-
-import net.minidev.json.writer.BeansMapper.Bean;
 
 @Service
 public class ArtistService {
