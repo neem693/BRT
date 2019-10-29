@@ -1,15 +1,35 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1563522454767" ID="ID_1812649479" MODIFIED="1572050034621" TEXT="angular">
-<hook NAME="accessories/plugins/CreationModificationPlugin_new.properties"/>
+<node CREATED="1563522454767" ID="ID_1812649479" MODIFIED="1572342861250" TEXT="angular">
 <hook NAME="accessories/plugins/RevisionPlugin.properties"/>
+<hook NAME="accessories/plugins/CreationModificationPlugin_new.properties"/>
 <node CREATED="1563522718142" FOLDED="true" ID="ID_1024043872" MODIFIED="1571055012268" POSITION="right" TEXT="&#xd604;&#xc7ac; &#xd29c;&#xd1a0;&#xb9ac;&#xc5bc;">
 <node CREATED="1563522713920" ID="ID_792755994" LINK="https://www.tutorialspoint.com/angular7/angular7_project_setup.htm" MODIFIED="1563522716082" TEXT="https://www.tutorialspoint.com/angular7/angular7_project_setup.htm"/>
 </node>
 <node CREATED="1563522479507" ID="ID_1263144163" MODIFIED="1563522480750" POSITION="right" TEXT="npm install -g @angular/cli"/>
-<node COLOR="#3333ff" CREATED="1563522504544" FOLDED="true" ID="ID_331620290" MODIFIED="1571055012269" POSITION="right" STYLE="bubble" TEXT="nodeJS&#xb85c; &#xc2e4;&#xd589;">
+<node COLOR="#3333ff" CREATED="1563522504544" FOLDED="true" ID="ID_331620290" MODIFIED="1572343003198" POSITION="right" STYLE="bubble" TEXT="nodeJS&#xb85c; &#xc2e4;&#xd589;">
 <font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
 <node CREATED="1563522500194" ID="ID_137429030" MODIFIED="1563522517468" TEXT="ng serve"/>
+</node>
+<node COLOR="#3333ff" CREATED="1572342866560" ID="ID_1123000244" MODIFIED="1572343042192" POSITION="right" STYLE="bubble">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#45796;&#47480; &#52980;&#54504;&#53552;&#50640;&#49436; ng serve &#54624;&#49884; &#47928;&#51228;
+    </p>
+  </body>
+</html></richcontent>
+<font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1572342961213" ID="ID_1116112933" MODIFIED="1572343042175" TEXT="&#xbb38;&#xc81c;">
+<node CREATED="1572342962651" ID="ID_532260724" LINK="mailto:&#x201c;@angular-devkit/build-angular&#x201d;" MODIFIED="1572343042176" TEXT="Could not find module &#x201c;@angular-devkit/build-angular&#x201d;"/>
+</node>
+<node CREATED="1572342949352" ID="ID_1235171872" LINK="https://stackoverflow.com/questions/50333003/could-not-find-module-angular-devkit-build-angular" MODIFIED="1572343042176" TEXT="https://stackoverflow.com/questions/50333003/could-not-find-module-angular-devkit-build-angular"/>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1572342965860" ID="ID_622321172" MODIFIED="1572343042176" TEXT="&#xd574;&#xacb0;">
+<node CREATED="1572342974095" MODIFIED="1572343042177" TEXT="npm install --save-dev @angular-devkit/build-angular"/>
+</node>
 </node>
 <node CREATED="1563539766218" ID="ID_1186572759" MODIFIED="1563539774077" POSITION="right" TEXT="IE&#xc5d0;&#xc11c; template&#xb294; &#xba39;&#xd788;&#xc9c0; &#xc54a;&#xc73c;&#xb2c8; &#xc8fc;&#xc758;&#xd560; &#xac83;"/>
 <node CREATED="1563539774431" FOLDED="true" ID="ID_1207941584" MODIFIED="1571166062160" POSITION="right" TEXT="IE&#xc5d0;&#xc11c; angular &#xb744;&#xc6b0;&#xb294; &#xbc29;&#xbc95;">
@@ -48,7 +68,7 @@
 <node CREATED="1563805243499" FOLDED="true" ID="ID_1491213453" MODIFIED="1571055012273" POSITION="right" TEXT="Understanding @Output and EventEmitter in Angular ">
 <node CREATED="1563805247865" ID="ID_1901503569" LINK="https://dzone.com/articles/understanding-output-and-eventemitter-in-angular" MODIFIED="1563805247865" TEXT="https://dzone.com/articles/understanding-output-and-eventemitter-in-angular"/>
 </node>
-<node COLOR="#3333ff" CREATED="1563806818244" ID="ID_1883414726" MODIFIED="1572049996903" POSITION="right" STYLE="bubble" TEXT="Sharing Data between Components in Angular (Rxbehavior)">
+<node COLOR="#3333ff" CREATED="1563806818244" FOLDED="true" ID="ID_1883414726" MODIFIED="1572342862684" POSITION="right" STYLE="bubble" TEXT="Sharing Data between Components in Angular (Rxbehavior)">
 <font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
 <node CREATED="1563806955296" ID="ID_1673782090" MODIFIED="1563806957392" TEXT="&#xb3d9;&#xc601;&#xc0c1; &#xc81c;&#xbaa9;"/>
 <node COLOR="#3333ff" CREATED="1563806957763" ID="ID_28941955" MODIFIED="1563806961053" STYLE="bubble" TEXT="Sharing Data between Components in Angular">
@@ -502,7 +522,7 @@
 </node>
 </node>
 <node BACKGROUND_COLOR="#ffffff" COLOR="#ff3333" CREATED="1570481463185" FOLDED="true" ID="ID_1592856275" MODIFIED="1572152411713" POSITION="right" STYLE="bubble" TEXT="&#xd398;&#xc774;&#xc9c0; &#xb118;&#xae30;&#xae30;">
-<font BOLD="true" NAME="a&#xace0;&#xb515;15" SIZE="24"/>
+<font BOLD="true" NAME="Dialog" SIZE="24"/>
 <node CREATED="1570481465245" ID="ID_779952897" MODIFIED="1570481465245" TEXT="routerLink"/>
 <node CREATED="1570481470585" ID="ID_311617540" MODIFIED="1570481472068" TEXT="&#xc608;&#xc2dc;">
 <node CREATED="1570481472518" MODIFIED="1570481472518" TEXT="&lt;h1&gt;Angular 7 Routing Demo&lt;/h1&gt;"/>
@@ -742,7 +762,7 @@
 </node>
 </node>
 <node BACKGROUND_COLOR="#ffffff" COLOR="#ff3333" CREATED="1570728891653" FOLDED="true" ID="ID_1041003978" MODIFIED="1572050058215" POSITION="right" STYLE="bubble" TEXT="Material Dialog(&#xb2e4;&#xc774;&#xc5bc;&#xb85c;&#xadf8; &#xbb38;&#xc81c; &#xc67c;&#xcabd;&#xc73c;&#xb85c; &#xb098;&#xc624;&#xb294; &#xbb38;&#xc81c; &#xb4f1;&#xb4f1;)">
-<font BOLD="true" NAME="a&#xace0;&#xb515;15" SIZE="24"/>
+<font BOLD="true" NAME="Dialog" SIZE="24"/>
 <node CREATED="1570729058059" ID="ID_1105461681" MODIFIED="1571166144614" TEXT="&#xbb38;&#xc81c;">
 <node CREATED="1570729074755" ID="ID_834457035" MODIFIED="1571166144615" TEXT="No component factory found for ConfirmComponent. Did you add it to @NgModule.entryComponents?"/>
 <node CREATED="1570729083244" ID="ID_842617751" MODIFIED="1571166144615" TEXT="matrial &#xb2e4;&#xc774;&#xc5bc;&#xb85c;&#xadf8;&#xb97c; &#xc0ac;&#xc6a9;&#xd560; &#xb54c; &#xc886;&#xb3c4; &#xc548;&#xb418;&#xba74;&#xc11c; &#xc800;&#xb7f0; &#xc624;&#xb958;&#xac00; &#xb72c;&#xb2e4;."/>
@@ -906,7 +926,7 @@
 <node CREATED="1571065965144" ID="ID_250548892" LINK="https://stackoverflow.com/questions/40275862/how-to-get-parameter-on-angular2-route-in-angular-way" MODIFIED="1571065965144" TEXT="https://stackoverflow.com/questions/40275862/how-to-get-parameter-on-angular2-route-in-angular-way"/>
 </node>
 <node BACKGROUND_COLOR="#ffffff" COLOR="#ff3333" CREATED="1571072094020" FOLDED="true" ID="ID_1659072331" MODIFIED="1572029244252" POSITION="right" STYLE="bubble" TEXT="change vs ngModelChange">
-<font BOLD="true" NAME="a&#xace0;&#xb515;15" SIZE="24"/>
+<font BOLD="true" NAME="Dialog" SIZE="24"/>
 <node CREATED="1571072107759" ID="ID_1658087419" LINK="https://stackoverflow.com/questions/44840735/change-vs-ngmodelchange-in-angular" MODIFIED="1571072111683" TEXT="https://stackoverflow.com/questions/44840735/change-vs-ngmodelchange-in-angular"/>
 <node CREATED="1571072112970" ID="ID_1210777488" MODIFIED="1571072114351" TEXT="&#xacb0;&#xb860;">
 <node CREATED="1571072122962" ID="ID_1780711004" MODIFIED="1571072128191" TEXT="ngModelChange &#xb97c; &#xc368;&#xb77c;"/>
@@ -917,7 +937,7 @@
 <font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
 </node>
 <node BACKGROUND_COLOR="#ffffff" COLOR="#ff3333" CREATED="1571183600226" ID="ID_846860749" MODIFIED="1571183613392" STYLE="bubble" TEXT="&#xc544;&#xc774; &#xc528;&#xbc1c; &#xc774;&#xac8c; &#xc775;&#xc2a4;&#xd50c;&#xb85c;&#xb7ec; 11&#xc5d0;&#xc11c; &#xc548;&#xb418;&#xb124; &#xc774; &#xc886;&#xac19;&#xc740; &#xc775;&#xc2a4;&#xd50c;&#xb85c;&#xb7ec;">
-<font BOLD="true" NAME="a&#xace0;&#xb515;15" SIZE="24"/>
+<font BOLD="true" NAME="Dialog" SIZE="24"/>
 </node>
 <node CREATED="1571174916104" ID="ID_1590855326" LINK="https://stackoverflow.com/questions/35325370/post-a-x-www-form-urlencoded-request-from-react-native" MODIFIED="1571174916919" TEXT="https://stackoverflow.com/questions/35325370/post-a-x-www-form-urlencoded-request-from-react-native"/>
 <node CREATED="1571174922582" ID="ID_445934035" MODIFIED="1571175702651" TEXT="&#xc575;&#xade4;&#xb7ec;&#xc5d0;&#xc11c; HttpParams&#xb97c; &#xb9cc;&#xb4e4;&#xc5b4;&#xc57c; &#xd558;&#xb098;, &#xac1d;&#xccb4; &#xc0dd;&#xc131;&#xd560;&#xb54c; &#xb9cc;&#xb4e4;&#xc9c0; &#xc54a;&#xc73c;&#xba74; &#xb0a0;&#xb77c;&#xac10;"/>
@@ -935,8 +955,8 @@
 <node CREATED="1571267092187" FOLDED="true" ID="ID_908828907" MODIFIED="1572029242715" POSITION="right" TEXT="dataQuestionMark">
 <node CREATED="1571267095635" LINK="https://stackoverflow.com/questions/45922715/what-is-the-meaning-of-question-mark-in-expressions-in-angular-2" MODIFIED="1571267095635" TEXT="https://stackoverflow.com/questions/45922715/what-is-the-meaning-of-question-mark-in-expressions-in-angular-2"/>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#ff3333" CREATED="1571267244643" ID="ID_822011010" MODIFIED="1572315945386" POSITION="right" STYLE="bubble" TEXT="angularFIleUpload">
-<font BOLD="true" NAME="a&#xace0;&#xb515;15" SIZE="24"/>
+<node BACKGROUND_COLOR="#ffffff" COLOR="#ff3333" CREATED="1571267244643" FOLDED="true" ID="ID_822011010" MODIFIED="1572342862685" POSITION="right" STYLE="bubble" TEXT="angularFIleUpload">
+<font BOLD="true" NAME="Dialog" SIZE="24"/>
 <node CREATED="1571267668188" ID="ID_986750464" MODIFIED="1571267673400" TEXT="&#xadf8;&#xb0e5; &#xd558;&#xc790; &#xc528;&#xbc1c;">
 <node CREATED="1571267674324" ID="ID_749784563" LINK="https://stackoverflow.com/questions/47936183/angular-file-upload" MODIFIED="1571267674324" TEXT="https://stackoverflow.com/questions/47936183/angular-file-upload"/>
 </node>
@@ -982,8 +1002,8 @@
 <node CREATED="1571853458331" ID="ID_964782129" MODIFIED="1571853495815" TEXT="&#xae30;&#xbcf8;&#xc801;&#xc73c;&#xb85c; file upload size&#xb294; 1mb&#xc774;&#xb2e4;."/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#ff3333" CREATED="1571269785669" ID="ID_1935746260" MODIFIED="1572212074047" POSITION="right" STYLE="bubble" TEXT="ngFor">
-<font BOLD="true" NAME="a&#xace0;&#xb515;15" SIZE="24"/>
+<node BACKGROUND_COLOR="#ffffff" COLOR="#ff3333" CREATED="1571269785669" FOLDED="true" ID="ID_1935746260" MODIFIED="1572342862685" POSITION="right" STYLE="bubble" TEXT="ngFor">
+<font BOLD="true" NAME="Dialog" SIZE="24"/>
 <node CREATED="1571269791742" ID="ID_239175015" LINK="https://www.techiediaries.com/angular-ngfor/" MODIFIED="1571269791742" TEXT="https://www.techiediaries.com/angular-ngfor/"/>
 <node CREATED="1571269798618" LINK="https://angular.io/api/common/NgForOf" MODIFIED="1571269798618" TEXT="https://angular.io/api/common/NgForOf"/>
 </node>
@@ -1085,11 +1105,11 @@
 </node>
 </node>
 </node>
-<node COLOR="#3333ff" CREATED="1572044975473" ID="ID_1023243224" MODIFIED="1572047651219" POSITION="right" STYLE="bubble" TEXT="httpclient get data &#xbcf4;&#xb0bc; &#xc2dc;&#xc5d0;">
+<node COLOR="#3333ff" CREATED="1572044975473" FOLDED="true" ID="ID_1023243224" MODIFIED="1572342862685" POSITION="right" STYLE="bubble" TEXT="httpclient get data &#xbcf4;&#xb0bc; &#xc2dc;&#xc5d0;">
 <font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
 <node CREATED="1572044993449" LINK="https://stackoverflow.com/questions/45470575/angular-4-httpclient-query-parameters" MODIFIED="1572047651209" TEXT="https://stackoverflow.com/questions/45470575/angular-4-httpclient-query-parameters"/>
 </node>
-<node COLOR="#3333ff" CREATED="1572047644732" ID="ID_765391266" MODIFIED="1572047650211" POSITION="right" STYLE="bubble" TEXT="ngClass">
+<node COLOR="#3333ff" CREATED="1572047644732" FOLDED="true" ID="ID_765391266" MODIFIED="1572342862686" POSITION="right" STYLE="bubble" TEXT="ngClass">
 <font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
 <node CREATED="1572047648254" ID="ID_144962375" LINK="https://angular.io/api/common/NgClass" MODIFIED="1572047650198" TEXT="https://angular.io/api/common/NgClass"/>
 <node CREATED="1572049325070" ID="ID_404444201" MODIFIED="1572049327243" TEXT="&#xcf54;&#xb4dc; &#xc608;&#xc2dc;">
@@ -1100,11 +1120,11 @@
 <node CREATED="1572049327535" MODIFIED="1572049327535" TEXT="&lt;some-element [ngClass]=&quot;{&apos;class1 class2 class3&apos; : true}&quot;&gt;...&lt;/some-element&gt;"/>
 </node>
 </node>
-<node COLOR="#3333ff" CREATED="1572209443525" ID="ID_622601424" MODIFIED="1572209505516" POSITION="right" STYLE="bubble" TEXT="for &#xbb38;&#xc5d0; &#xb300;&#xd55c; loop &#xad00;&#xb9ac;">
+<node COLOR="#3333ff" CREATED="1572209443525" FOLDED="true" ID="ID_622601424" MODIFIED="1572342862686" POSITION="right" STYLE="bubble" TEXT="for &#xbb38;&#xc5d0; &#xb300;&#xd55c; loop &#xad00;&#xb9ac;">
 <font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
 <node CREATED="1572209511364" LINK="https://stackoverflow.com/questions/183161/whats-the-best-way-to-break-from-nested-loops-in-javascript" MODIFIED="1572209511364" TEXT="https://stackoverflow.com/questions/183161/whats-the-best-way-to-break-from-nested-loops-in-javascript"/>
 </node>
-<node CREATED="1572227594040" ID="ID_1648492087" MODIFIED="1572227598238" POSITION="right" TEXT="css &#xb85c;&#xb529;">
+<node CREATED="1572227594040" FOLDED="true" ID="ID_1648492087" MODIFIED="1572342862686" POSITION="right" TEXT="css &#xb85c;&#xb529;">
 <node CREATED="1572227598949" LINK="https://jsfiddle.net/kmturley/54hqzmk7/?utm_source=website&amp;utm_medium=embed&amp;utm_campaign=54hqzmk7" MODIFIED="1572227598949" TEXT="https://jsfiddle.net/kmturley/54hqzmk7/?utm_source=website&amp;utm_medium=embed&amp;utm_campaign=54hqzmk7"/>
 </node>
 </node>
