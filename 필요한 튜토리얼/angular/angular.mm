@@ -237,7 +237,7 @@
 <node CREATED="1565725750586" FOLDED="true" ID="ID_1596199556" MODIFIED="1571270223280" POSITION="right" TEXT="npm &#xd0c0;&#xc785;&#xc2a4;&#xd06c;&#xb9bd;&#xd2b8; &#xae30;&#xbc18;&#xc73c;&#xb85c; &#xc124;&#xce58;">
 <node CREATED="1565725760071" ID="ID_1492280566" MODIFIED="1565725760071" TEXT="npm install @types/jquery --save-dev"/>
 </node>
-<node COLOR="#3333ff" CREATED="1565732965664" FOLDED="true" ID="ID_305801689" MODIFIED="1572050044292" POSITION="right" STYLE="bubble" TEXT="javascript&#xb97c; &#xd0c0;&#xc785;&#xc2a4;&#xd06c;&#xb9bd;&#xd2b8;&#xb85c; &#xac00;&#xc9c0;&#xace0; &#xc62c;&#xb54c;">
+<node COLOR="#3333ff" CREATED="1565732965664" FOLDED="true" ID="ID_305801689" MODIFIED="1572152387750" POSITION="right" STYLE="bubble" TEXT="javascript&#xb97c; &#xd0c0;&#xc785;&#xc2a4;&#xd06c;&#xb9bd;&#xd2b8;&#xb85c; &#xac00;&#xc9c0;&#xace0; &#xc62c;&#xb54c;">
 <font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
 <node CREATED="1565734170431" ID="ID_1442440104" LINK="https://www.typescriptlang.org/docs/handbook/module-resolution.html" MODIFIED="1565734170431" TEXT="https://www.typescriptlang.org/docs/handbook/module-resolution.html"/>
 <node CREATED="1565734278091" ID="ID_1835131169" LINK="https://typescript-kr.github.io/pages/Module%20Resolution.html?q=" MODIFIED="1565734278091" TEXT="https://typescript-kr.github.io/pages/Module%20Resolution.html?q="/>
@@ -501,7 +501,7 @@
 <node CREATED="1570478049991" LINK="https://google.github.io/material-design-icons/" MODIFIED="1570478049991" TEXT="https://google.github.io/material-design-icons/"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#ff3333" CREATED="1570481463185" FOLDED="true" ID="ID_1592856275" MODIFIED="1572050048060" POSITION="right" STYLE="bubble" TEXT="&#xd398;&#xc774;&#xc9c0; &#xb118;&#xae30;&#xae30;">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#ff3333" CREATED="1570481463185" FOLDED="true" ID="ID_1592856275" MODIFIED="1572152411713" POSITION="right" STYLE="bubble" TEXT="&#xd398;&#xc774;&#xc9c0; &#xb118;&#xae30;&#xae30;">
 <font BOLD="true" NAME="a&#xace0;&#xb515;15" SIZE="24"/>
 <node CREATED="1570481465245" ID="ID_779952897" MODIFIED="1570481465245" TEXT="routerLink"/>
 <node CREATED="1570481470585" ID="ID_311617540" MODIFIED="1570481472068" TEXT="&#xc608;&#xc2dc;">
@@ -935,7 +935,7 @@
 <node CREATED="1571267092187" FOLDED="true" ID="ID_908828907" MODIFIED="1572029242715" POSITION="right" TEXT="dataQuestionMark">
 <node CREATED="1571267095635" LINK="https://stackoverflow.com/questions/45922715/what-is-the-meaning-of-question-mark-in-expressions-in-angular-2" MODIFIED="1571267095635" TEXT="https://stackoverflow.com/questions/45922715/what-is-the-meaning-of-question-mark-in-expressions-in-angular-2"/>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#ff3333" CREATED="1571267244643" FOLDED="true" ID="ID_822011010" MODIFIED="1572029241941" POSITION="right" STYLE="bubble" TEXT="angularFIleUpload">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#ff3333" CREATED="1571267244643" ID="ID_822011010" MODIFIED="1572315945386" POSITION="right" STYLE="bubble" TEXT="angularFIleUpload">
 <font BOLD="true" NAME="a&#xace0;&#xb515;15" SIZE="24"/>
 <node CREATED="1571267668188" ID="ID_986750464" MODIFIED="1571267673400" TEXT="&#xadf8;&#xb0e5; &#xd558;&#xc790; &#xc528;&#xbc1c;">
 <node CREATED="1571267674324" ID="ID_749784563" LINK="https://stackoverflow.com/questions/47936183/angular-file-upload" MODIFIED="1571267674324" TEXT="https://stackoverflow.com/questions/47936183/angular-file-upload"/>
@@ -982,9 +982,9 @@
 <node CREATED="1571853458331" ID="ID_964782129" MODIFIED="1571853495815" TEXT="&#xae30;&#xbcf8;&#xc801;&#xc73c;&#xb85c; file upload size&#xb294; 1mb&#xc774;&#xb2e4;."/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#ff3333" CREATED="1571269785669" FOLDED="true" ID="ID_1935746260" MODIFIED="1571683201398" POSITION="right" STYLE="bubble" TEXT="ngFor">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#ff3333" CREATED="1571269785669" ID="ID_1935746260" MODIFIED="1572212074047" POSITION="right" STYLE="bubble" TEXT="ngFor">
 <font BOLD="true" NAME="a&#xace0;&#xb515;15" SIZE="24"/>
-<node CREATED="1571269791742" LINK="https://www.techiediaries.com/angular-ngfor/" MODIFIED="1571269791742" TEXT="https://www.techiediaries.com/angular-ngfor/"/>
+<node CREATED="1571269791742" ID="ID_239175015" LINK="https://www.techiediaries.com/angular-ngfor/" MODIFIED="1571269791742" TEXT="https://www.techiediaries.com/angular-ngfor/"/>
 <node CREATED="1571269798618" LINK="https://angular.io/api/common/NgForOf" MODIFIED="1571269798618" TEXT="https://angular.io/api/common/NgForOf"/>
 </node>
 <node CREATED="1571270231344" FOLDED="true" ID="ID_435552309" MODIFIED="1571683201398" POSITION="right" TEXT="&#xd0c0;&#xc785;&#xc2a4;&#xd06c;&#xb9bd;&#xd2b8; arrayPush">
@@ -1019,7 +1019,7 @@
 <node CREATED="1571597889710" ID="ID_1389048406" MODIFIED="1571597889710" TEXT="Object.assign({},item)"/>
 </node>
 </node>
-<node CREATED="1571609221559" FOLDED="true" ID="ID_1733391114" MODIFIED="1571683201399" POSITION="right" TEXT="div &#xc548;&#xc5d0;&#xc11c; &#xc2a4;&#xd06c;&#xb864; &#xc560;&#xb2c8;&#xba54;&#xc774;&#xc158;">
+<node CREATED="1571609221559" FOLDED="true" ID="ID_1733391114" MODIFIED="1572219173329" POSITION="right" TEXT="div &#xc548;&#xc5d0;&#xc11c; &#xc2a4;&#xd06c;&#xb864; &#xc560;&#xb2c8;&#xba54;&#xc774;&#xc158;">
 <node CREATED="1571609231865" ID="ID_137197043" MODIFIED="1571609243259" TEXT="&#xc774;&#xac74; &#xae30;&#xbcf8;&#xc801;&#xc73c;&#xb85c; jquery&#xb97c; &#xd65c;&#xc6a9;&#xd588;&#xb2e4;."/>
 <node CREATED="1571609243545" ID="ID_804472531" MODIFIED="1571609249180" TEXT="&#xd544;&#xc694;&#xd55c;&#xac74; 3&#xac1c;&#xc774;&#xb2e4;">
 <node CREATED="1571609249818" ID="ID_1730187493" MODIFIED="1571609740061" TEXT="&#xd604;&#xc7ac; div&#xc758; &#xac1d;&#xad00;&#xc801;&#xc778; &#xc2a4;&#xd06c;&#xb864; &#xc704;&#xce58;(a)"/>
@@ -1030,7 +1030,7 @@
 <node CREATED="1571609746266" ID="ID_1318632496" MODIFIED="1571609749485" TEXT="a+b - c"/>
 </node>
 <node CREATED="1571609761898" ID="ID_1010524238" MODIFIED="1571609763119" TEXT="&#xcf54;&#xb4dc;">
-<node CREATED="1571609788467" MODIFIED="1571609788467" TEXT="setTimeout(()=&gt;{">
+<node CREATED="1571609788467" ID="ID_504168845" MODIFIED="1571609788467" TEXT="setTimeout(()=&gt;{">
 <node CREATED="1571609788468" MODIFIED="1571609788468" TEXT="let currentScroll:number = $(&quot;.artist_search_list&quot;).eq(0).scrollTop();"/>
 <node CREATED="1571609788469" MODIFIED="1571609788469" TEXT="let top:number  = currentScroll +  $(&quot;#w_&quot; + index).offset().top;"/>
 <node CREATED="1571609788470" MODIFIED="1571609788470" TEXT="let diff:number = $(&quot;.artist_search_list&quot;).offset().top;"/>
@@ -1046,7 +1046,7 @@
 <node CREATED="1571683202876" FOLDED="true" ID="ID_1658129296" MODIFIED="1572026690257" POSITION="right" TEXT="jquery important">
 <node CREATED="1571683319456" LINK="https://stackoverflow.com/a/2655976/8274275" MODIFIED="1571683319456" TEXT="https://stackoverflow.com/a/2655976/8274275"/>
 </node>
-<node CREATED="1571805848632" FOLDED="true" ID="ID_1946543288" MODIFIED="1572044974939" POSITION="right" TEXT="ng bootStrap(&#xd398;&#xc774;&#xc9c0;&#xb124;&#xc774;&#xc158; &#xbaa8;&#xb378; &#xb4f1;)">
+<node CREATED="1571805848632" FOLDED="true" ID="ID_1946543288" MODIFIED="1572152397295" POSITION="right" TEXT="ng bootStrap(&#xd398;&#xc774;&#xc9c0;&#xb124;&#xc774;&#xc158; &#xbaa8;&#xb378; &#xb4f1;)">
 <node CREATED="1571805891351" ID="ID_1486128024" MODIFIED="1571805893075" TEXT="&#xc124;&#xce58;">
 <node CREATED="1571805893364" ID="ID_525105220" LINK="https://ng-bootstrap.github.io/#/getting-started" MODIFIED="1571805893364" TEXT="https://ng-bootstrap.github.io/#/getting-started"/>
 </node>
@@ -1066,18 +1066,18 @@
 <node CREATED="1571808423485" ID="ID_978049355" MODIFIED="1571808426087" TEXT="html">
 <node CREATED="1571808420585" ID="ID_856719442" MODIFIED="1571808420585" TEXT="&lt;ngb-pagination">
 <node CREATED="1571808420588" MODIFIED="1571808420588" TEXT="[collectionSize]=&quot;works_list.length&quot;"/>
-<node CREATED="1571808420591" MODIFIED="1571808420591" TEXT="[pageSize]=&quot;works_list_pro.pageSize&quot;"/>
-<node CREATED="1571808420593" MODIFIED="1571808420593" TEXT="[(page)]=&quot;works_list_pro.page&quot;"/>
+<node CREATED="1571808420591" ID="ID_693675288" MODIFIED="1571808420591" TEXT="[pageSize]=&quot;works_list_pro.pageSize&quot;"/>
+<node CREATED="1571808420593" ID="ID_1777100470" MODIFIED="1571808420593" TEXT="[(page)]=&quot;works_list_pro.page&quot;"/>
 <node CREATED="1571808420595" MODIFIED="1571808420595" TEXT="aria-label=&quot;Default pagination&quot;"/>
-<node CREATED="1571808420597" MODIFIED="1571808420597" TEXT="(pageChange)= &quot;works_list_pro.pageChange()&quot;&gt;&lt;/ngb-pagination&gt;"/>
+<node CREATED="1571808420597" ID="ID_1741835063" MODIFIED="1571808420597" TEXT="(pageChange)= &quot;works_list_pro.pageChange()&quot;&gt;&lt;/ngb-pagination&gt;"/>
 </node>
 </node>
 <node CREATED="1571808426338" ID="ID_1248022279" MODIFIED="1571808427159" TEXT="ts">
 <node CREATED="1571808431550" MODIFIED="1571808431550" TEXT="works_list_pro ={">
-<node CREATED="1571808431551" MODIFIED="1571808431551" TEXT="page : 1,"/>
-<node CREATED="1571808431552" MODIFIED="1571808431552" TEXT="pageSize: 5,"/>
-<node CREATED="1571808431553" MODIFIED="1571808431553" TEXT="pageChange:()=&gt;{">
-<node CREATED="1571808431554" MODIFIED="1571808431554" TEXT="console.log(this.works_list_pro.page);"/>
+<node CREATED="1571808431551" ID="ID_771145427" MODIFIED="1571808431551" TEXT="page : 1,"/>
+<node CREATED="1571808431552" ID="ID_74308685" MODIFIED="1571808431552" TEXT="pageSize: 5,"/>
+<node CREATED="1571808431553" ID="ID_1607443636" MODIFIED="1571808431553" TEXT="pageChange:()=&gt;{">
+<node CREATED="1571808431554" ID="ID_1468236809" MODIFIED="1571808431554" TEXT="console.log(this.works_list_pro.page);"/>
 </node>
 <node CREATED="1571808431556" MODIFIED="1571808431556" TEXT="},"/>
 </node>
@@ -1099,6 +1099,13 @@
 <node CREATED="1572049327534" MODIFIED="1572049327534" TEXT="&lt;some-element [ngClass]=&quot;stringExp|arrayExp|objExp&quot;&gt;...&lt;/some-element&gt;"/>
 <node CREATED="1572049327535" MODIFIED="1572049327535" TEXT="&lt;some-element [ngClass]=&quot;{&apos;class1 class2 class3&apos; : true}&quot;&gt;...&lt;/some-element&gt;"/>
 </node>
+</node>
+<node COLOR="#3333ff" CREATED="1572209443525" ID="ID_622601424" MODIFIED="1572209505516" POSITION="right" STYLE="bubble" TEXT="for &#xbb38;&#xc5d0; &#xb300;&#xd55c; loop &#xad00;&#xb9ac;">
+<font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
+<node CREATED="1572209511364" LINK="https://stackoverflow.com/questions/183161/whats-the-best-way-to-break-from-nested-loops-in-javascript" MODIFIED="1572209511364" TEXT="https://stackoverflow.com/questions/183161/whats-the-best-way-to-break-from-nested-loops-in-javascript"/>
+</node>
+<node CREATED="1572227594040" ID="ID_1648492087" MODIFIED="1572227598238" POSITION="right" TEXT="css &#xb85c;&#xb529;">
+<node CREATED="1572227598949" LINK="https://jsfiddle.net/kmturley/54hqzmk7/?utm_source=website&amp;utm_medium=embed&amp;utm_campaign=54hqzmk7" MODIFIED="1572227598949" TEXT="https://jsfiddle.net/kmturley/54hqzmk7/?utm_source=website&amp;utm_medium=embed&amp;utm_campaign=54hqzmk7"/>
 </node>
 </node>
 </map>

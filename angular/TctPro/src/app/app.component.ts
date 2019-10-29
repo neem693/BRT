@@ -4,7 +4,7 @@ import { member_const } from './member/member_const/member_cosnt';
 import { MemberServiceService } from './member/member-service.service';
 import * as moment from "moment";
 
-declare const $:any;
+declare const $: any;
 
 @Component({
   selector: 'app-root',
@@ -14,30 +14,35 @@ declare const $:any;
 export class AppComponent {
   title = 'TctPro';
 
-  constructor(router:Router,memberService:MemberServiceService){
-    router.events.subscribe((x)=>{
-      setTimeout(()=>{
-        if($('.hr_01').hasClass('active') == false){
-        $('.hr_01').addClass('active');
-        console.log(11);
-      }},500)
+  constructor(router: Router, memberService: MemberServiceService) {
+    router.events.subscribe((x) => {
+      setTimeout(() => {
+        if ($('.hr_01').hasClass('active') == false) {
+          $('.hr_01').addClass('active');
+          // console.log(11);
+        }
+        if ($('.subject').hasClass('active') == false) {
+          $('.subject').addClass('active');
+          // console.log(11);
+        }
+      }, 500)
 
       let token = localStorage.getItem(member_const.token_key);
-      if(token != null && token != undefined){
+      if (token != null && token != undefined) {
 
         let currentUnix = moment().unix();
         let expire_unix = Number(localStorage.getItem(member_const.token_expire_key));
-        if(currentUnix>expire_unix){
+        if (currentUnix > expire_unix) {
           memberService.logout();
           memberService.changeLoginState(false);
           return;
         }
 
         memberService.changeLoginState(true);
-      }else{
+      } else {
         memberService.changeLoginState(false);
       }
-    
+
     })
 
   }

@@ -1,1 +1,39 @@
-<p>artist-add works!</p>
+<hr class="hr_01">
+<h1 class="subject">저작자 등록</h1>
+<hr class="hr_01">
+<form class="addartist_div">
+    <div class="addartist_sub">
+        <mat-icon class="artist_icon">brush</mat-icon>
+        <mat-form-field class="artist_input" appearance="fill">
+            <mat-label>저작자 이름</mat-label>
+            <input [formControl]="artist.artist_name" matInput placeholder="이름">
+            <mat-hint>저작자 이름</mat-hint>
+            <mat-error *ngIf="artist.artist_name.hasError('required')">이름을 반드시 입력해야합니다.</mat-error>
+        </mat-form-field>
+    </div>
+    <div class="addartist_sub">
+
+        <mat-icon class="artist_icon">ballot</mat-icon>
+        <div class="worklist_div">
+            <mat-form-field *ngIf="artist.work_list.length == 0" class="artist_input worklist_input" appearance="fill">
+                <mat-label>창작한 저작물</mat-label>
+                <input (click)="addWorks()" readonly matInput placeholder="이름">
+                <mat-hint>해당하는 저작물이 없을 경우 추후에 저작물을 등록 가능합니다.</mat-hint>
+            </mat-form-field>
+            <mat-form-field *ngFor="let item of artist.work_list; let i = index" class="artist_input worklist_input"
+                appearance="fill">
+                <mat-label>{{item.subject}}</mat-label>
+                <input (click)="addWorks()" readonly matInput placeholder="이름">
+                <mat-hint>저작물 이름</mat-hint>
+            </mat-form-field>
+            <button (click)="addWorks()" type="button" mat-raised-button class="artist_button" color="accent"><span
+                    *ngIf="artist.work_list.length == 0">추가</span><span
+                    *ngIf="artist.work_list.length > 0">수정</span></button>
+        </div>
+    </div>
+
+    <div class="clear"></div>
+    <div class="artist_save">
+        <button (click)="artistSave()" type="submit" mat-raised-button color="primary">
+            저작자 저장</button></div>
+</form>

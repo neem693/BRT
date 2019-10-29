@@ -21,4 +21,8 @@ export class WorksSerivceService {
    worksSelectOne(data:any){
      return this.http.get(environment.baseApiUrl + "/works/worksSelectOne",{params:data});
    }
+
+   worksSelectList(data:any){
+     return this.http.post(environment.baseApiUrl + "/works/selectWorks",data);
+   }
 }

@@ -9,30 +9,29 @@ import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 
-
 @Entity
-public class WorksSave {
+public class ArtistSave {
 	
 	@Id
 	@GeneratedValue(strategy=GenerationType.AUTO)
-	Long work_save_id;
+	Long artist_save_id;
 	
 	@ManyToOne
 	@JoinColumn(name="user_id")
-	Eva_user eva_user;	
-	
-	@ManyToOne
-	@JoinColumn(name="work_id")
-	Works works;
+	Eva_user eva_user;
 	
 	LocalDateTime save_date;
+	
+	@ManyToOne
+	@JoinColumn(name="artist_id")
+	Artist artist;
 
-	public Long getWork_save_id() {
-		return work_save_id;
+	public Long getArtist_save_id() {
+		return artist_save_id;
 	}
 
-	public void setWork_save_id(Long work_save_id) {
-		this.work_save_id = work_save_id;
+	public void setArtist_save_id(Long artist_save_id) {
+		this.artist_save_id = artist_save_id;
 	}
 
 	public Eva_user getEva_user() {
@@ -43,14 +42,6 @@ public class WorksSave {
 		this.eva_user = eva_user;
 	}
 
-	public Works getWorks() {
-		return works;
-	}
-
-	public void setWorks(Works works) {
-		this.works = works;
-	}
-
 	public LocalDateTime getSave_date() {
 		return save_date;
 	}
@@ -58,9 +49,14 @@ public class WorksSave {
 	public void setSave_date(LocalDateTime save_date) {
 		this.save_date = save_date;
 	}
-	
-	
-	
+
+	public Artist getArtist() {
+		return artist;
+	}
+
+	public void setArtist(Artist artist) {
+		this.artist = artist;
+	}
 	
 	
 

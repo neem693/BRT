@@ -26,6 +26,9 @@ import { WorksSerivceService } from './works/works-serivce.service';
 import {NgbPaginationModule} from '@ng-bootstrap/ng-bootstrap';
 import { AfterWorksSaveCheckComponent } from './works/after-works-save-check/after-works-save-check.component';
 import { ArtistAddComponent } from './artist/artist-add/artist-add.component';
+import { WorksAddComponent } from './artist/dialog/works-add/works-add-diaolog.component';
+import { ArtistService } from './artist/artist.service';
+import { AfterArtistSaveCheckComponent } from './artist/after-artist-save-check/after-artist-save-check.component';
 
 @NgModule({
   declarations: [
@@ -42,6 +45,8 @@ import { ArtistAddComponent } from './artist/artist-add/artist-add.component';
     AddArtistDialogComponent,
     AfterWorksSaveCheckComponent,
     ArtistAddComponent,
+    WorksAddComponent,
+    AfterArtistSaveCheckComponent,
 
     
   ],
@@ -72,12 +77,14 @@ import { ArtistAddComponent } from './artist/artist-add/artist-add.component';
   entryComponents: [
     JoinFailComponent,
     LoginFailComponent,
-    AddArtistDialogComponent
+    AddArtistDialogComponent,
+    WorksAddComponent
   ],
   providers: [
     CookieService,
     MemberServiceService,
     WorksSerivceService,
+    ArtistService,
     customVali,
     {
       provide:HTTP_INTERCEPTORS,

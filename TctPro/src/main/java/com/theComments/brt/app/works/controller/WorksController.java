@@ -1,14 +1,10 @@
 package com.theComments.brt.app.works.controller;
 
-import java.util.List;
 import java.util.Map;
-import java.util.Optional;
 
 import javax.servlet.http.HttpServletResponse;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpMethod;
-import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -17,9 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 
 import com.theComments.brt.app.works.service.WorksService;
-import com.theComments.brt.jpa.theComment.dao.Type2_dao;
-import com.theComments.brt.jpa.theComment.model.Type2;
-import com.theComments.brt.jpa.theComment.model.Works;
+import com.theComments.brt.jpa.dto.WorksDto;
 import com.theComments.brt.util.ResultMap;
 
 @RestController
@@ -66,6 +60,14 @@ public class WorksController {
 		
 		return result.getResultMap();
 
+	}
+	
+	@RequestMapping(value = "/selectWorks",method=RequestMethod.POST)
+	public Map<String,Object> selectWorks(@RequestBody WorksDto worksDto){
+		
+		ResultMap result = worksService.selectWorks(worksDto);
+		
+		return result.getResultMap();
 	}
 
 }

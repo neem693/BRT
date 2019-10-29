@@ -27,6 +27,8 @@ public class Create_art{
 	@JoinColumn(name="work_id")
 	Works works;
 	
+	LocalDateTime save_date;
+	
 
 	
 	
@@ -48,6 +50,13 @@ public class Create_art{
 	public void setWorks(Works works) {
 		this.works = works;
 	}
+	public LocalDateTime getSave_date() {
+		return save_date;
+	}
+	public void setSave_date(LocalDateTime save_date) {
+		this.save_date = save_date;
+	}
+	
 	
 	
 	
