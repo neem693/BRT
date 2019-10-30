@@ -8,6 +8,7 @@ import { WorksSerivceService } from '../works-serivce.service';
 import { RESULT } from 'src/const/publicConst';
 import { Router, ActivatedRoute } from '@angular/router';
 import { ArtistService } from 'src/app/artist/artist.service';
+import { WorksNameIsExistDialogComponent } from '../dialog/works-name-is-exist-dialog/works-name-is-exist-dialog.component';
 declare const $: any;
 
 @Component({
@@ -42,6 +43,18 @@ export class AddWorksComponent implements OnInit {
   typeList = {
     data: [],
     type2: []
+  }
+
+  /**work subject is exist
+   * when subject input changed, select subject name and check subjectIsExist 
+   */
+  subjectIsExist:boolean = false;
+  /**subject is exist list */
+  subjectCheckList:any[];
+  /**subject is exist list page data*/
+  subjectPageData = {
+    totalSize:0,
+    pageNum:1,
   }
 
   constructor(
@@ -284,6 +297,45 @@ export class AddWorksComponent implements OnInit {
         this.work.artistList.push(artist);
       }
     });
+  }
+
+  /** select work list fot if subject is exist */
+  worksSelectListExist(){
+    let subject = this.work.subject.value;
+    if(subject == "" || subject == null){
+      return;
+    }
+    let data = {'searchText':subject,'pageNum':1};
+    return this.workService.worksSelectList(data)
+    .subscribe(x=>{
+      this.subjectPageData.totalSize = x['totalSize'];
+      this.subjectCheckList = x['data'];
+      if(this.subjectCheckList.length > 0){
+        this.subjectIsExist = true;
+      }else{
+        this.subjectIsExist = false;
+      }
+    })
+  }
+  /**show the check subject dialog*/
+  checkWorkSubject(){
+    let dialogRef = this.dialog.open(WorksNameIsExistDialogComponent, {
+
+      data: { 
+        list:  this.subjectCheckList,
+        subject: this.work.subject.value, 
+        page:this.subjectPageData,
+      },
+      width: "80%"
+
+    })
+
+    dialogRef.afterClosed().subscribe((result) => {
+      if (result == undefined || result == null) {
+        return;
+      }
+
+    })
   }
 
 }

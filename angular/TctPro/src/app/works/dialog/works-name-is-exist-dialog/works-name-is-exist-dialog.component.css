@@ -1,5 +1,5 @@
 .work_search_list, .work_selected_list {
-    width: 50%;
+    width: 100%;
     display: inline-block;
     height: 500px;
     overflow: auto;
@@ -29,6 +29,20 @@
     padding: 10px 0;
     display: flex;
     justify-content: center;
+}
+.searchText{
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+.type_two_select{
+    display: flex;
+    justify-content: center;
+}
+
+.type_two_select mat-form-field{
+    display: block;
+    margin: 0 10px;
 }
 
 @media screen and (max-width: 1060px) {

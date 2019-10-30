@@ -82,7 +82,8 @@ import { ArtNameIsExistDialogComponent } from './artist/dialog/art-name-is-exist
     JoinFailComponent,
     LoginFailComponent,
     AddArtistDialogComponent,
-    WorksAddComponent
+    WorksAddComponent,
+    WorksNameIsExistDialogComponent,
   ],
   providers: [
     CookieService,

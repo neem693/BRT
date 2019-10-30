@@ -1,11 +1,29 @@
 <h1 mat-dialog-title>저작물 찾기(Search Artist)</h1>
 <div mat-dialog-content>
     <div id="work_search_list" class="work_search_list">
-        <h1>저작물 선택</h1>
-        <mat-form-field>
-            <input [(ngModel)]="works.searchText" matInput placeholder="저작물 검색">
+        <h1>저작물 제목이 중복되는게 없는지 확인해주세요</h1>
+        <mat-form-field class="searchText">
+            <input readonly [(ngModel)]="works.searchText" matInput placeholder="저작물 검색">
         </mat-form-field>
-        <button (click)="selectWorkList(works.pageNum)" mat-raised-button color="accent">검색</button>
+        <!-- <button (click)="selectWorkList(works.pageNum)" mat-raised-button color="accent">검색</button> -->
+        <div class = "type_two_select">
+            <mat-form-field>
+                <mat-label>저작물 대분류</mat-label>
+                <mat-select>
+                    <mat-option>
+                        --
+                    </mat-option>
+                </mat-select>
+            </mat-form-field>
+            <mat-form-field>
+                <mat-label>저작물 소분류</mat-label>
+                <mat-select>
+                    <mat-option>
+                        --
+                    </mat-option>
+                </mat-select>
+            </mat-form-field>
+        </div>
         <mat-accordion>
             <mat-expansion-panel [expanded]="works.step.list == i" (opened)="setStepList($event,i)"
                 *ngFor="let item of works_list; let i = index">
@@ -41,35 +59,6 @@
             </ngb-pagination>
         </div>
         <div *ngIf="works_list.length == 0" class="not_result">검색 결과가 없습니다.</div>
-    </div>
-    <hr class="work_dialog_hr">
-    <div class="work_selected_list">
-        <h1>선택된 저작물</h1>
-        <mat-accordion>
-            <mat-expansion-panel [expanded]="works.step.sel_list == i" (opened)="setStepSelList(i)"
-                *ngFor="let item of added_works_list; let i = index">
-
-                <mat-expansion-panel-header>
-                    <mat-panel-title>
-                        <button mat-button (click)="removeSelArtist(i)">제거</button>
-                    </mat-panel-title>
-                    <mat-panel-description>
-                        {{item.subject}}
-                    </mat-panel-description>
-                </mat-expansion-panel-header>
-                <span id="s_{{i}}"></span>
-                <mat-form-field>
-                    <input matInput placeholder="First name">
-                </mat-form-field>
-
-                <mat-form-field>
-                    <input matInput placeholder="Age">
-                </mat-form-field>
-                <mat-action-row>
-                    <button mat-button (click)="removeSelArtist(i)">제거</button>
-                </mat-action-row>
-            </mat-expansion-panel>
-        </mat-accordion>
     </div>
 </div>
 <div mat-dialog-actions>

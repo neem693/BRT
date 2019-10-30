@@ -59,7 +59,9 @@ export class WorksNameIsExistDialogComponent implements OnInit {
   ]
 
   ngOnInit() {
-    this.added_works_list = Object.assign([],this.data.list);
+    this.works_list = Object.assign([],this.data.list);
+    this.works.totalSize.list = this.data.page.totalSize;
+    this.works.searchText = this.data.subject;
   }
 
   confirm() {

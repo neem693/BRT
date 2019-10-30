@@ -7,10 +7,11 @@
         <mat-icon class="work_icon">subject</mat-icon>
         <mat-form-field class="work_input" appearance="fill">
             <mat-label>저작물 제목</mat-label>
-            <input [formControl]="work.subject" matInput placeholder="제목">
+            <input (change) = "worksSelectListExist()" [formControl]="work.subject" matInput placeholder="제목">
             <mat-hint>저작물 제목</mat-hint>
             <mat-error *ngIf="work.subject.hasError('required')">제목은 반드시 입력해야합니다.</mat-error>
         </mat-form-field>
+        <button class ="isExist" (click) = "checkWorkSubject()" *ngIf="subjectIsExist == true" color="warn" type = "button" mat-flat-button>이미 등록된 저작물일 수 있습니다.</button>
     </div>
     <div class="addwork_sub">
         <mat-icon class="work_icon">linear_scale</mat-icon>
