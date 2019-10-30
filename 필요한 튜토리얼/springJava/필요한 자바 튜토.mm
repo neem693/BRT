@@ -3531,6 +3531,10 @@
 <node CREATED="1570387403329" ID="ID_784334841" LINK="https://www.baeldung.com/jpa-joincolumn-vs-mappedby" MODIFIED="1570387403329" TEXT="https://www.baeldung.com/jpa-joincolumn-vs-mappedby"/>
 </node>
 </node>
+<node COLOR="#3333ff" CREATED="1572380138007" ID="ID_429853285" MODIFIED="1572380151347" STYLE="bubble" TEXT="dynamic Query">
+<font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
+<node CREATED="1572380146782" LINK="https://www.baeldung.com/spring-data-jpa-query" MODIFIED="1572380151328" TEXT="https://www.baeldung.com/spring-data-jpa-query"/>
+</node>
 <node BACKGROUND_COLOR="#ffffff" COLOR="#ff3333" CREATED="1571804542933" ID="ID_449463916" LINK="#ID_1524617429" MODIFIED="1571804555468" STYLE="bubble" TEXT="dto">
 <font BOLD="true" NAME="a&#xace0;&#xb515;15" SIZE="24"/>
 </node>

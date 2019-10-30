@@ -1,0 +1,56 @@
+.work_search_list, .work_selected_list {
+    width: 50%;
+    display: inline-block;
+    height: 500px;
+    overflow: auto;
+}
+
+.work_selected_list {
+    float: right;
+}
+
+.work_selected_list .mat-expansion-panel {
+    background-color: rgb(218, 223, 222);
+}
+
+.work_dialog_hr {
+    display: none;
+}
+
+.not_result {
+    font-size: xx-large;
+    width: 100%;
+    color: rgb(175, 184, 181);
+    text-align: center;
+    margin-top: 10%;
+}
+
+.pagination_class {
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1060px) {
+    h1 {
+        font-size: large;
+    }
+    .work_search_list, .work_selected_list {
+        width: 100%;
+        display: block;
+        height: 300px;
+    }
+    .work_selected_list {
+        float: none;
+    }
+    .work_dialog_hr {
+        display: block;
+    }
+    .not_result {
+        font-size: large;
+        width: 100%;
+        color: rgb(175, 184, 181);
+        text-align: center;
+        margin-top: 10%;
+    }
+}
