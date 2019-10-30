@@ -12,39 +12,39 @@ create table oauth_client_details (
   refresh_token_validity INTEGER,
   additional_information VARCHAR(4096),
   autoapprove VARCHAR(255)
-);
+)ENGINE=InnoDB DEFAULT CHARACTER SET=utf8;;
  
 drop table if exists oauth_client_token;
 create table oauth_client_token (
   token_id VARCHAR(255),
-  token VARBINARY,
+  token LONG VARBINARY,
   authentication_id VARCHAR(255) PRIMARY KEY,
   user_name VARCHAR(255),
   client_id VARCHAR(255)
-);
+)ENGINE=InnoDB DEFAULT CHARACTER SET=utf8;;
  
 drop table if exists oauth_access_token;
 create table oauth_access_token (
   token_id VARCHAR(255),
-  token VARBINARY,
+  token LONG VARBINARY,
   authentication_id VARCHAR(255) PRIMARY KEY,
   user_name VARCHAR(255),
   client_id VARCHAR(255),
-  authentication  VARBINARY,
+  authentication LONG VARBINARY,
   refresh_token VARCHAR(255)
-);
+)ENGINE=InnoDB DEFAULT CHARACTER SET=utf8;;
  
 drop table if exists oauth_refresh_token;
 create table oauth_refresh_token (
   token_id VARCHAR(255),
-  token VARBINARY,
-  authentication  VARBINARY
-);
+  token LONG VARBINARY,
+  authentication LONG VARBINARY
+)ENGINE=InnoDB DEFAULT CHARACTER SET=utf8;;
  
 drop table if exists oauth_code;
 create table oauth_code (
-  code VARCHAR(255), authentication  VARBINARY
-);
+  code VARCHAR(255), authentication LONG VARBINARY
+)ENGINE=InnoDB DEFAULT CHARACTER SET=utf8;;
  
 drop table if exists oauth_approvals;
 create table oauth_approvals (
@@ -54,7 +54,7 @@ create table oauth_approvals (
     status VARCHAR(10),
     expiresAt TIMESTAMP,
     lastModifiedAt TIMESTAMP
-);
+)ENGINE=InnoDB DEFAULT CHARACTER SET=utf8;;
  
 drop table if exists ClientDetails;
 create table ClientDetails (
@@ -69,4 +69,4 @@ create table ClientDetails (
   refresh_token_validity INTEGER,
   additionalInformation VARCHAR(4096),
   autoApproveScopes VARCHAR(255)
-);
+)ENGINE=InnoDB DEFAULT CHARACTER SET=utf8;
