@@ -1,8 +1,8 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1563522454767" ID="ID_1812649479" MODIFIED="1572342861250" TEXT="angular">
-<hook NAME="accessories/plugins/RevisionPlugin.properties"/>
 <hook NAME="accessories/plugins/CreationModificationPlugin_new.properties"/>
+<hook NAME="accessories/plugins/RevisionPlugin.properties"/>
 <node CREATED="1563522718142" FOLDED="true" ID="ID_1024043872" MODIFIED="1571055012268" POSITION="right" TEXT="&#xd604;&#xc7ac; &#xd29c;&#xd1a0;&#xb9ac;&#xc5bc;">
 <node CREATED="1563522713920" ID="ID_792755994" LINK="https://www.tutorialspoint.com/angular7/angular7_project_setup.htm" MODIFIED="1563522716082" TEXT="https://www.tutorialspoint.com/angular7/angular7_project_setup.htm"/>
 </node>
@@ -955,7 +955,7 @@
 <node CREATED="1571267092187" FOLDED="true" ID="ID_908828907" MODIFIED="1572029242715" POSITION="right" TEXT="dataQuestionMark">
 <node CREATED="1571267095635" LINK="https://stackoverflow.com/questions/45922715/what-is-the-meaning-of-question-mark-in-expressions-in-angular-2" MODIFIED="1571267095635" TEXT="https://stackoverflow.com/questions/45922715/what-is-the-meaning-of-question-mark-in-expressions-in-angular-2"/>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#ff3333" CREATED="1571267244643" FOLDED="true" ID="ID_822011010" MODIFIED="1572342862685" POSITION="right" STYLE="bubble" TEXT="angularFIleUpload">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#ff3333" CREATED="1571267244643" ID="ID_822011010" MODIFIED="1572380067315" POSITION="right" STYLE="bubble" TEXT="angularFIleUpload">
 <font BOLD="true" NAME="Dialog" SIZE="24"/>
 <node CREATED="1571267668188" ID="ID_986750464" MODIFIED="1571267673400" TEXT="&#xadf8;&#xb0e5; &#xd558;&#xc790; &#xc528;&#xbc1c;">
 <node CREATED="1571267674324" ID="ID_749784563" LINK="https://stackoverflow.com/questions/47936183/angular-file-upload" MODIFIED="1571267674324" TEXT="https://stackoverflow.com/questions/47936183/angular-file-upload"/>
