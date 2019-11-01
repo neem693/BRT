@@ -6,6 +6,7 @@ import { environment } from 'src/environments/environment';
   providedIn: 'root'
 })
 export class ArtistService {
+
  
 
   constructor(private http:HttpClient) { }
@@ -20,6 +21,11 @@ export class ArtistService {
 
   selectArtistList(data:any){
     return this.http.post(environment.baseApiUrl + "/artist/selectArtistList",data);
+  }
+
+  artistSelectListDetail(data:any) {
+    return this.http.post(environment.baseApiUrl + "/artist/selectArtistListDetial",data);
+    throw new Error("Method not implemented.");
   }
 
 

@@ -333,7 +333,7 @@
 </node>
 </node>
 <node CREATED="1566173568044" ID="ID_1816867178" MODIFIED="1566173574807" POSITION="right" TEXT="alt + shift + s"/>
-<node CREATED="1566190490009" FOLDED="true" ID="ID_767685997" MODIFIED="1571247335541" POSITION="right" TEXT="batchService &#xc624;&#xb958; &amp; flyway">
+<node CREATED="1566190490009" ID="ID_767685997" MODIFIED="1572589946394" POSITION="right" TEXT="batchService &#xc624;&#xb958; &amp; flyway">
 <node CREATED="1566191547662" ID="ID_1410866249" MODIFIED="1571247170601" TEXT="1">
 <node CREATED="1566191549334" ID="ID_1054801273" MODIFIED="1566191549334" TEXT="Caused by: java.lang.IllegalArgumentException: DatabaseType not found for product name: [MariaDB]"/>
 </node>
@@ -434,7 +434,7 @@
 <node CREATED="1566236215273" ID="ID_1851668283" LINK="https://stackoverflow.com/questions/49088847/after-spring-boot-2-0-migration-jdbcurl-is-required-with-driverclassname" MODIFIED="1566236215273" TEXT="https://stackoverflow.com/questions/49088847/after-spring-boot-2-0-migration-jdbcurl-is-required-with-driverclassname"/>
 <node CREATED="1566358929893" ID="ID_763291293" MODIFIED="1569185840311" TEXT="&#xd574;&#xacb0;">
 <node CREATED="1566358933675" ID="ID_330139780" MODIFIED="1566358947405" TEXT="&#xd574;&#xb2f9; &#xb450; &#xb9c1;&#xd06c;&#xb97c; &#xc801;&#xc808;&#xd788; &#xc11e;&#xc5b4;&#xc11c; &#xc9c4;&#xd589;&#xc744; &#xd574;&#xc57c;&#xb9cc; &#xd55c;&#xb2e4;."/>
-<node CREATED="1566359294730" FOLDED="true" ID="ID_1511968131" MODIFIED="1569185847848" TEXT="&#xd574;&#xb2f9; &#xd574;&#xacb0;(&#xc774;&#xbbf8;&#xc9c0;)">
+<node CREATED="1566359294730" FOLDED="true" ID="ID_1511968131" MODIFIED="1572590027921" TEXT="&#xd574;&#xb2f9; &#xd574;&#xacb0;(&#xc774;&#xbbf8;&#xc9c0;)">
 <node CREATED="1566359335226" ID="ID_1238942256" MODIFIED="1566359335226">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -447,7 +447,7 @@
 </node>
 </node>
 <node CREATED="1566359538898" ID="ID_981387799" MODIFIED="1566359557806" TEXT="&#xba3c;&#xc800; propertis&#xb97c; &#xac00;&#xc838;&#xc624;&#xb294; &#xd568;&#xc218;&#xb97c; &#xb9cc;&#xb4e0;&#xd6c4; &#xadf8;&#xc5d0; &#xb530;&#xb974;&#xb294; datasource&#xb97c; &#xb9cc;&#xb4e0;&#xb2e4;."/>
-<node CREATED="1566359565090" ID="ID_1880450760" MODIFIED="1566359598398" TEXT="&#xcd94;&#xac00;&#xc801;&#xc73c;&#xb85c; &#xc54c;&#xc544;&#xb46c;&#xc57c; &#xd560;&#xac83;&#xc740; HikariDatasource&#xc778;&#xb370; &#xc774; datasource&#xb294; &#xc880;&#xb354; &#xbe60;&#xb974;&#xb2e4;&#xace0; &#xd55c;&#xb2e4;."/>
+<node CREATED="1566359565090" ID="ID_1880450760" MODIFIED="1572593248928" TEXT="&#xcd94;&#xac00;&#xc801;&#xc73c;&#xb85c; &#xc54c;&#xc544;&#xb46c;&#xc57c; &#xd560;&#xac83;&#xc740; HikariDatasource&#xc778;&#xb370; &#xc774; datasource&#xb294; &#xc880;&#xb354; &#xbe60;&#xb974;&#xb2e4;&#xace0; &#xd55c;&#xb2e4;."/>
 </node>
 <node CREATED="1566359353297" ID="ID_895858694" MODIFIED="1569185849549" TEXT="&#xbc30;&#xce58; &#xae30;&#xbcf8;&#xc801; &#xbd80;&#xbd84;&#xc740; &#xb2e4;&#xc74c;&#xacfc; &#xac19;&#xb2e4;. &#xc5b4;&#xb5bb;&#xac8c; &#xb3d9;&#xc791;&#xd558;&#xb294;&#xc9c0;&#xc5d0; &#xb300;&#xd55c; &#xbd80;&#xbd84;(&#xc774;&#xbbf8;&#xc9c0;)">
 <node CREATED="1566361486631" ID="ID_1745462485" MODIFIED="1566361486631">
@@ -3487,7 +3487,7 @@
 <node CREATED="1570140566602" FOLDED="true" ID="ID_1963169176" MODIFIED="1572414311205" TEXT="&#xcf58;&#xc194;&#xc5d0; sql &#xacfc;&#xc815;&#xacfc; &#xacb0;&#xacfc; &#xb728;&#xac8c; &#xd558;&#xae30;">
 <node CREATED="1570141461261" ID="ID_155807835" LINK="https://www.popit.kr/%EC%8A%A4%ED%94%84%EB%A7%81-%EB%B6%80%ED%8A%B8-auto-configuration%EA%B3%BC-jpa%ED%95%98%EC%9D%B4%EB%B2%84%EB%84%A4%EC%9D%B4%ED%8A%B8-sql%EB%AC%B8-%EB%A1%9C%EA%B9%85/" MODIFIED="1570141461261" TEXT="https://www.popit.kr/%EC%8A%A4%ED%94%84%EB%A7%81-%EB%B6%80%ED%8A%B8-auto-configuration%EA%B3%BC-jpa%ED%95%98%EC%9D%B4%EB%B2%84%EB%84%A4%EC%9D%B4%ED%8A%B8-sql%EB%AC%B8-%EB%A1%9C%EA%B9%85/"/>
 </node>
-<node CREATED="1570142505951" FOLDED="true" ID="ID_668810708" MODIFIED="1572414311205" TEXT="jpa &#xd398;&#xc774;&#xc9c0;&#xb124;&#xc774;&#xc158;">
+<node CREATED="1570142505951" ID="ID_668810708" MODIFIED="1572509385789" TEXT="jpa &#xd398;&#xc774;&#xc9c0;&#xb124;&#xc774;&#xc158;">
 <node CREATED="1570149645253" ID="ID_1551741864" LINK="https://www.baeldung.com/spring-data-jpa-pagination-sorting" MODIFIED="1571694519766" TEXT="https://www.baeldung.com/spring-data-jpa-pagination-sorting"/>
 <node CREATED="1570142511971" ID="ID_785756353" LINK="https://stackoverflow.com/questions/23136469/order-by-count-using-spring-data-jparepository" MODIFIED="1571694519767" TEXT="https://stackoverflow.com/questions/23136469/order-by-count-using-spring-data-jparepository"/>
 <node CREATED="1571759843723" ID="ID_110757357" MODIFIED="1571759844925" TEXT="&#xae30;&#xcd08;">
@@ -3534,12 +3534,139 @@
 <node COLOR="#3333ff" CREATED="1572380138007" ID="ID_429853285" MODIFIED="1572414319076" STYLE="bubble" TEXT="dynamic Query">
 <font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
 <node CREATED="1572380146782" ID="ID_1497990452" LINK="https://www.baeldung.com/spring-data-jpa-query" MODIFIED="1572380151328" TEXT="https://www.baeldung.com/spring-data-jpa-query"/>
+<node COLOR="#3333ff" CREATED="1572507672659" ID="ID_1446360692" MODIFIED="1572507731464" STYLE="bubble" TEXT="criteria query&#xc2dc;&#xc5d0; join &#xd560; &#xb54c; example 2&#xb97c; &#xcc38;&#xc870;&#xd558;&#xb3c4;&#xb85d; &#xd558;&#xb77c;">
+<font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
+</node>
+<node CREATED="1572507655858" ID="ID_1951382040" LINK="https://www.programcreek.com/java-api-examples/?api=javax.persistence.criteria.Join" MODIFIED="1572507655858" TEXT="https://www.programcreek.com/java-api-examples/?api=javax.persistence.criteria.Join"/>
+<node COLOR="#3333ff" CREATED="1572509394497" ID="ID_242008061" MODIFIED="1572509451705" STYLE="bubble" TEXT="criteria query&#xc2dc;&#xc5d0; pagination &#xc124;&#xc815;(4&#xbc88; &#xcc38;&#xace0;)">
+<font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
+</node>
+<node CREATED="1572509408288" ID="ID_998192109" LINK="https://www.baeldung.com/jpa-pagination" MODIFIED="1572509408288" TEXT="https://www.baeldung.com/jpa-pagination"/>
+<node CREATED="1572513139090" ID="ID_67332575" MODIFIED="1572513150720" TEXT="&#xc5ec;&#xae30;&#xc11c; totalCount&#xb294; Long&#xc73c;&#xb85c; &#xb2f4;&#xc544;&#xc57c; &#xb428;. &#xadf8;&#xb807;&#xc9c0; &#xc54a;&#xc73c;&#xba74; &#xb2f4;&#xc544;&#xc9c0;&#xc9c0;&#xb3c4; &#xc54a;&#xc74c;"/>
+<node CREATED="1572584702485" ID="ID_926907536" MODIFIED="1572584703417" TEXT="&#xcf54;&#xb4dc;">
+<node CREATED="1572584703677" MODIFIED="1572584703677" TEXT="package com.theComments.brt.jpa.theComment.dao;"/>
+<node CREATED="1572584703680" MODIFIED="1572584703680" TEXT="import java.util.ArrayList;"/>
+<node CREATED="1572584703680" MODIFIED="1572584703680" TEXT="import java.util.List;"/>
+<node CREATED="1572584703681" MODIFIED="1572584703681" TEXT="import javax.persistence.EntityManager;"/>
+<node CREATED="1572584703682" MODIFIED="1572584703682" TEXT="import javax.persistence.EntityManagerFactory;"/>
+<node CREATED="1572584703683" MODIFIED="1572584703683" TEXT="import javax.persistence.TypedQuery;"/>
+<node CREATED="1572584703684" MODIFIED="1572584703684" TEXT="import javax.persistence.criteria.CriteriaBuilder;"/>
+<node CREATED="1572584703685" MODIFIED="1572584703685" TEXT="import javax.persistence.criteria.CriteriaQuery;"/>
+<node CREATED="1572584703686" MODIFIED="1572584703686" TEXT="import javax.persistence.criteria.Join;"/>
+<node CREATED="1572584703687" MODIFIED="1572584703687" TEXT="import javax.persistence.criteria.JoinType;"/>
+<node CREATED="1572584703688" MODIFIED="1572584703688" TEXT="import javax.persistence.criteria.Predicate;"/>
+<node CREATED="1572584703690" MODIFIED="1572584703690" TEXT="import javax.persistence.criteria.Root;"/>
+<node CREATED="1572584703692" MODIFIED="1572584703692" TEXT="import org.springframework.beans.BeanUtils;"/>
+<node CREATED="1572584703693" MODIFIED="1572584703693" TEXT="import org.springframework.beans.factory.annotation.Autowired;"/>
+<node CREATED="1572584703694" MODIFIED="1572584703694" TEXT="import org.springframework.beans.factory.annotation.Qualifier;"/>
+<node CREATED="1572584703694" MODIFIED="1572584703694" TEXT="import org.springframework.stereotype.Component;"/>
+<node CREATED="1572584703695" MODIFIED="1572584703695" TEXT="import com.theComments.brt.constFile.PageConst.PAGE;"/>
+<node CREATED="1572584703696" MODIFIED="1572584703696" TEXT="import com.theComments.brt.jpa.dto.Type1Dto;"/>
+<node CREATED="1572584703697" MODIFIED="1572584703697" TEXT="import com.theComments.brt.jpa.dto.Type2Dto;"/>
+<node CREATED="1572584703698" MODIFIED="1572584703698" TEXT="import com.theComments.brt.jpa.dto.WorksDto;"/>
+<node CREATED="1572584703699" MODIFIED="1572584703699" TEXT="import com.theComments.brt.jpa.theComment.model.Type1;"/>
+<node CREATED="1572584703700" MODIFIED="1572584703700" TEXT="import com.theComments.brt.jpa.theComment.model.Type2;"/>
+<node CREATED="1572584703701" MODIFIED="1572584703701" TEXT="import com.theComments.brt.jpa.theComment.model.Works;"/>
+<node CREATED="1572584703702" MODIFIED="1572584703702" TEXT="import com.theComments.brt.util.ResultMap;"/>
+<node CREATED="1572584703703" MODIFIED="1572584703703" TEXT="@Component"/>
+<node CREATED="1572584703704" FOLDED="true" ID="ID_1182796062" MODIFIED="1572584704584" TEXT="public class DynamicQueryDao {">
+<node CREATED="1572584703704" MODIFIED="1572584703704" TEXT="@Autowired"/>
+<node CREATED="1572584703706" MODIFIED="1572584703706" TEXT="@Qualifier(&quot;emFac1&quot;)"/>
+<node CREATED="1572584703706" MODIFIED="1572584703706" TEXT="EntityManagerFactory entityManagerFactory;"/>
+<node CREATED="1572584703707" MODIFIED="1572584703707" TEXT="public ResultMap SelectWorksDynamic(WorksDto worksDto, Type2Dto type2, Type1Dto type1) {">
+<node CREATED="1572584703708" MODIFIED="1572584703708" TEXT="EntityManager em = entityManagerFactory.createEntityManager();"/>
+<node CREATED="1572584703709" MODIFIED="1572584703709" TEXT="CriteriaBuilder cb = em.getCriteriaBuilder();"/>
+<node CREATED="1572584703710" MODIFIED="1572584703710" TEXT="CriteriaQuery&lt;Works&gt; cq = cb.createQuery(Works.class);"/>
+<node CREATED="1572584703711" MODIFIED="1572584703711" TEXT="Root&lt;Works&gt; worksRoot = cq.from(Works.class);"/>
+<node CREATED="1572584703711" MODIFIED="1572584703711" TEXT="Join&lt;Works, Type2&gt; type2Root = worksRoot.join(&quot;type2&quot;, JoinType.INNER);"/>
+<node CREATED="1572584703712" MODIFIED="1572584703712" TEXT="Join&lt;Type2, Type1&gt; type1Root = type2Root.join(&quot;type1&quot;, JoinType.INNER);"/>
+<node CREATED="1572584703712" MODIFIED="1572584703712" TEXT="Long type1_id = type1.getType1_id();"/>
+<node CREATED="1572584703712" MODIFIED="1572584703712" TEXT="Long type2_id = type2.getType2_id();"/>
+<node CREATED="1572584703713" MODIFIED="1572584703713" TEXT="List&lt;Predicate&gt; predicate_list = new ArrayList&lt;Predicate&gt;();"/>
+<node CREATED="1572584703714" MODIFIED="1572584703714" TEXT="if (type1_id != 0) {">
+<node CREATED="1572584703714" MODIFIED="1572584703714" TEXT="Predicate type1Pre = cb.equal(type1Root.get(&quot;type1_id&quot;), type1_id);"/>
+<node CREATED="1572584703715" MODIFIED="1572584703715" TEXT="predicate_list.add(type1Pre);"/>
+</node>
+<node CREATED="1572584703716" MODIFIED="1572584703716" TEXT="}"/>
+<node CREATED="1572584703716" MODIFIED="1572584703716" TEXT="if (type2_id != 0) {">
+<node CREATED="1572584703717" MODIFIED="1572584703717" TEXT="Predicate type2Pre = cb.equal(type2Root.get(&quot;type2_id&quot;), type2_id);"/>
+<node CREATED="1572584703718" MODIFIED="1572584703718" TEXT="predicate_list.add(type2Pre);"/>
+</node>
+<node CREATED="1572584703719" MODIFIED="1572584703719" TEXT="}"/>
+<node CREATED="1572584703719" MODIFIED="1572584703719" TEXT="StringBuffer searchTextBuffer = new StringBuffer().append(&quot;%&quot;).append(worksDto.getSearchText()).append(&quot;%&quot;);"/>
+<node CREATED="1572584703723" MODIFIED="1572584703723" TEXT="Predicate worksSubjectPre = cb.like(worksRoot.get(&quot;subject&quot;), searchTextBuffer.toString());"/>
+<node CREATED="1572584703724" MODIFIED="1572584703724" TEXT="predicate_list.add(worksSubjectPre);"/>
+<node CREATED="1572584703725" MODIFIED="1572584703725" TEXT="Predicate[] predicate_array = new Predicate[predicate_list.size()];"/>
+<node CREATED="1572584703727" MODIFIED="1572584703727" TEXT="predicate_array = predicate_list.toArray(predicate_array);"/>
+<node CREATED="1572584703728" MODIFIED="1572584703728" TEXT="TypedQuery&lt;Works&gt; typeQuery = em.createQuery(cq.select(worksRoot).where(predicate_array));"/>
+<node CREATED="1572584703729" MODIFIED="1572584703729" TEXT="typeQuery.setFirstResult(worksDto.getPageNum() - 1);"/>
+<node CREATED="1572584703729" MODIFIED="1572584703729" TEXT="typeQuery.setMaxResults(PAGE.PAGE_SIZE);"/>
+<node CREATED="1572584703731" MODIFIED="1572584703731" TEXT="Long totalCount = this.selectWorksDynamicTotalCount(worksDto, type2, type1,em);"/>
+<node CREATED="1572584703731" MODIFIED="1572584703731" TEXT="List&lt;Works&gt; works_list = typeQuery.getResultList();"/>
+<node CREATED="1572584703732" MODIFIED="1572584703732" TEXT="List&lt;WorksDto&gt; worksDtoList = new ArrayList&lt;WorksDto&gt;();"/>
+<node CREATED="1572584703732" MODIFIED="1572584703732" TEXT="for (Works work : works_list) {">
+<node CREATED="1572584703732" MODIFIED="1572584703732" TEXT="WorksDto dto = new WorksDto();"/>
+<node CREATED="1572584703733" MODIFIED="1572584703733" TEXT="BeanUtils.copyProperties(work, dto);"/>
+<node CREATED="1572584703733" MODIFIED="1572584703733" TEXT="worksDtoList.add(dto);"/>
+</node>
+<node CREATED="1572584703734" MODIFIED="1572584703734" TEXT="}"/>
+<node CREATED="1572584703734" MODIFIED="1572584703734" TEXT="ResultMap result = new ResultMap();"/>
+<node CREATED="1572584703735" MODIFIED="1572584703735" TEXT="result.setData(worksDtoList);"/>
+<node CREATED="1572584703735" MODIFIED="1572584703735" TEXT="result.setTotalSize(totalCount);"/>
+<node CREATED="1572584703735" MODIFIED="1572584703735" TEXT="em.close();"/>
+<node CREATED="1572584703736" MODIFIED="1572584703736" TEXT="return result;"/>
+</node>
+<node CREATED="1572584703736" MODIFIED="1572584703736" TEXT="}"/>
+<node CREATED="1572584703737" MODIFIED="1572584703737" TEXT="private Long selectWorksDynamicTotalCount(WorksDto worksDto, Type2Dto type2, Type1Dto type1,EntityManager em) {">
+<node CREATED="1572584703739" MODIFIED="1572584703739" TEXT="// TODO Auto-generated method stub"/>
+<node CREATED="1572584703740" MODIFIED="1572584703740" TEXT="//EntityManager em = entityManagerFactory.createEntityManager();"/>
+<node CREATED="1572584703741" MODIFIED="1572584703741" TEXT="CriteriaBuilder cb = em.getCriteriaBuilder();"/>
+<node CREATED="1572584703741" MODIFIED="1572584703741" TEXT="CriteriaQuery&lt;Long&gt; cq = cb.createQuery(Long.class);"/>
+<node CREATED="1572584703742" MODIFIED="1572584703742" TEXT="Root&lt;Works&gt; worksRoot = cq.from(Works.class);"/>
+<node CREATED="1572584703743" MODIFIED="1572584703743" TEXT="Join&lt;Works, Type2&gt; type2Root = worksRoot.join(&quot;type2&quot;, JoinType.INNER);"/>
+<node CREATED="1572584703743" MODIFIED="1572584703743" TEXT="Join&lt;Type2, Type1&gt; type1Root = type2Root.join(&quot;type1&quot;, JoinType.INNER);"/>
+<node CREATED="1572584703744" MODIFIED="1572584703744" TEXT="Long type1_id = type1.getType1_id();"/>
+<node CREATED="1572584703744" MODIFIED="1572584703744" TEXT="Long type2_id = type2.getType2_id();"/>
+<node CREATED="1572584703745" MODIFIED="1572584703745" TEXT="List&lt;Predicate&gt; predicate_list = new ArrayList&lt;Predicate&gt;();"/>
+<node CREATED="1572584703746" MODIFIED="1572584703746" TEXT="if (type1_id != 0) {">
+<node CREATED="1572584703746" MODIFIED="1572584703746" TEXT="Predicate type1Pre = cb.equal(type1Root.get(&quot;type1_id&quot;), type1_id);"/>
+<node CREATED="1572584703747" MODIFIED="1572584703747" TEXT="predicate_list.add(type1Pre);"/>
+</node>
+<node CREATED="1572584703748" MODIFIED="1572584703748" TEXT="}"/>
+<node CREATED="1572584703748" MODIFIED="1572584703748" TEXT="if (type2_id != 0) {">
+<node CREATED="1572584703749" MODIFIED="1572584703749" TEXT="Predicate type2Pre = cb.equal(type2Root.get(&quot;type2_id&quot;), type2_id);"/>
+<node CREATED="1572584703750" MODIFIED="1572584703750" TEXT="predicate_list.add(type2Pre);"/>
+</node>
+<node CREATED="1572584703751" MODIFIED="1572584703751" TEXT="}"/>
+<node CREATED="1572584703751" MODIFIED="1572584703751" TEXT="StringBuffer searchTextBuffer = new StringBuffer().append(&quot;%&quot;).append(worksDto.getSearchText()).append(&quot;%&quot;);"/>
+<node CREATED="1572584703754" MODIFIED="1572584703754" TEXT="Predicate worksSubjectPre = cb.like(worksRoot.get(&quot;subject&quot;), searchTextBuffer.toString());"/>
+<node CREATED="1572584703755" MODIFIED="1572584703755" TEXT="predicate_list.add(worksSubjectPre);"/>
+<node CREATED="1572584703756" MODIFIED="1572584703756" TEXT="Predicate[] predicate_array = new Predicate[predicate_list.size()];"/>
+<node CREATED="1572584703756" MODIFIED="1572584703756" TEXT="predicate_array = predicate_list.toArray(predicate_array);"/>
+<node CREATED="1572584703757" MODIFIED="1572584703757" TEXT="cq.select(cb.count(worksRoot)).where(predicate_array);"/>
+<node CREATED="1572584703757" MODIFIED="1572584703757" TEXT="Long count = em.createQuery(cq).getSingleResult();"/>
+<node CREATED="1572584703758" MODIFIED="1572584703758" TEXT="return count;"/>
+</node>
+<node CREATED="1572584703758" MODIFIED="1572584703758" TEXT="}"/>
+</node>
+<node CREATED="1572584703759" MODIFIED="1572584703759" TEXT="}"/>
+</node>
+</node>
+<node BACKGROUND_COLOR="#ffffff" COLOR="#ff3333" CREATED="1572584636189" ID="ID_1949644332" MODIFIED="1572584669423" STYLE="bubble" TEXT="criteria query &#xc2dc;&#xc5d0; EntityManager&#xb97c; &#xbc18;&#xb4dc;&#xc2dc; close &#xd574;&#xc918;&#xc57c; &#xd55c;&#xb2e4;!!">
+<font BOLD="true" NAME="Dialog" SIZE="24"/>
+<node CREATED="1572584671485" ID="ID_1823645871" MODIFIED="1572584695309" TEXT="&#xadf8;&#xb807;&#xc9c0; &#xc54a;&#xc73c;&#xba74; JDBC POOL&#xc774; &#xcffc;&#xb9ac; &#xc2dc;&#xb9c8;&#xb2e4; ACTIVE&#xac00; &#xb420;&#xac83;"/>
+<node CREATED="1572584718373" ID="ID_1352557127" MODIFIED="1572584718978" TEXT="&#xcf54;&#xb4dc;">
+<node CREATED="1572584719236" ID="ID_1518348567" MODIFIED="1572584719236" TEXT="EntityManager em = entityManagerFactory.createEntityManager();"/>
+<node CREATED="1572584720606" ID="ID_1214431566" MODIFIED="1572584723654" TEXT="..."/>
+<node CREATED="1572584724631" ID="ID_705274176" MODIFIED="1572584730533" TEXT="em.close();"/>
+</node>
 </node>
 <node BACKGROUND_COLOR="#ffffff" COLOR="#ff3333" CREATED="1571804542933" ID="ID_449463916" LINK="#ID_1524617429" MODIFIED="1571804555468" STYLE="bubble" TEXT="dto">
 <font BOLD="true" NAME="Dialog" SIZE="24"/>
 </node>
 </node>
-<node CREATED="1570220267695" FOLDED="true" ID="ID_432910582" MODIFIED="1572155440073" POSITION="right" TEXT="datasource &#xcee4;&#xc2a4;&#xd140; yml &#xc73c;&#xb85c; &#xc124;&#xc815; &#xc801;&#xc6a9;">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#ff3333" CREATED="1570220267695" FOLDED="true" ID="ID_432910582" MODIFIED="1572593206070" POSITION="right" STYLE="bubble" TEXT="datasource &#xcee4;&#xc2a4;&#xd140; yml &#xc73c;&#xb85c; &#xc124;&#xc815; &#xc801;&#xc6a9;">
+<font BOLD="true" NAME="Dialog" SIZE="24"/>
 <node CREATED="1570217513818" ID="ID_179807009" LINK="#ID_1428543512" MODIFIED="1570217526138" TEXT="datasource &#xc798; &#xc548; &#xc801;&#xc6a9;&#xb420; &#xb54c;"/>
 <node CREATED="1570220279808" ID="ID_1723667928" MODIFIED="1570220282579" TEXT="&#xc5ec;&#xae30;&#xc11c; &#xb354; &#xd544;&#xc694;&#xd55c;&#xac8c; &#xc788;&#xb2e4;."/>
 <node CREATED="1570220296720" ID="ID_377681665" MODIFIED="1570220296720" TEXT="@PropertySource(value =&quot;classpath:dataSourceConfig.yml&quot;, factory=YamlPropertyLoaderFactory.class)"/>
@@ -3564,7 +3691,7 @@
 </node>
 <node CREATED="1570220317693" ID="ID_624244484" MODIFIED="1570220317693" TEXT="}"/>
 </node>
-<node CREATED="1570220352455" FOLDED="true" ID="ID_481032358" MODIFIED="1571803568878" TEXT="&#xc804;&#xccb4;&#xcf54;&#xb4dc;">
+<node CREATED="1570220352455" ID="ID_481032358" MODIFIED="1572593202385" TEXT="&#xc804;&#xccb4;&#xcf54;&#xb4dc;">
 <node CREATED="1570220418706" ID="ID_1343343200" MODIFIED="1570220418706" TEXT="package com.theComments.brt.config;"/>
 <node CREATED="1570220418709" ID="ID_1182085315" MODIFIED="1570220418709" TEXT="import javax.sql.DataSource;"/>
 <node CREATED="1570220418711" ID="ID_1288552317" MODIFIED="1570220418711" TEXT="import org.springframework.beans.factory.annotation.Qualifier;"/>
@@ -3816,6 +3943,73 @@
 <font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
 </node>
 <node CREATED="1572406614998" ID="ID_1503836525" MODIFIED="1572406627611" TEXT="&#xadf8;&#xb0e5; flyway&#xc5d0; &#xace0;&#xc815;&#xc801;&#xc778; create Table&#xb3c4; &#xd558;&#xb098;&#xc758; &#xbc29;&#xbc95;&#xc77c; &#xb4ef; &#xd558;&#xb2e4;."/>
+</node>
+<node COLOR="#3333ff" CREATED="1572590212509" ID="ID_1663310988" MODIFIED="1572593220311" POSITION="right" STYLE="bubble" TEXT="hikari Datasource setting(total connection pool &#xc744; &#xc124;&#xc815;&#xd558;&#xae30; &#xc704;&#xd574;&#xc11c;)">
+<font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
+<node CREATED="1572593223833" ID="ID_221554811" LINK="#ID_1880450760" MODIFIED="1572593249908" TEXT="hikari &#xb9e5;&#xb77d;"/>
+<node COLOR="#3333ff" CREATED="1572593253367" ID="ID_1695977513" MODIFIED="1572593474382" STYLE="bubble" TEXT="&#xae30;&#xbcf8;&#xc801;&#xc73c;&#xb85c; spring boot 2 &#xc11c;&#xbd80;&#xd130;&#xb294; HikariDatasource&#xb97c; &#xac15;&#xc81c;&#xc801;&#xc73c;&#xb85c; &#xc801;&#xc6a9;&#xd55c;&#xb2e4;.">
+<font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
+</node>
+<node COLOR="#3333ff" CREATED="1572593478837" ID="ID_1956569313" MODIFIED="1572593665072" STYLE="bubble" TEXT="&#xadf8;&#xb7f0;&#xac83;&#xb3c4; &#xc788;&#xace0; total connection pool&#xc774;&#xb77c;&#xace0; &#xd574;&#xc11c; pool size&#xb97c; &#xc124;&#xc815;&#xd574;&#xc57c; &#xd558;&#xb294;&#xac8c; &#xc788;&#xb294;&#xb370; &#xadf8;&#xac8c; java&#xc5d0;&#xc11c; &#xc124;&#xc815;&#xc774; &#xac00;&#xb2a5;&#xd558;&#xb2e4;.">
+<font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
+</node>
+<node CREATED="1572593672462" ID="ID_1055173411" MODIFIED="1572594555146" TEXT="&#xc554;&#xd2bc; &#xb2e4;&#xc74c;&#xacfc; &#xac19;&#xc774; &#xc124;&#xc815;&#xd55c;&#xb2e4;.">
+<node CREATED="1572593684717" ID="ID_518185887" MODIFIED="1572593684717" TEXT="@Bean">
+<node CREATED="1572593684719" MODIFIED="1572593684719" TEXT="@Primary"/>
+<node CREATED="1572593684720" MODIFIED="1572593684720" TEXT="@Qualifier(&quot;primaryDataSource&quot;)"/>
+<node CREATED="1572593684720" ID="ID_1915557944" MODIFIED="1572593684720" TEXT="public HikariDataSource primaryDataSource() {">
+<node CREATED="1572593684722" MODIFIED="1572593684722" TEXT="HikariConfig hsc = new HikariConfig();"/>
+<node CREATED="1572593684723" MODIFIED="1572593684723" TEXT="hsc.setUsername(primaryDataSourceProperties().getUsername());"/>
+<node CREATED="1572593684724" MODIFIED="1572593684724" TEXT="hsc.setPassword(primaryDataSourceProperties().getPassword());"/>
+<node CREATED="1572593684725" MODIFIED="1572593684725" TEXT="hsc.setDriverClassName(primaryDataSourceProperties().getDriverClassName());"/>
+<node CREATED="1572593684726" MODIFIED="1572593684726" TEXT="hsc.setJdbcUrl(primaryDataSourceProperties().getUrl());"/>
+<node CREATED="1572593684727" MODIFIED="1572593684727" TEXT="hsc.setMaximumPoolSize(20);"/>
+<node CREATED="1572593684728" MODIFIED="1572593684728" TEXT="HikariDataSource hs = new HikariDataSource(hsc);"/>
+<node CREATED="1572593684729" MODIFIED="1572593684729" TEXT="return hs;"/>
+</node>
+<node CREATED="1572593684730" MODIFIED="1572593684730" TEXT="}"/>
+</node>
+</node>
+<node CREATED="1572593686029" ID="ID_667819759" MODIFIED="1572594553913" TEXT="&#xc804;&#xccb4;&#xcf54;&#xb4dc;">
+<node CREATED="1572593691739" ID="ID_219462110" MODIFIED="1572593691739" TEXT="package com.theComments.brt.config;"/>
+<node CREATED="1572593691739" ID="ID_591072327" MODIFIED="1572593691739" TEXT="import javax.sql.DataSource;"/>
+<node CREATED="1572593691740" ID="ID_1422211523" MODIFIED="1572593691740" TEXT="import org.apache.commons.dbcp2.BasicDataSource;"/>
+<node CREATED="1572593691741" ID="ID_1729587014" MODIFIED="1572593691741" TEXT="import org.springframework.beans.factory.annotation.Qualifier;"/>
+<node CREATED="1572593691742" ID="ID_324348530" MODIFIED="1572593691742" TEXT="import org.springframework.boot.autoconfigure.jdbc.DataSourceProperties;"/>
+<node CREATED="1572593691743" ID="ID_116807448" MODIFIED="1572593691743" TEXT="import org.springframework.boot.context.properties.ConfigurationProperties;"/>
+<node CREATED="1572593691743" ID="ID_563522283" MODIFIED="1572593691743" TEXT="import org.springframework.context.annotation.Bean;"/>
+<node CREATED="1572593691744" ID="ID_262453826" MODIFIED="1572593691744" TEXT="import org.springframework.context.annotation.Configuration;"/>
+<node CREATED="1572593691745" ID="ID_697607785" MODIFIED="1572593691745" TEXT="import org.springframework.context.annotation.Primary;"/>
+<node CREATED="1572593691746" ID="ID_217109758" MODIFIED="1572593691746" TEXT="import org.springframework.context.annotation.PropertySource;"/>
+<node CREATED="1572593691746" ID="ID_257349755" MODIFIED="1572593691746" TEXT="import com.zaxxer.hikari.HikariConfig;"/>
+<node CREATED="1572593691747" ID="ID_193236455" MODIFIED="1572593691747" TEXT="import com.zaxxer.hikari.HikariDataSource;"/>
+<node CREATED="1572593691748" ID="ID_208658018" MODIFIED="1572593691748" TEXT="@Configuration"/>
+<node CREATED="1572593691748" ID="ID_1665702516" MODIFIED="1572593691748" TEXT="@PropertySource(value =&quot;classpath:dataSourceConfig.yml&quot;, factory=YamlPropertyLoaderFactory.class)"/>
+<node CREATED="1572593691749" ID="ID_1364215508" MODIFIED="1572593691749" TEXT="public class DataSourceConfig {">
+<node CREATED="1572593691749" MODIFIED="1572593691749" TEXT="@Bean"/>
+<node CREATED="1572593691750" MODIFIED="1572593691750" TEXT="@Primary"/>
+<node CREATED="1572593691751" MODIFIED="1572593691751" TEXT="@Qualifier(&quot;primaryDataSource&quot;)"/>
+<node CREATED="1572593691752" ID="ID_1968354563" MODIFIED="1572593691752" TEXT="public HikariDataSource primaryDataSource() {">
+<node CREATED="1572593691753" MODIFIED="1572593691753" TEXT="HikariConfig hsc = new HikariConfig();"/>
+<node CREATED="1572593691754" MODIFIED="1572593691754" TEXT="hsc.setUsername(primaryDataSourceProperties().getUsername());"/>
+<node CREATED="1572593691755" MODIFIED="1572593691755" TEXT="hsc.setPassword(primaryDataSourceProperties().getPassword());"/>
+<node CREATED="1572593691756" ID="ID_1509194957" MODIFIED="1572593691756" TEXT="hsc.setDriverClassName(primaryDataSourceProperties().getDriverClassName());"/>
+<node CREATED="1572593691756" MODIFIED="1572593691756" TEXT="hsc.setJdbcUrl(primaryDataSourceProperties().getUrl());"/>
+<node CREATED="1572593691757" MODIFIED="1572593691757" TEXT="hsc.setMaximumPoolSize(20);"/>
+<node CREATED="1572593691758" MODIFIED="1572593691758" TEXT="HikariDataSource hs = new HikariDataSource(hsc);"/>
+<node CREATED="1572593691759" MODIFIED="1572593691759" TEXT="return hs;"/>
+</node>
+<node CREATED="1572593691759" ID="ID_601788488" MODIFIED="1572593691759" TEXT="}"/>
+<node CREATED="1572593691759" ID="ID_1097711495" MODIFIED="1572593691759" TEXT="@Bean"/>
+<node CREATED="1572593691760" ID="ID_1826083600" MODIFIED="1572593691760" TEXT="@Primary"/>
+<node CREATED="1572593691761" ID="ID_556314631" MODIFIED="1572593691761" TEXT="@ConfigurationProperties(&quot;app.datasource&quot;)"/>
+<node CREATED="1572593691761" ID="ID_1476148064" MODIFIED="1572593691761" TEXT="public DataSourceProperties primaryDataSourceProperties() {">
+<node CREATED="1572593691761" ID="ID_1106957651" MODIFIED="1572593691761" TEXT="return new DataSourceProperties();"/>
+</node>
+<node CREATED="1572593691762" ID="ID_1127306747" MODIFIED="1572593691762" TEXT="}"/>
+</node>
+<node CREATED="1572593691762" ID="ID_1878590433" MODIFIED="1572593691762" TEXT="}"/>
+</node>
 </node>
 </node>
 </map>

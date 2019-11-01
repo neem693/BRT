@@ -9,17 +9,23 @@
         <div class = "type_two_select">
             <mat-form-field>
                 <mat-label>저작물 대분류</mat-label>
-                <mat-select>
-                    <mat-option>
-                        --
+                <mat-select (ngModelChange)="type1Select(works.type1.value)" [formControl]="works.type1">
+                    <mat-option [value]="0">
+                        전체
+                    </mat-option>
+                    <mat-option *ngFor="let type1 of typeList.data; let i = index;" [value]="type1.type1_id">
+                        {{type1.type1_name}}
                     </mat-option>
                 </mat-select>
             </mat-form-field>
             <mat-form-field>
                 <mat-label>저작물 소분류</mat-label>
-                <mat-select>
-                    <mat-option>
-                        --
+                <mat-select (ngModelChange)="type2Select(works.type2.value)" [formControl]="works.type2">
+                    <mat-option [value]="0">
+                        전체
+                    </mat-option>
+                    <mat-option *ngFor="let type2 of typeList.type2" [value]="type2.type2_id">
+                        {{type2.type2_name}}
                     </mat-option>
                 </mat-select>
             </mat-form-field>
@@ -30,12 +36,10 @@
                 <mat-expansion-panel-header>
                     <mat-panel-title>
                         <span id="w_{{i}}"></span>
-                        <mat-checkbox [(ngModel)]="works.checkBox.list[i]" color="primary"
-                            (change)="checkAddArtist($event,i)" (click)="removeEventEffectAnymore($event)">
-                        </mat-checkbox>
+                        {{item.subject}}
                     </mat-panel-title>
                     <mat-panel-description>
-                        {{item.subject}}
+                        
                     </mat-panel-description>
                 </mat-expansion-panel-header>
                 <!-- <span id = "w_{{i}}"></span> -->
@@ -48,7 +52,7 @@
                 </mat-form-field>
                 <mat-action-row>
                     <button *ngIf="works.checkBox.list[i] == undefined || works.checkBox.list[i] == false" mat-button
-                        (click)="addWorks(i)">저작자로 추가</button>
+                        (click)="moveToWork('param')">저작물로 이동</button>
                     <button *ngIf="works.checkBox.list[i] == true" mat-button (click)="removeArtist(i)">제거</button>
                 </mat-action-row>
             </mat-expansion-panel>
@@ -62,8 +66,7 @@
     </div>
 </div>
 <div mat-dialog-actions>
-    <button mat-raised-button color="primary" (click)="confirm()">확인</button>
-    <button mat-button (click)="close()">취소</button>
+    <button mat-raised-button color="accent" (click)="continue()">등록되지 않은 새로운 저작물입니다.(계속 진행)</button>
     <div class="work_create_date_div"></div>
     <!-- <button mat-button [mat-dialog-close]="data.animal" cdkFocusInitial>Ok</button> -->
 </div>

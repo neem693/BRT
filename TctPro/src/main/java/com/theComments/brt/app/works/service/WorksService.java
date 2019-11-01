@@ -25,9 +25,12 @@ import com.theComments.brt.constFile.FileConst;
 import com.theComments.brt.constFile.PageConst;
 import com.theComments.brt.jpa.dto.ArtistDto;
 import com.theComments.brt.jpa.dto.SimpleUserDto;
+import com.theComments.brt.jpa.dto.Type1Dto;
+import com.theComments.brt.jpa.dto.Type2Dto;
 import com.theComments.brt.jpa.dto.WorksDto;
 import com.theComments.brt.jpa.theComment.dao.Artist_dao;
 import com.theComments.brt.jpa.theComment.dao.Create_art_dao;
+import com.theComments.brt.jpa.theComment.dao.DynamicQueryDao;
 import com.theComments.brt.jpa.theComment.dao.Eva_user_dao;
 import com.theComments.brt.jpa.theComment.dao.FileSave_dao;
 import com.theComments.brt.jpa.theComment.dao.Type2_dao;
@@ -65,6 +68,9 @@ public class WorksService {
 	
 	@Autowired
 	Create_art_dao createArtDao;
+	
+	@Autowired
+	DynamicQueryDao dynamicQueryDao;
 
 	@Autowired
 	HttpServletRequest request;
@@ -259,6 +265,19 @@ public class WorksService {
 		result.setTotalSize(pageList.getTotalElements());
 
 		return result;
+	}
+
+	public ResultMap selectWorksDetail(WorksDto worksDto) {
+		// TODO Auto-generated method stub
+		
+		Type2Dto type2Dto = worksDto.getType2();
+		Type1Dto type1Dto = type2Dto.getType1Dto();
+		
+		if(type1Dto.getType1_id() == 0) {
+			return this.selectWorks(worksDto);
+		}else {
+			return dynamicQueryDao.SelectWorksDynamic(worksDto, type2Dto, type1Dto);
+		}
 	}
 
 }

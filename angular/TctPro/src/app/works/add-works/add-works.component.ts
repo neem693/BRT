@@ -46,15 +46,18 @@ export class AddWorksComponent implements OnInit {
   }
 
   /**work subject is exist
-   * when subject input changed, select subject name and check subjectIsExist 
+   * when subject input changed, select subject name and check subjectIsExist
+   * 0: is not exist
+   * 1: is exist 
+   * 2: exist but i want continue 
    */
-  subjectIsExist:boolean = false;
+  subjectIsExist: number = 0;
   /**subject is exist list */
-  subjectCheckList:any[];
+  subjectCheckList: any[];
   /**subject is exist list page data*/
   subjectPageData = {
-    totalSize:0,
-    pageNum:1,
+    totalSize: 0,
+    pageNum: 1,
   }
 
   constructor(
@@ -213,6 +216,11 @@ export class AddWorksComponent implements OnInit {
   worksSave() {
 
     let f = new FormData();
+
+    if (this.subjectIsExist == 1) {
+      alert("저작물 이름을 한번 체크해주세요");
+    }
+
     for (let key in this.work) {
 
 
@@ -300,31 +308,31 @@ export class AddWorksComponent implements OnInit {
   }
 
   /** select work list fot if subject is exist */
-  worksSelectListExist(){
+  worksSelectListExist() {
     let subject = this.work.subject.value;
-    if(subject == "" || subject == null){
+    if (subject == "" || subject == null) {
       return;
     }
-    let data = {'searchText':subject,'pageNum':1};
+    let data = { 'searchText': subject, 'pageNum': 1 };
     return this.workService.worksSelectList(data)
-    .subscribe(x=>{
-      this.subjectPageData.totalSize = x['totalSize'];
-      this.subjectCheckList = x['data'];
-      if(this.subjectCheckList.length > 0){
-        this.subjectIsExist = true;
-      }else{
-        this.subjectIsExist = false;
-      }
-    })
+      .subscribe(x => {
+        this.subjectPageData.totalSize = x['totalSize'];
+        this.subjectCheckList = x['data'];
+        if (this.subjectCheckList.length > 0) {
+          this.subjectIsExist = 1;
+        } else {
+          this.subjectIsExist = 0;
+        }
+      })
   }
   /**show the check subject dialog*/
-  checkWorkSubject(){
+  checkWorkSubject() {
     let dialogRef = this.dialog.open(WorksNameIsExistDialogComponent, {
 
-      data: { 
-        list:  this.subjectCheckList,
-        subject: this.work.subject.value, 
-        page:this.subjectPageData,
+      data: {
+        list: this.subjectCheckList,
+        subject: this.work.subject.value,
+        page: this.subjectPageData,
       },
       width: "80%"
 
@@ -333,6 +341,10 @@ export class AddWorksComponent implements OnInit {
     dialogRef.afterClosed().subscribe((result) => {
       if (result == undefined || result == null) {
         return;
+      }
+
+      if (result == 1) {
+        this.subjectIsExist = 2;
       }
 
     })

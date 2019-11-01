@@ -1,1 +1,48 @@
-<p>art-name-is-exist-dialog works!</p>
+<h1 mat-dialog-title>저작자 찾기(Search Artist)</h1>
+<div mat-dialog-content>
+    <div id="work_search_list" class="work_search_list">
+        <h1>저작자가 중복되지 않는지 확인해주세요</h1>
+        <mat-form-field class="searchText">
+            <input readonly [(ngModel)]="artist.searchText" matInput placeholder="저작물 검색">
+        </mat-form-field>
+        <!-- <button (click)="selectWorkList(artist.pageNum)" mat-raised-button color="accent">검색</button> -->
+        <mat-accordion>
+            <mat-expansion-panel [expanded]="artist.step.list == i" (opened)="setStepList($event,i)"
+                *ngFor="let item of works_list; let i = index">
+                <mat-expansion-panel-header>
+                    <mat-panel-title>
+                        <span id="w_{{i}}"></span>
+                        {{item.subject}}
+                    </mat-panel-title>
+                    <mat-panel-description>
+                        
+                    </mat-panel-description>
+                </mat-expansion-panel-header>
+                <!-- <span id = "w_{{i}}"></span> -->
+                <mat-form-field>
+                    <input matInput placeholder="First name">
+                </mat-form-field>
+
+                <mat-form-field>
+                    <input matInput placeholder="Age">
+                </mat-form-field>
+                <mat-action-row>
+                    <button *ngIf="artist.checkBox.list[i] == undefined || artist.checkBox.list[i] == false" mat-button
+                        (click)="moveToWork('param')">저작물로 이동</button>
+                    <button *ngIf="artist.checkBox.list[i] == true" mat-button (click)="removeArtist(i)">제거</button>
+                </mat-action-row>
+            </mat-expansion-panel>
+        </mat-accordion>
+        <div *ngIf="works_list.length > 0" class="pagination_class">
+            <ngb-pagination [collectionSize]="artist.totalSize.list" [pageSize]="artist.pageSize.list"
+                [(page)]="artist.pageNum" aria-label="Default pagination" (pageChange)="selectWorkList(artist.pageNum)">
+            </ngb-pagination>
+        </div>
+        <div *ngIf="works_list.length == 0" class="not_result">검색 결과가 없습니다.</div>
+    </div>
+</div>
+<div mat-dialog-actions>
+    <button mat-raised-button color="accent" (click)="continue()">등록되지 않은 새로운 저작물입니다.(계속 진행)</button>
+    <div class="work_create_date_div"></div>
+    <!-- <button mat-button [mat-dialog-close]="data.animal" cdkFocusInitial>Ok</button> -->
+</div>

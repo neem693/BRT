@@ -1,8 +1,10 @@
 import { Component, OnInit, Inject } from '@angular/core';
 import { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material';
 import { WorksSerivceService } from '../../works-serivce.service';
+import { FormControl, Validators } from '@angular/forms';
+import { RESULT } from 'src/const/publicConst';
 
-declare const $:any
+declare const $: any
 
 @Component({
   selector: 'app-works-name-is-exist-dialog',
@@ -33,6 +35,12 @@ export class WorksNameIsExistDialogComponent implements OnInit {
     },
     searchText: "",
     pageNum: 1,
+    type1: new FormControl(0, [
+      // Validators.required
+    ]),
+    type2: new FormControl(0, [
+      // Validators.required
+    ]),
   }
 
   works_list = [
@@ -55,13 +63,19 @@ export class WorksNameIsExistDialogComponent implements OnInit {
   ];
 
   added_works_list = [
-   
+
   ]
 
+  typeList = {
+    data: [],
+    type2: []
+  }
+
   ngOnInit() {
-    this.works_list = Object.assign([],this.data.list);
+    this.works_list = Object.assign([], this.data.list);
     this.works.totalSize.list = this.data.page.totalSize;
     this.works.searchText = this.data.subject;
+    this.getAllType();
   }
 
   confirm() {
@@ -168,27 +182,42 @@ export class WorksNameIsExistDialogComponent implements OnInit {
 
   }
 
-  selectWorkList(page: number) {
+  selectWorkListDetail(page: number) {
     let pageNum = page;
     let searchText = this.works.searchText;
     if (searchText == null || searchText == undefined) {
       searchText = "";
     }
+    let type = {
+      type1: 0,
+      type2: 0,
+    }
+
+    // console.log(this.works.type2.value);
+
+    if (this.works.type1.value != "") {
+      if (this.works.type2.value != "") {
+        type.type2 = this.works.type2.value;
+      }
+      type.type1 = this.works.type1.value;
+    }
 
     let data = {
       'pageNum': pageNum,
-      'searchText': searchText
+      'searchText': searchText,
+      'type1Value': type.type1,
+      'type2Value': type.type2,
     }
 
-    this.workService.worksSelectList(data).subscribe(x => {
-      this.works_list = x['data'];
-      this.works.totalSize.list = x['totalSize'];
+    this.workService.worksSelectListDetail(data).subscribe(x => {
+      this.works_list = x[RESULT.DATA_KEY];
+      this.works.totalSize.list = x[RESULT.TOTALSIZE_KEY];
       this.works.step.list = -1;
 
       loop: for (var i = 0; i < this.works_list.length; i++) {
         for (var j = 0; j < this.added_works_list.length; j++) {
 
-          if(this.works_list[i]['work_id'] ==this.added_works_list[j]['work_id']){
+          if (this.works_list[i]['work_id'] == this.added_works_list[j]['work_id']) {
             this.works.checkBox.list[i] = true;
             continue loop;
           }
@@ -201,6 +230,52 @@ export class WorksNameIsExistDialogComponent implements OnInit {
 
 
   }
+  /*************모든 타입 불러오기********** */
+  getAllType() {
 
+    this.workService.getAllWorkType().subscribe((result) => {
+      this.typeList.data = Object.assign([], result);
+      // console.log(typeList);
+    });
+
+  }
+
+  /********* tpye1 값 바뀌었을 때 type2 값 바꾸기********* */
+  type1Select(id: number) {
+
+    if (id == undefined) {
+      return;
+    } else if (id == 0) {
+      this.typeList.type2 = [];
+    } else {
+
+      for (let type1 of this.typeList.data) {
+        if (type1.type1_id == id) {
+          this.typeList.type2 = Object.assign([], type1['type2Dto']);
+        }
+
+      }
+    }
+    this.works.type2.setValue(0);
+    this.selectWorkListDetail(1);
+
+  }
+
+  /********* tpye1 값 바뀌었을 때 type2 값 바꾸기********* */
+  type2Select(id: number) {
+
+    this.selectWorkListDetail(1);
+
+  }
+
+  /**continue because not added in current db */
+  continue(){
+    this.dialogRef.close(1);
+  }
+
+  /**move to One work */
+  moveToWork(ww:any){
+    console.log(ww);
+  }
 
 }

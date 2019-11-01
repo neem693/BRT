@@ -4,6 +4,7 @@ import java.util.Map;
 
 import javax.servlet.http.HttpServletResponse;
 
+import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -13,6 +14,8 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 
 import com.theComments.brt.app.works.service.WorksService;
+import com.theComments.brt.jpa.dto.Type1Dto;
+import com.theComments.brt.jpa.dto.Type2Dto;
 import com.theComments.brt.jpa.dto.WorksDto;
 import com.theComments.brt.util.ResultMap;
 
@@ -61,11 +64,39 @@ public class WorksController {
 		return result.getResultMap();
 
 	}
-	
+
 	@RequestMapping(value = "/selectWorks",method=RequestMethod.POST)
 	public Map<String,Object> selectWorks(@RequestBody WorksDto worksDto){
 		
 		ResultMap result = worksService.selectWorks(worksDto);
+		
+		return result.getResultMap();
+	}
+	/**
+	 * 
+	 * @param worksDto
+	 * @param type 저작물에 대해서 총체적으로 검색 할시 type에 대한 정보가 있다면 그것에 대한 정보도 같이 전달 함;
+	 * @return
+	 */
+	@RequestMapping(value = "/selectWorksDetail",method=RequestMethod.POST)
+	public Map<String,Object> selectWorksDetail(@RequestBody Map<String,Object> type){
+		
+		//ResultMap result = worksService.selectWorks(worksDto);
+		WorksDto worksDto = new WorksDto();
+		
+		worksDto.setSearchText(type.get("searchText").toString());
+		worksDto.setPageNum(Integer.parseInt(type.get("pageNum").toString()));
+		
+		Type1Dto type1Dto = new Type1Dto();
+		type1Dto.setType1_id(Long.parseLong(type.get("type1Value").toString()));
+		
+		Type2Dto type2Dto = new Type2Dto();
+		type2Dto.setType2_id(Long.parseLong(type.get("type2Value").toString()));
+		
+		type2Dto.setType1Dto(type1Dto);
+		worksDto.setType2(type2Dto);
+		
+		ResultMap result = worksService.selectWorksDetail(worksDto);
 		
 		return result.getResultMap();
 	}

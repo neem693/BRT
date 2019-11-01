@@ -5,6 +5,7 @@ export const RESULT ={
     DATA_KEY:'data',
     ID_KEY:'id',
     RESULT_KEY:'result',
+    TOTALSIZE_KEY:'totalSize',
     GET_MASSAGE_CODE:(data:string):number=>{
         let split_data:string[]  = data.split(":");
         return Number(split_data[0]);

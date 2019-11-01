@@ -25,4 +25,8 @@ export class WorksSerivceService {
    worksSelectList(data:any){
      return this.http.post(environment.baseApiUrl + "/works/selectWorks",data);
    }
+
+   worksSelectListDetail(data:any){
+    return this.http.post(environment.baseApiUrl + "/works/selectWorksDetail",data);
+  }
 }
