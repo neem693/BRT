@@ -5,6 +5,8 @@ import { WorksAddComponent } from '../dialog/works-add/works-add-diaolog.compone
 import { ArtistService } from '../artist.service';
 import { ActivatedRoute, Router } from '@angular/router';
 import { WorksSerivceService } from 'src/app/works/works-serivce.service';
+import { RESULT } from 'src/const/publicConst';
+import { ArtNameIsExistDialogComponent } from '../dialog/art-name-is-exist-dialog/art-name-is-exist-dialog.component';
 
 @Component({
   selector: 'app-artist-add',
@@ -18,6 +20,22 @@ export class ArtistAddComponent implements OnInit {
       Validators.required
     ]),
     work_list: [],
+  }
+
+    /**artist name is exist
+   * when artist input changed, select artist name and check artistIsExist
+   * 0: is not exist
+   * 1: is exist 
+   * 2: exist but i want continue 
+   */
+  artistIsExist: number = 0;
+  /**
+   * artistPageData is exist list page data
+   */
+  artistPageData = {
+    list:[],
+    totalSize:0,
+    pageNum: 1
   }
 
   constructor(
@@ -101,6 +119,57 @@ export class ArtistAddComponent implements OnInit {
       }
 
     })
+
+  }
+
+  artistSelectListExist(){
+    
+    let artist_name = this.artist.artist_name.value;
+    let data = {
+      'searchText':artist_name,
+      'pageNum':1
+    };
+
+    this.artistService.selectArtistList(data).subscribe(x=>{
+      let size = x[RESULT.TOTALSIZE_KEY];
+      if(size > 0){
+        this.artistIsExist = 1;
+
+        this.artistPageData.list = x[RESULT.DATA_KEY];
+        this.artistPageData.pageNum = 1;
+        this.artistPageData.totalSize = size;
+
+      }
+
+      
+      
+    })
+
+  }
+
+  checkartistName(){
+
+    let data ={
+      'list': this.artistPageData.list,
+      'totalSize' : this.artistPageData.totalSize,
+      'pageNum':this.artistPageData.pageNum,
+      'searchText':this.artist.artist_name.value,
+    }
+
+    let dialogRef = this.dialog.open(ArtNameIsExistDialogComponent,{
+      data:data,
+      width:"80%"
+    });
+
+    dialogRef.afterClosed().subscribe(result=>{
+      if(result == undefined || result == null){
+        return;
+      }
+      if(result == 1){
+        this.artistIsExist =2;
+      }
+    })
+    
 
   }
 

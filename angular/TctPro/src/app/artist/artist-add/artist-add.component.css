@@ -58,6 +58,13 @@
     font-size: x-large;
 }
 
+.isExist{
+    display: block;
+    float: right;
+}
+
+
+
 @media screen and (max-width: 1060px) {
     .addartist_div {
         width: 100%;

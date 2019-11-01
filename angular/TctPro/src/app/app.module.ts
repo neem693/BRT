@@ -84,6 +84,7 @@ import { ArtNameIsExistDialogComponent } from './artist/dialog/art-name-is-exist
     AddArtistDialogComponent,
     WorksAddComponent,
     WorksNameIsExistDialogComponent,
+    ArtNameIsExistDialogComponent,
   ],
   providers: [
     CookieService,

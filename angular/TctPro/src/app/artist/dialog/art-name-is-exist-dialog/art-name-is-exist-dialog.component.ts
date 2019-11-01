@@ -73,8 +73,8 @@ export class ArtNameIsExistDialogComponent implements OnInit {
 
   ngOnInit() {
     this.artist_list = Object.assign([], this.data.list);
-    this.artist.totalSize.list = this.data.page.totalSize;
-    this.artist.searchText = this.data.subject;
+    this.artist.totalSize.list = this.data.totalSize;
+    this.artist.searchText = this.data.searchText;
   }
 
   confirm() {

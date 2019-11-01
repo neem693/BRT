@@ -5,14 +5,13 @@
         <mat-form-field class="searchText">
             <input readonly [(ngModel)]="artist.searchText" matInput placeholder="저작물 검색">
         </mat-form-field>
-        <!-- <button (click)="selectWorkList(artist.pageNum)" mat-raised-button color="accent">검색</button> -->
         <mat-accordion>
             <mat-expansion-panel [expanded]="artist.step.list == i" (opened)="setStepList($event,i)"
-                *ngFor="let item of works_list; let i = index">
+                *ngFor="let item of artist_list; let i = index">
                 <mat-expansion-panel-header>
                     <mat-panel-title>
                         <span id="w_{{i}}"></span>
-                        {{item.subject}}
+                        {{item.art_name}}
                     </mat-panel-title>
                     <mat-panel-description>
                         
@@ -33,12 +32,12 @@
                 </mat-action-row>
             </mat-expansion-panel>
         </mat-accordion>
-        <div *ngIf="works_list.length > 0" class="pagination_class">
+        <div *ngIf="artist_list.length > 0" class="pagination_class">
             <ngb-pagination [collectionSize]="artist.totalSize.list" [pageSize]="artist.pageSize.list"
                 [(page)]="artist.pageNum" aria-label="Default pagination" (pageChange)="selectWorkList(artist.pageNum)">
             </ngb-pagination>
         </div>
-        <div *ngIf="works_list.length == 0" class="not_result">검색 결과가 없습니다.</div>
+        <div *ngIf="artist_list.length == 0" class="not_result">검색 결과가 없습니다.</div>
     </div>
 </div>
 <div mat-dialog-actions>
