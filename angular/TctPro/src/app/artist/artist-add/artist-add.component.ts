@@ -77,7 +77,11 @@ export class ArtistAddComponent implements OnInit {
   }
 
   artistSave() {
-    console.log(this.artist);
+    // console.log(this.artist);
+    if(this.artistIsExist == 1){
+      alert("저작자 이름을 체크해주세요.");
+      return;
+    }
 
     let artist_name_error = this.artist.artist_name.errors;
     if (artist_name_error != null) {

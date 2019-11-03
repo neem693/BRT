@@ -8,6 +8,7 @@ import { AddWorksComponent } from './works/add-works/add-works.component';
 import { AfterWorksSaveCheckComponent } from './works/after-works-save-check/after-works-save-check.component';
 import { ArtistAddComponent } from './artist/artist-add/artist-add.component';
 import { AfterArtistSaveCheckComponent } from './artist/after-artist-save-check/after-artist-save-check.component';
+import { AddEvalComponent } from './eval/add-eval/add-eval.component';
 
 
 const routes: Routes = [
@@ -27,6 +28,9 @@ const routes: Routes = [
     {path:"addArtist", component:ArtistAddComponent},
     {path:"addArtist/:id", component:ArtistAddComponent}, 
     {path:"artistSaveCheck/:id",component:AfterArtistSaveCheckComponent}
+  ]},
+  {path:"eval",children:[
+    {path:"addEval/:id", component:AddEvalComponent}
   ]},
   {path:"**",redirectTo:"home"},
   {path:"",component:HomeComponent},

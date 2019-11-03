@@ -1,62 +1,65 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">TheComments</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
+<nav id="menu_nav" class="menu_nav">
+    <div id="menu_home" class="menu_home"><span  routerLink="/home">THE COMMENTS</span><div class="menu_user"> <button
+                *ngIf="loginstate == false" routerLink="member/login" mat-button class="material-icons">
+                person
+            </button>
+            <button *ngIf="loginstate == true" mat-button [matMenuTriggerFor]="myMenu" class="material-icons">
+                verified_user
+            </button>
+            <mat-menu class="mymenu_01" #myMenu="matMenu">
+                <button mat-menu-item>마이페이지</button>
+                <button (click)="logout()" mat-menu-item>로그아웃</button>
+            </mat-menu>
+        </div>
+    </div>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-                <a class="nav-link" routerLink="/home">홈 <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item active">
-                    <a class="nav-link" routerLink="/home">코멘트 등록</a>
-                </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle"  role="button" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false" href="#">등록</a>
-                <div class="dropdown-menu " role="button" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" routerLink = "works/addWork">저작물 등록</a>
-                        <a class="dropdown-item" routerLink = "artist/addArtist">아티스트 등록</a>
-                    </div>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                    aria-haspopup="true" aria-expanded="false">
-                    코멘트
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">보는 것</a>
-                    <a class="dropdown-item" href="#">듣는 것</a>
-                    <!-- <div class="dropdown-divider"></div> -->
-                    <a class="dropdown-item" href="#">하는 것</a>
-                </div>
-            </li>
-            <!-- <li class="nav-item">
-                <a class="nav-link disabled" href="#">Disabled</a>
-            </li> -->
-        </ul>
-        <!-- <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form> -->
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-
-            </li>
-        </ul>
-        <button *ngIf="loginstate == false" routerLink="member/login" mat-button class="material-icons">
-            person
-        </button>
-        <button *ngIf="loginstate == true" mat-button [matMenuTriggerFor]="myMenu" class="material-icons">
-            verified_user
-        </button>
-        <mat-menu class = "mymenu_01" #myMenu="matMenu">
-            <button  mat-menu-item>마이페이지</button>
-            <button  (click) = "logout()" mat-menu-item>로그아웃</button>
-        </mat-menu>
-
+    <div id="menu_top_div" class="menu_top_div">
+        <div class="item">
+            <mat-icon>widgets</mat-icon><span>저작물</span>
+            <div class="menu_list">
+                <ul>
+                    <li>
+                        찾기
+                    </li>
+                    <li routerLink="works/addWork">
+                        등록
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="item">
+            <mat-icon>create</mat-icon><span>저작자</span>
+            <div class="menu_list">
+                <ul>
+                    <li>
+                        찾기
+                    </li>
+                    <li routerLink="artist/addArtist">
+                        등록
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="item">
+            <mat-icon>mode_comment</mat-icon><span>코멘트</span>
+            <div class="menu_list">
+                <ul>
+                    <li>
+                        보는것
+                    </li>
+                    <li>
+                        듣는것
+                    </li>
+                    <li>
+                        하는것
+                    </li>
+                    <li>
+                        등록
+                    </li>
+                </ul>
+            </div>
+        </div>
 
     </div>
 </nav>
+<div id = "nav_space"></div>

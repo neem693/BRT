@@ -31,6 +31,7 @@ import { ArtistService } from './artist/artist.service';
 import { AfterArtistSaveCheckComponent } from './artist/after-artist-save-check/after-artist-save-check.component';
 import { WorksNameIsExistDialogComponent } from './works/dialog/works-name-is-exist-dialog/works-name-is-exist-dialog.component';
 import { ArtNameIsExistDialogComponent } from './artist/dialog/art-name-is-exist-dialog/art-name-is-exist-dialog.component';
+import { AddEvalComponent } from './eval/add-eval/add-eval.component';
 
 @NgModule({
   declarations: [
@@ -51,6 +52,7 @@ import { ArtNameIsExistDialogComponent } from './artist/dialog/art-name-is-exist
     AfterArtistSaveCheckComponent,
     WorksNameIsExistDialogComponent,
     ArtNameIsExistDialogComponent,
+    AddEvalComponent,
 
     
   ],

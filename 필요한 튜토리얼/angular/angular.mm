@@ -1,8 +1,8 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1563522454767" ID="ID_1812649479" MODIFIED="1572342861250" TEXT="angular">
-<hook NAME="accessories/plugins/RevisionPlugin.properties"/>
 <hook NAME="accessories/plugins/CreationModificationPlugin_new.properties"/>
+<hook NAME="accessories/plugins/RevisionPlugin.properties"/>
 <node CREATED="1563522718142" FOLDED="true" ID="ID_1024043872" MODIFIED="1571055012268" POSITION="right" TEXT="&#xd604;&#xc7ac; &#xd29c;&#xd1a0;&#xb9ac;&#xc5bc;">
 <node CREATED="1563522713920" ID="ID_792755994" LINK="https://www.tutorialspoint.com/angular7/angular7_project_setup.htm" MODIFIED="1563522716082" TEXT="https://www.tutorialspoint.com/angular7/angular7_project_setup.htm"/>
 </node>
@@ -1128,8 +1128,12 @@
 <font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
 <node CREATED="1572209511364" LINK="https://stackoverflow.com/questions/183161/whats-the-best-way-to-break-from-nested-loops-in-javascript" MODIFIED="1572209511364" TEXT="https://stackoverflow.com/questions/183161/whats-the-best-way-to-break-from-nested-loops-in-javascript"/>
 </node>
-<node CREATED="1572227594040" FOLDED="true" ID="ID_1648492087" MODIFIED="1572342862686" POSITION="right" TEXT="css &#xb85c;&#xb529;">
-<node CREATED="1572227598949" LINK="https://jsfiddle.net/kmturley/54hqzmk7/?utm_source=website&amp;utm_medium=embed&amp;utm_campaign=54hqzmk7" MODIFIED="1572227598949" TEXT="https://jsfiddle.net/kmturley/54hqzmk7/?utm_source=website&amp;utm_medium=embed&amp;utm_campaign=54hqzmk7"/>
+<node CREATED="1572227594040" FOLDED="true" ID="ID_1648492087" MODIFIED="1572768036445" POSITION="right" TEXT="css &#xb85c;&#xb529;">
+<node CREATED="1572227598949" ID="ID_565982946" LINK="https://jsfiddle.net/kmturley/54hqzmk7/?utm_source=website&amp;utm_medium=embed&amp;utm_campaign=54hqzmk7" MODIFIED="1572227598949" TEXT="https://jsfiddle.net/kmturley/54hqzmk7/?utm_source=website&amp;utm_medium=embed&amp;utm_campaign=54hqzmk7"/>
+</node>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1572768226119" ID="ID_729608023" MODIFIED="1572768243174" POSITION="right" TEXT="viewport&#xc758; user-scalable=no">
+<node CREATED="1572768234001" ID="ID_138890523" LINK="https://stackoverflow.com/questions/22354435/to-user-scalable-no-or-not-to-user-scalable-no" MODIFIED="1572768234001" TEXT="https://stackoverflow.com/questions/22354435/to-user-scalable-no-or-not-to-user-scalable-no"/>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1572768244260" ID="ID_1227884765" MODIFIED="1572768264469" TEXT="&#xd574;&#xb2f9;&#xd558;&#xb294; &#xc635;&#xc158;&#xc744; &#xc0ac;&#xc6a9;&#xd574;&#xc57c;&#xc9c0;&#xb9cc; &#xbaa8;&#xbc14;&#xc77c;&#xc5d0;&#xc11c; &#xc798; &#xb098;&#xd0c0;&#xb098;&#xb354;&#xb77c;."/>
 </node>
 </node>
 </map>

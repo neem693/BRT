@@ -9,37 +9,41 @@ import { ActivatedRoute, Router } from '@angular/router';
 })
 export class AfterArtistSaveCheckComponent implements OnInit {
 
-  constructor(private artistService:ArtistService,
-              private route:ActivatedRoute,
-              private router:Router) { }
+  constructor(private artistService: ArtistService,
+    private route: ActivatedRoute,
+    private router: Router) { }
 
-  artistId:number;
-  add={
-    worksAdd:false,
-    artistAdd:false,
-    evaluateAdd:false
+  artistId: number;
+  add = {
+    worksAdd: false,
+    artistAdd: false,
+    evaluateAdd: false
   }
 
   data = {
-    work:{},
-    artist:{},
+    work: {
+      subject: "",
+    },
+    artist: {
+      art_name: "",
+    },
   }
 
   ngOnInit() {
 
-    this.route.params.subscribe(x=>{
+    this.route.params.subscribe(x => {
       this.artistId = x.id;
-      this.artistService.selectArtistOne({'id':this.artistId}).subscribe(x=>{
+      this.artistService.selectArtistOne({ 'id': this.artistId }).subscribe(x => {
         console.log(x);
 
         let code = x['result'];
 
-        if(code == 202){
-          
+        if (code == 202) {
+
           this.data.artist = x['data']['artistDto'];
           this.add.artistAdd = true;
 
-        }else if(code == 200){
+        } else if (code == 200) {
 
           this.data.artist = x['data']['artistDto'];
           this.data.work = x['data']['worksDto'];
@@ -53,10 +57,10 @@ export class AfterArtistSaveCheckComponent implements OnInit {
 
   }
 
-  worksAdd(){
+  worksAdd() {
 
     let artist = this.data.artist;
-    this.router.navigate(['/works/addWork',artist['artist_id']])
+    this.router.navigate(['/works/addWork', artist['artist_id']])
 
   }
 

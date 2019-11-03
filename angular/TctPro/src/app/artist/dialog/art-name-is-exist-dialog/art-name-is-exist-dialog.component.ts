@@ -180,8 +180,11 @@ export class ArtNameIsExistDialogComponent implements OnInit {
     }, 200);
 
   }
-
-  selectWorkListDetail(page: number) {
+/**
+ * 
+ * basic search by artist name
+ */
+  selectArtistList(page: number) {
     let pageNum = page;
     let searchText = this.artist.searchText;
     if (searchText == null || searchText == undefined) {
@@ -195,53 +198,26 @@ export class ArtNameIsExistDialogComponent implements OnInit {
       'searchText': searchText,
     }
 
-    this.artistService.artistSelectListDetail(data).subscribe(x => {
+    this.artistService.selectArtistList(data).subscribe(x => {
       this.artist_list = x[RESULT.DATA_KEY];
       this.artist.totalSize.list = x[RESULT.TOTALSIZE_KEY];
       this.artist.step.list = -1;
 
-      loop: for (var i = 0; i < this.artist_list.length; i++) {
-        for (var j = 0; j < this.added_works_list.length; j++) {
-
-          if (this.artist_list[i]['work_id'] == this.added_works_list[j]['work_id']) {
-            this.artist.checkBox.list[i] = true;
-            continue loop;
-          }
-
-        }
-        this.artist.checkBox.list[i] = false;
-      }
-
     });
-
-
   }
 
-  /********* tpye1 값 바뀌었을 때 type2 값 바꾸기********* */
-  type1Select(id: number) {
-
-    if (id == undefined) {
-      return;
-    } else if (id == 0) {
-      this.typeList.type2 = [];
-    } else {
-
-      for (let type1 of this.typeList.data) {
-        if (type1.type1_id == id) {
-          this.typeList.type2 = Object.assign([], type1['type2Dto']);
-        }
-
-      }
+  /**
+   * when artist list open select Detail of Artist 
+   */
+  selectArtistDetailOpen(id:any){
+    
+    let data = {
+      'artist_id' : id
     }
-    this.artist.type2.setValue(0);
-    this.selectWorkListDetail(1);
 
-  }
-
-  /********* tpye1 값 바뀌었을 때 type2 값 바꾸기********* */
-  type2Select(id: number) {
-
-    this.selectWorkListDetail(1);
+    this.artistService.selectArtistDetailOpen(id).subscribe(x=>{
+      console.log(x);
+    })
 
   }
 
@@ -251,7 +227,7 @@ export class ArtNameIsExistDialogComponent implements OnInit {
   }
 
   /**move to One work */
-  moveToWork(ww:any){
+  moveToArtist(ww:any){
     console.log(ww);
   }
 }

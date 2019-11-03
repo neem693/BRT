@@ -23,7 +23,7 @@ export class ArtistService {
     return this.http.post(environment.baseApiUrl + "/artist/selectArtistList",data);
   }
 
-  artistSelectListDetail(data:any) {
+  selectArtistDetailOpen(data:any) {
     return this.http.post(environment.baseApiUrl + "/artist/selectArtistListDetial",data);
     throw new Error("Method not implemented.");
   }

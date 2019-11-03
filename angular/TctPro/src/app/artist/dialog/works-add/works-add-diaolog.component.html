@@ -31,7 +31,7 @@
                 <mat-action-row>
                     <button *ngIf="works.checkBox.list[i] == undefined || works.checkBox.list[i] == false" mat-button
                         (click)="addWorks(i)">저작자로 추가</button>
-                    <button *ngIf="works.checkBox.list[i] == true" mat-button (click)="removeArtist(i)">제거</button>
+                    <!-- <button *ngIf="works.checkBox.list[i] == true" mat-button (click)="removeArtist(i)">제거</button> -->
                 </mat-action-row>
             </mat-expansion-panel>
         </mat-accordion>

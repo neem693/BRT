@@ -1,0 +1,131 @@
+.addEval_div {
+    width: 70%;
+    padding: 50px;
+    border: 1px solid rgb(183, 195, 184);
+    box-shadow: 0px 0px 5px black;
+    margin: 50px auto 50px auto;
+}
+
+.addEval_sub {
+    /* position: relative; */
+    margin-right: 10%;
+    transition: height 1s;
+    float: left;
+    width: 100%;
+    margin: 30px 0;
+}
+
+.eval_artist_work {
+    display: flex;
+    justify-content: center;
+}
+
+.eval_artist_work .artist {
+    color: blue;
+}
+
+.eval_artist_work .work {
+    color: red;
+}
+
+.eval_button {
+    display: flex;
+    justify-content: center;
+}
+
+.eval_button button {
+    display: block;
+    padding: 20px;
+    width: 25%;
+    margin: 10px;
+    font-size: x-large;
+}
+
+.not_good_btn {
+    background-color: rgb(116, 110, 110);
+    color: white;
+}
+
+.good_btn {
+    background-color: #00B0F0;
+    color: white;
+}
+
+.very_good_btn {
+    background-color: yellow;
+    color: black;
+}
+
+.subButton {
+    display: flex;
+    justify-content: center;
+}
+
+.subButton button {
+    display: block;
+    width: 12%;
+    height: 50px;
+    line-height: 21px;
+}
+
+.eval_sq_arrow_01.active {
+    width: 62px;
+    height: 110px;
+}
+
+.eval_sq_arrow_01.active::before {
+    border-top: 55px solid transparent;
+    border-bottom: 55px solid transparent;
+}
+
+.eval_arrow_warning_01.active::before {
+    right: 62px;
+}
+
+.eval_sq_arrow_01.active::after {
+    border-top: 55px solid transparent;
+    border-bottom: 55px solid transparent;
+}
+
+.eval_arrow_warning_01.active::after {
+    left: 32px;
+}
+
+.eval_arrow_warning_01::after {
+    left: 16px;
+    border-right: 31px solid white;
+}
+
+.eval_arrow_warning_01.active::before {
+    /* right: 34px; */
+    border-right: 31px solid black;
+}
+
+.eval_arrow_01.active {
+    border-top: 55px solid transparent;
+    border-bottom: 55px solid transparent;
+}
+
+.eval_arrow_bad_01.active {
+    border-right: 49px solid rgb(116, 110, 110);
+}
+
+.eval_arrow_01.active::after {
+    border-top: 55px solid transparent;
+    border-bottom: 55px solid transparent;
+    bottom: -53px;
+}
+
+.eval_arrow_bad_01::after {
+    left: 29px;
+    border-right: 20px solid white;
+}
+
+.eval_arrow_good_01.active::after {
+    right: 29px;
+    border-left: 20px solid white;
+}
+
+.eval_arrow_good_01.active {
+    border-left: 49px solid #00B0F0;
+}

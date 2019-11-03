@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, HostListener } from '@angular/core';
 import { MemberServiceService } from 'src/app/member/member-service.service';
 import { member_const } from 'src/app/member/member_const/member_cosnt';
 
@@ -26,5 +26,4 @@ export class HeaderSelectorComponent implements OnInit {
     location.reload();
     
   }
-
 }

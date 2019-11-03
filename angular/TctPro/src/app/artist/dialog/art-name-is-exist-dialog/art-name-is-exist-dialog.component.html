@@ -27,14 +27,14 @@
                 </mat-form-field>
                 <mat-action-row>
                     <button *ngIf="artist.checkBox.list[i] == undefined || artist.checkBox.list[i] == false" mat-button
-                        (click)="moveToWork('param')">저작물로 이동</button>
-                    <button *ngIf="artist.checkBox.list[i] == true" mat-button (click)="removeArtist(i)">제거</button>
+                        (click)="moveToArtist('param')">저작물로 이동</button>
+                    <!-- <button *ngIf="artist.checkBox.list[i] == true" mat-button (click)="removeArtist(i)">제거</button> -->
                 </mat-action-row>
             </mat-expansion-panel>
         </mat-accordion>
         <div *ngIf="artist_list.length > 0" class="pagination_class">
             <ngb-pagination [collectionSize]="artist.totalSize.list" [pageSize]="artist.pageSize.list"
-                [(page)]="artist.pageNum" aria-label="Default pagination" (pageChange)="selectWorkList(artist.pageNum)">
+                [(page)]="artist.pageNum" aria-label="Default pagination" (pageChange)="selectArtistList(artist.pageNum)">
             </ngb-pagination>
         </div>
         <div *ngIf="artist_list.length == 0" class="not_result">검색 결과가 없습니다.</div>

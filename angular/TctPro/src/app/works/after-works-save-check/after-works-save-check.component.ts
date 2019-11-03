@@ -18,8 +18,12 @@ export class AfterWorksSaveCheckComponent implements OnInit {
   }
 
   data = {
-    work: {},
-    artist: {},
+    work: {
+      subject:"",
+    },
+    artist: {
+      art_name:"",
+    },
   }
 
   constructor(
