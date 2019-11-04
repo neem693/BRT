@@ -15,11 +15,20 @@
             <button mat-raised-button class="very_good_btn">정말 좋아요</button>
         </div>
         <div class="subButton">
-            <button mat-raised-button class="good_btn">그냥<br>좋아요</button>
+            <button [disabled]="true" mat-raised-button class="good_btn">그냥<br>좋아요</button>
             <button mat-raised-button class="good_btn">추천<br>합니다</button>
         </div>
     </div>
-    <div class="addEval_sub">
+    <div class="addEval_sub eval_shape">
+        <div class="eval_button2">
+            <button mat-raised-button color="warn" class="selectEval_Button warning">선택</button>
+            <button mat-raised-button color="warn" class="selectEval_Button bad">선택</button>
+            <button mat-raised-button color="warn" class="selectEval_Button bad">선택</button>
+            <button mat-raised-button color="warn" class="selectEval_Button good">선택</button>
+            <button mat-raised-button color="warn" class="selectEval_Button good">선택</button>
+            <button mat-raised-button color="warn" class="selectEval_Button veryGood">선택</button>
+            <button mat-raised-button color="warn" class="selectEval_Button veryGood">선택</button>
+        </div>
         <div class="eval_evaluation_content_01">
             <div class="arrow_01 eval_sq_arrow_01 eval_arrow_warning_01 active"><br>W</div>
             <div class="arrow_01 eval_arrow_01 eval_arrow_bad_01 active"></div>
@@ -31,5 +40,35 @@
             <div class="arrow_01 eval_sq_arrow_01 eval_arrow_excellect_01 active"></div>
         </div>
     </div>
+    <div class="addEval_sub">
+        <div class="info">
+            <div class="warning">
+                <h2>경고</h2>
+                <p>해당 평가는 반 인륜적인 컨텐츠 또는 혐오스러운 컨텐츠에 대한 신고로 이어집니다.<br>허위로 개재할 시에 이용에 제한을 받음을 동의합니다.</p>
+            </div>
+        </div>
+    </div>
+    <div class="addEval_sub commentDiv">
+        <mat-form-field class="comment one" appearance="outline">
+            <mat-label>COMMENT&lt;1&gt;</mat-label>
+            <input matInput placeholder="입력">
+            <mat-hint>첫번째 당신만의 생각</mat-hint>
+            <mat-icon>looks_one</mat-icon>
+        </mat-form-field>
+        <mat-form-field class="comment two" appearance="outline">
+            <mat-label>COMMENT&lt;2&gt;</mat-label>
+            <input matInput placeholder="Placeholder">
+            <mat-hint>두번째 당신만의 생각</mat-hint>
+            <mat-icon>looks_two</mat-icon>
+        </mat-form-field>
+        <mat-form-field class="comment subject_matter" appearance="outline">
+            <mat-label>MATTER&lt;3&gt;</mat-label>
+            <input [readonly]="true" matInput placeholder="Placeholder">
+            <mat-hint>소재</mat-hint>
+            <mat-icon>looks_3</mat-icon>
+        </mat-form-field>
+    </div>
     <div class="clear"></div>
+    <div class="eval_save"><button type="submit" mat-raised-button color="primary">코멘트 저장</button></div>
+
 </div>

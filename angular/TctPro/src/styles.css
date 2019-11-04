@@ -70,9 +70,17 @@ button:focus{
     margin-bottom: 100px;
 }
 
+.comment.mat-form-field-appearance-outline .mat-form-field-outline{
+    color: white;
+}
 
+.comment.one.mat-form-field-appearance-outline .mat-form-field-outline-thick{
+    color:yellow;
+}
 
-
+.comment.two.mat-form-field-appearance-outline .mat-form-field-outline-thick{
+    color:rgb(153, 177, 255);
+}
 
 @media screen and (max-width: 1060px) {
     body{

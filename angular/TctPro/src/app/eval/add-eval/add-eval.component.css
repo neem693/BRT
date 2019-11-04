@@ -78,10 +78,6 @@
     border-bottom: 55px solid transparent;
 }
 
-.eval_arrow_warning_01.active::before {
-    right: 62px;
-}
-
 .eval_sq_arrow_01.active::after {
     border-top: 55px solid transparent;
     border-bottom: 55px solid transparent;
@@ -89,15 +85,11 @@
 
 .eval_arrow_warning_01.active::after {
     left: 32px;
-}
-
-.eval_arrow_warning_01::after {
-    left: 16px;
     border-right: 31px solid white;
 }
 
 .eval_arrow_warning_01.active::before {
-    /* right: 34px; */
+    right: 62px;
     border-right: 31px solid black;
 }
 
@@ -128,4 +120,247 @@
 
 .eval_arrow_good_01.active {
     border-left: 49px solid #00B0F0;
+}
+
+.eval_arrow_reco_01::before {
+    right: -30px;
+    border-left: 31px solid #00B0F0;
+}
+
+.eval_arrow_reco_01::after {
+    left: 0;
+    border-left: 31px solid white;
+}
+
+.eval_arrow_reco_01 {
+    margin-right: 31px;
+}
+
+.eval_arrow_very_good_01.active::after {
+    /* right: 29px; */
+    border-left: 20px solid white;
+}
+
+.eval_arrow_very_good_01.active {
+    border-left: 49px solid yellow;
+    /* border-left-color: rgb(242, 242, 242); */
+}
+
+.eval_arrow_very_good_01::after {
+    right: 29px;
+    /* border-left: 15px solid #262626; */
+}
+
+.eval_arrow_excellect_01::before {
+    right: -30px;
+    border-left: 31px solid yellow;
+    /* border-left-color: rgb(242, 242, 242); */
+}
+
+.eval_arrow_excellect_01::after {
+    left: 0;
+    border-left: 31px solid white;
+}
+
+.addEval_sub.eval_shape {
+    background-color: rgb(226, 200, 175);
+    padding: 30px 0;
+}
+
+.eval_arrow_warning_01.active::after, .eval_arrow_bad_01::after {
+    border-right-color: rgb(226, 200, 175);
+}
+
+.eval_arrow_good_01.active::after, .eval_arrow_reco_01::after, .eval_arrow_very_good_01.active::after, .eval_arrow_excellect_01::after {
+    border-left-color: rgb(226, 200, 175);
+}
+
+.eval_button2 button {
+    display: block;
+    /* visibility: hidden; */
+}
+
+.eval_button2 .warning {
+    background-color: black;
+    color: white;
+}
+
+.eval_button2 .bad {
+    background-color: rgb(116, 110, 110);
+    color: white;
+}
+
+.eval_button2 .good {
+    background-color: #00B0F0;
+    color: white;
+}
+
+.eval_button2 .veryGood {
+    background-color: yellow;
+    color: black;
+}
+
+.eval_button2 button.active {
+    visibility: visible;
+}
+
+.info {
+    border: 5px dashed black;
+}
+
+.info .warning {
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 100%;
+}
+
+.info p {
+    margin: 0px;
+}
+
+.eval_button2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.addEval_sub.commentDiv {
+    background-color: #262626;
+    padding: 50px 10px;
+}
+
+.commentDiv .comment {
+    display: block;
+    color: white;
+}
+
+.comment.mat-form-field-appearance-outline .mat-form-field-outline{
+    color: rgb(95, 95, 23);
+}
+
+.comment.mat-form-field-appearance-outline .mat-form-field-outline-thick{
+    color:white;
+}
+
+.comment {
+    font-size: x-large;
+}
+
+.comment mat-label, .comment mat-hint{
+    color: white;
+}
+
+.eval_save{
+    text-align: center;
+}
+
+.eval_save button{
+    width: 50%;
+    padding: 30px 0;;
+    font-size: x-large;
+}
+
+@media screen and (max-width: 1000px) {
+    .addEval_div {
+        width: 100%;
+        padding: 10px 0px;
+    }
+    .eval_sq_arrow_01.active {
+        width: 40px;
+        height: 80px;
+    }
+    .eval_sq_arrow_01.active::before {
+        border-top: 40px solid transparent;
+        border-bottom: 40px solid transparent;
+    }
+    .eval_sq_arrow_01.active::after {
+        border-top: 40px solid transparent;
+        border-bottom: 40px solid transparent;
+    }
+    .eval_arrow_warning_01.active::after {
+        left: 20px;
+        border-right: 20px solid;
+    }
+    .eval_arrow_warning_01.active::before {
+        right: 40px;
+        border-right: 20px solid black;
+    }
+    .eval_arrow_01.active {
+        border-top: 45px solid transparent;
+        border-bottom: 45px solid transparent;
+    }
+    .eval_arrow_bad_01.active {
+        border-right: 40px solid rgb(116, 110, 110);
+    }
+    .eval_arrow_01.active::after {
+        border-top: 45px solid transparent;
+        border-bottom: 45px solid transparent;
+        bottom: -45px;
+    }
+    .eval_arrow_bad_01::after {
+        left: 26px;
+        border-right: 15px solid white;
+    }
+    .eval_arrow_good_01.active::after {
+        right: 26px;
+        border-left: 15px solid white;
+    }
+    .eval_arrow_good_01.active {
+        border-left: 40px solid #00B0F0;
+    }
+    .eval_arrow_reco_01::before {
+        right: -20px;
+        border-left: 20px solid #00B0F0;
+    }
+    .eval_arrow_reco_01::after {
+        left: 0;
+        border-left: 20px solid white;
+    }
+    .eval_arrow_reco_01 {
+        margin-right: 20px;
+    }
+    .eval_arrow_very_good_01.active::after {
+        /* right: 29px; */
+        border-left: 15px solid white;
+    }
+    .eval_arrow_very_good_01.active {
+        border-left: 40px solid yellow;
+        /* border-left-color: rgb(242, 242, 242); */
+    }
+    .eval_arrow_very_good_01::after {
+        right: 26px;
+        /* border-left: 15px solid #262626; */
+    }
+    .eval_arrow_excellect_01::before {
+        right: -20px;
+        border-left: 20px solid yellow;
+        /* border-left-color: rgb(242, 242, 242); */
+    }
+    .eval_arrow_excellect_01::after {
+        left: 0;
+        border-left: 20px solid white;
+    }
+    /********************/
+    .eval_arrow_warning_01.active::after, .eval_arrow_bad_01::after {
+        border-right-color: rgb(226, 200, 175);
+    }
+    .eval_arrow_good_01.active::after, .eval_arrow_reco_01::after, .eval_arrow_very_good_01.active::after, .eval_arrow_excellect_01::after {
+        border-left-color: rgb(226, 200, 175);
+    }
+    .eval_button button {
+        /* display: block; */
+        padding: 10px 0px;
+        width: 32%;
+        margin: 10px 2px;
+        font-size: large;
+    }
+    .eval_button2 button {
+        min-width: 40px;
+        width: 40px;
+        height: 40px;
+        border-radius: 100%;
+        padding: 0px;
+        /* padding: -20px 0; */
+    }
 }

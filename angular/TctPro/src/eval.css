@@ -49,7 +49,7 @@
 
 .eval_arrow_warning_01 {
     font-weight: bold;
-    margin-left: 20px;
+    /* margin-left: 20px; */
 }
 
 .eval_arrow_warning_01:after {
