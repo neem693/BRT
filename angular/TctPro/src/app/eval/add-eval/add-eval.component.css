@@ -59,6 +59,11 @@
 .subButton {
     display: flex;
     justify-content: center;
+    visibility: hidden;
+}
+
+.subButton.active {
+    visibility: visible;
 }
 
 .subButton button {
@@ -163,21 +168,25 @@
 }
 
 .addEval_sub.eval_shape {
-    background-color: rgb(226, 200, 175);
+    background-color: rgb(202, 198, 198);
     padding: 30px 0;
 }
 
 .eval_arrow_warning_01.active::after, .eval_arrow_bad_01::after {
-    border-right-color: rgb(226, 200, 175);
+    border-right-color: rgb(202, 198, 198);
 }
 
 .eval_arrow_good_01.active::after, .eval_arrow_reco_01::after, .eval_arrow_very_good_01.active::after, .eval_arrow_excellect_01::after {
-    border-left-color: rgb(226, 200, 175);
+    border-left-color: rgb(202, 198, 198);
 }
 
 .eval_button2 button {
     display: block;
-    /* visibility: hidden; */
+    visibility: hidden;
+}
+
+.eval_button2 button.active {
+    visibility: visible;
 }
 
 .eval_button2 .warning {
@@ -226,40 +235,65 @@
 }
 
 .addEval_sub.commentDiv {
-    background-color: #262626;
+    background-color: #CAC6C6;
     padding: 50px 10px;
 }
 
 .commentDiv .comment {
     display: block;
-    color: white;
+    color: black;
 }
 
-.comment.mat-form-field-appearance-outline .mat-form-field-outline{
+.comment.mat-form-field-appearance-outline .mat-form-field-outline {
     color: rgb(95, 95, 23);
 }
 
-.comment.mat-form-field-appearance-outline .mat-form-field-outline-thick{
-    color:white;
-}
 
 .comment {
     font-size: x-large;
 }
 
-.comment mat-label, .comment mat-hint{
-    color: white;
+.comment mat-label, .comment mat-hint {
+    /* color: white; */
 }
 
-.eval_save{
+.eval_save {
     text-align: center;
 }
 
-.eval_save button{
+.eval_save button {
     width: 50%;
-    padding: 30px 0;;
+    padding: 30px 0;
+    ;
     font-size: x-large;
 }
+
+/*before select color reset*/
+.arrow_01{
+    transition: background-color 0.3s, border-color 0.5s;
+}
+
+.hidden_color.eval_sq_arrow_01:not(.selectButton2) {
+    background-color: #F2F2F2;
+}
+
+.hidden_color.eval_arrow_warning_01:not(.selectButton2)::before,
+.hidden_color.eval_arrow_bad_01:not(.selectButton2)
+{
+    border-right-color: #F2F2F2;
+}
+
+.hidden_color.eval_arrow_reco_01:not(.selectButton2)::before,
+.hidden_color.eval_arrow_good_01:not(.selectButton2),
+.hidden_color.eval_arrow_very_good_01:not(.selectButton2),
+.hidden_color.eval_arrow_excellect_01:not(.selectButton2)::before
+{
+    border-left-color: #F2F2F2;
+}
+
+
+
+
 
 @media screen and (max-width: 1000px) {
     .addEval_div {
@@ -343,10 +377,10 @@
     }
     /********************/
     .eval_arrow_warning_01.active::after, .eval_arrow_bad_01::after {
-        border-right-color: rgb(226, 200, 175);
+        border-right-color: rgb(202, 198, 198);
     }
     .eval_arrow_good_01.active::after, .eval_arrow_reco_01::after, .eval_arrow_very_good_01.active::after, .eval_arrow_excellect_01::after {
-        border-left-color: rgb(226, 200, 175);
+        border-left-color: rgb(202, 198, 198);
     }
     .eval_button button {
         /* display: block; */

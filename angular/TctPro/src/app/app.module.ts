@@ -32,6 +32,7 @@ import { AfterArtistSaveCheckComponent } from './artist/after-artist-save-check/
 import { WorksNameIsExistDialogComponent } from './works/dialog/works-name-is-exist-dialog/works-name-is-exist-dialog.component';
 import { ArtNameIsExistDialogComponent } from './artist/dialog/art-name-is-exist-dialog/art-name-is-exist-dialog.component';
 import { AddEvalComponent } from './eval/add-eval/add-eval.component';
+import { MatterSelectDialogComponent } from './eval/dialog/matter-select-dialog/matter-select-dialog.component';
 
 @NgModule({
   declarations: [
@@ -53,6 +54,7 @@ import { AddEvalComponent } from './eval/add-eval/add-eval.component';
     WorksNameIsExistDialogComponent,
     ArtNameIsExistDialogComponent,
     AddEvalComponent,
+    MatterSelectDialogComponent,
 
     
   ],
@@ -87,6 +89,7 @@ import { AddEvalComponent } from './eval/add-eval/add-eval.component';
     WorksAddComponent,
     WorksNameIsExistDialogComponent,
     ArtNameIsExistDialogComponent,
+    MatterSelectDialogComponent,
   ],
   providers: [
     CookieService,

@@ -2,6 +2,7 @@ package com.theComments.brt.jpa.theComment.model;
 
 import java.util.List;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -19,6 +20,8 @@ public class Evaluation_item {
 	
 	String ev_text1;
 	String ev_text2;
+	@Column(nullable = false)
+	Integer ev_value;
 	
 	String donation;
 	

@@ -52,6 +52,7 @@
 <node CREATED="1570189921308" ID="ID_1467303721" MODIFIED="1570383204889" TEXT="subjectMatter(&#xc18c;&#xc7ac;)"/>
 <node CREATED="1570190392805" ID="ID_1920594019" MODIFIED="1570383204890" TEXT="ev_text1(&#xd3c9;&#xac00;&#xd14d;&#xc2a4;&#xd2b8; &#xc0c1;&#xb2e8;)"/>
 <node CREATED="1570190404700" ID="ID_52426446" MODIFIED="1570383204890" TEXT="ev_text2(&#xd3c9;&#xac00;&#xd14d;&#xc2a4;&#xd2b8; &#xd558;&#xb2e8;)"/>
+<node CREATED="1572931196700" ID="ID_257539613" MODIFIED="1572931201951" TEXT="ev_value(&#xd3c9;&#xac00; &#xac12;)"/>
 <node CREATED="1570190851502" ID="ID_837426600" MODIFIED="1570383204891" STYLE="fork" TEXT="donation(&#xae30;&#xbd80;)">
 <font NAME="SansSerif" SIZE="12"/>
 </node>

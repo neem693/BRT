@@ -1,0 +1,16 @@
+<h1 mat-dialog-title>저작물 찾기(Search Artist)</h1>
+<div mat-dialog-content>
+    <div class="matter_list">
+
+        <div class="box" *ngFor="let item of matterInfo_list; let i = index">
+            <div class="name">{{item.sub_name}}</div>
+        </div>
+
+    </div>
+</div>
+<div mat-dialog-actions>
+    <button mat-raised-button color="primary" (click)="confirm()">확인</button>
+    <button mat-button (click)="close()">취소</button>
+    <div class="work_create_date_div"></div>
+    <!-- <button mat-button [mat-dialog-close]="data.animal" cdkFocusInitial>Ok</button> -->
+</div>

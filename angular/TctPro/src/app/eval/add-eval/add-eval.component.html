@@ -10,37 +10,61 @@
     </div>
     <div class="addEval_sub">
         <div class="eval_button">
-            <button mat-raised-button class="not_good_btn">별로에요</button>
-            <button mat-raised-button class="good_btn">좋아요</button>
-            <button mat-raised-button class="very_good_btn">정말 좋아요</button>
+            <button (click)="button1Set(1)" [disabled]="eval.button1 == 1" mat-raised-button
+                class="not_good_btn">별로에요</button>
+            <button (click)="button1Set(2)" [disabled]="eval.button1 == 2" mat-raised-button
+                class="good_btn">좋아요</button>
+            <button (click)="button1Set(3)" [disabled]="eval.button1 == 3" mat-raised-button class="very_good_btn">정말
+                좋아요</button>
         </div>
-        <div class="subButton">
-            <button [disabled]="true" mat-raised-button class="good_btn">그냥<br>좋아요</button>
-            <button mat-raised-button class="good_btn">추천<br>합니다</button>
+        <div [ngClass]="{'active':eval.button1 == 2}" class="subButton">
+            <button [disabled]="eval.button2 == 4" (mouseenter)="button2Hover(4)" (mouseleave)="button2Hover(-1)"
+                (click)="button2Set(4)" [disabled] mat-raised-button class="good_btn">그냥<br>좋아요</button>
+            <button [disabled]="eval.button2 == 5" (mouseenter)="button2Hover(5)" (mouseleave)="button2Hover(-1)"
+                (click)="button2Set(5)" mat-raised-button class="good_btn">추천<br>합니다</button>
         </div>
     </div>
     <div class="addEval_sub eval_shape">
         <div class="eval_button2">
-            <button mat-raised-button color="warn" class="selectEval_Button warning">선택</button>
-            <button mat-raised-button color="warn" class="selectEval_Button bad">선택</button>
-            <button mat-raised-button color="warn" class="selectEval_Button bad">선택</button>
-            <button mat-raised-button color="warn" class="selectEval_Button good">선택</button>
-            <button mat-raised-button color="warn" class="selectEval_Button good">선택</button>
-            <button mat-raised-button color="warn" class="selectEval_Button veryGood">선택</button>
-            <button mat-raised-button color="warn" class="selectEval_Button veryGood">선택</button>
+            <button [disabled]="eval.button2 == 1" (mouseenter)="button2Hover(1)" (mouseleave)="button2Hover(-1)"
+                (click)="button2Set(1)" [ngClass]="{'active':eval.button1 == 1}" mat-raised-button color="warn"
+                class="selectEval_Button warning">경고</button>
+            <button [disabled]="eval.button2 == 2" (mouseenter)="button2Hover(2)" (mouseleave)="button2Hover(-1)"
+                (click)="button2Set(2)" [ngClass]="{'active':eval.button1 == 1}" mat-raised-button color="warn"
+                class="selectEval_Button bad">강</button>
+            <button [disabled]="eval.button2 == 3" (mouseenter)="button2Hover(3)" (mouseleave)="button2Hover(-1)"
+                (click)="button2Set(3)" [ngClass]="{'active':eval.button1 == 1}" mat-raised-button color="warn"
+                class="selectEval_Button bad">약</button>
+            <button [disabled]="eval.button2 == 4" (mouseenter)="button2Hover(4)" (mouseleave)="button2Hover(-1)"
+                mat-raised-button color="warn" class="selectEval_Button good">약</button>
+            <button [disabled]="eval.button2 == 5" (mouseenter)="button2Hover(5)" (mouseleave)="button2Hover(-1)"
+                mat-raised-button color="warn" class="selectEval_Button good">강</button>
+            <button [disabled]="eval.button2 == 6" (mouseenter)="button2Hover(6)" (mouseleave)="button2Hover(-1)"
+                (click)="button2Set(6)" [ngClass]="{'active':eval.button1 == 3}" mat-raised-button color="warn"
+                class="selectEval_Button veryGood">약</button>
+            <button [disabled]="eval.button2 == 7" (mouseenter)="button2Hover(7)" (mouseleave)="button2Hover(-1)"
+                (click)="button2Set(7)" [ngClass]="{'active':eval.button1 == 3}" mat-raised-button color="warn"
+                class="selectEval_Button veryGood">강</button>
         </div>
         <div class="eval_evaluation_content_01">
-            <div class="arrow_01 eval_sq_arrow_01 eval_arrow_warning_01 active"><br>W</div>
-            <div class="arrow_01 eval_arrow_01 eval_arrow_bad_01 active"></div>
-            <div class="arrow_01 eval_arrow_01 eval_arrow_bad_01 active"></div>
+            <div [ngClass]="{'hidden_color':evalButtonHiddenSetting(1),'selectButton2':evalHoverSelect == 1 || eval.button2 == 1}"
+                class="arrow_01 eval_sq_arrow_01 eval_arrow_warning_01 active"><br>W</div>
+            <div [ngClass]="{'hidden_color':evalButtonHiddenSetting(2),'selectButton2':evalHoverSelect == 2 || eval.button2 == 2}"
+                class="arrow_01 eval_arrow_01 eval_arrow_bad_01 active"></div>
+            <div [ngClass]="{'hidden_color':evalButtonHiddenSetting(3),'selectButton2':evalHoverSelect == 3 || eval.button2 == 3}"
+                class="arrow_01 eval_arrow_01 eval_arrow_bad_01 active"></div>
             <div class="between_bad_good"></div>
-            <div class="arrow_01 eval_arrow_01 eval_arrow_good_01 active"></div>
-            <div class="arrow_01 eval_sq_arrow_01 eval_arrow_reco_01 active"><br>R</div>
-            <div class="arrow_01 eval_arrow_01 eval_arrow_very_good_01 active"></div>
-            <div class="arrow_01 eval_sq_arrow_01 eval_arrow_excellect_01 active"></div>
+            <div [ngClass]="{'hidden_color':evalButtonHiddenSetting(4),'selectButton2':evalHoverSelect == 4 || eval.button2 == 4}"
+                class="arrow_01 eval_arrow_01 eval_arrow_good_01 active"></div>
+            <div [ngClass]="{'hidden_color':evalButtonHiddenSetting(5),'selectButton2':evalHoverSelect == 5 || eval.button2 == 5}"
+                class="arrow_01 eval_sq_arrow_01 eval_arrow_reco_01 active"><br>R</div>
+            <div [ngClass]="{'hidden_color':evalButtonHiddenSetting(6),'selectButton2':evalHoverSelect == 6 || eval.button2 == 6}"
+                class="arrow_01 eval_arrow_01 eval_arrow_very_good_01 active"></div>
+            <div [ngClass]="{'hidden_color':evalButtonHiddenSetting(7),'selectButton2':evalHoverSelect == 7 || eval.button2 == 7}"
+                class="arrow_01 eval_sq_arrow_01 eval_arrow_excellect_01 active"></div>
         </div>
     </div>
-    <div class="addEval_sub">
+    <div *ngIf="eval.button2 == 1" class="addEval_sub">
         <div class="info">
             <div class="warning">
                 <h2>경고</h2>
@@ -50,22 +74,26 @@
     </div>
     <div class="addEval_sub commentDiv">
         <mat-form-field class="comment one" appearance="outline">
-            <mat-label>COMMENT&lt;1&gt;</mat-label>
-            <input matInput placeholder="입력">
+            <mat-label>COMMENT <mat-icon>looks_one</mat-icon>
+            </mat-label>
+            <input [formControl]="eval.ev_text1" matInput placeholder="첫번째 당신만의 생각">
             <mat-hint>첫번째 당신만의 생각</mat-hint>
-            <mat-icon>looks_one</mat-icon>
+            <mat-error *ngIf="eval.ev_text1.hasError('required')">필수로 입력하셔야 합니다.</mat-error>
+            <mat-error *ngIf="eval.ev_text1.hasError('maxlength')">50글자를 초과합니다.</mat-error>
         </mat-form-field>
         <mat-form-field class="comment two" appearance="outline">
-            <mat-label>COMMENT&lt;2&gt;</mat-label>
-            <input matInput placeholder="Placeholder">
+            <mat-label>COMMENT<mat-icon>looks_two</mat-icon>
+            </mat-label>
+            <input [formControl]="eval.ev_text2" matInput placeholder="두번째 당신만의 생각">
             <mat-hint>두번째 당신만의 생각</mat-hint>
-            <mat-icon>looks_two</mat-icon>
+            <mat-error *ngIf="eval.ev_text2.hasError('required')">필수로 입력하셔야 합니다.</mat-error>
+            <mat-error *ngIf="eval.ev_text2.hasError('maxlength')">50글자를 초과합니다.</mat-error>
         </mat-form-field>
         <mat-form-field class="comment subject_matter" appearance="outline">
-            <mat-label>MATTER&lt;3&gt;</mat-label>
-            <input [readonly]="true" matInput placeholder="Placeholder">
+            <mat-label>MATTER<mat-icon>looks_3</mat-icon>
+            </mat-label>
+            <input (click) = "matDialogOpen()" [readonly]="true" matInput placeholder="Placeholder">
             <mat-hint>소재</mat-hint>
-            <mat-icon>looks_3</mat-icon>
         </mat-form-field>
     </div>
     <div class="clear"></div>
