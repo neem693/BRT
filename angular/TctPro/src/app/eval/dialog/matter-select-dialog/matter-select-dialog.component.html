@@ -1,16 +1,29 @@
-<h1 mat-dialog-title>저작물 찾기(Search Artist)</h1>
+<h1 mat-dialog-title>{{data.subject}}-소재 선택</h1>
 <div mat-dialog-content>
     <div class="matter_list">
-
-        <div class="box" *ngFor="let item of matterInfo_list; let i = index">
+        <div [ngClass] = "{'active':matter.select.squence == i}" (click) = "selectMatterOne(i)" class="box" *ngFor="let item of matterInfo_list; let i = index">
             <div class="name">{{item.sub_name}}</div>
+            <div class="matterPointNum">
+                <div *ngIf = "item.yellow > 0" class = "point yellow"><mat-icon>fiber_manual_record</mat-icon>{{item.yellow}}</div>
+                <div *ngIf = "item.blue > 0" class = "point blue"><mat-icon>fiber_manual_record</mat-icon>{{item.blue}}</div>
+                <div *ngIf = "item.gray > 0" class = "point gray"><mat-icon>fiber_manual_record</mat-icon>{{item.gray}}</div>
+                <div *ngIf = "item.black > 0" class = "point black"><mat-icon>fiber_manual_record</mat-icon>{{item.black}}</div>
+            </div>
+            <div class = "matter_clear"></div>
         </div>
 
     </div>
+    <div *ngIf="matterInfo_list.length == 0" class="not_result">등록된 소재가 없습니다.</div>
+    <div *ngIf="matterInfo_list.length > 0" class="pagination_class">
+        <ngb-pagination [collectionSize]="matter.page.totalSize" [pageSize]="matter.page.pageSize"
+            [(page)]="matter.page.pageNum" aria-label="Default pagination"
+            (pageChange)="selectMatList(matter.page.pageNum)">
+        </ngb-pagination>
+    </div>
 </div>
 <div mat-dialog-actions>
-    <button mat-raised-button color="primary" (click)="confirm()">확인</button>
-    <button mat-button (click)="close()">취소</button>
+    <button mat-raised-button [disabled] = "matter.select.squence == -1" color="primary" (click)="confirm()">확인</button>
+    <button mat-raised-button class = "new_matter" color="accent" (click)="close()">새로운 임의 소재 입력</button>
     <div class="work_create_date_div"></div>
     <!-- <button mat-button [mat-dialog-close]="data.animal" cdkFocusInitial>Ok</button> -->
 </div>

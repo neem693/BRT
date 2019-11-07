@@ -21,11 +21,24 @@
 }
 
 .eval_artist_work .artist {
+    font-size: 5vw;
+    color: blue;
+}
+
+.eval_artist_work .artist_count {
+    font-size: 3vw;
     color: blue;
 }
 
 .eval_artist_work .work {
+    font-size: 5vw;
     color: red;
+}
+
+.eval_artist_work .artist_work::before {
+    content: '-';
+    font-size: 5vw;
+    color: rgb(0, 0, 0);
 }
 
 .eval_button {
@@ -189,6 +202,13 @@
     visibility: visible;
 }
 
+.eval_button2 button[disabled]{
+    background-color: rgb(216, 216, 216);
+    color:black;
+    /* border: 1px solid black; */
+}
+
+
 .eval_button2 .warning {
     background-color: black;
     color: white;
@@ -221,6 +241,13 @@
     text-align: center;
     background-color: black;
     color: white;
+    height: 100%;
+}
+
+.info .excellent {
+    text-align: center;
+    background-color: yellow;
+    color: black;
     height: 100%;
 }
 
@@ -275,6 +302,7 @@
 
 .hidden_color.eval_sq_arrow_01:not(.selectButton2) {
     background-color: #F2F2F2;
+    color:black;
 }
 
 .hidden_color.eval_arrow_warning_01:not(.selectButton2)::before,
@@ -291,7 +319,9 @@
     border-left-color: #F2F2F2;
 }
 
-
+mat-error{
+    text-shadow: 1px 1px 3px rgb(0, 0, 0);
+}
 
 
 

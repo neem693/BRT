@@ -1,8 +1,8 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1563522454767" ID="ID_1812649479" MODIFIED="1572342861250" TEXT="angular">
-<hook NAME="accessories/plugins/CreationModificationPlugin_new.properties"/>
 <hook NAME="accessories/plugins/RevisionPlugin.properties"/>
+<hook NAME="accessories/plugins/CreationModificationPlugin_new.properties"/>
 <node CREATED="1563522718142" FOLDED="true" ID="ID_1024043872" MODIFIED="1571055012268" POSITION="right" TEXT="&#xd604;&#xc7ac; &#xd29c;&#xd1a0;&#xb9ac;&#xc5bc;">
 <node CREATED="1563522713920" ID="ID_792755994" LINK="https://www.tutorialspoint.com/angular7/angular7_project_setup.htm" MODIFIED="1563522716082" TEXT="https://www.tutorialspoint.com/angular7/angular7_project_setup.htm"/>
 </node>
@@ -1134,6 +1134,13 @@
 <node BACKGROUND_COLOR="#ffff00" CREATED="1572768226119" ID="ID_729608023" MODIFIED="1572768243174" POSITION="right" TEXT="viewport&#xc758; user-scalable=no">
 <node CREATED="1572768234001" ID="ID_138890523" LINK="https://stackoverflow.com/questions/22354435/to-user-scalable-no-or-not-to-user-scalable-no" MODIFIED="1572768234001" TEXT="https://stackoverflow.com/questions/22354435/to-user-scalable-no-or-not-to-user-scalable-no"/>
 <node BACKGROUND_COLOR="#ffff00" CREATED="1572768244260" ID="ID_1227884765" MODIFIED="1572768264469" TEXT="&#xd574;&#xb2f9;&#xd558;&#xb294; &#xc635;&#xc158;&#xc744; &#xc0ac;&#xc6a9;&#xd574;&#xc57c;&#xc9c0;&#xb9cc; &#xbaa8;&#xbc14;&#xc77c;&#xc5d0;&#xc11c; &#xc798; &#xb098;&#xd0c0;&#xb098;&#xb354;&#xb77c;."/>
+</node>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1573134773572" ID="ID_115009466" MODIFIED="1573134775800" POSITION="right" TEXT="css font-size">
+<node CREATED="1573134776272" ID="ID_1034323472" LINK="https://stackoverflow.com/questions/16056591/font-scaling-based-on-width-of-container" MODIFIED="1573134776272" TEXT="https://stackoverflow.com/questions/16056591/font-scaling-based-on-width-of-container"/>
+<node CREATED="1573134830512" LINK="https://www.w3schools.com/howto/howto_css_responsive_text.asp" MODIFIED="1573134830512" TEXT="https://www.w3schools.com/howto/howto_css_responsive_text.asp"/>
+</node>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1573144229706" ID="ID_1923538083" MODIFIED="1573144239554" POSITION="right" TEXT="native sql case sum">
+<node CREATED="1573144233286" LINK="https://stackoverflow.com/questions/582637/sql-server-equivalent-of-a-countif-aggregate-function" MODIFIED="1573144233286" TEXT="https://stackoverflow.com/questions/582637/sql-server-equivalent-of-a-countif-aggregate-function"/>
 </node>
 </node>
 </map>

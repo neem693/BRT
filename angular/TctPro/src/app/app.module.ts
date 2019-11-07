@@ -33,6 +33,7 @@ import { WorksNameIsExistDialogComponent } from './works/dialog/works-name-is-ex
 import { ArtNameIsExistDialogComponent } from './artist/dialog/art-name-is-exist-dialog/art-name-is-exist-dialog.component';
 import { AddEvalComponent } from './eval/add-eval/add-eval.component';
 import { MatterSelectDialogComponent } from './eval/dialog/matter-select-dialog/matter-select-dialog.component';
+import { EvalService } from './eval/eval.service';
 
 @NgModule({
   declarations: [
@@ -96,6 +97,7 @@ import { MatterSelectDialogComponent } from './eval/dialog/matter-select-dialog/
     MemberServiceService,
     WorksSerivceService,
     ArtistService,
+    EvalService,
     customVali,
     {
       provide:HTTP_INTERCEPTORS,

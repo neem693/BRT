@@ -29,6 +29,8 @@ public class Create_art{
 	
 	LocalDateTime save_date;
 	
+	Integer artist_rank;
+	
 
 	
 	
@@ -56,6 +58,14 @@ public class Create_art{
 	public void setSave_date(LocalDateTime save_date) {
 		this.save_date = save_date;
 	}
+	public Integer getArtist_rank() {
+		return artist_rank;
+	}
+	public void setArtist_rank(Integer artist_rank) {
+		this.artist_rank = artist_rank;
+	}
+	
+	
 	
 	
 	

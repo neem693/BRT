@@ -3,3 +3,65 @@
     display: flex;
     justify-content: center;
 }
+.box{
+    border: 1px solid rgba(0, 0, 0, 0.171);
+    position: relative;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.box:hover,.box.active{
+    background-color: rgba(0, 158, 158, 0.603);
+    color:white;
+}
+
+.name{
+    float:left;
+}
+
+.matterPointNum{
+    float:right;
+    display: flex;
+    justify-content: center;
+}
+
+.point mat-icon{
+    font-size:medium;
+    width:auto;
+    height:auto;
+    text-shadow: 0px 0px 3px rgb(0, 0, 0);
+}
+
+.yellow mat-icon{
+    color: yellow;
+    /* text-shadow: 0px 0px 3px rgb(0, 0, 0); */
+}
+
+.blue mat-icon{
+    color: #00B0F0;
+    /* text-shadow: 0px 0px 3px #00B0F0; */
+}
+.gray mat-icon{
+    color: #746E6E;
+    /* text-shadow: 0px 0px 3px #746E6E; */
+}
+.black mat-icon{
+    color: black;
+    /* text-shadow: 0px 0px 3px black; */
+}
+.not_result {
+    font-size: xx-large;
+    width: 100%;
+    color: rgb(175, 184, 181);
+    text-align: center;
+    padding: 100px;
+}
+
+.new_matter{
+   word-break: normal;
+}
+
+
+.matter_clear{
+    clear: both;
+}

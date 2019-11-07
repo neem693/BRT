@@ -2,10 +2,12 @@
 <h1 class="subject">평가 등록</h1>
 <hr class="hr_01">
 <div class="addEval_div">
-    <div class="addEval_sub">
+    <div *ngIf = "artist.totalSize >0" class="addEval_sub">
         <div class="eval_artist_work">
-            <span class="artist">이레셔날 게임즈</span>
-            <span class="work">바이오쇼크 인피니티</span>
+            <span class="artist">{{artist.art_name}}</span>
+            <span class="artist_count" *ngIf = "artist.totalSize >1">외{{artist.totalSize}}명</span>
+            <span class="artist_work"></span>
+            <span class="work">{{work.subject}}</span>
         </div>
     </div>
     <div class="addEval_sub">
@@ -27,23 +29,23 @@
     <div class="addEval_sub eval_shape">
         <div class="eval_button2">
             <button [disabled]="eval.button2 == 1" (mouseenter)="button2Hover(1)" (mouseleave)="button2Hover(-1)"
-                (click)="button2Set(1)" [ngClass]="{'active':eval.button1 == 1}" mat-raised-button color="warn"
+                (click)="button2Set(1)" [ngClass]="{'active':eval.button1 == 1}" mat-raised-button 
                 class="selectEval_Button warning">경고</button>
             <button [disabled]="eval.button2 == 2" (mouseenter)="button2Hover(2)" (mouseleave)="button2Hover(-1)"
-                (click)="button2Set(2)" [ngClass]="{'active':eval.button1 == 1}" mat-raised-button color="warn"
+                (click)="button2Set(2)" [ngClass]="{'active':eval.button1 == 1}" mat-raised-button 
                 class="selectEval_Button bad">강</button>
             <button [disabled]="eval.button2 == 3" (mouseenter)="button2Hover(3)" (mouseleave)="button2Hover(-1)"
-                (click)="button2Set(3)" [ngClass]="{'active':eval.button1 == 1}" mat-raised-button color="warn"
+                (click)="button2Set(3)" [ngClass]="{'active':eval.button1 == 1}" mat-raised-button 
                 class="selectEval_Button bad">약</button>
             <button [disabled]="eval.button2 == 4" (mouseenter)="button2Hover(4)" (mouseleave)="button2Hover(-1)"
                 mat-raised-button color="warn" class="selectEval_Button good">약</button>
             <button [disabled]="eval.button2 == 5" (mouseenter)="button2Hover(5)" (mouseleave)="button2Hover(-1)"
                 mat-raised-button color="warn" class="selectEval_Button good">강</button>
             <button [disabled]="eval.button2 == 6" (mouseenter)="button2Hover(6)" (mouseleave)="button2Hover(-1)"
-                (click)="button2Set(6)" [ngClass]="{'active':eval.button1 == 3}" mat-raised-button color="warn"
+                (click)="button2Set(6)" [ngClass]="{'active':eval.button1 == 3}" mat-raised-button 
                 class="selectEval_Button veryGood">약</button>
             <button [disabled]="eval.button2 == 7" (mouseenter)="button2Hover(7)" (mouseleave)="button2Hover(-1)"
-                (click)="button2Set(7)" [ngClass]="{'active':eval.button1 == 3}" mat-raised-button color="warn"
+                (click)="button2Set(7)" [ngClass]="{'active':eval.button1 == 3}" mat-raised-button 
                 class="selectEval_Button veryGood">강</button>
         </div>
         <div class="eval_evaluation_content_01">
@@ -68,13 +70,21 @@
         <div class="info">
             <div class="warning">
                 <h2>경고</h2>
-                <p>해당 평가는 반 인륜적인 컨텐츠 또는 혐오스러운 컨텐츠에 대한 신고로 이어집니다.<br>허위로 개재할 시에 이용에 제한을 받음을 동의합니다.</p>
+                <p>해당 평가는 반 인륜적인 컨텐츠 또는 혐오스러운 컨텐츠에 대한 신고로 이어집니다.<br>허위로 개재할 시에 공권력에 노출되어 평가전과가 생길 수 있습니다.<br>어드민이 기분이 안좋을 시에는 이용제재까지 걸릴 수 있습니다.</p>
             </div>
         </div>
     </div>
-    <div class="addEval_sub commentDiv">
+    <div *ngIf="eval.button1 == 3" class="addEval_sub">
+        <div class="info">
+            <div class="excellent">
+                <h2>노랭이로 진입합니다.</h2>
+                <p>해당 평가는 일반적인 좋아요가 아닙니다.<br>일반적인 추천을 넘어서는걸 말합니다.<br>물고 빠는걸 말합니다.</p>
+            </div>
+        </div>
+    </div>
+    <form class="addEval_sub commentDiv">
         <mat-form-field class="comment one" appearance="outline">
-            <mat-label>COMMENT <mat-icon>looks_one</mat-icon>
+            <mat-label>COMMENT<mat-icon>looks_one</mat-icon>
             </mat-label>
             <input [formControl]="eval.ev_text1" matInput placeholder="첫번째 당신만의 생각">
             <mat-hint>첫번째 당신만의 생각</mat-hint>
@@ -89,14 +99,17 @@
             <mat-error *ngIf="eval.ev_text2.hasError('required')">필수로 입력하셔야 합니다.</mat-error>
             <mat-error *ngIf="eval.ev_text2.hasError('maxlength')">50글자를 초과합니다.</mat-error>
         </mat-form-field>
-        <mat-form-field class="comment subject_matter" appearance="outline">
+        <mat-form-field id = "matterSubjectInput" class="comment subject_matter" appearance="outline">
             <mat-label>MATTER<mat-icon>looks_3</mat-icon>
             </mat-label>
-            <input (click) = "matDialogOpen()" [readonly]="true" matInput placeholder="Placeholder">
+            <input #matterSubjectInput [formControl]="eval.subjectMatter" (click) = "matDialogOpen(0)" [readonly]="eval.matterIsNew == 0" matInput placeholder="임의 입력">
             <mat-hint>소재</mat-hint>
+            <mat-error *ngIf="eval.subjectMatter.hasError('required')">필수로 입력하셔야 합니다.</mat-error>
+            <mat-error *ngIf="eval.subjectMatter.hasError('maxlength')">30글자를 초과합니다.</mat-error>
         </mat-form-field>
-    </div>
+        <button type="button" color="primary" mat-stroked-button (click) = "matDialogOpen(1)" *ngIf = "eval.matterIsNew == 1" >기존 소재 선택</button>
+        <div class="eval_save"><button (click) = "evalSave()" type="submit" mat-raised-button color="primary">코멘트 저장</button></div>
+    </form>
     <div class="clear"></div>
-    <div class="eval_save"><button type="submit" mat-raised-button color="primary">코멘트 저장</button></div>
-
+  
 </div>
