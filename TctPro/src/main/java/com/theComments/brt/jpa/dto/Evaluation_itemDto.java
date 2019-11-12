@@ -22,4 +22,15 @@ public class Evaluation_itemDto {
 	Integer blue;
 	Integer gray;
 	
+	public Evaluation_itemDto(String subjectMatter, Integer yellow, Integer black, Integer blue, Integer gray) {
+		super();
+		this.subjectMatter = subjectMatter;
+		this.yellow = yellow;
+		this.black = black;
+		this.blue = blue;
+		this.gray = gray;
+	}
+	
+	
+	
 }

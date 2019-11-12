@@ -2,10 +2,14 @@ package com.theComments.brt.app.works.service;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
+import java.util.Set;
 
 import javax.servlet.http.HttpServletRequest;
 
@@ -14,6 +18,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
+import org.springframework.data.jpa.repository.EntityGraph;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.multipart.MultipartFile;
@@ -21,9 +26,12 @@ import org.springframework.web.multipart.MultipartFile;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.theComments.brt.app.common.CommonSecure;
 import com.theComments.brt.app.common.FileManager;
+import com.theComments.brt.app.eval.service.EvalService;
 import com.theComments.brt.constFile.FileConst;
 import com.theComments.brt.constFile.PageConst;
 import com.theComments.brt.jpa.dto.ArtistDto;
+import com.theComments.brt.jpa.dto.FileSaveDto;
+import com.theComments.brt.jpa.dto.OrderForSearch;
 import com.theComments.brt.jpa.dto.SimpleUserDto;
 import com.theComments.brt.jpa.dto.Type1Dto;
 import com.theComments.brt.jpa.dto.Type2Dto;
@@ -40,6 +48,7 @@ import com.theComments.brt.jpa.theComment.model.Artist;
 import com.theComments.brt.jpa.theComment.model.Create_art;
 import com.theComments.brt.jpa.theComment.model.Eva_user;
 import com.theComments.brt.jpa.theComment.model.FileSave;
+import com.theComments.brt.jpa.theComment.model.Type1;
 import com.theComments.brt.jpa.theComment.model.Type2;
 import com.theComments.brt.jpa.theComment.model.Works;
 import com.theComments.brt.jpa.theComment.model.WorksSave;
@@ -71,6 +80,12 @@ public class WorksService {
 	
 	@Autowired
 	DynamicQueryDao dynamicQueryDao;
+	
+	@Autowired
+	FileSave_dao fileSaveDao;
+	
+	@Autowired
+	EvalService evalService;
 
 	@Autowired
 	HttpServletRequest request;
@@ -208,7 +223,9 @@ public class WorksService {
 		WorksDto worksDto = new WorksDto();
 
 		BeanUtils.copyProperties(work, worksDto);
-		List<Create_art> create_list = work.getCreate();
+		Set<Create_art> create_set = work.getCreate();
+		List<Create_art> create_list = new ArrayList<Create_art>();
+		create_list.addAll(create_set);
 		if (create_list.size() == 0) {
 			result.setResult(202);
 			result.setData(worksDto);
@@ -278,6 +295,134 @@ public class WorksService {
 		}else {
 			return dynamicQueryDao.SelectWorksDynamic(worksDto, type2Dto, type1Dto);
 		}
+	}
+
+	
+	/**
+	 * main works search service
+	 * @param param
+	 * int pageNum = Integer.parseInt(param.get("pageNum").toString());
+		int order = Integer.parseInt(param.get("order").toString());
+		int order2 = Integer.parseInt(param.get("order2").toString());
+		
+		Long type1 = Long.parseLong(param.get("type1").toString());
+		Long type2 = Long.parseLong(param.get("type2").toString());
+	 * @return resultMap
+	 */
+	public ResultMap worksSearch(Map<String, Object> param) {
+		// TODO Auto-generated method stub
+		
+		int pageNum = Integer.parseInt(param.get("pageNum").toString());
+		int order = Integer.parseInt(param.get("order").toString());
+		int order2 = Integer.parseInt(param.get("order2").toString());
+		
+		Long type1 = Long.parseLong(param.get("type1").toString());
+		Long type2 = Long.parseLong(param.get("type2").toString());
+		
+		String searchText = "";
+		if(param.get("searchText") != null) {
+			searchText = param.get("searchText").toString();
+		}
+		
+		WorksDto worksDto = new WorksDto();
+		worksDto.setSearchText(searchText);
+		worksDto.setPageNum(pageNum);
+		
+		Type1Dto type1Dto = new Type1Dto();
+		type1Dto.setType1_id(type1);
+		
+		Type2Dto type2Dto = new Type2Dto();
+		type2Dto.setType2_id(type2);
+		
+		OrderForSearch orderForSearch = new OrderForSearch();
+		orderForSearch.setOrder(order);
+		orderForSearch.setOrder2(order2);
+		
+		List<WorksDto> works = dynamicQueryDao.searchWorksDynamic(worksDto,type1Dto,type2Dto,orderForSearch);
+		
+		ResultMap result = new ResultMap();
+		result.setData(works);
+		result.setResult(200);
+		
+		return result;
+	}
+
+	/**
+	 * works Detail
+	 * need data
+	 * all fileSave list
+	 * type1 info
+	 * type2 info
+	 * subject
+	 * artist list
+	 * matter_list
+	 * @param param
+	 * @return
+	 */
+	public ResultMap worksSearchDetail(Map<String, Object> param) {
+		// TODO Auto-generated method stub
+		
+		Long work_id = Long.parseLong(param.get("work_id").toString());
+		Integer pageNum = Integer.parseInt(param.get("pageNum").toString());
+
+		List<Works> resultList = worksDao.findByIdDetail(work_id);
+		
+		Works works = resultList.get(0);
+		WorksDto worksDto = new WorksDto();
+		
+		BeanUtils.copyProperties(works,worksDto);
+		worksDto.setPageNum(pageNum);
+		
+		//fileSave//
+		List<FileSave> fileSaveList = new ArrayList<FileSave>();
+		fileSaveList.addAll(works.getFileSave());
+		List<FileSaveDto> fileSaveDtoList = new ArrayList<FileSaveDto>();
+		for(FileSave fileSave : fileSaveList) {
+			FileSaveDto fileDto = new FileSaveDto();
+			BeanUtils.copyProperties(fileSave, fileDto);
+			fileSaveDtoList.add(fileDto);
+		}
+		worksDto.setFileSaveDto(fileSaveDtoList);
+		////////////
+		
+		//artist///
+		List<Create_art> create_artList = new ArrayList<Create_art>();
+		create_artList.addAll(works.getCreate());
+		Collections.sort(create_artList);
+		List<ArtistDto> artistDtoList = new ArrayList<ArtistDto>();
+		for(Create_art cr_art : create_artList) {
+			
+			ArtistDto artist = new ArtistDto();
+			BeanUtils.copyProperties(cr_art.getArtist(), artist);
+			artistDtoList.add(artist);
+			
+		}
+		worksDto.setArtistDtoList(artistDtoList);
+		////artist end////
+		////type/////
+		Type2 type2 = works.getType2();
+		Type1 type1 = type2.getType1();
+		Type2Dto type2Dto = new Type2Dto();
+		Type1Dto type1Dto = new Type1Dto();
+		BeanUtils.copyProperties(type1, type1Dto);
+		BeanUtils.copyProperties(type2, type2Dto);
+		type2Dto.setType1Dto(type1Dto);
+		
+		worksDto.setType2(type2Dto);
+		/////type end ///
+		//worksDto.setPageNum(1);
+		ResultMap evalResult = evalService.getMatter(worksDto);
+		Map<String,Object> data = new HashMap<String, Object>();
+		
+		data.put("matter", evalResult.getData());
+		data.put("work", worksDto);
+		data.put("matterSize",evalResult.getTotalSize());
+		
+		ResultMap result = new ResultMap();
+		result.setData(data);
+		result.setResult(200);
+		
+		return result;
 	}
 
 }

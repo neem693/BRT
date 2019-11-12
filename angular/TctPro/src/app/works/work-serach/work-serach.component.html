@@ -1,0 +1,159 @@
+<div class="select_category">
+    <!-- <div class="swiper_select_show"></div> -->
+    <swiper *ngIf="loading.type == 1" class="swiper-container type1" [config]="config"
+        (indexChange)="type1Change($event)">
+        <div *ngFor="let item of typeList.data; let i = index;" class="swiper-slide">
+            <div>
+                {{item.type1_name}}
+            </div>
+        </div>
+    </swiper>
+    <!-- all is out of type2 swiper -->
+    <div *ngFor="let item of typeList.data; let i = index;">
+        <!-- <div *ngIf="loading.type == 1 && item.type1_id != 0 && item.type1_id == search.type1"
+            class="swiper_select_show"></div> -->
+        <swiper *ngIf="loading.type == 1 && item.type1_id != 0 && item.type1_id == search.type1"
+            class="swiper-container type1" [config]="config" (indexChange)="type2Change($event)">
+            <div class="swiper-slide" *ngFor="let tpye2Item of item.type2Dto; let j = index;">
+                <div>
+                    {{tpye2Item.type2_name}}
+                </div>
+            </div>
+        </swiper>
+    </div>
+</div>
+<div class="work_result">
+    <div class="search_text">
+        <mat-form-field appearance="legacy">
+            <mat-label>저작물 제목</mat-label>
+            <input [formControl]="search.searchText" (ngModelChange)="searchChange($event)" matInput
+                placeholder="Placeholder">
+            <mat-hint>Search the works Subject</mat-hint>
+        </mat-form-field>
+        <button (click)="worksSearchNativeUrl(1)" mat-raised-button>Search</button>
+    </div>
+    <div class="order">
+        <mat-form-field>
+            <mat-label>정렬방법</mat-label>
+            <mat-select (ngModelChange)="searchChange($event)" [(ngModel)]="search.order2">
+                <mat-option [value]=0>
+                    내림차순
+                </mat-option>
+                <mat-option [value]=1>
+                    오름차순
+                </mat-option>
+            </mat-select>
+        </mat-form-field>
+        <mat-form-field>
+            <mat-label>정렬유형</mat-label>
+            <mat-select (ngModelChange)="searchChange($event)" [(ngModel)]="search.order">
+                <mat-option [value]=0>
+                    평가횟수
+                </mat-option>
+                <mat-option [value]=1>
+                    출시날짜
+                </mat-option>
+            </mat-select>
+        </mat-form-field>
+        <div class="clear"></div>
+    </div>
+    <div class="work_list_outer">
+        <div class="work_list">
+            <mat-spinner class="loading_spin spin1" *ngIf="loading.search == 1"></mat-spinner>
+            <div (click)="searchWorksDetailNativeUrl(item.work_id)"
+                *ngFor="let item of works_list; let i = index; let last = last" class="work_item representation">
+                <div class="img">
+                    <img *ngIf="item.fileSaveDto.length == 0" src="/assets/noImage/not-available.jpg">
+                    <img *ngIf="item.fileSaveDto.length > 0"
+                        [src]="dir.image + item.fileSaveDto[0].file_path +'/' + item.fileSaveDto[0].save_file_name">
+                </div>
+                {{ngForDoing(1,i)}}
+                {{last ? ngForLast(1): ''}}
+                <div class="detail_01">
+                    <div class="subject_02">
+                        <span>{{item.subject}}</span>
+                    </div>
+                    <div class="artist_02">
+                        <span class="artist_name"
+                            *ngIf="item.artistDtoList.length > 0">{{item.artistDtoList[0]?.art_name}}</span><span
+                            class="multiple_artist"
+                            *ngIf="item.artistDtoList.length > 1">외{{item.artistDtoList.length -1 }}명</span>
+                        <span *ngIf="item.artistDtoList.length == 0" class="warn">저작자 없음</span>
+                    </div>
+                    <div class="createDate_02">
+                        <span>{{item.create_date | date:'yyyy-MM-dd'}}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div *ngIf="page.worksList.totalSize > 0" class="pagination_class">
+            <ngb-pagination [collectionSize]="page.worksList.totalSize" [pageSize]="page.worksList.pageSize"
+                [(page)]="page.worksList.pageNum" aria-label="Default pagination"
+                (pageChange)="worksSearchNativeUrl(page.worksList.pageNum)">
+            </ngb-pagination>
+        </div>
+    </div>
+    <mat-spinner class="loading_spin spin1 detail" *ngIf="loading.detail == 1"></mat-spinner>
+    <div id="detail_outer" *ngIf="detail.detailLoad == 1" class="work_detail_outer">
+        <mat-icon class="reply" (click)="toggleFold()">reply</mat-icon>
+        <div class="work_detail">
+            <div class="img">
+                <img *ngIf="targetWork.work.fileSaveDto.length == 0" src="/assets/noImage/not-available.jpg">
+                <img *ngIf="targetWork.work.fileSaveDto.length >0"
+                    [src]="dir.image + targetWork.work.fileSaveDto[detail.picIndex].file_path +'/' + targetWork.work.fileSaveDto[detail.picIndex].save_file_name">
+
+            </div>
+            <div class="small_img" *ngIf="targetWork.work.fileSaveDto != undefined">
+                <div (click)="changeDetailPicIndex(i)" [ngClass]="{'active':i == detail.picIndex}"
+                    *ngFor="let item of targetWork.work.fileSaveDto;let i = index;">
+                    <img [src]="dir.image + item.file_path +'/' + item.save_file_name">
+                </div>
+            </div>
+            <div class="type_info_03">
+                <span class="type1_info_03">{{targetWork.work.type2.type1Dto.type1_name}}</span>
+                <span class="type2_info_03">{{targetWork.work.type2.type2_name}}</span>
+            </div>
+            <div class="subject_name_03">
+                <span>{{targetWork.work.subject}}</span>
+            </div>
+            <div *ngIf="targetWork.work.artistDtoList.length !=0" class="artist_name_pre">By</div>
+            <div class="artist_name_03 list">
+                <div *ngIf="targetWork.work.artistDtoList.length ==0" class="artist_none">저작자 없음</div>
+                <div *ngFor="let item of targetWork.work.artistDtoList; let i = index;">{{item.art_name}}</div>
+            </div>
+            <div class="create_date_03">
+                <span>{{targetWork.work.create_date | date:'yyyy-MM-dd'}}</span>
+            </div>
+            <div class="attr">
+                <span *ngIf="targetWork.work.is_series == 1">SERISE</span>
+            </div>
+            <div class="matter_list">
+                <div *ngFor="let item of targetWork.matter" class="matter">
+                    <span class="matter_name">{{item.subjectMatter}}</span>
+                    <span class="point yellow" *ngIf="item.yellow != 0">
+                        <mat-icon>fiber_manual_record</mat-icon>{{item.yellow}}
+                    </span>
+                    <span class="point blue" *ngIf="item.blue != 0">
+                        <mat-icon>fiber_manual_record</mat-icon>{{item.blue}}
+                    </span>
+                    <span class="point gray" *ngIf="item.gray != 0">
+                        <mat-icon>fiber_manual_record</mat-icon>{{item.gray}}
+                    </span>
+                    <span class="point black" *ngIf="item.black != 0">
+                        <mat-icon>fiber_manual_record</mat-icon>{{item.black}}
+                    </span>
+                </div>
+
+            </div>
+            <div *ngIf="page.matter.totalSize > 0" class="pagination_class">
+                <ngb-pagination [collectionSize]="page.matter.totalSize" [pageSize]="page.matter.pageSize"
+                    [(page)]="page.matter.pageNum" aria-label="Default pagination"
+                    (pageChange)="searchWorksDetail(targetWork.work.work_id)">
+                </ngb-pagination>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="clear"></div>
+</div>

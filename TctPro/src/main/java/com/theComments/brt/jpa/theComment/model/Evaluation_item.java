@@ -3,12 +3,31 @@ package com.theComments.brt.jpa.theComment.model;
 import java.util.List;
 
 import javax.persistence.Column;
+import javax.persistence.ColumnResult;
+import javax.persistence.ConstructorResult;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
+import javax.persistence.SqlResultSetMapping;
 
+import org.springframework.web.bind.annotation.RequestMapping;
+
+
+@SqlResultSetMapping(
+		name = "selectSubjectMatterGroup",
+		classes = {
+				@ConstructorResult(
+						targetClass = com.theComments.brt.jpa.dto.Evaluation_itemDto.class,
+						columns = {
+							@ColumnResult(name="subjectMatter",type=String.class),
+							@ColumnResult(name="yellow",type=Integer.class),
+							@ColumnResult(name="blue",type=Integer.class),
+							@ColumnResult(name="gray",type=Integer.class),
+							@ColumnResult(name="black",type=Integer.class)
+						})
+		})
 @Entity
 public class Evaluation_item {
 	
@@ -76,6 +95,14 @@ public class Evaluation_item {
 
 	public void setEvaluate(List<Evaluate> evaluate) {
 		this.evaluate = evaluate;
+	}
+
+	public Integer getEv_value() {
+		return ev_value;
+	}
+
+	public void setEv_value(Integer ev_value) {
+		this.ev_value = ev_value;
 	}
 	
 	

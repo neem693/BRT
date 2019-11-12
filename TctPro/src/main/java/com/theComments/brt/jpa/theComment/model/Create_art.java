@@ -1,19 +1,18 @@
 package com.theComments.brt.jpa.theComment.model;
 
 import java.time.LocalDateTime;
-import java.util.List;
+import java.time.ZoneId;
+import java.util.Comparator;
 
-import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
-import javax.persistence.OneToMany;
 
 @Entity
-public class Create_art{
+public class Create_art implements Comparable<Create_art>{
 	
 	@Id
 	@GeneratedValue(strategy=GenerationType.AUTO)
@@ -65,6 +64,13 @@ public class Create_art{
 		this.artist_rank = artist_rank;
 	}
 	
+	@Override
+	public int compareTo(Create_art o) {
+		// TODO Auto-generated method stub
+		
+		return this.getSave_date().compareTo(o.getSave_date());
+	}
+
 	
 	
 	

@@ -19,14 +19,16 @@
             <mat-hint>패스워드를 입력해주세요.</mat-hint>
             <mat-error *ngIf="loginData.user_login_id.hasError('required')">패스워드를 입력해주세요.</mat-error>
         </mat-form-field>
-        <div class="login_button_div">
+        <mat-spinner class = "loading_spin spin1" *ngIf ="loading.login == 1"></mat-spinner>
+        <div *ngIf = "loading.login == 0" class="login_button_div">
             <button class="login_button button_login_01" mat-raised-button (click) = "login_common()">로그인</button>
             <button class="login_button" mat-raised-button color="primary" routerLink="/member/join">회원가입</button>
         </div>
-        <div class="login_button_sns">
+        <div *ngIf = "loading.login == 0" class="login_button_sns">
             <button class="login_button" mat-raised-button class="sns_login_button"><span class="snsIcon">
                     <img src="/assets/sns/kakao.png"></span>
             </button>
+
             <button class="login_button" mat-raised-button><span class="snsIcon">
                     <img src="/assets/sns/google.png"></span>
             </button>

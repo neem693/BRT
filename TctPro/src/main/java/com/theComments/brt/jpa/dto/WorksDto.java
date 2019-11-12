@@ -30,7 +30,10 @@ public class WorksDto extends Page{
 	int is_series;
 	LocalDateTime create_date;
 	LocalDateTime create_end_date2;
-
+	List<FileSaveDto> fileSaveDto;
+	
+	//need for works search return result
+	List<ArtistDto> artistDtoList;
 	// List<Evaluate> evaluate;
 	//
 	// @OneToMany(mappedBy="works")

@@ -90,6 +90,9 @@ export class AddEvalComponent implements OnInit {
     data: {},
   }
 
+  loading = {
+    save :0
+  }
 
   constructor(
     private route: ActivatedRoute,
@@ -189,7 +192,7 @@ export class AddEvalComponent implements OnInit {
       } else if (this.matterReturnData.matter_info == 0) {
 
         this.eval.matterIsNew = 0;
-        this.eval.subjectMatter.setValue(this.matterReturnData.data['sub_name']);
+        this.eval.subjectMatter.setValue(this.matterReturnData.data['subjectMatter']);
 
       }
 
@@ -231,6 +234,7 @@ export class AddEvalComponent implements OnInit {
 
     if (this.eval.button2 == -1) {
       alert("평가를 항목을 끝까지 선택해주세요.");
+      return;
     }
 
     for (let key in this.eval) {
@@ -239,7 +243,7 @@ export class AddEvalComponent implements OnInit {
         || key == "ev_text2"
         || key == "subjectMatter") {
 
-        if (this.eval[key]['error'] == null) {
+        if (this.eval[key]['error'] != null) {
           alert("형식을 확인해주세요.");
           return;
         }
@@ -252,9 +256,13 @@ export class AddEvalComponent implements OnInit {
     }
 
     data['work_id'] = this.work.id;
-
+    this.loading.save = 1;
     this.evalService.saveEval(data).subscribe(x=>{
       
+    },
+    ()=>{this.loading.save = 0;},
+    ()=>{
+      this.loading.save = 0;
     });
 
   }

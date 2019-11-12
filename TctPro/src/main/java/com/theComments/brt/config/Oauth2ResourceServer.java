@@ -20,16 +20,19 @@ public class Oauth2ResourceServer extends ResourceServerConfigurerAdapter {
 	};
 	private String [] restController = {
 			"/v1/member_public/**",
-			"/test/**"
+			"/test/**",
+			"/v1/type/**",
+			"/v1/worksPublic/**",
 	};
 	
 	private String [] publicController = {
 			"/member/join",
 
+
 	};
 	
 	private String [] common_user_auth = {
-			"/v1/type/**",
+			
 			"/v1/works/**",
 			"/v1/artist/**",
 			"/v1/eval/**"

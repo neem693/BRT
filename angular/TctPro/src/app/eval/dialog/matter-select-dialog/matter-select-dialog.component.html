@@ -2,7 +2,7 @@
 <div mat-dialog-content>
     <div class="matter_list">
         <div [ngClass] = "{'active':matter.select.squence == i}" (click) = "selectMatterOne(i)" class="box" *ngFor="let item of matterInfo_list; let i = index">
-            <div class="name">{{item.sub_name}}</div>
+            <div class="name">{{item.subjectMatter}}</div>
             <div class="matterPointNum">
                 <div *ngIf = "item.yellow > 0" class = "point yellow"><mat-icon>fiber_manual_record</mat-icon>{{item.yellow}}</div>
                 <div *ngIf = "item.blue > 0" class = "point blue"><mat-icon>fiber_manual_record</mat-icon>{{item.blue}}</div>

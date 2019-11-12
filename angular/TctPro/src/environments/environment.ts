@@ -5,7 +5,8 @@
 export const environment = {
   production: false,
   baseApiUrl:'/TctPro/v1',
-  baseApiUrlOrigin:"/TctPro"
+  baseApiUrlOrigin:"/TctPro",
+  imageBaseUrl:"/TctPro"
 };
 
 /*

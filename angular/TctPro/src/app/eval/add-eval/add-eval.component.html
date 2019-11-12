@@ -108,7 +108,8 @@
             <mat-error *ngIf="eval.subjectMatter.hasError('maxlength')">30글자를 초과합니다.</mat-error>
         </mat-form-field>
         <button type="button" color="primary" mat-stroked-button (click) = "matDialogOpen(1)" *ngIf = "eval.matterIsNew == 1" >기존 소재 선택</button>
-        <div class="eval_save"><button (click) = "evalSave()" type="submit" mat-raised-button color="primary">코멘트 저장</button></div>
+        <div *ngIf ="loading.save == 0" class="eval_save"><button (click) = "evalSave()" type="submit" mat-raised-button color="primary">코멘트 저장</button></div>
+        <mat-spinner class = "loading_spin spin1" *ngIf ="loading.save == 1"></mat-spinner>
     </form>
     <div class="clear"></div>
   

@@ -1,27 +1,31 @@
 package com.theComments.brt.jpa.theComment.model;
 
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 
+import org.hibernate.annotations.Fetch;
+import org.hibernate.annotations.FetchMode;
+
 @Entity
 public class FileSave {
-	
+
 	@Id
-	@GeneratedValue(strategy=GenerationType.AUTO)
+	@GeneratedValue(strategy = GenerationType.AUTO)
 	Long file_id;
-	
+
 	String file_name;
 	String file_path;
 	String save_file_name;
 	String save_file_path;
 	String file_type;
-	
-	@ManyToOne
-	@JoinColumn(name="work_id")
+
+	@ManyToOne(fetch = FetchType.LAZY)
+	@JoinColumn(name = "work_id")
 	Works works;
 
 	public Long getFile_id() {
@@ -79,7 +83,5 @@ public class FileSave {
 	public void setWorks(Works works) {
 		this.works = works;
 	}
-	
-	
 
 }

@@ -84,6 +84,36 @@ button:focus {
     /* color: #f44336; */
 }
 
+.loading_spin{
+    margin: 0 auto;
+    
+}
+.spin1 circle{
+    stroke: #bdbac4;
+}
+
+.type1 .swiper{
+    background-color: #262626;
+}
+
+.type1  .swiper-slide{
+    color:white;
+    transition: color 0.1s, background-color 0.1s;
+    cursor: pointer;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.type1 .swiper-slide-active{
+    color:black;
+    background-color:rgb(207, 205, 205);
+}
+
+.swiper-pagination{
+    top: 17px;
+    /* z-index: 98; */
+}
+
 @media screen and (max-width: 1060px) {
     body {
         width: 100%;
@@ -94,5 +124,13 @@ button:focus {
         margin: 0 auto;
         width: 98%;
         /* border:1px solid black; */
+    }
+
+    .type1  .swiper-slide{
+        padding: 30px 0px;
+    }
+    .swiper-pagination{
+        top: 40px;
+        /* z-index: 98; */
     }
 }

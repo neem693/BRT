@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { HeaderSelectorComponent } from './header_footer/header-selector/header-selector.component';
 import { FooterSelectorComponent } from './header_footer/footer-selector/footer-selector.component';
 import { HomeComponent } from './home/home.component';
-import { MatInputModule,MatFormFieldModule, MatIconModule, MatButtonModule, MatDialogModule, MatMenuModule, MatSelectModule, MatCardModule, MatExpansionModule, MatCheckboxModule, MatDatepickerModule, MatNativeDateModule, MAT_DATE_LOCALE, MAT_DATE_FORMATS } from '@angular/material';
+import { MatInputModule,MatFormFieldModule, MatIconModule, MatButtonModule, MatDialogModule, MatMenuModule, MatSelectModule, MatCardModule, MatExpansionModule, MatCheckboxModule, MatDatepickerModule, MatNativeDateModule, MAT_DATE_LOCALE, MAT_DATE_FORMATS, MatProgressSpinnerModule } from '@angular/material';
 import {MatMomentDateModule} from '@angular/material-moment-adapter'
 import { DragDropModule } from '@angular/cdk/drag-drop'
 import { JoinComponent, customVali } from './member/join/join.component';
@@ -34,6 +34,14 @@ import { ArtNameIsExistDialogComponent } from './artist/dialog/art-name-is-exist
 import { AddEvalComponent } from './eval/add-eval/add-eval.component';
 import { MatterSelectDialogComponent } from './eval/dialog/matter-select-dialog/matter-select-dialog.component';
 import { EvalService } from './eval/eval.service';
+import {SwiperConfigInterface, SwiperModule, SwiperConfig} from 'ngx-swiper-wrapper';
+import { WorkSerachComponent } from './works/work-serach/work-serach.component'
+
+const DEFAULT_SWIPER_CONFIG: SwiperConfigInterface = {
+  direction: 'horizontal',
+  slidesPerView: 4,
+
+};
 
 @NgModule({
   declarations: [
@@ -56,6 +64,7 @@ import { EvalService } from './eval/eval.service';
     ArtNameIsExistDialogComponent,
     AddEvalComponent,
     MatterSelectDialogComponent,
+    WorkSerachComponent,
 
     
   ],
@@ -82,6 +91,8 @@ import { EvalService } from './eval/eval.service';
     MatNativeDateModule,
     MatMomentDateModule,
     NgbPaginationModule,
+    MatProgressSpinnerModule,
+    SwiperModule,
   ],
   entryComponents: [
     JoinFailComponent,
@@ -107,6 +118,10 @@ import { EvalService } from './eval/eval.service';
     {
       provide:MAT_DATE_LOCALE,
       useValue:'ko'
+    },
+    {
+      provide:SwiperConfig,
+      useValue:DEFAULT_SWIPER_CONFIG,
     },
     // {
     //   provide:MAT_DATE_FORMATS,

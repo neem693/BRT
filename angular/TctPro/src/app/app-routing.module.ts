@@ -9,6 +9,7 @@ import { AfterWorksSaveCheckComponent } from './works/after-works-save-check/aft
 import { ArtistAddComponent } from './artist/artist-add/artist-add.component';
 import { AfterArtistSaveCheckComponent } from './artist/after-artist-save-check/after-artist-save-check.component';
 import { AddEvalComponent } from './eval/add-eval/add-eval.component';
+import { WorkSerachComponent } from './works/work-serach/work-serach.component';
 
 
 const routes: Routes = [
@@ -22,7 +23,8 @@ const routes: Routes = [
   {path:"works",children:[
     {path:"addWork",component:AddWorksComponent},
     {path:"addWork/:id",component:AddWorksComponent},
-    {path:"worksSaveCheck/:id",component:AfterWorksSaveCheckComponent}
+    {path:"worksSaveCheck/:id",component:AfterWorksSaveCheckComponent},
+    {path:"search/:id",component:WorkSerachComponent},
   ]},
   {path:"artist",children:[
     {path:"addArtist", component:ArtistAddComponent},

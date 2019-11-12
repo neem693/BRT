@@ -1,9 +1,12 @@
 package com.theComments.brt.app.eval.service;
 
+import java.time.LocalDateTime;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
+import java.util.Set;
 
 import javax.servlet.http.HttpServletRequest;
 
@@ -16,12 +19,16 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import com.fasterxml.jackson.databind.ser.std.StdKeySerializers.Dynamic;
 import com.theComments.brt.app.common.CommonSecure;
 import com.theComments.brt.constFile.PageConst;
 import com.theComments.brt.jpa.dto.ArtistDto;
 import com.theComments.brt.jpa.dto.EvaluateDto;
 import com.theComments.brt.jpa.dto.Evaluation_itemDto;
+import com.theComments.brt.jpa.dto.SimpleUserDto;
 import com.theComments.brt.jpa.dto.WorksDto;
+import com.theComments.brt.jpa.theComment.dao.DynamicQueryDao;
+import com.theComments.brt.jpa.theComment.dao.Eva_user_dao;
 import com.theComments.brt.jpa.theComment.dao.Evaluate_dao;
 import com.theComments.brt.jpa.theComment.dao.Evaluation_item_dao;
 import com.theComments.brt.jpa.theComment.dao.Works_dao;
@@ -37,6 +44,9 @@ import com.theComments.brt.util.ResultMap;
 public class EvalService {
 	
 	@Autowired
+	Eva_user_dao eva_user_dao;
+	
+	@Autowired
 	Works_dao works_dao;
 	
 	@Autowired
@@ -47,6 +57,9 @@ public class EvalService {
 	
 	@Autowired
 	HttpServletRequest request;
+	
+	@Autowired
+	DynamicQueryDao dynamicQueryDao;
 
 	/**
 	 * 
@@ -71,7 +84,8 @@ public class EvalService {
 		Works work = works_optional.get();
 		
 		///////later you can change this select algorism for leader on of artists
-		List<Create_art> create_art_list = work.getCreate();
+		List<Create_art> create_art_list = new ArrayList<Create_art>();
+		create_art_list.addAll(work.getCreate());
 		
 		if(create_art_list.size() == 0) {
 			result.setResult(202);
@@ -105,19 +119,24 @@ public class EvalService {
 		int page = dto.getPageNum() - 1;
 		//int page = 1 - 1;
 		int size = PageConst.PAGE.PAGE_SIZE;
-
-		Pageable pageable = PageRequest.of(page, size);
 		
-		Page<Evaluation_itemDto> matter_list = this.eval_item_dao.selectMatterListByWorkId(dto.getWork_id(),pageable);
+		//just List<Evaluation_itemDto> in resultMap data and totalSize
+		ResultMap result = dynamicQueryDao.selectMatter(dto.getWork_id(),page,size);
 		
-		ResultMap result = new ResultMap();
+//		Page<Evaluation_itemDto> matter_list = this.eval_item_dao.selectMatterListByWorkId(dto.getWork_id(),pageable);
+		
 		result.setResult(200);
-		result.setData(matter_list.getContent());
-		result.setTotalSize(matter_list.getTotalElements());
 		
 		return result;
 	}
 
+	/**
+	 * 
+	 * @param param
+	 * @return 
+	 * 200
+	 * id eval_item_id
+	 */
 	@Transactional("userTransactionManager")
 	public ResultMap saveEval(Map<String, Object> param) {
 		// TODO Auto-generated method stub
@@ -133,10 +152,15 @@ public class EvalService {
 		ev_value = Integer.parseInt(param.get("button2").toString());
 		work_id = Long.parseLong(param.get("work_id").toString());
 		
-		CommonSecure secure = new CommonSecure();
-		secure.getSimpleUserDto(request)
-		Eva_user eva_user = new Eva_user();
+		SimpleUserDto simpleUserDto = CommonSecure.getSimpleUserDto(request);
+		Optional<Eva_user> eva_user = eva_user_dao.findById(simpleUserDto.getUserId());
 		
+		if(eva_user.isPresent() == false) {
+			throw new RuntimeException("user is not availables");
+		}
+		if(ev_value <1 || ev_value >7) {
+			throw new RuntimeException("eval value is not correct");
+		}
 		if(ev_text1.length() ==0 ||  ev_text1.length() >50) {
 			throw new RuntimeException("comment1 over character");
 		}
@@ -164,15 +188,27 @@ public class EvalService {
 		item.setEv_text1(ev_text1);
 		item.setEv_text2(ev_text2);
 		item.setSubjectMatter(subjectMatter);
+		item.setEv_value(ev_value);
 		
 		item = eval_item_dao.save(item);
 		
 		//save eval_item
-		
+		Works work_for_saveEval = new Works();
+		work_for_saveEval.setWork_id(work_id);
+				
 		Evaluate eval = new Evaluate();
-		e
+		eval.setEva_user(eva_user.get());
+		eval.setEval_date(LocalDateTime.now());
+		eval.setEvaluation_item(item);
+		eval.setWorks(work_for_saveEval);
 		
-		return null;
+		eval = eval_dao.save(eval);
+		
+		ResultMap result = new ResultMap();
+		result.setResult(200);
+		result.setId(item.getEval_item_id());
+		
+		return result;
 	}
 	
 	

@@ -34,8 +34,8 @@ public class TypeController {
 	@RequestMapping(value = "/getWorkAllType",method = RequestMethod.GET)
 	public List<Type1Dto> getWorkType(){
 		
-//		List<Type1> list = type1_dao.getAllType();
-		List<Type1> type1List = type1_dao.findAll();
+		List<Type1> type1List = type1_dao.getAllType();
+		//List<Type1> type1List = type1_dao.findAll();
 		
 		List<Type1Dto> type1dtoList = new ArrayList<Type1Dto>();
 		

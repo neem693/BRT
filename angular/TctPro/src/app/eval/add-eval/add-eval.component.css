@@ -320,7 +320,8 @@
 }
 
 mat-error{
-    text-shadow: 1px 1px 3px rgb(0, 0, 0);
+    /* text-shadow: 1px 1px 3px rgb(0, 0, 0); */
+    background-color: rgb(133, 117, 133);
 }
 
 
