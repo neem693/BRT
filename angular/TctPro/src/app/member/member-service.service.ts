@@ -13,7 +13,7 @@ export class MemberServiceService {
 
   private loginStateSource = new BehaviorSubject(false);
   public loginState = this.loginStateSource.asObservable();
-
+  
   constructor(private http:HttpClient) {}
   csrfGen():Observable<any>{
     return this.http.get(environment.baseApiUrl + "/member_public/csrfTokenGen");
@@ -48,10 +48,36 @@ export class MemberServiceService {
     this.loginStateSource.next(param);
   }
 
+  
+
   logout() {
     localStorage.removeItem(member_const.token_key);
     localStorage.removeItem(member_const.token_expire_key);
   }
+
+  queryStringToJSON(qs:string) {
+    qs = qs || location.search.slice(1);
+
+    var pairs = qs.split('&');
+    var result = {};
+    pairs.forEach(function(p) {
+        var pair = p.split('=');
+        var key = pair[0];
+        var value = decodeURIComponent(pair[1] || '');
+
+        if( result[key] ) {
+            if( Object.prototype.toString.call( result[key] ) === '[object Array]' ) {
+                result[key].push( value );
+            } else {
+                result[key] = [ result[key], value ];
+            }
+        } else {
+            result[key] = value;
+        }
+    });
+
+    return JSON.parse(JSON.stringify(result));
+};
 
  
 

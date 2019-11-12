@@ -24,6 +24,7 @@ export class AppComponent {
   constructor(router: Router, memberService: MemberServiceService) {
     router.events.subscribe((x) => {
       this.routeInfo = x;
+      
       setTimeout(() => {
         if ($('.hr_01').hasClass('active') == false) {
           $('.hr_01').addClass('active');
