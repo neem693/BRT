@@ -66,6 +66,18 @@
     font-size: large;
 }
 
+.work_item {
+    position: relative;
+    top: -100px;
+    opacity: 0;
+    transition: opacity 1s, top 1s;
+}
+
+.work_item.active {
+    opacity: 1;
+    top: 0;
+}
+
 .work_item.representation {
     width: 30%;
     cursor: pointer;
@@ -122,8 +134,18 @@
 }
 
 .work_detail_outer {
+    position: relative;
     float: left;
     width: 30%;
+    left:-100px;
+    opacity: 0;
+    transition: left 0.1s, opacity 0.1s;
+    /* border: 1px solid black; */
+}
+
+.work_detail_outer.active {
+    left:0px;
+    opacity: 1;
     /* border: 1px solid black; */
 }
 
@@ -241,47 +263,52 @@
     font-size: 1vw;
     width: 50%;
 }
-.reply{
+
+.reply {
     display: none;
 }
 
-.matter_list{
+.matter_list {
     width: 70%;
-    margin:auto;
+    margin: auto;
     margin-top: 10px;
 }
 
-.point mat-icon{
-    font-size:medium;
-    width:auto;
-    height:auto;
+.point mat-icon {
+    font-size: medium;
+    width: auto;
+    height: auto;
     text-shadow: 0px 0px 3px rgb(0, 0, 0);
 }
 
-.yellow mat-icon{
+.yellow mat-icon {
     color: yellow;
     /* text-shadow: 0px 0px 3px rgb(0, 0, 0); */
 }
 
-.blue mat-icon{
+.blue mat-icon {
     color: #00B0F0;
     /* text-shadow: 0px 0px 3px #00B0F0; */
 }
-.gray mat-icon{
+
+.gray mat-icon {
     color: #746E6E;
     /* text-shadow: 0px 0px 3px #746E6E; */
 }
-.black mat-icon{
+
+.black mat-icon {
     color: black;
     /* text-shadow: 0px 0px 3px black; */
 }
-.matter{
+
+.matter {
     display: inline-block;
     border: rgba(0, 0, 0, 0.404) 1px solid;
     border-radius: 10%;
     margin: 2px 3px;
 }
-.matter .matter_name{
+
+.matter .matter_name {
     margin-right: 3px;
 }
 
@@ -310,11 +337,9 @@
         z-index: 60;
         /* border: 1px solid black; */
         transition: left 0.5s;
-        left:0px;
+        left: 0px;
+        opacity: 1;
     }
-
-
-
     .work_list_outer {
         flex-direction: column;
         display: flex;
@@ -353,7 +378,6 @@
     }
     .artist_name_pre {
         /* margin-top:10px; */
-
         font-size: 5vw;
         width: 90%;
     }
@@ -364,20 +388,16 @@
         width: 60%;
     }
     .create_date_03 span {
-
         font-size: 6vw;
         width: 60%;
     }
-
-    .work_detail_outer.fold{
-        left:-90%;
+    .work_detail_outer.fold {
+        left: -90%;
     }
-
-    .work_detail_outer.fold .reply{
-        left:100%;
+    .work_detail_outer.fold .reply {
+        left: 100%;
     }
-
-    .reply{
+    .reply {
         float: right;
         display: flex;
         align-content: center;
@@ -390,7 +410,7 @@
         height: 50px;
         width: 50px;
         text-align: center;
-        left:90%;
+        left: 90%;
         cursor: pointer;
     }
 }

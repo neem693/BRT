@@ -20,11 +20,15 @@ import org.springframework.transaction.annotation.Transactional;
 import com.theComments.brt.app.common.CommonSecure;
 import com.theComments.brt.constFile.PageConst;
 import com.theComments.brt.jpa.dto.ArtistDto;
+import com.theComments.brt.jpa.dto.OrderForSearch;
 import com.theComments.brt.jpa.dto.SimpleUserDto;
+import com.theComments.brt.jpa.dto.Type1Dto;
+import com.theComments.brt.jpa.dto.Type2Dto;
 import com.theComments.brt.jpa.dto.WorksDto;
 import com.theComments.brt.jpa.theComment.dao.ArtistSave_dao;
 import com.theComments.brt.jpa.theComment.dao.Artist_dao;
 import com.theComments.brt.jpa.theComment.dao.Create_art_dao;
+import com.theComments.brt.jpa.theComment.dao.DynamicQueryDao;
 import com.theComments.brt.jpa.theComment.dao.Eva_user_dao;
 import com.theComments.brt.jpa.theComment.dao.Works_dao;
 import com.theComments.brt.jpa.theComment.model.Artist;
@@ -51,6 +55,9 @@ public class ArtistService {
 
 	@Autowired
 	Create_art_dao createArtDao;
+	
+	@Autowired
+	DynamicQueryDao dynamicQueryDao;
 
 	@Autowired
 	HttpServletRequest request;
@@ -207,6 +214,42 @@ public class ArtistService {
 		result.setResult(200);
 
 		return result;
+	}
+
+	public ResultMap artistSearch(Map<String, Object> param) {
+		// TODO Auto-generated method stub
+		
+		int pageNum = Integer.parseInt(param.get("pageNum").toString());
+		int order = Integer.parseInt(param.get("order").toString());
+		int order2 = Integer.parseInt(param.get("order2").toString());
+		
+		Long type1 = Long.parseLong(param.get("type1").toString());
+		Long type2 = Long.parseLong(param.get("type2").toString());
+		
+		String searchText = "";
+		if(param.get("searchText") != null) {
+			searchText = param.get("searchText").toString();
+		}
+		
+		ArtistDto artistDto = new ArtistDto();
+		artistDto.setSearchText(searchText);
+		artistDto.setPageNum(pageNum);
+		
+		Type1Dto type1Dto = new Type1Dto();
+		type1Dto.setType1_id(type1);
+		
+		Type2Dto type2Dto = new Type2Dto();
+		type2Dto.setType2_id(type2);
+		
+		OrderForSearch orderForSearch = new OrderForSearch();
+		orderForSearch.setOrder(order);
+		orderForSearch.setOrder2(order2);
+		
+		List<ArtistDto> artist_list = dynamicQueryDao.searchArtistDynamic(artistDto,type1Dto,type2Dto,orderForSearch);
+		
+
+		
+		return null;
 	}
 
 }

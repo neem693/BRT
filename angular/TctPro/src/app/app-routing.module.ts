@@ -10,6 +10,7 @@ import { ArtistAddComponent } from './artist/artist-add/artist-add.component';
 import { AfterArtistSaveCheckComponent } from './artist/after-artist-save-check/after-artist-save-check.component';
 import { AddEvalComponent } from './eval/add-eval/add-eval.component';
 import { WorkSerachComponent } from './works/work-serach/work-serach.component';
+import { ArtistSearchComponent } from './artist/artist-search/artist-search.component';
 
 
 const routes: Routes = [
@@ -29,7 +30,8 @@ const routes: Routes = [
   {path:"artist",children:[
     {path:"addArtist", component:ArtistAddComponent},
     {path:"addArtist/:id", component:ArtistAddComponent}, 
-    {path:"artistSaveCheck/:id",component:AfterArtistSaveCheckComponent}
+    {path:"artistSaveCheck/:id",component:AfterArtistSaveCheckComponent},
+    {path:"searchArtist",component:ArtistSearchComponent},
   ]},
   {path:"eval",children:[
     {path:"addEval/:id", component:AddEvalComponent}

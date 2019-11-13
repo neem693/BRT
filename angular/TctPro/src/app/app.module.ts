@@ -35,7 +35,8 @@ import { AddEvalComponent } from './eval/add-eval/add-eval.component';
 import { MatterSelectDialogComponent } from './eval/dialog/matter-select-dialog/matter-select-dialog.component';
 import { EvalService } from './eval/eval.service';
 import {SwiperConfigInterface, SwiperModule, SwiperConfig} from 'ngx-swiper-wrapper';
-import { WorkSerachComponent } from './works/work-serach/work-serach.component'
+import { WorkSerachComponent } from './works/work-serach/work-serach.component';
+import { ArtistSearchComponent } from './artist/artist-search/artist-search.component'
 
 const DEFAULT_SWIPER_CONFIG: SwiperConfigInterface = {
   direction: 'horizontal',
@@ -65,6 +66,7 @@ const DEFAULT_SWIPER_CONFIG: SwiperConfigInterface = {
     AddEvalComponent,
     MatterSelectDialogComponent,
     WorkSerachComponent,
+    ArtistSearchComponent,
 
     
   ],

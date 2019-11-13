@@ -1,5 +1,5 @@
-import { Component, OnInit, ViewChild, QueryList, AfterViewInit, Input, OnChanges, SimpleChanges } from '@angular/core';
-import { SwiperConfigInterface, SwiperPaginationInterface } from 'ngx-swiper-wrapper';
+import { Component, OnInit, ViewChild, QueryList, AfterViewInit, Input, OnChanges, SimpleChanges, ElementRef } from '@angular/core';
+import { SwiperConfigInterface, SwiperPaginationInterface, SwiperDirective, SwiperComponent } from 'ngx-swiper-wrapper';
 import { WorksSerivceService } from '../works-serivce.service';
 import { FormControl, Validators } from '@angular/forms';
 import { RESULT } from 'src/const/publicConst';
@@ -7,14 +7,15 @@ import { environment } from 'src/environments/environment';
 import { HttpParams } from '@angular/common/http';
 import { Router, ActivatedRoute, Params } from '@angular/router';
 
-declare const $:any;
+declare const $: any;
 
 @Component({
   selector: 'app-work-serach',
   templateUrl: './work-serach.component.html',
   styleUrls: ['./work-serach.component.css']
 })
-export class WorkSerachComponent implements OnInit {
+export class WorkSerachComponent implements OnInit, AfterViewInit {
+
 
   public config: SwiperConfigInterface = {
     slideToClickedSlide: true,
@@ -50,12 +51,16 @@ export class WorkSerachComponent implements OnInit {
    * ##detail : at least one load of detail
    * 0: detail not load
    * 1: at least one load
+   * ##firstLoading: first loading for typeList loading
+   * 0: is not loading
+   * 1: is loading
    */
   loading = {
     type: 0,
     search: 0,
     searchItemOrder: 0,
-    detail: 0
+    detail: 0,
+    firstLoading: 0,
   }
   /**
    * search variable
@@ -90,7 +95,7 @@ export class WorkSerachComponent implements OnInit {
   targetWork = {
     work: {},
     matter: {},
-    matterSize:0,
+    matterSize: 0,
   };
   page = {
     worksList: {
@@ -98,8 +103,8 @@ export class WorkSerachComponent implements OnInit {
       pageNum: 1,
       pageSize: 10,
     },
-    matter:{
-      totalSize:0,
+    matter: {
+      totalSize: 0,
       pageNum: 1,
       pageSize: 10
     }
@@ -119,7 +124,20 @@ export class WorkSerachComponent implements OnInit {
 
   }
 
+  // swiper = {
+  //   type1Index: 0,
+  //   type2Index: 0
+  // }
 
+  private swiperType1: SwiperComponent;
+  private swiperType2: SwiperComponent;
+
+  @ViewChild('type1', { static: false }) set swiperType1_viewchild(content: SwiperComponent) {
+    this.swiperType1 = content;
+  }
+  @ViewChild('type2', { static: false }) set swiperType2_viewchild(content: SwiperComponent) {
+    this.swiperType2 = content;
+  }
 
   constructor(private workService: WorksSerivceService
     , private router: Router
@@ -128,21 +146,36 @@ export class WorkSerachComponent implements OnInit {
   ngOnInit() {
 
     this.getAllType();
-    this.worksSearchNativeUrl(1);
+    //this.worksSearchNativeUrl(1);
     this.route.paramMap.subscribe(x => {
       console.log(x);
       let data = x['params'];
       if (data['id'] != undefined && data['id'] != 0) {
         this.searchWorksDetail(data['id']);
       }
+
+      if (this.router.url.split("?").length == 1) {
+        this.worksSearchNativeUrl(1);
+      }
+
     })
 
     this.route.queryParams.subscribe(x => {
       console.log(x);
       if (x['type1'] != null) {
+
+        if (this.loading.type == 0) {
+          this.search.type1 = x['type1'];
+          this.search.type2 = x['type2'];
+        }
+
         this.worksSearch(x);
       }
     })
+
+  }
+
+  ngAfterViewInit(): void {
 
   }
 
@@ -165,7 +198,33 @@ export class WorkSerachComponent implements OnInit {
 
       this.typeList.data.unshift({ type1_name: "전체", type1_id: 0 });
       this.loading.type = 1;
-      // console.log(typeList);
+
+      setTimeout(() => {
+        for (var i = 1; i < this.typeList.data.length; i++) {
+          if (this.typeList.data[i].type1_id == this.search.type1) {
+            this.typeList.type1Index = i;
+            this.swiperType1.directiveRef.setIndex(i);
+            console.log("type1 index" + this.typeList.type1Index);
+            setTimeout(() => {
+              for (var j = 1; j < this.typeList.data[this.typeList.type1Index].type2Dto.length; j++) {
+                console.log(this.search.type2);
+                if (this.typeList.data[this.typeList.type1Index].type2Dto[j].type2_id == this.search.type2) {
+                  this.typeList.type2Index = j;
+                  this.swiperType2.directiveRef.setIndex(j);
+                  console.log(j + " type2 " + this.typeList.type2Index);
+                }
+              }
+            }, 1000)
+
+          }
+        }
+
+        this.loading.firstLoading = 1;
+
+      }, 1000);
+
+
+      console.log(this.typeList);
     });
 
   }
@@ -173,7 +232,9 @@ export class WorkSerachComponent implements OnInit {
   /**type1 change event */
   type1Change(index: number) {
     this.search.type1 = this.typeList.data[index].type1_id;
-    this.search.type2 = 0;
+    if (this.loading.firstLoading == 1) {
+      this.search.type2 = 0;
+    }
 
     this.typeList.type1Index = index;
     this.typeList.type2Index = 0;
@@ -184,7 +245,6 @@ export class WorkSerachComponent implements OnInit {
 
   /**type1 change event */
   type2Change(index: number) {
-
     this.typeList.type2Index = index;
     this.search.type2 = this.typeList.data[this.typeList.type1Index].type2Dto[index].type2_id;
 
@@ -227,8 +287,6 @@ export class WorkSerachComponent implements OnInit {
 
   worksSearch(data: any) {
 
-
-
     //loading search
     this.loading.search = 1;
     //loading 
@@ -245,29 +303,17 @@ export class WorkSerachComponent implements OnInit {
         }
       }
       this.loading.search = 0;
+
+      for(var i =0; i<this.works_list.length; i++){
+        this.work_item_index(i);
+        
+      }
+
     })
 
   }
 
-  /**
-   * 
-   * @param type 
-   * 1: works_list
-   */
-  ngForLast(type: number) {
-    if (type == 1) {
-      this.loading.searchItemOrder = 0;
-    }
-  }
-
-  ngForDoing(type: number, index: number) {
-    if (type == 1 && this.loading.searchItemOrder == 1) {
-
-      console.log("doing" + type);
-      console.log("doingIndex" + index);
-    }
-
-  }
+ 
   /**
    * searchChange function
    * searchParam change trigger this function
@@ -277,13 +323,16 @@ export class WorkSerachComponent implements OnInit {
     // console.log(event);
   }
 
+  //animation css remove
+
   searchWorksDetail(workId: any) {
 
     //detail picture index reset
     this.detail.picIndex = 0;
 
     this.loading.detail = 1;
-    this.workService.worksSearchDetail({ 'work_id': workId,'pageNum':this.page.matter.pageNum}).subscribe(x => {
+    $(".work_detail_outer").removeClass("active");
+    this.workService.worksSearchDetail({ 'work_id': workId, 'pageNum': this.page.matter.pageNum }).subscribe(x => {
       let result = x[RESULT.RESULT_KEY];
       let data = null
       if (result == 200) {
@@ -291,13 +340,18 @@ export class WorkSerachComponent implements OnInit {
       }
       this.targetWork.work = data['work'];
       this.targetWork.matter = data['matter'];
-      this.targetWork.matterSize = data['matterSize'];  
+      this.targetWork.matterSize = data['matterSize'];
       this.page.matter.totalSize = this.targetWork.matterSize;
-      console.log( this.page.matter.totalSize);
+      console.log(this.page.matter.totalSize);
       this.detail.detailLoad = 1;
       this.loading.detail = 0;
       // console.log(this.targetWork);
-      
+
+      //animation css
+      setTimeout(()=>{
+        $(".work_detail_outer").addClass("active");
+      },600);
+
 
     }, error => {
       this.loading.detail = 0;
@@ -327,10 +381,22 @@ export class WorkSerachComponent implements OnInit {
   /**
    * when use the dynamic query for small screen, detail edge show the icon fold the detail view
    */
-  toggleFold(){
+  toggleFold() {
 
     $("#detail_outer").toggleClass("fold");
 
+  }
+
+  /**
+   * work item animation
+   * @param index 
+   */
+  work_item_index(index: number) {
+    
+    setTimeout(() => {
+      $("#workItem" + index).addClass("active");
+    }, 200* (index+1));
+    
   }
 
 

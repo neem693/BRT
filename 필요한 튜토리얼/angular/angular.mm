@@ -1,8 +1,8 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1563522454767" ID="ID_1812649479" MODIFIED="1573287252869" TEXT="angular">
-<hook NAME="accessories/plugins/RevisionPlugin.properties"/>
 <hook NAME="accessories/plugins/CreationModificationPlugin_new.properties"/>
+<hook NAME="accessories/plugins/RevisionPlugin.properties"/>
 <node CREATED="1563522718142" FOLDED="true" ID="ID_1024043872" MODIFIED="1571055012268" POSITION="right" TEXT="&#xd604;&#xc7ac; &#xd29c;&#xd1a0;&#xb9ac;&#xc5bc;">
 <node CREATED="1563522713920" ID="ID_792755994" LINK="https://www.tutorialspoint.com/angular7/angular7_project_setup.htm" MODIFIED="1563522716082" TEXT="https://www.tutorialspoint.com/angular7/angular7_project_setup.htm"/>
 </node>
@@ -352,10 +352,10 @@
 <node CREATED="1568562749885" ID="ID_1955888602" LINK="https://angular.io/guide/build#proxying-to-a-backend-server" MODIFIED="1568562749885" TEXT="https://angular.io/guide/build#proxying-to-a-backend-server"/>
 <node CREATED="1568570863814" ID="ID_202095573" LINK="https://www.youtube.com/watch?v=OjmZPPKaj6A" MODIFIED="1568570863814" TEXT="https://www.youtube.com/watch?v=OjmZPPKaj6A"/>
 </node>
-<node CREATED="1568572211565" ID="ID_1968995380" MODIFIED="1573526165001" POSITION="right" TEXT="&#xcfe0;&#xd0a4;">
+<node CREATED="1568572211565" FOLDED="true" ID="ID_1968995380" MODIFIED="1573595847804" POSITION="right" TEXT="&#xcfe0;&#xd0a4;">
 <node CREATED="1568572217297" ID="ID_1759760062" LINK="https://developer.mozilla.org/ko/docs/Web/HTTP/Cookies" MODIFIED="1568572217297" TEXT="https://developer.mozilla.org/ko/docs/Web/HTTP/Cookies"/>
 </node>
-<node COLOR="#3333ff" CREATED="1568624291452" ID="ID_781460189" MODIFIED="1573526149947" POSITION="right" STYLE="bubble" TEXT="httpInterceptor">
+<node COLOR="#3333ff" CREATED="1568624291452" FOLDED="true" ID="ID_781460189" MODIFIED="1573595847804" POSITION="right" STYLE="bubble" TEXT="httpInterceptor">
 <font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
 <node CREATED="1568624295861" ID="ID_369433407" LINK="https://angular.io/api/common/http/HttpInterceptor" MODIFIED="1570810695358" TEXT="https://angular.io/api/common/http/HttpInterceptor"/>
 <node CREATED="1568628813376" ID="ID_574785617" LINK="https://blog.angularindepth.com/top-10-ways-to-use-interceptors-in-angular-db450f8a62d6" MODIFIED="1570810695359" TEXT="https://blog.angularindepth.com/top-10-ways-to-use-interceptors-in-angular-db450f8a62d6"/>
@@ -550,7 +550,7 @@
 <node CREATED="1570478049991" LINK="https://google.github.io/material-design-icons/" MODIFIED="1570478049991" TEXT="https://google.github.io/material-design-icons/"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#ff3333" CREATED="1570481463185" ID="ID_1592856275" MODIFIED="1573533068377" POSITION="right" STYLE="bubble" TEXT="&#xd398;&#xc774;&#xc9c0; &#xb118;&#xae30;&#xae30;">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#ff3333" CREATED="1570481463185" FOLDED="true" ID="ID_1592856275" MODIFIED="1573595847804" POSITION="right" STYLE="bubble" TEXT="&#xd398;&#xc774;&#xc9c0; &#xb118;&#xae30;&#xae30;">
 <font BOLD="true" NAME="Dialog" SIZE="24"/>
 <node CREATED="1570481465245" ID="ID_779952897" MODIFIED="1570481465245" TEXT="routerLink"/>
 <node CREATED="1570481470585" ID="ID_311617540" MODIFIED="1570481472068" TEXT="&#xc608;&#xc2dc;">
@@ -944,7 +944,7 @@
 <node CREATED="1570947867267" ID="ID_633417385" MODIFIED="1570947867267" TEXT="&lt;input (blur) = &quot;loginIdDuplicate(loginData.user_login_id)&quot; matInput [formControl]=&quot;loginData.user_login_id&quot; placeholder=&quot;&#xc544;&#xc774;&#xb514;&quot; value=&quot;&quot;&gt;"/>
 </node>
 </node>
-<node COLOR="#3333ff" CREATED="1571055030913" ID="ID_1622315856" MODIFIED="1573526252575" POSITION="right" STYLE="bubble" TEXT="http client response &#xbc1b;&#xae30;">
+<node COLOR="#3333ff" CREATED="1571055030913" FOLDED="true" ID="ID_1622315856" MODIFIED="1573595847804" POSITION="right" STYLE="bubble" TEXT="http client response &#xbc1b;&#xae30;">
 <font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
 <node COLOR="#3333ff" CREATED="1571055042638" ID="ID_306864185" MODIFIED="1571055047944" STYLE="bubble" TEXT="observe:response">
 <font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
@@ -961,7 +961,7 @@
 <node CREATED="1571072122962" ID="ID_1780711004" MODIFIED="1571072128191" TEXT="ngModelChange &#xb97c; &#xc368;&#xb77c;"/>
 </node>
 </node>
-<node CREATED="1571174163102" ID="ID_1979358088" MODIFIED="1573533076767" POSITION="right" TEXT="JSON to  application/x-www-form-urlencoded &#xcffc;&#xb9ac; &#xc2a4;&#xd2b8;&#xb9c1; &#xd615;&#xd0dc;&#xb85c; &#xbc14;&#xafd4;&#xc11c; &#xbcf4;&#xb0b4;&#xae30;">
+<node CREATED="1571174163102" FOLDED="true" ID="ID_1979358088" MODIFIED="1573595847804" POSITION="right" TEXT="JSON to  application/x-www-form-urlencoded &#xcffc;&#xb9ac; &#xc2a4;&#xd2b8;&#xb9c1; &#xd615;&#xd0dc;&#xb85c; &#xbc14;&#xafd4;&#xc11c; &#xbcf4;&#xb0b4;&#xae30;">
 <node COLOR="#3333ff" CREATED="1571174919494" ID="ID_1110896494" MODIFIED="1571183599948" STYLE="bubble" TEXT="&#xc790;&#xbc14;&#xc2a4;&#xd06c;&#xb9bd;&#xd2b8;&#xc5d0;&#xc11c;&#xb294; &#xc0c8;&#xb85c; &#xb9cc;&#xb4e4;&#xac70;&#xb098; URLSearchParams &#xc0ac;&#xc6a9;&#xd558;&#xae30;(&#xcd94;&#xcc9c;)">
 <font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
 </node>
@@ -1100,7 +1100,7 @@
 <node CREATED="1571609788473" MODIFIED="1571609788473" TEXT="},500);"/>
 </node>
 </node>
-<node CREATED="1571683202876" ID="ID_1658129296" MODIFIED="1573532960907" POSITION="right" TEXT="jquery important">
+<node CREATED="1571683202876" FOLDED="true" ID="ID_1658129296" MODIFIED="1573595847804" POSITION="right" TEXT="jquery important">
 <node CREATED="1571683319456" ID="ID_1679425840" LINK="https://stackoverflow.com/a/2655976/8274275" MODIFIED="1571683319456" TEXT="https://stackoverflow.com/a/2655976/8274275"/>
 </node>
 <node CREATED="1571805848632" FOLDED="true" ID="ID_1946543288" MODIFIED="1573287236336" POSITION="right" TEXT="ng bootStrap(&#xd398;&#xc774;&#xc9c0;&#xb124;&#xc774;&#xc158; &#xbaa8;&#xb378; &#xb4f1;)">
@@ -1195,8 +1195,23 @@
 <node BACKGROUND_COLOR="#ffff00" CREATED="1573288670189" ID="ID_126076154" MODIFIED="1573288690604" TEXT="&lt;/swiper&gt;"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffff00" CREATED="1573530735929" ID="ID_954361884" MODIFIED="1573530739825" POSITION="right" TEXT="getCurrentUrl">
+<node BACKGROUND_COLOR="#ffff00" CREATED="1573530735929" FOLDED="true" ID="ID_954361884" MODIFIED="1573595847804" POSITION="right" TEXT="getCurrentUrl">
 <node CREATED="1573530740204" LINK="https://stackoverflow.com/questions/45184969/get-current-url-in-angular" MODIFIED="1573530740204" TEXT="https://stackoverflow.com/questions/45184969/get-current-url-in-angular"/>
+</node>
+<node BACKGROUND_COLOR="#ffffff" COLOR="#ff3333" CREATED="1573595886036" ID="ID_1434455979" MODIFIED="1573595894775" POSITION="right" STYLE="bubble" TEXT="dynamic viewChild">
+<font BOLD="true" NAME="Dialog" SIZE="24"/>
+<node CREATED="1573595892361" ID="ID_388630614" LINK="https://stackoverflow.com/questions/39366981/viewchild-in-ngif" MODIFIED="1573595894408" TEXT="https://stackoverflow.com/questions/39366981/viewchild-in-ngif"/>
+<node COLOR="#3333ff" CREATED="1573595896097" ID="ID_161545769" MODIFIED="1573595900200" STYLE="bubble" TEXT="set&#xc744; &#xc774;&#xc6a9;&#xd558;&#xb77c;!">
+<font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
+</node>
+<node CREATED="1573650508066" ID="ID_204525261" MODIFIED="1573650508066" TEXT="@ViewChild(&apos;contentPlaceholder&apos;) set content(content: ElementRef) {">
+<node CREATED="1573650508066" MODIFIED="1573650508066" TEXT="this.contentPlaceholder = content;"/>
+<node CREATED="1573650508066" MODIFIED="1573650508066" TEXT="}"/>
+</node>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1573650509086" ID="ID_706093719" MODIFIED="1573650520106" TEXT="&#xc800;&#xb807;&#xac8c; &#xd558;&#xba74; &#xacc4;&#xc18d; &#xc5c5;&#xb370;&#xc774;&#xd2b8; &#xb41c;&#xb2e4;."/>
+</node>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1573658363573" ID="ID_1488302838" MODIFIED="1573658376327" POSITION="right" TEXT="angular last trigger">
+<node CREATED="1573658376668" LINK="https://stackoverflow.com/questions/35819264/angular-2-callback-when-ngfor-has-finished" MODIFIED="1573658376668" TEXT="https://stackoverflow.com/questions/35819264/angular-2-callback-when-ngfor-has-finished"/>
 </node>
 </node>
 </map>

@@ -199,24 +199,12 @@ public class DynamicQueryDao {
 	private Long selectMatter(EntityManager em, Long work_id, int page, int size) {
 		// TODO Auto-generated method stub
 
-		Query query = em.createNativeQuery(
-				"SELECT\r\n" + 
-				"count(*)      \r\n" + 
-				"FROM\r\n" + 
-				"(SELECT\r\n" + 
-				"ei.subjectMatter          \r\n" + 
-				"FROM\r\n" + 
-				"evaluation_item ei              \r\n" + 
-				"INNER JOIN\r\n" + 
-				"evaluate e                     \r\n" + 
-				"ON ei.eval_item_id = e.eval_item_id              \r\n" + 
-				"INNER JOIN\r\n" + 
-				"WORKS w                     \r\n" + 
-				"ON w.work_id = e.works_id             \r\n" + 
-				"WHERE\r\n" + 
-				"w.work_id =:work_id\r\n" + 
-				"group by ei.subjectMatter\r\n" + 
-				" ) as result");
+		Query query = em.createNativeQuery("SELECT\r\n" + "count(*)      \r\n" + "FROM\r\n" + "(SELECT\r\n"
+				+ "ei.subjectMatter          \r\n" + "FROM\r\n" + "evaluation_item ei              \r\n"
+				+ "INNER JOIN\r\n" + "evaluate e                     \r\n"
+				+ "ON ei.eval_item_id = e.eval_item_id              \r\n" + "INNER JOIN\r\n"
+				+ "WORKS w                     \r\n" + "ON w.work_id = e.works_id             \r\n" + "WHERE\r\n"
+				+ "w.work_id =:work_id\r\n" + "group by ei.subjectMatter\r\n" + " ) as result");
 
 		query.setParameter("work_id", work_id);
 		BigInteger count = (BigInteger) query.getSingleResult();
@@ -236,7 +224,7 @@ public class DynamicQueryDao {
 		Join<Works, Type2> type2Root = worksRoot.join("type2", JoinType.INNER);
 		Join<Type2, Type1> type1Root = type2Root.join("type1", JoinType.INNER);
 		Join<Works, FileSave> fileSaveRoot = worksRoot.join("fileSave", JoinType.LEFT);
-		Join<Works, Create_art> createArtRoot = worksRoot.join("create",JoinType.LEFT);
+		Join<Works, Create_art> createArtRoot = worksRoot.join("create", JoinType.LEFT);
 //		Join<Create_art,Artist> artistRoot = createArtRoot.join("artist",JoinType.LEFT);
 		// dynamic join
 		Join<Works, Evaluate> evalRoot = null;
@@ -245,7 +233,7 @@ public class DynamicQueryDao {
 		works_filesave_entityGraph.addAttributeNodes("fileSave");
 //		EntityGraph<Works> works_create_entityGraph = em.createEntityGraph(Works.class);
 		works_filesave_entityGraph.addSubgraph("create").addAttributeNodes("artist");
-		
+
 		Long type1_id = type1.getType1_id();
 		Long type2_id = type2.getType2_id();
 
@@ -307,7 +295,7 @@ public class DynamicQueryDao {
 				cq.select(worksRoot).where(predicate_array).groupBy(groupListExpression).orderBy(order_array));
 		typeQuery.setFirstResult(worksDto.getPageNum() - 1);
 		typeQuery.setMaxResults(PAGE.PAGE_SIZE);
-		
+
 //		typeQuery.setHint("javax.persistence.loadgraph", works_create_entityGraph);
 		typeQuery.setHint("javax.persistence.loadgraph", works_filesave_entityGraph);
 		Long totalCount = searchWorksDynamicTotalCount(em, worksDto, type1, type2);
@@ -319,13 +307,13 @@ public class DynamicQueryDao {
 		for (Works work : works_list) {
 			WorksDto one = new WorksDto();
 			BeanUtils.copyProperties(work, one);
-			//get the fileList//////////
+			// get the fileList//////////
 			List<FileSaveDto> file_list_dto = new ArrayList<FileSaveDto>();
-		
+
 			Set<FileSave> file_set = work.getFileSave();
 			List<FileSave> file_list = new ArrayList<FileSave>();
 			file_list.addAll(file_set);
-			
+
 			for (FileSave fileSave : file_list) {
 
 				FileSaveDto fileDto = new FileSaveDto();
@@ -334,23 +322,23 @@ public class DynamicQueryDao {
 				file_list_dto.add(fileDto);
 			}
 			one.setFileSaveDto(file_list_dto);
-			////////////end/////////////////
-			//get the creator/////////////
-			/////////need represent creator////////
+			//////////// end/////////////////
+			// get the creator/////////////
+			///////// need represent creator////////
 			Set<Create_art> createArt_set = work.getCreate();
 			List<Create_art> createArt_list = new ArrayList<Create_art>();
 			createArt_list.addAll(createArt_set);
 			List<ArtistDto> artistDto_list = new ArrayList<>();
-			for(Create_art create : createArt_list) {
+			for (Create_art create : createArt_list) {
 				Artist artist = create.getArtist();
 				ArtistDto artistDto = new ArtistDto();
-				
+
 				BeanUtils.copyProperties(artist, artistDto);
-				
+
 				artistDto_list.add(artistDto);
 			}
-			///////////end///////////////////
-			
+			/////////// end///////////////////
+
 			one.setArtistDtoList(artistDto_list);
 			one.setTotalSize(totalCount);
 			dto_list.add(one);
@@ -391,6 +379,19 @@ public class DynamicQueryDao {
 		Long totalCount = em.createQuery(cq.select(cb.count(worksRoot)).where(predicate_array)).getSingleResult();
 
 		return totalCount;
+	}
+
+	public List<ArtistDto> searchArtistDynamic(ArtistDto artistDto, Type1Dto type1Dto, Type2Dto type2Dto,
+			OrderForSearch orderForSearch) {
+		// TODO Auto-generated method stub
+
+		EntityManager em = entityManagerFactory.createEntityManager();
+		CriteriaBuilder cb = em.getCriteriaBuilder();
+//		CriteriaQuery<ArtistDto> cq = cb.createQuery();
+
+		em.close();
+
+		return null;
 	}
 
 }
