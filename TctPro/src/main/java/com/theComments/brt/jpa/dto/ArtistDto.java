@@ -20,5 +20,35 @@ public class ArtistDto extends Page{
 	List<Create_art> createDto;
 	
 	LocalDateTime add_date;
+	
+	Integer see;
+	Integer doo;
+	Integer listen;
+	Long count;
+	LocalDateTime worksMax;
+	
+	
+	
+	
+	public ArtistDto(Long artist_id, String art_name, Integer see, Integer doo, Integer listen, Long count,
+			LocalDateTime worksMax) {
+		super();
+		this.artist_id = artist_id;
+		this.art_name = art_name;
+		this.see = see;
+		this.doo = doo;
+		this.listen = listen;
+		this.count = count;
+		this.worksMax = worksMax;
+	}
+
+
+
+
+	public ArtistDto() {
+		super();
+	}
+	
+	
 
 }

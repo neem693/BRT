@@ -36,7 +36,8 @@ import { MatterSelectDialogComponent } from './eval/dialog/matter-select-dialog/
 import { EvalService } from './eval/eval.service';
 import {SwiperConfigInterface, SwiperModule, SwiperConfig} from 'ngx-swiper-wrapper';
 import { WorkSerachComponent } from './works/work-serach/work-serach.component';
-import { ArtistSearchComponent } from './artist/artist-search/artist-search.component'
+import { ArtistSearchComponent } from './artist/artist-search/artist-search.component';
+import { ArtistDetailComponent } from './artist/artist-detail/artist-detail.component'
 
 const DEFAULT_SWIPER_CONFIG: SwiperConfigInterface = {
   direction: 'horizontal',
@@ -67,6 +68,7 @@ const DEFAULT_SWIPER_CONFIG: SwiperConfigInterface = {
     MatterSelectDialogComponent,
     WorkSerachComponent,
     ArtistSearchComponent,
+    ArtistDetailComponent,
 
     
   ],

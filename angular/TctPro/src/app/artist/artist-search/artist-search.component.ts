@@ -3,6 +3,8 @@ import { SwiperConfigInterface, SwiperComponent } from 'ngx-swiper-wrapper';
 import { WorksSerivceService } from 'src/app/works/works-serivce.service';
 import { FormControl, Validators } from '@angular/forms';
 import { Router, ActivatedRoute } from '@angular/router';
+import { ArtistService } from '../artist.service';
+import { RESULT } from 'src/const/publicConst';
 
 @Component({
   selector: 'app-artist-search',
@@ -68,26 +70,48 @@ export class ArtistSearchComponent implements OnInit {
 
   }
 
-  private swiperType1:SwiperComponent;  
-  private swiperType2:SwiperComponent;
+  artist_list = [];
 
-  @ViewChild('type1', { static: false }) set swiperType1_viewchild(content:SwiperComponent){
+  private swiperType1: SwiperComponent;
+  private swiperType2: SwiperComponent;
+
+  @ViewChild('type1', { static: false }) set swiperType1_viewchild(content: SwiperComponent) {
     this.swiperType1 = content;
   }
-  @ViewChild('type2', { static: false }) set swiperType2_viewchild(content:SwiperComponent){
+  @ViewChild('type2', { static: false }) set swiperType2_viewchild(content: SwiperComponent) {
     this.swiperType2 = content;
   }
-  
+
+  page = {
+    artistList: {
+      totalSize: 0,
+      pageNum: 1,
+      pageSize: 10,
+    }
+  }
+
 
   constructor(
-    private workService:WorksSerivceService,
-    private router:Router,
-    private route:ActivatedRoute
+    private workService: WorksSerivceService,
+    private artistService: ArtistService,
+    private router: Router,
+    private route: ActivatedRoute
   ) { }
 
   ngOnInit() {
 
     this.getAllType();
+
+    
+
+    this.route.queryParams.subscribe(x => {
+
+      // console.log(x);
+
+      this.artistSearch(x);
+    })
+
+    this.artistSearchNativeUrl(1);
   }
 
   /*************모든 타입 불러오기********** */
@@ -109,13 +133,13 @@ export class ArtistSearchComponent implements OnInit {
       this.typeList.data.unshift({ type1_name: "전체", type1_id: 0 });
       this.loading.type = 1;
 
-      setTimeout(()=>{
+      setTimeout(() => {
         for (var i = 1; i < this.typeList.data.length; i++) {
           if (this.typeList.data[i].type1_id == this.search.type1) {
             this.typeList.type1Index = i;
             this.swiperType1.directiveRef.setIndex(i);
             console.log("type1 index" + this.typeList.type1Index);
-            setTimeout(()=>{
+            setTimeout(() => {
               for (var j = 1; j < this.typeList.data[this.typeList.type1Index].type2Dto.length; j++) {
                 console.log(this.search.type2);
                 if (this.typeList.data[this.typeList.type1Index].type2Dto[j].type2_id == this.search.type2) {
@@ -124,15 +148,15 @@ export class ArtistSearchComponent implements OnInit {
                   console.log(j + " type2 " + this.typeList.type2Index);
                 }
               }
-            },1000)
+            }, 1000)
 
           }
         }
 
         this.loading.firstLoading = 1;
 
-      },1000);
-   
+      }, 1000);
+
 
       // console.log(this.typeList);
     });
@@ -142,10 +166,10 @@ export class ArtistSearchComponent implements OnInit {
   /**type1 change event */
   type1Change(index: number) {
     this.search.type1 = this.typeList.data[index].type1_id;
-    if(this.loading.firstLoading == 1){
+    if (this.loading.firstLoading == 1) {
       this.search.type2 = 0;
     }
-    
+
     this.typeList.type1Index = index;
     this.typeList.type2Index = 0;
 
@@ -162,22 +186,51 @@ export class ArtistSearchComponent implements OnInit {
     // console.log(this.search.type2 + "type2");
   }
 
-  artistSearchNativeUrl(page:number){
+  artistSearchNativeUrl(page: number) {
 
     let param = {};
-    
-    for(let key in this.search){
-      if(key == "searchText"){
+
+    for (let key in this.search) {
+      if (key == "searchText") {
         param[key] = this.search.searchText.value;
         continue;
       }
       param[key] = this.search[key];
     }
-    
-    this.router.navigate([],{
+
+    console.log(param);
+
+    this.router.navigate(["."], {
+      relativeTo:this.route,
       queryParamsHandling: "merge",
       queryParams: param
     })
+
+  }
+
+  artistSearch(param: any) {
+
+    this.artistService.artistSearch(param).subscribe(x => {
+      let result = x[RESULT.RESULT_KEY];
+      let data = x[RESULT.DATA_KEY];
+     
+      this.artist_list = data;
+      this.page.artistList.totalSize = x[RESULT.TOTALSIZE_KEY];
+
+    })
+
+  }
+
+  searchChange(event: any) {
+    // console.log(event);
+  }
+
+  goToDetail(art_id:number,type:number){
+
+    console.log(art_id);
+    console.log(type);
+    this.router.navigate(['/artist/artistDetail',art_id,type])
+    // this.router.navigate([''])
 
   }
 

@@ -36,10 +36,29 @@ public class ArtistController {
 		return  result.getResultMap();
 	}
 	
+	/**
+	 * common select artist List
+	 * @param artistDto
+	 * @return
+	 */
 	@RequestMapping(value = "/selectArtistList",method=RequestMethod.POST)
 	public Map<String,Object> selectArtistList(@RequestBody ArtistDto artistDto){
 		
 		ResultMap result =  artistService.selectArtistList(artistDto);
+		
+		return result.getResultMap();
+	}
+	
+	/**
+	 * return artist Search data
+	 * parma -> type1?,type2?,pageSearchText,pageNum
+	 * @param artistDto
+	 * @return
+	 */
+	@RequestMapping(value = "/artistSearch",method=RequestMethod.GET)
+	public Map<String,Object> artistSearch(@RequestParam Map<String,Object> param){
+		
+		ResultMap result = artistService.artistSearch(param);
 		
 		return result.getResultMap();
 	}

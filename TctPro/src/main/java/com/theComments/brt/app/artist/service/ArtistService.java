@@ -245,11 +245,14 @@ public class ArtistService {
 		orderForSearch.setOrder(order);
 		orderForSearch.setOrder2(order2);
 		
-		List<ArtistDto> artist_list = dynamicQueryDao.searchArtistDynamic(artistDto,type1Dto,type2Dto,orderForSearch);
+		Map<String,Object> returnData = dynamicQueryDao.searchArtistDynamic(artistDto,type1Dto,type2Dto,orderForSearch);
 		
-
+		ResultMap result = new ResultMap();
+		result.setData(returnData.get("data"));
+		result.setTotalSize(Long.parseLong(returnData.get("totalSize").toString()));
+		result.setResult(200);
 		
-		return null;
+		return result;
 	}
 
 }

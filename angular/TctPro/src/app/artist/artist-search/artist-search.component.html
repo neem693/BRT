@@ -59,3 +59,24 @@
         <div class="clear"></div>
     </div>
 </div>
+<div class="aritst_list">
+    <mat-card *ngFor="let item of artist_list; let i = index;" class="artist_item">
+        <div *ngIf = "item.see > 0 " (click) = "goToDetail(item.artist_id,1)" class="list_count">
+            보는 것 <span>{{item.see}}</span>
+        </div>
+        <div *ngIf = "item.listen > 0 " (click) = "goToDetail(item.artist_id,2)" class="list_count">
+            듣는 것 <span>{{item.listen}}</span>
+        </div>
+        <div *ngIf = "item.doo > 0 " (click) = "goToDetail(item.artist_id,3)" class="list_count">
+            하는 것 <span>{{item.doo}}</span>
+        </div>
+        <div class = "artist_name">{{item.art_name}}</div>
+    </mat-card>
+    <div class="clear"></div>
+</div>
+<div *ngIf="page.artistList.totalSize > 0" class="pagination_class">
+    <ngb-pagination [collectionSize]="page.artistList.totalSize" [pageSize]="page.artistList.pageSize"
+        [(page)]="page.artistList.pageNum" aria-label="Default pagination"
+        (pageChange)="worksSearchNativeUrl(page.artistList.pageNum)">
+    </ngb-pagination>
+</div>

@@ -23,6 +23,8 @@ public class Oauth2ResourceServer extends ResourceServerConfigurerAdapter {
 			"/test/**",
 			"/v1/type/**",
 			"/v1/worksPublic/**",
+			"/v1/artistPublic/**",
+			
 	};
 	
 	private String [] publicController = {

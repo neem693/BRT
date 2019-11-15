@@ -1,8 +1,8 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1563522454767" ID="ID_1812649479" MODIFIED="1573287252869" TEXT="angular">
-<hook NAME="accessories/plugins/CreationModificationPlugin_new.properties"/>
 <hook NAME="accessories/plugins/RevisionPlugin.properties"/>
+<hook NAME="accessories/plugins/CreationModificationPlugin_new.properties"/>
 <node CREATED="1563522718142" FOLDED="true" ID="ID_1024043872" MODIFIED="1571055012268" POSITION="right" TEXT="&#xd604;&#xc7ac; &#xd29c;&#xd1a0;&#xb9ac;&#xc5bc;">
 <node CREATED="1563522713920" ID="ID_792755994" LINK="https://www.tutorialspoint.com/angular7/angular7_project_setup.htm" MODIFIED="1563522716082" TEXT="https://www.tutorialspoint.com/angular7/angular7_project_setup.htm"/>
 </node>
@@ -1198,7 +1198,7 @@
 <node BACKGROUND_COLOR="#ffff00" CREATED="1573530735929" FOLDED="true" ID="ID_954361884" MODIFIED="1573595847804" POSITION="right" TEXT="getCurrentUrl">
 <node CREATED="1573530740204" LINK="https://stackoverflow.com/questions/45184969/get-current-url-in-angular" MODIFIED="1573530740204" TEXT="https://stackoverflow.com/questions/45184969/get-current-url-in-angular"/>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#ff3333" CREATED="1573595886036" ID="ID_1434455979" MODIFIED="1573595894775" POSITION="right" STYLE="bubble" TEXT="dynamic viewChild">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#ff3333" CREATED="1573595886036" FOLDED="true" ID="ID_1434455979" MODIFIED="1573749569522" POSITION="right" STYLE="bubble" TEXT="dynamic viewChild">
 <font BOLD="true" NAME="Dialog" SIZE="24"/>
 <node CREATED="1573595892361" ID="ID_388630614" LINK="https://stackoverflow.com/questions/39366981/viewchild-in-ngif" MODIFIED="1573595894408" TEXT="https://stackoverflow.com/questions/39366981/viewchild-in-ngif"/>
 <node COLOR="#3333ff" CREATED="1573595896097" ID="ID_161545769" MODIFIED="1573595900200" STYLE="bubble" TEXT="set&#xc744; &#xc774;&#xc6a9;&#xd558;&#xb77c;!">
@@ -1210,7 +1210,7 @@
 </node>
 <node BACKGROUND_COLOR="#ffff00" CREATED="1573650509086" ID="ID_706093719" MODIFIED="1573650520106" TEXT="&#xc800;&#xb807;&#xac8c; &#xd558;&#xba74; &#xacc4;&#xc18d; &#xc5c5;&#xb370;&#xc774;&#xd2b8; &#xb41c;&#xb2e4;."/>
 </node>
-<node BACKGROUND_COLOR="#ffff00" CREATED="1573658363573" ID="ID_1488302838" MODIFIED="1573658376327" POSITION="right" TEXT="angular last trigger">
+<node BACKGROUND_COLOR="#ffff00" CREATED="1573658363573" FOLDED="true" ID="ID_1488302838" MODIFIED="1573749569522" POSITION="right" TEXT="angular last trigger">
 <node CREATED="1573658376668" LINK="https://stackoverflow.com/questions/35819264/angular-2-callback-when-ngfor-has-finished" MODIFIED="1573658376668" TEXT="https://stackoverflow.com/questions/35819264/angular-2-callback-when-ngfor-has-finished"/>
 </node>
 </node>

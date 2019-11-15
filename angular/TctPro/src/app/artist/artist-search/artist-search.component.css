@@ -29,8 +29,60 @@
     min-height: 100px;
 }
 
+.aritst_list{
+
+    display:block;
+    width: 70%;
+    /* border:1px solid black; */
+    margin: 0 auto;
+
+}
+
+.artist_item{
+
+    width: 40%;
+    /* border: 3px solid rgb(176, 182, 159); */
+    margin: 10px 5%;
+    float:left;
+    height: 150px;
+    /* border-radius: 10px; */
+
+}
+
+.list_count{
+    cursor: pointer;
+    font-size: x-large;
+    text-align: center;
+    width: 100%;
+    background-color: #262626;
+    color: white;
+    border-radius: 10px;
+    /* linear-gradient(direction,color1,color2);  */
+
+}
+
+.list_count:hover{
+    background-color: rgb(158, 158, 158);
+}
+
+.artist_name{
+    font-size: x-large;
+    text-align: center;
+    width: 100%;
+}
+
+.pagination_class {
+    display: flex;
+    justify-content: center;
+}
+
+
 @media screen and (max-width: 1060px) {
     .search_text mat-form-field {
         width: 70%;
+    }
+
+    .aritst_list{
+        width:100%;
     }
 }

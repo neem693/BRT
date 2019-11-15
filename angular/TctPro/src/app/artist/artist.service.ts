@@ -7,8 +7,6 @@ import { environment } from 'src/environments/environment';
 })
 export class ArtistService {
 
- 
-
   constructor(private http:HttpClient) { }
 
   artistSave(data: {}) {
@@ -28,5 +26,8 @@ export class ArtistService {
     throw new Error("Method not implemented.");
   }
 
+  artistSearch(param: any) {
+    return this.http.get(environment.baseApiUrl + "/artistPublic/artistSearch",{params:param});
+  }
 
 }

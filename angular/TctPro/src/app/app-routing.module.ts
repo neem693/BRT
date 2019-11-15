@@ -11,6 +11,7 @@ import { AfterArtistSaveCheckComponent } from './artist/after-artist-save-check/
 import { AddEvalComponent } from './eval/add-eval/add-eval.component';
 import { WorkSerachComponent } from './works/work-serach/work-serach.component';
 import { ArtistSearchComponent } from './artist/artist-search/artist-search.component';
+import { ArtistDetailComponent } from './artist/artist-detail/artist-detail.component';
 
 
 const routes: Routes = [
@@ -32,6 +33,7 @@ const routes: Routes = [
     {path:"addArtist/:id", component:ArtistAddComponent}, 
     {path:"artistSaveCheck/:id",component:AfterArtistSaveCheckComponent},
     {path:"searchArtist",component:ArtistSearchComponent},
+    {path:"artistDetail/:id/:type",component:ArtistDetailComponent},
   ]},
   {path:"eval",children:[
     {path:"addEval/:id", component:AddEvalComponent}
