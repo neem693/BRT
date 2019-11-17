@@ -9,6 +9,7 @@ export class WorksSerivceService {
 
 
 
+
   constructor(private http: HttpClient) {
   }
 
@@ -38,6 +39,10 @@ export class WorksSerivceService {
 
   worksSearchDetail(data: any) {
     return this.http.get(environment.baseApiUrl + "/worksPublic/worksSearchDetail",{params:data});
+  }
+
+  selectWorksByArtistOnes(id: any) {
+    return this.http.get(environment.baseApiUrl + "/worksPublic/selectWorksByArtist",{params:id});
   }
 
   

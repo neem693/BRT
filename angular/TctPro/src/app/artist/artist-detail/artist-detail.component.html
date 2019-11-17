@@ -1,3 +1,53 @@
-<mat-card class = "">
-
-</mat-card>
+<hr class="hr_01">
+<div class="subject">아티스트 디테일</div>
+<hr class="hr_01">
+<div class="artistName">{{artist.art_name}}</div>
+<div *ngIf="works.see.length >0" class="worksSectDiv see">
+    <div class="type_subject"><span>보는 것</span></div>
+    <mat-card *ngFor="let item of works.see" class="worksOne see">
+        <div class="category">{{item.type2.type2_name}}</div>
+        <div class="worksImg">
+            <img *ngIf="item.fileSaveDto.length == 0" src="/assets/noImage/not-available.jpg">
+            <img *ngIf="item.fileSaveDto.length > 0" [src]="dir.image  + item.fileSaveDto[0].file_path + '/' +  item.fileSaveDto[0].save_file_name">
+        </div>
+        <div class="item_subject">{{item.subject}}</div>
+    </mat-card>
+    <div *ngIf="page.see.totalSize > 0" class="pagination_class">
+        <ngb-pagination [collectionSize]="page.see.totalSize" [pageSize]="page.see.pageSize" [(page)]="page.see.pageNum"
+            aria-label="Default pagination" (pageChange)="selectSeePage(page.see.pageNum)">
+        </ngb-pagination>
+    </div>
+</div>
+<div *ngIf="works.listen.length >0" class="worksSectDiv listen">
+    <div class="type_subject"><span>듣는 것</span></div>
+    <mat-card *ngFor="let item of works.listen" class="worksOne listen">
+        <div class="category">{{item.type2.type2_name}}</div>
+        <div class="worksImg">
+            <img *ngIf="item.fileSaveDto.length == 0" src="/assets/noImage/not-available.jpg">
+            <img *ngIf="item.fileSaveDto.length > 0" [src]="dir.image  + item.fileSaveDto[0].file_path + '/' +  item.fileSaveDto[0].save_file_name">
+        </div>
+        <div class="item_subject">{{item.subject}}</div>
+    </mat-card>
+    <div *ngIf="page.listen.totalSize > 0" class="pagination_class">
+        <ngb-pagination [collectionSize]="page.listen.totalSize" [pageSize]="page.listen.pageSize"
+            [(page)]="page.listen.pageNum" aria-label="Default pagination"
+            (pageChange)="selectListenPage(page.listen.pageNum)">
+        </ngb-pagination>
+    </div>
+</div>
+<div *ngIf="works.doo.length >0" class="worksSectDiv doo">
+    <div class="type_subject"><span>하는 것</span></div>
+    <mat-card *ngFor="let item of works.doo" class="worksOne listen">
+        <div class="category">{{item.type2.type2_name}}</div>
+        <div class="worksImg">
+            <img *ngIf="item.fileSaveDto.length == 0" src="/assets/noImage/not-available.jpg">
+            <img *ngIf="item.fileSaveDto.length > 0" [src]="dir.image  + item.fileSaveDto[0].file_path + '/' +  item.fileSaveDto[0].save_file_name">
+        </div>
+        <div class="item_subject">{{item.subject}}</div>
+    </mat-card>
+    <div *ngIf="page.doo.totalSize > 0" class="pagination_class">
+        <ngb-pagination [collectionSize]="page.doo.totalSize" [pageSize]="page.doo.pageSize" [(page)]="page.doo.pageNum"
+            aria-label="Default pagination" (pageChange)="selectDooPage(page.doo.pageNum)">
+        </ngb-pagination>
+    </div>
+</div>

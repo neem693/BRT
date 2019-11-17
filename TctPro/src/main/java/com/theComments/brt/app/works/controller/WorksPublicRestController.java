@@ -44,5 +44,18 @@ public class WorksPublicRestController {
 		
 		return result.getResultMap();
 	}
-
+	
+	/**
+	 * select artist detail information of see, doo, listen works
+	 * @param param
+	 * @return
+	 */
+	@RequestMapping(value = "/selectWorksByArtist",method = RequestMethod.GET)
+	public Map<String,Object> selectWorksByArtist(@RequestParam Map<String,Object> param){
+		
+		ResultMap result = worksService.selectWorksByArtist(param);
+		
+		return result.getResultMap();
+		
+	}
 }

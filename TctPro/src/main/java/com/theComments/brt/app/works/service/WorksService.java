@@ -424,5 +424,130 @@ public class WorksService {
 		
 		return result;
 	}
+/**
+ * 
+ * @param param
+ * @return
+ * @exception 000404:artist not find
+ */
+	public ResultMap selectWorksByArtist(Map<String, Object> param) {
+		// TODO Auto-generated method stub
+		
+		Long artist_id = Long.parseLong(param.get("id").toString());
+		
+		Optional<Artist> artistOne = artistDao.findById(artist_id);
+		if(artistOne.isPresent() == false) {
+			throw new RuntimeException("000404:artist not find");
+		}
+		ArtistDto artistDto = new ArtistDto();
+		BeanUtils.copyProperties(artistOne.get(), artistDto);
+		
+		int size = PageConst.PAGE.PAGE_SIZE_NINE;
+		int page = 0;
+		
+		Pageable pageable = PageRequest.of(page, size);
+		
+		Page<Works> worksListSee = worksDao.searchWorksSee(artist_id,pageable);
+		Page<Works> worksListListen = worksDao.searchWorksListen(artist_id,pageable);
+		Page<Works> worksListDoo = worksDao.searchWorksDoo(artist_id,pageable);
+		
+		List<Works> resultListSee = worksListSee.getContent();
+		Long seeCount = worksListSee.getTotalElements();
+		List<WorksDto> worksDtosSee = new ArrayList<WorksDto>();
+		for(Works data : resultListSee) {
+			
+			List<FileSave> fileSaveList = new ArrayList<FileSave>();
+			fileSaveList.addAll(data.getFileSave());
+			
+			List<FileSaveDto> fileSaveDtoList = new ArrayList<FileSaveDto>();
+			for(FileSave file : fileSaveList) {
+				FileSaveDto dto = new FileSaveDto();
+				BeanUtils.copyProperties(file, dto);
+				fileSaveDtoList.add(dto);
+			}
+			
+			WorksDto dto = new WorksDto();
+			BeanUtils.copyProperties(data, dto);
+			
+			Type2 type2 = data.getType2();
+			Type2Dto type2Dto = new Type2Dto();
+			BeanUtils.copyProperties(type2, type2Dto);
+			
+			dto.setType2(type2Dto);
+			dto.setFileSaveDto(fileSaveDtoList);
+			worksDtosSee.add(dto);
+		}
+		
+		List<Works> resultListListen = worksListListen.getContent();
+		Long listenCount = worksListListen.getTotalElements();
+		List<WorksDto> worksDtoListen = new ArrayList<WorksDto>();
+		for(Works data : worksListListen) {
+			
+			List<FileSave> fileSaveList = new ArrayList<FileSave>();
+			fileSaveList.addAll(data.getFileSave());
+			
+			List<FileSaveDto> fileSaveDtoList = new ArrayList<FileSaveDto>();
+			for(FileSave file : fileSaveList) {
+				FileSaveDto dto = new FileSaveDto();
+				BeanUtils.copyProperties(file, dto);
+				fileSaveDtoList.add(dto);
+			}
+			WorksDto dto = new WorksDto();
+			BeanUtils.copyProperties(data, dto);
+			
+			Type2 type2 = data.getType2();
+			Type2Dto type2Dto = new Type2Dto();
+			BeanUtils.copyProperties(type2, type2Dto);
+			
+			dto.setType2(type2Dto);
+			dto.setFileSaveDto(fileSaveDtoList);
+			worksDtoListen.add(dto);
+		}
+		
+		List<Works> resultListDoo = worksListDoo.getContent();
+		Long dooCount = worksListDoo.getTotalElements();
+		List<WorksDto> worksDtoDoo = new ArrayList<WorksDto>();
+		for(Works data : resultListDoo) {
+			
+			List<FileSave> fileSaveList = new ArrayList<FileSave>();
+			fileSaveList.addAll(data.getFileSave());
+			
+			List<FileSaveDto> fileSaveDtoList = new ArrayList<FileSaveDto>();
+			for(FileSave file : fileSaveList) {
+				FileSaveDto dto = new FileSaveDto();
+				BeanUtils.copyProperties(file, dto);
+				fileSaveDtoList.add(dto);
+			}
+			WorksDto dto = new WorksDto();
+			BeanUtils.copyProperties(data, dto);
+			
+			Type2 type2 = data.getType2();
+			Type2Dto type2Dto = new Type2Dto();
+			BeanUtils.copyProperties(type2, type2Dto);
+			
+			dto.setType2(type2Dto);
+			dto.setFileSaveDto(fileSaveDtoList);
+			worksDtoDoo.add(dto);
+		}
+		
+		ResultMap result = new ResultMap();
+		
+		Map<String,Object> map = new HashMap<String, Object>();
+		map.put("see", worksDtosSee);
+		map.put("seeCount", seeCount);
+		
+		map.put("listen", worksDtoListen);
+		map.put("listenCount", listenCount);
+		
+		map.put("doo", worksDtoDoo);
+		map.put("dooCount", dooCount);
+		
+		map.put("artist", artistDto);
+		
+		result.setData(map);
+		result.setResult(200);
+		
+		return result;
+	}
 
 }

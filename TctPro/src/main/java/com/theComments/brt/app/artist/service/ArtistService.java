@@ -36,6 +36,7 @@ import com.theComments.brt.jpa.theComment.model.ArtistSave;
 import com.theComments.brt.jpa.theComment.model.Create_art;
 import com.theComments.brt.jpa.theComment.model.Eva_user;
 import com.theComments.brt.jpa.theComment.model.Works;
+import com.theComments.brt.mapper.DynamicQueryByMybatis;
 import com.theComments.brt.util.ResultMap;
 
 @Service
@@ -61,6 +62,9 @@ public class ArtistService {
 
 	@Autowired
 	HttpServletRequest request;
+	
+	@Autowired
+	DynamicQueryByMybatis mybatisDynamicQueryDao;
 
 	/**
 	 * 
@@ -251,6 +255,9 @@ public class ArtistService {
 		result.setData(returnData.get("data"));
 		result.setTotalSize(Long.parseLong(returnData.get("totalSize").toString()));
 		result.setResult(200);
+		
+//		List list = mybatisDynamicQueryDao.searchArtist();
+//		System.out.println(list);
 		
 		return result;
 	}

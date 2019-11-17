@@ -37,6 +37,12 @@ import javax.persistence.OneToMany;
 					@NamedAttributeNode("type1")
 			})
 		})
+@NamedEntityGraph(
+		name = "SelectWorksByArtist",
+				attributeNodes = {
+						@NamedAttributeNode("fileSave"),
+						@NamedAttributeNode("type2"),
+		})
 public class Works {
 	
 	@Id
