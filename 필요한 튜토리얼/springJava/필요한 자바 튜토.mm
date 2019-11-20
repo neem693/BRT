@@ -4248,13 +4248,13 @@
 <node CREATED="1573454240984" ID="ID_1469954334" LINK="https://www.tutorialspoint.com/javatime/javatime_localdatetime_compareto.htm" MODIFIED="1573454240984" TEXT="https://www.tutorialspoint.com/javatime/javatime_localdatetime_compareto.htm"/>
 <node CREATED="1573454250786" ID="ID_1272696018" MODIFIED="1573454250786" TEXT="date1.compareTo(date)"/>
 </node>
-<node CREATED="1573454603205" ID="ID_180286085" MODIFIED="1574215494745" POSITION="right" TEXT="Collections.sort&#xac00; &#xc548;&#xb420; &#xb54c;">
+<node CREATED="1573454603205" FOLDED="true" ID="ID_180286085" MODIFIED="1574268986310" POSITION="right" TEXT="Collections.sort&#xac00; &#xc548;&#xb420; &#xb54c;">
 <node CREATED="1573454613596" ID="ID_1469835970" LINK="https://stackoverflow.com/questions/31172312/error-when-using-collections-sort" MODIFIED="1573454613596" TEXT="https://stackoverflow.com/questions/31172312/error-when-using-collections-sort"/>
 <node COLOR="#3333ff" CREATED="1573454623403" ID="ID_376721753" MODIFIED="1573454627701" STYLE="bubble" TEXT="Comparable&lt;Create_art&gt; &#xc774;&#xc6a9;">
 <font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
 </node>
 </node>
-<node CREATED="1574215495390" ID="ID_1771860115" MODIFIED="1574215498324" POSITION="right" TEXT="diiff &#xd504;&#xb85c;&#xadf8;&#xb7a8;">
+<node CREATED="1574215495390" FOLDED="true" ID="ID_1771860115" MODIFIED="1574268986310" POSITION="right" TEXT="diiff &#xd504;&#xb85c;&#xadf8;&#xb7a8;">
 <node CREATED="1574215498656" LINK="http://diffuse.sourceforge.net/" MODIFIED="1574215498656" TEXT="diffuse.sourceforge.net"/>
 </node>
 </node>
