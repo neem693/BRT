@@ -58,4 +58,17 @@ public class WorksPublicRestController {
 		return result.getResultMap();
 		
 	}
+	
+	/**
+	 * one by one
+	 * selectWorksByArtist
+	 * @param param (type1,pageNum
+	 * @return
+	 */
+	@RequestMapping(value="/selectSeeListenDooAndPage",method = RequestMethod.GET)
+	public Map<String,Object> selectSeeListenDooAndPage(@RequestParam Map<String,Object> param){
+		ResultMap result = worksService.selectSeeListenDooAndPage(param);
+		
+		return result.getResultMap();
+	}
 }

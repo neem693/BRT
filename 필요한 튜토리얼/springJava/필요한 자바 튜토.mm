@@ -3416,7 +3416,7 @@
 <node CREATED="1569321838984" FOLDED="true" ID="ID_1289431196" MODIFIED="1571803582630" POSITION="right" TEXT="JDBC &#xc624;&#xb958;">
 <node CREATED="1569321843353" ID="ID_437120369" LINK="#ID_1068000342" MODIFIED="1569321851842" TEXT="Failed to determine a suitable driver class "/>
 </node>
-<node COLOR="#3333ff" CREATED="1569954720531" ID="ID_1310219766" MODIFIED="1573657708498" POSITION="right" STYLE="bubble" TEXT="&#xd558;&#xc774;&#xbc84;&#xb124;&#xc774;&#xd2b8;(jpa)">
+<node COLOR="#3333ff" CREATED="1569954720531" FOLDED="true" ID="ID_1310219766" MODIFIED="1574065265019" POSITION="right" STYLE="bubble" TEXT="&#xd558;&#xc774;&#xbc84;&#xb124;&#xc774;&#xd2b8;(jpa)">
 <font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
 <node CREATED="1570118271397" ID="ID_1098857026" LINK="https://www.baeldung.com/spring-data-jpa-multiple-databases" MODIFIED="1571694519760" TEXT="https://www.baeldung.com/spring-data-jpa-multiple-databases"/>
 <node CREATED="1570132753122" FOLDED="true" ID="ID_977131534" MODIFIED="1572414311204" TEXT="select &#xc870;&#xac74;&#xbb38;">
@@ -4248,11 +4248,14 @@
 <node CREATED="1573454240984" ID="ID_1469954334" LINK="https://www.tutorialspoint.com/javatime/javatime_localdatetime_compareto.htm" MODIFIED="1573454240984" TEXT="https://www.tutorialspoint.com/javatime/javatime_localdatetime_compareto.htm"/>
 <node CREATED="1573454250786" ID="ID_1272696018" MODIFIED="1573454250786" TEXT="date1.compareTo(date)"/>
 </node>
-<node CREATED="1573454603205" FOLDED="true" ID="ID_180286085" MODIFIED="1573657705200" POSITION="right" TEXT="Collections.sort&#xac00; &#xc548;&#xb420; &#xb54c;">
+<node CREATED="1573454603205" ID="ID_180286085" MODIFIED="1574215494745" POSITION="right" TEXT="Collections.sort&#xac00; &#xc548;&#xb420; &#xb54c;">
 <node CREATED="1573454613596" ID="ID_1469835970" LINK="https://stackoverflow.com/questions/31172312/error-when-using-collections-sort" MODIFIED="1573454613596" TEXT="https://stackoverflow.com/questions/31172312/error-when-using-collections-sort"/>
 <node COLOR="#3333ff" CREATED="1573454623403" ID="ID_376721753" MODIFIED="1573454627701" STYLE="bubble" TEXT="Comparable&lt;Create_art&gt; &#xc774;&#xc6a9;">
 <font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
 </node>
+</node>
+<node CREATED="1574215495390" ID="ID_1771860115" MODIFIED="1574215498324" POSITION="right" TEXT="diiff &#xd504;&#xb85c;&#xadf8;&#xb7a8;">
+<node CREATED="1574215498656" LINK="http://diffuse.sourceforge.net/" MODIFIED="1574215498656" TEXT="diffuse.sourceforge.net"/>
 </node>
 </node>
 </map>

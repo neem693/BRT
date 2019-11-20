@@ -442,14 +442,15 @@ public class WorksService {
 		ArtistDto artistDto = new ArtistDto();
 		BeanUtils.copyProperties(artistOne.get(), artistDto);
 		
-		int size = PageConst.PAGE.PAGE_SIZE_NINE;
+//		int size = PageConst.PAGE.PAGE_SIZE_NINE;
+		int size = PageConst.PAGE.PAGE_SIZE_THREE;
 		int page = 0;
 		
 		Pageable pageable = PageRequest.of(page, size);
 		
-		Page<Works> worksListSee = worksDao.searchWorksSee(artist_id,pageable);
-		Page<Works> worksListListen = worksDao.searchWorksListen(artist_id,pageable);
-		Page<Works> worksListDoo = worksDao.searchWorksDoo(artist_id,pageable);
+		Page<Works> worksListSee = worksDao.searchWorksSeeListenDoo(artist_id,1L,pageable);
+		Page<Works> worksListListen = worksDao.searchWorksSeeListenDoo(artist_id,2L,pageable);
+		Page<Works> worksListDoo = worksDao.searchWorksSeeListenDoo(artist_id,3L,pageable);
 		
 		List<Works> resultListSee = worksListSee.getContent();
 		Long seeCount = worksListSee.getTotalElements();
@@ -549,5 +550,50 @@ public class WorksService {
 		
 		return result;
 	}
+
+public ResultMap selectSeeListenDooAndPage(Map<String, Object> param) {
+	// TODO Auto-generated method stub
+	
+	Long type1 = Long.parseLong(param.get("type1").toString());
+	Integer pageNum = Integer.parseInt(param.get("pageNum").toString());
+	Long artist_id = Long.parseLong(param.get("id").toString());
+	
+	int pageSize = PageConst.PAGE.PAGE_SIZE_THREE;
+	Pageable pageAble = PageRequest.of(pageNum-1, pageSize);
+	
+	Page<Works> pageResult = worksDao.searchWorksSeeListenDoo(artist_id, type1, pageAble);
+	List<Works> resultWorks = pageResult.getContent();
+	Long totalSize = pageResult.getTotalElements();
+	List<WorksDto> worksDtoListen = new ArrayList<WorksDto>();
+	for(Works data : resultWorks) {
+		
+		List<FileSave> fileSaveList = new ArrayList<FileSave>();
+		fileSaveList.addAll(data.getFileSave());
+		
+		List<FileSaveDto> fileSaveDtoList = new ArrayList<FileSaveDto>();
+		for(FileSave file : fileSaveList) {
+			FileSaveDto dto = new FileSaveDto();
+			BeanUtils.copyProperties(file, dto);
+			fileSaveDtoList.add(dto);
+		}
+		WorksDto dto = new WorksDto();
+		BeanUtils.copyProperties(data, dto);
+		
+		Type2 type2 = data.getType2();
+		Type2Dto type2Dto = new Type2Dto();
+		BeanUtils.copyProperties(type2, type2Dto);
+		
+		dto.setType2(type2Dto);
+		dto.setFileSaveDto(fileSaveDtoList);
+		worksDtoListen.add(dto);
+	}
+	
+	ResultMap result = new ResultMap();
+	result.setResult(200);
+	result.setData(worksDtoListen);
+	result.setTotalSize(totalSize);
+	
+	return result;
+}
 
 }

@@ -1,7 +1,8 @@
 .worksOne{
-    width: 30%;
+    width: 31%;
     box-sizing: border-box;
-    margin: 10px 5%;
+    margin: 10px 1%;
+    display: inline-block;
 }
 .worksImg img{
     max-width: 100%;
@@ -31,14 +32,39 @@
 
 }
 .artistName{
-    background-image: linear-gradient(rgb(102, 101, 101),rgb(201, 86, 86));
+    /* background-image: linear-gradient(rgb(102, 101, 101),rgb(201, 86, 86)); */
     width: 70%;
-    color:white;
+    color: black;
     text-align: center;
     font-size: 50px;
     margin: auto;
+    border: 1px solid black;
 }
 .pagination_class {
     display: flex;
     justify-content: center;
+}
+.item_date{
+    text-align: center;
+}
+.works_div_external{
+    width: 100%;
+    float: left;
+}
+.loadingSpinDiv{
+    /* border: 1px solid black; */
+    height: 324px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.loading_spin.spin1{
+   display: block;
+}
+.loadingSpinDiv div{
+    display: block;
+    /* border: 1px solid black; */
+    /* width: 100%; */
+    height: 25%;
 }

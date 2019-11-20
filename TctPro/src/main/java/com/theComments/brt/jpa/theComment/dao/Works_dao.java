@@ -28,54 +28,18 @@ public interface Works_dao extends JpaRepository<Works, Long> {
 			+ "JOIN w.type2 t2 "
 			+ "JOIN t2.type1 t1 "
 			+ "WHERE a.artist_id = :id AND "
-			+ "t1.type1_id = 1 "
-			+ "ORDER BY wc.save_date desc ",
+			+ "t1.type1_id = :type1 "
+			+ "ORDER BY w.create_date desc ",
 			countQuery = "SELECT count(*) FROM Works w "
 					+ "JOIN w.create wc "
 					+ "JOIN wc.artist a "
 					+ "JOIN w.type2 t2 "
 					+ "JOIN t2.type1 t1 "
 					+ "WHERE a.artist_id = :id AND "
-					+ "t1.type1_id = 1 "
-					+ "ORDER BY wc.save_date desc ")
-	Page<Works> searchWorksSee(Long id, Pageable pageable);
+					+ "t1.type1_id = :type1 "
+					)
+	Page<Works> searchWorksSeeListenDoo(Long id,Long type1, Pageable pageable);
 
-	@EntityGraph(value = "SelectWorksByArtist",type = EntityGraphType.LOAD)
-	@Query(value = "SELECT w FROM Works w "
-			+ "JOIN w.create wc "
-			+ "JOIN wc.artist a "
-			+ "JOIN w.type2 t2 "
-			+ "JOIN t2.type1 t1 "
-			+ "WHERE a.artist_id = :id AND "
-			+ "t1.type1_id = 2 "
-			+ "ORDER BY wc.save_date desc ",
-			countQuery = "SELECT count(*) FROM Works w "
-					+ "JOIN w.create wc "
-					+ "JOIN wc.artist a "
-					+ "JOIN w.type2 t2 "
-					+ "JOIN t2.type1 t1 "
-					+ "WHERE a.artist_id = :id AND "
-					+ "t1.type1_id = 2 "
-					+ "ORDER BY wc.save_date desc ")
-	Page<Works> searchWorksListen(Long id , Pageable pageable);
-
-	@EntityGraph(value = "SelectWorksByArtist",type = EntityGraphType.LOAD)
-	@Query(value = "SELECT w FROM Works w "
-			+ "JOIN w.create wc "
-			+ "JOIN wc.artist a "
-			+ "JOIN w.type2 t2 "
-			+ "JOIN t2.type1 t1 "
-			+ "WHERE a.artist_id = :id AND "
-			+ "t1.type1_id = 3 "
-			+ "ORDER BY wc.save_date desc ",
-			countQuery = "SELECT count(*) FROM Works w "
-					+ "JOIN w.create wc "
-					+ "JOIN wc.artist a "
-					+ "JOIN w.type2 t2 "
-					+ "JOIN t2.type1 t1 "
-					+ "WHERE a.artist_id = :id AND "
-					+ "t1.type1_id = 3 "
-					+ "ORDER BY wc.save_date desc ")
-	Page<Works> searchWorksDoo(Long id , Pageable pageable);
+	
 
 }

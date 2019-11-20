@@ -4,14 +4,24 @@
 <div class="artistName">{{artist.art_name}}</div>
 <div *ngIf="works.see.length >0" class="worksSectDiv see">
     <div class="type_subject"><span>보는 것</span></div>
-    <mat-card *ngFor="let item of works.see" class="worksOne see">
-        <div class="category">{{item.type2.type2_name}}</div>
-        <div class="worksImg">
-            <img *ngIf="item.fileSaveDto.length == 0" src="/assets/noImage/not-available.jpg">
-            <img *ngIf="item.fileSaveDto.length > 0" [src]="dir.image  + item.fileSaveDto[0].file_path + '/' +  item.fileSaveDto[0].save_file_name">
+    <div class="loadingSpinDiv" *ngIf="loading.SeeLoading == 1">
+        <div>
+            <mat-spinner class="loading_spin spin1"></mat-spinner>
         </div>
-        <div class="item_subject">{{item.subject}}</div>
-    </mat-card>
+    </div>
+    <div class="works_div_external" *ngIf="loading.SeeLoading == 0">
+        <mat-card *ngFor="let item of works.see" class="worksOne see">
+            <div class="category">{{item.type2.type2_name}}</div>
+            <div class="worksImg">
+                <img *ngIf="item.fileSaveDto.length == 0" src="/assets/noImage/not-available.jpg">
+                <img *ngIf="item.fileSaveDto.length > 0"
+                    [src]="dir.image  + item.fileSaveDto[0].file_path + '/' +  item.fileSaveDto[0].save_file_name">
+            </div>
+            <div class="item_subject">{{item.subject}}</div>
+            <div class="item_date">{{item.create_date|date:'yyyy-MM-dd'}}</div>
+        </mat-card>
+    </div>
+    <div class="clear"></div>
     <div *ngIf="page.see.totalSize > 0" class="pagination_class">
         <ngb-pagination [collectionSize]="page.see.totalSize" [pageSize]="page.see.pageSize" [(page)]="page.see.pageNum"
             aria-label="Default pagination" (pageChange)="selectSeePage(page.see.pageNum)">
@@ -20,14 +30,24 @@
 </div>
 <div *ngIf="works.listen.length >0" class="worksSectDiv listen">
     <div class="type_subject"><span>듣는 것</span></div>
-    <mat-card *ngFor="let item of works.listen" class="worksOne listen">
-        <div class="category">{{item.type2.type2_name}}</div>
-        <div class="worksImg">
-            <img *ngIf="item.fileSaveDto.length == 0" src="/assets/noImage/not-available.jpg">
-            <img *ngIf="item.fileSaveDto.length > 0" [src]="dir.image  + item.fileSaveDto[0].file_path + '/' +  item.fileSaveDto[0].save_file_name">
+    <div class="loadingSpinDiv" *ngIf="loading.ListenLoading == 1">
+        <div>
+            <mat-spinner class="loading_spin spin1"></mat-spinner>
         </div>
-        <div class="item_subject">{{item.subject}}</div>
-    </mat-card>
+    </div>
+    <div class="works_div_external" *ngIf="loading.ListenLoading == 0">
+        <mat-card *ngFor="let item of works.listen" class="worksOne listen">
+            <div class="category">{{item.type2.type2_name}}</div>
+            <div class="worksImg">
+                <img *ngIf="item.fileSaveDto.length == 0" src="/assets/noImage/not-available.jpg">
+                <img *ngIf="item.fileSaveDto.length > 0"
+                    [src]="dir.image  + item.fileSaveDto[0].file_path + '/' +  item.fileSaveDto[0].save_file_name">
+            </div>
+            <div class="item_subject">{{item.subject}}</div>
+            <div class="item_date">{{item.create_date|date:'yyyy-MM-dd'}}</div>
+        </mat-card>
+    </div>
+    <div class="clear"></div>
     <div *ngIf="page.listen.totalSize > 0" class="pagination_class">
         <ngb-pagination [collectionSize]="page.listen.totalSize" [pageSize]="page.listen.pageSize"
             [(page)]="page.listen.pageNum" aria-label="Default pagination"
@@ -37,14 +57,24 @@
 </div>
 <div *ngIf="works.doo.length >0" class="worksSectDiv doo">
     <div class="type_subject"><span>하는 것</span></div>
-    <mat-card *ngFor="let item of works.doo" class="worksOne listen">
-        <div class="category">{{item.type2.type2_name}}</div>
-        <div class="worksImg">
-            <img *ngIf="item.fileSaveDto.length == 0" src="/assets/noImage/not-available.jpg">
-            <img *ngIf="item.fileSaveDto.length > 0" [src]="dir.image  + item.fileSaveDto[0].file_path + '/' +  item.fileSaveDto[0].save_file_name">
+    <div class="loadingSpinDiv" *ngIf="loading.DooLoading == 1">
+        <div>
+            <mat-spinner class="loading_spin spin1"></mat-spinner>
         </div>
-        <div class="item_subject">{{item.subject}}</div>
-    </mat-card>
+    </div>
+    <div class="works_div_external" *ngIf="loading.DooLoading == 0">
+        <mat-card *ngFor="let item of works.doo" class="worksOne listen">
+            <div class="category">{{item.type2.type2_name}}</div>
+            <div class="worksImg">
+                <img *ngIf="item.fileSaveDto.length == 0" src="/assets/noImage/not-available.jpg">
+                <img *ngIf="item.fileSaveDto.length > 0"
+                    [src]="dir.image  + item.fileSaveDto[0].file_path + '/' +  item.fileSaveDto[0].save_file_name">
+            </div>
+            <div class="item_subject">{{item.subject}}</div>
+            <div class="item_date">{{item.create_date|date:'yyyy-MM-dd'}}</div>
+        </mat-card>
+    </div>
+    <div class="clear"></div>
     <div *ngIf="page.doo.totalSize > 0" class="pagination_class">
         <ngb-pagination [collectionSize]="page.doo.totalSize" [pageSize]="page.doo.pageSize" [(page)]="page.doo.pageNum"
             aria-label="Default pagination" (pageChange)="selectDooPage(page.doo.pageNum)">
