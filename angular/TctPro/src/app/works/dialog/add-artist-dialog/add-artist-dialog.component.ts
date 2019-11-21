@@ -1,8 +1,9 @@
-import { Component, OnInit, Inject } from '@angular/core';
+import { Component, OnInit, Inject, ViewChildren, Input } from '@angular/core';
 import { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material';
 import { CdkDragDrop } from '@angular/cdk/drag-drop';
 import { ArtistService } from 'src/app/artist/artist.service';
 import * as moment from 'moment';
+import { WorksSerivceService } from '../../works-serivce.service';
 
 declare const $: any;
 
@@ -38,7 +39,8 @@ export class AddArtistDialogComponent implements OnInit {
 
   constructor(public dialogRef: MatDialogRef<AddArtistDialogComponent>,
     @Inject(MAT_DIALOG_DATA) public data: any,
-    public artistService: ArtistService) { }
+    public artistService: ArtistService,
+    public worksService: WorksSerivceService) { }
 
   ngOnInit() {
 
@@ -148,7 +150,8 @@ export class AddArtistDialogComponent implements OnInit {
       });
     }, 200);
 
-
+    // let targetArtist = Object.assign({},this.artist_list[index]);
+    // this.worksService.selectWorksByArtistOnes()
 
   }
 

@@ -22,13 +22,9 @@
                     </mat-panel-description>
                 </mat-expansion-panel-header>
                 <!-- <span id = "w_{{i}}"></span> -->
-                <mat-form-field>
-                    <input matInput placeholder="First name">
-                </mat-form-field>
-
-                <mat-form-field>
-                    <input matInput placeholder="Age">
-                </mat-form-field>
+               
+                <app-artist-detail *ngIf = "artist.step.list == i" [artist_id]="item.artist_id" [autoLoading]="1" [index] = "i"></app-artist-detail>
+                
                 <mat-action-row>
                     <button *ngIf="artist.checkBox.list[i] == undefined || artist.checkBox.list[i] == false" mat-button
                         (click)="addArtist(i)">저작자로 추가</button>
@@ -58,13 +54,9 @@
                     </mat-panel-description>
                 </mat-expansion-panel-header>
                 <span id="s_{{i}}"></span>
-                <mat-form-field>
-                    <input matInput placeholder="First name">
-                </mat-form-field>
-
-                <mat-form-field>
-                    <input matInput placeholder="Age">
-                </mat-form-field>
+                
+                <app-artist-detail *ngIf = "artist.step.sel_list == i" [artist_id]="item.artist_id" [autoLoading]="1" [index] = "i"></app-artist-detail>
+               
                 <mat-action-row>
                     <button mat-button (click)="removeSelArtist(i)">제거</button>
                 </mat-action-row>

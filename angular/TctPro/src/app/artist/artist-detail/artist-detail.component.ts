@@ -1,8 +1,10 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { WorksSerivceService } from 'src/app/works/works-serivce.service';
 import { Router, ActivatedRoute } from '@angular/router';
 import { RESULT } from 'src/const/publicConst';
 import { environment } from 'src/environments/environment';
+
+declare const $:any;
 
 @Component({
   selector: 'app-artist-detail',
@@ -10,6 +12,16 @@ import { environment } from 'src/environments/environment';
   styleUrls: ['./artist-detail.component.css']
 })
 export class ArtistDetailComponent implements OnInit {
+
+  @Input() artist_id:number = -1;
+  /**
+   * screen move
+   */
+  @Input() index:number = -1;
+  /**
+   * included add-artist-dialong => -1
+   */
+  @Input() autoLoading:number=-1;
 
   loading = {
     firstLoading:1,
@@ -58,12 +70,25 @@ export class ArtistDetailComponent implements OnInit {
 
     this.route.params.subscribe(x=>{
       if(this.loading.firstLoading == 1){
+        
+        if(x['id'] == undefined || x['id'] == null){
+          return;
+        }
+
         let id = Number(x['id']);
         
         this.selectWorksByArtistOnes(id);
       }
     })
 
+    // console.log(this.artist_id);
+    // console.log(this.autoLoading);
+    // console.log(this.index);
+    if(this.artist_id != -1){
+      
+      this.selectWorksByArtistOnes(this.artist_id);
+
+    }
     
 
   }
@@ -104,6 +129,7 @@ export class ArtistDetailComponent implements OnInit {
       let totalSize = x[RESULT.TOTALSIZE_KEY];
       this.works.see = data;
       this.page.see.totalSize = totalSize;
+      this.doIfIncluded();
     });
 
   }
@@ -125,6 +151,7 @@ export class ArtistDetailComponent implements OnInit {
       let totalSize = x[RESULT.TOTALSIZE_KEY];
       this.works.listen = data;
       this.page.listen.totalSize = totalSize;
+      this.doIfIncluded();
     });
   }
   selectDooPage(page:number){
@@ -144,7 +171,29 @@ export class ArtistDetailComponent implements OnInit {
       let totalSize = x[RESULT.TOTALSIZE_KEY];
       this.works.doo = data;
       this.page.doo.totalSize = totalSize;
+      this.doIfIncluded();
     });
+  }
+
+
+/**
+ * if included this artist-detail component(ex:artist add dialog)
+ * 
+ */
+  doIfIncluded(){
+
+    if(this.autoLoading == 1){
+      setTimeout(() => {
+        let currentScroll: number = $(".artist_search_list").eq(0).scrollTop();
+        let top: number = currentScroll + $("#w_" + this.index).offset().top;
+        let diff: number = $(".artist_search_list").offset().top;
+        $("#artist_search_list").animate({ scrollTop: top - diff - 50 }, 500, () => {
+          // console.log($("#artist_search_list").scrollTop());
+          // console.log($("#w_" + index).offset().top);
+        });
+      }, 200);
+    }
+  
   }
 
 

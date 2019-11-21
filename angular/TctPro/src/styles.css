@@ -114,6 +114,12 @@ button:focus {
     /* z-index: 98; */
 }
 
+.mat-expansion-panel-content app-artist-detail{
+    font: 400 14px Roboto,"Helvetica Neue",sans-serif;
+}
+
+
+
 @media screen and (max-width: 1060px) {
     body {
         width: 100%;
@@ -133,4 +139,5 @@ button:focus {
         top: 40px;
         /* z-index: 98; */
     }
+
 }

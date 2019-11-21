@@ -31,6 +31,10 @@
     justify-content: center;
 }
 
+.worksImg img{
+    height: 100px;
+}
+
 
 @media screen and (max-width: 1060px) {
     h1{
@@ -47,6 +51,9 @@
     }
     .artist_dialog_hr{
         display: block;
+    }
+    .worksImg img{
+        height: 100px !important;
     }
     
 }

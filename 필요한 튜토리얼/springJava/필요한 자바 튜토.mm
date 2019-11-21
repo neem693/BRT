@@ -255,18 +255,18 @@
 <node CREATED="1565799689378" ID="ID_928810396" MODIFIED="1565799689378" TEXT="to angular-clis polyfill.ts file. right now couldn&apos;t see any sideeffects"/>
 </node>
 </node>
-<node CREATED="1565932198016" FOLDED="true" ID="ID_718731204" MODIFIED="1569170000873" POSITION="right" TEXT="&#xc6f9; &#xc18c;&#xcf13;&#xc5d0; &#xb300;&#xd55c; &#xc815;&#xb9ac;">
+<node CREATED="1565932198016" ID="ID_718731204" MODIFIED="1574311680770" POSITION="right" TEXT="&#xc6f9; &#xc18c;&#xcf13;&#xc5d0; &#xb300;&#xd55c; &#xc815;&#xb9ac;">
 <node CREATED="1565932222238" ID="ID_169774616" MODIFIED="1565932236394" TEXT="&#xae30;&#xbcf8;&#xc801;&#xc73c;&#xb85c; angular 8 + spring 2.1.6&#xc744; &#xc0ac;&#xc6a9;&#xd55c; &#xac83;"/>
-<node CREATED="1565932331134" FOLDED="true" ID="ID_1296553527" MODIFIED="1569169982920" TEXT="&#xd29c;&#xd1a0;&#xb9ac;&#xc5bc; &#xd3ec;&#xc778;&#xd2b8;&#xb97c; &#xae30;&#xbcf8;&#xc801;&#xc73c;&#xb85c; &#xcc38;&#xace0;">
+<node CREATED="1565932331134" ID="ID_1296553527" MODIFIED="1574311683250" TEXT="&#xd29c;&#xd1a0;&#xb9ac;&#xc5bc; &#xd3ec;&#xc778;&#xd2b8;&#xb97c; &#xae30;&#xbcf8;&#xc801;&#xc73c;&#xb85c; &#xcc38;&#xace0;">
 <node CREATED="1565932338271" ID="ID_81431862" LINK="https://www.tutorialspoint.com/spring_boot/spring_boot_web_socket.htm" MODIFIED="1565932338271" TEXT="https://www.tutorialspoint.com/spring_boot/spring_boot_web_socket.htm"/>
 </node>
-<node CREATED="1565932339349" FOLDED="true" ID="ID_1790914735" MODIFIED="1569169982920" TEXT="angular 8&#xc5d0;&#xc11c; &#xc0ac;&#xc6a9;&#xd55c; &#xbaa8;&#xb4c8;">
+<node CREATED="1565932339349" ID="ID_1790914735" MODIFIED="1574311685062" TEXT="angular 8&#xc5d0;&#xc11c; &#xc0ac;&#xc6a9;&#xd55c; &#xbaa8;&#xb4c8;">
 <node CREATED="1565932441342" ID="ID_960084271" MODIFIED="1565932444673" TEXT="npm install @types/sockjs"/>
 <node CREATED="1565932594115" ID="ID_909739163" MODIFIED="1565933126706" TEXT="npm install @types/sockjs-client"/>
 <node CREATED="1565932452901" ID="ID_1794270471" LINK="#ID_126925543" MODIFIED="1565932471714" TEXT="sockjs&#xb294; global &#xbcc0;&#xc218;&#xac00; &#xc5c6;&#xb2e4;&#xace0; &#xb728;&#xb2c8; &#xb2e4;&#xc74c;&#xc744; &#xcc38;&#xace0;"/>
 </node>
-<node CREATED="1565932655061" FOLDED="true" ID="ID_187154817" MODIFIED="1565932837576" TEXT="&#xcd08;&#xae30;&#xd654;(&#xc774;&#xbbf8;&#xc9c0;)">
-<node CREATED="1565932832902" MODIFIED="1565932832902">
+<node CREATED="1565932655061" ID="ID_187154817" MODIFIED="1574311689163" TEXT="&#xcd08;&#xae30;&#xd654;(&#xc774;&#xbbf8;&#xc9c0;)">
+<node CREATED="1565932832902" ID="ID_932637870" MODIFIED="1565932832902">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -277,7 +277,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1565932669550" FOLDED="true" ID="ID_1543561114" MODIFIED="1569169982920" TEXT="response&#xb300;&#xae30; &amp; response &#xbc1c;&#xc1a1;(&#xc774;&#xbbf8;&#xc9c0;)">
+<node CREATED="1565932669550" FOLDED="true" ID="ID_1543561114" MODIFIED="1574311805168" TEXT="response&#xb300;&#xae30; &amp; response &#xbc1c;&#xc1a1;(&#xc774;&#xbbf8;&#xc9c0;)">
 <node CREATED="1565932848803" ID="ID_1133023370" MODIFIED="1565932848803">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -289,8 +289,8 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1565932799167" FOLDED="true" ID="ID_23517283" MODIFIED="1565932964709" TEXT="&#xacb0;&#xacfc;(&#xc774;&#xbbf8;&#xc9c0;)">
-<node CREATED="1565932964388" MODIFIED="1565932964388">
+<node CREATED="1565932799167" ID="ID_23517283" MODIFIED="1574311806819" TEXT="&#xacb0;&#xacfc;(&#xc774;&#xbbf8;&#xc9c0;)">
+<node CREATED="1565932964388" ID="ID_1779098021" MODIFIED="1565932964388">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -301,8 +301,8 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1565932801094" FOLDED="true" ID="ID_378806869" MODIFIED="1565932976949" TEXT="&#xc6f9; &#xc18c;&#xcf13; &#xc2a4;&#xcf00;&#xc974;&#xb9c1;(&#xc774;&#xbbf8;&#xc9c0;)">
-<node CREATED="1565932905882" MODIFIED="1565932905882">
+<node CREATED="1565932801094" ID="ID_378806869" MODIFIED="1574311808366" TEXT="&#xc6f9; &#xc18c;&#xcf13; &#xc2a4;&#xcf00;&#xc974;&#xb9c1;(&#xc774;&#xbbf8;&#xc9c0;)">
+<node CREATED="1565932905882" ID="ID_266505493" MODIFIED="1565932905882">
 <richcontent TYPE="NODE"><html>
   <head>
     

@@ -261,7 +261,7 @@
 <node CREATED="1565725750586" FOLDED="true" ID="ID_1596199556" MODIFIED="1574268992504" POSITION="right" TEXT="npm &#xd0c0;&#xc785;&#xc2a4;&#xd06c;&#xb9bd;&#xd2b8; &#xae30;&#xbc18;&#xc73c;&#xb85c; &#xc124;&#xce58;">
 <node CREATED="1565725760071" ID="ID_1492280566" MODIFIED="1565725760071" TEXT="npm install @types/jquery --save-dev"/>
 </node>
-<node COLOR="#3333ff" CREATED="1565732965664" FOLDED="true" ID="ID_305801689" MODIFIED="1574268992504" POSITION="right" STYLE="bubble" TEXT="javascript&#xb97c; &#xd0c0;&#xc785;&#xc2a4;&#xd06c;&#xb9bd;&#xd2b8;&#xb85c; &#xac00;&#xc9c0;&#xace0; &#xc62c;&#xb54c;">
+<node COLOR="#3333ff" CREATED="1565732965664" FOLDED="true" ID="ID_305801689" MODIFIED="1574311665740" POSITION="right" STYLE="bubble" TEXT="javascript&#xb97c; &#xd0c0;&#xc785;&#xc2a4;&#xd06c;&#xb9bd;&#xd2b8;&#xb85c; &#xac00;&#xc9c0;&#xace0; &#xc62c;&#xb54c;">
 <font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
 <node CREATED="1565734170431" ID="ID_1442440104" LINK="https://www.typescriptlang.org/docs/handbook/module-resolution.html" MODIFIED="1565734170431" TEXT="https://www.typescriptlang.org/docs/handbook/module-resolution.html"/>
 <node CREATED="1565734278091" ID="ID_1835131169" LINK="https://typescript-kr.github.io/pages/Module%20Resolution.html?q=" MODIFIED="1565734278091" TEXT="https://typescript-kr.github.io/pages/Module%20Resolution.html?q="/>
@@ -301,7 +301,7 @@
 <node CREATED="1565790673159" MODIFIED="1565790673159" TEXT=")"/>
 </node>
 </node>
-<node CREATED="1565935728590" FOLDED="true" ID="ID_1076129162" MODIFIED="1574268992504" POSITION="right" TEXT="&#xc6f9;&#xc18c;&#xcf13; angular 8">
+<node CREATED="1565935728590" ID="ID_1076129162" MODIFIED="1574311670774" POSITION="right" TEXT="&#xc6f9;&#xc18c;&#xcf13; angular 8">
 <node CREATED="1565935736461" ID="ID_1135322578" MODIFIED="1565935754284" TEXT="&#xd574;&#xb2f9; &#xbd80;&#xbd84;&#xc740; &quot;&#xd544;&#xc694;&#xd55c; &#xc790;&#xbc14; &#xd29c;&#xd1a0;.mm&quot;&#xc5d0; &#xc218;&#xb85d;"/>
 </node>
 <node CREATED="1565935977236" FOLDED="true" ID="ID_1913734800" MODIFIED="1574268992504" POSITION="right" TEXT="build,&#xd560;&#xb54c; &#xc800;&#xb807;&#xac8c; &#xc548;&#xd558;&#xba74; optimiation &#xc548;&#xb418;&#xc11c; &#xc18d;&#xb3c4;&#xac00; &#xb290;&#xb9bc;">
