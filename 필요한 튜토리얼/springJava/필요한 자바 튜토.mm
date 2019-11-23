@@ -1340,8 +1340,11 @@
 </node>
 </node>
 </node>
-<node CREATED="1568609352220" FOLDED="true" ID="ID_1954893130" MODIFIED="1569358048835" POSITION="right" TEXT="jstl&#xcd94;&#xac00; &#xd558;&#xb294; &#xbc29;&#xbc95;">
-<node CREATED="1568610011075" FOLDED="true" ID="ID_1000649344" MODIFIED="1569358048412" TEXT="pom">
+<node CREATED="1568609352220" ID="ID_1954893130" MODIFIED="1574517693071" POSITION="right" TEXT="jstl&#xcd94;&#xac00; &#xd558;&#xb294; &#xbc29;&#xbc95;">
+<node COLOR="#3333ff" CREATED="1574352383337" ID="ID_1583850757" LINK="https://www.surasint.com/spring-boot-jsp/" MODIFIED="1574517728468" STYLE="bubble" TEXT="https://www.surasint.com/spring-boot-jsp/">
+<font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
+</node>
+<node CREATED="1568610011075" FOLDED="true" ID="ID_1000649344" MODIFIED="1574350243389" TEXT="pom">
 <node CREATED="1568610014095" ID="ID_138050505" LINK="https://mvnrepository.com/artifact/javax.servlet.jsp.jstl/jstl" MODIFIED="1568610014095" TEXT="&lt;!-- https://mvnrepository.com/artifact/javax.servlet.jsp.jstl/jstl --&gt;"/>
 <node CREATED="1568610014096" ID="ID_177086477" MODIFIED="1568610014096" TEXT="&lt;dependency&gt;">
 <node CREATED="1568610014097" MODIFIED="1568610014097" TEXT="&lt;groupId&gt;javax.servlet.jsp.jstl&lt;/groupId&gt;"/>
@@ -1353,7 +1356,7 @@
 <node CREATED="1568610014099" ID="ID_1472472697" LINK="https://mvnrepository.com/artifact/org.apache.tomcat/tomcat-jasper" MODIFIED="1568610014099" TEXT="&lt;!-- https://mvnrepository.com/artifact/org.apache.tomcat/tomcat-jasper --&gt;"/>
 <node CREATED="1568610014100" ID="ID_985045003" MODIFIED="1568610014100" TEXT="&lt;dependency&gt;">
 <node CREATED="1568610014100" MODIFIED="1568610014100" TEXT="&lt;groupId&gt;org.apache.tomcat&lt;/groupId&gt;"/>
-<node CREATED="1568610014101" MODIFIED="1568610014101" TEXT="&lt;artifactId&gt;tomcat-jasper&lt;/artifactId&gt;"/>
+<node CREATED="1568610014101" ID="ID_215042914" MODIFIED="1568610014101" TEXT="&lt;artifactId&gt;tomcat-jasper&lt;/artifactId&gt;"/>
 <node CREATED="1568610014101" MODIFIED="1568610014101" TEXT="&lt;version&gt;9.0.24&lt;/version&gt;"/>
 </node>
 <node CREATED="1568610014101" ID="ID_1294652066" MODIFIED="1568610014101" TEXT="&lt;/dependency&gt;"/>
@@ -1365,24 +1368,24 @@
 </node>
 <node CREATED="1568610014103" ID="ID_252788790" MODIFIED="1568610014103" TEXT="&lt;/dependency&gt;"/>
 </node>
-<node CREATED="1568611695071" FOLDED="true" ID="ID_552382587" MODIFIED="1569358047380" TEXT="webconfig">
-<node CREATED="1568611436233" ID="ID_1857665948" MODIFIED="1568611436233" TEXT="@Configuration"/>
-<node CREATED="1568611436234" ID="ID_194720283" MODIFIED="1568611780503" TEXT="public class WebConfig implements WebMvcConfigurer{">
-<node CREATED="1568611436234" MODIFIED="1568611436234" TEXT="@Override"/>
-<node CREATED="1568611436235" ID="ID_463172883" MODIFIED="1568611436235" TEXT="public void configureViewResolvers(ViewResolverRegistry registry) {">
-<node CREATED="1568611436235" MODIFIED="1568611436235" TEXT="// TODO Auto-generated method stub"/>
-<node CREATED="1568611436236" MODIFIED="1568611436236" TEXT="InternalResourceViewResolver resolver = new InternalResourceViewResolver();"/>
-<node CREATED="1568611436236" MODIFIED="1568611436236" TEXT="resolver.setPrefix(&quot;/dontRemove/jsp/&quot;);"/>
-<node CREATED="1568611436237" ID="ID_381497516" MODIFIED="1568611436237" TEXT="resolver.setSuffix(&quot;.jsp&quot;);"/>
-<node CREATED="1568611436237" ID="ID_681772772" MODIFIED="1568611436237" TEXT="resolver.setViewClass(JstlView.class);"/>
-<node CREATED="1568611436238" ID="ID_1737006499" MODIFIED="1568611436238" TEXT="registry.viewResolver(resolver);"/>
-<node CREATED="1568611436238" ID="ID_1411999986" MODIFIED="1568611436238" TEXT="//WebMvcConfigurer.super.configureViewResolvers(registry);"/>
+<node CREATED="1568611695071" FOLDED="true" ID="ID_552382587" MODIFIED="1574350244413" TEXT="webconfig">
+<node CREATED="1568611436233" ID="ID_1857665948" MODIFIED="1574350198754" TEXT="@Configuration"/>
+<node CREATED="1568611436234" ID="ID_194720283" MODIFIED="1574350198754" TEXT="public class WebConfig implements WebMvcConfigurer{">
+<node CREATED="1568611436234" MODIFIED="1574350198754" TEXT="@Override"/>
+<node CREATED="1568611436235" ID="ID_463172883" MODIFIED="1574350198754" TEXT="public void configureViewResolvers(ViewResolverRegistry registry) {">
+<node CREATED="1568611436235" MODIFIED="1574350198754" TEXT="// TODO Auto-generated method stub"/>
+<node CREATED="1568611436236" MODIFIED="1574350198754" TEXT="InternalResourceViewResolver resolver = new InternalResourceViewResolver();"/>
+<node CREATED="1568611436236" MODIFIED="1574350198754" TEXT="resolver.setPrefix(&quot;/dontRemove/jsp/&quot;);"/>
+<node CREATED="1568611436237" ID="ID_381497516" MODIFIED="1574350198754" TEXT="resolver.setSuffix(&quot;.jsp&quot;);"/>
+<node CREATED="1568611436237" ID="ID_681772772" MODIFIED="1574350198754" TEXT="resolver.setViewClass(JstlView.class);"/>
+<node CREATED="1568611436238" ID="ID_1737006499" MODIFIED="1574350198754" TEXT="registry.viewResolver(resolver);"/>
+<node CREATED="1568611436238" ID="ID_1411999986" MODIFIED="1574350198754" TEXT="//WebMvcConfigurer.super.configureViewResolvers(registry);"/>
 </node>
-<node CREATED="1568611436238" MODIFIED="1568611436238" TEXT="}"/>
+<node CREATED="1568611436238" MODIFIED="1574350198754" TEXT="}"/>
 </node>
-<node CREATED="1568611436239" ID="ID_1401461355" MODIFIED="1568611436239" TEXT="}"/>
+<node CREATED="1568611436239" ID="ID_1401461355" MODIFIED="1574350198754" TEXT="}"/>
 </node>
-<node CREATED="1568612555769" FOLDED="true" ID="ID_508338643" MODIFIED="1568662577280" TEXT="&#xcee8;&#xd2b8;&#xb864;&#xb7ec;">
+<node CREATED="1568612555769" FOLDED="true" ID="ID_508338643" MODIFIED="1574350206527" TEXT="&#xcee8;&#xd2b8;&#xb864;&#xb7ec;">
 <node CREATED="1568612569803" MODIFIED="1568612569803" TEXT="package com.framework.Tct.login;"/>
 <node CREATED="1568612569804" MODIFIED="1568612569804" TEXT="import org.springframework.stereotype.Controller;"/>
 <node CREATED="1568612569804" MODIFIED="1568612569804" TEXT="import org.springframework.web.bind.annotation.RequestMapping;"/>
@@ -1401,7 +1404,7 @@
 <node CREATED="1568612569808" ID="ID_1414971865" MODIFIED="1568612569808" TEXT="//        }"/>
 <node CREATED="1568612569808" ID="ID_600266378" MODIFIED="1568612569808" TEXT="}"/>
 </node>
-<node CREATED="1568611711719" FOLDED="true" ID="ID_1075213642" MODIFIED="1569358044892" TEXT="&#xc791;&#xb3d9;&#xd604;&#xd669;(&#xc774;&#xbbf8;&#xc9c0;)">
+<node CREATED="1568611711719" FOLDED="true" ID="ID_1075213642" MODIFIED="1574350218013" TEXT="&#xc791;&#xb3d9;&#xd604;&#xd669;(&#xc774;&#xbbf8;&#xc9c0;)">
 <node CREATED="1568611717860" ID="ID_720807125" MODIFIED="1568611717860">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1413,7 +1416,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1568611833287" FOLDED="true" ID="ID_114562010" MODIFIED="1569358045995" TEXT="&#xb514;&#xb809;&#xd1a0;&#xb9ac;(&#xc774;&#xbbf8;&#xc9c0;)">
+<node CREATED="1568611833287" FOLDED="true" ID="ID_114562010" MODIFIED="1574350221455" TEXT="&#xb514;&#xb809;&#xd1a0;&#xb9ac;(&#xc774;&#xbbf8;&#xc9c0;)">
 <node CREATED="1568611835881" ID="ID_955168852" MODIFIED="1568611835881">
 <richcontent TYPE="NODE"><html>
   <head>
