@@ -117,7 +117,7 @@
 <font BOLD="true" NAME="Dialog" SIZE="18"/>
 </node>
 </node>
-<node COLOR="#3333ff" CREATED="1570204025839" FOLDED="true" ID="ID_573508692" MODIFIED="1573385027961" POSITION="right" STYLE="bubble" TEXT="create_art">
+<node COLOR="#3333ff" CREATED="1570204025839" ID="ID_573508692" MODIFIED="1574437249384" POSITION="right" STYLE="bubble" TEXT="create_art">
 <font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
 <node COLOR="#3333ff" CREATED="1570204029935" ID="ID_17484764" MODIFIED="1570383141455" STYLE="bubble" TEXT="create_id(&#xcc3d;&#xc791; &#xc544;&#xc774;&#xb514;)">
 <font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>

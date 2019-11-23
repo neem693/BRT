@@ -992,7 +992,7 @@
 <node CREATED="1571267092187" FOLDED="true" ID="ID_908828907" MODIFIED="1574268992504" POSITION="right" TEXT="dataQuestionMark">
 <node CREATED="1571267095635" LINK="https://stackoverflow.com/questions/45922715/what-is-the-meaning-of-question-mark-in-expressions-in-angular-2" MODIFIED="1571267095635" TEXT="https://stackoverflow.com/questions/45922715/what-is-the-meaning-of-question-mark-in-expressions-in-angular-2"/>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#ff3333" CREATED="1571267244643" FOLDED="true" ID="ID_822011010" MODIFIED="1574268992504" POSITION="right" STYLE="bubble" TEXT="angularFIleUpload">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#ff3333" CREATED="1571267244643" ID="ID_822011010" MODIFIED="1574488919208" POSITION="right" STYLE="bubble" TEXT="angularFIleUpload">
 <font BOLD="true" NAME="Dialog" SIZE="24"/>
 <node CREATED="1571267668188" ID="ID_986750464" MODIFIED="1571267673400" TEXT="&#xadf8;&#xb0e5; &#xd558;&#xc790; &#xc528;&#xbc1c;">
 <node CREATED="1571267674324" ID="ID_749784563" LINK="https://stackoverflow.com/questions/47936183/angular-file-upload" MODIFIED="1571267674324" TEXT="https://stackoverflow.com/questions/47936183/angular-file-upload"/>
