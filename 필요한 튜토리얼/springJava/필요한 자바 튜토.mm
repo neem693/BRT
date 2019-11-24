@@ -3,7 +3,7 @@
 <node CREATED="1564407011351" ID="ID_1828054490" MODIFIED="1572408389826" TEXT="&#xd544;&#xc694;&#xd55c; &#xc790;&#xbc14; &#xd29c;&#xd1a0;">
 <font NAME="SansSerif" SIZE="12"/>
 <hook NAME="accessories/plugins/CreationModificationPlugin_new.properties"/>
-<node COLOR="#3333ff" CREATED="1564407143832" FOLDED="true" ID="ID_54453441" MODIFIED="1568878966627" POSITION="right" STYLE="bubble" TEXT="No goals have been specified for this build. You must specify a valid lifecycle phase or a goal in the format &lt;plugin-prefix&gt;:&lt;goal&gt; or &lt;plugin-group-id&gt;:&lt;plugin-artifact-id&gt;[:&lt;plugin-version&gt;]:&lt;goal&gt;. &#xb2e4;&#xc74c;&#xacfc; &#xac19;&#xc740; &#xba54;&#xc774;&#xbe10; &#xc5d0;&#xb7ec;&#xc77c; &#xb54c;">
+<node COLOR="#3333ff" CREATED="1564407143832" FOLDED="true" ID="ID_54453441" MODIFIED="1574598857663" POSITION="right" STYLE="bubble" TEXT="No goals have been specified for this build. You must specify a valid lifecycle phase or a goal in the format &lt;plugin-prefix&gt;:&lt;goal&gt; or &lt;plugin-group-id&gt;:&lt;plugin-artifact-id&gt;[:&lt;plugin-version&gt;]:&lt;goal&gt;. &#xb2e4;&#xc74c;&#xacfc; &#xac19;&#xc740; &#xba54;&#xc774;&#xbe10; &#xc5d0;&#xb7ec;&#xc77c; &#xb54c;">
 <font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
 <node CREATED="1564407165766" ID="ID_825190785" MODIFIED="1564407165766" TEXT="&lt;build&gt;">
 <node COLOR="#3333ff" CREATED="1564407165768" ID="ID_1203480326" MODIFIED="1564407168509" STYLE="bubble" TEXT="&lt;defaultGoal&gt;install&lt;/defaultGoal&gt;">
@@ -255,7 +255,7 @@
 <node CREATED="1565799689378" ID="ID_928810396" MODIFIED="1565799689378" TEXT="to angular-clis polyfill.ts file. right now couldn&apos;t see any sideeffects"/>
 </node>
 </node>
-<node CREATED="1565932198016" ID="ID_718731204" MODIFIED="1574311680770" POSITION="right" TEXT="&#xc6f9; &#xc18c;&#xcf13;&#xc5d0; &#xb300;&#xd55c; &#xc815;&#xb9ac;">
+<node CREATED="1565932198016" FOLDED="true" ID="ID_718731204" MODIFIED="1574598857672" POSITION="right" TEXT="&#xc6f9; &#xc18c;&#xcf13;&#xc5d0; &#xb300;&#xd55c; &#xc815;&#xb9ac;">
 <node CREATED="1565932222238" ID="ID_169774616" MODIFIED="1565932236394" TEXT="&#xae30;&#xbcf8;&#xc801;&#xc73c;&#xb85c; angular 8 + spring 2.1.6&#xc744; &#xc0ac;&#xc6a9;&#xd55c; &#xac83;"/>
 <node CREATED="1565932331134" ID="ID_1296553527" MODIFIED="1574311683250" TEXT="&#xd29c;&#xd1a0;&#xb9ac;&#xc5bc; &#xd3ec;&#xc778;&#xd2b8;&#xb97c; &#xae30;&#xbcf8;&#xc801;&#xc73c;&#xb85c; &#xcc38;&#xace0;">
 <node CREATED="1565932338271" ID="ID_81431862" LINK="https://www.tutorialspoint.com/spring_boot/spring_boot_web_socket.htm" MODIFIED="1565932338271" TEXT="https://www.tutorialspoint.com/spring_boot/spring_boot_web_socket.htm"/>
@@ -1340,7 +1340,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1568609352220" ID="ID_1954893130" MODIFIED="1574517693071" POSITION="right" TEXT="jstl&#xcd94;&#xac00; &#xd558;&#xb294; &#xbc29;&#xbc95;">
+<node CREATED="1568609352220" FOLDED="true" ID="ID_1954893130" MODIFIED="1574598857677" POSITION="right" TEXT="jstl&#xcd94;&#xac00; &#xd558;&#xb294; &#xbc29;&#xbc95;">
 <node COLOR="#3333ff" CREATED="1574352383337" ID="ID_1583850757" LINK="https://www.surasint.com/spring-boot-jsp/" MODIFIED="1574517728468" STYLE="bubble" TEXT="https://www.surasint.com/spring-boot-jsp/">
 <font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
 </node>
@@ -1472,7 +1472,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1568918225556" FOLDED="true" ID="ID_833007569" MODIFIED="1573370384994" POSITION="right" TEXT="oauth(JWT)">
+<node CREATED="1568918225556" FOLDED="true" ID="ID_833007569" MODIFIED="1574598866498" POSITION="right" TEXT="oauth(JWT)">
 <node CREATED="1568984205860" FOLDED="true" ID="ID_95813070" MODIFIED="1573370384104" TEXT="doc">
 <node CREATED="1568984208440" ID="ID_631503585" LINK="https://docs.spring.io/spring-security-oauth2-boot/docs/current-SNAPSHOT/reference/htmlsingle/#enabling-the-resource-server" MODIFIED="1568984208440" TEXT="https://docs.spring.io/spring-security-oauth2-boot/docs/current-SNAPSHOT/reference/htmlsingle/#enabling-the-resource-server"/>
 </node>
@@ -1492,7 +1492,7 @@
 <node CREATED="1568923057856" ID="ID_1580866076" MODIFIED="1568923057856" TEXT="java.lang.ClassNotFoundException: org.bouncycastle.asn1.ASN1Sequence"/>
 <node CREATED="1568957106797" ID="ID_800262678" LINK="https://www.baeldung.com/spring-security-oauth-jwt" MODIFIED="1568957106797" TEXT="https://www.baeldung.com/spring-security-oauth-jwt"/>
 </node>
-<node CREATED="1568959912187" FOLDED="true" ID="ID_1052690647" MODIFIED="1570810112096" TEXT="&#xd574;&#xacb0;">
+<node CREATED="1568959912187" FOLDED="true" ID="ID_1052690647" MODIFIED="1574598866497" TEXT="&#xd574;&#xacb0;">
 <node CREATED="1568959922741" ID="ID_1328546110" LINK="https://mvnrepository.com/artifact/org.bouncycastle/bcprov-jdk15on" MODIFIED="1568959923490" TEXT="https://mvnrepository.com/artifact/org.bouncycastle/bcprov-jdk15on"/>
 <node CREATED="1568959915086" ID="ID_1937587826" MODIFIED="1568959928449" TEXT="&#xc774;&#xac78; maven&#xc5d0; &#xcd94;&#xac00;&#xd55c;&#xb2e4;."/>
 </node>
@@ -2341,14 +2341,14 @@
 <node CREATED="1570820280004" ID="ID_459888442" MODIFIED="1570820398932" TEXT="csrf&#xc758; permitAll&#xc740; get&#xb9cc; &#xd5c8;&#xc6a9;&#xb41c;&#xb2e4;. post&#xb294; &#xd5c8;&#xc6a9; &#xb418;&#xc9c0; &#xc54a;&#xb294;&#xb2e4;. &#xd1a0;&#xd070;&#xc774; &#xc788;&#xc5b4;&#xc57c; &#xd55c;&#xb2e4;."/>
 <node CREATED="1570822064313" ID="ID_1633839874" MODIFIED="1570822220332" TEXT="&#xadf8;&#xb7ec;&#xb098; &#xd1a0;&#xd070;&#xc774; &#xc0dd;&#xc131;&#xb420; &#xb54c;&#xb294; &#xcfe0;&#xd0a4;&#xb85c; &#xd588;&#xc73c;&#xb974; &#xb54c; &#xd604;&#xc7ac; &#xacbd;&#xb85c;&#xc5d0;&#xc11c; &#xc0dd;&#xc131;&#xb418;&#xc9c0; &#xc54a;&#xace0; &quot;/&quot; &#xb8e8;&#xd2b8;&#xc5d0;&#xc11c; &#xc0dd;&#xc131;&#xb428;&#xc73c;&#xb85c; &#xc815;&#xd655;&#xd55c; &#xacbd;&#xb85c; &#xc124;&#xc815;&#xc774; &#xd544;&#xc694;&#xd558;&#xb2e4;."/>
 </node>
-<node CREATED="1569486116611" FOLDED="true" ID="ID_1594071695" MODIFIED="1573370380261" POSITION="right" TEXT="oauth &#xc815;&#xb9ac;">
+<node CREATED="1569486116611" FOLDED="true" ID="ID_1594071695" MODIFIED="1574598867868" POSITION="right" TEXT="oauth &#xc815;&#xb9ac;">
 <node CREATED="1569486121620" ID="ID_1004995870" MODIFIED="1569486326063" TEXT="&#xc774; &#xc815;&#xb9ac;&#xb294; authorization server&#xc640; resource server &#xc804;&#xc6a9;&#xc73c;&#xb85c; &#xd55c;&#xb2e4;."/>
 <node CREATED="1569851795826" ID="ID_1918509835" MODIFIED="1571799829641" TEXT="&#xcc38;&#xc870;&#xd55c; &#xb9c1;&#xd06c;">
 <node CREATED="1569491563570" ID="ID_239934634" LINK="https://www.tutorialspoint.com/spring_boot/spring_boot_oauth2_with_jwt.htm" MODIFIED="1569491564360" TEXT="https://www.tutorialspoint.com/spring_boot/spring_boot_oauth2_with_jwt.htm"/>
 <node CREATED="1569190011486" ID="ID_40553319" LINK="https://www.baeldung.com/rest-api-spring-oauth2-angular" MODIFIED="1569491618974" TEXT="https://www.baeldung.com/rest-api-spring-oauth2-angular"/>
 <node CREATED="1569528171850" ID="ID_1249422750" LINK="https://www.baeldung.com/spring-security-oauth-jwt" MODIFIED="1569528171850" TEXT="https://www.baeldung.com/spring-security-oauth-jwt"/>
 </node>
-<node CREATED="1569486326299" FOLDED="true" ID="ID_516070361" MODIFIED="1571799820018" TEXT="1.maven">
+<node CREATED="1569486326299" ID="ID_516070361" MODIFIED="1574598854280" TEXT="1.maven">
 <node CREATED="1569486622040" ID="ID_227904730" LINK="https://mvnrepository.com/artifact/com.h2database/h2" MODIFIED="1569486622040" TEXT="&lt;!-- https://mvnrepository.com/artifact/com.h2database/h2 --&gt;"/>
 <node CREATED="1569486622045" ID="ID_718077643" MODIFIED="1569486622045" TEXT="&lt;dependency&gt;">
 <node CREATED="1569486622048" ID="ID_1492004077" MODIFIED="1569486622048" TEXT="&lt;groupId&gt;com.h2database&lt;/groupId&gt;"/>
@@ -3419,7 +3419,7 @@
 <node CREATED="1569321838984" FOLDED="true" ID="ID_1289431196" MODIFIED="1571803582630" POSITION="right" TEXT="JDBC &#xc624;&#xb958;">
 <node CREATED="1569321843353" ID="ID_437120369" LINK="#ID_1068000342" MODIFIED="1569321851842" TEXT="Failed to determine a suitable driver class "/>
 </node>
-<node COLOR="#3333ff" CREATED="1569954720531" ID="ID_1310219766" MODIFIED="1574488919961" POSITION="right" STYLE="bubble" TEXT="&#xd558;&#xc774;&#xbc84;&#xb124;&#xc774;&#xd2b8;(jpa)">
+<node COLOR="#3333ff" CREATED="1569954720531" FOLDED="true" ID="ID_1310219766" MODIFIED="1574598857684" POSITION="right" STYLE="bubble" TEXT="&#xd558;&#xc774;&#xbc84;&#xb124;&#xc774;&#xd2b8;(jpa)">
 <font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
 <node CREATED="1570118271397" ID="ID_1098857026" LINK="https://www.baeldung.com/spring-data-jpa-multiple-databases" MODIFIED="1571694519760" TEXT="https://www.baeldung.com/spring-data-jpa-multiple-databases"/>
 <node CREATED="1570132753122" FOLDED="true" ID="ID_977131534" MODIFIED="1572414311204" TEXT="select &#xc870;&#xac74;&#xbb38;">
