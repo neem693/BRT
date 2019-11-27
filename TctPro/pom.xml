@@ -18,7 +18,7 @@
 
 	<properties>
 		<java.version>1.8</java.version>
-		<build_name>TheComment</build_name>
+		<build_name>the-comment</build_name>
 	</properties>
 
 	<dependencies>

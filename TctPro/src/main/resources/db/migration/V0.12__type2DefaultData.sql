@@ -1,3 +1,9 @@
+create table TYPE2( 
+	TYPE2_ID bigint primary key,
+	TYPE2_NAME varchar,
+	TYPE1_ID bigint,
+    FOREIGN KEY (TYPE1_ID ) REFERENCES TYPE1(TYPE1_ID)
+);
 
 INSERT INTO type2(type2_id,type2_name,type1_id) VALUES(1,'EPISODE',1);
 INSERT INTO type2(type2_id,type2_name,type1_id) VALUES(2,'MOVIE',1);
