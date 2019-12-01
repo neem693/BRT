@@ -1,0 +1,74 @@
+<div class="select_category">
+    <!-- <div class="swiper_select_show"></div> -->
+    <swiper #type1 *ngIf="loading.type == 1" class="swiper-container type1" [config]="config"
+        (indexChange)="type1Change($event)">
+        <div *ngFor="let item of typeList.data; let i = index;let last = last" class="swiper-slide">
+            <div>
+                {{item.type1_name}}
+            </div>
+        </div>
+    </swiper>
+    <!-- all is out of type2 swiper -->
+    <div *ngFor="let item of typeList.data; let i = index;">
+        <!-- <div *ngIf="loading.type == 1 && item.type1_id != 0 && item.type1_id == search.type1"
+            class="swiper_select_show"></div> -->
+        <swiper #type2 *ngIf="loading.type == 1 && item.type1_id != 0 && item.type1_id == search.type1"
+            class="swiper-container type1" [config]="config" (indexChange)="type2Change($event)">
+            <div class="swiper-slide" *ngFor="let tpye2Item of item.type2Dto; let j = index; let last = last">
+                <div>
+                    {{tpye2Item.type2_name}}
+
+                </div>
+            </div>
+        </swiper>
+    </div>
+</div>
+<div class="">
+    <div class="search_text">
+        <mat-form-field appearance="legacy">
+            <mat-label>{{show.wordSearchStr}}</mat-label>
+            <input [formControl]="search.searchText" (ngModelChange)="searchChange($event)" matInput
+                placeholder="Placeholder">
+            <mat-hint>{{show.wordSearchDialogue}}</mat-hint>
+        </mat-form-field>
+        <button (click)="evalSearchNativeUrl(1)" mat-raised-button>Search</button>
+    </div>
+    <div class="order">
+        <mat-form-field>
+            <mat-label>정렬방법</mat-label>
+            <mat-select (ngModelChange)="searchChange($event)" [(ngModel)]="search.order2">
+                <mat-option [value]=0>
+                    내림차순
+                </mat-option>
+                <mat-option [value]=1>
+                    오름차순
+                </mat-option>
+            </mat-select>
+        </mat-form-field>
+        <mat-form-field>
+            <mat-label>정렬유형</mat-label>
+            <mat-select (ngModelChange)="searchChange($event)" [(ngModel)]="search.order">
+                <mat-option [value]=0>
+                    코멘트날짜
+                </mat-option>
+                <mat-option [value]=1>
+                    출시날짜
+                </mat-option>
+            </mat-select>
+        </mat-form-field>
+        <mat-form-field>
+            <mat-label>검색단어</mat-label>
+            <mat-select (ngModelChange)="order3Change($event,search.order3)" [(ngModel)]="search.order3">
+                <mat-option [value]=0>
+                    코멘트
+                </mat-option>
+                <mat-option [value]=1>
+                    소재
+                </mat-option>
+            </mat-select>
+        </mat-form-field>
+        <div class="clear"></div>
+    </div>
+
+
+</div>

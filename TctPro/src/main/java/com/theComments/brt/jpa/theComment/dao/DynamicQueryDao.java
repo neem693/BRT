@@ -17,7 +17,6 @@ import javax.persistence.criteria.CriteriaQuery;
 import javax.persistence.criteria.Expression;
 import javax.persistence.criteria.Join;
 import javax.persistence.criteria.JoinType;
-import javax.persistence.criteria.Order;
 import javax.persistence.criteria.Predicate;
 import javax.persistence.criteria.Root;
 
@@ -26,6 +25,12 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
+import com.fasterxml.jackson.databind.deser.impl.ExternalTypeHandler.Builder;
+import com.mysema.query.BooleanBuilder;
+import com.mysema.query.types.Order;
+import com.mysema.query.types.OrderSpecifier;
+import com.mysema.query.types.Projections;
+import com.querydsl.jpa.impl.JPAQueryFactory;
 import com.theComments.brt.constFile.PageConst;
 import com.theComments.brt.constFile.PageConst.PAGE;
 import com.theComments.brt.jpa.dto.ArtistDto;
@@ -38,7 +43,11 @@ import com.theComments.brt.jpa.dto.WorksDto;
 import com.theComments.brt.jpa.theComment.model.Artist;
 import com.theComments.brt.jpa.theComment.model.Create_art;
 import com.theComments.brt.jpa.theComment.model.Evaluate;
+import com.theComments.brt.jpa.theComment.model.Evaluation_item;
 import com.theComments.brt.jpa.theComment.model.FileSave;
+import com.theComments.brt.jpa.theComment.model.QEvaluate;
+import com.theComments.brt.jpa.theComment.model.QEvaluation_item;
+import com.theComments.brt.jpa.theComment.model.QWorks;
 import com.theComments.brt.jpa.theComment.model.Type1;
 import com.theComments.brt.jpa.theComment.model.Type2;
 import com.theComments.brt.jpa.theComment.model.Works;
@@ -501,6 +510,69 @@ public class DynamicQueryDao {
 		returnData.put("totalSize", totalCount.longValue());
 
 		return returnData;
+	}
+
+	public void selectEvalItemSearchBasic(Evaluation_itemDto itemDto, Type1Dto type1Dto, Type2Dto type2Dto,
+			OrderForSearch orderForSearch) {
+		// TODO Auto-generated method stub
+		
+		EntityManager em = entityManagerFactory.createEntityManager();
+		
+		QEvaluation_item qEval_item = QEvaluation_item.evaluation_item;
+		QEvaluate qEval = QEvaluate.evaluate;
+		QWorks qWorks = QWorks.works;
+		
+		JPAQueryFactory queryFactory = new JPAQueryFactory(em);
+		
+		BooleanBuilder booleanBuilder = new BooleanBuilder(); 
+		List<Object> orderList = new ArrayList<Object>();
+		
+		if(itemDto.getSearchText().isEmpty() == false) {
+			
+			//comment
+			if(orderForSearch.getOrder3() == 0) {
+				
+				booleanBuilder.and(qEval_item.ev_text1.eq(itemDto.getSearchText())
+								.or(qEval_item.ev_text2.eq(itemDto.getEv_text2())));
+					
+			}else if(orderForSearch.getOrder3() == 1) {
+			
+				booleanBuilder.and(qEval_item.subjectMatter.eq(itemDto.getSearchText()));
+				
+			}
+			
+		}
+		
+		if(orderForSearch.getOrder2() == 0) {
+			if(orderForSearch.getOrder() == 0) {
+				
+				orderList.add(qEval.eval_date.desc());
+				
+			}else if(orderForSearch.getOrder() == 1) {
+				
+				orderList.add(qEval.eval_date.asc());
+				
+			}
+		}else if(orderForSearch.getOrder2() == 1) {
+			if(orderForSearch.getOrder() == 0) {
+				
+				orderList.add(qWorks.create_date.desc());
+				
+			}else if(orderForSearch.getOrder() == 1) {
+				
+				orderList.add(qWorks.create_date.asc());
+				
+			}
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
 	}
 
 }

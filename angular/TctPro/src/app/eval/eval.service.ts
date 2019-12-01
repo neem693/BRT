@@ -8,6 +8,7 @@ import { environment } from 'src/environments/environment';
 export class EvalService {
 
 
+
   constructor(private http: HttpClient) { }
 
   /** get the work in eval */
@@ -22,6 +23,11 @@ export class EvalService {
   /** add evaluation Item */
   saveEval(data: {}) {
     return this.http.post(environment.baseApiUrl + "/eval/saveEval", data);
+  }
+
+
+  evalSearch(param: any) {
+    return this.http.get(environment.baseApiUrl + '/eval/evalSearch',{params:param});
   }
 
 

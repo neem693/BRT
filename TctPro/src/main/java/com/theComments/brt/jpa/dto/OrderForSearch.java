@@ -9,5 +9,6 @@ public class OrderForSearch {
 	
 	int order;
 	int order2;
+	int order3;
 
 }

@@ -12,6 +12,7 @@ import { AddEvalComponent } from './eval/add-eval/add-eval.component';
 import { WorkSerachComponent } from './works/work-serach/work-serach.component';
 import { ArtistSearchComponent } from './artist/artist-search/artist-search.component';
 import { ArtistDetailComponent } from './artist/artist-detail/artist-detail.component';
+import { EvalSerachComponent } from './eval/eval-serach/eval-serach.component';
 
 
 const routes: Routes = [
@@ -26,7 +27,7 @@ const routes: Routes = [
     {path:"addWork",component:AddWorksComponent},
     {path:"addWork/:id",component:AddWorksComponent},
     {path:"worksSaveCheck/:id",component:AfterWorksSaveCheckComponent},
-    {path:"search/:id",component:WorkSerachComponent},
+    {path:"search/:id",component:WorkSerachComponent, },
   ]},
   {path:"artist",children:[
     {path:"addArtist", component:ArtistAddComponent},
@@ -36,7 +37,8 @@ const routes: Routes = [
     {path:"artistDetail/:id/:type",component:ArtistDetailComponent},
   ]},
   {path:"eval",children:[
-    {path:"addEval/:id", component:AddEvalComponent}
+    {path:"addEval/:id", component:AddEvalComponent},
+    {path:"evalList", component:EvalSerachComponent}
   ]},
   {path:"**",redirectTo:"home"},
   {path:"",component:HomeComponent},

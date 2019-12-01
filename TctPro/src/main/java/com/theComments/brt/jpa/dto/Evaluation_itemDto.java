@@ -7,7 +7,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class Evaluation_itemDto {
+public class Evaluation_itemDto extends Page{
 
 
 	Long eval_item_id;
@@ -29,6 +29,10 @@ public class Evaluation_itemDto {
 		this.black = black;
 		this.blue = blue;
 		this.gray = gray;
+	}
+	
+	public Evaluation_itemDto() {
+		// TODO Auto-generated constructor stub
 	}
 	
 	

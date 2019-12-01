@@ -37,7 +37,8 @@ import { EvalService } from './eval/eval.service';
 import {SwiperConfigInterface, SwiperModule, SwiperConfig} from 'ngx-swiper-wrapper';
 import { WorkSerachComponent } from './works/work-serach/work-serach.component';
 import { ArtistSearchComponent } from './artist/artist-search/artist-search.component';
-import { ArtistDetailComponent } from './artist/artist-detail/artist-detail.component'
+import { ArtistDetailComponent } from './artist/artist-detail/artist-detail.component';
+import { EvalSerachComponent } from './eval/eval-serach/eval-serach.component';
 
 const DEFAULT_SWIPER_CONFIG: SwiperConfigInterface = {
   direction: 'horizontal',
@@ -69,6 +70,7 @@ const DEFAULT_SWIPER_CONFIG: SwiperConfigInterface = {
     WorkSerachComponent,
     ArtistSearchComponent,
     ArtistDetailComponent,
+    EvalSerachComponent,
 
     
   ],

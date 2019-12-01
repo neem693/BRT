@@ -1,0 +1,26 @@
+.select_category {
+    position: relative;
+    min-height: 100px;
+}
+.search_text {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.search_text button {
+    width: 10%;
+    height: 50px;
+}
+
+.search_text mat-form-field {
+    display: block;
+    width: 40%;
+    font-size: large;
+}
+
+
+.order mat-form-field {
+    float: right;
+    font-size: large;
+}

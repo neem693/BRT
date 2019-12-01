@@ -152,6 +152,8 @@ export class WorkSerachComponent implements OnInit, AfterViewInit {
       let data = x['params'];
       if (data['id'] != undefined && data['id'] != 0) {
         this.searchWorksDetail(data['id']);
+      }else if(data['id'] == 0){
+        $(".work_detail_outer").removeClass("active");
       }
 
       if (this.router.url.split("?").length == 1) {
@@ -275,11 +277,26 @@ export class WorkSerachComponent implements OnInit, AfterViewInit {
     for (let key in data) {
       param[key] = data[key];
     }
-    this.router.navigate(['.'], {
-      relativeTo: this.route,
-      queryParams: param,
-      queryParamsHandling: "merge"
-    })
+
+    console.log(this.router.url.indexOf("?"));
+
+    //is first search??
+    //yes
+    if(this.router.url.indexOf("?") == -1){ 
+      this.router.navigate(['.'], {
+        relativeTo: this.route,
+        queryParams: param,
+        queryParamsHandling: "merge",
+        replaceUrl: true
+      })
+      //no
+    }else{
+      this.router.navigate(['.'], {
+        relativeTo: this.route,
+        queryParams: param,
+        queryParamsHandling: "merge"
+      })
+    }
 
     this.worksSearch(data);
 

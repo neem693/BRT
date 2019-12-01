@@ -196,5 +196,14 @@ export class ArtistDetailComponent implements OnInit {
   
   }
 
+/**
+ * go to the works detail page
+ */
+  goToWorksDetail(id:number){
+
+    this.router.navigate(["/works/search",id]);
+
+  }
+
 
 }

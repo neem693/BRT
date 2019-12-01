@@ -25,7 +25,10 @@ import com.theComments.brt.constFile.PageConst;
 import com.theComments.brt.jpa.dto.ArtistDto;
 import com.theComments.brt.jpa.dto.EvaluateDto;
 import com.theComments.brt.jpa.dto.Evaluation_itemDto;
+import com.theComments.brt.jpa.dto.OrderForSearch;
 import com.theComments.brt.jpa.dto.SimpleUserDto;
+import com.theComments.brt.jpa.dto.Type1Dto;
+import com.theComments.brt.jpa.dto.Type2Dto;
 import com.theComments.brt.jpa.dto.WorksDto;
 import com.theComments.brt.jpa.theComment.dao.DynamicQueryDao;
 import com.theComments.brt.jpa.theComment.dao.Eva_user_dao;
@@ -209,6 +212,43 @@ public class EvalService {
 		result.setId(item.getEval_item_id());
 		
 		return result;
+	}
+
+	public ResultMap evalSerach(Map<String,Object> param) {
+		// TODO Auto-generated method stub
+		int pageNum = Integer.parseInt(param.get("pageNum").toString());
+		int order = Integer.parseInt(param.get("order").toString());
+		int order2 = Integer.parseInt(param.get("order2").toString());
+		int order3 = Integer.parseInt(param.get("order3").toString());
+		
+		Long type1 = Long.parseLong(param.get("type1").toString());
+		Long type2 = Long.parseLong(param.get("type2").toString());
+		
+		String searchText = "";
+		if(param.get("searchText") != null) {
+			searchText = param.get("searchText").toString();
+		}
+		
+		
+		Evaluation_itemDto itemDto = new Evaluation_itemDto();
+		itemDto.setSearchText(searchText);
+		itemDto.setPageNum(pageNum);
+		
+		Type1Dto type1Dto = new Type1Dto();
+		type1Dto.setType1_id(type1);
+		
+		Type2Dto type2Dto = new Type2Dto();
+		type2Dto.setType2_id(type2);
+		
+		OrderForSearch orderForSearch = new OrderForSearch();
+		orderForSearch.setOrder(order);
+		orderForSearch.setOrder2(order2);
+		orderForSearch.setOrder3(order3);
+		
+		dynamicQueryDao.selectEvalItemSearchBasic(itemDto,type1Dto,type2Dto,orderForSearch);
+		
+		
+		return null;
 	}
 	
 	

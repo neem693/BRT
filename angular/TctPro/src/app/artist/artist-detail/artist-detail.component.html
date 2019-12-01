@@ -65,7 +65,7 @@
     <div class="works_div_external" *ngIf="loading.DooLoading == 0">
         <mat-card *ngFor="let item of works.doo" class="worksOne listen">
             <div class="category">{{item.type2.type2_name}}</div>
-            <div class="worksImg">
+            <div class="worksImg" style="cursor: pointer;" (click)= "goToWorksDetail(item.work_id)">
                 <img *ngIf="item.fileSaveDto.length == 0" src="/assets/noImage/not-available.jpg">
                 <img *ngIf="item.fileSaveDto.length > 0"
                     [src]="dir.image  + item.fileSaveDto[0].file_path + '/' +  item.fileSaveDto[0].save_file_name">
