@@ -9,7 +9,7 @@ import com.theComments.brt.constFile.AuthUser;
 
 @Configuration
 @EnableResourceServer
-public class Oauth2ResourceServer extends ResourceServerConfigurerAdapter {
+public class Oauth2ResourceConfig extends ResourceServerConfigurerAdapter {
 	
 	private String [] resouseMatch = {
 			"/",
@@ -24,6 +24,7 @@ public class Oauth2ResourceServer extends ResourceServerConfigurerAdapter {
 			"/v1/type/**",
 			"/v1/worksPublic/**",
 			"/v1/artistPublic/**",
+			"/v1/evalPublic/**"
 			
 	};
 	

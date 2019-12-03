@@ -13,7 +13,7 @@ import com.theComments.brt.jpa.dto.Evaluation_itemDto;
 import com.theComments.brt.util.ResultMap;
 
 @RestController
-@RequestMapping("/evalPublic")
+@RequestMapping("/v1/evalPublic")
 public class EvalPublicRestController {
 	
 	

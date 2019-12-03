@@ -255,17 +255,17 @@
 <node CREATED="1565799689378" ID="ID_928810396" MODIFIED="1565799689378" TEXT="to angular-clis polyfill.ts file. right now couldn&apos;t see any sideeffects"/>
 </node>
 </node>
-<node CREATED="1565932198016" FOLDED="true" ID="ID_718731204" MODIFIED="1575188978332" POSITION="right" TEXT="&#xc6f9; &#xc18c;&#xcf13;&#xc5d0; &#xb300;&#xd55c; &#xc815;&#xb9ac;">
+<node CREATED="1565932198016" FOLDED="true" ID="ID_718731204" MODIFIED="1575385343267" POSITION="right" TEXT="&#xc6f9; &#xc18c;&#xcf13;&#xc5d0; &#xb300;&#xd55c; &#xc815;&#xb9ac;">
 <node CREATED="1565932222238" ID="ID_169774616" MODIFIED="1565932236394" TEXT="&#xae30;&#xbcf8;&#xc801;&#xc73c;&#xb85c; angular 8 + spring 2.1.6&#xc744; &#xc0ac;&#xc6a9;&#xd55c; &#xac83;"/>
-<node CREATED="1565932331134" ID="ID_1296553527" MODIFIED="1574311683250" TEXT="&#xd29c;&#xd1a0;&#xb9ac;&#xc5bc; &#xd3ec;&#xc778;&#xd2b8;&#xb97c; &#xae30;&#xbcf8;&#xc801;&#xc73c;&#xb85c; &#xcc38;&#xace0;">
+<node CREATED="1565932331134" FOLDED="true" ID="ID_1296553527" MODIFIED="1575381537050" TEXT="&#xd29c;&#xd1a0;&#xb9ac;&#xc5bc; &#xd3ec;&#xc778;&#xd2b8;&#xb97c; &#xae30;&#xbcf8;&#xc801;&#xc73c;&#xb85c; &#xcc38;&#xace0;">
 <node CREATED="1565932338271" ID="ID_81431862" LINK="https://www.tutorialspoint.com/spring_boot/spring_boot_web_socket.htm" MODIFIED="1565932338271" TEXT="https://www.tutorialspoint.com/spring_boot/spring_boot_web_socket.htm"/>
 </node>
-<node CREATED="1565932339349" ID="ID_1790914735" MODIFIED="1574311685062" TEXT="angular 8&#xc5d0;&#xc11c; &#xc0ac;&#xc6a9;&#xd55c; &#xbaa8;&#xb4c8;">
+<node CREATED="1565932339349" FOLDED="true" ID="ID_1790914735" MODIFIED="1575381537050" TEXT="angular 8&#xc5d0;&#xc11c; &#xc0ac;&#xc6a9;&#xd55c; &#xbaa8;&#xb4c8;">
 <node CREATED="1565932441342" ID="ID_960084271" MODIFIED="1565932444673" TEXT="npm install @types/sockjs"/>
 <node CREATED="1565932594115" ID="ID_909739163" MODIFIED="1565933126706" TEXT="npm install @types/sockjs-client"/>
 <node CREATED="1565932452901" ID="ID_1794270471" LINK="#ID_126925543" MODIFIED="1565932471714" TEXT="sockjs&#xb294; global &#xbcc0;&#xc218;&#xac00; &#xc5c6;&#xb2e4;&#xace0; &#xb728;&#xb2c8; &#xb2e4;&#xc74c;&#xc744; &#xcc38;&#xace0;"/>
 </node>
-<node CREATED="1565932655061" FOLDED="true" ID="ID_187154817" MODIFIED="1575121129965" TEXT="&#xcd08;&#xae30;&#xd654;(&#xc774;&#xbbf8;&#xc9c0;)">
+<node CREATED="1565932655061" FOLDED="true" ID="ID_187154817" MODIFIED="1575381537050" TEXT="&#xcd08;&#xae30;&#xd654;(&#xc774;&#xbbf8;&#xc9c0;)">
 <node CREATED="1565932832902" ID="ID_932637870" MODIFIED="1565932832902">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -289,7 +289,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1565932799167" ID="ID_23517283" MODIFIED="1574311806819" TEXT="&#xacb0;&#xacfc;(&#xc774;&#xbbf8;&#xc9c0;)">
+<node CREATED="1565932799167" FOLDED="true" ID="ID_23517283" MODIFIED="1575381537050" TEXT="&#xacb0;&#xacfc;(&#xc774;&#xbbf8;&#xc9c0;)">
 <node CREATED="1565932964388" ID="ID_1779098021" MODIFIED="1565932964388">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -301,7 +301,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1565932801094" ID="ID_378806869" MODIFIED="1574311808366" TEXT="&#xc6f9; &#xc18c;&#xcf13; &#xc2a4;&#xcf00;&#xc974;&#xb9c1;(&#xc774;&#xbbf8;&#xc9c0;)">
+<node CREATED="1565932801094" FOLDED="true" ID="ID_378806869" MODIFIED="1575381537050" TEXT="&#xc6f9; &#xc18c;&#xcf13; &#xc2a4;&#xcf00;&#xc974;&#xb9c1;(&#xc774;&#xbbf8;&#xc9c0;)">
 <node CREATED="1565932905882" ID="ID_266505493" MODIFIED="1565932905882">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -3419,7 +3419,7 @@
 <node CREATED="1569321838984" FOLDED="true" ID="ID_1289431196" MODIFIED="1571803582630" POSITION="right" TEXT="JDBC &#xc624;&#xb958;">
 <node CREATED="1569321843353" ID="ID_437120369" LINK="#ID_1068000342" MODIFIED="1569321851842" TEXT="Failed to determine a suitable driver class "/>
 </node>
-<node COLOR="#3333ff" CREATED="1569954720531" ID="ID_1310219766" MODIFIED="1575188980354" POSITION="right" STYLE="bubble" TEXT="&#xd558;&#xc774;&#xbc84;&#xb124;&#xc774;&#xd2b8;(jpa)">
+<node COLOR="#3333ff" CREATED="1569954720531" ID="ID_1310219766" MODIFIED="1575387930783" POSITION="right" STYLE="bubble" TEXT="&#xd558;&#xc774;&#xbc84;&#xb124;&#xc774;&#xd2b8;(jpa)">
 <font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
 <node CREATED="1570118271397" ID="ID_1098857026" LINK="https://www.baeldung.com/spring-data-jpa-multiple-databases" MODIFIED="1571694519760" TEXT="https://www.baeldung.com/spring-data-jpa-multiple-databases"/>
 <node CREATED="1570132753122" FOLDED="true" ID="ID_977131534" MODIFIED="1572414311204" TEXT="select &#xc870;&#xac74;&#xbb38;">
@@ -3655,7 +3655,7 @@
 <node CREATED="1572584703759" MODIFIED="1572584703759" TEXT="}"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#ff3333" CREATED="1572584636189" FOLDED="true" ID="ID_1949644332" MODIFIED="1573209660718" STYLE="bubble" TEXT="criteria query &#xc2dc;&#xc5d0; EntityManager&#xb97c; &#xbc18;&#xb4dc;&#xc2dc; close &#xd574;&#xc918;&#xc57c; &#xd55c;&#xb2e4;!!">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#ff3333" CREATED="1572584636189" ID="ID_1949644332" MODIFIED="1575387931210" STYLE="bubble" TEXT="criteria query &#xc2dc;&#xc5d0; EntityManager&#xb97c; &#xbc18;&#xb4dc;&#xc2dc; close &#xd574;&#xc918;&#xc57c; &#xd55c;&#xb2e4;!!">
 <font BOLD="true" NAME="Dialog" SIZE="24"/>
 <node CREATED="1572584671485" ID="ID_1823645871" MODIFIED="1572584695309" TEXT="&#xadf8;&#xb807;&#xc9c0; &#xc54a;&#xc73c;&#xba74; JDBC POOL&#xc774; &#xcffc;&#xb9ac; &#xc2dc;&#xb9c8;&#xb2e4; ACTIVE&#xac00; &#xb420;&#xac83;"/>
 <node CREATED="1572584718373" ID="ID_1352557127" MODIFIED="1572584718978" TEXT="&#xcf54;&#xb4dc;">
@@ -3896,20 +3896,71 @@
 <node CREATED="1573453390311" ID="ID_785788957" LINK="https://www.baeldung.com/java-comparator-comparable" MODIFIED="1573453390311" TEXT="https://www.baeldung.com/java-comparator-comparable"/>
 </node>
 <node CREATED="1574957141393" ID="ID_1171558768" MODIFIED="1575188983234" TEXT="queryDsl">
-<node CREATED="1574957155100" ID="ID_1916648376" LINK="https://www.baeldung.com/intro-to-querydsl" MODIFIED="1574957155100" TEXT="https://www.baeldung.com/intro-to-querydsl"/>
-<node CREATED="1575089387093" ID="ID_561330500" MODIFIED="1575089401704" TEXT="&#xc5ec;&#xae30; &#xc124;&#xc815;&#xb418;&#xc5b4; &#xc788;&#xb294;&#xac83;&#xacfc; &#xb2ec;&#xb9ac; &#xcd5c;&#xc2e0;&#xbc84;&#xc83c;&#xc758; &#xba54;&#xc774;&#xbe10; &#xc124;&#xc815; &#xd074;&#xb798;&#xc2a4;&#xb294;">
+<node COLOR="#3333ff" CREATED="1574957155100" ID="ID_1916648376" LINK="https://www.baeldung.com/intro-to-querydsl" MODIFIED="1575378351157" STYLE="bubble" TEXT="https://www.baeldung.com/intro-to-querydsl">
+<font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
+</node>
+<node CREATED="1575089387093" FOLDED="true" ID="ID_561330500" MODIFIED="1575384049169" TEXT="&#xc5ec;&#xae30; &#xc124;&#xc815;&#xb418;&#xc5b4; &#xc788;&#xb294;&#xac83;&#xacfc; &#xb2ec;&#xb9ac; &#xcd5c;&#xc2e0;&#xbc84;&#xc83c;&#xc758; &#xba54;&#xc774;&#xbe10; &#xc124;&#xc815; &#xd074;&#xb798;&#xc2a4;&#xb294;">
 <node CREATED="1575090990681" ID="ID_318876966" MODIFIED="1575090990681" TEXT="com.mysema.query.apt.jpa.JPAAnnotationProcessor"/>
 <node CREATED="1575090991797" ID="ID_1483815192" MODIFIED="1575090993951" TEXT="&#xc744; &#xc368;&#xc57c; &#xd55c;&#xb2e4;."/>
+<node BACKGROUND_COLOR="#ffffff" COLOR="#ff3333" CREATED="1575378118735" ID="ID_775319683" MODIFIED="1575378121921" STYLE="bubble" TEXT="&#xc544;&#xb2c8;&#xb2e4;!!!!!!!!!!!!!!!!!!!">
+<font BOLD="true" NAME="Dialog" SIZE="24"/>
 </node>
-<node CREATED="1575092106952" ID="ID_1110427307" MODIFIED="1575092113859" TEXT="queryDsl Select Example">
+<node CREATED="1575378369918" ID="ID_366579919" LINK="https://mvnrepository.com/artifact/com.querydsl/querydsl-jpa" MODIFIED="1575378369918" TEXT="&lt;!-- https://mvnrepository.com/artifact/com.querydsl/querydsl-jpa --&gt;"/>
+<node CREATED="1575378369920" ID="ID_406229663" MODIFIED="1575378369920" TEXT="&lt;dependency&gt;">
+<node CREATED="1575378369921" MODIFIED="1575378369921" TEXT="&lt;groupId&gt;com.querydsl&lt;/groupId&gt;"/>
+<node CREATED="1575378369922" MODIFIED="1575378369922" TEXT="&lt;artifactId&gt;querydsl-jpa&lt;/artifactId&gt;"/>
+<node CREATED="1575378369922" MODIFIED="1575378369922" TEXT="&lt;version&gt;4.2.2&lt;/version&gt;"/>
+</node>
+<node CREATED="1575378369923" ID="ID_225966412" MODIFIED="1575378369923" TEXT="&lt;/dependency&gt;"/>
+<node CREATED="1575378369924" ID="ID_1315431041" LINK="https://mvnrepository.com/artifact/com.querydsl/querydsl-apt" MODIFIED="1575378369924" TEXT="&lt;!-- https://mvnrepository.com/artifact/com.querydsl/querydsl-apt --&gt;"/>
+<node CREATED="1575378369925" ID="ID_421233543" MODIFIED="1575378369925" TEXT="&lt;dependency&gt;">
+<node CREATED="1575378369925" MODIFIED="1575378369925" TEXT="&lt;groupId&gt;com.querydsl&lt;/groupId&gt;"/>
+<node CREATED="1575378369926" MODIFIED="1575378369926" TEXT="&lt;artifactId&gt;querydsl-apt&lt;/artifactId&gt;"/>
+<node CREATED="1575378369927" MODIFIED="1575378369927" TEXT="&lt;version&gt;4.2.2&lt;/version&gt;"/>
+</node>
+<node CREATED="1575378369927" ID="ID_1337745053" MODIFIED="1575378369927" TEXT="&lt;/dependency&gt;"/>
+<node CREATED="1575378371865" ID="ID_1347370538" MODIFIED="1575378413718" TEXT="&#xba54;&#xc774;&#xbe10;&#xc5d0;&#xc11c; &#xb450;&#xac1c;&#xc758; queryDsl&#xc744; &#xb3cc;&#xb9b4;&#xb54c;&#xc5d0;&#xb294; &#xbc84;&#xc83c;&#xc774; &#xb611;&#xac19;&#xc544;&#xc57c; &#xd568;&#xc744; &#xc78a;&#xc9c0; &#xb9d0;&#xb77c;!!!">
+<node CREATED="1575378536130" MODIFIED="1575378536130" TEXT="&lt;plugin&gt;">
+<node CREATED="1575378536131" MODIFIED="1575378536131" TEXT="&lt;groupId&gt;com.mysema.maven&lt;/groupId&gt;"/>
+<node CREATED="1575378536132" MODIFIED="1575378536132" TEXT="&lt;artifactId&gt;apt-maven-plugin&lt;/artifactId&gt;"/>
+<node CREATED="1575378536132" MODIFIED="1575378536132" TEXT="&lt;version&gt;1.1.3&lt;/version&gt;"/>
+<node CREATED="1575378536133" MODIFIED="1575378536133" TEXT="&lt;executions&gt;">
+<node CREATED="1575378536133" MODIFIED="1575378536133" TEXT="&lt;execution&gt;">
+<node CREATED="1575378536134" MODIFIED="1575378536134" TEXT="&lt;goals&gt;">
+<node CREATED="1575378536135" MODIFIED="1575378536135" TEXT="&lt;goal&gt;process&lt;/goal&gt;"/>
+</node>
+<node CREATED="1575378536135" MODIFIED="1575378536135" TEXT="&lt;/goals&gt;"/>
+<node CREATED="1575378536136" MODIFIED="1575378536136" TEXT="&lt;configuration&gt;">
+<node CREATED="1575378536136" MODIFIED="1575378536136" TEXT="&lt;outputDirectory&gt;target/generated-sources/java&lt;/outputDirectory&gt;"/>
+<node CREATED="1575378536137" MODIFIED="1575378536137" TEXT="&lt;processor&gt;com.querydsl.apt.jpa.JPAAnnotationProcessor&lt;/processor&gt;"/>
+</node>
+<node CREATED="1575378536137" MODIFIED="1575378536137" TEXT="&lt;/configuration&gt;"/>
+</node>
+<node CREATED="1575378536138" MODIFIED="1575378536138" TEXT="&lt;/execution&gt;"/>
+</node>
+<node CREATED="1575378536138" MODIFIED="1575378536138" TEXT="&lt;/executions&gt;"/>
+</node>
+<node CREATED="1575378536138" MODIFIED="1575378536138" TEXT="&lt;/plugin&gt;"/>
+</node>
+<node CREATED="1575378479950" ID="ID_1433820548" MODIFIED="1575378502382" TEXT="&#xadf8;&#xb9ac;&#xace0; com.querydsl.apt.jpa.JPAAnnotationProcessor&#xc744; &#xc4f0;&#xba74; &#xb41c;&#xb2e4;."/>
+<node CREATED="1575378510557" ID="ID_1083810693" LINK="#ID_1916648376" MODIFIED="1575378517877" TEXT="&#xc5ec;&#xae30;&#xc11c; &#xd588;&#xb358;&#xac83;&#xacfc; &#xac19;&#xc774; &#xb9d0;&#xc774;&#xb2e4;."/>
+</node>
+<node CREATED="1575092106952" ID="ID_1110427307" MODIFIED="1575384073226" TEXT="queryDsl Select Example">
 <node CREATED="1575092114348" ID="ID_1630920521" LINK="https://icarus8050.tistory.com/5" MODIFIED="1575092114348" TEXT="https://icarus8050.tistory.com/5"/>
 </node>
-<node CREATED="1575188984245" ID="ID_343002240" MODIFIED="1575189038101" TEXT="queryDsl dynamic query builder">
+<node CREATED="1575188984245" ID="ID_343002240" MODIFIED="1575384072577" TEXT="queryDsl dynamic query builder">
 <node CREATED="1575189044475" ID="ID_1867599425" LINK="https://jojoldu.tistory.com/394" MODIFIED="1575189044475" TEXT="https://jojoldu.tistory.com/394"/>
 </node>
+<node CREATED="1575384077525" ID="ID_1624948452" MODIFIED="1575384080658" TEXT="&#xd398;&#xc774;&#xc9d5; &#xcc98;&#xb9ac; ">
+<node CREATED="1575384055433" ID="ID_403329648" LINK="http://wonwoo.ml/index.php/post/597" MODIFIED="1575384075897" TEXT="wonwoo.ml &gt; Index.php &gt; Post &gt; 597"/>
+</node>
+<node CREATED="1575387940173" ID="ID_1348153064" MODIFIED="1575387958253" TEXT="expressionUtils.as &#xc0ac;&#xc6a9;&#xbc95;">
+<node CREATED="1575387959002" LINK="https://megazonedsg.github.io/QueryDSL/" MODIFIED="1575387959002" TEXT="https://megazonedsg.github.io/QueryDSL/"/>
+<node CREATED="1575387964425" MODIFIED="1575387964425" TEXT="ExpressionUtils.as(JPAExpressions.select(qUser.name.count()).from(qUser).where(qUser.created_at.before(new Date()))"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#ff3333" CREATED="1570220267695" FOLDED="true" ID="ID_432910582" MODIFIED="1572593206070" POSITION="right" STYLE="bubble" TEXT="datasource &#xcee4;&#xc2a4;&#xd140; yml &#xc73c;&#xb85c; &#xc124;&#xc815; &#xc801;&#xc6a9;">
+</node>
+<node BACKGROUND_COLOR="#ffffff" COLOR="#ff3333" CREATED="1570220267695" FOLDED="true" ID="ID_432910582" MODIFIED="1575387933754" POSITION="right" STYLE="bubble" TEXT="datasource &#xcee4;&#xc2a4;&#xd140; yml &#xc73c;&#xb85c; &#xc124;&#xc815; &#xc801;&#xc6a9;">
 <font BOLD="true" NAME="Dialog" SIZE="24"/>
 <node CREATED="1570217513818" ID="ID_179807009" LINK="#ID_1428543512" MODIFIED="1570217526138" TEXT="datasource &#xc798; &#xc548; &#xc801;&#xc6a9;&#xb420; &#xb54c;"/>
 <node CREATED="1570220279808" ID="ID_1723667928" MODIFIED="1570220282579" TEXT="&#xc5ec;&#xae30;&#xc11c; &#xb354; &#xd544;&#xc694;&#xd55c;&#xac8c; &#xc788;&#xb2e4;."/>
@@ -4276,6 +4327,12 @@
 <node CREATED="1574688633536" FOLDED="true" ID="ID_837433763" MODIFIED="1575188978333" POSITION="right" TEXT="&#xc2a4;&#xd504;&#xb9c1;&#xbd80;&#xd2b8; &#xbc30;&#xb108; &#xd504;&#xb85c;&#xadf8;&#xb7a8;">
 <node CREATED="1574865204487" ID="ID_1363890770" LINK="https://beyondj2ee.wordpress.com/2017/03/17/springboot-%EB%B0%B0%EB%84%88-%EB%A7%8C%EB%93%A4%EA%B8%B0/" MODIFIED="1574865205211" TEXT="https://beyondj2ee.wordpress.com/2017/03/17/springboot-%EB%B0%B0%EB%84%88-%EB%A7%8C%EB%93%A4%EA%B8%B0/"/>
 <node CREATED="1574865085804" ID="ID_539869463" LINK="http://patorjk.com/software/taag" MODIFIED="1574865085804" TEXT="patorjk.com &gt; Software &gt; Taag"/>
+</node>
+<node COLOR="#3333ff" CREATED="1575385346435" ID="ID_1894901996" MODIFIED="1575385369658" POSITION="right" STYLE="bubble" TEXT="&#xc774;&#xd074;&#xb9bd;&#xc2a4; &#xc0ac;&#xc6a9;&#xc911;&#xc778; &#xd568;&#xc218;&#xc778;&#xc9c0; &#xc0b4;&#xd3b4;&#xbcf4;&#xae30;">
+<font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
+<node COLOR="#3333ff" CREATED="1575385360139" ID="ID_1563346745" MODIFIED="1575385369655" STYLE="bubble" TEXT="CTRL + ALT + H">
+<font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
+</node>
 </node>
 </node>
 </map>

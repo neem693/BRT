@@ -17,19 +17,22 @@ import javax.persistence.criteria.CriteriaQuery;
 import javax.persistence.criteria.Expression;
 import javax.persistence.criteria.Join;
 import javax.persistence.criteria.JoinType;
+import javax.persistence.criteria.Order;
 import javax.persistence.criteria.Predicate;
 import javax.persistence.criteria.Root;
 
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Component;
 
-import com.fasterxml.jackson.databind.deser.impl.ExternalTypeHandler.Builder;
-import com.mysema.query.BooleanBuilder;
-import com.mysema.query.types.Order;
-import com.mysema.query.types.OrderSpecifier;
-import com.mysema.query.types.Projections;
+import com.querydsl.core.BooleanBuilder;
+import com.querydsl.core.types.ExpressionUtils;
+import com.querydsl.core.types.Projections;
+import com.querydsl.jpa.impl.JPAQuery;
 import com.querydsl.jpa.impl.JPAQueryFactory;
 import com.theComments.brt.constFile.PageConst;
 import com.theComments.brt.constFile.PageConst.PAGE;
@@ -45,8 +48,12 @@ import com.theComments.brt.jpa.theComment.model.Create_art;
 import com.theComments.brt.jpa.theComment.model.Evaluate;
 import com.theComments.brt.jpa.theComment.model.Evaluation_item;
 import com.theComments.brt.jpa.theComment.model.FileSave;
+import com.theComments.brt.jpa.theComment.model.QArtist;
+import com.theComments.brt.jpa.theComment.model.QCreate_art;
 import com.theComments.brt.jpa.theComment.model.QEvaluate;
 import com.theComments.brt.jpa.theComment.model.QEvaluation_item;
+import com.theComments.brt.jpa.theComment.model.QType1;
+import com.theComments.brt.jpa.theComment.model.QType2;
 import com.theComments.brt.jpa.theComment.model.QWorks;
 import com.theComments.brt.jpa.theComment.model.Type1;
 import com.theComments.brt.jpa.theComment.model.Type2;
@@ -512,15 +519,24 @@ public class DynamicQueryDao {
 		return returnData;
 	}
 
-	public void selectEvalItemSearchBasic(Evaluation_itemDto itemDto, Type1Dto type1Dto, Type2Dto type2Dto,
+	public List selectEvalItemSearchBasic(Evaluation_itemDto itemDto, Type1Dto type1Dto, Type2Dto type2Dto,
 			OrderForSearch orderForSearch) {
 		// TODO Auto-generated method stub
+		
+		int page = itemDto.getPageNum() - 1;
+		int size = PageConst.PAGE.PAGE_SIZE;
+		
+		Pageable pageable = PageRequest.of(page, size);
 		
 		EntityManager em = entityManagerFactory.createEntityManager();
 		
 		QEvaluation_item qEval_item = QEvaluation_item.evaluation_item;
 		QEvaluate qEval = QEvaluate.evaluate;
 		QWorks qWorks = QWorks.works;
+		QCreate_art qCreate_art = QCreate_art.create_art;
+		QArtist qArtist = QArtist.artist;
+		QType2 qType2 = QType2.type2;
+		QType1 qType1 = QType1.type1;
 		
 		JPAQueryFactory queryFactory = new JPAQueryFactory(em);
 		
@@ -529,18 +545,19 @@ public class DynamicQueryDao {
 		
 		if(itemDto.getSearchText().isEmpty() == false) {
 			
+			String searchWords = "%" + itemDto.getSearchText() + "%";
+			
 			//comment
 			if(orderForSearch.getOrder3() == 0) {
 				
-				booleanBuilder.and(qEval_item.ev_text1.eq(itemDto.getSearchText())
-								.or(qEval_item.ev_text2.eq(itemDto.getEv_text2())));
+				booleanBuilder.and(qEval_item.ev_text1.like(searchWords)
+								.or(qEval_item.ev_text2.like(searchWords)));
 					
 			}else if(orderForSearch.getOrder3() == 1) {
 			
-				booleanBuilder.and(qEval_item.subjectMatter.eq(itemDto.getSearchText()));
+				booleanBuilder.and(qEval_item.subjectMatter.like(searchWords));
 				
 			}
-			
 		}
 		
 		if(orderForSearch.getOrder2() == 0) {
@@ -565,13 +582,48 @@ public class DynamicQueryDao {
 			}
 		}
 		
+		List<Evaluation_itemDto> list = null;
+		Integer listCount = null;
 		
+			list = 
+			queryFactory.select(Projections.fields(
+				Evaluation_itemDto.class,
+				qEval_item.donation,
+				qEval_item.ev_text1,
+				qEval_item.ev_text2,
+				qEval_item.ev_value,
+				qEval_item.eval_item_id,
+				qEval_item.subjectMatter,
+//				qEval_item.evaluate,
+				qWorks.subject,
+				qWorks.create_date,
+				qWorks.create_end_date2,
+//				qArtist.art_name,
+//				ExpressionUtils.as(source, alias)
+				qType2.type2_name,
+				qType1.type1_name
+				))
+		.from(qEval_item).join(qEval)
+		.on(qEval_item.eval_item_id
+				.eq(qEval.evaluation_item.eval_item_id))
+		.join(qWorks)
+		.on(qEval.works.work_id.eq(qWorks.work_id))
+		.join(qCreate_art)
+		.on(qCreate_art.works.work_id.eq(qWorks.work_id))
+		.join(qArtist)
+		.on(qArtist.artist_id.eq(qCreate_art.artist.artist_id))
+		.join(qType2)
+		.on(qWorks.type2.type2_id.eq(qType2.type2_id))
+		.join(qType1)
+		.on(qType2.type1.type1_id.eq(qType1.type1_id))
+		.where(booleanBuilder)
+		.offset(pageable.getOffset())
+		.limit(pageable.getPageSize())
+		.fetch();
 		
+		em.close();
 		
-		
-		
-		
-		
+		return list;
 		
 	}
 

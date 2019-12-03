@@ -1,5 +1,6 @@
 package com.theComments.brt.jpa.dto;
 
+import java.time.LocalDateTime;
 import java.util.List;
 
 import lombok.Getter;
@@ -21,6 +22,17 @@ public class Evaluation_itemDto extends Page{
 	Integer black;
 	Integer blue;
 	Integer gray;
+	
+	//dynamicQuery용
+	String subject;
+	LocalDateTime create_date;
+	LocalDateTime create_end_date2;
+	
+	String art_name;
+	String type2_name;
+	String type1_name;
+	
+	
 	
 	public Evaluation_itemDto(String subjectMatter, Integer yellow, Integer black, Integer blue, Integer gray) {
 		super();

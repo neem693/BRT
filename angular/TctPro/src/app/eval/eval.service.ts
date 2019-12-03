@@ -27,7 +27,7 @@ export class EvalService {
 
 
   evalSearch(param: any) {
-    return this.http.get(environment.baseApiUrl + '/eval/evalSearch',{params:param});
+    return this.http.get(environment.baseApiUrl + '/evalPublic/evalSearch',{params:param});
   }
 
 
