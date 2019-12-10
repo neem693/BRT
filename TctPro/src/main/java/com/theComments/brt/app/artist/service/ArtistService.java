@@ -25,6 +25,7 @@ import com.theComments.brt.jpa.dto.SimpleUserDto;
 import com.theComments.brt.jpa.dto.Type1Dto;
 import com.theComments.brt.jpa.dto.Type2Dto;
 import com.theComments.brt.jpa.dto.WorksDto;
+import com.theComments.brt.jpa.theComment.dao.ArtistDynamicQueryDao;
 import com.theComments.brt.jpa.theComment.dao.ArtistSave_dao;
 import com.theComments.brt.jpa.theComment.dao.Artist_dao;
 import com.theComments.brt.jpa.theComment.dao.Create_art_dao;
@@ -58,7 +59,7 @@ public class ArtistService {
 	Create_art_dao createArtDao;
 	
 	@Autowired
-	DynamicQueryDao dynamicQueryDao;
+	ArtistDynamicQueryDao artistDynamicQueryDao;
 
 	@Autowired
 	HttpServletRequest request;
@@ -249,7 +250,7 @@ public class ArtistService {
 		orderForSearch.setOrder(order);
 		orderForSearch.setOrder2(order2);
 		
-		Map<String,Object> returnData = dynamicQueryDao.searchArtistDynamic(artistDto,type1Dto,type2Dto,orderForSearch);
+		Map<String,Object> returnData = artistDynamicQueryDao.searchArtistDynamic(artistDto,type1Dto,type2Dto,orderForSearch);
 		
 		ResultMap result = new ResultMap();
 		result.setData(returnData.get("data"));

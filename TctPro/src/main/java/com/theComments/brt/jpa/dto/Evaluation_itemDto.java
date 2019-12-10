@@ -32,6 +32,9 @@ public class Evaluation_itemDto extends Page{
 	String type2_name;
 	String type1_name;
 	
+	//querydsl 용
+	String art_name_List;
+	
 	
 	
 	public Evaluation_itemDto(String subjectMatter, Integer yellow, Integer black, Integer blue, Integer gray) {

@@ -9,7 +9,13 @@ import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 
+import lombok.Setter;
+
+import lombok.Getter;
+
 @Entity
+@Getter
+@Setter
 public class Evaluate {
 	
 	@Id
@@ -31,47 +37,6 @@ public class Evaluate {
 	////더 많은 조인 컬럼들
 
 	LocalDateTime eval_date;
-
-	public Long getEval_id() {
-		return eval_id;
-	}
-
-	public void setEval_id(Long eval_id) {
-		this.eval_id = eval_id;
-	}
-
-	public Eva_user getEva_user() {
-		return eva_user;
-	}
-
-	public void setEva_user(Eva_user eva_user) {
-		this.eva_user = eva_user;
-	}
-
-	public Evaluation_item getEvaluation_item() {
-		return evaluation_item;
-	}
-
-	public void setEvaluation_item(Evaluation_item evaluation_item) {
-		this.evaluation_item = evaluation_item;
-	}
-
-	public Works getWorks() {
-		return works;
-	}
-
-	public void setWorks(Works works) {
-		this.works = works;
-	}
-
-	public LocalDateTime getEval_date() {
-		return eval_date;
-	}
-
-	public void setEval_date(LocalDateTime eval_date) {
-		this.eval_date = eval_date;
-	}
-
 	
 	
 	

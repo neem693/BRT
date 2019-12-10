@@ -42,6 +42,7 @@ import com.theComments.brt.jpa.theComment.dao.DynamicQueryDao;
 import com.theComments.brt.jpa.theComment.dao.Eva_user_dao;
 import com.theComments.brt.jpa.theComment.dao.FileSave_dao;
 import com.theComments.brt.jpa.theComment.dao.Type2_dao;
+import com.theComments.brt.jpa.theComment.dao.WorksDynamicQueryDao;
 import com.theComments.brt.jpa.theComment.dao.WorksSave_dao;
 import com.theComments.brt.jpa.theComment.dao.Works_dao;
 import com.theComments.brt.jpa.theComment.model.Artist;
@@ -79,7 +80,7 @@ public class WorksService {
 	Create_art_dao createArtDao;
 	
 	@Autowired
-	DynamicQueryDao dynamicQueryDao;
+	WorksDynamicQueryDao worksDynamicQueryDao;
 	
 	@Autowired
 	FileSave_dao fileSaveDao;
@@ -293,7 +294,7 @@ public class WorksService {
 		if(type1Dto.getType1_id() == 0) {
 			return this.selectWorks(worksDto);
 		}else {
-			return dynamicQueryDao.SelectWorksDynamic(worksDto, type2Dto, type1Dto);
+			return worksDynamicQueryDao.SelectWorksDynamic(worksDto, type2Dto, type1Dto);
 		}
 	}
 
@@ -338,7 +339,7 @@ public class WorksService {
 		orderForSearch.setOrder(order);
 		orderForSearch.setOrder2(order2);
 		
-		List<WorksDto> works = dynamicQueryDao.searchWorksDynamic(worksDto,type1Dto,type2Dto,orderForSearch);
+		List<WorksDto> works = worksDynamicQueryDao.searchWorksDynamic(worksDto,type1Dto,type2Dto,orderForSearch);
 		
 		ResultMap result = new ResultMap();
 		result.setData(works);

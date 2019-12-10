@@ -32,6 +32,7 @@ import com.theComments.brt.jpa.dto.Type2Dto;
 import com.theComments.brt.jpa.dto.WorksDto;
 import com.theComments.brt.jpa.theComment.dao.DynamicQueryDao;
 import com.theComments.brt.jpa.theComment.dao.Eva_user_dao;
+import com.theComments.brt.jpa.theComment.dao.EvalDynamicQueryDao;
 import com.theComments.brt.jpa.theComment.dao.Evaluate_dao;
 import com.theComments.brt.jpa.theComment.dao.Evaluation_item_dao;
 import com.theComments.brt.jpa.theComment.dao.Works_dao;
@@ -62,7 +63,7 @@ public class EvalService {
 	HttpServletRequest request;
 	
 	@Autowired
-	DynamicQueryDao dynamicQueryDao;
+	EvalDynamicQueryDao evalDynamicQueryDao;
 
 	/**
 	 * 
@@ -124,7 +125,7 @@ public class EvalService {
 		int size = PageConst.PAGE.PAGE_SIZE;
 		
 		//just List<Evaluation_itemDto> in resultMap data and totalSize
-		ResultMap result = dynamicQueryDao.selectMatter(dto.getWork_id(),page,size);
+		ResultMap result = evalDynamicQueryDao.selectMatter(dto.getWork_id(),page,size);
 		
 //		Page<Evaluation_itemDto> matter_list = this.eval_item_dao.selectMatterListByWorkId(dto.getWork_id(),pageable);
 		
@@ -245,7 +246,7 @@ public class EvalService {
 		orderForSearch.setOrder2(order2);
 		orderForSearch.setOrder3(order3);
 		
-		dynamicQueryDao.selectEvalItemSearchBasic(itemDto,type1Dto,type2Dto,orderForSearch);
+		evalDynamicQueryDao.selectEvalItemSearchBasic(itemDto,type1Dto,type2Dto,orderForSearch);
 		
 		
 		return null;
