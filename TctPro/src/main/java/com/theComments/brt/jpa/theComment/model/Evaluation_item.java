@@ -35,7 +35,9 @@ import lombok.Setter;
 					name="eval_works",
 					attributeNodes = {
 					@NamedAttributeNode(value = "type2", subgraph = "type2_type1"),
-					@NamedAttributeNode(value = "create", subgraph = "create_artist")
+					@NamedAttributeNode(value = "create", subgraph = "create_artist"),
+					@NamedAttributeNode("fileSave"),
+					
 			}),
 			@NamedSubgraph(
 					name="create_artist",

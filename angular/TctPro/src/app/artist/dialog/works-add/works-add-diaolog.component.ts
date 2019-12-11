@@ -1,6 +1,8 @@
 import { Component, OnInit, Inject } from '@angular/core';
 import { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material';
 import { WorksSerivceService } from 'src/app/works/works-serivce.service';
+import { RESULT } from 'src/const/publicConst';
+import { environment } from 'src/environments/environment';
 
 declare const $: any;
 
@@ -34,6 +36,7 @@ export class WorksAddComponent implements OnInit {
     searchText: "",
     pageNum: 1,
   }
+  
 
   works_list = [
     // {artist_id:1, name:'Get to work'} ,
@@ -57,6 +60,96 @@ export class WorksAddComponent implements OnInit {
   added_works_list = [
    
   ]
+
+   /**
+   * detail target
+   * picIntdex: target of detail picture of work index
+   * loading: loading detail
+   * 0: loading complete
+   * 1: loading doing~~
+   * 
+   */
+  detail = {
+    picIndex: 0,
+    detailLoad: 0,
+
+  }
+
+     /**
+   * selected detail target
+   * picIntdex: target of detail picture of work index
+   * loading: loading detail
+   * 0: loading complete
+   * 1: loading doing~~
+   * 
+   */
+  selDetail = {
+    picIndex: 0,
+    detailLoad: 0,
+
+  }
+
+    /**
+   * loading type of some
+   * ##search : search loading
+   * ##searchItemOrder: loading of item order in searchs
+   * ##detail : at least one load of detail
+   * 0: detail not load
+   * 1: at least one load
+   * ##selDetail : at least one load of selected detail
+   * 0: selDetail not load
+   * 1: at least one selDetail load
+   * ##firstLoading: first loading for typeList loading
+   * 0: is not loading
+   * 1: is loading
+   */
+  loading = {
+    type: 0,
+    search: 0,
+    searchItemOrder: 0,
+    detail: 0,
+    selDetail:0,
+    firstLoading: 0,
+  }
+
+  page = {
+    matter: {
+      totalSize: 0,
+      pageNum: 1,
+      pageSize: 10
+    },
+    selMatter : {
+      totalSize: 0,
+      pageNum: 1,
+      pageSize: 10,
+    }
+  }
+
+  /**
+   * targetWork
+   * of 
+   * Detail
+   */
+  targetWork = {
+    work: {},
+    matter: {},
+    matterSize: 0,
+  };
+
+   /**
+   * targetWork
+   * of 
+   * selected Detail
+   */
+  selTargetWork = {
+    work: {},
+    matter: {},
+    matterSize: 0,
+  };
+
+  dir = {
+    image: environment.imageBaseUrl
+  }
 
   ngOnInit() {
     this.added_works_list = Object.assign([],this.data.list);
@@ -126,6 +219,9 @@ export class WorksAddComponent implements OnInit {
     this.works.step.sel_list = index;
     // console.log(this.artist.step.list);
     // console.log(index);
+
+    let work_id = this.added_works_list[index].work_id;
+    this.searchSelWorksDetail(work_id);
   }
 
   removeSelArtist(index: number) {
@@ -164,6 +260,9 @@ export class WorksAddComponent implements OnInit {
       });
     }, 200);
 
+     let work_id = this.works_list[index].work_id;
+     this.searchWorksDetail(work_id);
+
   }
 
   selectWorkList(page: number) {
@@ -199,6 +298,99 @@ export class WorksAddComponent implements OnInit {
 
 
   }
+
+
+  searchWorksDetail(workId: any) {
+
+    //detail picture index reset
+    this.detail.picIndex = 0;
+
+    this.loading.detail = 1;
+    $(".work_detail_outer").removeClass("active");
+    this.workService.worksSearchDetail({ 'work_id': workId, 'pageNum': this.page.matter.pageNum }).subscribe(x => {
+      let result = x[RESULT.RESULT_KEY];
+      let data = null
+      if (result == 200) {
+        data = x[RESULT.DATA_KEY];
+      }
+      this.targetWork.work = data['work'];
+      this.targetWork.matter = data['matter'];
+      this.targetWork.matterSize = data['matterSize'];
+      this.page.matter.totalSize = this.targetWork.matterSize;
+      console.log(this.page.matter.totalSize);
+      this.detail.detailLoad = 1;
+      this.loading.detail = 0;
+      // console.log(this.targetWork);
+
+      //animation css
+      setTimeout(()=>{
+        $(".work_detail_outer").addClass("active");
+      },600);
+
+
+    }, error => {
+      this.loading.detail = 0;
+    })
+
+  }
+
+  //already selected work
+  searchSelWorksDetail(workId: any) {
+
+    //detail picture index reset
+    this.selDetail.picIndex = 0;
+
+    this.loading.selDetail = 1;
+    $(".work_detail_outer").removeClass("active");
+    this.workService.worksSearchDetail({ 'work_id': workId, 'pageNum': this.page.matter.pageNum }).subscribe(x => {
+      let result = x[RESULT.RESULT_KEY];
+      let data = null
+      if (result == 200) {
+        data = x[RESULT.DATA_KEY];
+      }
+      this.selTargetWork.work = data['work'];
+      this.selTargetWork.matter = data['matter'];
+      this.selTargetWork.matterSize = data['matterSize'];
+      this.page.selMatter.totalSize = this.selTargetWork.matterSize;
+      this.selDetail.detailLoad = 1;
+      this.loading.selDetail = 0;
+      // console.log(this.targetWork);
+
+      //animation css
+      setTimeout(()=>{
+        $(".work_detail_outer").addClass("active");
+      },600);
+
+
+    }, error => {
+      this.loading.selDetail = 0;
+    })
+
+  }
+
+  changeDetailPicIndex(index: number) {
+    this.detail.picIndex = index;
+  }
+
+  selChangeDetailPicIndex(index: number) {
+    this.selDetail.picIndex = index;
+  }
+
+    /**
+   * when use the dynamic query for small screen, detail edge show the icon fold the detail view
+   */
+  toggleFold() {
+
+    $("#detail_outer").toggleClass("fold");
+
+  }
+
+  selToggleFold(){
+
+    $("#sel_detail_outer").toggleClass("fold");
+
+  }
+
 
 
 

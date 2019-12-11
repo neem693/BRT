@@ -21,16 +21,79 @@
                     </mat-panel-description>
                 </mat-expansion-panel-header>
                 <!-- <span id = "w_{{i}}"></span> -->
-                <mat-form-field>
-                    <input matInput placeholder="First name">
-                </mat-form-field>
 
-                <mat-form-field>
-                    <input matInput placeholder="Age">
-                </mat-form-field>
+
+
+                
+                <mat-spinner class="loading_spin spin1 detail" *ngIf="loading.detail == 1"></mat-spinner>
+    <div id="detail_outer" *ngIf="detail.detailLoad == 1" class="work_detail_outer">
+        <mat-icon class="reply" (click)="toggleFold()">reply</mat-icon>
+        <div class="work_detail">
+            <div class="img">
+                <img *ngIf="targetWork.work.fileSaveDto.length == 0" src="/assets/noImage/not-available.jpg">
+                <img *ngIf="targetWork.work.fileSaveDto.length >0"
+                    [src]="dir.image + targetWork.work.fileSaveDto[detail.picIndex].file_path +'/' + targetWork.work.fileSaveDto[detail.picIndex].save_file_name">
+
+            </div>
+            <div class="small_img" *ngIf="targetWork.work.fileSaveDto != undefined">
+                <div (click)="changeDetailPicIndex(i)" [ngClass]="{'active':i == detail.picIndex}"
+                    *ngFor="let item of targetWork.work.fileSaveDto;let i = index;">
+                    <img [src]="dir.image + item.file_path +'/' + item.save_file_name">
+                </div>
+            </div>
+            <div class="type_info_03">
+                <span class="type1_info_03">{{targetWork.work.type2.type1Dto.type1_name}}</span>
+                <span class="type2_info_03">{{targetWork.work.type2.type2_name}}</span>
+            </div>
+            <div class="subject_name_03">
+                <span>{{targetWork.work.subject}}</span>
+            </div>
+            <div *ngIf="targetWork.work.artistDtoList.length !=0" class="artist_name_pre">By</div>
+            <div class="artist_name_03 list">
+                <div *ngIf="targetWork.work.artistDtoList.length ==0" class="artist_none">저작자 없음</div>
+                <div *ngFor="let item of targetWork.work.artistDtoList; let i = index;">{{item.art_name}}</div>
+            </div>
+            <div class="create_date_03">
+                <span>{{targetWork.work.create_date | date:'yyyy-MM-dd'}}</span>
+            </div>
+            <div class="attr">
+                <span *ngIf="targetWork.work.is_series == 1">SERISE</span>
+            </div>
+            <div class="matter_list">
+                <div *ngFor="let item of targetWork.matter" class="matter">
+                    <span class="matter_name">{{item.subjectMatter}}</span>
+                    <span class="point yellow" *ngIf="item.yellow != 0">
+                        <mat-icon>fiber_manual_record</mat-icon>{{item.yellow}}
+                    </span>
+                    <span class="point blue" *ngIf="item.blue != 0">
+                        <mat-icon>fiber_manual_record</mat-icon>{{item.blue}}
+                    </span>
+                    <span class="point gray" *ngIf="item.gray != 0">
+                        <mat-icon>fiber_manual_record</mat-icon>{{item.gray}}
+                    </span>
+                    <span class="point black" *ngIf="item.black != 0">
+                        <mat-icon>fiber_manual_record</mat-icon>{{item.black}}
+                    </span>
+                </div>
+
+            </div>
+            <div *ngIf="page.matter.totalSize > 0" class="pagination_class">
+                <ngb-pagination [collectionSize]="page.matter.totalSize" [pageSize]="page.matter.pageSize"
+                    [(page)]="page.matter.pageNum" aria-label="Default pagination"
+                    (pageChange)="searchWorksDetail(targetWork.work.work_id)">
+                </ngb-pagination>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
                 <mat-action-row>
                     <button *ngIf="works.checkBox.list[i] == undefined || works.checkBox.list[i] == false" mat-button
-                        (click)="addWorks(i)">저작자로 추가</button>
+                        (click)="addWorks(i)">저작물로 추가</button>
                     <!-- <button *ngIf="works.checkBox.list[i] == true" mat-button (click)="removeArtist(i)">제거</button> -->
                 </mat-action-row>
             </mat-expansion-panel>
@@ -58,13 +121,72 @@
                     </mat-panel-description>
                 </mat-expansion-panel-header>
                 <span id="s_{{i}}"></span>
-                <mat-form-field>
-                    <input matInput placeholder="First name">
-                </mat-form-field>
 
-                <mat-form-field>
-                    <input matInput placeholder="Age">
-                </mat-form-field>
+
+
+    <mat-spinner class="loading_spin spin1 detail" *ngIf="loading.selDetail == 1"></mat-spinner>
+    <div id="sel_detail_outer" *ngIf="selDetail.detailLoad == 1" class="work_detail_outer">
+        <mat-icon class="reply" (click)="selToggleFold()">reply</mat-icon>
+        <div class="work_detail">
+            <div class="img">
+                <img *ngIf="selTargetWork.work.fileSaveDto.length == 0" src="/assets/noImage/not-available.jpg">
+                <img *ngIf="selTargetWork.work.fileSaveDto.length >0"
+                    [src]="dir.image + selTargetWork.work.fileSaveDto[selDetail.picIndex].file_path +'/' + selTargetWork.work.fileSaveDto[selDetail.picIndex].save_file_name">
+
+            </div>
+            <div class="small_img" *ngIf="selTargetWork.work.fileSaveDto != undefined">
+                <div (click)="selChangeDetailPicIndex(i)" [ngClass]="{'active':i == selDetail.picIndex}"
+                    *ngFor="let item of selTargetWork.work.fileSaveDto;let i = index;">
+                    <img [src]="dir.image + item.file_path +'/' + item.save_file_name">
+                </div>
+            </div>
+            <div class="type_info_03">
+                <span class="type1_info_03">{{selTargetWork.work.type2.type1Dto.type1_name}}</span>
+                <span class="type2_info_03">{{selTargetWork.work.type2.type2_name}}</span>
+            </div>
+            <div class="subject_name_03">
+                <span>{{targetWork.work.subject}}</span>
+            </div>
+            <div *ngIf="selTargetWork.work.artistDtoList.length !=0" class="artist_name_pre">By</div>
+            <div class="artist_name_03 list">
+                <div *ngIf="selTargetWork.work.artistDtoList.length ==0" class="artist_none">저작자 없음</div>
+                <div *ngFor="let item of selTargetWork.work.artistDtoList; let i = index;">{{item.art_name}}</div>
+            </div>
+            <div class="create_date_03">
+                <span>{{selTargetWork.work.create_date | date:'yyyy-MM-dd'}}</span>
+            </div>
+            <div class="attr">
+                <span *ngIf="selTargetWork.work.is_series == 1">SERISE</span>
+            </div>
+            <div class="matter_list">
+                <div *ngFor="let item of selTargetWork.matter" class="matter">
+                    <span class="matter_name">{{item.subjectMatter}}</span>
+                    <span class="point yellow" *ngIf="item.yellow != 0">
+                        <mat-icon>fiber_manual_record</mat-icon>{{item.yellow}}
+                    </span>
+                    <span class="point blue" *ngIf="item.blue != 0">
+                        <mat-icon>fiber_manual_record</mat-icon>{{item.blue}}
+                    </span>
+                    <span class="point gray" *ngIf="item.gray != 0">
+                        <mat-icon>fiber_manual_record</mat-icon>{{item.gray}}
+                    </span>
+                    <span class="point black" *ngIf="item.black != 0">
+                        <mat-icon>fiber_manual_record</mat-icon>{{item.black}}
+                    </span>
+                </div>
+
+            </div>
+            <div *ngIf="page.selMatter.totalSize > 0" class="pagination_class">
+                <ngb-pagination [collectionSize]="page.selMatter.totalSize" [pageSize]="page.selMatter.pageSize"
+                    [(page)]="page.selMatter.pageNum" aria-label="Default pagination"
+                    (pageChange)="searchSelWorksDetail(selTargetWork.work.work_id)">
+                </ngb-pagination>
+            </div>
+        </div>
+    </div>
+
+
+
                 <mat-action-row>
                     <button mat-button (click)="removeSelArtist(i)">제거</button>
                 </mat-action-row>

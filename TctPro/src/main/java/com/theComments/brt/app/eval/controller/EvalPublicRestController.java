@@ -26,7 +26,7 @@ public class EvalPublicRestController {
 		
 		ResultMap result = evalService.evalSerach(param);
 		
-		return null;
+		return result.getResultMap();
 		
 	}
 

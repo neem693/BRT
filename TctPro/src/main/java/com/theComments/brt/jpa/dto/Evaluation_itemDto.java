@@ -17,7 +17,7 @@ public class Evaluation_itemDto extends Page{
 	String ev_text2;
 	Integer ev_value;
 	String donation;
-	List<EvaluateDto> evaluate;
+	List<EvaluateDto> evaluateDto;
 	Integer yellow;
 	Integer black;
 	Integer blue;
@@ -32,8 +32,8 @@ public class Evaluation_itemDto extends Page{
 	String type2_name;
 	String type1_name;
 	
-	//querydsl 용
-	String art_name_List;
+	//target works
+	WorksDto work;
 	
 	
 	

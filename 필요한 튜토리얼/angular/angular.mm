@@ -102,7 +102,7 @@
 <node CREATED="1563894476943" FOLDED="true" ID="ID_543289386" MODIFIED="1575183880735" POSITION="right" TEXT="&#xac4d; &#xc774;&#xba54;&#xc77c;&#xc740; &#xadf8;&#xb0e5; &#xc774;&#xac70; &#xc368;&#xb77c;">
 <node CREATED="1563894578067" ID="ID_35178321" LINK="mailto:()\[\]\\.,;:\s@&quot;]+(\.[^" MODIFIED="1563895327656" TEXT="regexp = new RegExp( &#x9;&#xa;/^(([^&lt;&gt;()\[\]\\.,;:\s@&quot;]+(\.[^&lt;&gt;()\[\]\\.,;:\s@&quot;]+)*)|(&quot;.+&quot;))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;"/>
 </node>
-<node COLOR="#3333ff" CREATED="1563896414568" FOLDED="true" ID="ID_391363340" MODIFIED="1575183880735" POSITION="right" STYLE="bubble" TEXT="vscode &#xcf54;&#xb4dc; &#xc815;&#xb82c;">
+<node COLOR="#3333ff" CREATED="1563896414568" ID="ID_391363340" MODIFIED="1576031147848" POSITION="right" STYLE="bubble" TEXT="vscode &#xcf54;&#xb4dc; &#xc815;&#xb82c;">
 <font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
 <node COLOR="#3333ff" CREATED="1563896419795" ID="ID_1497481914" MODIFIED="1568448134398" STYLE="bubble" TEXT="ctrl +k, ctrl + f">
 <font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
@@ -112,7 +112,7 @@
 </node>
 <node CREATED="1570554746640" ID="ID_447236691" LINK="https://stackoverflow.com/questions/37739375/visual-studio-code-css-indentation-and-formatting" MODIFIED="1570554746640" TEXT="https://stackoverflow.com/questions/37739375/visual-studio-code-css-indentation-and-formatting"/>
 </node>
-<node COLOR="#3333ff" CREATED="1571175807839" FOLDED="true" ID="ID_1598325439" MODIFIED="1575183880736" POSITION="right" STYLE="bubble" TEXT="vscode &#xb77c;&#xc778; &#xc9c0;&#xc6b0;&#xae30;">
+<node COLOR="#3333ff" CREATED="1571175807839" ID="ID_1598325439" MODIFIED="1576031149470" POSITION="right" STYLE="bubble" TEXT="vscode &#xb77c;&#xc778; &#xc9c0;&#xc6b0;&#xae30;">
 <font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
 <node COLOR="#3333ff" CREATED="1571175812374" ID="ID_894401530" MODIFIED="1571175818057" STYLE="bubble" TEXT="CTRL + SHIFT + K">
 <font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
@@ -550,7 +550,7 @@
 <node CREATED="1570478049991" LINK="https://google.github.io/material-design-icons/" MODIFIED="1570478049991" TEXT="https://google.github.io/material-design-icons/"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#ff3333" CREATED="1570481463185" ID="ID_1592856275" MODIFIED="1575183934196" POSITION="right" STYLE="bubble" TEXT="&#xd398;&#xc774;&#xc9c0; &#xb118;&#xae30;&#xae30;">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#ff3333" CREATED="1570481463185" FOLDED="true" ID="ID_1592856275" MODIFIED="1576031145493" POSITION="right" STYLE="bubble" TEXT="&#xd398;&#xc774;&#xc9c0; &#xb118;&#xae30;&#xae30;">
 <font BOLD="true" NAME="Dialog" SIZE="24"/>
 <node CREATED="1570481465245" ID="ID_779952897" MODIFIED="1570481465245" TEXT="routerLink"/>
 <node BACKGROUND_COLOR="#ffff00" CREATED="1575183944711" ID="ID_537337107" MODIFIED="1575183963861" TEXT="&#xb77c;&#xc6b0;&#xd130; &#xb9c1;&#xd06c;">
@@ -1150,13 +1150,13 @@
 <font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
 <node CREATED="1572044993449" ID="ID_36841090" LINK="https://stackoverflow.com/questions/45470575/angular-4-httpclient-query-parameters" MODIFIED="1572047651209" TEXT="https://stackoverflow.com/questions/45470575/angular-4-httpclient-query-parameters"/>
 </node>
-<node COLOR="#3333ff" CREATED="1572047644732" FOLDED="true" ID="ID_765391266" MODIFIED="1575183880742" POSITION="right" STYLE="bubble" TEXT="ngClass">
+<node COLOR="#3333ff" CREATED="1572047644732" ID="ID_765391266" MODIFIED="1576037142391" POSITION="right" STYLE="bubble" TEXT="ngClass">
 <font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
 <node CREATED="1572047648254" ID="ID_144962375" LINK="https://angular.io/api/common/NgClass" MODIFIED="1572047650198" TEXT="https://angular.io/api/common/NgClass"/>
 <node CREATED="1572049325070" ID="ID_404444201" MODIFIED="1572049327243" TEXT="&#xcf54;&#xb4dc; &#xc608;&#xc2dc;">
 <node CREATED="1572049327529" MODIFIED="1572049327529" TEXT="&lt;some-element [ngClass]=&quot;&apos;first second&apos;&quot;&gt;...&lt;/some-element&gt;"/>
 <node CREATED="1572049327532" MODIFIED="1572049327532" TEXT="&lt;some-element [ngClass]=&quot;[&apos;first&apos;, &apos;second&apos;]&quot;&gt;...&lt;/some-element&gt;"/>
-<node CREATED="1572049327533" MODIFIED="1572049327533" TEXT="&lt;some-element [ngClass]=&quot;{&apos;first&apos;: true, &apos;second&apos;: true, &apos;third&apos;: false}&quot;&gt;...&lt;/some-element&gt;"/>
+<node CREATED="1572049327533" ID="ID_592845788" MODIFIED="1572049327533" TEXT="&lt;some-element [ngClass]=&quot;{&apos;first&apos;: true, &apos;second&apos;: true, &apos;third&apos;: false}&quot;&gt;...&lt;/some-element&gt;"/>
 <node CREATED="1572049327534" MODIFIED="1572049327534" TEXT="&lt;some-element [ngClass]=&quot;stringExp|arrayExp|objExp&quot;&gt;...&lt;/some-element&gt;"/>
 <node CREATED="1572049327535" MODIFIED="1572049327535" TEXT="&lt;some-element [ngClass]=&quot;{&apos;class1 class2 class3&apos; : true}&quot;&gt;...&lt;/some-element&gt;"/>
 </node>

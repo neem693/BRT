@@ -4,6 +4,9 @@ import { FormControl, Validators } from '@angular/forms';
 import { WorksSerivceService } from 'src/app/works/works-serivce.service';
 import { ActivatedRoute, Router } from '@angular/router';
 import { EvalService } from '../eval.service';
+import { RESULT } from 'src/const/publicConst';
+
+declare const $:any;
 
 @Component({
   selector: 'app-eval-serach',
@@ -54,6 +57,19 @@ export class EvalSerachComponent implements OnInit {
     wordSearchDialogue:"Search the Evaluation Comment Words",
   }
 
+  evalData = {
+    list : [],
+    
+  }
+
+  page = {
+    evalData: {
+      totalSize: 0,
+      pageNum: 1,
+      pageSize: 10,
+    },
+  }
+
   private swiperType1: SwiperComponent;
   private swiperType2: SwiperComponent;
 
@@ -76,13 +92,34 @@ export class EvalSerachComponent implements OnInit {
     this.getAllType();
 
     this.route.queryParams.subscribe(x=>{
-
       if(this.loading.firstLoading == 0){
-        
+        for(let key in x){
+
+          if(key == "searchText"){
+            this.search.searchText.setValue(x[key]);
+            continue;
+          }
+    
+          this.search[key] = Number(x[key]);
+    
+        }
+        if(this.search.order3 == 0){
+      
+          this.show.wordSearchStr = "코멘트"
+          this.show.wordSearchDialogue = "Search the Evaluation Comment Words";
+    
+        }else if(this.search.order3 == 1){
+    
+          this.show.wordSearchStr = "소재";
+          this.show.wordSearchDialogue = "Search the Evaluation SubjectMatter Words"
+    
+        }
       }
 
       if(this.router.url.indexOf("?") == -1){
         this.evalSearchNativeUrl(1);
+        
+        
       }else{
         this.evalSearch(x);
       }
@@ -208,23 +245,71 @@ export class EvalSerachComponent implements OnInit {
   }
 
   evalSearch(param:any){
+
+    this.loading.search = 1;
+
     this.evalService.evalSearch(param).subscribe(x=>{
+        this.loading.search  = 0;
+        let status = x[RESULT.RESULT_KEY];
+        let data = x[RESULT.DATA_KEY];
+        
+        if(status == 200){
+
+          this.evalData.list = data;
+          this.page.evalData.totalSize = x[RESULT.TOTALSIZE_KEY];
+
+          for(var i =0; i<this.evalData.list.length; i++){
+            let eval_item_data = this.evalData.list[i];
+            if(eval_item_data['ev_value'] >= 1 && eval_item_data['ev_value'] <= 3)
+            {
+              eval_item_data['ev_value_class_name'] = 'gray';
+            }else if(eval_item_data['ev_value'] >= 4 && eval_item_data['ev_value'] <= 5){
+              eval_item_data['ev_value_class_name'] = 'blue';
+            }else if(eval_item_data['ev_value'] >= 6 && eval_item_data['ev_value'] <= 7){
+              eval_item_data['ev_value_class_name'] = 'yellow';
+            }
+            
+            this.evalData.list[i] = eval_item_data;
+
+         
+            this.evalShow(i);
       
+            
+          }
+
+        }
+
+    },error=>{
+      console.log(error);
+      this.loading.search = 0;
     })
   }
 
   order3Change(event: any,order3:number){
-    if(order3 == 1){
+
+
+    if(event == 0){
       
       this.show.wordSearchStr = "코멘트"
       this.show.wordSearchDialogue = "Search the Evaluation Comment Words";
 
-    }else if(order3 == 0){
+    }else if(event == 1){
 
       this.show.wordSearchStr = "소재";
       this.show.wordSearchDialogue = "Search the Evaluation SubjectMatter Words"
 
     }
+
+  }
+
+/**
+ * loading complete jquery effect 
+ * */
+  evalShow(i:number){
+    setTimeout(()=>{
+    $("#eval_con_" + i).addClass("loadingComplete");
+    console.log("#eval_con_" + i);
+  },500 * (i+1));
 
   }
 

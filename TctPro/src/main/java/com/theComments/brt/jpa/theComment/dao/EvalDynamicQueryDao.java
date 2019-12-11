@@ -2,6 +2,7 @@ package com.theComments.brt.jpa.theComment.dao;
 
 import java.math.BigInteger;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -19,19 +20,28 @@ import javax.persistence.criteria.Order;
 import javax.persistence.criteria.Predicate;
 import javax.persistence.criteria.Root;
 
+import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
 import com.theComments.brt.constFile.PageConst.PAGE;
+import com.theComments.brt.jpa.dto.ArtistDto;
 import com.theComments.brt.jpa.dto.Evaluation_itemDto;
 import com.theComments.brt.jpa.dto.OrderForSearch;
 import com.theComments.brt.jpa.dto.Type1Dto;
 import com.theComments.brt.jpa.dto.Type2Dto;
+import com.theComments.brt.jpa.dto.WorksDto;
+import com.theComments.brt.jpa.theComment.model.Artist;
+import com.theComments.brt.jpa.theComment.model.Create_art;
 import com.theComments.brt.jpa.theComment.model.Evaluate;
 import com.theComments.brt.jpa.theComment.model.Evaluate_;
 import com.theComments.brt.jpa.theComment.model.Evaluation_item;
 import com.theComments.brt.jpa.theComment.model.Evaluation_item_;
+import com.theComments.brt.jpa.theComment.model.Type1;
+import com.theComments.brt.jpa.theComment.model.Type1_;
+import com.theComments.brt.jpa.theComment.model.Type2;
+import com.theComments.brt.jpa.theComment.model.Type2_;
 import com.theComments.brt.jpa.theComment.model.Works;
 import com.theComments.brt.jpa.theComment.model.Works_;
 import com.theComments.brt.util.ResultMap;
@@ -121,7 +131,7 @@ public class EvalDynamicQueryDao {
 		return count.longValue();
 	}
 	
-	public Map<String,Object> selectEvalItemSearchBasic(
+	public ResultMap selectEvalItemSearchBasic(
 			Evaluation_itemDto itemDto, 
 			Type1Dto type1Dto, 
 			Type2Dto type2Dto,
@@ -137,10 +147,21 @@ public class EvalDynamicQueryDao {
 		
 		Join<Evaluation_item, Evaluate> rEvalJoinRoot = rEvalItemRoot.join(Evaluation_item_.EVALUATE, JoinType.INNER);
 		Join<Evaluate, Works> rWorksJoinRoot = rEvalJoinRoot.join(Evaluate_.WORKS, JoinType.INNER);
+		Join<Works,Type2> rType2JointRoot = rWorksJoinRoot.join(Works_.TYPE2,JoinType.INNER);
+		Join<Type2,Type1> rType1JointRoot = rType2JointRoot.join(Type2_.TYPE1,JoinType.INNER);
 		
 		List<Predicate> predicate_list = new ArrayList<Predicate>();
 		List<Expression> groupList = new ArrayList<Expression>();
 		List<Order> orderList = new ArrayList<Order>();
+		
+		if (type1Dto.getType1_id() != 0) {
+			Predicate type1Pre = cb.equal(rType1JointRoot.get(Type1_.TYPE1_ID), type1Dto.getType1_id() );
+			predicate_list.add(type1Pre);
+		}
+		if (type2Dto.getType2_id() != 0) {
+			Predicate type2Pre = cb.equal(rType2JointRoot.get(Type2_.TYPE2_ID), type2Dto.getType2_id());
+			predicate_list.add(type2Pre);
+		}
 		
 		if(itemDto.getSearchText().isEmpty() == false) {
 			
@@ -217,15 +238,64 @@ public class EvalDynamicQueryDao {
 		Long totalCount = selectEvalItemSearchBasicTotalCount(em, itemDto, type1Dto, type2Dto,orderForSearch);
 		List<Evaluation_item> evalItem_list = typeQuery.getResultList();
 		
+		List<Evaluation_itemDto> evalItemDtoList = new ArrayList<Evaluation_itemDto>();
+		
+		ResultMap result = new ResultMap();
+		
 		for(Evaluation_item item : evalItem_list) {
+			Evaluation_itemDto evalItemDto = new Evaluation_itemDto();
 			
+			BeanUtils.copyProperties(item, evalItemDto);
+			//worksStart
+			Evaluate eval = item.getEvaluate().get(0);
+			Works work = eval.getWorks();
+			WorksDto workDto = new WorksDto();
+			BeanUtils.copyProperties(work, workDto);
+			//artistStart
 			
+			List<Create_art> createArtList = new ArrayList<Create_art>();
+			createArtList.addAll(work.getCreate());
+			
+			List<ArtistDto> artistDto_list = new ArrayList<>();
+			
+			for (Create_art create : createArtList) {
+				Artist artist = create.getArtist();
+				ArtistDto artistDto = new ArtistDto();
+
+				BeanUtils.copyProperties(artist, artistDto);
+
+				artistDto_list.add(artistDto);
+			}
+			
+			workDto.setArtistDtoList(artistDto_list);
+			
+			//artistEnd
+			//type start
+			Type2Dto type2Dto_var = new Type2Dto();
+			Type1Dto type1Dto_var = new Type1Dto();
+			
+			BeanUtils.copyProperties(work.getType2(), type2Dto_var);
+			BeanUtils.copyProperties(work.getType2().getType1(), type1Dto_var);
+			
+			type2Dto_var.setType1Dto(type1Dto_var);
+			workDto.setType2(type2Dto_var);
+			//type end
+			
+			evalItemDto.setWork(workDto);
+			//work end
+			
+			evalItemDtoList.add(evalItemDto);
 			
 		}
 		
+		result.setData(evalItemDtoList);
+		result.setTotalSize(totalCount);
+//		result.put("data", evalItem_list);
+//		result.put("count",totalCount);
+		
 		em.close();
 		
-		return null;
+		return result;
 	}
 	
 
@@ -233,7 +303,7 @@ public class EvalDynamicQueryDao {
 			EntityManager em, 
 			Evaluation_itemDto itemDto, 
 			Type1Dto type1Dto,
-			Type2Dto typeDto,
+			Type2Dto type2Dto,
 			OrderForSearch orderForSearch) {
 		// TODO Auto-generated method stub
 		
@@ -244,10 +314,21 @@ public class EvalDynamicQueryDao {
 		
 		Join<Evaluation_item, Evaluate> rEvalJoinRoot = rEvalItemRoot.join(Evaluation_item_.EVALUATE, JoinType.INNER);
 		Join<Evaluate, Works> rWorksJoinRoot = rEvalJoinRoot.join(Evaluate_.WORKS, JoinType.INNER);
+		Join<Works,Type2> rType2JointRoot = rWorksJoinRoot.join(Works_.TYPE2,JoinType.INNER);
+		Join<Type2,Type1> rType1JointRoot = rType2JointRoot.join(Type2_.TYPE1,JoinType.INNER);
 		
 		List<Predicate> predicate_list = new ArrayList<Predicate>();
 		List<Expression> groupList = new ArrayList<Expression>();
 		List<Order> orderList = new ArrayList<Order>();
+		
+		if (type1Dto.getType1_id() != 0) {
+			Predicate type1Pre = cb.equal(rType1JointRoot.get(Type1_.TYPE1_ID), type1Dto.getType1_id() );
+			predicate_list.add(type1Pre);
+		}
+		if (type2Dto.getType2_id() != 0) {
+			Predicate type2Pre = cb.equal(rType2JointRoot.get(Type2_.TYPE2_ID), type2Dto.getType2_id());
+			predicate_list.add(type2Pre);
+		}
 		
 		if(itemDto.getSearchText().isEmpty() == false) {
 			

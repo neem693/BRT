@@ -246,10 +246,10 @@ public class EvalService {
 		orderForSearch.setOrder2(order2);
 		orderForSearch.setOrder3(order3);
 		
-		evalDynamicQueryDao.selectEvalItemSearchBasic(itemDto,type1Dto,type2Dto,orderForSearch);
+		ResultMap result = evalDynamicQueryDao.selectEvalItemSearchBasic(itemDto,type1Dto,type2Dto,orderForSearch);
+		result.setResult(200);
 		
-		
-		return null;
+		return result;
 	}
 	
 	
