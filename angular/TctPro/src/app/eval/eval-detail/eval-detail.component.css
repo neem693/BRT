@@ -1,0 +1,136 @@
+.img img {
+    /* width: 100%; */
+    display: block;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    height: 500px;
+}
+
+.small_img {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.small_img div.active {
+    border: 3px solid rgb(129, 129, 255);
+}
+
+.small_img div {
+    height: 100px;
+    max-width: 18%;
+    box-sizing: border-box;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+}
+
+.small_img div img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.eval_container_outer_01 {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.eval_container_01 {
+    margin: 0 auto;
+    margin-top:50px;
+    position: relative;
+    box-sizing: border-box;
+    width: 600px;
+    border: 3px solid #404040;
+    border-radius: 5px;
+    background-color: #262626;
+    height: 230px;
+    transition: opacity 1s, top 1s;
+}
+
+.eval_artist_date_01 {
+    /* display: inline-block; */
+    /* background-color: rgb(151, 159, 194); */
+}
+
+.eval_artist_01 {
+    display: block;
+    max-width: 200px;
+}
+
+.eval_subject_01 {
+    /* display: inline-block; */
+    /* background-color: aqua */
+    font-size: 20px;
+}
+
+.eval_type1_type2_01 {
+    /* display: inline-block */
+}
+
+.eval_type1_01 {
+    display: block
+}
+
+.eval_type2_01 {
+    display: block;
+}
+
+.eval_subjectMatter_01.gray {
+    color: rgb(116, 110, 110);
+}
+
+.eval_subjectMatter_01.blue {
+    color: #00B0F0;
+}
+
+.eval_subjectMatter_01.yellow {
+    color: yellow;
+}
+
+.eval_matter_01 {
+    color: #8EB4E3;
+    font-weight: bold;
+    text-align: center;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.eval_subjectMatter_01:before {
+    content: "소재 - ";
+}
+
+.eval_text_01 {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.eval_text_01:before {
+    content: "\"";
+}
+
+.eval_text_01:after {
+    content: "\"";
+}
+
+.outer_matter_01 {
+    flex-basis: 30%;
+}
+.loadingSpinDiv{
+    margin-top: 100px;
+}
+.loadingText{
+    text-align: center;
+    font-size: x-large;
+    color:rgb(190, 190, 190);
+}

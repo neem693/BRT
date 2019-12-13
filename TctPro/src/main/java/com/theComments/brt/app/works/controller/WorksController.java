@@ -56,6 +56,7 @@ public class WorksController {
 		
 		if(result_code == 200) {
 			
+			
 		}
 		if(result_code == 201) {
 			//result.setMessage("201111:need Artist to regist");

@@ -29,5 +29,14 @@ public class EvalPublicRestController {
 		return result.getResultMap();
 		
 	}
+	
+	@RequestMapping(value = "/evalDetail",method = RequestMethod.GET)
+	public Map<String,Object> evalDetail(@RequestParam Map<String,Object> param){
+		
+		ResultMap result = evalService.evalDetail(param);
+		
+		return result.getResultMap();
+		
+	}
 
 }

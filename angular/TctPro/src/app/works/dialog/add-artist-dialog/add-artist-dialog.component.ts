@@ -37,7 +37,8 @@ export class AddArtistDialogComponent implements OnInit {
 
   }
 
-  constructor(public dialogRef: MatDialogRef<AddArtistDialogComponent>,
+  constructor(
+    public dialogRef: MatDialogRef<AddArtistDialogComponent>,
     @Inject(MAT_DIALOG_DATA) public data: any,
     public artistService: ArtistService,
     public worksService: WorksSerivceService) { }

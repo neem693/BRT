@@ -9,6 +9,7 @@ export class EvalService {
 
 
 
+
   constructor(private http: HttpClient) { }
 
   /** get the work in eval */
@@ -28,6 +29,10 @@ export class EvalService {
 
   evalSearch(param: any) {
     return this.http.get(environment.baseApiUrl + '/evalPublic/evalSearch',{params:param});
+  }
+
+  evalDetail(param: any) {
+    return this.http.get(environment.baseApiUrl + '/evalPublic/evalDetail',{params:param});
   }
 
 

@@ -3419,7 +3419,7 @@
 <node CREATED="1569321838984" FOLDED="true" ID="ID_1289431196" MODIFIED="1575975323862" POSITION="right" TEXT="JDBC &#xc624;&#xb958;">
 <node CREATED="1569321843353" ID="ID_437120369" LINK="#ID_1068000342" MODIFIED="1569321851842" TEXT="Failed to determine a suitable driver class "/>
 </node>
-<node COLOR="#3333ff" CREATED="1569954720531" ID="ID_1310219766" MODIFIED="1575977469592" POSITION="right" STYLE="bubble" TEXT="&#xd558;&#xc774;&#xbc84;&#xb124;&#xc774;&#xd2b8;(jpa)">
+<node COLOR="#3333ff" CREATED="1569954720531" FOLDED="true" ID="ID_1310219766" MODIFIED="1576245790406" POSITION="right" STYLE="bubble" TEXT="&#xd558;&#xc774;&#xbc84;&#xb124;&#xc774;&#xd2b8;(jpa)">
 <font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
 <node CREATED="1570118271397" ID="ID_1098857026" LINK="https://www.baeldung.com/spring-data-jpa-multiple-databases" MODIFIED="1571694519760" TEXT="https://www.baeldung.com/spring-data-jpa-multiple-databases"/>
 <node CREATED="1570132753122" FOLDED="true" ID="ID_977131534" MODIFIED="1572414311204" TEXT="select &#xc870;&#xac74;&#xbb38;">
@@ -4232,7 +4232,7 @@
 <node CREATED="1572267945538" FOLDED="true" ID="ID_1119846524" MODIFIED="1575975323864" POSITION="right" TEXT="&#xc774;&#xc911;&#xd654;">
 <node CREATED="1572267953211" ID="ID_1208354937" LINK="http://kimstar.kr/blog/wp-content/uploads/2014/11/%EC%84%9C%EB%B2%84%EC%9D%B4%EC%A4%91%ED%99%94.pdf" MODIFIED="1572267953211" TEXT="kimstar.kr &gt; Blog &gt; Wp-content &gt; Uploads &gt; 2014 &gt; 11 &gt; %EC%84%9C%EB%B2%84%EC%9D%B4%EC%A4%91%ED%99%94"/>
 </node>
-<node COLOR="#3333ff" CREATED="1572404906276" ID="ID_300728890" MODIFIED="1575977175465" POSITION="right" STYLE="bubble" TEXT="h2 db &#xc774;&#xc6a9;">
+<node COLOR="#3333ff" CREATED="1572404906276" FOLDED="true" ID="ID_300728890" MODIFIED="1576245790407" POSITION="right" STYLE="bubble" TEXT="h2 db &#xc774;&#xc6a9;">
 <font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
 <node CREATED="1572406006150" ID="ID_590439867" MODIFIED="1572406008321" TEXT="&#xc774;&#xac78; &#xc65c; &#xc4f0;&#xb0d0;&#xace0;?"/>
 <node CREATED="1572406008642" ID="ID_1345278460" MODIFIED="1572406033527" TEXT="h2 &#xc778; &#xba54;&#xbaa8;&#xb9ac; &#xb610;&#xb294; &#xd558;&#xb4dc;&#xb514;&#xc2a4;&#xd06c;&#xc5d0; &#xb300;&#xcda9; db&#xb97c; &#xd14c;&#xc2a4;&#xd2b8; &#xc6a9;&#xb3c4;&#xb85c; &#xc800;&#xc7a5;&#xd558;&#xc5ec; &#xc0ac;&#xc6a9;&#xd560; &#xc218;&#xb3c4; &#xc788;&#xb3c4;&#xb85d; &#xb9cc;&#xb4e0; &#xac83;&#xc774;&#xb2e4;."/>
@@ -4345,11 +4345,75 @@
 <font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#ff3333" CREATED="1575977178976" ID="ID_1014935012" MODIFIED="1575977185717" POSITION="right" STYLE="bubble" TEXT="maven">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#ff3333" CREATED="1575977178976" FOLDED="true" ID="ID_1014935012" MODIFIED="1576245790407" POSITION="right" STYLE="bubble" TEXT="maven">
 <font BOLD="true" NAME="Dialog" SIZE="24"/>
 <node CREATED="1575977185706" ID="ID_1343883658" MODIFIED="1575977191720" TEXT="scope&#xc5d0; &#xad00;&#xd574;&#xc11c;">
 <node CREATED="1575977184109" ID="ID_1033535012" LINK="https://wikidocs.net/18344" MODIFIED="1575977184109" TEXT="https://wikidocs.net/18344"/>
 </node>
+</node>
+<node CREATED="1576245818252" ID="ID_1843603033" MODIFIED="1576245824425" POSITION="right" TEXT="&#xd0c0;&#xc784;&#xb9ac;&#xd504;">
+<node CREATED="1576245824417" ID="ID_81174497" MODIFIED="1576246134265" TEXT="thymeleaf setting webapp folder">
+<node CREATED="1576246405629" LINK="https://offbyone.tistory.com/409" MODIFIED="1576246405629" TEXT="https://offbyone.tistory.com/409"/>
+<node CREATED="1576246552038" LINK="http://zetcode.com/articles/springbootthymeleafconf/" MODIFIED="1576246552038" TEXT="zetcode.com &gt; Articles &gt; Springbootthymeleafconf"/>
+</node>
+<node CREATED="1576250059648" ID="ID_1773181445" MODIFIED="1576250060524" TEXT="view">
+<node CREATED="1576250060910" ID="ID_385068791" LINK="https://www.baeldung.com/spring-thymeleaf-fragments" MODIFIED="1576250060910" TEXT="https://www.baeldung.com/spring-thymeleaf-fragments"/>
+<node CREATED="1576251811677" ID="ID_411718991" MODIFIED="1576251813248" TEXT="layout">
+<node CREATED="1576251813651" ID="ID_1780324659" LINK="https://www.baeldung.com/thymeleaf-spring-layouts" MODIFIED="1576251813651" TEXT="https://www.baeldung.com/thymeleaf-spring-layouts"/>
+</node>
+</node>
+<node CREATED="1576249426260" ID="ID_1666893361" MODIFIED="1576249430469" TEXT="basic">
+<node CREATED="1576249430921" ID="ID_1240763212" LINK="https://www.baeldung.com/thymeleaf-in-spring-mvc" MODIFIED="1576249430921" TEXT="https://www.baeldung.com/thymeleaf-in-spring-mvc"/>
+<node CREATED="1576249566686" ID="ID_495095843" MODIFIED="1576249568338" TEXT="baisc code">
+<node CREATED="1576249576920" ID="ID_1958650514" LINK="https://github.com/eugenp/tutorials/blob/master/spring-thymeleaf/src/main/java/com/baeldung/thymeleaf/controller/BookController.java" MODIFIED="1576249576920" TEXT="https://github.com/eugenp/tutorials/blob/master/spring-thymeleaf/src/main/java/com/baeldung/thymeleaf/controller/BookController.java"/>
+<node CREATED="1576249578454" FOLDED="true" ID="ID_169910990" MODIFIED="1576252664443" TEXT="code">
+<node CREATED="1576249588647" MODIFIED="1576249588647" TEXT="package com.baeldung.thymeleaf.controller;"/>
+<node CREATED="1576249588648" MODIFIED="1576249588648" TEXT="import java.util.List;"/>
+<node CREATED="1576249588651" MODIFIED="1576249588651" TEXT="import java.util.Optional;"/>
+<node CREATED="1576249588652" MODIFIED="1576249588652" TEXT="import java.util.stream.Collectors;"/>
+<node CREATED="1576249588655" MODIFIED="1576249588655" TEXT="import java.util.stream.IntStream;"/>
+<node CREATED="1576249588658" MODIFIED="1576249588658" TEXT="import org.springframework.beans.factory.annotation.Autowired;"/>
+<node CREATED="1576249588659" MODIFIED="1576249588659" TEXT="import org.springframework.data.domain.Page;"/>
+<node CREATED="1576249588660" MODIFIED="1576249588660" TEXT="import org.springframework.data.domain.PageRequest;"/>
+<node CREATED="1576249588661" MODIFIED="1576249588661" TEXT="import org.springframework.stereotype.Controller;"/>
+<node CREATED="1576249588662" MODIFIED="1576249588662" TEXT="import org.springframework.ui.Model;"/>
+<node CREATED="1576249588663" MODIFIED="1576249588663" TEXT="import org.springframework.web.bind.annotation.RequestMapping;"/>
+<node CREATED="1576249588663" MODIFIED="1576249588663" TEXT="import org.springframework.web.bind.annotation.RequestMethod;"/>
+<node CREATED="1576249588664" MODIFIED="1576249588664" TEXT="import org.springframework.web.bind.annotation.RequestParam;"/>
+<node CREATED="1576249588665" MODIFIED="1576249588665" TEXT="import com.baeldung.thymeleaf.model.Book;"/>
+<node CREATED="1576249588665" MODIFIED="1576249588665" TEXT="import com.baeldung.thymeleaf.service.BookService;"/>
+<node CREATED="1576249588666" MODIFIED="1576249588666" TEXT="@Controller"/>
+<node CREATED="1576249588666" MODIFIED="1576249588666" TEXT="public class BookController {">
+<node CREATED="1576249588667" MODIFIED="1576249588667" TEXT="@Autowired"/>
+<node CREATED="1576249588668" MODIFIED="1576249588668" TEXT="private BookService bookService;"/>
+<node CREATED="1576249588668" MODIFIED="1576249588668" TEXT="@RequestMapping(value = &quot;/listBooks&quot;, method = RequestMethod.GET)"/>
+<node CREATED="1576249588670" MODIFIED="1576249588670" TEXT="public String listBooks(Model model, @RequestParam(&quot;page&quot;) Optional&lt;Integer&gt; page, @RequestParam(&quot;size&quot;) Optional&lt;Integer&gt; size) {">
+<node CREATED="1576249588673" MODIFIED="1576249588673" TEXT="final int currentPage = page.orElse(1);"/>
+<node CREATED="1576249588674" MODIFIED="1576249588674" TEXT="final int pageSize = size.orElse(5);"/>
+<node CREATED="1576249588674" MODIFIED="1576249588674" TEXT="Page&lt;Book&gt; bookPage = bookService.findPaginated(PageRequest.of(currentPage - 1, pageSize));"/>
+<node CREATED="1576249588675" MODIFIED="1576249588675" TEXT="model.addAttribute(&quot;bookPage&quot;, bookPage);"/>
+<node CREATED="1576249588675" MODIFIED="1576249588675" TEXT="int totalPages = bookPage.getTotalPages();"/>
+<node CREATED="1576249588676" MODIFIED="1576249588676" TEXT="if (totalPages &gt; 0) {">
+<node CREATED="1576249588676" MODIFIED="1576249588676" TEXT="List&lt;Integer&gt; pageNumbers = IntStream.rangeClosed(1, totalPages)">
+<node CREATED="1576249588676" MODIFIED="1576249588676" TEXT=".boxed()"/>
+<node CREATED="1576249588677" MODIFIED="1576249588677" TEXT=".collect(Collectors.toList());"/>
+</node>
+<node CREATED="1576249588678" MODIFIED="1576249588678" TEXT="model.addAttribute(&quot;pageNumbers&quot;, pageNumbers);"/>
+</node>
+<node CREATED="1576249588678" MODIFIED="1576249588678" TEXT="}"/>
+<node CREATED="1576249588679" MODIFIED="1576249588679" TEXT="return &quot;listBooks.html&quot;;"/>
+</node>
+<node CREATED="1576249588679" MODIFIED="1576249588679" TEXT="}"/>
+</node>
+<node CREATED="1576249588680" MODIFIED="1576249588680" TEXT="}"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1576255149595" ID="ID_1642794399" MODIFIED="1576255152108" POSITION="right" TEXT="&#xc624;&#xd508;&#xadf8;&#xb798;&#xd504;">
+<node CREATED="1576255170160" ID="ID_1581434372" MODIFIED="1576255175862" TEXT="&#xc624;&#xd508;&#xadf8;&#xb798;&#xd504;&#xb294; &#xc575;&#xade4;&#xb7ec;&#xc5d0;&#xc11c; &#xc548;&#xb41c;&#xb2e4;."/>
+<node CREATED="1576255178679" ID="ID_1604313839" MODIFIED="1576255244576" TEXT="&#xb530;&#xb77c;&#xc11c; &#xd0c0;&#xc784;&#xb9ac;&#xd504;&#xb97c; &#xc774;&#xc6a9;&#xd574;&#xc11c; &#xc124;&#xc815;&#xd574;&#xc57c; &#xd560;&#xb4ef; &#xc2f6;&#xb2e4;."/>
+<node CREATED="1576255255557" ID="ID_1793080490" MODIFIED="1576255263440" TEXT="&#xc804;&#xccb4;&#xc801;&#xc778; &#xd398;&#xc774;&#xc9c0;&#xc6a9;&#xc784;&#xc744; &#xc54c;&#xc544;&#xb450;&#xc790;."/>
 </node>
 </node>
 </map>

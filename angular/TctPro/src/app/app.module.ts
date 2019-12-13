@@ -39,6 +39,8 @@ import { WorkSerachComponent } from './works/work-serach/work-serach.component';
 import { ArtistSearchComponent } from './artist/artist-search/artist-search.component';
 import { ArtistDetailComponent } from './artist/artist-detail/artist-detail.component';
 import { EvalSerachComponent } from './eval/eval-serach/eval-serach.component';
+import { EvalDetailComponent } from './eval/eval-detail/eval-detail.component';
+import { GlobalDialogComponent } from './global/dialog/global-dialog/global-dialog.component';
 
 const DEFAULT_SWIPER_CONFIG: SwiperConfigInterface = {
   direction: 'horizontal',
@@ -71,6 +73,8 @@ const DEFAULT_SWIPER_CONFIG: SwiperConfigInterface = {
     ArtistSearchComponent,
     ArtistDetailComponent,
     EvalSerachComponent,
+    EvalDetailComponent,
+    GlobalDialogComponent,
 
     
   ],
@@ -108,6 +112,7 @@ const DEFAULT_SWIPER_CONFIG: SwiperConfigInterface = {
     WorksNameIsExistDialogComponent,
     ArtNameIsExistDialogComponent,
     MatterSelectDialogComponent,
+    GlobalDialogComponent
   ],
   providers: [
     CookieService,

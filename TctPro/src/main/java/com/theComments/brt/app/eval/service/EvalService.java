@@ -25,6 +25,7 @@ import com.theComments.brt.constFile.PageConst;
 import com.theComments.brt.jpa.dto.ArtistDto;
 import com.theComments.brt.jpa.dto.EvaluateDto;
 import com.theComments.brt.jpa.dto.Evaluation_itemDto;
+import com.theComments.brt.jpa.dto.FileSaveDto;
 import com.theComments.brt.jpa.dto.OrderForSearch;
 import com.theComments.brt.jpa.dto.SimpleUserDto;
 import com.theComments.brt.jpa.dto.Type1Dto;
@@ -41,6 +42,7 @@ import com.theComments.brt.jpa.theComment.model.Create_art;
 import com.theComments.brt.jpa.theComment.model.Eva_user;
 import com.theComments.brt.jpa.theComment.model.Evaluate;
 import com.theComments.brt.jpa.theComment.model.Evaluation_item;
+import com.theComments.brt.jpa.theComment.model.FileSave;
 import com.theComments.brt.jpa.theComment.model.Works;
 import com.theComments.brt.util.ResultMap;
 
@@ -251,8 +253,90 @@ public class EvalService {
 		
 		return result;
 	}
-	
-	
+
+	public ResultMap evalDetail(Map<String, Object> param) {
+		// TODO Auto-generated method stub
+		ResultMap result = new ResultMap();
+		Long evalItemId = Long.parseLong(param.get("eval_id").toString());
+		
+		Evaluation_item eval_item = eval_item_dao.findEvaluationItemDetail(evalItemId);
+		
+		if(eval_item == null) {
+			result.setResult(401);
+			return result;
+		}
+		
+		//dto setting
+		Evaluation_itemDto evalItemDto = new Evaluation_itemDto();
+		
+		BeanUtils.copyProperties(eval_item, evalItemDto);
+		//worksStart
+		Evaluate eval = eval_item.getEvaluate().get(0);
+		Works work = eval.getWorks();
+		WorksDto workDto = new WorksDto();
+		BeanUtils.copyProperties(work, workDto);
+		//artistStart
+		
+		List<Create_art> createArtList = new ArrayList<Create_art>();
+		createArtList.addAll(work.getCreate());
+		
+		List<ArtistDto> artistDto_list = new ArrayList<>();
+		
+		for (Create_art create : createArtList) {
+			Artist artist = create.getArtist();
+			ArtistDto artistDto = new ArtistDto();
+
+			BeanUtils.copyProperties(artist, artistDto);
+
+			artistDto_list.add(artistDto);
+		}
+		
+		workDto.setArtistDtoList(artistDto_list);
+		
+		//artist End
+		//type start
+		Type2Dto type2Dto_var = new Type2Dto();
+		Type1Dto type1Dto_var = new Type1Dto();
+		
+		BeanUtils.copyProperties(work.getType2(), type2Dto_var);
+		BeanUtils.copyProperties(work.getType2().getType1(), type1Dto_var);
+		
+		type2Dto_var.setType1Dto(type1Dto_var);
+		workDto.setType2(type2Dto_var);
+		//type end
+		//filesave start
+		List<FileSaveDto> file_list_dto = new ArrayList<FileSaveDto>();
+
+		List<FileSave> file_list = new ArrayList<FileSave>();
+		file_list.addAll(work.getFileSave());
+
+		for (FileSave fileSave : file_list) {
+
+			FileSaveDto fileDto = new FileSaveDto();
+			BeanUtils.copyProperties(fileSave, fileDto);
+
+			file_list_dto.add(fileDto);
+		}
+		workDto.setFileSaveDto(file_list_dto);
+		//filesave end
+		
+		evalItemDto.setWork(workDto);
+		//work end
+		
+		//dto setting close
+		result.setData(evalItemDto);
+		result.setResult(200);
+		
+		return result;
+	}
+
+	public Evaluation_item getEvalDetail(Long eval_id) {
+		// TODO Auto-generated method stub
+		
+		Evaluation_item eval_item = eval_item_dao.findEvaluationItemDetail(eval_id);
+		
+		return eval_item;
+	}
 	
 
 }
