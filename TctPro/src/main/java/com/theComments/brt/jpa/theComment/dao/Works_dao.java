@@ -2,6 +2,7 @@ package com.theComments.brt.jpa.theComment.dao;
 
 import java.util.List;
 import java.util.Map;
+import java.util.Optional;
 
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -13,6 +14,9 @@ import org.springframework.data.jpa.repository.Query;
 import com.theComments.brt.jpa.theComment.model.Works;
 
 public interface Works_dao extends JpaRepository<Works, Long> {
+	
+	@EntityGraph(value = "findByIdDetail_graph",type = EntityGraphType.LOAD)
+	Optional<Works> findById(Long id);
 
 	@Query(value = "SELECT w FROM Works w WHERE w.subject LIKE CONCAT('%',:subject,'%')", countQuery = "SELECT count(w) FROM Works w WHERE w.subject LIKE CONCAT('%',:subject,'%')")
 	Page<Works> selectWorks(String subject, Pageable pageable);
@@ -39,7 +43,6 @@ public interface Works_dao extends JpaRepository<Works, Long> {
 					+ "t1.type1_id = :type1 "
 					)
 	Page<Works> searchWorksSeeListenDoo(Long id,Long type1, Pageable pageable);
-
 	
 
 }

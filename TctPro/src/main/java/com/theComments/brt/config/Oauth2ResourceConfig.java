@@ -30,6 +30,7 @@ public class Oauth2ResourceConfig extends ResourceServerConfigurerAdapter {
 	
 	private String [] publicController = {
 			"/member/join",
+			"/eval/share/*",
 
 
 	};

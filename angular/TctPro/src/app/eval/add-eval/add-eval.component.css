@@ -326,6 +326,105 @@ mat-error{
 
 
 
+.eval_container_outer_02 {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.eval_container_02 {
+    margin: 0 auto;
+    margin-top:50px;
+    position: relative;
+    box-sizing: border-box;
+    width: 600px;
+    border: 3px solid #404040;
+    border-radius: 5px;
+    background-color: #262626;
+    height: 230px;
+    transition: opacity 1s, top 1s;
+}
+
+.eval_artist_date_02 {
+    /* display: inline-block; */
+    /* background-color: rgb(151, 159, 194); */
+}
+
+.eval_artist_02 {
+    display: block;
+    max-width: 200px;
+}
+
+.eval_subject_02 {
+    /* display: inline-block; */
+    /* background-color: aqua */
+    font-size: 20px;
+}
+
+.eval_type1_type2_02 {
+    /* display: inline-block */
+}
+
+.eval_type1_02 {
+    display: block
+}
+
+.eval_type2_02 {
+    display: block;
+}
+
+.eval_subjectMatter_02.gray {
+    color: rgb(116, 110, 110);
+}
+
+.eval_subjectMatter_02.blue {
+    color: #00B0F0;
+}
+
+.eval_subjectMatter_02.yellow {
+    color: yellow;
+}
+
+.eval_matter_02 {
+    color: #8EB4E3;
+    font-weight: bold;
+    text-align: center;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.eval_subjectMatter_02:before {
+    content: "소재 - ";
+}
+
+.eval_text_02 {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.eval_text_02:before {
+    content: "\"";
+}
+
+.eval_text_02:after {
+    content: "\"";
+}
+
+.outer_matter_02 {
+    flex-basis: 30%;
+}
+
+#targetEvalItem{
+    position: relative;
+    /* top: -3000px; */
+}
+
+
+
+
 @media screen and (max-width: 1000px) {
     .addEval_div {
         width: 100%;

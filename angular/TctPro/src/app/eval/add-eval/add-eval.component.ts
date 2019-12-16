@@ -7,6 +7,9 @@ import { EvalService } from '../eval.service';
 import { RESULT } from 'src/const/publicConst';
 
 declare const $: any;
+declare const html2canvas:any;
+
+
 
 @Component({
   selector: 'app-add-eval',
@@ -110,9 +113,18 @@ export class AddEvalComponent implements OnInit {
       }
       this.work.id = x['id'];
 
-      this.getWork(this.work.id);
+      this.getWork(this.work.id)
+
+      // setTimeout(()=>{
+      //   this.getImage();
+      // },500);
+   
+
+      
 
     })
+
+    
 
 
 
@@ -265,6 +277,34 @@ export class AddEvalComponent implements OnInit {
       this.loading.save = 0;
     });
 
+  }
+
+  getImage(){
+
+    // var target = this.targetEvalItem.nativeElement;
+
+    var target = document.body;
+    target = document.getElementById("targetEvalItem");
+    
+    let height = $(window).scrollTop();
+    // let target2 = document.getElementById("html2canvasContrainer");
+
+    // target2.innerHTML = target.innerHTML;
+    $(window).scrollTop(0);
+  
+    console.log(height);
+    console.log(target);
+
+      html2canvas(target,{allowTaint : true}).then(function(canvas:any) {
+        console.log(canvas);
+        console.log(canvas.toDataURL('image/png'));
+        $("#result").html(canvas);
+        $(window).scrollTop(height);
+    });
+
+   
+
+   
   }
 
 }

@@ -31,7 +31,8 @@
             ],
             "scripts": [
               "node_modules/jquery/dist/jquery.min.js",
-              "src/bootstrap.bundle.js"
+              "src/bootstrap.bundle.js",
+              "node_modules/html2canvas/dist/html2canvas.js"
             ]
           },
           "configurations": {

@@ -201,3 +201,204 @@
     margin: 0 4px;
 }
 /*************평가에 관한 css 끝*********/
+
+
+/*****css 이용 확장을 위한 똑같은 번호******/
+
+.eval_evaluation_content_02{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.eval_sq_arrow_02 {
+    width: 35px;
+    height: 70px;
+    position: relative;
+    background: #F2F2F2;
+}
+
+.eval_sq_arrow_02.active {
+    width: 45px;
+    height: 80px;
+}
+
+.eval_sq_arrow_02:after{
+    content: "";
+    position: absolute;
+    border-top: 35px solid transparent;
+    border-bottom: 35px solid transparent;
+    bottom: 0;
+    width: 0;
+    height: 0;
+}
+
+.eval_sq_arrow_02.active:after {
+    border-top: 40px solid transparent;
+    border-bottom: 40px solid transparent;
+}
+
+.eval_sq_arrow_02:before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-top: 35px solid transparent;
+    border-bottom: 35px solid transparent;
+}
+
+.eval_sq_arrow_02.active:before {
+    border-top: 40px solid transparent;
+    border-bottom: 40px solid transparent;
+}
+
+.eval_arrow_warning_02 {
+    font-weight: bold;
+    /* margin-left: 20px; */
+}
+
+.eval_arrow_warning_02:after {
+   
+    left: 16px;
+    border-right: 20px solid #262626;
+  
+}
+
+.eval_arrow_warning_02:before {
+   
+    right: 34px;
+    border-right: 20px solid #F2F2F2;
+   
+}
+
+.eval_arrow_warning_02.active {
+    background-color: black;
+    color: white;
+}
+
+.eval_arrow_warning_02.active:after {
+   
+    left: 26px;
+  
+}
+
+.eval_arrow_warning_02.active:before {
+    right: 44px;
+    border-right-color: black;
+}
+
+.eval_arrow_02 {
+    width: 0;
+    height: 0;
+    position: relative;
+    border-top: 35px solid transparent;
+    border-bottom: 35px solid transparent;
+}
+.eval_arrow_02.active {
+    border-top: 45px solid transparent;
+    border-bottom: 45px solid transparent;
+}
+.eval_arrow_02:after{
+    content: "";
+    position: absolute;
+    bottom: -35px;
+    width: 0;
+    height: 0;
+    border-top: 35px solid transparent;
+    border-bottom: 35px solid transparent;
+}
+.eval_arrow_02.active:after {
+    border-top: 45px solid transparent;
+    border-bottom: 45px solid transparent;
+    bottom: -45px;
+}
+
+.eval_arrow_bad_02{
+    border-right: 40px solid #F2F2F2;
+}
+
+.eval_arrow_bad_02:after{
+    left: 26px;
+    border-right: 15px solid #262626;
+}
+
+.eval_arrow_bad_02.active{
+    border-right-color: rgb(116, 110, 110);
+}
+
+.eval_arrow_good_02{
+    border-left: 40px solid #F2F2F2;
+}
+.eval_arrow_good_02:after{
+    right: 26px;
+    border-left: 15px solid #262626;
+}
+.eval_arrow_good_02.active{
+    border-left-color: #00B0F0;
+}
+
+.eval_arrow_reco_02{
+    font-weight: bold;
+    text-align: right;
+    color: black;
+    margin-right: 20px;
+
+}
+
+.eval_arrow_reco_02:after{
+   
+    left: 0;
+    border-left: 20px solid #262626;
+   
+}
+
+.eval_arrow_reco_02:before{
+  
+    right: -19px;
+    border-left: 20px solid #F2F2F2;
+  
+}
+
+.eval_arrow_reco_02.active{
+    color:white;
+    background-color: #00B0F0;
+}
+
+.eval_arrow_reco_02.active:before{
+    border-left-color: #00B0F0;
+}
+
+.eval_arrow_very_good_02{
+    border-left: 40px solid #F2F2F2;
+}
+.eval_arrow_very_good_02:after{
+    right: 26px;
+    border-left: 15px solid #262626;
+}
+.eval_arrow_very_good_02.active{
+    border-left-color: yellow;
+}
+
+.eval_arrow_excellect_02:after{
+   
+    left: 0;
+    border-left: 20px solid #262626;
+   
+}
+
+.eval_arrow_excellect_02:before{
+  
+    right: -19px;
+    border-left: 20px solid #F2F2F2;
+  
+}
+
+.eval_arrow_excellect_02.active{
+    color:white;
+    background-color: yellow;
+}
+
+.eval_arrow_excellect_02.active:before{
+    border-left-color:yellow;
+}
