@@ -462,7 +462,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1566377216061" FOLDED="true" ID="ID_773715394" MODIFIED="1575975323860" POSITION="right" TEXT="kafka&#xc624;&#xb958;">
+<node CREATED="1566377216061" FOLDED="true" ID="ID_773715394" MODIFIED="1576583829211" POSITION="right" TEXT="kafka&#xc624;&#xb958;">
 <node CREATED="1566566164289" FOLDED="true" ID="ID_474549072" MODIFIED="1569165928944" TEXT="&#xae30;&#xbcf8;&#xc801;&#xc778; &#xac1c;&#xb150;&#xb3c4;(&#xc774;&#xbbf8;&#xc9c0;)">
 <node CREATED="1566566169604" MODIFIED="1566566169604">
 <richcontent TYPE="NODE"><html>
@@ -4351,7 +4351,7 @@
 <node CREATED="1575977184109" ID="ID_1033535012" LINK="https://wikidocs.net/18344" MODIFIED="1575977184109" TEXT="https://wikidocs.net/18344"/>
 </node>
 </node>
-<node CREATED="1576245818252" ID="ID_1843603033" MODIFIED="1576245824425" POSITION="right" TEXT="&#xd0c0;&#xc784;&#xb9ac;&#xd504;">
+<node CREATED="1576245818252" FOLDED="true" ID="ID_1843603033" MODIFIED="1576583829244" POSITION="right" TEXT="&#xd0c0;&#xc784;&#xb9ac;&#xd504;">
 <node CREATED="1576245824417" ID="ID_81174497" MODIFIED="1576246134265" TEXT="thymeleaf setting webapp folder">
 <node CREATED="1576246405629" LINK="https://offbyone.tistory.com/409" MODIFIED="1576246405629" TEXT="https://offbyone.tistory.com/409"/>
 <node CREATED="1576246552038" LINK="http://zetcode.com/articles/springbootthymeleafconf/" MODIFIED="1576246552038" TEXT="zetcode.com &gt; Articles &gt; Springbootthymeleafconf"/>
@@ -4410,10 +4410,19 @@
 </node>
 </node>
 </node>
-<node CREATED="1576255149595" ID="ID_1642794399" MODIFIED="1576255152108" POSITION="right" TEXT="&#xc624;&#xd508;&#xadf8;&#xb798;&#xd504;">
+<node CREATED="1576255149595" FOLDED="true" ID="ID_1642794399" MODIFIED="1576583829244" POSITION="right" TEXT="&#xc624;&#xd508;&#xadf8;&#xb798;&#xd504;">
 <node CREATED="1576255170160" ID="ID_1581434372" MODIFIED="1576255175862" TEXT="&#xc624;&#xd508;&#xadf8;&#xb798;&#xd504;&#xb294; &#xc575;&#xade4;&#xb7ec;&#xc5d0;&#xc11c; &#xc548;&#xb41c;&#xb2e4;."/>
 <node CREATED="1576255178679" ID="ID_1604313839" MODIFIED="1576255244576" TEXT="&#xb530;&#xb77c;&#xc11c; &#xd0c0;&#xc784;&#xb9ac;&#xd504;&#xb97c; &#xc774;&#xc6a9;&#xd574;&#xc11c; &#xc124;&#xc815;&#xd574;&#xc57c; &#xd560;&#xb4ef; &#xc2f6;&#xb2e4;."/>
 <node CREATED="1576255255557" ID="ID_1793080490" MODIFIED="1576255263440" TEXT="&#xc804;&#xccb4;&#xc801;&#xc778; &#xd398;&#xc774;&#xc9c0;&#xc6a9;&#xc784;&#xc744; &#xc54c;&#xc544;&#xb450;&#xc790;."/>
+</node>
+<node CREATED="1576583116697" FOLDED="true" ID="ID_1597748331" MODIFIED="1576583829244" POSITION="right" TEXT="base64 to file">
+<node CREATED="1576583820535" LINK="https://stackoverflow.com/questions/20879639/write-base64-encoded-image-to-file" MODIFIED="1576583820535" TEXT="https://stackoverflow.com/questions/20879639/write-base64-encoded-image-to-file"/>
+</node>
+<node CREATED="1576583854374" ID="ID_409579815" MODIFIED="1576583857399" POSITION="right" TEXT="&#xc774;&#xd074;&#xb9bd;&#xc2a4; &#xb2e8;&#xcd95;&#xd0a4;">
+<node CREATED="1576583831382" ID="ID_1743853932" MODIFIED="1576583840211" TEXT="&#xc774;&#xd074;&#xb9bd;&#xc2a4; &#xd604;&#xc7ac; &#xc0ac;&#xc6a9;&#xc911;&#xc778; method">
+<node CREATED="1576583858613" ID="ID_1441668379" LINK="https://stackoverflow.com/questions/5268998/find-methods-calls-in-eclipse-project" MODIFIED="1576583858613" TEXT="https://stackoverflow.com/questions/5268998/find-methods-calls-in-eclipse-project"/>
+<node CREATED="1576583859747" ID="ID_92472382" MODIFIED="1576583865647" TEXT="ctrl + alt + h"/>
+</node>
 </node>
 </node>
 </map>

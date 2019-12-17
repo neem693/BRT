@@ -25,6 +25,9 @@ public class WebConfig implements WebMvcConfigurer{
 		registry
 	      .addResourceHandler("/tctFile/workImage/**")
 	      .addResourceLocations("file:///D:/tctFile/workImage/");
+		registry
+	      .addResourceHandler("/tctFile/evalImage/**")
+	      .addResourceLocations("file:///D:/tctFile/evalImage/");
 		
 	}
 

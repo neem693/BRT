@@ -7,7 +7,7 @@ import { EvalService } from '../eval.service';
 import { RESULT } from 'src/const/publicConst';
 
 declare const $: any;
-declare const html2canvas:any;
+declare const html2canvas: any;
 
 
 
@@ -80,6 +80,11 @@ export class AddEvalComponent implements OnInit {
     subject: "",
   }
 
+  /**
+   * when initialize the page, get the work detail, and save them in workItem 
+   */
+  workItem = {};
+
   /**artist info */
   artist = {
     id: 0,
@@ -94,7 +99,7 @@ export class AddEvalComponent implements OnInit {
   }
 
   loading = {
-    save :0
+    save: 0
   }
 
   constructor(
@@ -118,13 +123,13 @@ export class AddEvalComponent implements OnInit {
       // setTimeout(()=>{
       //   this.getImage();
       // },500);
-   
 
-      
+
+
 
     })
 
-    
+
 
 
 
@@ -235,6 +240,13 @@ export class AddEvalComponent implements OnInit {
       this.artist.id = data['artist']['artist_id'];
       this.artist.art_name = data['artist']['art_name'];
       this.artist.totalSize = x[RESULT.TOTALSIZE_KEY];
+      /**save work detail */
+      this.workItem = Object.assign({}, data['work']);
+
+      //저작물 제목 길이에 따른 css 변경
+      if (this.work.subject.length > 9) {
+        $(".eval_subject_02").css("font-size", "inherit");
+      }
 
     });
 
@@ -268,43 +280,46 @@ export class AddEvalComponent implements OnInit {
     }
 
     data['work_id'] = this.work.id;
-    this.loading.save = 1;
-    this.evalService.saveEval(data).subscribe(x=>{
-      
-    },
-    ()=>{this.loading.save = 0;},
-    ()=>{
-      this.loading.save = 0;
+
+    var target = document.getElementById("targetEvalItem");
+    let height = $(window).scrollTop();
+    $(window).scrollTop(0);
+
+    html2canvas(target, { allowTaint: true }).then(canvas => {
+      data['eval_img'] = canvas.toDataURL("image/png");
+      console.log(canvas.toDataURL("image/png"));
+      $(window).scrollTop(height);
+
+      this.loading.save = 1;
+      this.evalService.saveEval(data).subscribe(x => {
+
+      },
+        () => { this.loading.save = 0; },
+        () => {
+          this.loading.save = 0;
+        });
+
     });
+
+    console.log("complete");
 
   }
 
-  getImage(){
+  getImage() {
 
-    // var target = this.targetEvalItem.nativeElement;
+    var target = document.getElementById("targetEvalItem");
 
-    var target = document.body;
-    target = document.getElementById("targetEvalItem");
-    
     let height = $(window).scrollTop();
-    // let target2 = document.getElementById("html2canvasContrainer");
 
-    // target2.innerHTML = target.innerHTML;
     $(window).scrollTop(0);
-  
-    console.log(height);
-    console.log(target);
 
-      html2canvas(target,{allowTaint : true}).then(function(canvas:any) {
-        console.log(canvas);
-        console.log(canvas.toDataURL('image/png'));
-        $("#result").html(canvas);
-        $(window).scrollTop(height);
+
+    html2canvas(target, { allowTaint: true }).then(function (canvas: any) {
+      $("#result").html(canvas);
+      console.log(canvas.toDataURL());
+      $(window).scrollTop(height);
     });
 
-   
-
-   
   }
 
 }

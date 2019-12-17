@@ -121,30 +121,30 @@
         <div class="eval_container_02">
             <div class="eval_container_outer_02">
                 <div class="outer_matter_02 eval_artist_date_02">
-                    <div class="eval_matter_02 eval_artist_02">아드니아 콘체른</div>
-                    <div class="eval_matter_02 eval_date_02">2026.12.24~</div>
+                    <div class="eval_matter_02 eval_artist_02">{{artist.art_name}}</div>
+                    <div class="eval_matter_02 eval_date_02">{{workItem.create_date|date:'yyyy-MM-dd'}}<span *ngIf = "work.create_end_date2 != null">~{{workItem.create_end_date2|date:'yyyy-MM-dd'}}</span></div>
                 </div>
-                <div class="outer_matter_02 eval_matter_02 eval_subject_02">달묘전설 라이프</div>
+                <div class="outer_matter_02 eval_matter_02 eval_subject_02">{{work.subject}}</div>
                 <div class="outer_matter_02 eval_type1_type2_02">
-                    <div class="eval_matter_02 eval_type1_02">보는것</div>
-                    <div class="eval_matter_02 eval_type2_02">episode</div>
+                    <div class="eval_matter_02 eval_type1_02">{{workItem.type2.type1Dto.type1_name}}</div>
+                    <div class="eval_matter_02 eval_type2_02">{{workItem.type2.type2_name}}</div>
                 </div>
 
             </div>
-            <div class="eval_matter_02 eval_subjectMatter_02">유니크</div>
+            <div class="eval_matter_02 eval_subjectMatter_02">{{eval.subjectMatter.value}}</div>
             <div class="eval_container_inner_02">
-                <div class="eval_text_02 eval_content_text1_02">죽었다가 부활한 달묘전설, 우주의 창의력으로 무장한 돌직구 똘기</div>
+                <div class="eval_text_02 eval_content_text1_02">{{eval.ev_text1.value}}</div>
                 <div class="eval_evaluation_content_02">
-                    <div class="arrow_02 eval_sq_arrow_02 eval_arrow_warning_02 active"><br>W</div>
-                    <div class="arrow_02 eval_arrow_02 eval_arrow_bad_02"></div>
-                    <div class="arrow_02 eval_arrow_02 eval_arrow_bad_02"></div>
+                    <div class="arrow_02 eval_sq_arrow_02 eval_arrow_warning_02" [ngClass] = "{'active':eval.button2 == 1}"><br>W</div>
+                    <div class="arrow_02 eval_arrow_02 eval_arrow_bad_02" [ngClass] = "{'active':eval.button2 == 2}"></div>
+                    <div class="arrow_02 eval_arrow_02 eval_arrow_bad_02" [ngClass] = "{'active':eval.button2 == 3}"></div>
                     <div class="between_bad_good"></div>
-                    <div class="arrow_02 eval_arrow_02 eval_arrow_good_02"></div>
-                    <div class="arrow_02 eval_sq_arrow_02 eval_arrow_reco_02"><br>R</div>
-                    <div class="arrow_02 eval_arrow_02 eval_arrow_very_good_02"></div>
-                    <div class="arrow_02 eval_sq_arrow_02 eval_arrow_excellect_02"></div>
+                    <div class="arrow_02 eval_arrow_02 eval_arrow_good_02" [ngClass] = "{'active':eval.button2 == 4}"></div>
+                    <div class="arrow_02 eval_sq_arrow_02 eval_arrow_reco_02" [ngClass] = "{'active':eval.button2 == 5}"><br>R</div>
+                    <div class="arrow_02 eval_arrow_02 eval_arrow_very_good_02" [ngClass] = "{'active':eval.button2 == 6}"></div>
+                    <div class="arrow_02 eval_sq_arrow_02 eval_arrow_excellect_02" [ngClass] = "{'active':eval.button2 == 7}"></div>
                 </div>
-                <div class="eval_text_02 eval_content_text2_02">감동 최적화된 완성도, 거대한 떡밥은 덤</div>
+                <div class="eval_text_02 eval_content_text2_02">{{eval.ev_text2.value}}</div>
             </div>
         </div>
     </div>

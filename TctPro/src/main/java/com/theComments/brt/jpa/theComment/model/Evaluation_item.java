@@ -13,6 +13,7 @@ import javax.persistence.NamedAttributeNode;
 import javax.persistence.NamedEntityGraph;
 import javax.persistence.NamedSubgraph;
 import javax.persistence.OneToMany;
+import javax.persistence.OneToOne;
 import javax.persistence.SqlResultSetMapping;
 
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -83,6 +84,9 @@ public class Evaluation_item {
 	
 	@OneToMany(mappedBy = "evaluation_item")
 	List<Evaluate> evaluate;
+	
+	@OneToMany(mappedBy = "eval_item")
+	List<FileSave> fileSave;
 
 	
 	

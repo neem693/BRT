@@ -1,5 +1,10 @@
 package com.theComments.brt.app.eval.service;
 
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.OutputStream;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -10,6 +15,7 @@ import java.util.Set;
 
 import javax.servlet.http.HttpServletRequest;
 
+import org.apache.tomcat.util.codec.binary.Base64;
 import org.bouncycastle.crypto.RuntimeCryptoException;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,6 +27,8 @@ import org.springframework.transaction.annotation.Transactional;
 
 import com.fasterxml.jackson.databind.ser.std.StdKeySerializers.Dynamic;
 import com.theComments.brt.app.common.CommonSecure;
+import com.theComments.brt.app.common.FileManager;
+import com.theComments.brt.constFile.FileConst;
 import com.theComments.brt.constFile.PageConst;
 import com.theComments.brt.jpa.dto.ArtistDto;
 import com.theComments.brt.jpa.dto.EvaluateDto;
@@ -45,6 +53,8 @@ import com.theComments.brt.jpa.theComment.model.Evaluation_item;
 import com.theComments.brt.jpa.theComment.model.FileSave;
 import com.theComments.brt.jpa.theComment.model.Works;
 import com.theComments.brt.util.ResultMap;
+
+import sun.misc.BASE64Decoder;
 
 @Service
 public class EvalService {
@@ -107,6 +117,15 @@ public class EvalService {
 		BeanUtils.copyProperties(work, worksDto);
 		BeanUtils.copyProperties(artist, artistDto);
 		
+		//type start
+		Type2Dto type2Dto = new Type2Dto();
+		BeanUtils.copyProperties(work.getType2(), type2Dto);
+		Type1Dto type1Dto = new Type1Dto();
+		BeanUtils.copyProperties(work.getType2().getType1(), type1Dto);
+		type2Dto.setType1Dto(type1Dto);
+		worksDto.setType2(type2Dto);
+		//type end
+		
 		Map<String,Object> data = new HashMap();
 		
 		data.put("work", worksDto);
@@ -147,9 +166,11 @@ public class EvalService {
 	public ResultMap saveEval(Map<String, Object> param) {
 		// TODO Auto-generated method stub
 		
-		String ev_text1 = "",ev_text2 = "",subjectMatter = "";
+		String ev_text1 = "",ev_text2 = "",subjectMatter = "",base64_evalImage = "";
 		int ev_value = 0;
 		Long work_id = 0L;
+		
+		byte[] evalImageByte;
 		
 		ev_text1 = param.get("ev_text1").toString();
 		ev_text2 = param.get("ev_text2").toString();
@@ -157,6 +178,7 @@ public class EvalService {
 		
 		ev_value = Integer.parseInt(param.get("button2").toString());
 		work_id = Long.parseLong(param.get("work_id").toString());
+		base64_evalImage = param.get("eval_img").toString().split(",")[1];
 		
 		SimpleUserDto simpleUserDto = CommonSecure.getSimpleUserDto(request);
 		Optional<Eva_user> eva_user = eva_user_dao.findById(simpleUserDto.getUserId());
@@ -176,6 +198,38 @@ public class EvalService {
 		if(subjectMatter.length() ==0 ||  subjectMatter.length() >30) {
 			throw new RuntimeException("matter over character");
 		}
+		if(base64_evalImage.isEmpty()) {
+			throw new RuntimeException("evalImage empty");
+		}
+		
+		/// evalmage WORK START /////
+		evalImageByte = Base64.decodeBase64(base64_evalImage);
+		if(evalImageByte.length > FileConst.FILE_SIZE.ONE_MEGA_BYTE) {
+			
+			throw new RuntimeException("evalImage ERROR FILE SIZE LIMIT EXCESS");
+			
+		}
+		File evalImageFile = new File(FileConst.UPLOAD_CONST.UPLOAD_BASE_PATH);
+		FileSave fileSave;
+		try {
+//			new File(evalImageFile.getCanonicalPath() + FileConst.UPLOAD_CONST.EVAL_IMAGE_BASE_PATH).mkdirs();
+//			OutputStream evalImageOut = new FileOutputStream(evalImageFile.getCanonicalPath() + "/evalImage/test.png");
+//			evalImageOut.write(evalImageByte);
+			fileSave = FileManager.fileSave("EvalImage.png", evalImageByte, FileConst.UPLOAD_CONST.EVAL_IMAGE_BASE_PATH, "png");
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+			throw new RuntimeException("evalImage ERROR");
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+			throw new RuntimeException("evalImage ERROR");
+		} catch (Exception e) {
+			// TODO: handle exception
+			e.printStackTrace();
+			throw new RuntimeException("evalImage ERROR");
+		}
+		/// evalmage END !!!IMPORTANT!!! filesave save the information of eval item image file/////
 		
 		WorksDto workdto = new WorksDto();
 		workdto.setWork_id(work_id);
