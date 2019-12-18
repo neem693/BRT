@@ -44,6 +44,7 @@ import com.theComments.brt.jpa.theComment.dao.Eva_user_dao;
 import com.theComments.brt.jpa.theComment.dao.EvalDynamicQueryDao;
 import com.theComments.brt.jpa.theComment.dao.Evaluate_dao;
 import com.theComments.brt.jpa.theComment.dao.Evaluation_item_dao;
+import com.theComments.brt.jpa.theComment.dao.FileSave_dao;
 import com.theComments.brt.jpa.theComment.dao.Works_dao;
 import com.theComments.brt.jpa.theComment.model.Artist;
 import com.theComments.brt.jpa.theComment.model.Create_art;
@@ -76,6 +77,9 @@ public class EvalService {
 	
 	@Autowired
 	EvalDynamicQueryDao evalDynamicQueryDao;
+	
+	@Autowired
+	FileSave_dao fileSaveDao;
 
 	/**
 	 * 
@@ -263,6 +267,14 @@ public class EvalService {
 		eval.setWorks(work_for_saveEval);
 		
 		eval = eval_dao.save(eval);
+		
+		///file save start (img)////
+		
+		fileSave.setEval_item(item);
+		fileSave = fileSaveDao.save(fileSave);
+		
+		/////file save end(img)///
+		
 		
 		ResultMap result = new ResultMap();
 		result.setResult(200);

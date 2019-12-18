@@ -352,7 +352,19 @@
 </node>
 <node COLOR="#3333ff" CREATED="1576469381410" ID="ID_1250871602" MODIFIED="1576469432221" STYLE="bubble" TEXT="&#xd3c9;&#xac00;&#xb97c; &#xb4f1;&#xb85d;&#xd560; &#xb54c; &#xd574;&#xb2f9;&#xd558;&#xb294; &#xd3c9;&#xac00; &#xc774;&#xbbf8;&#xc9c0;&#xb3c4; &#xac19;&#xc774; &#xc804;&#xc1a1;&#xd574;&#xc57c; &#xd568;.(&#xc624;&#xd508;&#xadf8;&#xb798;&#xd504;&#xc5d0;&#xc11c; &#xc4f0;&#xc784;)">
 <font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
-<node CREATED="1576469443490" ID="ID_457335148" MODIFIED="1576469519837" TEXT="&#xc800;&#xc791;&#xbb3c; &#xac80;&#xc0c9;&#xc2dc;&#xc5d0;"/>
+<node CREATED="1576469443490" FOLDED="true" ID="ID_457335148" MODIFIED="1576681678615" TEXT="&#xd574;&#xb2f9; &#xc774;&#xbbf8;&#xc9c0;">
+<node CREATED="1576681675345" MODIFIED="1576681675345">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="&#xd3c9;&#xac00;Test_ERD_7280592952798569157.jpeg" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
 </node>
 </node>
 <node CREATED="1570384541341" ID="ID_299164639" MODIFIED="1576156375331" POSITION="right" TEXT="&#xad6c;&#xd604;&#xd574;&#xc57c; &#xd560;&#xac83;">

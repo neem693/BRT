@@ -1,16 +1,17 @@
 package com.theComments.brt.app.eval.controller;
 
+
+import java.util.Set;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import com.theComments.brt.app.eval.service.EvalService;
 import com.theComments.brt.jpa.theComment.model.Evaluation_item;
 import com.theComments.brt.jpa.theComment.model.FileSave;
-import com.theComments.brt.jpa.theComment.model.FileSave_;
 import com.theComments.brt.jpa.theComment.model.Works;
 
 @Controller
@@ -37,7 +38,8 @@ public class EvalController {
 		model.addAttribute("work", work);
 		FileSave fileSave = work.getFileSave().iterator().next();
 		model.addAttribute("work_file", fileSave);
-		
+		FileSave fileSave_eval = item.getFileSave().iterator().next();
+		model.addAttribute("eval_file", fileSave_eval);
 		
 		return "/view/evalShareDetail";
 	}

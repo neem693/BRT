@@ -314,6 +314,14 @@ export class EvalSerachComponent implements OnInit {
   }
 
 
+  /**
+   * go to Detail of evalItem detail
+   */
+  goToDetail(item:any){
+    this.router.navigate(["/eval/evalDetail",item.eval_item_id]);
+  }
+
+
   
 
 }

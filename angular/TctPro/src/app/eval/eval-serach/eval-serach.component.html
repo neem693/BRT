@@ -70,7 +70,7 @@
         <div class="clear"></div>
     </div>
     <div class="eval_eval_list">
-        <div *ngFor="let item of evalData.list; let i = index; let last = last"  class="eval_container_01" id="eval_con_{{i}}" >
+        <div *ngFor="let item of evalData.list; let i = index; let last = last" (click) = "goToDetail(item)"  class="eval_container_01" id="eval_con_{{i}}" >
             <div class="eval_container_outer_01">
                 <div class="outer_matter_01 eval_artist_date_01">
                     <div class="eval_matter_01 eval_artist_01"><span *ngFor="let artist of item.work.artistDtoList; let a_i = index; let a_last = last">{{artist.art_name}}{{a_last ? '' : ','}}</span></div>

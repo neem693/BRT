@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
-<meta property="og:title" content="The Rock" />
-<meta property="og:type" content="video.movie" />
-<meta property="og:url" content="http://www.imdb.com/title/tt0117500/" />
+<meta property="og:title" th:content="${work.subject}" />
+<meta property="og:type" content="website" />
+<meta property="og:url"  content="http://220.72.89.96/eval/share/353" />
 <meta property="og:image"
-	content="http://ia.media-imdb.com/images/rock.jpg" />
+	th:content="'http://220.72.89.96/tctFile/evalImage/' + ${eval_file.save_file_name}" />
 <meta charset="UTF-8">
 <title>titleShare</title>
 </head>
@@ -13,6 +13,8 @@
 
 	wefwf
 	<div th:text="${eval}"></div>
+	<div th:text="${eval_file.save_file_name}"></div>
+	<div th:text="${eval_file.file_name}"></div>
 
 </body>
 </html>

@@ -9,8 +9,6 @@ import { RESULT } from 'src/const/publicConst';
 declare const $: any;
 declare const html2canvas: any;
 
-
-
 @Component({
   selector: 'app-add-eval',
   templateUrl: './add-eval.component.html',

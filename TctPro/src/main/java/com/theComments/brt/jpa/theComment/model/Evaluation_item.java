@@ -1,6 +1,7 @@
 package com.theComments.brt.jpa.theComment.model;
 
 import java.util.List;
+import java.util.Set;
 
 import javax.persistence.Column;
 import javax.persistence.ColumnResult;
@@ -14,6 +15,7 @@ import javax.persistence.NamedEntityGraph;
 import javax.persistence.NamedSubgraph;
 import javax.persistence.OneToMany;
 import javax.persistence.OneToOne;
+import javax.persistence.OrderColumn;
 import javax.persistence.SqlResultSetMapping;
 
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -25,6 +27,7 @@ import lombok.Setter;
 		name = "evaluation_item.listMain",
 		attributeNodes = {
 				@NamedAttributeNode(value = "evaluate",subgraph = "item_eval"),
+				@NamedAttributeNode(value = "fileSave")
 		},
 		subgraphs = {
 			@NamedSubgraph(
@@ -86,7 +89,7 @@ public class Evaluation_item {
 	List<Evaluate> evaluate;
 	
 	@OneToMany(mappedBy = "eval_item")
-	List<FileSave> fileSave;
+	Set<FileSave> fileSave;
 
 	
 	
