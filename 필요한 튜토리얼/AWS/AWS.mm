@@ -154,8 +154,7 @@
   <body>
     <img src="AWS_7213663713128041274.jpeg" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1576734594540" ID="ID_1886040021" MODIFIED="1576734597654" TEXT="&#xcef4;&#xd4e8;&#xd305;">
@@ -184,8 +183,7 @@
   <body>
     <img src="AWS_7365072174774518177.jpeg" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -205,8 +203,7 @@
   <body>
     <img src="AWS_7923545575569390050.jpeg" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1576737188142" ID="ID_287287966" MODIFIED="1576737190182" TEXT="&#xad6c;&#xc131;">
@@ -230,7 +227,7 @@
 <node CREATED="1576737338691" ID="ID_1087681863" MODIFIED="1576737346886" TEXT="JSON &#xd615;&#xd0dc;&#xb85c; &#xc800;&#xc7a5;&#xb418;&#xba70; &#xac01; &#xadf8;&#xb8f9;, &#xc0ac;&#xc6a9;&#xc790; &#xc5ed;&#xd560;&#xc5d0; &#xbd80;&#xc5ec;&#xd560; &#xc218; &#xc788;&#xc74c;"/>
 </node>
 </node>
-<node CREATED="1576737473028" ID="ID_605865608" MODIFIED="1576737481297" TEXT="&#xc811;&#xc18d;&#xbc29;&#xbc95;">
+<node CREATED="1576737473028" FOLDED="true" ID="ID_605865608" MODIFIED="1579350723130" TEXT="&#xc811;&#xc18d;&#xbc29;&#xbc95;">
 <node CREATED="1576737482029" ID="ID_340392070" MODIFIED="1576737485701" TEXT="AWS &#xad00;&#xb9ac; &#xcf58;&#xc194;">
 <node CREATED="1576737492778" ID="ID_1194628690" MODIFIED="1576737507352" TEXT="&#xcf58;&#xc194;&#xc740; IAM &#xbc0f; AWS &#xb9ac;&#xc18c;&#xc2a4;&#xb97c; &#xad00;&#xb9ac;&#xd558;&#xae30; &#xc704;&#xd55c; &#xbe0c;&#xb77c;&#xc6b0;&#xc800; &#xae30;&#xbc18; &#xc778;&#xd130;&#xd398;&#xc774;&#xc2a4;"/>
 </node>
@@ -255,6 +252,245 @@
 <node CREATED="1576737954856" ID="ID_1979427555" MODIFIED="1576737965409" TEXT="&#xacb0;&#xc81c; &#xb300;&#xc2dc;&#xbcf4;&#xb4dc;&#xc5d0;&#xc11c; &#xc81c;&#xacf5;&#xd558;&#xb294; &#xbe44;&#xc6a9; &#xc54c;&#xb78c;&#xc744; &#xbc18;&#xb4dc;&#xc2dc; &#xccb4;&#xd06c;"/>
 <node CREATED="1576737965682" ID="ID_490269871" MODIFIED="1576737988788" TEXT="&#xd074;&#xb77c;&#xc6b0;&#xb4dc; &#xc640;&#xce58;&#xb97c; &#xd1b5;&#xd574; &#xc77c;&#xc815; &#xbe44;&#xc6a9; &#xc774;&#xc0c1;&#xc774; &#xcd08;&#xacfc;&#xb418;&#xba74; &#xacb0;&#xc81c; &#xc815;&#xbcf4; &#xc54c;&#xb78c;&#xc774; &#xb728;&#xb3c4;&#xb85d; &#xc124;&#xc815;"/>
 <node CREATED="1576737989907" ID="ID_630853157" MODIFIED="1576738018091" TEXT="&#xc2e4;&#xc81c; &#xc11c;&#xbe44;&#xc2a4; &#xd658;&#xacbd;&#xc5d0;&#xc11c; &#xb8e8;&#xd2b8; &#xacc4;&#xc815;&#xc744; &#xc0ac;&#xc6a9;&#xd558;&#xae30; &#xbcf4;&#xb2e8;, &#xb8e8;&#xd2b8; &#xacc4;&#xc815;&#xc740; &#xc0ac;&#xc6a9;&#xc790;&#xb97c; &#xc0dd;&#xc131;&#xd558;&#xb294; &#xc6a9;&#xb3c4;&#xb85c;&#xb9cc; &#xc0ac;&#xc6a9;&#xd558;&#xc5ec; &#xd544;&#xc694;&#xd55c; &#xad8c;&#xd55c;&#xc744; &#xbd80;&#xc5ec;&#xd55c; &#xc0ac;&#xc6a9;&#xc790;&#xb4e4;&#xc744; &#xc774;&#xc6a9;&#xd574; &#xcf58;&#xc194;&#xc5d0; &#xc811;&#xc18d;"/>
+</node>
+</node>
+</node>
+<node CREATED="1579410642492" ID="ID_1480198027" MODIFIED="1579410644714" POSITION="right" TEXT="ECS">
+<node CREATED="1579350725179" ID="ID_530128811" MODIFIED="1579350734842" TEXT="&#xac00;&#xc0c1;&#xd654; &#xae30;&#xc220;&#xc758; &#xbbf8;&#xb798;">
+<node CREATED="1579350753266" FOLDED="true" ID="ID_235326542" MODIFIED="1579410614822" TEXT="&#xcee8;&#xd14c;&#xc774;&#xb108; &#xae30;&#xc220;">
+<node CREATED="1579350912333" FOLDED="true" ID="ID_461673112" MODIFIED="1579410297024" TEXT="&#xd558;&#xc774;&#xd37c;&#xbc14;&#xc774;&#xc800; &#xac00;&#xc0c1;&#xd654; vs &#xcee8;&#xd14c;&#xc774;&#xb108; &#xac00;&#xc0c1;&#xd654;(&#xc774;&#xbbf8;&#xc9c0;)">
+<node CREATED="1579350944781" ID="ID_931504326" MODIFIED="1579350944781">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="AWS_2865459718414725153.jpeg" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1579350767494" FOLDED="true" ID="ID_1177709772" MODIFIED="1579410614825" TEXT="&#xcee8;&#xd14c;&#xc774;&#xb108; &#xae30;&#xc220;&#xc758; &#xd2b9;&#xc9d5;">
+<node CREATED="1579350776492" ID="ID_801516838" MODIFIED="1579350785659" TEXT="&#xc0c8;&#xb85c;&#xc6b4; &#xae30;&#xc220; &#xd658;&#xacbd; &#xc124;&#xc815;&#xc758; &#xd6a8;&#xc728;&#xd654;"/>
+<node CREATED="1579350785851" ID="ID_178823454" MODIFIED="1579350790684" TEXT="&#xd074;&#xb77c;&#xc6b0;&#xb4dc; &#xd658;&#xacbd;&#xc5d0;&#xc11c; &#xb3c4;&#xcee4;"/>
+</node>
+<node CREATED="1579350771563" FOLDED="true" ID="ID_656860773" MODIFIED="1579410614825" TEXT="&#xb3c4;&#xcee4;">
+<node CREATED="1579410597844" ID="ID_1848657485" MODIFIED="1579410602617" TEXT="&#xb3c4;&#xcee4; &#xac00;&#xc0c1;&#xd654;(&#xc774;&#xbbf8;&#xc9c0;)">
+<node CREATED="1579410603288" ID="ID_803131700" MODIFIED="1579410603288">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="AWS_7888888032942224084.jpeg" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1579410646380" ID="ID_1628736762" MODIFIED="1579410672880" TEXT="AWS &#xcee8;&#xd14c;&#xc774;&#xb108; &#xc11c;&#xbe44;&#xc2a4;">
+<node CREATED="1579410687433" ID="ID_951692795" MODIFIED="1579410933241" TEXT="ECS(&#xc774;&#xbbf8;&#xc9c0;)">
+<node CREATED="1579410946282" MODIFIED="1579410946282">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="AWS_6495679910378508001.jpeg" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1579410692406" ID="ID_1081374920" MODIFIED="1579411338943" TEXT="ECS &#xad6c;&#xc131;&#xc694;&#xc18c;">
+<node CREATED="1579411346304" FOLDED="true" ID="ID_46856953" MODIFIED="1579411981585" TEXT="&#xd074;&#xb7ec;&#xc2a4;&#xd130;(&#xc774;&#xbbf8;&#xc9c0;)">
+<node CREATED="1579411978222" ID="ID_989051081" MODIFIED="1579411978222">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="AWS_7069323846652178044.jpeg" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1579411351477" ID="ID_1529302530" MODIFIED="1579411352130" TEXT="&#xc791;&#xc5c5;"/>
+<node CREATED="1579411352299" ID="ID_1068719715" MODIFIED="1579411353632" TEXT="&#xc791;&#xc5c5;&#xc815;&#xc758;"/>
+<node CREATED="1579411353846" ID="ID_1391297348" MODIFIED="1579411355779" TEXT="&#xc11c;&#xbe44;&#xc2a4;"/>
+<node CREATED="1579411355984" ID="ID_185016112" MODIFIED="1579411358332" TEXT="&#xcee8;&#xd14c;&#xc774;&#xb108; &#xc778;&#xc2a4;&#xd134;&#xc2a4;"/>
+</node>
+<node CREATED="1579412576248" ID="ID_1167233194" MODIFIED="1579412578135" TEXT="&#xd30c;&#xac8c;&#xc774;&#xd2b8;"/>
+</node>
+<node CREATED="1579412649940" ID="ID_107255975" MODIFIED="1579412653803" TEXT="AWS VPC">
+<node CREATED="1579412655131" FOLDED="true" ID="ID_691056770" MODIFIED="1579412842310" TEXT="&#xac00;&#xc0c1; &#xc0ac;&#xc124;&#xb9dd;&#xc774;&#xb780;?">
+<node CREATED="1579412781255" ID="ID_69040603" MODIFIED="1579412797017" TEXT="&#xd06c;&#xd0a4;&#xac00; &#xd070; &#xd558;&#xb098;&#xc758; &#xb124;&#xd2b8;&#xc6cc;&#xd06c;&#xb9dd;&#xc744; &#xc791;&#xace0; &#xb3c5;&#xb9bd;&#xc801;&#xc778; &#xb2e8;&#xc704;&#xb85c; &#xb098;&#xb204;&#xace0; &#xc561;&#xc138;&#xc2a4;&#xb97c; &#xbd84;&#xb9ac;&#xd558;&#xc5ec; &#xad6c;&#xcd95;&#xd558;&#xb294; &#xd615;&#xd0dc;&#xc758; &#xb124;&#xd2b8;&#xc6cc;&#xd06c;&#xb97c; &#xb9d0;&#xd568;"/>
+</node>
+<node CREATED="1579412805123" FOLDED="true" ID="ID_1033031731" MODIFIED="1579413830934" TEXT="CIDR &#xd45c;&#xae30;&#xbc95;(&#xc774;&#xbbf8;&#xc9c0;)">
+<node CREATED="1579412814452" ID="ID_568719616" MODIFIED="1579412814452">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="AWS_2077682962969783180.jpeg" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1579412844626" ID="ID_1950380182" MODIFIED="1579412850658" TEXT="&#xc0ac;&#xc124; IP&#xc640; RFC1918"/>
+<node CREATED="1579413721060" FOLDED="true" ID="ID_169622442" MODIFIED="1579413832330" TEXT="AWS VPC&#xc774;&#xb780;?(&#xc774;&#xbbf8;&#xc9c0;)">
+<node CREATED="1579413732826" ID="ID_152948478" MODIFIED="1579413732826">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="AWS_7187899261679593134.jpeg" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1579413762185" FOLDED="true" ID="ID_813840808" MODIFIED="1579413833241" TEXT="VPC&#xc758; &#xad6c;&#xc131;&#xc694;&#xc18c;(&#xc774;&#xbbf8;&#xc9c0;)">
+<node CREATED="1579413827308" ID="ID_1670369202" MODIFIED="1579413827308">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="AWS_3137169548367194947.jpeg" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1579413844667" FOLDED="true" ID="ID_880437326" MODIFIED="1579416349902" TEXT="&#xc11c;&#xbe0c;&#xb137;(&#xc774;&#xbbf8;&#xc9c0;)">
+<node CREATED="1579413881406" ID="ID_1730227306" MODIFIED="1579413881406">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="AWS_5713617535781965011.jpeg" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1579413967570" FOLDED="true" ID="ID_14670955" MODIFIED="1579416450997" TEXT="&#xb77c;&#xc6b0;&#xd305; &#xd14c;&#xc774;&#xbe14;&#xacfc; &#xb77c;&#xc6b0;&#xd130;(&#xc774;&#xbbf8;&#xc9c0;)">
+<node CREATED="1579416449870" MODIFIED="1579416449870">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="AWS_4420378050314196647.jpeg" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1579416539059" FOLDED="true" ID="ID_824079971" MODIFIED="1579416651226" TEXT="&#xc778;&#xd130;&#xb137; &#xac8c;&#xc774;&#xd2b8;&#xc6e8;&#xc774;(&#xc774;&#xbbf8;&#xc9c0;)">
+<node CREATED="1579416650098" MODIFIED="1579416650098">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="AWS_7698577072227232400.jpeg" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1579416655133" FOLDED="true" ID="ID_489496757" MODIFIED="1579416908860" TEXT="&#xbcf4;&#xc548;&#xadf8;&#xb8f9;(&#xc774;&#xbbf8;&#xc9c0;)">
+<node CREATED="1579416769444" ID="ID_482032064" MODIFIED="1579416769444">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="AWS_3296495390107581563.jpeg" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1579416922974" ID="ID_277973881" MODIFIED="1579416929597" TEXT="&#xc5d8;&#xb77c;&#xc2a4;&#xd2f1; &#xb85c;&#xb4dc; &#xbc38;&#xb7f0;&#xc2f1;(ELB)">
+<node CREATED="1579416967716" ID="ID_552645282" MODIFIED="1579418469810" TEXT="&#xc5d8;&#xb77c;&#xc2a4;&#xd2f1; &#xb85c;&#xb4dc; &#xbc38;&#xb7f0;&#xc2f1;(&#xc774;&#xbbf8;&#xc9c0;)">
+<node CREATED="1579418469811" FOLDED="true" ID="ID_1147194403" MODIFIED="1579418577324" TEXT="&#xb85c;&#xb4dc;&#xbc38;&#xb7f0;&#xc2a4;&#xac00; &#xc5c6;&#xb294; &#xacbd;&#xc6b0;(&#xc774;&#xbbf8;&#xc9c0;)">
+<node CREATED="1579418526953" ID="ID_315272781" MODIFIED="1579418526953">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="AWS_8315952899695641085.jpeg" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1579418478104" FOLDED="true" ID="ID_1987307411" MODIFIED="1579418573921" TEXT="&#xb85c;&#xb4dc;&#xbc38;&#xb7f0;&#xc2a4;&#xac00; &#xc788;&#xb294; &#xacbd;&#xc6b0;(&#xc774;&#xbbf8;&#xc9c0;)">
+<node CREATED="1579418571797" ID="ID_500083320" MODIFIED="1579418571797">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="AWS_5733677889270683424.jpeg" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1579418580887" ID="ID_1227497528" MODIFIED="1579418587833" TEXT="&#xd074;&#xb798;&#xc2dd; ELB&#xc640; &#xc560;&#xd50c;&#xb9ac;&#xcf00;&#xc774;&#xc158; ELB">
+<node CREATED="1579418592691" FOLDED="true" ID="ID_1685271630" MODIFIED="1579418653278" TEXT="ELB &#xbe44;&#xad50;(&#xc774;&#xbbf8;&#xc9c0;)">
+<node CREATED="1579418648564" MODIFIED="1579418648564">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="AWS_7327146955058084366.jpeg" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1579418667597" FOLDED="true" ID="ID_1892101599" MODIFIED="1579418703501" TEXT="&#xd074;&#xb798;&#xc2dd; ELB(&#xc774;&#xbbf8;&#xc9c0;)">
+<node CREATED="1579418702357" ID="ID_1849941307" MODIFIED="1579418702357">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="AWS_1051749559487070926.jpeg" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1579418760757" ID="ID_1104738795" MODIFIED="1579418765349" TEXT="&#xc5b4;&#xd50c;&#xb9ac;&#xcf00;&#xc774;&#xc158; ELB(&#xc774;&#xbbf8;&#xc9c0;)">
+<node CREATED="1579418792282" MODIFIED="1579418792282">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="AWS_1798015272494450874.jpeg" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
 </node>
 </node>
 </node>

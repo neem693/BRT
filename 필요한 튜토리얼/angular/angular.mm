@@ -1,8 +1,8 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1563522454767" ID="ID_1812649479" MODIFIED="1573287252869" TEXT="angular">
-<hook NAME="accessories/plugins/RevisionPlugin.properties"/>
 <hook NAME="accessories/plugins/CreationModificationPlugin_new.properties"/>
+<hook NAME="accessories/plugins/RevisionPlugin.properties"/>
 <node CREATED="1563522718142" FOLDED="true" ID="ID_1024043872" MODIFIED="1575183880733" POSITION="right" TEXT="&#xd604;&#xc7ac; &#xd29c;&#xd1a0;&#xb9ac;&#xc5bc;">
 <node CREATED="1563522713920" ID="ID_792755994" LINK="https://www.tutorialspoint.com/angular7/angular7_project_setup.htm" MODIFIED="1563522716082" TEXT="https://www.tutorialspoint.com/angular7/angular7_project_setup.htm"/>
 </node>
@@ -102,7 +102,7 @@
 <node CREATED="1563894476943" FOLDED="true" ID="ID_543289386" MODIFIED="1575183880735" POSITION="right" TEXT="&#xac4d; &#xc774;&#xba54;&#xc77c;&#xc740; &#xadf8;&#xb0e5; &#xc774;&#xac70; &#xc368;&#xb77c;">
 <node CREATED="1563894578067" ID="ID_35178321" LINK="mailto:()\[\]\\.,;:\s@&quot;]+(\.[^" MODIFIED="1563895327656" TEXT="regexp = new RegExp( &#x9;&#xa;/^(([^&lt;&gt;()\[\]\\.,;:\s@&quot;]+(\.[^&lt;&gt;()\[\]\\.,;:\s@&quot;]+)*)|(&quot;.+&quot;))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;"/>
 </node>
-<node COLOR="#3333ff" CREATED="1563896414568" ID="ID_391363340" MODIFIED="1576031147848" POSITION="right" STYLE="bubble" TEXT="vscode &#xcf54;&#xb4dc; &#xc815;&#xb82c;">
+<node COLOR="#3333ff" CREATED="1563896414568" FOLDED="true" ID="ID_391363340" MODIFIED="1578229580760" POSITION="right" STYLE="bubble" TEXT="vscode &#xcf54;&#xb4dc; &#xc815;&#xb82c;">
 <font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
 <node COLOR="#3333ff" CREATED="1563896419795" ID="ID_1497481914" MODIFIED="1568448134398" STYLE="bubble" TEXT="ctrl +k, ctrl + f">
 <font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
@@ -112,7 +112,7 @@
 </node>
 <node CREATED="1570554746640" ID="ID_447236691" LINK="https://stackoverflow.com/questions/37739375/visual-studio-code-css-indentation-and-formatting" MODIFIED="1570554746640" TEXT="https://stackoverflow.com/questions/37739375/visual-studio-code-css-indentation-and-formatting"/>
 </node>
-<node COLOR="#3333ff" CREATED="1571175807839" ID="ID_1598325439" MODIFIED="1576031149470" POSITION="right" STYLE="bubble" TEXT="vscode &#xb77c;&#xc778; &#xc9c0;&#xc6b0;&#xae30;">
+<node COLOR="#3333ff" CREATED="1571175807839" FOLDED="true" ID="ID_1598325439" MODIFIED="1578229580760" POSITION="right" STYLE="bubble" TEXT="vscode &#xb77c;&#xc778; &#xc9c0;&#xc6b0;&#xae30;">
 <font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
 <node COLOR="#3333ff" CREATED="1571175812374" ID="ID_894401530" MODIFIED="1571175818057" STYLE="bubble" TEXT="CTRL + SHIFT + K">
 <font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
@@ -175,7 +175,7 @@
 <node CREATED="1563902886404" ID="ID_1257991095" MODIFIED="1563902886404" TEXT="}"/>
 </node>
 </node>
-<node COLOR="#3333ff" CREATED="1564062824311" ID="ID_1449702870" MODIFIED="1576255130026" POSITION="right" STYLE="bubble" TEXT="angular/meterial/datepicker &#xc774;&#xc6a9;&#xd560; &#xb54c;">
+<node COLOR="#3333ff" CREATED="1564062824311" FOLDED="true" ID="ID_1449702870" MODIFIED="1578229580761" POSITION="right" STYLE="bubble" TEXT="angular/meterial/datepicker &#xc774;&#xc6a9;&#xd560; &#xb54c;">
 <font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
 <node CREATED="1564062857846" ID="ID_818220073" LINK="https://material.angular.io/components/datepicker/overview" MODIFIED="1564062857846" TEXT="https://material.angular.io/components/datepicker/overview"/>
 <node CREATED="1564062858847" ID="ID_1638069554" MODIFIED="1571631790621" TEXT="&#xae30;&#xbcf8;&#xc801;&#xc778; &#xb85c;&#xc9c1;&#xc740; &#xc5ec;&#xae30;&#xc5d0; &#xc788;&#xb2e4;.">
@@ -550,7 +550,7 @@
 <node CREATED="1570478049991" LINK="https://google.github.io/material-design-icons/" MODIFIED="1570478049991" TEXT="https://google.github.io/material-design-icons/"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#ff3333" CREATED="1570481463185" FOLDED="true" ID="ID_1592856275" MODIFIED="1576031145493" POSITION="right" STYLE="bubble" TEXT="&#xd398;&#xc774;&#xc9c0; &#xb118;&#xae30;&#xae30;">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#ff3333" CREATED="1570481463185" ID="ID_1592856275" MODIFIED="1578229583577" POSITION="right" STYLE="bubble" TEXT="&#xd398;&#xc774;&#xc9c0; &#xb118;&#xae30;&#xae30;">
 <font BOLD="true" NAME="Dialog" SIZE="24"/>
 <node CREATED="1570481465245" ID="ID_779952897" MODIFIED="1570481465245" TEXT="routerLink"/>
 <node BACKGROUND_COLOR="#ffff00" CREATED="1575183944711" ID="ID_537337107" MODIFIED="1575183963861" TEXT="&#xb77c;&#xc6b0;&#xd130; &#xb9c1;&#xd06c;">
@@ -558,13 +558,13 @@
 <node CREATED="1575183950538" ID="ID_170533142" LINK="https://stackoverflow.com/questions/37880876/how-to-pass-query-parameters-with-a-routerlink" MODIFIED="1575183950538" TEXT="https://stackoverflow.com/questions/37880876/how-to-pass-query-parameters-with-a-routerlink"/>
 </node>
 <node CREATED="1570481470585" ID="ID_311617540" MODIFIED="1570481472068" TEXT="&#xc608;&#xc2dc;">
-<node CREATED="1570481472518" MODIFIED="1570481472518" TEXT="&lt;h1&gt;Angular 7 Routing Demo&lt;/h1&gt;"/>
-<node CREATED="1570481472519" MODIFIED="1570481472519" TEXT="&lt;nav&gt;">
-<node CREATED="1570481472520" MODIFIED="1570481472520" TEXT="&lt;a routerLink = &quot;/home&quot;&gt;Home&lt;/a&gt;"/>
-<node CREATED="1570481472520" MODIFIED="1570481472520" TEXT="&lt;a routerLink = &quot;/contactus&quot;&gt;Contact Us &lt;/a&gt;"/>
+<node CREATED="1570481472518" ID="ID_703120348" MODIFIED="1570481472518" TEXT="&lt;h1&gt;Angular 7 Routing Demo&lt;/h1&gt;"/>
+<node CREATED="1570481472519" ID="ID_741200355" MODIFIED="1570481472519" TEXT="&lt;nav&gt;">
+<node CREATED="1570481472520" ID="ID_895400653" MODIFIED="1570481472520" TEXT="&lt;a routerLink = &quot;/home&quot;&gt;Home&lt;/a&gt;"/>
+<node CREATED="1570481472520" ID="ID_1225877376" MODIFIED="1570481472520" TEXT="&lt;a routerLink = &quot;/contactus&quot;&gt;Contact Us &lt;/a&gt;"/>
 </node>
-<node CREATED="1570481472521" MODIFIED="1570481472521" TEXT="&lt;/nav&gt;"/>
-<node CREATED="1570481472522" MODIFIED="1570481472522" TEXT="&lt;router-outlet&gt;&lt;/router-outlet&gt;"/>
+<node CREATED="1570481472521" ID="ID_514207953" MODIFIED="1570481472521" TEXT="&lt;/nav&gt;"/>
+<node CREATED="1570481472522" ID="ID_1245223646" MODIFIED="1570481472522" TEXT="&lt;router-outlet&gt;&lt;/router-outlet&gt;"/>
 </node>
 <node COLOR="#3333ff" CREATED="1571065991422" ID="ID_1134816267" MODIFIED="1571166070177" STYLE="bubble" TEXT="How to get parameter on Angular2 route in Angular way?">
 <font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
@@ -1150,7 +1150,7 @@
 <font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
 <node CREATED="1572044993449" ID="ID_36841090" LINK="https://stackoverflow.com/questions/45470575/angular-4-httpclient-query-parameters" MODIFIED="1572047651209" TEXT="https://stackoverflow.com/questions/45470575/angular-4-httpclient-query-parameters"/>
 </node>
-<node COLOR="#3333ff" CREATED="1572047644732" ID="ID_765391266" MODIFIED="1576037142391" POSITION="right" STYLE="bubble" TEXT="ngClass">
+<node COLOR="#3333ff" CREATED="1572047644732" FOLDED="true" ID="ID_765391266" MODIFIED="1578229580761" POSITION="right" STYLE="bubble" TEXT="ngClass">
 <font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
 <node CREATED="1572047648254" ID="ID_144962375" LINK="https://angular.io/api/common/NgClass" MODIFIED="1572047650198" TEXT="https://angular.io/api/common/NgClass"/>
 <node CREATED="1572049325070" ID="ID_404444201" MODIFIED="1572049327243" TEXT="&#xcf54;&#xb4dc; &#xc608;&#xc2dc;">
