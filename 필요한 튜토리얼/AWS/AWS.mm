@@ -478,7 +478,7 @@
 </richcontent>
 </node>
 </node>
-<node CREATED="1579418760757" ID="ID_1104738795" MODIFIED="1579418765349" TEXT="&#xc5b4;&#xd50c;&#xb9ac;&#xcf00;&#xc774;&#xc158; ELB(&#xc774;&#xbbf8;&#xc9c0;)">
+<node CREATED="1579418760757" FOLDED="true" ID="ID_1104738795" MODIFIED="1579418794307" TEXT="&#xc5b4;&#xd50c;&#xb9ac;&#xcf00;&#xc774;&#xc158; ELB(&#xc774;&#xbbf8;&#xc9c0;)">
 <node CREATED="1579418792282" MODIFIED="1579418792282">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -490,6 +490,19 @@
 </html>
 </richcontent>
 </node>
+</node>
+</node>
+<node CREATED="1579418814411" ID="ID_905551007" MODIFIED="1579418958742" TEXT="&#xc0c1;&#xd0dc;&#xd655;&#xc778;(&#xc774;&#xbbf8;&#xc9c0;)">
+<node CREATED="1579418962928" MODIFIED="1579418962928">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="AWS_2654010067566673830.jpeg" />
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
