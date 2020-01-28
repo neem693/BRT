@@ -11,7 +11,7 @@
 <font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
 <node CREATED="1563522500194" ID="ID_137429030" MODIFIED="1563522517468" TEXT="ng serve"/>
 </node>
-<node COLOR="#3333ff" CREATED="1572342866560" FOLDED="true" ID="ID_1123000244" MODIFIED="1575183880734" POSITION="right" STYLE="bubble">
+<node COLOR="#3333ff" CREATED="1572342866560" FOLDED="true" ID="ID_1123000244" MODIFIED="1580219466794" POSITION="right" STYLE="bubble">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -304,7 +304,7 @@
 <node CREATED="1565935728590" FOLDED="true" ID="ID_1076129162" MODIFIED="1575183880736" POSITION="right" TEXT="&#xc6f9;&#xc18c;&#xcf13; angular 8">
 <node CREATED="1565935736461" ID="ID_1135322578" MODIFIED="1565935754284" TEXT="&#xd574;&#xb2f9; &#xbd80;&#xbd84;&#xc740; &quot;&#xd544;&#xc694;&#xd55c; &#xc790;&#xbc14; &#xd29c;&#xd1a0;.mm&quot;&#xc5d0; &#xc218;&#xb85d;"/>
 </node>
-<node CREATED="1565935977236" FOLDED="true" ID="ID_1913734800" MODIFIED="1575183880736" POSITION="right" TEXT="build,&#xd560;&#xb54c; &#xc800;&#xb807;&#xac8c; &#xc548;&#xd558;&#xba74; optimiation &#xc548;&#xb418;&#xc11c; &#xc18d;&#xb3c4;&#xac00; &#xb290;&#xb9bc;">
+<node CREATED="1565935977236" ID="ID_1913734800" MODIFIED="1580219466795" POSITION="right" TEXT="build,&#xd560;&#xb54c; &#xc800;&#xb807;&#xac8c; &#xc548;&#xd558;&#xba74; optimiation &#xc548;&#xb418;&#xc11c; &#xc18d;&#xb3c4;&#xac00; &#xb290;&#xb9bc;">
 <node CREATED="1565935988343" ID="ID_1908958448" MODIFIED="1565935988343" TEXT="ng build --configuration=production"/>
 </node>
 <node CREATED="1568145413258" FOLDED="true" ID="ID_1724462060" MODIFIED="1575183880736" POSITION="right" TEXT="CLI">

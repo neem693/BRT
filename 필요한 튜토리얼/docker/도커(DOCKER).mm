@@ -79,7 +79,7 @@
 <node CREATED="1574866662363" ID="ID_643054445" MODIFIED="1574866662363" TEXT="Return low-level information on Docker objects"/>
 </node>
 <node CREATED="1580216450631" ID="ID_1439258636" MODIFIED="1580216450631" TEXT="docker cp &lt;containerId&gt;:/file/path/within/container /host/path/target">
-<node CREATED="1580216452075" ID="ID_1118788752" MODIFIED="1580216464963" TEXT="copy folder"/>
+<node CREATED="1580216452075" ID="ID_1118788752" MODIFIED="1580216516734" TEXT="copy container image"/>
 </node>
 </node>
 <node CREATED="1574525974304" ID="ID_1793973735" MODIFIED="1580211470774" POSITION="right" TEXT="&#xb3c4;&#xcee4; &#xb77c;&#xc774;&#xd504; &#xc0ac;&#xc774;&#xd074;(&#xc774;&#xbbf8;&#xc9c0;)">
@@ -157,7 +157,7 @@
 <node CREATED="1574864662659" ID="ID_1906440683" MODIFIED="1574864662659" TEXT="ENV JAVA_OPTS=&quot;-Dserver.type=dev&quot; # &#xc11c;&#xbc84;&#xd0c0;&#xc785; &#xc124;&#xc815;, &#xd504;&#xb85c;&#xd37c;&#xd2f0; &#xd30c;&#xc77c;&#xb85c; &#xac1c;&#xbc1c; &#xc6b4;&#xc601; &#xd658;&#xacbd; &#xad6c;&#xbd84;.."/>
 </node>
 <node CREATED="1574864670668" ID="ID_1565541200" MODIFIED="1574864671886" TEXT="&#xb9c1;&#xd06c;">
-<node CREATED="1574864679521" LINK="http://jmlim.github.io/docker/2019/02/19/dockerfile-tomcat-deploy/" MODIFIED="1574864679521" TEXT="jmlim.github.io &gt; Docker &gt; 2019 &gt; 02 &gt; 19 &gt; Dockerfile-tomcat-deploy"/>
+<node CREATED="1574864679521" ID="ID_1061725179" LINK="http://jmlim.github.io/docker/2019/02/19/dockerfile-tomcat-deploy/" MODIFIED="1574864679521" TEXT="jmlim.github.io &gt; Docker &gt; 2019 &gt; 02 &gt; 19 &gt; Dockerfile-tomcat-deploy"/>
 </node>
 </node>
 </node>
