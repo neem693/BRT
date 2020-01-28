@@ -79,22 +79,22 @@
 <node CREATED="1565202033021" FOLDED="true" ID="ID_1142579295" MODIFIED="1575975323858" POSITION="right" TEXT="swagger-ui.html&#xc774; 404 &#xb5a8;&#xc5b4;&#xc9c8;&#xb54c;">
 <node CREATED="1565202046273" ID="ID_356155014" MODIFIED="1565202747081" TEXT="swagger-ui.html 404 &#xc5d0;&#xb7ec; &#xb098; &#xac19;&#xc740; &#xacbd;&#xc6b0; &#xc2a4;&#xd504;&#xb9c1; &#xbd80;&#xd2b8; 2.1.6 &#xc0ac;&#xc6a9;&#xd558;&#xace0; &#xc788;&#xc744; &#xb584; springfox-swagger2&#xc640; springfox-swagger-ui&#xb97c; &#xc0ac;&#xc6a9;&#xd560;&#xb54c; /v2/api-docs &#xb294; &#xc798;&#xb418;&#xb294;&#xb370; swagger-ui.html&#xc774; &#xc528;&#xc54c;&#xb3c4; &#xc548;&#xba39;&#xd788;&#xb354;&#xb77c;. &#xadf8;&#xb798;&#xc11c; swagger&#xc640; ui&#xb97c; 2.7.0&#xc73c;&#xb85c; &#xbc14;&#xafb8;&#xb2c8;&#xae4c; &#xc798;&#xb418;&#xb354;&#xb77c;. &#xcc38;&#xace0;&#xbc14;&#xb78c; "/>
 </node>
-<node CREATED="1565211325121" FOLDED="true" ID="ID_1017006133" MODIFIED="1575975323858" POSITION="right" TEXT="&#xd3ec;&#xd2b8; &#xd655;&#xc778;">
+<node CREATED="1565211325121" ID="ID_1017006133" MODIFIED="1579856950914" POSITION="right" TEXT="&#xd3ec;&#xd2b8; &#xd655;&#xc778;">
 <node CREATED="1565211327619" ID="ID_798013240" MODIFIED="1565624634640" TEXT="netstat -ano"/>
 <node CREATED="1565624758878" ID="ID_1113092189" MODIFIED="1565624758878" TEXT="taskkill /F /PID 3792"/>
 <node CREATED="1565624764382" ID="ID_930944999" MODIFIED="1565624768464" TEXT="3792&#xb97c; &#xc8fd;&#xc784;"/>
 </node>
-<node COLOR="#3333ff" CREATED="1565221709741" FOLDED="true" ID="ID_738072142" MODIFIED="1575975323858" POSITION="right" STYLE="bubble" TEXT="&#xb3c4;&#xcee4;(Docker)">
+<node COLOR="#3333ff" CREATED="1565221709741" FOLDED="true" ID="ID_738072142" MODIFIED="1579856798040" POSITION="right" STYLE="bubble" TEXT="&#xb3c4;&#xcee4;(Docker)">
 <font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
 <node CREATED="1565221676493" ID="ID_375625165" MODIFIED="1572269892721" TEXT="docker&#xb294; docker&#xb97c; &#xc124;&#xce58;&#xd558;&#xc5ec;&#xc57c;&#xb9cc; &#xc9c4;&#xd589;&#xd560; &#xc218; &#xc788;&#xc744; &#xb4ef; &#xd558;&#xb2e4;. &#xadf8;&#xb7ec;&#xb098; &#xc774;&#xac78; &#xb610; &#xc124;&#xce58;&#xd560;&#xb824;&#xba74; &#xc708;&#xb3c4;&#xc6b0;&#xb97c; &#xc5c5;&#xb370;&#xc774;&#xd2b8; &#xd558;&#xc5ec;&#xc57c; &#xd55c;&#xb2e4;. &#xadf8;&#xb7f0;&#xb370; &#xc708;&#xb3c4;&#xc6b0; &#xc5c5;&#xb370;&#xc774;&#xd2b8;&#xac00; &#xc548;&#xb41c;&#xb2e4;. &#xadf8;&#xb798;&#xc11c; &#xc774;&#xbc88;&#xaec0;&#xc740; &#xb118;&#xae34;&#xb2e4;."/>
-<node CREATED="1565223531807" ID="ID_1696233639" MODIFIED="1574600606229" TEXT="&#xc778;&#xc904; &#xc54c;&#xc558;&#xb294;&#xb370; ">
+<node CREATED="1565223531807" ID="ID_1696233639" MODIFIED="1579856326243" TEXT="&#xc778;&#xc904; &#xc54c;&#xc558;&#xb294;&#xb370; ">
 <node CREATED="1565223539338" ID="ID_507106757" LINK="https://docs.docker.com/docker-for-windows/install/#what-to-know-before-you-install" MODIFIED="1565223539338" TEXT="https://docs.docker.com/docker-for-windows/install/#what-to-know-before-you-install"/>
 </node>
-<node CREATED="1565223540341" ID="ID_413818247" MODIFIED="1574600607281" TEXT="&#xb808;&#xac70;&#xc2dc; &#xc2dc;&#xc2a4;&#xd15c;&#xc5d0;&#xc11c;&#xb3c4; &#xbc1b;&#xc744; &#xc218; &#xc788;&#xb3c4;&#xb85d; &#xd560;&#xc218;&#xc788;&#xb2e4;.">
+<node CREATED="1565223540341" ID="ID_413818247" MODIFIED="1579856327113" TEXT="&#xb808;&#xac70;&#xc2dc; &#xc2dc;&#xc2a4;&#xd15c;&#xc5d0;&#xc11c;&#xb3c4; &#xbc1b;&#xc744; &#xc218; &#xc788;&#xb3c4;&#xb85d; &#xd560;&#xc218;&#xc788;&#xb2e4;.">
 <node CREATED="1565223557336" ID="ID_687248378" LINK="https://docs.docker.com/toolbox/overview/" MODIFIED="1565223557336" TEXT="https://docs.docker.com/toolbox/overview/"/>
 </node>
 <node CREATED="1565223588285" ID="ID_77051114" MODIFIED="1572269892723" TEXT="&#xadf8;&#xac8c; &#xbc14;&#xb85c; docker toolbox&#xc778;&#xac70; &#xac19;&#xb2e4;."/>
-<node CREATED="1565227758101" ID="ID_914672298" MODIFIED="1574600608672">
+<node CREATED="1565227758101" ID="ID_914672298" MODIFIED="1579856328434">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -108,12 +108,12 @@
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1565227767066" ID="ID_1280610625" LINK="https://stackoverflow.com/questions/39240560/spring-boot-with-docker-unable-to-find-valid-certification-path-to-requested-tar" MODIFIED="1565227767066" TEXT="https://stackoverflow.com/questions/39240560/spring-boot-with-docker-unable-to-find-valid-certification-path-to-requested-tar"/>
 </node>
-<node COLOR="#3333ff" CREATED="1565286026082" ID="ID_710344508" MODIFIED="1572269892724" STYLE="bubble" TEXT="ADD failed : No such file/Directory">
+<node COLOR="#3333ff" CREATED="1565286026082" ID="ID_710344508" MODIFIED="1579856329365" STYLE="bubble" TEXT="ADD failed : No such file/Directory">
 <font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
 <node CREATED="1565286164679" ID="ID_632226530" MODIFIED="1572269892728" TEXT="&#xc815;&#xd655;&#xd788; &#xb9d0;&#xd558;&#xba74; Failed to execute goal com.spotify:docker-maven-plugin:1.0.0:build (default-cli) on project TctProject: Exception caught: ADD failed: stat /mnt/sda1/var/lib/docker/tmp/docker-builder056676213/TctProject-0.0.1-SNAPSHOT.war: no such file or directory "/>
 <node CREATED="1565286390223" ID="ID_1613055189" MODIFIED="1572269892730" TEXT="&#xc774; &#xc5d0;&#xb7ec;&#xc778;&#xb370;"/>
 <node CREATED="1565286038944" ID="ID_1759184669" MODIFIED="1572269892730" TEXT="&#xc774;&#xb294; docker build&#xb97c; &#xd560; &#xb54c; &#xb9e8;&#xcc98;&#xc74c; war&#xd30c;&#xc77c;&#xc744; docker-context-path&#xc5d0; copy&#xac00; &#xb418;&#xc9c0; &#xc54a;&#xc544;&#xc11c; &#xc0dd;&#xae34; &#xc99d;&#xc0c1;&#xc774;&#xb2e4;."/>
-<node CREATED="1565286408960" ID="ID_1885714031" MODIFIED="1574600627879" TEXT="&#xd574;&#xb2f9;&#xd558;&#xb294; &#xd50c;&#xb7ec;&#xadf8;&#xc778;&#xc5d0;&#xc11c; &#xac15;&#xc870;&#xb41c; &#xbd80;&#xbd84;&#xc5d0; &#xd574;&#xb2f9;&#xd55c;&#xb2e4;.">
+<node CREATED="1565286408960" FOLDED="true" ID="ID_1885714031" MODIFIED="1579856334807" TEXT="&#xd574;&#xb2f9;&#xd558;&#xb294; &#xd50c;&#xb7ec;&#xadf8;&#xc778;&#xc5d0;&#xc11c; &#xac15;&#xc870;&#xb41c; &#xbd80;&#xbd84;&#xc5d0; &#xd574;&#xb2f9;&#xd55c;&#xb2e4;.">
 <node CREATED="1565286452456" ID="ID_1378043070" MODIFIED="1565286452456" TEXT="&lt;plugin&gt;">
 <node CREATED="1565286452463" MODIFIED="1565286452463" TEXT="&lt;groupId&gt;com.spotify&lt;/groupId&gt;"/>
 <node CREATED="1565286452463" MODIFIED="1565286452463" TEXT="&lt;artifactId&gt;docker-maven-plugin&lt;/artifactId&gt;"/>
@@ -141,10 +141,10 @@
 </node>
 </node>
 <node CREATED="1565286654704" ID="ID_1046641712" MODIFIED="1572269892730" TEXT="&#xc5ec;&#xae30;&#xc11c; &lt;include&gt;${project.build.finalName}.war&lt;/include&gt;  &#xbd80;&#xbd84;&#xc740; build&#xb97c; &#xd560;&#xb54c; maven&#xc5d0;&#xc11c; packaging&#xc744; &#xc124;&#xc815;&#xd55c; &#xb370;&#xb85c; &#xd574;&#xc918;&#xc57c; &#xd568;&#xc744; &#xba85;&#xc2ec;&#xd558;&#xc790;"/>
-<node CREATED="1565286702023" ID="ID_567945016" MODIFIED="1574600612042" TEXT="&#xadf8;&#xb7ec;&#xba74;  &#xb2e4;&#xc74c;&#xacfc; &#xac19;&#xc740; &#xac83;&#xc744; docker build&#xb97c; &#xd560;&#xb54c; &#xcf58;&#xc194;&#xc5d0;&#xc11c; &#xbcfc; &#xc218;&#xac00; &#xc788;&#xc744; &#xac83;&#xc774;&#xb2e4;. docker-context-path&#xc5d0; &#xbcf5;&#xc0ac;&#xac00; &#xb418;&#xb294; &#xac78; &#xbcfc; &#xc218; &#xc788;&#xb2e4;.">
+<node CREATED="1565286702023" FOLDED="true" ID="ID_567945016" MODIFIED="1579856336587" TEXT="&#xadf8;&#xb7ec;&#xba74;  &#xb2e4;&#xc74c;&#xacfc; &#xac19;&#xc740; &#xac83;&#xc744; docker build&#xb97c; &#xd560;&#xb54c; &#xcf58;&#xc194;&#xc5d0;&#xc11c; &#xbcfc; &#xc218;&#xac00; &#xc788;&#xc744; &#xac83;&#xc774;&#xb2e4;. docker-context-path&#xc5d0; &#xbcf5;&#xc0ac;&#xac00; &#xb418;&#xb294; &#xac78; &#xbcfc; &#xc218; &#xc788;&#xb2e4;.">
 <node CREATED="1565286971657" ID="ID_1837520671" MODIFIED="1565286971657" TEXT="Copying E:\BRT\TctProject\target\TctProject-0.0.1-SNAPSHOT.war -&gt; E:\BRT\TctProject\target\docker\TctProject-0.0.1-SNAPSHOT.war"/>
 </node>
-<node CREATED="1565287074567" ID="ID_813955792" MODIFIED="1574600613426" TEXT="&#xc774;&#xb807;&#xac8c; &#xc62e;&#xaca8;&#xb9cc; &#xc9c4;&#xb2e4;&#xace0; &#xb2e4;&#xac00; &#xc544;&#xb2c8;&#xace0; &#xc815;&#xd655;&#xd788; dockerfile&#xc5d0; &#xb300;&#xd574;&#xc11c; &#xc800; war&#xc5d0; &#xb300;&#xd55c; &#xba85;&#xce6d; &#xc815;&#xc758;&#xac00; &#xd544;&#xc694;&#xd558;&#xb2e4;. &#xac15;&#xc870;&#xb41c; &#xbd80;&#xbd84;&#xc744; &#xcc38;&#xace0;&#xd558;&#xc2dc;&#xb77c;">
+<node CREATED="1565287074567" FOLDED="true" ID="ID_813955792" MODIFIED="1579856337764" TEXT="&#xc774;&#xb807;&#xac8c; &#xc62e;&#xaca8;&#xb9cc; &#xc9c4;&#xb2e4;&#xace0; &#xb2e4;&#xac00; &#xc544;&#xb2c8;&#xace0; &#xc815;&#xd655;&#xd788; dockerfile&#xc5d0; &#xb300;&#xd574;&#xc11c; &#xc800; war&#xc5d0; &#xb300;&#xd55c; &#xba85;&#xce6d; &#xc815;&#xc758;&#xac00; &#xd544;&#xc694;&#xd558;&#xb2e4;. &#xac15;&#xc870;&#xb41c; &#xbd80;&#xbd84;&#xc744; &#xcc38;&#xace0;&#xd558;&#xc2dc;&#xb77c;">
 <node CREATED="1565287299034" MODIFIED="1565287299034" TEXT="FROM java:8"/>
 <node CREATED="1565287299035" MODIFIED="1565287299035" TEXT="VOLUME /tmp"/>
 <node COLOR="#3333ff" CREATED="1565287299035" ID="ID_704684853" MODIFIED="1565287300748" STYLE="bubble" TEXT="ADD /TctProject-0.0.1-SNAPSHOT.war app.jar">
@@ -153,7 +153,7 @@
 <node CREATED="1565287299036" ID="ID_1743909221" MODIFIED="1565287299036" TEXT="RUN bash -c &apos;touch /app.jar&apos;"/>
 <node CREATED="1565287299036" ID="ID_185853562" MODIFIED="1565287299036" TEXT="ENTRYPOINT [&quot;java&quot;,&quot;-Djava.security.egd=file:/dev/./urandom&quot;,&quot;-jar&quot;,&quot;/app.jar&quot;]"/>
 </node>
-<node CREATED="1565287744009" ID="ID_433676764" MODIFIED="1574600616893" TEXT="&#xadf8;&#xb2e4;&#xc74c; &#xbc14;&#xb85c; docker:build&#xb97c; &#xc2e4;&#xd589;&#xd558;&#xc790;">
+<node CREATED="1565287744009" FOLDED="true" ID="ID_433676764" MODIFIED="1579856339447" TEXT="&#xadf8;&#xb2e4;&#xc74c; &#xbc14;&#xb85c; docker:build&#xb97c; &#xc2e4;&#xd589;&#xd558;&#xc790;">
 <node CREATED="1565287755731" ID="ID_318670447" MODIFIED="1565287755731">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -166,7 +166,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1572269893606" ID="ID_1636504526" MODIFIED="1574600624983" TEXT="&#xb3c4;&#xcee4;">
+<node CREATED="1572269893606" FOLDED="true" ID="ID_1636504526" MODIFIED="1579856324285" TEXT="&#xb3c4;&#xcee4;">
 <node CREATED="1572269899877" LINK="https://www.slideshare.net/pyrasis/docker-fordummies-44424016" MODIFIED="1572269899877" TEXT="https://www.slideshare.net/pyrasis/docker-fordummies-44424016"/>
 </node>
 </node>
@@ -177,7 +177,7 @@
 <node CREATED="1565647048431" FOLDED="true" ID="ID_1370038050" MODIFIED="1575975323859" POSITION="right" TEXT="gmail less secure app">
 <node CREATED="1565647059045" LINK="https://myaccount.google.com/lesssecureapps?pli=1" MODIFIED="1565647059045" TEXT="https://myaccount.google.com/lesssecureapps?pli=1"/>
 </node>
-<node CREATED="1565714861390" FOLDED="true" ID="ID_295040871" MODIFIED="1575975323859" POSITION="right" TEXT="websocket">
+<node CREATED="1565714861390" FOLDED="true" ID="ID_295040871" MODIFIED="1579856806982" POSITION="right" TEXT="websocket">
 <node CREATED="1565714885843" ID="ID_449998338" LINK="https://www.tutorialspoint.com/spring_boot/spring_boot_web_socket.htm" MODIFIED="1565714886630" TEXT="https://www.tutorialspoint.com/spring_boot/spring_boot_web_socket.htm"/>
 <node CREATED="1565714887694" ID="ID_1540854741" MODIFIED="1565714956013" TEXT="&#xd29c;&#xd1a0;&#xb9ac;&#xc5bc; &#xd3ec;&#xc778;&#xd2b8;&#xc5d0;&#xc11c; &#xc6f9; &#xc18c;&#xcf13;&#xc5d0; &#xb300;&#xd55c; &#xb0b4;&#xc6a9;&#xc774; &#xc788;&#xb294;&#xb370;"/>
 <node CREATED="1565714956190" ID="ID_671373614" MODIFIED="1565714965785" TEXT="&#xc5ec;&#xae30;&#xc11c; &#xd544;&#xc694;&#xd55c; &#xd074;&#xb798;&#xc2a4;&#xac00; &#xc798; &#xb098;&#xc624;&#xc9c0; &#xc54a;&#xb294;&#xb370; &#xbc11;&#xc744; &#xcc38;&#xace0;&#xd558;&#xba74; &#xc798; &#xb098;&#xc628;&#xb2e4;."/>
@@ -191,17 +191,17 @@
 <node CREATED="1565722446250" ID="ID_660950122" MODIFIED="1565722463045" TEXT="&#xc544;&#xb2c8;&#xb2e4;. WebSocketMessageBrokerConfigurer &#xb294; &#xc778;&#xd130;&#xd398;&#xc774;&#xc2a4;&#xb85c; &#xc0c1;&#xc18d;&#xbc1b;&#xb294;&#xac8c; &#xc544;&#xb2c8;&#xb77c; &#xad6c;&#xd604;&#xbc1b;&#xc544;&#xc57c; &#xd55c;&#xb2e4;."/>
 </node>
 </node>
-<node CREATED="1565796565923" FOLDED="true" ID="ID_1376475978" MODIFIED="1575975323859" POSITION="right" TEXT="cors filter&#xb97c; &#xae00;&#xb85c;&#xbc8c; &#xd558;&#xac8c;">
+<node CREATED="1565796565923" FOLDED="true" ID="ID_1376475978" MODIFIED="1579856806280" POSITION="right" TEXT="cors filter&#xb97c; &#xae00;&#xb85c;&#xbc8c; &#xd558;&#xac8c;">
 <node CREATED="1565796936430" MODIFIED="1565796936430" TEXT="package com.framework.Tct.filter;"/>
-<node CREATED="1565796936431" MODIFIED="1565796936431" TEXT="import java.io.IOException;"/>
-<node CREATED="1565796936432" MODIFIED="1565796936432" TEXT="import javax.servlet.Filter;"/>
-<node CREATED="1565796936432" MODIFIED="1565796936432" TEXT="import javax.servlet.FilterChain;"/>
-<node CREATED="1565796936432" MODIFIED="1565796936432" TEXT="import javax.servlet.FilterConfig;"/>
-<node CREATED="1565796936433" MODIFIED="1565796936433" TEXT="import javax.servlet.ServletException;"/>
+<node CREATED="1565796936431" ID="ID_1161798806" MODIFIED="1565796936431" TEXT="import java.io.IOException;"/>
+<node CREATED="1565796936432" ID="ID_993164094" MODIFIED="1565796936432" TEXT="import javax.servlet.Filter;"/>
+<node CREATED="1565796936432" ID="ID_450915425" MODIFIED="1565796936432" TEXT="import javax.servlet.FilterChain;"/>
+<node CREATED="1565796936432" ID="ID_1178245968" MODIFIED="1565796936432" TEXT="import javax.servlet.FilterConfig;"/>
+<node CREATED="1565796936433" ID="ID_1844409225" MODIFIED="1565796936433" TEXT="import javax.servlet.ServletException;"/>
 <node CREATED="1565796936433" ID="ID_685960728" MODIFIED="1565796936433" TEXT="import javax.servlet.ServletRequest;"/>
-<node CREATED="1565796936433" MODIFIED="1565796936433" TEXT="import javax.servlet.ServletResponse;"/>
-<node CREATED="1565796936434" MODIFIED="1565796936434" TEXT="import javax.servlet.http.HttpServletResponse;"/>
-<node CREATED="1565796936434" MODIFIED="1565796936434" TEXT="import org.springframework.stereotype.Component;"/>
+<node CREATED="1565796936433" ID="ID_98868184" MODIFIED="1565796936433" TEXT="import javax.servlet.ServletResponse;"/>
+<node CREATED="1565796936434" ID="ID_1033234726" MODIFIED="1565796936434" TEXT="import javax.servlet.http.HttpServletResponse;"/>
+<node CREATED="1565796936434" ID="ID_341311041" MODIFIED="1565796936434" TEXT="import org.springframework.stereotype.Component;"/>
 <node CREATED="1565796936434" ID="ID_963586907" MODIFIED="1565796936434" TEXT="@Component"/>
 <node CREATED="1565796936435" FOLDED="true" ID="ID_618403991" MODIFIED="1569169990305" TEXT="public class CORSFilter implements Filter {">
 <node CREATED="1565796936435" MODIFIED="1565796936435" TEXT="@Override"/>
@@ -333,7 +333,7 @@
 </node>
 </node>
 <node CREATED="1566173568044" ID="ID_1816867178" MODIFIED="1566173574807" POSITION="right" TEXT="alt + shift + s"/>
-<node CREATED="1566190490009" FOLDED="true" ID="ID_767685997" MODIFIED="1575975323860" POSITION="right" TEXT="batchService &#xc624;&#xb958; &amp; flyway">
+<node CREATED="1566190490009" FOLDED="true" ID="ID_767685997" MODIFIED="1579856258469" POSITION="right" TEXT="batchService &#xc624;&#xb958; &amp; flyway">
 <node CREATED="1566191547662" ID="ID_1410866249" MODIFIED="1571247170601" TEXT="1">
 <node CREATED="1566191549334" ID="ID_1054801273" MODIFIED="1566191549334" TEXT="Caused by: java.lang.IllegalArgumentException: DatabaseType not found for product name: [MariaDB]"/>
 </node>
@@ -765,7 +765,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1568136171473" FOLDED="true" ID="ID_1513202297" MODIFIED="1575975323861" POSITION="right" TEXT="springSecurity">
+<node CREATED="1568136171473" FOLDED="true" ID="ID_1513202297" MODIFIED="1579856807811" POSITION="right" TEXT="springSecurity">
 <node CREATED="1568136225277" FOLDED="true" ID="ID_829841707" MODIFIED="1569165885697" TEXT="&#xbb38;&#xc81c;">
 <node CREATED="1568136227916" ID="ID_1806002014" MODIFIED="1568136231017" TEXT="&#xb85c;&#xadf8;&#xc778; &#xd398;&#xc774;&#xc9c0;&#xb85c; &#xc548;&#xac10;"/>
 </node>
@@ -1340,7 +1340,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1568609352220" FOLDED="true" ID="ID_1954893130" MODIFIED="1575975323861" POSITION="right" TEXT="jstl&#xcd94;&#xac00; &#xd558;&#xb294; &#xbc29;&#xbc95;">
+<node CREATED="1568609352220" FOLDED="true" ID="ID_1954893130" MODIFIED="1579856810095" POSITION="right" TEXT="jstl&#xcd94;&#xac00; &#xd558;&#xb294; &#xbc29;&#xbc95;">
 <node COLOR="#3333ff" CREATED="1574352383337" ID="ID_1583850757" LINK="https://www.surasint.com/spring-boot-jsp/" MODIFIED="1574517728468" STYLE="bubble" TEXT="https://www.surasint.com/spring-boot-jsp/">
 <font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
 </node>
@@ -1385,10 +1385,10 @@
 </node>
 <node CREATED="1568611436239" ID="ID_1401461355" MODIFIED="1574350198754" TEXT="}"/>
 </node>
-<node CREATED="1568612555769" FOLDED="true" ID="ID_508338643" MODIFIED="1574350206527" TEXT="&#xcee8;&#xd2b8;&#xb864;&#xb7ec;">
+<node CREATED="1568612555769" ID="ID_508338643" MODIFIED="1579856808548" TEXT="&#xcee8;&#xd2b8;&#xb864;&#xb7ec;">
 <node CREATED="1568612569803" MODIFIED="1568612569803" TEXT="package com.framework.Tct.login;"/>
-<node CREATED="1568612569804" MODIFIED="1568612569804" TEXT="import org.springframework.stereotype.Controller;"/>
-<node CREATED="1568612569804" MODIFIED="1568612569804" TEXT="import org.springframework.web.bind.annotation.RequestMapping;"/>
+<node CREATED="1568612569804" ID="ID_1018027193" MODIFIED="1568612569804" TEXT="import org.springframework.stereotype.Controller;"/>
+<node CREATED="1568612569804" ID="ID_1560872057" MODIFIED="1568612569804" TEXT="import org.springframework.web.bind.annotation.RequestMapping;"/>
 <node CREATED="1568612569805" MODIFIED="1568612569805" TEXT="@Controller"/>
 <node CREATED="1568612569805" ID="ID_245834792" MODIFIED="1568612569805" TEXT="public class LoginController {">
 <node CREATED="1568612569805" MODIFIED="1568612569805" TEXT="@RequestMapping(&quot;/login&quot;)"/>
@@ -4335,23 +4335,23 @@
 <node CREATED="1574215495390" FOLDED="true" ID="ID_1771860115" MODIFIED="1575975323864" POSITION="right" TEXT="diiff &#xd504;&#xb85c;&#xadf8;&#xb7a8;">
 <node CREATED="1574215498656" LINK="http://diffuse.sourceforge.net/" MODIFIED="1574215498656" TEXT="diffuse.sourceforge.net"/>
 </node>
-<node CREATED="1574688633536" ID="ID_837433763" MODIFIED="1576931161112" POSITION="right" TEXT="&#xc2a4;&#xd504;&#xb9c1;&#xbd80;&#xd2b8; &#xbc30;&#xb108; &#xd504;&#xb85c;&#xadf8;&#xb7a8;">
+<node CREATED="1574688633536" FOLDED="true" ID="ID_837433763" MODIFIED="1579856251497" POSITION="right" TEXT="&#xc2a4;&#xd504;&#xb9c1;&#xbd80;&#xd2b8; &#xbc30;&#xb108; &#xd504;&#xb85c;&#xadf8;&#xb7a8;">
 <node CREATED="1574865204487" ID="ID_1363890770" LINK="https://beyondj2ee.wordpress.com/2017/03/17/springboot-%EB%B0%B0%EB%84%88-%EB%A7%8C%EB%93%A4%EA%B8%B0/" MODIFIED="1574865205211" TEXT="https://beyondj2ee.wordpress.com/2017/03/17/springboot-%EB%B0%B0%EB%84%88-%EB%A7%8C%EB%93%A4%EA%B8%B0/"/>
 <node CREATED="1574865085804" ID="ID_539869463" LINK="http://patorjk.com/software/taag" MODIFIED="1574865085804" TEXT="patorjk.com &gt; Software &gt; Taag"/>
 </node>
-<node COLOR="#3333ff" CREATED="1575385346435" ID="ID_1894901996" MODIFIED="1576931160441" POSITION="right" STYLE="bubble" TEXT="&#xc774;&#xd074;&#xb9bd;&#xc2a4; &#xc0ac;&#xc6a9;&#xc911;&#xc778; &#xd568;&#xc218;&#xc778;&#xc9c0; &#xc0b4;&#xd3b4;&#xbcf4;&#xae30;">
+<node COLOR="#3333ff" CREATED="1575385346435" FOLDED="true" ID="ID_1894901996" MODIFIED="1579856251498" POSITION="right" STYLE="bubble" TEXT="&#xc774;&#xd074;&#xb9bd;&#xc2a4; &#xc0ac;&#xc6a9;&#xc911;&#xc778; &#xd568;&#xc218;&#xc778;&#xc9c0; &#xc0b4;&#xd3b4;&#xbcf4;&#xae30;">
 <font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
 <node COLOR="#3333ff" CREATED="1575385360139" ID="ID_1563346745" MODIFIED="1575385369655" STYLE="bubble" TEXT="CTRL + ALT + H">
 <font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#ff3333" CREATED="1575977178976" ID="ID_1014935012" MODIFIED="1576931159714" POSITION="right" STYLE="bubble" TEXT="maven">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#ff3333" CREATED="1575977178976" FOLDED="true" ID="ID_1014935012" MODIFIED="1579856251498" POSITION="right" STYLE="bubble" TEXT="maven">
 <font BOLD="true" NAME="Dialog" SIZE="24"/>
 <node CREATED="1575977185706" ID="ID_1343883658" MODIFIED="1575977191720" TEXT="scope&#xc5d0; &#xad00;&#xd574;&#xc11c;">
 <node CREATED="1575977184109" ID="ID_1033535012" LINK="https://wikidocs.net/18344" MODIFIED="1575977184109" TEXT="https://wikidocs.net/18344"/>
 </node>
 </node>
-<node CREATED="1576245818252" ID="ID_1843603033" MODIFIED="1576931158804" POSITION="right" TEXT="&#xd0c0;&#xc784;&#xb9ac;&#xd504;">
+<node CREATED="1576245818252" FOLDED="true" ID="ID_1843603033" MODIFIED="1579856251498" POSITION="right" TEXT="&#xd0c0;&#xc784;&#xb9ac;&#xd504;">
 <node CREATED="1576245824417" ID="ID_81174497" MODIFIED="1576246134265" TEXT="thymeleaf setting webapp folder">
 <node CREATED="1576246405629" LINK="https://offbyone.tistory.com/409" MODIFIED="1576246405629" TEXT="https://offbyone.tistory.com/409"/>
 <node CREATED="1576246552038" LINK="http://zetcode.com/articles/springbootthymeleafconf/" MODIFIED="1576246552038" TEXT="zetcode.com &gt; Articles &gt; Springbootthymeleafconf"/>
@@ -4410,21 +4410,21 @@
 </node>
 </node>
 </node>
-<node CREATED="1576255149595" ID="ID_1642794399" MODIFIED="1576931156799" POSITION="right" TEXT="&#xc624;&#xd508;&#xadf8;&#xb798;&#xd504;">
+<node CREATED="1576255149595" FOLDED="true" ID="ID_1642794399" MODIFIED="1579856251498" POSITION="right" TEXT="&#xc624;&#xd508;&#xadf8;&#xb798;&#xd504;">
 <node CREATED="1576255170160" ID="ID_1581434372" MODIFIED="1576255175862" TEXT="&#xc624;&#xd508;&#xadf8;&#xb798;&#xd504;&#xb294; &#xc575;&#xade4;&#xb7ec;&#xc5d0;&#xc11c; &#xc548;&#xb41c;&#xb2e4;."/>
 <node CREATED="1576255178679" ID="ID_1604313839" MODIFIED="1576255244576" TEXT="&#xb530;&#xb77c;&#xc11c; &#xd0c0;&#xc784;&#xb9ac;&#xd504;&#xb97c; &#xc774;&#xc6a9;&#xd574;&#xc11c; &#xc124;&#xc815;&#xd574;&#xc57c; &#xd560;&#xb4ef; &#xc2f6;&#xb2e4;."/>
 <node CREATED="1576255255557" ID="ID_1793080490" MODIFIED="1576255263440" TEXT="&#xc804;&#xccb4;&#xc801;&#xc778; &#xd398;&#xc774;&#xc9c0;&#xc6a9;&#xc784;&#xc744; &#xc54c;&#xc544;&#xb450;&#xc790;."/>
 </node>
-<node CREATED="1576583116697" ID="ID_1597748331" MODIFIED="1576931156191" POSITION="right" TEXT="base64 to file">
+<node CREATED="1576583116697" FOLDED="true" ID="ID_1597748331" MODIFIED="1579856251499" POSITION="right" TEXT="base64 to file">
 <node CREATED="1576583820535" LINK="https://stackoverflow.com/questions/20879639/write-base64-encoded-image-to-file" MODIFIED="1576583820535" TEXT="https://stackoverflow.com/questions/20879639/write-base64-encoded-image-to-file"/>
 </node>
-<node CREATED="1576583854374" ID="ID_409579815" MODIFIED="1576931154813" POSITION="right" TEXT="&#xc774;&#xd074;&#xb9bd;&#xc2a4; &#xb2e8;&#xcd95;&#xd0a4;">
+<node CREATED="1576583854374" FOLDED="true" ID="ID_409579815" MODIFIED="1579856251499" POSITION="right" TEXT="&#xc774;&#xd074;&#xb9bd;&#xc2a4; &#xb2e8;&#xcd95;&#xd0a4;">
 <node CREATED="1576583831382" ID="ID_1743853932" MODIFIED="1576583840211" TEXT="&#xc774;&#xd074;&#xb9bd;&#xc2a4; &#xd604;&#xc7ac; &#xc0ac;&#xc6a9;&#xc911;&#xc778; method">
 <node CREATED="1576583858613" ID="ID_1441668379" LINK="https://stackoverflow.com/questions/5268998/find-methods-calls-in-eclipse-project" MODIFIED="1576583858613" TEXT="https://stackoverflow.com/questions/5268998/find-methods-calls-in-eclipse-project"/>
 <node CREATED="1576583859747" ID="ID_92472382" MODIFIED="1576583865647" TEXT="ctrl + alt + h"/>
 </node>
 </node>
-<node CREATED="1576826799741" ID="ID_1905859363" MODIFIED="1576931155225" POSITION="right" TEXT="oauth2 client">
+<node CREATED="1576826799741" FOLDED="true" ID="ID_1905859363" MODIFIED="1579856251500" POSITION="right" TEXT="oauth2 client">
 <node CREATED="1576826814063" ID="ID_437162428" LINK="https://www.baeldung.com/spring-security-5-oauth2-login" MODIFIED="1576826814063" TEXT="https://www.baeldung.com/spring-security-5-oauth2-login"/>
 <node CREATED="1576826822703" ID="ID_1652193121" LINK="https://galid1.tistory.com/m/582" MODIFIED="1576826822703" TEXT="https://galid1.tistory.com/m/582"/>
 </node>

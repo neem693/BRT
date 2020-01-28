@@ -1,8 +1,8 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1563522454767" ID="ID_1812649479" MODIFIED="1573287252869" TEXT="angular">
-<hook NAME="accessories/plugins/CreationModificationPlugin_new.properties"/>
+<node CREATED="1563522454767" ID="ID_1812649479" MODIFIED="1579856876213" TEXT="angular">
 <hook NAME="accessories/plugins/RevisionPlugin.properties"/>
+<hook NAME="accessories/plugins/CreationModificationPlugin_new.properties"/>
 <node CREATED="1563522718142" FOLDED="true" ID="ID_1024043872" MODIFIED="1575183880733" POSITION="right" TEXT="&#xd604;&#xc7ac; &#xd29c;&#xd1a0;&#xb9ac;&#xc5bc;">
 <node CREATED="1563522713920" ID="ID_792755994" LINK="https://www.tutorialspoint.com/angular7/angular7_project_setup.htm" MODIFIED="1563522716082" TEXT="https://www.tutorialspoint.com/angular7/angular7_project_setup.htm"/>
 </node>
@@ -124,7 +124,7 @@
 <font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
 </node>
 </node>
-<node CREATED="1563899020482" FOLDED="true" ID="ID_461820893" MODIFIED="1575183880736" POSITION="right" TEXT="formGroup&#xc744; &#xc0ac;&#xc6a9;&#xd560;&#xc2dc;">
+<node CREATED="1563899020482" ID="ID_461820893" MODIFIED="1579856936889" POSITION="right" TEXT="formGroup&#xc744; &#xc0ac;&#xc6a9;&#xd560;&#xc2dc;">
 <node CREATED="1563899036418" ID="ID_1678306153" MODIFIED="1563899036418" TEXT="Can&apos;t bind to &apos;formGroup&apos; since it isn&apos;t a known property of &apos;form&apos;. ("/>
 <node CREATED="1563899037346" ID="ID_1833468736" MODIFIED="1563899041889" TEXT="&#xb2e4;&#xc74c;&#xacfc; &#xac19;&#xc740; &#xc624;&#xb958;&#xac00; &#xb098;&#xc62c; &#xc218;&#xac00; &#xc788;&#xb2e4;."/>
 <node CREATED="1563899314087" ID="ID_1309310290" MODIFIED="1563899321217" TEXT="&#xc774;&#xb294; &#xb2e4;&#xc74c;&#xc744; &#xc784;&#xd3ec;&#xd2b8; &#xd574;&#xc57c; &#xd55c;&#xb2e4;&#xace0; &#xd55c;&#xb2e4;.(REACTIVE_FORM_DIRECTIVES )"/>
@@ -550,7 +550,7 @@
 <node CREATED="1570478049991" LINK="https://google.github.io/material-design-icons/" MODIFIED="1570478049991" TEXT="https://google.github.io/material-design-icons/"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#ff3333" CREATED="1570481463185" ID="ID_1592856275" MODIFIED="1578229583577" POSITION="right" STYLE="bubble" TEXT="&#xd398;&#xc774;&#xc9c0; &#xb118;&#xae30;&#xae30;">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#ff3333" CREATED="1570481463185" FOLDED="true" ID="ID_1592856275" MODIFIED="1579856815085" POSITION="right" STYLE="bubble" TEXT="&#xd398;&#xc774;&#xc9c0; &#xb118;&#xae30;&#xae30;">
 <font BOLD="true" NAME="Dialog" SIZE="24"/>
 <node CREATED="1570481465245" ID="ID_779952897" MODIFIED="1570481465245" TEXT="routerLink"/>
 <node BACKGROUND_COLOR="#ffff00" CREATED="1575183944711" ID="ID_537337107" MODIFIED="1575183963861" TEXT="&#xb77c;&#xc6b0;&#xd130; &#xb9c1;&#xd06c;">
