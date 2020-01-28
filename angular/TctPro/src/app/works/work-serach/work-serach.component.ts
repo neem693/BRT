@@ -93,7 +93,24 @@ export class WorkSerachComponent implements OnInit, AfterViewInit {
    * Detail
    */
   targetWork = {
-    work: {},
+    work: {
+      type2:{
+        type2_name:"",
+        type1Dto:{
+          type1_name:""
+        }
+      },
+      create_date:"",
+      create_date2:"",
+      subject:"",
+      work_id:0,
+      artistDtoList:[],
+      fileSaveDto:[{
+        file_path:"",
+        save_file_name:""
+      }],
+      is_series:0
+    },
     matter: {},
     matterSize: 0,
   };

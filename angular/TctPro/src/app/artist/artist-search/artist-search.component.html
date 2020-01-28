@@ -77,6 +77,6 @@
 <div *ngIf="page.artistList.totalSize > 0" class="pagination_class">
     <ngb-pagination [collectionSize]="page.artistList.totalSize" [pageSize]="page.artistList.pageSize"
         [(page)]="page.artistList.pageNum" aria-label="Default pagination"
-        (pageChange)="worksSearchNativeUrl(page.artistList.pageNum)">
+        (pageChange)="artistSearchNativeUrl(page.artistList.pageNum)">
     </ngb-pagination>
 </div>

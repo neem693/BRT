@@ -19,11 +19,55 @@ export class EvalDetailComponent implements OnInit {
   }
 
   work = {
+    type2: {
+      type2_name: "",
+      type1Dto: {
+        type1_name: ""
+      }
+    },
+    create_date: "",
+    create_end_date2: "",
+    subject: "",
+    work_id: 0,
+    artistDtoList: [],
+    fileSaveDto: [{
+      file_path: "",
+      save_file_name: ""
+    }],
+    is_series: 0,
     img: {},
   }
   eval = {
     id: 0,
-    target: {}
+    target: {
+      work: {
+        type2: {
+          type2_name: "",
+          type1Dto: {
+            type1_name: ""
+          }
+        },
+        create_date: "",
+        create_end_date2: "",
+        subject: "",
+        work_id: 0,
+        artistDtoList: [],
+        fileSaveDto: [{
+          file_path: "",
+          save_file_name: ""
+        }],
+        is_series: 0,
+        img: {},
+        // subjectMatter: "",
+        save_file_name: ""
+      },
+      subjectMatter:"",
+      ev_text1: "",
+      ev_value: 0,
+      ev_text2: "",
+      ev_value_class_name:""
+    },
+   
   }
 
   /**
@@ -40,15 +84,15 @@ export class EvalDetailComponent implements OnInit {
 
   }
 
-  loading={
-    firstLoading:0,
+  loading = {
+    firstLoading: 0,
   }
 
   constructor(
     private route: ActivatedRoute,
     private router: Router,
     private evalService: EvalService,
-    private dialog:MatDialog
+    private dialog: MatDialog
   ) { }
 
 
@@ -75,25 +119,24 @@ export class EvalDetailComponent implements OnInit {
       this.loading.firstLoading = 0;
       if (status == 200) {
         let data = x[RESULT.DATA_KEY];
-       
 
-        if(data['ev_value'] >= 1 && data['ev_value'] <= 3)
-        {
+
+        if (data['ev_value'] >= 1 && data['ev_value'] <= 3) {
           data['ev_value_class_name'] = 'gray';
-        }else if(data['ev_value'] >= 4 && data['ev_value'] <= 5){
+        } else if (data['ev_value'] >= 4 && data['ev_value'] <= 5) {
           data['ev_value_class_name'] = 'blue';
-        }else if(data['ev_value'] >= 6 && data['ev_value'] <= 7){
+        } else if (data['ev_value'] >= 6 && data['ev_value'] <= 7) {
           data['ev_value_class_name'] = 'yellow';
         }
 
         this.eval.target = data;
         this.detail.detailLoad = 1;
-    
-      }else if(status == 401){
+
+      } else if (status == 401) {
         let dialogRef = this.dialog.open(GlobalDialogComponent, {
 
           data: { message: '등록된 평가 컨텐츠가 존재하지 않습니다.' },
-    
+
         })
 
         this.router.navigate(['home']);

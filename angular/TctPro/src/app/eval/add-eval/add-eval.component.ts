@@ -74,6 +74,7 @@ export class AddEvalComponent implements OnInit {
 
   /**work info */
   work = {
+    create_end_date2:"",
     id: 0,
     subject: "",
   }
@@ -81,7 +82,24 @@ export class AddEvalComponent implements OnInit {
   /**
    * when initialize the page, get the work detail, and save them in workItem 
    */
-  workItem = {};
+  workItem = {
+    type2:{
+      type2_name:"",
+      type1Dto:{
+        type1_name:""
+      }
+    },
+    create_date:"",
+    create_end_date2:"",
+    subject:"",
+    work_id:0,
+    artistDtoList:[],
+    fileSaveDto:[{
+      file_path:"",
+      save_file_name:""
+    }],
+    is_series:0
+  };
 
   /**artist info */
   artist = {

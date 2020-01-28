@@ -701,11 +701,14 @@
 <node CREATED="1580188623336" ID="ID_385381795" MODIFIED="1580188624594" TEXT="&#xc554;&#xd638;">
 <node CREATED="1580188625343" ID="ID_175704248" MODIFIED="1580188630507" TEXT="ch01134888"/>
 </node>
-<node CREATED="1580190023118" FOLDED="true" ID="ID_1029000621" MODIFIED="1580203370899" TEXT="rds &#xbcf4;&#xc548;&#xadf8;&#xb8f9;">
-<node CREATED="1580190026929" LINK="https://stackoverflow.com/questions/43569503/cant-access-public-rds-on-aws-even-with-public-access" MODIFIED="1580190026929" TEXT="https://stackoverflow.com/questions/43569503/cant-access-public-rds-on-aws-even-with-public-access"/>
+<node CREATED="1580190023118" FOLDED="true" ID="ID_1029000621" MODIFIED="1580207381452" TEXT="rds &#xbcf4;&#xc548;&#xadf8;&#xb8f9;">
+<node CREATED="1580190026929" ID="ID_645001133" LINK="https://stackoverflow.com/questions/43569503/cant-access-public-rds-on-aws-even-with-public-access" MODIFIED="1580190026929" TEXT="https://stackoverflow.com/questions/43569503/cant-access-public-rds-on-aws-even-with-public-access"/>
 </node>
 <node CREATED="1580203371643" ID="ID_1783065947" MODIFIED="1580203499534" TEXT="rds &#xc0dd;&#xc131;&#xc2dc;&#xc5d0;&#xb294; &#xc11c;&#xbe0c;&#xb137; &#xadf8;&#xb8f9;&#xc744; &#xb9cc;&#xb4e4;&#xc5b4;&#xc57c; &#xd55c;&#xb2e4;.">
 <node CREATED="1580203510450" LINK="https://www.youtube.com/watch?v=iZibF-P4Utc" MODIFIED="1580203510450" TEXT="https://www.youtube.com/watch?v=iZibF-P4Utc"/>
+</node>
+<node CREATED="1580207367022" ID="ID_1829283145" MODIFIED="1580207369832" TEXT="&#xd55c;&#xae00; &#xc124;&#xc815;">
+<node CREATED="1580207378313" LINK="https://designdevelop.tistory.com/68" MODIFIED="1580207378313" TEXT="https://designdevelop.tistory.com/68"/>
 </node>
 </node>
 <node CREATED="1580184759154" ID="ID_788698988" MODIFIED="1580184763029" POSITION="right" TEXT="vpc&#xb97c; &#xc880; &#xc54c;&#xc544;&#xc57c; &#xd560;&#xb4ef; &#xd558;&#xb2e4;.">

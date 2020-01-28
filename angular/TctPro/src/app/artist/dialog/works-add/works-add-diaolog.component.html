@@ -32,7 +32,7 @@
             <div class="img">
                 <img *ngIf="targetWork.work.fileSaveDto.length == 0" src="/assets/noImage/not-available.jpg">
                 <img *ngIf="targetWork.work.fileSaveDto.length >0"
-                    [src]="dir.image + targetWork.work.fileSaveDto[detail.picIndex].file_path +'/' + targetWork.work.fileSaveDto[detail.picIndex].save_file_name">
+                    [src]="dir.image + targetWork.work?.fileSaveDto[detail.picIndex]?.file_path +'/' + targetWork.work.fileSaveDto[detail.picIndex].save_file_name">
 
             </div>
             <div class="small_img" *ngIf="targetWork.work.fileSaveDto != undefined">
@@ -42,8 +42,8 @@
                 </div>
             </div>
             <div class="type_info_03">
-                <span class="type1_info_03">{{targetWork.work.type2.type1Dto.type1_name}}</span>
-                <span class="type2_info_03">{{targetWork.work.type2.type2_name}}</span>
+                <span class="type1_info_03">{{targetWork.work.type2?.type1Dto?.type1_name}}</span>
+                <span class="type2_info_03">{{targetWork.work.type2?.type2_name}}</span>
             </div>
             <div class="subject_name_03">
                 <span>{{targetWork.work.subject}}</span>

@@ -3,7 +3,7 @@
 <node CREATED="1578226990534" ID="ID_1268012643" MODIFIED="1578227009830" TEXT="ngrx">
 <node CREATED="1578227090798" ID="ID_1376651798" MODIFIED="1578227113928" POSITION="right" TEXT="&#xae30;&#xbcf8;&#xc801;&#xc73c;&#xb85c; action,reducer &#xadf8;&#xb9ac;&#xace0; &#xc774;&#xbca4;&#xd2b8; &#xadf8;&#xb7ec;&#xb2c8;&#xae4c; effect&#xac00; &#xc788;&#xb2e4;."/>
 <node CREATED="1578227127846" ID="ID_234424256" MODIFIED="1578227328478" POSITION="right" TEXT="&#xac01; &#xbaa8;&#xb4c8;&#xc758; &#xb0b4;&#xc6a9;&#xc744; &#xc694;&#xc57d;&#xd55c;&#xb2e4;&#xae30; &#xbcf4;&#xb2e4;&#xb294; &#xc544;&#xbb34;&#xb798;&#xb3c4; &#xcf54;&#xb4dc;&#xc758; &#xc21c;&#xc11c;&#xb97c; &#xc81c;&#xb300;&#xb85c; &#xd30c;&#xc545;&#xd558;&#xb294;&#xac8c; &#xc88b;&#xc744; &#xb4ef; &#xd558;&#xb2e4;."/>
-<node CREATED="1578227328770" FOLDED="true" ID="ID_1818536673" MODIFIED="1579350576115" POSITION="right" TEXT="&#xb530;&#xb77c;&#xc11c; &#xb2e4;&#xc74c;&#xacfc; &#xac19;&#xc774; 3&#xac00;&#xc9c0;&#xb85c; &#xb098;&#xb208;&#xb2e4;.">
+<node CREATED="1578227328770" FOLDED="true" ID="ID_1818536673" MODIFIED="1580206606891" POSITION="right" TEXT="&#xb530;&#xb77c;&#xc11c; &#xb2e4;&#xc74c;&#xacfc; &#xac19;&#xc774; 3&#xac00;&#xc9c0;&#xb85c; &#xb098;&#xb208;&#xb2e4;.">
 <node CREATED="1578227351115" ID="ID_779904033" MODIFIED="1578228470838" TEXT="&#xc561;&#xc158;&#xc815;&#xc758;">
 <node CREATED="1578227545116" FOLDED="true" ID="ID_222273391" MODIFIED="1578231161607" TEXT="action&#xc5d0;&#xc11c; &#xc774; &#xc791;&#xc5c5;&#xc744; &#xd55c;&#xb2e4;.(&#xc774;&#xbbf8;&#xc9c0;)">
 <node CREATED="1578227665466" ID="ID_1555328853" MODIFIED="1578227665466">

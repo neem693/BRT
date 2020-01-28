@@ -54,7 +54,9 @@ export class ArtistDetailComponent implements OnInit {
     }
   }
 
-  artist = {};
+  artist = {
+    art_name:""
+  };
 
   dir = {
     image: environment.imageBaseUrl
