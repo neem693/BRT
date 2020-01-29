@@ -79,7 +79,7 @@
 <node CREATED="1565202033021" FOLDED="true" ID="ID_1142579295" MODIFIED="1575975323858" POSITION="right" TEXT="swagger-ui.html&#xc774; 404 &#xb5a8;&#xc5b4;&#xc9c8;&#xb54c;">
 <node CREATED="1565202046273" ID="ID_356155014" MODIFIED="1565202747081" TEXT="swagger-ui.html 404 &#xc5d0;&#xb7ec; &#xb098; &#xac19;&#xc740; &#xacbd;&#xc6b0; &#xc2a4;&#xd504;&#xb9c1; &#xbd80;&#xd2b8; 2.1.6 &#xc0ac;&#xc6a9;&#xd558;&#xace0; &#xc788;&#xc744; &#xb584; springfox-swagger2&#xc640; springfox-swagger-ui&#xb97c; &#xc0ac;&#xc6a9;&#xd560;&#xb54c; /v2/api-docs &#xb294; &#xc798;&#xb418;&#xb294;&#xb370; swagger-ui.html&#xc774; &#xc528;&#xc54c;&#xb3c4; &#xc548;&#xba39;&#xd788;&#xb354;&#xb77c;. &#xadf8;&#xb798;&#xc11c; swagger&#xc640; ui&#xb97c; 2.7.0&#xc73c;&#xb85c; &#xbc14;&#xafb8;&#xb2c8;&#xae4c; &#xc798;&#xb418;&#xb354;&#xb77c;. &#xcc38;&#xace0;&#xbc14;&#xb78c; "/>
 </node>
-<node CREATED="1565211325121" ID="ID_1017006133" MODIFIED="1579856950914" POSITION="right" TEXT="&#xd3ec;&#xd2b8; &#xd655;&#xc778;">
+<node CREATED="1565211325121" FOLDED="true" ID="ID_1017006133" MODIFIED="1580280057727" POSITION="right" TEXT="&#xd3ec;&#xd2b8; &#xd655;&#xc778;">
 <node CREATED="1565211327619" ID="ID_798013240" MODIFIED="1565624634640" TEXT="netstat -ano"/>
 <node CREATED="1565624758878" ID="ID_1113092189" MODIFIED="1565624758878" TEXT="taskkill /F /PID 3792"/>
 <node CREATED="1565624764382" ID="ID_930944999" MODIFIED="1565624768464" TEXT="3792&#xb97c; &#xc8fd;&#xc784;"/>
@@ -170,7 +170,7 @@
 <node CREATED="1572269899877" LINK="https://www.slideshare.net/pyrasis/docker-fordummies-44424016" MODIFIED="1572269899877" TEXT="https://www.slideshare.net/pyrasis/docker-fordummies-44424016"/>
 </node>
 </node>
-<node CREATED="1565631351067" ID="ID_1846173704" MODIFIED="1580206596172" POSITION="right" TEXT="&#xb9c8;&#xb9ac;&#xc544;DB --&gt; id, pwd ">
+<node CREATED="1565631351067" FOLDED="true" ID="ID_1846173704" MODIFIED="1580280057729" POSITION="right" TEXT="&#xb9c8;&#xb9ac;&#xc544;DB --&gt; id, pwd ">
 <node CREATED="1565631369063" ID="ID_955855352" MODIFIED="1565631408751" TEXT="root"/>
 <node CREATED="1565631371685" ID="ID_1503716678" MODIFIED="1565631381951" TEXT="oratree12341234aa"/>
 </node>
@@ -333,7 +333,7 @@
 </node>
 </node>
 <node CREATED="1566173568044" ID="ID_1816867178" MODIFIED="1566173574807" POSITION="right" TEXT="alt + shift + s"/>
-<node CREATED="1566190490009" ID="ID_767685997" MODIFIED="1580206921623" POSITION="right" TEXT="batchService &#xc624;&#xb958; &amp; flyway">
+<node CREATED="1566190490009" FOLDED="true" ID="ID_767685997" MODIFIED="1580280057734" POSITION="right" TEXT="batchService &#xc624;&#xb958; &amp; flyway">
 <node CREATED="1566191547662" ID="ID_1410866249" MODIFIED="1571247170601" TEXT="1">
 <node CREATED="1566191549334" ID="ID_1054801273" MODIFIED="1566191549334" TEXT="Caused by: java.lang.IllegalArgumentException: DatabaseType not found for product name: [MariaDB]"/>
 </node>

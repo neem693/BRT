@@ -22,5 +22,6 @@
 <node CREATED="1574215137840" ID="ID_1709275642" MODIFIED="1574215140066" POSITION="right" TEXT="&#xb9ac;&#xb205;&#xc2a4; find">
 <node CREATED="1574215227206" MODIFIED="1574215227206" TEXT="find / -name &#xd3f4;&#xb354;&#xba85; -type d"/>
 </node>
+<node CREATED="1580280082029" ID="ID_886773617" MODIFIED="1580280083248" POSITION="right" TEXT="&#xd3ec;&#xd2b8;&#xc5f4;&#xae30;"/>
 </node>
 </map>
