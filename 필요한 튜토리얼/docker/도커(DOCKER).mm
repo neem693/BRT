@@ -78,8 +78,12 @@
 <node CREATED="1574866652475" ID="ID_1963437284" LINK="https://docs.docker.com/engine/reference/commandline/inspect/" MODIFIED="1574866652475" TEXT="https://docs.docker.com/engine/reference/commandline/inspect/"/>
 <node CREATED="1574866662363" ID="ID_643054445" MODIFIED="1574866662363" TEXT="Return low-level information on Docker objects"/>
 </node>
-<node CREATED="1580216450631" FOLDED="true" ID="ID_1439258636" MODIFIED="1580282594387" TEXT="docker cp &lt;containerId&gt;:/file/path/within/container /host/path/target">
+<node CREATED="1580216450631" ID="ID_1439258636" MODIFIED="1580379203705" TEXT="docker cp &lt;containerId&gt;:/file/path/within/container /host/path/target">
 <node CREATED="1580216452075" ID="ID_1118788752" MODIFIED="1580275814994" TEXT="copy container image folder"/>
+<node CREATED="1580379211135" ID="ID_1546667065" MODIFIED="1580379216612" TEXT="&#xc774;&#xac78; &#xbc18;&#xb300;&#xb85c; &#xd574;&#xb3c4; &#xb41c;&#xb2e4;."/>
+</node>
+<node CREATED="1580216450631" ID="ID_342485420" MODIFIED="1580379236822" TEXT="docker cp /host/path/target &lt;containerId&gt;:/file/path/within/container">
+<node CREATED="1580216452075" ID="ID_80027891" MODIFIED="1580379566332" TEXT="&#xc6b0;&#xbd84;&#xd22c;&#xc5d0; &#xc788;&#xb294;&#xac78; &#xadf8;&#xb300;&#xb85c; &#xcee8;&#xd14c;&#xc774;&#xb108;&#xc5d0; &#xaf2c;&#xb77c;&#xbc15;&#xc544; &#xb123;&#xb294;&#xb2e4;."/>
 </node>
 <node CREATED="1580277920829" FOLDED="true" ID="ID_560404148" MODIFIED="1580282594387" TEXT="docker build &lt;&#xc635;&#xc158;&gt; &lt;Dockerfile &#xacbd;&#xb85c;&gt;">
 <node CREATED="1580277920830" ID="ID_35054002" MODIFIED="1580277920830" TEXT="Dockerfile &#xacbd;&#xb85c;&#xb294; &#xb85c;&#xceec; &#xacbd;&#xb85c;&#xc640; URL&#xc744; &#xc0ac;&#xc6a9;&#xd560; &#xc218; &#xc788;&#xace0;, -&#xb97c; &#xc124;&#xc815;&#xd558;&#xba74; &#xd45c;&#xc900; &#xc785;&#xb825;&#xc73c;&#xb85c; Dockerfile &#xb0b4;&#xc6a9;&#xc744; &#xbc1b;&#xc744; &#xc218; &#xc788;&#xc2b5;&#xb2c8;&#xb2e4;."/>

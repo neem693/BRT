@@ -4,13 +4,9 @@
 #v1은 restApi
 #SPA이기 때문에 index.html 로 옮기기 
 
-		RewriteCond %{REQUEST_URI} "^/v\d.*$"
-		RewriteRule "^/(.*)" "http://52.79.94.105:8080/$1" [P]
-		ProxyPassReverse "/" "http://52.79.94.105:8080/"
-
         Rewritecond %{REQUEST_URI} !^/index.html$
         Rewritecond %{REQUEST_URI} !\..*$
         Rewritecond %{REQUEST_URI} !^/v\d.*$
         RewriteRule ^ /index.html
-		
+
 </IfModule>

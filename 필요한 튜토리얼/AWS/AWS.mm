@@ -523,13 +523,13 @@
 <node CREATED="1580313784837" ID="ID_661938759" LINK="https://kgu0724.tistory.com/71" MODIFIED="1580313784837" TEXT="https://kgu0724.tistory.com/71"/>
 </node>
 <node CREATED="1580280121659" ID="ID_1286435419" MODIFIED="1580280123537" TEXT="&#xb9ac;&#xb205;&#xc2a4;">
-<node CREATED="1580280125326" FOLDED="true" ID="ID_764810834" MODIFIED="1580287940111" TEXT="&#xb85c;&#xadf8; live">
+<node CREATED="1580280125326" FOLDED="true" ID="ID_764810834" MODIFIED="1580354164963" TEXT="&#xb85c;&#xadf8; live">
 <node CREATED="1580280150845" ID="ID_77481304" MODIFIED="1580280150845" TEXT="tail -f /path/thefile.log"/>
 </node>
-<node CREATED="1580281236530" FOLDED="true" ID="ID_781663478" MODIFIED="1580287939227" TEXT="&#xbaa8;&#xb4e0; &#xc11c;&#xbe44;&#xc2a4; &#xbcf4;&#xae30;">
+<node CREATED="1580281236530" FOLDED="true" ID="ID_781663478" MODIFIED="1580354164016" TEXT="&#xbaa8;&#xb4e0; &#xc11c;&#xbe44;&#xc2a4; &#xbcf4;&#xae30;">
 <node CREATED="1580281239426" ID="ID_632277568" MODIFIED="1580281239426" TEXT="service --status-all|grep +"/>
 </node>
-<node CREATED="1580286689726" FOLDED="true" ID="ID_1402451353" MODIFIED="1580323532904" TEXT="&#xad8c;&#xd55c;">
+<node CREATED="1580286689726" FOLDED="true" ID="ID_1402451353" MODIFIED="1580354163149" TEXT="&#xad8c;&#xd55c;">
 <node CREATED="1580286697729" ID="ID_1601941785" MODIFIED="1580286698594" TEXT="&#xac1c;&#xb150;">
 <node CREATED="1580286698958" ID="ID_295912013" LINK="https://withcoding.com/103" MODIFIED="1580286698958" TEXT="https://withcoding.com/103"/>
 </node>
@@ -544,18 +544,79 @@
 <node CREATED="1580286837837" ID="ID_295154490" MODIFIED="1580286837837" TEXT="$ chmod -R 666 example"/>
 </node>
 </node>
-<node CREATED="1580287123200" FOLDED="true" ID="ID_12230323" MODIFIED="1580287937325" TEXT="&#xbaa8;&#xb450; &#xbcf4;&#xc5ec;&#xc8fc;&#xae30;">
+<node CREATED="1580287123200" FOLDED="true" ID="ID_12230323" MODIFIED="1580354161374" TEXT="&#xbaa8;&#xb450; &#xbcf4;&#xc5ec;&#xc8fc;&#xae30;">
 <node CREATED="1580287141033" ID="ID_1026797230" MODIFIED="1580287144681" TEXT="ls -a -l"/>
 </node>
-<node CREATED="1580287524862" FOLDED="true" ID="ID_1627820506" MODIFIED="1580287936174" TEXT="vi &#xc5d0;&#xb514;&#xd130;">
+<node CREATED="1580287524862" ID="ID_1627820506" MODIFIED="1580354170369" TEXT="vi &#xc5d0;&#xb514;&#xd130;">
 <node CREATED="1580287592426" ID="ID_1923955265" LINK="http://igoto.x-y.net/xe/linux/154" MODIFIED="1580287594382" TEXT="igoto.x-y.net &gt; Xe &gt; Linux &gt; 154"/>
+<node CREATED="1580354276986" ID="ID_1143165509" MODIFIED="1580354283170" TEXT="&#xc885;&#xb8cc;/&#xc138;&#xc774;&#xbe0c;">
 <node CREATED="1580287528120" ID="ID_894165670" MODIFIED="1580287528120" TEXT="&#xc608;) :wq"/>
 <node CREATED="1580287528121" ID="ID_996656113" MODIFIED="1580287528121" TEXT="&#xc800;&#xc7a5;&#xd558;&#xc9c0; &#xc54a;&#xace0;, &#xac15;&#xc81c;&#xb85c; &#xc885;&#xb8cc;&#xd558;&#xb824;&#xba74;, q!(Quit!)&#xb97c; &#xc785;&#xb825;&#xd569;&#xb2c8;&#xb2e4;."/>
 <node CREATED="1580287528121" ID="ID_1376928582" MODIFIED="1580287528121" TEXT="&#xc608;) :q!"/>
 <node CREATED="1580287528122" ID="ID_1560437736" MODIFIED="1580287528122" TEXT="vi&#xb97c; &#xb05d;&#xb0b4;&#xc9c0; &#xc54a;&#xace0;, &#xd604;&#xc7ac; &#xc791;&#xc5c5; &#xc911;&#xc778; &#xb0b4;&#xc6a9;&#xc744; &#xc800;&#xc7a5;&#xb9cc; &#xd558;&#xb824;&#xba74;, w&#xb97c; &#xc785;&#xb825;&#xd569;&#xb2c8;&#xb2e4;."/>
 <node CREATED="1580287528122" ID="ID_945478999" MODIFIED="1580287528122" TEXT="&#xc608;) :w"/>
 </node>
-<node CREATED="1580287983054" ID="ID_1081549309" MODIFIED="1580287990746" TEXT="mv(&#xd30c;&#xc77c;&#xc774;&#xb3d9;, &#xbcc0;&#xacbd;)">
+<node CREATED="1580354263956" ID="ID_1634607180" MODIFIED="1580354295677" TEXT="&#xbcf5;&#xc0ac;/&#xbd99;&#xc5ec;&#xb123;&#xae30;">
+<node CREATED="1580354312764" ID="ID_1234855806" LINK="http://mwultong.blogspot.com/2006/11/vim-vi-select-copy-paste.html" MODIFIED="1580354314530" TEXT="mwultong.blogspot.com &gt; 2006 &gt; 11 &gt; Vim-vi-select-copy-paste"/>
+<node CREATED="1580354266000" ID="ID_503183440" MODIFIED="1580354266000" TEXT="&#xd14d;&#xc2a4;&#xd2b8; &#xbcf5;&#xc0ac; &#xbd99;&#xc774;&#xae30; &#xc21c;&#xc11c;"/>
+<node CREATED="1580354266003" ID="ID_1445813830" MODIFIED="1580354266003" TEXT="(1) v : Visual mode &#xb85c; &#xc9c4;&#xc785; (&#xd604;&#xc7ac; &#xbb38;&#xc11c;&#xb97c; &#xd3b8;&#xc9d1;&#xc911;&#xc774;&#xb77c;&#xba74; Esc&#xd0a4;&#xb97c; &#xb204;&#xb974;&#xace0;, v&#xd0a4;&#xb97c; &#xb20c;&#xb7ec;&#xc57c; &#xd568;)"/>
+<node CREATED="1580354266004" ID="ID_1694924973" MODIFIED="1580354266004" TEXT="(2) &#xadf8;&#xb7f0; &#xd6c4;, &#xc0c1;&#xd558;&#xc88c;&#xc6b0; &#xd654;&#xc0b4;&#xd45c;&#xd0a4;&#xb97c; &#xc6c0;&#xc9c1;&#xc774;&#xba74;, &#xc774;&#xc81c; &#xc120;&#xd0dd; &#xbe14;&#xb85d;&#xc774; &#xd68c;&#xc0c9;&#xc73c;&#xb85c; &#xc7a1;&#xd799;&#xb2c8;&#xb2e4;. &#xbcf5;&#xc0ac;&#xd560; &#xbd80;&#xbd84;&#xc744; &#xc120;&#xd0dd;&#xd569;&#xb2c8;&#xb2e4;."/>
+<node CREATED="1580354266005" ID="ID_763657190" MODIFIED="1580354266005" TEXT="(3) y : yank (&#xbcf5;&#xc0ac;; Copy) yank&#xb294; &apos;&#xd671; &#xc7a1;&#xc544;&#xb2f9;&#xae34;&#xb2e4;&apos;&#xb294; &#xb73b;"/>
+<node CREATED="1580354266006" ID="ID_617535173" MODIFIED="1580354266006" TEXT="(4) &#xbb38;&#xc11c;&#xb97c; &#xc2a4;&#xd06c;&#xb864;&#xd558;&#xc5ec;, &#xbcf5;&#xc0ac;&#xb41c; &#xd14d;&#xc2a4;&#xd2b8;&#xb97c; &#xbd99;&#xc5b4; &#xb123;&#xc744; &#xacf3;&#xc73c;&#xb85c; &#xc774;&#xb3d9;"/>
+<node CREATED="1580354266007" ID="ID_428341756" MODIFIED="1580354266007" TEXT="(5) p : put (&#xbd99;&#xc5ec; &#xb123;&#xae30;; Paste)"/>
+</node>
+<node CREATED="1580354494281" ID="ID_1754233191" MODIFIED="1580354495741" TEXT="&#xc791;&#xc5c5;&#xcde8;&#xc18c;">
+<node CREATED="1580354567468" ID="ID_793155819" LINK="http://mwultong.blogspot.com/2006/09/vim-vi-gvim-undo-redo.html" MODIFIED="1580354568522" TEXT="mwultong.blogspot.com &gt; 2006 &gt; 09 &gt; Vim-vi-gvim-undo-redo"/>
+<node CREATED="1580354520328" ID="ID_187510985" MODIFIED="1580354520328" TEXT="&#xc791;&#xc5c5; &#xcde8;&#xc18c;">
+<node CREATED="1580354520328" ID="ID_758996793" MODIFIED="1580354520328" TEXT="&#xd604;&#xc7ac; &#xd3b8;&#xc9d1;&#xc911;&#xc774;&#xb77c;&#xba74; &#xd0a4;&#xbcf4;&#xb4dc;&#xc758; Esc&#xd0a4;&#xb97c; &#xb20c;&#xb7ec; &#xba85;&#xb839; &#xbaa8;&#xb4dc;&#xb85c; &#xb4e4;&#xc5b4;&#xac00;&#xc11c;,"/>
+<node COLOR="#3333ff" CREATED="1580354520329" ID="ID_1782753722" MODIFIED="1580354524139" STYLE="bubble" TEXT="&#xc18c;&#xbb38;&#xc790; u &#xb97c; &#xb204;&#xb974;&#xba74; &#xbc29;&#xae08; &#xd588;&#xb358; &#xc791;&#xc5c5;&#xc774; &#xcde8;&#xc18c;&#xb429;&#xb2c8;&#xb2e4;.">
+<font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
+</node>
+<node CREATED="1580354520329" ID="ID_1963980435" MODIFIED="1580354520329" TEXT="&#xb2e4;&#xc2dc; &#xd3b8;&#xc9d1;&#xc744; &#xacc4;&#xc18d;&#xd558;&#xae30; &#xc704;&#xd574;&#xc11c;&#xb294; i &#xd0a4;&#xb97c; &#xb204;&#xb985;&#xb2c8;&#xb2e4;."/>
+</node>
+<node CREATED="1580354526787" ID="ID_376168959" MODIFIED="1580354532435" TEXT="&#xc791;&#xc5c5; &#xb418;&#xb3cc;&#xb9ac;&#xae30;">
+<node CREATED="1580354539126" ID="ID_1908932772" MODIFIED="1580354539126" TEXT="&#xcde8;&#xc18c;&#xb97c; &#xcde8;&#xc18c;&#xd558;&#xae30; (Redo)"/>
+<node CREATED="1580354539127" ID="ID_1516360970" MODIFIED="1580354539127" TEXT="&#xc704;&#xc758; u &#xd0a4;&#xb85c; &#xcde8;&#xc18c;&#xd588;&#xc9c0;&#xb9cc; &#xb9c8;&#xc74c;&#xc774; &#xbc14;&#xb00c;&#xc5b4;&#xc11c;, &#xcde8;&#xc18c;&#xd558;&#xae30; &#xc804;&#xc73c;&#xb85c; &#xb3cc;&#xc544;&#xac00;&#xace0; &#xc2f6;&#xc744; &#xb54c;&#xb294;"/>
+<node COLOR="#3333ff" CREATED="1580354539127" ID="ID_1144159476" MODIFIED="1580354540647" STYLE="bubble" TEXT="Ctrl+R &#xd0a4;&#xb97c; &#xb204;&#xb985;&#xb2c8;&#xb2e4;.">
+<font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
+</node>
+<node CREATED="1580354539128" MODIFIED="1580354539128" TEXT="&#xbb54;&#xac00;&#xb97c; &#xcde8;&#xc18c;(Undo)&#xd588;&#xc744; &#xb54c;&#xc5d0;&#xb9cc; Redo&#xac00; &#xc791;&#xb3d9;&#xd569;&#xb2c8;&#xb2e4;. &#xcde8;&#xc18c;&#xd55c; &#xc801;&#xc774; &#xd55c;&#xbc88;&#xb3c4; &#xc5c6;&#xb2e4;&#xba74;, &#xcde8;&#xc18c;&#xc5d0; &#xb300;&#xd55c; &#xcde8;&#xc18c;&#xb3c4; &#xc791;&#xb3d9;&#xd558;&#xc9c0; &#xc54a;&#xc2b5;&#xb2c8;&#xb2e4;."/>
+</node>
+</node>
+<node CREATED="1580365055576" ID="ID_1839340272" MODIFIED="1580365058025" TEXT="&#xbb38;&#xc790;&#xc5f4; &#xcc3e;&#xae30;">
+<node CREATED="1580365164836" ID="ID_642243940" LINK="https://overcode.tistory.com/entry/vi-%EC%97%90%EC%84%9C-%EB%AC%B8%EC%9E%90%EC%97%B4-%EA%B2%80%EC%83%89" MODIFIED="1580365166140" TEXT="https://overcode.tistory.com/entry/vi-%EC%97%90%EC%84%9C-%EB%AC%B8%EC%9E%90%EC%97%B4-%EA%B2%80%EC%83%89"/>
+<node CREATED="1580365145818" ID="ID_1939180226" MODIFIED="1580365150060" TEXT="&#xbb38;&#xc790;&#xc5f4; &#xcc3e;&#xae30;">
+<node CREATED="1580365174369" ID="ID_1207042521" MODIFIED="1580365178919" TEXT="/text"/>
+</node>
+<node CREATED="1580365150249" ID="ID_747531194" MODIFIED="1580365154498" TEXT="&#xc704;&#xc5d0;&#xc11c; &#xcc3e;&#xae30;">
+<node CREATED="1580365186369" ID="ID_1149597991" MODIFIED="1580365186369" TEXT="?text"/>
+</node>
+<node CREATED="1580365154678" ID="ID_982174706" MODIFIED="1580365156011" TEXT="&#xc815;&#xaddc;&#xd45c;&#xd604;&#xc2dd;">
+<node CREATED="1580365195708" MODIFIED="1580365195708" TEXT="^Text"/>
+</node>
+<node CREATED="1580365279286" ID="ID_1440357842" MODIFIED="1580365283623" TEXT="&#xadf8;&#xb2e4;&#xc74c; &#xbb38;&#xc790; &#xac80;&#xc0c9;">
+<node CREATED="1580365284418" ID="ID_1442388927" MODIFIED="1580365285565" TEXT="n"/>
+</node>
+</node>
+<node CREATED="1580368634083" ID="ID_1410649973" MODIFIED="1580368640178" TEXT="&#xbb38;&#xc11c; &#xb9e8; &#xcc98;&#xc74c; &#xb9e8; &#xb9c8;&#xc9c0;&#xb9c9;&#xc73c;&#xb85c; &#xc774;&#xb3d9;">
+<node CREATED="1580368641084" ID="ID_58687497" MODIFIED="1580368642295" TEXT="&#xb9e8;&#xcc98;&#xc74c;">
+<node CREATED="1580368642916" ID="ID_166198015" MODIFIED="1580368643813" TEXT="gg"/>
+</node>
+<node CREATED="1580368646134" ID="ID_1565574465" MODIFIED="1580368647797" TEXT="&#xb9e8; &#xb9c8;&#xc9c0;&#xb9c9;">
+<node CREATED="1580368648508" ID="ID_1949744398" MODIFIED="1580368651041" TEXT="G"/>
+</node>
+</node>
+<node CREATED="1580371994121" ID="ID_919062023" MODIFIED="1580372611867" TEXT="&#xd788;&#xc2a4;&#xd1a0;&#xb9ac;">
+<node CREATED="1580372591191" ID="ID_1986785678" MODIFIED="1580372597204" TEXT="&#xadf8;&#xb3d9;&#xc548; &#xd588;&#xb358; &#xcee4;&#xba58;&#xb4dc; &#xcd9c;&#xb825;">
+<node CREATED="1580372004881" ID="ID_1156807166" MODIFIED="1580372589402" TEXT="history"/>
+</node>
+<node CREATED="1580372611862" ID="ID_1627279680" MODIFIED="1580372615846" TEXT="&#xb290;&#xb08c;&#xd45c; &#xbc88;&#xd638;&#xb85c; &#xc2e4;&#xd589;">
+<node CREATED="1580372597474" ID="ID_1541573264" MODIFIED="1580372601525" TEXT="!&#xbc88;&#xd638;"/>
+</node>
+<node CREATED="1580372602451" ID="ID_278952794" MODIFIED="1580372608331" TEXT="ex) !301"/>
+</node>
+</node>
+<node CREATED="1580287983054" FOLDED="true" ID="ID_1081549309" MODIFIED="1580354167897" TEXT="mv(&#xd30c;&#xc77c;&#xc774;&#xb3d9;, &#xbcc0;&#xacbd;)">
 <node CREATED="1580288012043" ID="ID_200380086" MODIFIED="1580288021065" TEXT="mv file1 file2">
 <node CREATED="1580288043207" ID="ID_1364876567" MODIFIED="1580288046680" TEXT="&#xd30c;&#xc77c; &#xc774;&#xb984; &#xbcc0;&#xacbd;"/>
 </node>
@@ -566,10 +627,10 @@
 <node CREATED="1580288065021" ID="ID_1225240120" MODIFIED="1580288069765" TEXT="&#xd3f4;&#xb354; &#xc774;&#xb984; &#xbcc0;&#xacbd;"/>
 </node>
 </node>
-<node CREATED="1580287951219" ID="ID_1021148356" MODIFIED="1580287953189" TEXT="&#xd30c;&#xc77c; &#xc774;&#xb3d9;">
+<node CREATED="1580287951219" FOLDED="true" ID="ID_1021148356" MODIFIED="1580354169103" TEXT="&#xd30c;&#xc77c; &#xc774;&#xb3d9;">
 <node CREATED="1580287953659" ID="ID_1185908840" LINK="https://withcoding.com/94" MODIFIED="1580287953659" TEXT="https://withcoding.com/94"/>
 </node>
-<node CREATED="1580303760686" ID="ID_1320691514" MODIFIED="1580303849840" TEXT="&#xd30c;&#xc77c;&#xbcf5;&#xc0ac;/&#xd30c;&#xc77c; &#xbcf5;&#xc0ac;">
+<node CREATED="1580303760686" FOLDED="true" ID="ID_1320691514" MODIFIED="1580354169377" TEXT="&#xd30c;&#xc77c;&#xbcf5;&#xc0ac;/&#xd30c;&#xc77c; &#xbcf5;&#xc0ac;">
 <node CREATED="1580303773230" ID="ID_1546190996" MODIFIED="1580303852195" TEXT="&#xd30c;&#xc77c;&#xbcf5;&#xc0ac;">
 <node CREATED="1580303783625" ID="ID_1995907173" MODIFIED="1580303783625" TEXT="cp   /dev/test   /var/www/html/test"/>
 </node>
