@@ -41,6 +41,7 @@ import { ArtistDetailComponent } from './artist/artist-detail/artist-detail.comp
 import { EvalSerachComponent } from './eval/eval-serach/eval-serach.component';
 import { EvalDetailComponent } from './eval/eval-detail/eval-detail.component';
 import { GlobalDialogComponent } from './global/dialog/global-dialog/global-dialog.component';
+import {StoreModule} from '@ngrx/store'
 
 const DEFAULT_SWIPER_CONFIG: SwiperConfigInterface = {
   direction: 'horizontal',
@@ -103,6 +104,7 @@ const DEFAULT_SWIPER_CONFIG: SwiperConfigInterface = {
     NgbPaginationModule,
     MatProgressSpinnerModule,
     SwiperModule,
+    StoreModule
   ],
   entryComponents: [
     JoinFailComponent,

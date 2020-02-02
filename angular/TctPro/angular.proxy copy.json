@@ -1,9 +1,0 @@
-
-{
-    "/TctPro": {
-      "target": "http://127.0.0.1:8085",
-      "secure": false,
-      "pathRewrite":{"^/TctPro" : "http://127.0.0.1:8085/"}
-    }
-  }
-  

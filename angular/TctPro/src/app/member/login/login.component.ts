@@ -8,6 +8,7 @@ import * as moment from 'moment';
 import { member_const } from '../member_const/member_cosnt';
 import { Router } from '@angular/router';
 import 'url-search-params-polyfill';
+import { SNS } from 'src/const/publicConst';
 
 @Component({
   selector: 'app-login',
@@ -22,12 +23,17 @@ export class LoginComponent implements OnInit {
     login: 0
   }
 
+  firebaseVar:any;
+
   constructor(private dialog: MatDialog,
     private memberService: MemberServiceService,
     private cookieService: CookieService,
     private router:Router) { }
 
   ngOnInit() {
+    
+   
+
     localStorage.removeItem(member_const.token_key);
     localStorage.removeItem(member_const.token_expire_key);
 
@@ -44,11 +50,20 @@ export class LoginComponent implements OnInit {
     }
 
   }
-
-  login_common() {
+/**
+ * snslogin 1 : sns 로그인 모드
+ * undefined : 일반 모드
+ */
+  login_common(snslogin:any,additionalData:any) {
     console.log("login");
     let key: string;
-    let data: any = this.loginData;
+    let data:any;
+    if(snslogin == 1){
+      data = additionalData;
+    }else{
+      data = this.loginData;
+    }
+   
     let param: URLSearchParams = new URLSearchParams();
     for (key in data) {
 
@@ -58,8 +73,12 @@ export class LoginComponent implements OnInit {
         return;
 
       }
-
-      param.append(key, data[key]['value']);
+      if(snslogin == 1){
+        param.append(key, data[key]);
+      }else{
+        param.append(key, data[key]['value']);
+      }
+     
 
     }
 
@@ -97,6 +116,7 @@ export class LoginComponent implements OnInit {
       
     },error=>{
       this.loading.login = 0;
+      console.log(error)
     })
 
 
@@ -111,6 +131,39 @@ export class LoginComponent implements OnInit {
 
     })
 
+  }
+
+  googleLogin(){
+   this.memberService.googleLoginApi().then((user:any)=>{
+
+    let loginData = {};
+
+    const profile = user.getBasicProfile();
+    // console.log('ID: ' + profile.getId()); // Do not send to your backend! Use an ID token instead.
+    // console.log('Name: ' + profile.getName());
+    // console.log('Image URL: ' + profile.getImageUrl());
+    // console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present.
+
+    loginData['user_login_id'] = profile.getId();
+    loginData['password'] = profile.getId();
+    loginData['snsType'] = SNS.GOOGLE_CLIENT;
+    loginData['email'] = profile.getEmail();
+
+    const authInfo = user.getAuthResponse();
+    // console.log("access token:" + authInfo.access_token);
+    loginData['access_token'] = authInfo.access_token;
+
+    this.login_common(1,loginData);
+
+  }).catch((error:any)=>{
+    console.log(error);
+  });
+  }
+
+  snsLogin(loginData:any){
+
+
+    
   }
 
 }

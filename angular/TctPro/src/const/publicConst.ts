@@ -16,6 +16,12 @@ export const RESULT ={
     },
     WORKS_SAVE_CODE:{
         ARTIST_NOT_EXIST:201111
-    }
+    },
 
+    
+
+}
+
+export const SNS = {
+    GOOGLE_CLIENT:"google"
 }

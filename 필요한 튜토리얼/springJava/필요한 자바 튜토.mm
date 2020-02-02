@@ -255,17 +255,17 @@
 <node CREATED="1565799689378" ID="ID_928810396" MODIFIED="1565799689378" TEXT="to angular-clis polyfill.ts file. right now couldn&apos;t see any sideeffects"/>
 </node>
 </node>
-<node CREATED="1565932198016" FOLDED="true" ID="ID_718731204" MODIFIED="1575975323859" POSITION="right" TEXT="&#xc6f9; &#xc18c;&#xcf13;&#xc5d0; &#xb300;&#xd55c; &#xc815;&#xb9ac;">
+<node CREATED="1565932198016" FOLDED="true" ID="ID_718731204" MODIFIED="1580618312058" POSITION="right" TEXT="&#xc6f9; &#xc18c;&#xcf13;&#xc5d0; &#xb300;&#xd55c; &#xc815;&#xb9ac;">
 <node CREATED="1565932222238" ID="ID_169774616" MODIFIED="1565932236394" TEXT="&#xae30;&#xbcf8;&#xc801;&#xc73c;&#xb85c; angular 8 + spring 2.1.6&#xc744; &#xc0ac;&#xc6a9;&#xd55c; &#xac83;"/>
-<node CREATED="1565932331134" FOLDED="true" ID="ID_1296553527" MODIFIED="1575381537050" TEXT="&#xd29c;&#xd1a0;&#xb9ac;&#xc5bc; &#xd3ec;&#xc778;&#xd2b8;&#xb97c; &#xae30;&#xbcf8;&#xc801;&#xc73c;&#xb85c; &#xcc38;&#xace0;">
+<node CREATED="1565932331134" ID="ID_1296553527" MODIFIED="1580439350728" TEXT="&#xd29c;&#xd1a0;&#xb9ac;&#xc5bc; &#xd3ec;&#xc778;&#xd2b8;&#xb97c; &#xae30;&#xbcf8;&#xc801;&#xc73c;&#xb85c; &#xcc38;&#xace0;">
 <node CREATED="1565932338271" ID="ID_81431862" LINK="https://www.tutorialspoint.com/spring_boot/spring_boot_web_socket.htm" MODIFIED="1565932338271" TEXT="https://www.tutorialspoint.com/spring_boot/spring_boot_web_socket.htm"/>
 </node>
-<node CREATED="1565932339349" FOLDED="true" ID="ID_1790914735" MODIFIED="1575381537050" TEXT="angular 8&#xc5d0;&#xc11c; &#xc0ac;&#xc6a9;&#xd55c; &#xbaa8;&#xb4c8;">
+<node CREATED="1565932339349" ID="ID_1790914735" MODIFIED="1580439351674" TEXT="angular 8&#xc5d0;&#xc11c; &#xc0ac;&#xc6a9;&#xd55c; &#xbaa8;&#xb4c8;">
 <node CREATED="1565932441342" ID="ID_960084271" MODIFIED="1565932444673" TEXT="npm install @types/sockjs"/>
 <node CREATED="1565932594115" ID="ID_909739163" MODIFIED="1565933126706" TEXT="npm install @types/sockjs-client"/>
 <node CREATED="1565932452901" ID="ID_1794270471" LINK="#ID_126925543" MODIFIED="1565932471714" TEXT="sockjs&#xb294; global &#xbcc0;&#xc218;&#xac00; &#xc5c6;&#xb2e4;&#xace0; &#xb728;&#xb2c8; &#xb2e4;&#xc74c;&#xc744; &#xcc38;&#xace0;"/>
 </node>
-<node CREATED="1565932655061" FOLDED="true" ID="ID_187154817" MODIFIED="1575381537050" TEXT="&#xcd08;&#xae30;&#xd654;(&#xc774;&#xbbf8;&#xc9c0;)">
+<node CREATED="1565932655061" FOLDED="true" ID="ID_187154817" MODIFIED="1580439357599" TEXT="&#xcd08;&#xae30;&#xd654;(&#xc774;&#xbbf8;&#xc9c0;)">
 <node CREATED="1565932832902" ID="ID_932637870" MODIFIED="1565932832902">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -277,7 +277,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1565932669550" FOLDED="true" ID="ID_1543561114" MODIFIED="1574311805168" TEXT="response&#xb300;&#xae30; &amp; response &#xbc1c;&#xc1a1;(&#xc774;&#xbbf8;&#xc9c0;)">
+<node CREATED="1565932669550" FOLDED="true" ID="ID_1543561114" MODIFIED="1580439359902" TEXT="response&#xb300;&#xae30; &amp; response &#xbc1c;&#xc1a1;(&#xc774;&#xbbf8;&#xc9c0;)">
 <node CREATED="1565932848803" ID="ID_1133023370" MODIFIED="1565932848803">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -3419,14 +3419,14 @@
 <node CREATED="1569321838984" FOLDED="true" ID="ID_1289431196" MODIFIED="1575975323862" POSITION="right" TEXT="JDBC &#xc624;&#xb958;">
 <node CREATED="1569321843353" ID="ID_437120369" LINK="#ID_1068000342" MODIFIED="1569321851842" TEXT="Failed to determine a suitable driver class "/>
 </node>
-<node COLOR="#3333ff" CREATED="1569954720531" FOLDED="true" ID="ID_1310219766" MODIFIED="1576931145622" POSITION="right" STYLE="bubble" TEXT="&#xd558;&#xc774;&#xbc84;&#xb124;&#xc774;&#xd2b8;(jpa)">
+<node COLOR="#3333ff" CREATED="1569954720531" ID="ID_1310219766" MODIFIED="1580630349642" POSITION="right" STYLE="bubble" TEXT="&#xd558;&#xc774;&#xbc84;&#xb124;&#xc774;&#xd2b8;(jpa)">
 <font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
 <node CREATED="1570118271397" ID="ID_1098857026" LINK="https://www.baeldung.com/spring-data-jpa-multiple-databases" MODIFIED="1571694519760" TEXT="https://www.baeldung.com/spring-data-jpa-multiple-databases"/>
 <node CREATED="1570132753122" FOLDED="true" ID="ID_977131534" MODIFIED="1572414311204" TEXT="select &#xc870;&#xac74;&#xbb38;">
 <node CREATED="1570132709848" ID="ID_263076276" LINK="https://www.petrikainulainen.net/programming/spring-framework/spring-data-jpa-tutorial-introduction-to-query-methods/" MODIFIED="1571694519761" TEXT="https://www.petrikainulainen.net/programming/spring-framework/spring-data-jpa-tutorial-introduction-to-query-methods/"/>
 <node CREATED="1570146978432" ID="ID_1135334450" LINK="https://www.baeldung.com/jpa-join-types" MODIFIED="1571694519764" TEXT="https://www.baeldung.com/jpa-join-types"/>
 </node>
-<node CREATED="1570395906141" FOLDED="true" ID="ID_1399637032" MODIFIED="1572414311205" TEXT="fechType">
+<node CREATED="1570395906141" ID="ID_1399637032" MODIFIED="1580630351825" TEXT="fechType">
 <node CREATED="1570395914157" ID="ID_156686172" MODIFIED="1570395915162" TEXT="&#xac1c;&#xb150;">
 <node CREATED="1570396150241" ID="ID_66838895" LINK="https://www.baeldung.com/jpa-join-types" MODIFIED="1570396150241" TEXT="https://www.baeldung.com/jpa-join-types"/>
 <node CREATED="1570396209803" ID="ID_1917710412" MODIFIED="1570396211343" TEXT="&#xb450;&#xac00;&#xc9c0;&#xac00; &#xc788;&#xb2e4;.">
@@ -3453,11 +3453,11 @@
 <node CREATED="1570395949140" ID="ID_124777700" MODIFIED="1570396828216" TEXT="&#xc870;&#xc778;&#xc744; &#xba85;&#xc2dc;&#xc801;&#xc73c;&#xb85c; &#xd558;&#xc5ec; &#xbd88;&#xb7ec;&#xc628;&#xb2e4;&#xb294; &#xac83;&#xc774;&#xb2e4;."/>
 </node>
 </node>
-<node CREATED="1572313369339" FOLDED="true" ID="ID_1561153760" MODIFIED="1574957124425" TEXT="fetch inner join (&#xcf54;&#xb4dc;)">
+<node CREATED="1572313369339" ID="ID_1561153760" MODIFIED="1580630355656" TEXT="fetch inner join (&#xcf54;&#xb4dc;)">
 <node CREATED="1572313382716" ID="ID_987460043" MODIFIED="1572313382716" TEXT="SELECT a FROM Artist a JOIN FETCH a.create c"/>
 <node CREATED="1572313390089" ID="ID_905347401" MODIFIED="1572313405110" TEXT="&#xc5ec;&#xae30;&#xc11c; &#xadf8;&#xb0e5; JOIN &#xd558;&#xba74; &#xac12;&#xc744; &#xc548;&#xac00;&#xc838;&#xc634;"/>
 </node>
-<node CREATED="1570134149228" FOLDED="true" ID="ID_331811455" MODIFIED="1574957124425" TEXT="emtityManagerFactory &#xb530;&#xb85c; &#xbd88;&#xb7ec;&#xc624;&#xae30;">
+<node CREATED="1570134149228" ID="ID_331811455" MODIFIED="1580630378560" TEXT="emtityManagerFactory &#xb530;&#xb85c; &#xbd88;&#xb7ec;&#xc624;&#xae30;">
 <node CREATED="1570134174494" ID="ID_951237667" LINK="https://okky.kr/article/306418" MODIFIED="1570134176036" TEXT="https://okky.kr/article/306418"/>
 <node CREATED="1570134163776" MODIFIED="1570134163776" TEXT="@Bean"/>
 <node CREATED="1570134163778" ID="ID_763116840" MODIFIED="1570134163778" TEXT="@Qualifier(&quot;emFac1&quot;)"/>
@@ -3971,12 +3971,12 @@
 </node>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#ff3333" CREATED="1570220267695" FOLDED="true" ID="ID_432910582" MODIFIED="1575975323863" POSITION="right" STYLE="bubble" TEXT="datasource &#xcee4;&#xc2a4;&#xd140; yml &#xc73c;&#xb85c; &#xc124;&#xc815; &#xc801;&#xc6a9;">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#ff3333" CREATED="1570220267695" FOLDED="true" ID="ID_432910582" MODIFIED="1580618312067" POSITION="right" STYLE="bubble" TEXT="datasource &#xcee4;&#xc2a4;&#xd140; yml &#xc73c;&#xb85c; &#xc124;&#xc815; &#xc801;&#xc6a9;">
 <font BOLD="true" NAME="Dialog" SIZE="24"/>
 <node CREATED="1570217513818" ID="ID_179807009" LINK="#ID_1428543512" MODIFIED="1570217526138" TEXT="datasource &#xc798; &#xc548; &#xc801;&#xc6a9;&#xb420; &#xb54c;"/>
 <node CREATED="1570220279808" ID="ID_1723667928" MODIFIED="1570220282579" TEXT="&#xc5ec;&#xae30;&#xc11c; &#xb354; &#xd544;&#xc694;&#xd55c;&#xac8c; &#xc788;&#xb2e4;."/>
 <node CREATED="1570220296720" ID="ID_377681665" MODIFIED="1570220296720" TEXT="@PropertySource(value =&quot;classpath:dataSourceConfig.yml&quot;, factory=YamlPropertyLoaderFactory.class)"/>
-<node CREATED="1570220304591" FOLDED="true" ID="ID_1576111198" MODIFIED="1571803567559" TEXT="YamlPropertyLoaderFactory &#xd074;&#xb798;&#xc2a4;&#xb97c; &#xc0c8;&#xb85c; &#xb354; &#xb9cc;&#xb4e4;&#xc5b4;&#xc57c; &#xd55c;&#xb2e4;.">
+<node CREATED="1570220304591" FOLDED="true" ID="ID_1576111198" MODIFIED="1580439504228" TEXT="YamlPropertyLoaderFactory &#xd074;&#xb798;&#xc2a4;&#xb97c; &#xc0c8;&#xb85c; &#xb354; &#xb9cc;&#xb4e4;&#xc5b4;&#xc57c; &#xd55c;&#xb2e4;.">
 <node CREATED="1570220317652" ID="ID_857943319" MODIFIED="1570220317652" TEXT="package com.theComments.brt.config;"/>
 <node CREATED="1570220317654" ID="ID_1420286366" MODIFIED="1570220317654" TEXT="import java.io.IOException;"/>
 <node CREATED="1570220317655" ID="ID_687790669" MODIFIED="1570220317655" TEXT="import java.util.List;"/>
@@ -4424,9 +4424,44 @@
 <node CREATED="1576583859747" ID="ID_92472382" MODIFIED="1576583865647" TEXT="ctrl + alt + h"/>
 </node>
 </node>
-<node CREATED="1576826799741" FOLDED="true" ID="ID_1905859363" MODIFIED="1579856251500" POSITION="right" TEXT="oauth2 client">
+<node CREATED="1576826799741" FOLDED="true" ID="ID_1905859363" MODIFIED="1580618312068" POSITION="right" TEXT="oauth2 client">
 <node CREATED="1576826814063" ID="ID_437162428" LINK="https://www.baeldung.com/spring-security-5-oauth2-login" MODIFIED="1576826814063" TEXT="https://www.baeldung.com/spring-security-5-oauth2-login"/>
 <node CREATED="1576826822703" ID="ID_1652193121" LINK="https://galid1.tistory.com/m/582" MODIFIED="1576826822703" TEXT="https://galid1.tistory.com/m/582"/>
+<node CREATED="1580468526311" ID="ID_1356217801" MODIFIED="1580470449095" TEXT="&#xd574;&#xb2f9;&#xd558;&#xb294; &#xac78;&#xb85c; &#xc778;&#xc99d;&#xc744; &#xd560;&#xb824;&#xace0; &#xd558;&#xc600;&#xc73c;&#xb098;, oauth2 resouse server&#xb97c; &#xc0ac;&#xc6a9;&#xd558;&#xace0; &#xc788;&#xb294; &#xc911;&#xc778;&#xac83; &#xb54c;&#xbb38;&#xc5d0; &#xc791;&#xb3d9;&#xd558;&#xc9c0; &#xc54a;&#xb294;&#xb2e4;."/>
+<node CREATED="1580470449789" ID="ID_1690383103" MODIFIED="1580470457305" TEXT="&#xc2a4;&#xd504;&#xb9c1; &#xbd80;&#xd2b8;&#xb97c; &#xc0c8;&#xb85c; &#xb9cc;&#xb4e4;&#xc5b4;&#xc11c; &#xc2e4;&#xd589;&#xd558;&#xb2c8; &#xc81c;&#xb300;&#xb85c; &#xc791;&#xb3d9;&#xd55c;&#xb2e4;."/>
+<node CREATED="1580470459702" ID="ID_1322165236" MODIFIED="1580470488639" TEXT="&#xb530;&#xb77c;&#xc11c; &#xc790;&#xbc14;&#xc2a4;&#xd06c;&#xb9bd;&#xd2b8; &#xc548;&#xc5d0;&#xc11c; &#xd1a0;&#xd070;&#xc744; &#xac00;&#xc838;&#xc640;&#xc11c; &#xd574;&#xb2f9;&#xd558;&#xb294; &#xd1a0;&#xd070;&#xc744; &#xb2e4;&#xc2dc; &#xbc31;&#xc5d0;&#xc11c; &#xb9de;&#xb098; &#xac80;&#xd1a0;&#xb294; &#xd558;&#xb294; &#xac78;&#xb85c; &#xb85c;&#xadf8;&#xc778;&#xd558;&#xb294;&#xac83;&#xc774; &#xd544;&#xc694;&#xd574; &#xbcf4;&#xc778;&#xb2e4;."/>
+<node CREATED="1580470786668" ID="ID_1047445385" MODIFIED="1580470789054" TEXT="&#xd574;&#xb2f9;&#xd558;&#xb294; &#xbb38;&#xc11c;">
+<node CREATED="1580470789635" ID="ID_1044605821" LINK="https://developers.google.com/identity/sign-in/web/sign-in" MODIFIED="1580470789635" TEXT="https://developers.google.com/identity/sign-in/web/sign-in"/>
+<node CREATED="1580470797797" ID="ID_1883602660" LINK="https://developers.google.com/identity/sign-in/web/reference#googleauthcurrentuserget" MODIFIED="1580470797797" TEXT="https://developers.google.com/identity/sign-in/web/reference#googleauthcurrentuserget"/>
+<node CREATED="1580470798907" ID="ID_525401611" MODIFIED="1580470799831" TEXT="&#xcf54;&#xb4dc;">
+<node CREATED="1580470819473" MODIFIED="1580470819473" TEXT="gapi.load(&apos;auth2&apos;, function() {">
+<node CREATED="1580470819476" MODIFIED="1580470819476" TEXT="gapi.auth2.init({">
+<node CREATED="1580470819477" MODIFIED="1580470819477" TEXT="client_id: &apos;21771763229-ha6vtbu74oa43jbj40gjj40kngqinodp.apps.googleusercontent.com&apos;"/>
+</node>
+<node CREATED="1580470819481" MODIFIED="1580470819481" TEXT="}).signIn({">
+<node CREATED="1580470819482" MODIFIED="1580470819482" TEXT="scope: &apos;profile email&apos;"/>
+</node>
+<node CREATED="1580470819485" MODIFIED="1580470819485" TEXT="}).then((user:any)=&gt;{">
+<node CREATED="1580470819487" MODIFIED="1580470819487" TEXT="const profile = user.getBasicProfile();"/>
+<node CREATED="1580470819488" MODIFIED="1580470819488" TEXT="console.log(&apos;ID: &apos; + profile.getId()); // Do not send to your backend! Use an ID token instead."/>
+<node CREATED="1580470819489" MODIFIED="1580470819489" TEXT="console.log(&apos;Name: &apos; + profile.getName());"/>
+<node CREATED="1580470819489" MODIFIED="1580470819489" TEXT="console.log(&apos;Image URL: &apos; + profile.getImageUrl());"/>
+<node CREATED="1580470819490" MODIFIED="1580470819490" TEXT="console.log(&apos;Email: &apos; + profile.getEmail()); // This is null if the &apos;email&apos; scope is not present."/>
+<node CREATED="1580470819492" MODIFIED="1580470819492" TEXT="const authInfo = user.getAuthResponse();"/>
+<node CREATED="1580470819493" MODIFIED="1580470819493" TEXT="console.log(&quot;access token:&quot; + authInfo.access_token);"/>
+</node>
+<node CREATED="1580470819494" MODIFIED="1580470819494" TEXT="})"/>
+<node CREATED="1580470819498" MODIFIED="1580470819498" TEXT="// gapi.auth2.init();"/>
+<node CREATED="1580470819498" MODIFIED="1580470819498" TEXT="/* Ready. Make a call to gapi.auth2.init or some other API */"/>
+<node CREATED="1580470819502" MODIFIED="1580470819502" TEXT="});"/>
+</node>
+</node>
+</node>
+</node>
+<node BACKGROUND_COLOR="#ffffff" COLOR="#ff3333" CREATED="1580439511092" FOLDED="true" ID="ID_577056719" MODIFIED="1580618312068" POSITION="right" STYLE="bubble" TEXT="yaml yml &#xd30c;&#xc77c; &#xc77d;&#xc5b4;&#xb85c;&#xae30;">
+<font BOLD="true" NAME="Dialog" SIZE="24"/>
+<node CREATED="1580439578382" ID="ID_530570295" LINK="https://www.baeldung.com/java-snake-yaml" MODIFIED="1580439578382" TEXT="https://www.baeldung.com/java-snake-yaml"/>
+<node CREATED="1580439581602" ID="ID_736703850" LINK="#ID_432910582" MODIFIED="1580439610279" TEXT="datasource &#xc77d;&#xc5b4;&#xc624;&#xae30;&#xb294; &#xc5ec;&#xae30;&#xc11c;"/>
 </node>
 </node>
 </map>

@@ -7,7 +7,7 @@
 <font BOLD="true" NAME="Dialog" SIZE="24"/>
 </node>
 </node>
-<node CREATED="1576732491327" FOLDED="true" ID="ID_1956078323" MODIFIED="1576736241563" POSITION="right" TEXT="&#xd074;&#xb77c;&#xc6b0;&#xb4dc; &#xc11c;&#xbe44;&#xc2a4; &#xb300;&#xba85;&#xc0ac;">
+<node CREATED="1576732491327" FOLDED="true" ID="ID_1956078323" MODIFIED="1580386464998" POSITION="right" TEXT="&#xd074;&#xb77c;&#xc6b0;&#xb4dc; &#xc11c;&#xbe44;&#xc2a4; &#xb300;&#xba85;&#xc0ac;">
 <node CREATED="1576732503207" ID="ID_763295376" MODIFIED="1576732516747" TEXT="EC2(Elastic Compute Cloud)"/>
 <node CREATED="1576732520893" ID="ID_89936104" MODIFIED="1576732528943" TEXT="S3(Simple Storage Service)"/>
 </node>

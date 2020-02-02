@@ -10,7 +10,12 @@ import javax.persistence.Id;
 import javax.persistence.OneToMany;
 import javax.persistence.OneToOne;
 
+import lombok.Getter;
+import lombok.Setter;
+
 @Entity
+@Getter
+@Setter
 public class Eva_user {
 	
 	@Id
@@ -39,88 +44,9 @@ public class Eva_user {
 	
 	@OneToOne(mappedBy = "eva_user")
 	Artist artist;
-
 	
-	
-	public Long getUser_id() {
-		return user_id;
-	}
-
-	public void setUser_id(Long user_id) {
-		this.user_id = user_id;
-	}
-
-	public String getNickname() {
-		return nickname;
-	}
-
-	public void setNickname(String nickname) {
-		this.nickname = nickname;
-	}
-
-	public String getUser_login_id() {
-		return user_login_id;
-	}
-
-	public void setUser_login_id(String user_login_id) {
-		this.user_login_id = user_login_id;
-	}
-
-	public String getPassword() {
-		return password;
-	}
-
-	public void setPassword(String password) {
-		this.password = password;
-	}
-
-	public String getEmail() {
-		return email;
-	}
-
-	public void setEmail(String email) {
-		this.email = email;
-	}
-
-	public List<Evaluate> getEvaluate() {
-		return evaluate;
-	}
-
-	public void setEvaluate(List<Evaluate> evaluate) {
-		this.evaluate = evaluate;
-	}
-
-	public List<WorksSave> getWorksSave() {
-		return worksSave;
-	}
-
-	public void setWorksSave(List<WorksSave> worksSave) {
-		this.worksSave = worksSave;
-	}
-
-	public Artist getArtist() {
-		return artist;
-	}
-
-	public void setArtist(Artist artist) {
-		this.artist = artist;
-	}
-
-	public List<ArtistSave> getArtistSave() {
-		return artistSave;
-	}
-
-	public void setArtistSave(List<ArtistSave> artistSave) {
-		this.artistSave = artistSave;
-	}
-	
-	
-	
-	
-
-	
-	
-	
+	@OneToMany(mappedBy = "eva_user")
+	List<Sns_user> sns_user;
 	
 	
 }
