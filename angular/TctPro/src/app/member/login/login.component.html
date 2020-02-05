@@ -21,15 +21,15 @@
         </mat-form-field>
         <mat-spinner class = "loading_spin spin1" *ngIf ="loading.login == 1"></mat-spinner>
         <div *ngIf = "loading.login == 0" class="login_button_div">
-            <button class="login_button button_login_01" mat-raised-button (click) = "login_common()">로그인</button>
+            <button class="login_button button_login_01" mat-raised-button (click) = "login_common(0,null)">로그인</button>
             <button class="login_button" mat-raised-button color="primary" routerLink="/member/join">회원가입</button>
         </div>
         <div *ngIf = "loading.login == 0" class="login_button_sns">
-            <button class="login_button" mat-raised-button class="sns_login_button"><span class="snsIcon">
+            <button type="button" (click) = "kakaoLogin()" class="login_button" mat-raised-button class="sns_login_button"><span class="snsIcon">
                     <img src="/assets/sns/kakao.png"></span>
             </button>
 
-            <button (click) = "googleLogin()" class="login_button" mat-raised-button><span class="snsIcon">
+            <button type="button" (click) = "googleLogin()" class="login_button" mat-raised-button><span class="snsIcon">
                     <img src="/assets/sns/google.png"></span>
             </button>
         </div>

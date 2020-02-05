@@ -14,6 +14,7 @@ import { ArtistSearchComponent } from './artist/artist-search/artist-search.comp
 import { ArtistDetailComponent } from './artist/artist-detail/artist-detail.component';
 import { EvalSerachComponent } from './eval/eval-serach/eval-serach.component';
 import { EvalDetailComponent } from './eval/eval-detail/eval-detail.component';
+import { SnsJoinComponent } from './member/sns-join/sns-join.component';
 
 
 const routes: Routes = [
@@ -22,7 +23,8 @@ const routes: Routes = [
   {path:"member",children:[
     {path:"join",component:JoinComponent},
     {path:"join_success/:id",component:JoinSuccessComponent},
-    {path:"login",component:LoginComponent}
+    {path:"login",component:LoginComponent},
+    {path:"sns_join",component:SnsJoinComponent}
   ]},
   {path:"works",children:[
     {path:"addWork",component:AddWorksComponent},

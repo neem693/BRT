@@ -3,10 +3,12 @@ import { HttpClient } from '@angular/common/http';
 import { environment } from 'src/environments/environment';
 import { Observable, BehaviorSubject } from 'rxjs';
 import { member_const } from './member_const/member_cosnt';
-import { resolve } from 'url';
+import { Router } from '@angular/router';
+import { GlobalServiceService } from '../global/global-service.service';
 
-declare let firebase: any;
-declare let gapi:any;
+
+declare let gapi: any;
+declare let Kakao: any;
 
 @Injectable({
   providedIn: 'root'
@@ -18,13 +20,20 @@ export class MemberServiceService {
   private loginStateSource = new BehaviorSubject(false);
   public loginState = this.loginStateSource.asObservable();
 
-  constructor(private http: HttpClient) { }
+  constructor(
+    private http: HttpClient,
+    private router:Router,
+    private globalService:GlobalServiceService) { }
   csrfGen(): Observable<any> {
     return this.http.get(environment.baseApiUrl + "/member_public/csrfTokenGen");
   }
 
   JoinMember_common(param: any): Observable<any> {
     return this.http.post(environment.baseApiUrl + "/member_public/joinMember_common", param, { observe: 'response' });
+  }
+
+  JoinSnsMember_common(param: any): Observable<any> {
+    return this.http.post(environment.baseApiUrl + "/member_public/joinMember_sns", param, { observe: 'response' });
   }
 
   loginIdDuplicate(param: any): Observable<any> {
@@ -131,31 +140,91 @@ export class MemberServiceService {
   }
 
 
-  googleLoginApi(){
-    return new Promise((resolve,reject)=>{
-
-    
-        gapi.load('auth2', function() {
-          gapi.auth2.init({
-            client_id: '21771763229-ha6vtbu74oa43jbj40gjj40kngqinodp.apps.googleusercontent.com'
-          }).signIn({
-            scope: 'profile email'
-          }).then((user:any)=>{
-            resolve(user);
-          }).catch((error:any)=>{
-            reject(error); 
-          })
-          // gapi.auth2.init();
-          /* Ready. Make a call to gapi.auth2.init or some other API */
-        });
-
-      })    
+  googleLoginApi() {
+    return new Promise((resolve, reject) => {
 
 
-     
+      gapi.load('auth2', function () {
+        gapi.auth2.init({
+          client_id: '21771763229-ha6vtbu74oa43jbj40gjj40kngqinodp.apps.googleusercontent.com'
+        }).signIn({
+          scope: 'profile email'
+        }).then((user: any) => {
+          resolve(user);
+        }).catch((error: any) => {
+          reject(error);
+        })
+        // gapi.auth2.init();
+        /* Ready. Make a call to gapi.auth2.init or some other API */
+      });
+
+    })
+  }
+
+  kakaoLoginApi() {
+
+    let data = {
+      auth: {},
+      data: {}
+    }
+
+    return new Promise((resolve, reject) => {
+      if (Kakao.isInitialized() == false) {
+        Kakao.init('b83ba4e754129ff630a7ffe5f0aefbe8');
+      }
+      Kakao.Auth.login({
+        success: function (authObj) {
+          data.auth = authObj;
+          Kakao.API.request({
+            url: '/v2/user/me',
+            success: function (res) {
+            
+              if(res['kakao_account'] == undefined || 
+              res['kakao_account']['email'] == undefined){
+                Kakao.API.request({
+                  url: '/v1/user/unlink',
+                });
+                
+                reject("4023");
+              }
+              data.data = res;
+              resolve(data); 
+            },
+            fail: function (error) {
+              reject(error);
+            },
+          });
+        },
+        fail: function (err) {
+          reject(err);
+        }
+      });
+    })
 
   }
 
+  /**
+   * 로그인이 안되어 있으면 현재 페이지를 저장하고 로그인페이지로 라우팅 시킴.
+   * 리턴 값으로는 로그인이 되어 있으면 true 리턴, 아니면 false 리턴
+   */
+  public loginRequired(){
+    let loginStateValue:boolean;
+    this.loginState.subscribe(x=>{
+      loginStateValue = x;
+    })
 
+   
+    if(loginStateValue == false){
+      this.globalService.openGlobalAlert("로그인이 필요합니다.");
+      if(this.router.url != "/member/login"){
+        sessionStorage.setItem(member_const.loginReturnUrlKey,this.router.url);
+      }
+      localStorage.removeItem(member_const.token_key);
+      localStorage.removeItem(member_const.token_expire_key);
+      this.router.navigate(["member/login"]);
+      return false;
+    }
+    return true;
+  }
 
 }

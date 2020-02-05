@@ -7,6 +7,9 @@ import { ActivatedRoute, Router } from '@angular/router';
 import { WorksSerivceService } from 'src/app/works/works-serivce.service';
 import { RESULT } from 'src/const/publicConst';
 import { ArtNameIsExistDialogComponent } from '../dialog/art-name-is-exist-dialog/art-name-is-exist-dialog.component';
+import { MemberServiceService } from 'src/app/member/member-service.service';
+import { member_const } from 'src/app/member/member_const/member_cosnt';
+import { GlobalDialogComponent } from 'src/app/global/dialog/global-dialog/global-dialog.component';
 
 @Component({
   selector: 'app-artist-add',
@@ -38,15 +41,22 @@ export class ArtistAddComponent implements OnInit {
     pageNum: 1
   }
 
+  loginState:boolean = false;
+
   constructor(
     private dialog: MatDialog,
     private artistService: ArtistService,
     private router: Router,
     private route: ActivatedRoute,
-    private worksService:WorksSerivceService
+    private worksService:WorksSerivceService,
+    private memberService:MemberServiceService,
   ) { }
 
   ngOnInit() {
+
+    if(this.memberService.loginRequired() == false){
+      return;
+    };
 
     this.route.params.subscribe(x => {
       let data = {};

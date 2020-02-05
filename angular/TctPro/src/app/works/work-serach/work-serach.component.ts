@@ -438,7 +438,6 @@ export class WorkSerachComponent implements OnInit, AfterViewInit {
     
     let work_id = this.targetWork.work['work_id'];
     this.router.navigate(['/eval/addEval/',work_id]);
-    
 
   }
 

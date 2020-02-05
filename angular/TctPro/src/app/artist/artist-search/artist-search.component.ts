@@ -106,7 +106,10 @@ export class ArtistSearchComponent implements OnInit {
 
     this.route.queryParams.subscribe(x => {
 
-      // console.log(x);
+      console.log(x);
+      if(x['type1'] == undefined){
+        return;
+      }
 
       this.artistSearch(x);
     })

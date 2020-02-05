@@ -1,17 +1,23 @@
-export class User {
+export interface UserInfo {
 
-    public user_id:number;
-    public nickname:string;
-    public user_login_id:string;
-    public password:string;
-    public email:string;
-    public access_token: string;
-    public sns_user_unique_id: string;
-    public sns_type: string;
-    public sns_email: string;
+     user_id:number;
+     nickname:string;
+     user_login_id:string;
+     password:string;
+     email:string;
+     access_token: string;
+     sns_user_unique_id: string;
+     snsType: string;
+     sns_email: string;
 
-    constructor(){
-        
-    }
+
     
+}
+
+export interface SnsBasicUserInfo{
+     user_login_id:string;
+     password:string
+     snsType:string;
+     email:string;
+     access_token:string;
 }

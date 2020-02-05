@@ -1,0 +1,33 @@
+<hr class="hr_01">
+<h1 class="subject">회원가입</h1>
+<hr class="hr_01">
+<form class="joinForm">
+
+
+  <!-- <button type="button">werfwewf</button> -->
+
+  <mat-form-field  class="input_form_01" appearance="outline">
+    <mat-label>이메일</mat-label>
+    <input (blur) = "emailDuplicate(loginData.email)" [readonly] ="true" matInput [formControl]="loginData.email" [type]="'text'" placeholder="닉네임 다시입력" value="">
+    <mat-hint>이메일 읽기전용</mat-hint>
+    <mat-error *ngIf="loginData.email.hasError('required')">필수 입력 항목입니다.</mat-error>
+    <mat-error *ngIf="loginData.email.hasError('pattern')">이메일 형식을 지켜주세요.</mat-error>
+    <mat-error *ngIf="loginData.email.hasError('emailDup')">이미 등록된 이메일입니다.</mat-error>
+    
+  </mat-form-field>
+
+  <mat-form-field class="input_form_01" appearance="outline">
+    <mat-label>닉네임/별명</mat-label>
+    <input (blur) = "nicknameDuplicate(loginData.nickname)" matInput [formControl]="loginData.nickname" [type]="'text'" placeholder="닉네임 다시입력" value="">
+    <mat-hint>3~20자 안에 한글,영문,숫자만 입력 가능</mat-hint>
+    <mat-error *ngIf="loginData.nickname.hasError('required')">필수 입력 항목입니다.</mat-error>
+    <mat-error *ngIf="loginData.nickname.hasError('pattern')">한글,영문,숫자만 3~20글자로 입력가능합니다.</mat-error>
+    <mat-error *ngIf="loginData.nickname.hasError('nicknameDup')">이미 등록된 닉네임 입니다.</mat-error>
+  </mat-form-field>
+
+
+
+  <button type="submit" (click) = "saveMember(loginData)" mat-raised-button>가입</button>
+
+
+</form>

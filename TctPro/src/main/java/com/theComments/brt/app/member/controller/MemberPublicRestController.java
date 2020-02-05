@@ -1,5 +1,6 @@
 package com.theComments.brt.app.member.controller;
 
+import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -41,6 +42,20 @@ public class MemberPublicRestController {
 		
 		System.out.println(user);
 		memberCommonService.userCommonJoin(user);
+		
+//		user.setPassword(password);
+		
+	}
+	
+	@RequestMapping(value="/joinMember_sns",method=RequestMethod.POST)
+	public void saveMemberSns(@RequestBody Eva_user user) throws IOException {
+		
+		try {
+			memberCommonService.userSnsJoin(user);
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			res.sendError(400, e.getMessage());
+		}
 		
 //		user.setPassword(password);
 		
@@ -93,7 +108,5 @@ public class MemberPublicRestController {
 		return map;
 		
 	}
-	
-
 
 }

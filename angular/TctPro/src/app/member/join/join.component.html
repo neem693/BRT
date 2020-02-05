@@ -36,7 +36,7 @@
     <input (blur) = "nicknameDuplicate(loginData.nickname)" matInput [formControl]="loginData.nickname" [type]="'text'" placeholder="닉네임 다시입력" value="">
     <mat-hint>3~20자 안에 한글,영문,숫자만 입력 가능</mat-hint>
     <mat-error *ngIf="loginData.nickname.hasError('required')">필수 입력 항목입니다.</mat-error>
-    <mat-error *ngIf="loginData.nickname.hasError('pattern')">한글,영문,숫자만 입력가능합니다.</mat-error>
+    <mat-error *ngIf="loginData.nickname.hasError('pattern')">한글,영문,숫자만 3~20글자로 입력가능합니다.</mat-error>
     <mat-error *ngIf="loginData.nickname.hasError('nicknameDup')">이미 등록된 닉네임 입니다.</mat-error>
   </mat-form-field>
 

@@ -9,6 +9,10 @@ import { RESULT } from 'src/const/publicConst';
 import { Router, ActivatedRoute } from '@angular/router';
 import { ArtistService } from 'src/app/artist/artist.service';
 import { WorksNameIsExistDialogComponent } from '../dialog/works-name-is-exist-dialog/works-name-is-exist-dialog.component';
+import { MemberServiceService } from 'src/app/member/member-service.service';
+import { GlobalDialogComponent } from 'src/app/global/dialog/global-dialog/global-dialog.component';
+import { member_const } from 'src/app/member/member_const/member_cosnt';
+import { GlobalServiceService } from 'src/app/global/global-service.service';
 declare const $: any;
 
 @Component({
@@ -65,10 +69,16 @@ export class AddWorksComponent implements OnInit {
     private dialog: MatDialog,
     private workService: WorksSerivceService,
     private route: ActivatedRoute,
-    private artistService: ArtistService
+    private artistService: ArtistService,
+    private memberService:MemberServiceService,
+    private globalService:GlobalServiceService,
   ) { }
 
   ngOnInit() {
+
+    if(this.memberService.loginRequired() == false){
+      return;
+    };
 
     this.getAllType();
     console.log(this.route.params);
@@ -349,5 +359,7 @@ export class AddWorksComponent implements OnInit {
 
     })
   }
+
+
 
 }

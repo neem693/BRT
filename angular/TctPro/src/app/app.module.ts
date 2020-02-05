@@ -42,6 +42,9 @@ import { EvalSerachComponent } from './eval/eval-serach/eval-serach.component';
 import { EvalDetailComponent } from './eval/eval-detail/eval-detail.component';
 import { GlobalDialogComponent } from './global/dialog/global-dialog/global-dialog.component';
 import {StoreModule} from '@ngrx/store'
+import { usuerInfoReducer } from './ngrx/reducer/userInfoReducer';
+import { StoreDevtoolsModule } from '@ngrx/store-devtools';
+import { SnsJoinComponent } from './member/sns-join/sns-join.component';
 
 const DEFAULT_SWIPER_CONFIG: SwiperConfigInterface = {
   direction: 'horizontal',
@@ -76,6 +79,7 @@ const DEFAULT_SWIPER_CONFIG: SwiperConfigInterface = {
     EvalSerachComponent,
     EvalDetailComponent,
     GlobalDialogComponent,
+    SnsJoinComponent,
 
     
   ],
@@ -104,7 +108,11 @@ const DEFAULT_SWIPER_CONFIG: SwiperConfigInterface = {
     NgbPaginationModule,
     MatProgressSpinnerModule,
     SwiperModule,
-    StoreModule
+    StoreModule.forRoot({userInfo:usuerInfoReducer}),
+    StoreDevtoolsModule.instrument({
+      maxAge: 25, // Retains last 25 states
+      //logOnly: environment.production, // Restrict extension to log-only mode
+    }),
   ],
   entryComponents: [
     JoinFailComponent,

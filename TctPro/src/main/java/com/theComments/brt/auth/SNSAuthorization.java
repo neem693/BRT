@@ -37,6 +37,11 @@ public class SNSAuthorization {
 			HttpEntity<String> entity = new HttpEntity<String>(headers);
 			ResponseEntity<String> response = restTemplate.exchange(SNS.GOOGLE.checkAccessTokenUri, HttpMethod.GET, entity, String.class);
 			result = response.getBody();
+		}else if(snsType.equals(SNS.KAKAO.snsType)) {
+			headers.set("Authorization", "Bearer " + access_token);
+			HttpEntity<String> entity = new HttpEntity<String>(headers);
+			ResponseEntity<String> response = restTemplate.exchange(SNS.KAKAO.checkAccessTokenUri, HttpMethod.GET, entity, String.class);
+			result = response.getBody();
 		}
 
 		

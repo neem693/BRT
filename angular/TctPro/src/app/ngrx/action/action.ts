@@ -1,8 +1,9 @@
 import { createAction, props } from '@ngrx/store';
+import { UserInfo } from 'src/app/vo/user';
 
 
 
-export const login = createAction(
-    '[LoginIdSave] saveId',
-    props<{ username: string; password: string }>()
+export const userinfoTempSave = createAction(
+    '[save] save userinfo temporarly',
+    props<{payload:UserInfo}>()
   );

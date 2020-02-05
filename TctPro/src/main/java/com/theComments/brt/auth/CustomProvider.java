@@ -1,5 +1,6 @@
 package com.theComments.brt.auth;
 
+import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.HashMap;
@@ -19,6 +20,7 @@ import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Component;
+import org.springframework.transaction.annotation.Transactional;
 
 import com.sun.xml.bind.v2.TODO;
 import com.theComments.brt.constFile.AuthUser;
@@ -97,13 +99,21 @@ public class CustomProvider extends AbstractUserDetailsAuthenticationProvider {
 				if(snsResult.get("user_id").toString().equals(user_login_id) == false) {
 					throw new BadCredentialsException("4021:sns auth error");
 				}
+			}else if(snsType.equals(SNS.KAKAO.snsType)){
+				snsResult = this.snsAuthorization.oAuth2TokenApi(snsType, access_token);
+				if(snsResult.get("id").toString().equals(user_login_id) == false) {
+					throw new BadCredentialsException("4021:sns auth error");
+				}
+			}else {
+				throw new BadCredentialsException("4021:sns auth error");
 			}
 			
 			Optional<Sns_user> sns_user = snsDao.findSnsUser(user_login_id, snsType);
 			if(sns_user.isPresent() == false) {
 				throw new BadCredentialsException("4022:sns user not registed");
 			}
-			
+			// TODO 액세스 토큰 최신화로 업데이트
+			this.updateAccessToken(sns_user,access_token);
 			targetUser =  sns_user.get().getEva_user();
 			
 		}else {
@@ -116,11 +126,19 @@ public class CustomProvider extends AbstractUserDetailsAuthenticationProvider {
 				throw new BadCredentialsException("4012:아이디 또는 패스워드가 올바르지 않습니다.");
 			}
 			
+			// TODO SNS 로그인 아닌거 검증
+			List<Sns_user> isSnsUser = snsDao.findByEva_user(eva_user_list.get(0).getUser_id());
+			if(isSnsUser.size() > 0) {
+				throw new BadCredentialsException("4012:아이디 또는 패스워드가 올바르지 않습니다.");
+			}
+			
 			targetUser = eva_user_list.get(0);
 			
 		}
 		///일반 로그인 체크 끝
 		
+		// TODO 최신 로그인 날짜로 업데이트
+		this.updateLoginDate(targetUser);
 		
 		//////권한 위임
 		Collection<GrantedAuthority> authList = new ArrayList<GrantedAuthority>();
@@ -130,6 +148,25 @@ public class CustomProvider extends AbstractUserDetailsAuthenticationProvider {
 		
 		return user;
 		/////////////
+	}
+
+	@Transactional("userTransactionManager")
+	private void updateAccessToken(Optional<Sns_user> _snsUser,String access_token) {
+		// TODO Auto-generated method stub
+		
+		Sns_user snsUser = _snsUser.get();
+		snsUser.setAccess_token(access_token);
+		
+		snsDao.save(snsUser);
+		return;
+		
+	}
+	
+	private void updateLoginDate(Eva_user user) {
+		
+		user.setLogin_date(LocalDateTime.now());
+		userDao.save(user);
+		return;
 	}
 	
 	

@@ -6,6 +6,7 @@ export const RESULT ={
     ID_KEY:'id',
     RESULT_KEY:'result',
     TOTALSIZE_KEY:'totalSize',
+    ERROR_MESSAGE:'error_description',
     GET_MASSAGE_CODE:(data:string):number=>{
         let split_data:string[]  = data.split(":");
         return Number(split_data[0]);
@@ -23,5 +24,6 @@ export const RESULT ={
 }
 
 export const SNS = {
-    GOOGLE_CLIENT:"google"
+    GOOGLE_CLIENT:"google",
+    KAKAO_CLIENT:"kakao",
 }

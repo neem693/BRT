@@ -1,0 +1,12 @@
+<IfModule mod_rewrite.c>
+        RewriteEngine   On
+
+#v1은 restApi
+#SPA이기 때문에 index.html 로 옮기기 
+
+        Rewritecond %{REQUEST_URI} !^/index.html$
+        Rewritecond %{REQUEST_URI} !\..*$
+        Rewritecond %{REQUEST_URI} !^/v\d.*$
+        RewriteRule ^ /index.html
+
+</IfModule>
