@@ -38,5 +38,12 @@ public class EvalPublicRestController {
 		return result.getResultMap();
 		
 	}
+	
+	@RequestMapping(value = "/mainEvalList",method = RequestMethod.GET)
+	public Map<String,Object> mainEvalList(){
+		ResultMap result = evalService.evalMainEvalList();
+		
+		return result.getResultMap();
+	}
 
 }

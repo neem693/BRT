@@ -529,7 +529,7 @@
 <node CREATED="1580281236530" FOLDED="true" ID="ID_781663478" MODIFIED="1580354164016" TEXT="&#xbaa8;&#xb4e0; &#xc11c;&#xbe44;&#xc2a4; &#xbcf4;&#xae30;">
 <node CREATED="1580281239426" ID="ID_632277568" MODIFIED="1580281239426" TEXT="service --status-all|grep +"/>
 </node>
-<node CREATED="1580286689726" FOLDED="true" ID="ID_1402451353" MODIFIED="1580354163149" TEXT="&#xad8c;&#xd55c;">
+<node CREATED="1580286689726" ID="ID_1402451353" MODIFIED="1581005239051" TEXT="&#xad8c;&#xd55c;">
 <node CREATED="1580286697729" ID="ID_1601941785" MODIFIED="1580286698594" TEXT="&#xac1c;&#xb150;">
 <node CREATED="1580286698958" ID="ID_295912013" LINK="https://withcoding.com/103" MODIFIED="1580286698958" TEXT="https://withcoding.com/103"/>
 </node>
@@ -849,6 +849,32 @@
 <node CREATED="1580186325236" ID="ID_1497342364" MODIFIED="1580191825497" TEXT="rfc 1918">
 <node CREATED="1580186348073" LINK="https://tools.ietf.org/html/rfc1918" MODIFIED="1580186348073" TEXT="https://tools.ietf.org/html/rfc1918"/>
 </node>
+</node>
+<node CREATED="1580978826450" ID="ID_158648183" MODIFIED="1580978828703" POSITION="right" TEXT="&#xb3c4;&#xba54;&#xc778; &#xc124;&#xc815;">
+<node CREATED="1580978831244" ID="ID_1764888069" MODIFIED="1580978853938" TEXT="&#xac00;&#xbe44;&#xc544;&#xc5d0;&#xc11c; &#xc0b0;&#xac83; &#xc801;&#xc6a9;">
+<node CREATED="1580978854300" ID="ID_938622242" LINK="https://teddylee777.github.io/aws/%EC%95%84%EB%A7%88%EC%A1%B4AWS-%EC%9D%B8%EC%8A%A4%ED%84%B4%EC%8A%A4-%EB%8F%84%EB%A9%94%EC%9D%B8-%EC%97%B0%EA%B2%B0%ED%95%98%EA%B8%B0" MODIFIED="1580978854300" TEXT="https://teddylee777.github.io/aws/%EC%95%84%EB%A7%88%EC%A1%B4AWS-%EC%9D%B8%EC%8A%A4%ED%84%B4%EC%8A%A4-%EB%8F%84%EB%A9%94%EC%9D%B8-%EC%97%B0%EA%B2%B0%ED%95%98%EA%B8%B0"/>
+</node>
+</node>
+<node CREATED="1580979141769" ID="ID_1371758967" MODIFIED="1580979145243" POSITION="right" TEXT="&#xba54;&#xc77c;&#xc124;&#xc815;">
+<node CREATED="1580979293552" FOLDED="true" ID="ID_637662490" MODIFIED="1581006301240" TEXT="smtp &#xc124;&#xc815;">
+<node CREATED="1580981939380" ID="ID_333967069" MODIFIED="1580981942862" TEXT="&#xc804;&#xbc18;&#xc801;&#xc778; &#xc124;&#xc815;">
+<node CREATED="1580981936550" ID="ID_293356116" LINK="https://docs.aws.amazon.com/ko_kr/ses/latest/DeveloperGuide/Welcome.html" MODIFIED="1580981937301" TEXT="https://docs.aws.amazon.com/ko_kr/ses/latest/DeveloperGuide/Welcome.html"/>
+</node>
+<node CREATED="1580979296589" ID="ID_980055210" LINK="https://docs.aws.amazon.com/ko_kr/ses/latest/DeveloperGuide/smtp-credentials.html" MODIFIED="1580979296589" TEXT="https://docs.aws.amazon.com/ko_kr/ses/latest/DeveloperGuide/smtp-credentials.html"/>
+<node CREATED="1580981946708" ID="ID_1680350189" MODIFIED="1580986710808" TEXT="java&#xb85c; ses SMTP &#xc774;&#xc6a9;">
+<node CREATED="1580986701117" LINK="https://docs.aws.amazon.com/ko_kr/ses/latest/DeveloperGuide/send-using-smtp-java.html" MODIFIED="1580986701117" TEXT="https://docs.aws.amazon.com/ko_kr/ses/latest/DeveloperGuide/send-using-smtp-java.html"/>
+</node>
+</node>
+<node CREATED="1581006310344" ID="ID_1038302873" MODIFIED="1581006312614" TEXT="&#xc11c;&#xbe44;&#xc2a4; &#xc81c;&#xd55c; &#xd480;&#xae30;">
+<node CREATED="1581006312902" ID="ID_281271959" LINK="https://console.aws.amazon.com/support/cases#/" MODIFIED="1581006312902" TEXT="https://console.aws.amazon.com/support/cases#/"/>
+</node>
+</node>
+<node CREATED="1581009443316" ID="ID_1184344303" MODIFIED="1581009447330" POSITION="right" TEXT="s3 &#xd30c;&#xc77c; &#xc5c5;&#xb85c;&#xb4dc;">
+<node CREATED="1581054815869" ID="ID_833051714" LINK="https://www.baeldung.com/aws-s3-java" MODIFIED="1581054816648" TEXT="https://www.baeldung.com/aws-s3-java"/>
+<node CREATED="1581055531096" ID="ID_106818959" MODIFIED="1581055711475" TEXT="&#xd30c;&#xc77c; &#xc5c5;&#xb85c;&#xb4dc; &#xd560; &#xb54c; &#xad8c;&#xd55c; &#xbb38;&#xc81c;">
+<node CREATED="1581055712466" LINK="https://stackoverflow.com/questions/6524041/how-do-you-make-an-s3-object-public-via-the-aws-java-sdk" MODIFIED="1581055712466" TEXT="https://stackoverflow.com/questions/6524041/how-do-you-make-an-s3-object-public-via-the-aws-java-sdk"/>
+</node>
+<node CREATED="1581009449446" ID="ID_951302164" LINK="https://songc92.tistory.com/51" MODIFIED="1581009449446" TEXT="https://songc92.tistory.com/51"/>
 </node>
 </node>
 </map>

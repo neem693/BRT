@@ -403,6 +403,86 @@ public class EvalService {
 		
 		return eval_item;
 	}
+
+	public ResultMap evalMainEvalList() {
+		// TODO Auto-generated method stub
+		int pageNum = 0;
+		int pageSize = 4;
+
+		Pageable pageable = PageRequest.of(pageNum, pageSize);
+		Long type1 = 1L;
+		Page<Evaluation_item> mainSeeList = eval_item_dao.selectSeeMain(type1,pageable);
+		type1 = 2L;
+		Page<Evaluation_item> mainListenList = eval_item_dao.selectSeeMain(type1,pageable);
+		type1 = 3L;
+		Page<Evaluation_item> mainDoList = eval_item_dao.selectSeeMain(type1,pageable);
+		
+		List<Evaluation_itemDto> mainSeeListDto = this.toItemDto(mainSeeList.getContent());
+		List<Evaluation_itemDto> mainListenListDto = this.toItemDto(mainListenList.getContent());
+		List<Evaluation_itemDto> mainDoListDto = this.toItemDto(mainDoList.getContent());
+		
+		Map<String,Object> dtoMap = new HashMap<String, Object>();
+		dtoMap.put("see", mainSeeListDto);
+		dtoMap.put("listen", mainListenListDto);
+		dtoMap.put("do", mainDoListDto);
+		
+		ResultMap result = new ResultMap();
+		result.setData(dtoMap);
+		result.setResult(200);
+		
+		return result;
+	}
+	
+	private List<Evaluation_itemDto> toItemDto(List<Evaluation_item> evalItem_list) {
+		List<Evaluation_itemDto> evalItemDtoList = new ArrayList<Evaluation_itemDto>();
+		for(Evaluation_item item : evalItem_list) {
+			Evaluation_itemDto evalItemDto = new Evaluation_itemDto();
+			
+			BeanUtils.copyProperties(item, evalItemDto);
+			//worksStart
+			Evaluate eval = item.getEvaluate().get(0);
+			Works work = eval.getWorks();
+			WorksDto workDto = new WorksDto();
+			BeanUtils.copyProperties(work, workDto);
+			//artistStart
+			
+			List<Create_art> createArtList = new ArrayList<Create_art>();
+			createArtList.addAll(work.getCreate());
+			
+			List<ArtistDto> artistDto_list = new ArrayList<>();
+			
+			for (Create_art create : createArtList) {
+				Artist artist = create.getArtist();
+				ArtistDto artistDto = new ArtistDto();
+
+				BeanUtils.copyProperties(artist, artistDto);
+
+				artistDto_list.add(artistDto);
+			}
+			
+			workDto.setArtistDtoList(artistDto_list);
+			
+			//artistEnd
+			//type start
+			Type2Dto type2Dto_var = new Type2Dto();
+			Type1Dto type1Dto_var = new Type1Dto();
+			
+			BeanUtils.copyProperties(work.getType2(), type2Dto_var);
+			BeanUtils.copyProperties(work.getType2().getType1(), type1Dto_var);
+			
+			type2Dto_var.setType1Dto(type1Dto_var);
+			workDto.setType2(type2Dto_var);
+			//type end
+			
+			evalItemDto.setWork(workDto);
+			//work end
+			
+			evalItemDtoList.add(evalItemDto);
+			
+		}
+		
+		return evalItemDtoList;
+	}
 	
 
 }

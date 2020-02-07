@@ -21,7 +21,7 @@
 
     <div class="regist_block">
         <mat-icon [ngClass]="{'active':add.evaluateAdd}" class="regist_icon">comment</mat-icon><span
-            *ngIf="add.evaluateAdd == false">코멘트 등록불가</span><button *ngIf="add.evaluateAdd == true" mat-raised-button
+            *ngIf="add.evaluateAdd == false">코멘트 등록불가</span><button (click) = "goToEvalPage()" *ngIf="add.evaluateAdd == true" mat-raised-button
             color="primary">등록가능</button>
     </div>
 

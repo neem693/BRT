@@ -45,6 +45,7 @@ import {StoreModule} from '@ngrx/store'
 import { usuerInfoReducer } from './ngrx/reducer/userInfoReducer';
 import { StoreDevtoolsModule } from '@ngrx/store-devtools';
 import { SnsJoinComponent } from './member/sns-join/sns-join.component';
+import { HomeService } from './home/home.service';
 
 const DEFAULT_SWIPER_CONFIG: SwiperConfigInterface = {
   direction: 'horizontal',
@@ -130,6 +131,7 @@ const DEFAULT_SWIPER_CONFIG: SwiperConfigInterface = {
     WorksSerivceService,
     ArtistService,
     EvalService,
+    HomeService,
     customVali,
     {
       provide:HTTP_INTERCEPTORS,

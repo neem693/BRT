@@ -64,4 +64,8 @@ export class AfterArtistSaveCheckComponent implements OnInit {
 
   }
 
+  goToEvalPage(){
+    this.router.navigate(["/eval/addEval",this.data.work["work_id"]]);
+  }
+
 }

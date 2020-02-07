@@ -73,8 +73,8 @@ public class EvalDynamicQueryDao {
 		 * 1 ELSE 0 END) as blue, SUM(CASE WHEN result.ev_value>=2 and result.ev_value
 		 * <=3 THEN 1 ELSE 0 END) as gray, SUM(CASE WHEN result.ev_value=1 THEN 1 ELSE 0
 		 * END) as black FROM ( SELECT ei.subjectMatter, ei.ev_value FROM
-		 * evaluation_item ei INNER JOIN evaluate e ON ei.eval_item_id = e.eval_item_id
-		 * INNER JOIN WORKS w ON w.work_id = e.works_id WHERE w.work_id = 2 ) as result
+		 * Evaluation_item ei INNER JOIN Evaluate e ON ei.eval_item_id = e.eval_item_id
+		 * INNER JOIN Works w ON w.work_id = e.works_id WHERE w.work_id = 2 ) as result
 		 * GROUP BY result.subjectMatter
 		 */
 		Query query = em.createNativeQuery("SELECT\r\n" + "        result.subjectMatter,\r\n" + "        SUM(CASE \r\n"
@@ -87,9 +87,9 @@ public class EvalDynamicQueryDao {
 				+ "            WHEN result.ev_value=1 THEN 1 \r\n" + "            ELSE 0 \r\n"
 				+ "        END) as black   \r\n" + "    FROM\r\n" + "        (   SELECT\r\n"
 				+ "            ei.subjectMatter,\r\n" + "            ei.ev_value   \r\n" + "        FROM\r\n"
-				+ "            evaluation_item ei    \r\n" + "        INNER JOIN\r\n" + "            evaluate e   \r\n"
+				+ "            Evaluation_item ei    \r\n" + "        INNER JOIN\r\n" + "            Evaluate e   \r\n"
 				+ "                ON ei.eval_item_id = e.eval_item_id    \r\n" + "        INNER JOIN\r\n"
-				+ "            WORKS w   \r\n" + "                ON w.work_id = e.works_id   \r\n"
+				+ "            Works w   \r\n" + "                ON w.work_id = e.works_id   \r\n"
 				+ "        WHERE\r\n" + "            w.work_id = :work_id   ) as result   \r\n" + "    GROUP BY\r\n"
 				+ "        result.subjectMatter", "selectSubjectMatterGroup");
 
@@ -112,10 +112,10 @@ public class EvalDynamicQueryDao {
 		// TODO Auto-generated method stub
 
 		Query query = em.createNativeQuery("SELECT\r\n" + "count(*)      \r\n" + "FROM\r\n" + "(SELECT\r\n"
-				+ "ei.subjectMatter          \r\n" + "FROM\r\n" + "evaluation_item ei              \r\n"
-				+ "INNER JOIN\r\n" + "evaluate e                     \r\n"
+				+ "ei.subjectMatter          \r\n" + "FROM\r\n" + "Evaluation_item ei              \r\n"
+				+ "INNER JOIN\r\n" + "Evaluate e                     \r\n"
 				+ "ON ei.eval_item_id = e.eval_item_id              \r\n" + "INNER JOIN\r\n"
-				+ "WORKS w                     \r\n" + "ON w.work_id = e.works_id             \r\n" + "WHERE\r\n"
+				+ "Works w                     \r\n" + "ON w.work_id = e.works_id             \r\n" + "WHERE\r\n"
 				+ "w.work_id =:work_id\r\n" + "group by ei.subjectMatter\r\n" + " ) as result");
 
 		query.setParameter("work_id", work_id);
