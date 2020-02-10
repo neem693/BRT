@@ -58,6 +58,12 @@ public class CustomProvider extends AbstractUserDetailsAuthenticationProvider {
             logger.debug("Authentication failed: password does not match stored value");
             throw new BadCredentialsException("4012:아이디 또는 패스워드가 올바르지 않습니다.");
         }
+        
+        CustomUser user = (CustomUser)userDetails;
+        if(user.getEmailValid() == 0) {
+        	logger.debug("EMAIL does not valid -- 4013");
+        	throw new BadCredentialsException("4013:이메일이 인증되지 않았습니다.");
+        }
 		
 	}
 

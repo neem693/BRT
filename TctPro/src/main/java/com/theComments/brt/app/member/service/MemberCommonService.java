@@ -1,9 +1,12 @@
 package com.theComments.brt.app.member.service;
 
 import java.time.LocalDateTime;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+
+import javax.validation.constraints.Email;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.BadCredentialsException;
@@ -12,12 +15,17 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.theComments.brt.app.common.CommonSecure;
+import com.theComments.brt.app.common.EmailSender;
 import com.theComments.brt.auth.SNSAuthorization;
+import com.theComments.brt.constFile.EmailInfo;
 import com.theComments.brt.constFile.SNS;
+import com.theComments.brt.jpa.theComment.dao.Email_templateDao;
 import com.theComments.brt.jpa.theComment.dao.Eva_user_dao;
 import com.theComments.brt.jpa.theComment.dao.SnsUser_dao;
+import com.theComments.brt.jpa.theComment.model.Email_template;
 import com.theComments.brt.jpa.theComment.model.Eva_user;
 import com.theComments.brt.jpa.theComment.model.Sns_user;
+import com.theComments.brt.util.ResultMap;
 
 @Service
 public class MemberCommonService {
@@ -33,6 +41,9 @@ public class MemberCommonService {
 
 	@Autowired
 	SnsUser_dao snsUserDao;
+	
+	@Autowired
+	Email_templateDao email_templateDao;
 
 	@Transactional("userTransactionManager")
 	public int userCommonJoin(Eva_user user) {
@@ -40,10 +51,29 @@ public class MemberCommonService {
 		String encodedPwd = encoder.encode(user.getPassword());
 		user.setPassword(encodedPwd);
 		user.setJoin_date(LocalDateTime.now());
+		user.setEmail_valid(0);
+		user.setEmail_verifyKey(CommonSecure.getRandomSecure(60));
 
-		userDao.save(user);
+//		System.out.println(EmailSender.emailTemplateList);
+		user = userDao.save(user);
+		//save에 성공하면 email 보내기
+
+		Map<String,Object> param = new HashMap<String, Object>();
+		String url = String.format("%s/member/join_success/%s?key=%s",EmailInfo.EMAIL_VERIFY_INFO.url,user.getUser_login_id(),user.getEmail_verifyKey());
+		param.put("##{{url}}", url);
+		Email_template template = email_templateDao.findById(EmailInfo.EMAIL_VERIFY_INFO.emailTemplateId).get();
+		List<String> toList = new ArrayList<String>();
+		toList.add(user.getEmail());
+		
+		try {
+			EmailSender.sendEmail(template.getTemplate_subject(), template.getTemplate_text(), param, toList);
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+			throw new RuntimeException();
+		}
+		
 		return 200;
-
 	}
 
 	public int loginIdDuplicate(Eva_user user) {
@@ -121,6 +151,8 @@ public class MemberCommonService {
 		}
 		user.setUser_login_id(id);
 		user.setJoin_date(LocalDateTime.now());
+		user.setEmail_valid(1);
+		user.setEmail_verifyKey(null);
 		user = this.userDao.save(user);
 		// TODO 3. 그후 SNS 멤버로 저장
 		snsUser.setSns_user_unique_id(user_login_id);
@@ -133,6 +165,33 @@ public class MemberCommonService {
 
 		return 200;
 
+	}
+
+	public ResultMap emailVerify(Map<String, Object> data) {
+		// TODO Auto-generated method stub
+		
+		ResultMap result = new ResultMap();
+		
+		String user_login_id = data.get("user_login_id").toString();
+		String key = data.get("key").toString();
+		
+		List<Eva_user> userList = this.userDao.findByUserLoginId(user_login_id);
+		if(userList.size() == 0) {
+			result.setResult(401);
+			return result;
+		}
+		
+		Eva_user user = userList.get(0);
+		if(key.equals(user.getEmail_verifyKey())) {
+			result.setResult(200);
+			user.setEmail_valid(1);
+			user.setEmail_verifyKey(null);
+			userDao.save(user);
+		}else {
+			result.setResult(401);
+		}
+		
+		return result;
 	}
 
 }

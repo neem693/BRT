@@ -12,6 +12,8 @@ import javax.persistence.OneToMany;
 import javax.persistence.OneToOne;
 import javax.persistence.Transient;
 
+import org.springframework.batch.support.annotation.Classifier;
+
 import lombok.Getter;
 import lombok.Setter;
 
@@ -35,6 +37,11 @@ public class Eva_user {
 	LocalDateTime join_date;
 	
 	LocalDateTime login_date;
+
+	@Column(columnDefinition = "integer default 0")
+	Integer email_valid;
+	
+	String email_verifyKey;
 	
 	@Transient
 	String sns_type;

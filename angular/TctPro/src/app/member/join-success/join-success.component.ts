@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
+import { MemberServiceService } from '../member-service.service';
+import { RESULT } from 'src/const/publicConst';
 
 @Component({
   selector: 'app-join-success',
@@ -7,19 +9,52 @@ import { ActivatedRoute } from '@angular/router';
   styleUrls: ['./join-success.component.css']
 })
 export class JoinSuccessComponent implements OnInit {
+  loading:number = 0;
+  check:number =1;
+  user_login_id:string;
+  key:string;
 
-  user_id_login:string;
-
-  constructor(private route:ActivatedRoute) { }
+  constructor(
+    private route:ActivatedRoute,
+    private memberService:MemberServiceService,
+    ) { }
 
   ngOnInit() {
 
     window.scrollTo(0,0);
 
     this.route.paramMap.subscribe((x)=>{
-      this.user_id_login = x['params']["id"];
+      console.log(x);
+      this.user_login_id = x['params']["id"];
+      this.route.queryParams.subscribe((x)=>{
+        if(x['key'] != undefined && x['key'] != "" ){
+          this.key  = x['key'];
+          this.emailVerify();
+        }
+      })
     })
+
+  
     
+  }
+
+  emailVerify(){
+    let data = {};
+    data['user_login_id'] = this.user_login_id;
+    data['key'] = this.key;
+
+    this.loading = 1;
+    this.memberService.emailVerify(data).subscribe(x=>{
+      let result = x[RESULT.RESULT_KEY];
+      if(result == 200){
+        this.check = 2;
+      }else{
+        this.check = 3;
+      }
+      this.loading = 0;
+    },error =>{
+      this.loading = 0;
+    });
   }
 
 }

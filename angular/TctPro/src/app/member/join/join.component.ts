@@ -50,6 +50,10 @@ export class JoinComponent implements OnInit {
 
   user_login_id_dup = 0;
 
+  loading = {
+    join:0,
+  }
+
 
   constructor(public dialog: MatDialog,
     private memberService: MemberServiceService,
@@ -82,7 +86,7 @@ export class JoinComponent implements OnInit {
     let key: any;
     let memberInfo = {};
 
-    console.log(data);
+    // console.log(data);
     for (key in data) {
       //key에 errors값이 null이 아니면 문제가 있다는 것
       if (data[key]['errors'] != null) {
@@ -93,15 +97,17 @@ export class JoinComponent implements OnInit {
       }
       memberInfo[key] = data[key]['value'];
     }
+    this.loading.join = 1;
     this.memberService.JoinMember_common(memberInfo).subscribe(
       (result) => {
-
+        this.loading.join = 0;
         if (result.status == 200) {
           this.router.navigate(['/member/join_success', memberInfo['user_login_id']])
         }
 
       }, (error) => {
-
+        this.loading.join = 0;
+        // console.log(error);
       }
     )
   }

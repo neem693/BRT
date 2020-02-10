@@ -139,6 +139,11 @@ export class LoginComponent implements OnInit {
       this.loading.login = 0;
       let message: string = error['error'][RESULT.ERROR_MESSAGE];
       let code = message.split(":")[0];
+
+      if(code == "4013"){
+        this.router.navigate(["/member/join_success",this.loginData.user_login_id.value]);
+      }
+
       if (code == "4022") {
         if (confirm("등록되지 않은 SNS 유저입니다. 가입하시겠습니까?") == true) {
 

@@ -46,6 +46,7 @@ import { usuerInfoReducer } from './ngrx/reducer/userInfoReducer';
 import { StoreDevtoolsModule } from '@ngrx/store-devtools';
 import { SnsJoinComponent } from './member/sns-join/sns-join.component';
 import { HomeService } from './home/home.service';
+import { LoadingSpinComponent } from './common/loading-spin/loading-spin.component';
 
 const DEFAULT_SWIPER_CONFIG: SwiperConfigInterface = {
   direction: 'horizontal',
@@ -81,6 +82,7 @@ const DEFAULT_SWIPER_CONFIG: SwiperConfigInterface = {
     EvalDetailComponent,
     GlobalDialogComponent,
     SnsJoinComponent,
+    LoadingSpinComponent,
 
     
   ],

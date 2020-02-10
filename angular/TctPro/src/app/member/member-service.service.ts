@@ -17,6 +17,7 @@ declare let Kakao: any;
 export class MemberServiceService {
 
 
+
   private loginStateSource = new BehaviorSubject(false);
   public loginState = this.loginStateSource.asObservable();
 
@@ -225,6 +226,12 @@ export class MemberServiceService {
       return false;
     }
     return true;
+  }
+
+
+
+  emailVerify(data: any) {
+    return this.http.post(environment.baseApiUrl + "/member_public/emailVerify",data);
   }
 
 }

@@ -11,6 +11,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.web.csrf.CookieCsrfTokenRepository;
 import org.springframework.security.web.csrf.CsrfToken;
 import org.springframework.transaction.annotation.Transactional;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -19,6 +20,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.theComments.brt.app.member.service.MemberCommonService;
 import com.theComments.brt.jpa.theComment.dao.Eva_user_dao;
 import com.theComments.brt.jpa.theComment.model.Eva_user;
+import com.theComments.brt.util.ResultMap;
 
 @RestController
 @RequestMapping("/v1/member_public")
@@ -106,6 +108,15 @@ public class MemberPublicRestController {
 		Map<String,Object> map = new HashMap<String, Object>();
 		map.put("token", token.getToken());
 		return map;
+		
+	}
+	
+	@PostMapping(value = "/emailVerify")
+	public Map<String,Object> emailVerify(@RequestBody Map<String,Object> data){
+		
+		ResultMap result = this.memberCommonService.emailVerify(data);
+		
+		return result.getResultMap();
 		
 	}
 

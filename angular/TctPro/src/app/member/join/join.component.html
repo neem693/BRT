@@ -50,7 +50,7 @@
     
   </mat-form-field>
 
-  <button type="submit" (click) = "saveMember(loginData)" mat-raised-button>가입</button>
-
+  <button *ngIf="loading.join == 0" type="submit" (click) = "saveMember(loginData)" mat-raised-button>가입</button>
+  <app-loading-spin [loading] = "loading.join"></app-loading-spin>
 
 </form>

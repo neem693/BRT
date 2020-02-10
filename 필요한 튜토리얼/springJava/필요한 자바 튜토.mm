@@ -4463,5 +4463,11 @@
 <node CREATED="1580439578382" ID="ID_530570295" LINK="https://www.baeldung.com/java-snake-yaml" MODIFIED="1580439578382" TEXT="https://www.baeldung.com/java-snake-yaml"/>
 <node CREATED="1580439581602" ID="ID_736703850" LINK="#ID_432910582" MODIFIED="1580439610279" TEXT="datasource &#xc77d;&#xc5b4;&#xc624;&#xae30;&#xb294; &#xc5ec;&#xae30;&#xc11c;"/>
 </node>
+<node CREATED="1581345427875" ID="ID_1885333051" MODIFIED="1581345593182" POSITION="right" TEXT="&#xc2a4;&#xd398;&#xc15c; &#xce90;&#xb9ad;&#xd130; &#xc815;&#xaddc;&#xd45c;&#xd604;&#xc2dd; &#xc790;&#xb3d9;&#xc73c;&#xb85c; &#xbc14;&#xafd4;&#xc8fc;&#xae30; &#xc608;){{ \{\{">
+<node CREATED="1581345576774" LINK="https://stackoverflow.com/questions/60160/how-to-escape-text-for-regular-expression-in-java" MODIFIED="1581345576774" TEXT="https://stackoverflow.com/questions/60160/how-to-escape-text-for-regular-expression-in-java"/>
+</node>
+<node CREATED="1581352196894" ID="ID_883025320" MODIFIED="1581352199554" POSITION="right" TEXT="&#xc774;&#xba54;&#xc77c; &#xae68;&#xc9c0;&#xb294; &#xac83;">
+<node CREATED="1581352200028" LINK="https://mkil.tistory.com/340" MODIFIED="1581352200028" TEXT="https://mkil.tistory.com/340"/>
+</node>
 </node>
 </map>

@@ -856,13 +856,13 @@
 </node>
 </node>
 <node CREATED="1580979141769" ID="ID_1371758967" MODIFIED="1580979145243" POSITION="right" TEXT="&#xba54;&#xc77c;&#xc124;&#xc815;">
-<node CREATED="1580979293552" FOLDED="true" ID="ID_637662490" MODIFIED="1581006301240" TEXT="smtp &#xc124;&#xc815;">
+<node CREATED="1580979293552" ID="ID_637662490" MODIFIED="1581317388350" TEXT="smtp &#xc124;&#xc815;">
 <node CREATED="1580981939380" ID="ID_333967069" MODIFIED="1580981942862" TEXT="&#xc804;&#xbc18;&#xc801;&#xc778; &#xc124;&#xc815;">
 <node CREATED="1580981936550" ID="ID_293356116" LINK="https://docs.aws.amazon.com/ko_kr/ses/latest/DeveloperGuide/Welcome.html" MODIFIED="1580981937301" TEXT="https://docs.aws.amazon.com/ko_kr/ses/latest/DeveloperGuide/Welcome.html"/>
 </node>
 <node CREATED="1580979296589" ID="ID_980055210" LINK="https://docs.aws.amazon.com/ko_kr/ses/latest/DeveloperGuide/smtp-credentials.html" MODIFIED="1580979296589" TEXT="https://docs.aws.amazon.com/ko_kr/ses/latest/DeveloperGuide/smtp-credentials.html"/>
 <node CREATED="1580981946708" ID="ID_1680350189" MODIFIED="1580986710808" TEXT="java&#xb85c; ses SMTP &#xc774;&#xc6a9;">
-<node CREATED="1580986701117" LINK="https://docs.aws.amazon.com/ko_kr/ses/latest/DeveloperGuide/send-using-smtp-java.html" MODIFIED="1580986701117" TEXT="https://docs.aws.amazon.com/ko_kr/ses/latest/DeveloperGuide/send-using-smtp-java.html"/>
+<node CREATED="1580986701117" ID="ID_1001207853" LINK="https://docs.aws.amazon.com/ko_kr/ses/latest/DeveloperGuide/send-using-smtp-java.html" MODIFIED="1580986701117" TEXT="https://docs.aws.amazon.com/ko_kr/ses/latest/DeveloperGuide/send-using-smtp-java.html"/>
 </node>
 </node>
 <node CREATED="1581006310344" ID="ID_1038302873" MODIFIED="1581006312614" TEXT="&#xc11c;&#xbe44;&#xc2a4; &#xc81c;&#xd55c; &#xd480;&#xae30;">
@@ -872,9 +872,12 @@
 <node CREATED="1581009443316" ID="ID_1184344303" MODIFIED="1581009447330" POSITION="right" TEXT="s3 &#xd30c;&#xc77c; &#xc5c5;&#xb85c;&#xb4dc;">
 <node CREATED="1581054815869" ID="ID_833051714" LINK="https://www.baeldung.com/aws-s3-java" MODIFIED="1581054816648" TEXT="https://www.baeldung.com/aws-s3-java"/>
 <node CREATED="1581055531096" ID="ID_106818959" MODIFIED="1581055711475" TEXT="&#xd30c;&#xc77c; &#xc5c5;&#xb85c;&#xb4dc; &#xd560; &#xb54c; &#xad8c;&#xd55c; &#xbb38;&#xc81c;">
-<node CREATED="1581055712466" LINK="https://stackoverflow.com/questions/6524041/how-do-you-make-an-s3-object-public-via-the-aws-java-sdk" MODIFIED="1581055712466" TEXT="https://stackoverflow.com/questions/6524041/how-do-you-make-an-s3-object-public-via-the-aws-java-sdk"/>
+<node CREATED="1581055712466" ID="ID_1081272997" LINK="https://stackoverflow.com/questions/6524041/how-do-you-make-an-s3-object-public-via-the-aws-java-sdk" MODIFIED="1581055712466" TEXT="https://stackoverflow.com/questions/6524041/how-do-you-make-an-s3-object-public-via-the-aws-java-sdk"/>
 </node>
 <node CREATED="1581009449446" ID="ID_951302164" LINK="https://songc92.tistory.com/51" MODIFIED="1581009449446" TEXT="https://songc92.tistory.com/51"/>
+</node>
+<node CREATED="1581216045228" ID="ID_530759092" MODIFIED="1581216049774" POSITION="right" TEXT="&#xc55e; www &#xc9e4;&#xb77c;&#xbc84;&#xb9ac;&#xae30;">
+<node CREATED="1581216050107" LINK="https://simonecarletti.com/blog/2016/08/redirect-domain-http-https-www-apache/" MODIFIED="1581216050107" TEXT="https://simonecarletti.com/blog/2016/08/redirect-domain-http-https-www-apache/"/>
 </node>
 </node>
 </map>
