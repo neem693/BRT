@@ -5,10 +5,10 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-
-import javax.validation.constraints.Email;
+import java.util.regex.Pattern;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.security.authentication.BadCredentialsException;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
@@ -21,9 +21,11 @@ import com.theComments.brt.constFile.EmailInfo;
 import com.theComments.brt.constFile.SNS;
 import com.theComments.brt.jpa.theComment.dao.Email_templateDao;
 import com.theComments.brt.jpa.theComment.dao.Eva_user_dao;
+import com.theComments.brt.jpa.theComment.dao.SendEmailDao;
 import com.theComments.brt.jpa.theComment.dao.SnsUser_dao;
 import com.theComments.brt.jpa.theComment.model.Email_template;
 import com.theComments.brt.jpa.theComment.model.Eva_user;
+import com.theComments.brt.jpa.theComment.model.SendEmail;
 import com.theComments.brt.jpa.theComment.model.Sns_user;
 import com.theComments.brt.util.ResultMap;
 
@@ -44,6 +46,9 @@ public class MemberCommonService {
 	
 	@Autowired
 	Email_templateDao email_templateDao;
+	
+	@Autowired
+	SendEmailDao sendEmailDao;
 
 	@Transactional("userTransactionManager")
 	public int userCommonJoin(Eva_user user) {
@@ -58,20 +63,7 @@ public class MemberCommonService {
 		user = userDao.save(user);
 		//save에 성공하면 email 보내기
 
-		Map<String,Object> param = new HashMap<String, Object>();
-		String url = String.format("%s/member/join_success/%s?key=%s",EmailInfo.EMAIL_VERIFY_INFO.url,user.getUser_login_id(),user.getEmail_verifyKey());
-		param.put("##{{url}}", url);
-		Email_template template = email_templateDao.findById(EmailInfo.EMAIL_VERIFY_INFO.emailTemplateId).get();
-		List<String> toList = new ArrayList<String>();
-		toList.add(user.getEmail());
-		
-		try {
-			EmailSender.sendEmail(template.getTemplate_subject(), template.getTemplate_text(), param, toList);
-		} catch (Exception e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-			throw new RuntimeException();
-		}
+		this.sendEmailBook(user);
 		
 		return 200;
 	}
@@ -194,4 +186,52 @@ public class MemberCommonService {
 		return result;
 	}
 
+	public ResultMap sendEmailAgain(Map<String, Object> data) {
+		// TODO Auto-generated method stub
+		ResultMap result = new ResultMap();
+		
+		String user_login_id = data.get("user_login_id").toString();
+		
+		List<Eva_user> userList = this.userDao.findByUserLoginId(user_login_id);
+		if(userList.size() == 0) {
+			result.setResult(401);
+			return result;
+		}
+		
+		Eva_user user = userList.get(0);
+		
+		this.sendEmailBook(user);
+		
+		result.setResult(200);
+		
+		return result;
+	}
+	
+	public void sendEmailBook(Eva_user user) {
+		Map<String,Object> param = new HashMap<String, Object>();
+		String url = String.format("%s/member/join_success/%s?key=%s",EmailInfo.EMAIL_VERIFY_INFO.url,user.getUser_login_id(),user.getEmail_verifyKey());
+		//param.put("##{{url}}", url);
+		Email_template template = email_templateDao.findById(EmailInfo.EMAIL_VERIFY_INFO.emailTemplateId).get();
+		String template_text = template.getTemplate_text().replaceAll(Pattern.quote("##{{url}}"), url);
+//		List<String> toList = new ArrayList<String>();
+//		toList.add(user.getEmail());
+		
+		SendEmail emailSender = new SendEmail();
+		emailSender.setEmail(user.getEmail());
+		emailSender.setSend_text(template_text);
+		emailSender.setEmail_template(template);
+		emailSender.setSaveTime(LocalDateTime.now());
+		emailSender.setStatus(0);
+		
+		sendEmailDao.save(emailSender);
+		
+//		try {
+//			EmailSender.sendEmail(template.getTemplate_subject(), template.getTemplate_text(), param, toList);
+//		} catch (Exception e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//			throw new RuntimeException();
+//		}
+	}
+	
 }

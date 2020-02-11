@@ -1,12 +1,9 @@
 package com.theComments.brt.app.common;
 
 import java.io.InputStream;
-import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 import java.util.Properties;
-import java.util.Set;
-import java.util.regex.Pattern;
 
 import javax.mail.Message;
 import javax.mail.Session;
@@ -14,9 +11,15 @@ import javax.mail.Transport;
 import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeMessage;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.yaml.snakeyaml.Yaml;
 
+import com.theComments.brt.jpa.theComment.model.SendEmail;
+
 public class EmailSender {
+	
+	private static final Logger logger = LoggerFactory.getLogger(EmailSender.class);
 
 	// Replace smtp_username with your Amazon SES SMTP user name.
 	static String SMTP_USERNAME = "";
@@ -58,14 +61,13 @@ public class EmailSender {
 	 * 
 	 * @param subject 해당 메일의 제목
 	 * @param body 해당 메일의 html 부분
-	 * @param param 해당 html의 해당 키를 리플레이스
  	 * @param toList 보낼 email 주소 리ㅡ트
 	 * @return 200 혹은 throw exception
 	 * @throws Exception 
 	 */
-	public static Integer sendEmail(String subject, String body,Map<String,Object> param, List<String> toList) throws Exception {
+	public static Integer sendEmail(List<SendEmail> emailList) throws Exception {
 		
-        Set<String> paramSet = param.keySet();
+//        Set<String> paramSet = param.keySet();
         String key= "";
 		
 		Properties props = System.getProperties();
@@ -74,57 +76,31 @@ public class EmailSender {
     	props.put("mail.smtp.starttls.enable", "true");
     	props.put("mail.smtp.auth", "true");
 
-        // Create a Session object to represent a mail session with the specified properties. 
     	Session session = Session.getDefaultInstance(props);
 
-        // Create a message with the specified information. 
-    	
         MimeMessage msg = new MimeMessage(session);
         msg.setFrom(new InternetAddress(FROM,FROMNAME));
-        
-        for(int i =0; i<toList.size(); i++) {
-        	 msg.setRecipient(Message.RecipientType.TO, new InternetAddress(toList.get(i)));
-        }
-       
-        msg.setSubject(subject);
-        Iterator<String> set = paramSet.iterator();
-        
-        while(set.hasNext()) {
-        	key = set.next();
-        	body = body.replaceAll(Pattern.quote(key), param.get(key).toString());
-        }
-        msg.setContent(body,"text/html;charset=UTF-8;");
-        
-        // Add a configuration set header. Comment or delete the 
-        // next line if you are not using a configuration set
-//        msg.setHeader("X-SES-CONFIGURATION-SET", CONFIGSET);
-            
-        // Create a transport.
+     
         Transport transport = session.getTransport();
-                    
-        // Send the message.
-        try
-        {
-//            System.out.println("Sending...");
-            // Connect to Amazon SES using the SMTP username and password you specified above.
-            transport.connect(HOST, SMTP_USERNAME, SMTP_PASSWORD);
+        transport.connect(HOST, SMTP_USERNAME, SMTP_PASSWORD);
         	
             // Send the email.
-            transport.sendMessage(msg, msg.getAllRecipients());
+           
+            for(SendEmail mail: emailList) {
+                msg.setRecipient(Message.RecipientType.TO, new InternetAddress(mail.getEmail()));
+                msg.setSubject(mail.getEmail_template().getTemplate_subject());
+                msg.setContent(mail.getSend_text(),"text/html;charset=UTF-8;");
+                try {
+					transport.sendMessage(msg, msg.getAllRecipients());
+					mail.setStatus(2);
+				} catch (Exception e) {
+					// TODO Auto-generated catch block
+					logger.error("MAIL SEND ERROR : " + mail.getEmail());
+				}
+               
+            }
 //            System.out.println("Email sent!");
             transport.close();
-        }
-        catch (Exception ex) {
-            System.out.println("The email was not sent.");
-            System.out.println("Error message: " + ex.getMessage());
-            transport.close();
-            throw new Exception(ex.getMessage());
-        }
-        finally
-        {
-            // Close and terminate the connection.
-            
-        }
 		
 		return 200;
 	}

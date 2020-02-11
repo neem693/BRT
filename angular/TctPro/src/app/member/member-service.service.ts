@@ -18,6 +18,7 @@ export class MemberServiceService {
 
 
 
+
   private loginStateSource = new BehaviorSubject(false);
   public loginState = this.loginStateSource.asObservable();
 
@@ -232,6 +233,10 @@ export class MemberServiceService {
 
   emailVerify(data: any) {
     return this.http.post(environment.baseApiUrl + "/member_public/emailVerify",data);
+  }
+
+  sendEamilAgain(data: any) {
+    return this.http.post(environment.baseApiUrl + "/member_public/sendEmailAgain",data);
   }
 
 }

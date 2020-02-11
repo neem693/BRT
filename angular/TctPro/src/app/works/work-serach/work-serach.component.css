@@ -321,20 +321,20 @@
         width: 70%;
     }
     .detail_01 div {
-        font-size: 2vw;
+        font-size: 4vw;
     }
     .artist_02 .multiple_artist {
         font-size: 1vw;
     }
     .work_detail_outer {
         float: none;
-        width: 90%;
+        width: 100%;
         background-color: rgba(255, 255, 255, 0.877);
-        position: absolute;
-        top: 150px;
+        position: fixed;
+        top: 0px;
         box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.527);
         ;
-        height: 90%;
+        height: 100%;
         z-index: 60;
         /* border: 1px solid black; */
         transition: left 0.5s;
@@ -393,7 +393,8 @@
         width: 60%;
     }
     .work_detail_outer.fold {
-        left: -90%;
+        left: -100%;
+        overflow-y: visible;
     }
     .work_detail_outer.fold .reply {
         left: 100%;
@@ -415,6 +416,15 @@
         cursor: pointer;
     }
         .img {
-        height: 150px;
+        height: 300px;
+    }
+
+    .work_item.representation {
+        width: 80%;
+        cursor: pointer;
+    }
+    .work_detail_outer.active{
+        z-index: 100;
+        overflow-y: auto;
     }
 }

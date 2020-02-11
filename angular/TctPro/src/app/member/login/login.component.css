@@ -88,4 +88,7 @@
         /* text-decoration: underline; */
         font-size: 10vw;
     }
+    .login_button,.sns_login_button{
+        width: 100%;
+    }
 }

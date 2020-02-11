@@ -134,3 +134,9 @@
     font-size: x-large;
     color:rgb(190, 190, 190);
 }
+
+.eval_div{
+
+    overflow: auto;
+
+}

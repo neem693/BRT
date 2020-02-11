@@ -119,5 +119,13 @@ public class MemberPublicRestController {
 		return result.getResultMap();
 		
 	}
+	
+	@PostMapping(value = "/sendEmailAgain")
+	public Map<String,Object> sendEmailAgain(@RequestBody Map<String,Object> data){
+		
+		ResultMap result = this.memberCommonService.sendEmailAgain(data);
+		
+		return result.getResultMap();
+	}
 
 }

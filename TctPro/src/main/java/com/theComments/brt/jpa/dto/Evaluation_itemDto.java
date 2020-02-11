@@ -37,7 +37,7 @@ public class Evaluation_itemDto extends Page{
 	
 	
 	
-	public Evaluation_itemDto(String subjectMatter, Integer yellow, Integer black, Integer blue, Integer gray) {
+	public Evaluation_itemDto(String subjectMatter, Integer yellow, Integer blue, Integer gray, Integer black) {
 		super();
 		this.subjectMatter = subjectMatter;
 		this.yellow = yellow;

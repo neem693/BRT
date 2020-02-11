@@ -10,6 +10,7 @@ import { RESULT } from 'src/const/publicConst';
 })
 export class JoinSuccessComponent implements OnInit {
   loading:number = 0;
+  sendAgain:number = 1;
   check:number =1;
   user_login_id:string;
   key:string;
@@ -55,6 +56,20 @@ export class JoinSuccessComponent implements OnInit {
     },error =>{
       this.loading = 0;
     });
+  }
+
+  sendEmailAgain(){
+    let data = {};
+    data['user_login_id'] = this.user_login_id;
+    this.sendAgain = 0;
+    this.loading = 1;
+    this.memberService.sendEamilAgain(data).subscribe(x=>{
+      this.loading = 0;
+      let result = x[RESULT.RESULT_KEY];
+    },error=>{
+      this.loading = 0;
+    });
+
   }
 
 }

@@ -255,7 +255,7 @@
 <node CREATED="1565799689378" ID="ID_928810396" MODIFIED="1565799689378" TEXT="to angular-clis polyfill.ts file. right now couldn&apos;t see any sideeffects"/>
 </node>
 </node>
-<node CREATED="1565932198016" FOLDED="true" ID="ID_718731204" MODIFIED="1580618312058" POSITION="right" TEXT="&#xc6f9; &#xc18c;&#xcf13;&#xc5d0; &#xb300;&#xd55c; &#xc815;&#xb9ac;">
+<node CREATED="1565932198016" ID="ID_718731204" MODIFIED="1581418728390" POSITION="right" TEXT="&#xc6f9; &#xc18c;&#xcf13;&#xc5d0; &#xb300;&#xd55c; &#xc815;&#xb9ac;">
 <node CREATED="1565932222238" ID="ID_169774616" MODIFIED="1565932236394" TEXT="&#xae30;&#xbcf8;&#xc801;&#xc73c;&#xb85c; angular 8 + spring 2.1.6&#xc744; &#xc0ac;&#xc6a9;&#xd55c; &#xac83;"/>
 <node CREATED="1565932331134" ID="ID_1296553527" MODIFIED="1580439350728" TEXT="&#xd29c;&#xd1a0;&#xb9ac;&#xc5bc; &#xd3ec;&#xc778;&#xd2b8;&#xb97c; &#xae30;&#xbcf8;&#xc801;&#xc73c;&#xb85c; &#xcc38;&#xace0;">
 <node CREATED="1565932338271" ID="ID_81431862" LINK="https://www.tutorialspoint.com/spring_boot/spring_boot_web_socket.htm" MODIFIED="1565932338271" TEXT="https://www.tutorialspoint.com/spring_boot/spring_boot_web_socket.htm"/>
@@ -301,7 +301,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1565932801094" FOLDED="true" ID="ID_378806869" MODIFIED="1575381537050" TEXT="&#xc6f9; &#xc18c;&#xcf13; &#xc2a4;&#xcf00;&#xc974;&#xb9c1;(&#xc774;&#xbbf8;&#xc9c0;)">
+<node CREATED="1565932801094" ID="ID_378806869" MODIFIED="1581412933573" TEXT="&#xc6f9; &#xc18c;&#xcf13; &#xc2a4;&#xcf00;&#xc974;&#xb9c1;(&#xc774;&#xbbf8;&#xc9c0;)">
 <node CREATED="1565932905882" ID="ID_266505493" MODIFIED="1565932905882">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -313,8 +313,8 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1565932810406" FOLDED="true" ID="ID_1348791827" MODIFIED="1565932977773" TEXT="&#xacb0;&#xacfc;(&#xc774;&#xbbf8;&#xc9c0;)">
-<node CREATED="1565932971027" MODIFIED="1565932971027">
+<node CREATED="1565932810406" FOLDED="true" ID="ID_1348791827" MODIFIED="1581412920120" TEXT="&#xacb0;&#xacfc;(&#xc774;&#xbbf8;&#xc9c0;)">
+<node CREATED="1565932971027" ID="ID_15785288" MODIFIED="1565932971027">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -333,32 +333,32 @@
 </node>
 </node>
 <node CREATED="1566173568044" ID="ID_1816867178" MODIFIED="1566173574807" POSITION="right" TEXT="alt + shift + s"/>
-<node CREATED="1566190490009" FOLDED="true" ID="ID_767685997" MODIFIED="1580280057734" POSITION="right" TEXT="batchService &#xc624;&#xb958; &amp; flyway">
-<node CREATED="1566191547662" ID="ID_1410866249" MODIFIED="1571247170601" TEXT="1">
+<node CREATED="1566190490009" FOLDED="true" ID="ID_767685997" MODIFIED="1581418126099" POSITION="right" TEXT="batchService &#xc624;&#xb958; &amp; flyway">
+<node CREATED="1566191547662" ID="ID_1410866249" MODIFIED="1581412598306" TEXT="1">
 <node CREATED="1566191549334" ID="ID_1054801273" MODIFIED="1566191549334" TEXT="Caused by: java.lang.IllegalArgumentException: DatabaseType not found for product name: [MariaDB]"/>
 </node>
-<node CREATED="1566191559022" ID="ID_882481656" MODIFIED="1571247171416" TEXT="2">
+<node CREATED="1566191559022" ID="ID_882481656" MODIFIED="1581412599392" TEXT="2">
 <node CREATED="1566191559702" MODIFIED="1566191559702" TEXT="Caused by: java.lang.IllegalStateException: Unable to initialize Spring Batch"/>
 </node>
-<node CREATED="1566191566917" ID="ID_977707679" MODIFIED="1571247171867" TEXT="3">
+<node CREATED="1566191566917" ID="ID_977707679" MODIFIED="1581412599994" TEXT="3">
 <node CREATED="1566191567608" ID="ID_1452012363" MODIFIED="1566191567608" TEXT="org.springframework.beans.factory.BeanCreationException: Error creating bean with name &apos;batchConfigurer&apos;: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Unable to initialize Spring Batch"/>
 </node>
-<node CREATED="1566192834509" ID="ID_1618196384" MODIFIED="1571247172406" TEXT="&#xd574;&#xacb0;">
+<node CREATED="1566192834509" ID="ID_1618196384" MODIFIED="1581412600692" TEXT="&#xd574;&#xacb0;">
 <node CREATED="1566192836088" ID="ID_882801554" LINK="https://github.com/spring-projects/spring-framework/issues/22344" MODIFIED="1566192836088" TEXT="https://github.com/spring-projects/spring-framework/issues/22344"/>
 <node CREATED="1566192836797" ID="ID_930864554" MODIFIED="1566195224367" TEXT="&#xb9c8;&#xb9ac;&#xc544; DB 2.4.0&#xb294; &#xd2b9;&#xc815; &#xc124;&#xc815;&#xc774; Mysql&#xc5d0;&#xc11c; mariaDB&#xb85c; &#xbc14;&#xb00c;&#xc5c8;&#xb2e4;&#xace0; &#xd568;"/>
 <node CREATED="1566195224837" ID="ID_470857625" MODIFIED="1566195279784" TEXT="&#xb530;&#xb77c;&#xc11c; 2.3.0&#xc73c;&#xb85c; &#xbcc0;&#xacbd;&#xd558;&#xac70;&#xb098;, &#xbc30;&#xce58;&#xc11c;&#xbe44;&#xc2a4;&#xac00; mariaDB&#xb97c; &#xc9c0;&#xc6d0;&#xd574;&#xc8fc;&#xb294; &#xbc29;&#xbc95; &#xbc16;&#xc5d0; &#xc5c6;&#xc74c;"/>
 </node>
-<node CREATED="1566195296243" ID="ID_1521823159" MODIFIED="1571247173861" TEXT="1">
-<node CREATED="1566195297400" MODIFIED="1566195297400" TEXT="Caused by: java.sql.SQLException: Table &apos;test.batch_job_instance&apos; doesn&apos;t exist"/>
+<node CREATED="1566195296243" ID="ID_1521823159" MODIFIED="1581412604282" TEXT="1">
+<node CREATED="1566195297400" ID="ID_1096991296" MODIFIED="1566195297400" TEXT="Caused by: java.sql.SQLException: Table &apos;test.batch_job_instance&apos; doesn&apos;t exist"/>
 </node>
-<node CREATED="1566195699318" ID="ID_1410361018" MODIFIED="1571247174510" TEXT="&#xd574;&#xacb0;">
+<node CREATED="1566195699318" ID="ID_1410361018" MODIFIED="1581412605802" TEXT="&#xd574;&#xacb0;">
 <node CREATED="1566195700364" ID="ID_339903593" LINK="https://stackoverflow.com/questions/49443551/i-am-getting-error-table-test-batch-job-instance-doesnt-exist" MODIFIED="1566195700364" TEXT="https://stackoverflow.com/questions/49443551/i-am-getting-error-table-test-batch-job-instance-doesnt-exist"/>
 <node CREATED="1566195702924" ID="ID_1273742086" MODIFIED="1566195740320" TEXT="&#xc2a4;&#xd0a4;&#xb9c8; &#xcd08;&#xae30;&#xd654;&#xc5d0; &#xb300;&#xd55c; application.yml&#xc5d0; &#xb300;&#xd55c; &#xd504;&#xb85c;&#xd37c;&#xd2f0; &#xac12;&#xc5d0; &#xb300;&#xd55c; always&#xac12;&#xc744; &#xac00;&#xc9c0;&#xac8c; &#xd558;&#xba74; &#xb428;"/>
 </node>
-<node CREATED="1566196705018" ID="ID_1203165890" MODIFIED="1571247175344" TEXT="1">
+<node CREATED="1566196705018" ID="ID_1203165890" MODIFIED="1581412608307" TEXT="1">
 <node CREATED="1566196714435" ID="ID_149752340" MODIFIED="1566196714435" TEXT="java.lang.NoSuchMethodException: com.framework.Tct.batchService.User2.&lt;init&gt;()"/>
 </node>
-<node CREATED="1566196715795" ID="ID_792945996" MODIFIED="1571247175846" TEXT="&#xd574;&#xacb0;">
+<node CREATED="1566196715795" ID="ID_792945996" MODIFIED="1581412609489" TEXT="&#xd574;&#xacb0;">
 <node CREATED="1566196717762" ID="ID_1153369544" MODIFIED="1566196737288" TEXT="&#xd574;&#xb2f9; pojo &#xadf8;&#xb7ec;&#xb2c8;&#xae4c; vo &#xd074;&#xb798;&#xc2a4;&#xac00; &#xae30;&#xbcf8; &#xc0dd;&#xc131;&#xc790;&#xac00; &#xc5c6;&#xc5b4;&#xc11c; &#xc0dd;&#xae34; &#xbb38;&#xc81c;">
 <node CREATED="1566196749956" ID="ID_722980743" MODIFIED="1566196749956" TEXT="public User2() {">
 <node CREATED="1566196749957" MODIFIED="1566196749957" TEXT="super();"/>
@@ -367,10 +367,10 @@
 </node>
 <node CREATED="1566196752723" ID="ID_295364115" MODIFIED="1566196754809" TEXT="&#xb9cc; &#xb9cc;&#xb4e4;&#xc5b4;&#xc8fc;&#xba74; &#xb05d;"/>
 </node>
-<node CREATED="1566197037906" ID="ID_1567361321" MODIFIED="1571247178597" TEXT="1">
+<node CREATED="1566197037906" ID="ID_1567361321" MODIFIED="1581412612281" TEXT="1">
 <node CREATED="1566197038540" ID="ID_840167478" MODIFIED="1566197038540" TEXT="java.sql.SQLException: Table &apos;test.users2&apos; doesn&apos;t exist"/>
 </node>
-<node CREATED="1566204901574" ID="ID_290306677" MODIFIED="1571247179302" TEXT="&#xd574;&#xacb0;">
+<node CREATED="1566204901574" ID="ID_290306677" MODIFIED="1581412613483" TEXT="&#xd574;&#xacb0;">
 <node CREATED="1566204903913" ID="ID_209114959" LINK="https://stackoverflow.com/questions/34942275/why-is-flyway-ignoring-my-sql-migration-files" MODIFIED="1566204903913" TEXT="https://stackoverflow.com/questions/34942275/why-is-flyway-ignoring-my-sql-migration-files"/>
 <node CREATED="1566214832308" ID="ID_456830940" MODIFIED="1566225995730" TEXT="user2 &#xd14c;&#xc774;&#xbe14;&#xc774; &#xc0dd;&#xc131;&#xb418;&#xc9c0; &#xc54a;&#xb294; &#xbb38;&#xc81c;,  &#xae30;&#xc874;&#xc758; &#xd14c;&#xc774;&#xbe14; &#xb9cc;&#xb4dc;&#xb294; &#xac78; &#xc0ac;&#xc6a9;&#xd558;&#xae30; &#xbcf4;&#xb2e4;&#xb294; flyway&#xb97c; &#xc0ac;&#xc6a9;&#xd558;&#xb77c;&#xace0; &#xad8c;&#xc7a5;&#xd568;. &#xadf8;&#xb798;&#xc11c; flyway&#xc500;"/>
 <node CREATED="1566205114656" ID="ID_1496406379" MODIFIED="1566205117101" TEXT="&#xbb38;&#xc81c;">
@@ -379,19 +379,19 @@
 <node CREATED="1566205100786" ID="ID_1442510023" LINK="https://stackoverflow.com/questions/34919163/flyway-cant-run-multiple-sql-scripts" MODIFIED="1566205100786" TEXT="https://stackoverflow.com/questions/34919163/flyway-cant-run-multiple-sql-scripts"/>
 <node CREATED="1566226047606" ID="ID_1407919961" MODIFIED="1566226643564" TEXT="&#xd574;&#xb2f9; &#xbbf8;&#xadf8;&#xb808;&#xc774;&#xc158;&#xc740; prefix&#xb85c; &#xbc84;&#xc83c;&#xc744; &#xb73b;&#xd558;&#xb294; V&#xac00; &#xb9e8; &#xc55e;&#xc5d0; &#xc788;&#xc5b4;&#xc57c; &#xd568;. &#xc774; &#xbc84;&#xc83c;&#xac12;&#xc740; &#xc720;&#xb2c8;&#xd06c; &#xac12;&#xc774;&#xc5b4;&#xc57c; &#xd568;"/>
 </node>
-<node CREATED="1566205229489" ID="ID_1632414220" MODIFIED="1571247182817" TEXT="&#xbb38;&#xc81c;">
+<node CREATED="1566205229489" ID="ID_1632414220" MODIFIED="1581412625499" TEXT="&#xbb38;&#xc81c;">
 <node CREATED="1566205230674" ID="ID_1654842677" MODIFIED="1566205230674" TEXT="Incorrect string value: &apos;\xEC\xA1\xB4&apos; for column `test`.`users2`.`first_name` at row 1"/>
 </node>
 <node CREATED="1566214070423" ID="ID_1567988227" LINK="https://seizetop.tistory.com/3" MODIFIED="1566214072647" TEXT="https://seizetop.tistory.com/3"/>
 <node CREATED="1566214469100" ID="ID_601462373" LINK="https://stackoverflow.com/questions/2136126/creating-mysql-table-with-explicit-default-character-set-what-if-i-dont" MODIFIED="1566214470373" TEXT="https://stackoverflow.com/questions/2136126/creating-mysql-table-with-explicit-default-character-set-what-if-i-dont"/>
-<node CREATED="1566226232090" ID="ID_965247723" MODIFIED="1571247184963" TEXT="&#xd574;&#xacb0;">
+<node CREATED="1566226232090" ID="ID_965247723" MODIFIED="1581412627932" TEXT="&#xd574;&#xacb0;">
 <node CREATED="1566226082918" ID="ID_225035475" MODIFIED="1566226109771" TEXT="&#xd14c;&#xc774;&#xbe14; &#xc790;&#xccb4;&#xac00; utf-8&#xb85c; &#xc124;&#xc815;&#xc774; &#xb418;&#xc5b4; &#xc788;&#xc9c0; &#xc54a;&#xc544;&#xc11c; &#xc0dd;&#xae30;&#xb294; &#xbb38;&#xc81c;"/>
 </node>
-<node CREATED="1566212100550" ID="ID_1348043153" MODIFIED="1569185803793" TEXT="&#xbb38;&#xc81c;">
+<node CREATED="1566212100550" ID="ID_1348043153" MODIFIED="1581412629040" TEXT="&#xbb38;&#xc81c;">
 <node CREATED="1566212102601" ID="ID_1634952464" MODIFIED="1566212102601" TEXT="Found non-empty schema &quot;public&quot; without metadata table! Use init() or set initOnMigrate to true to initialize the metadata table."/>
 </node>
 <node CREATED="1566212109635" ID="ID_299350687" LINK="https://stackoverflow.com/questions/25562115/flyway-non-empty-schema-without-metadata-table" MODIFIED="1566212109635" TEXT="https://stackoverflow.com/questions/25562115/flyway-non-empty-schema-without-metadata-table"/>
-<node CREATED="1566226239430" ID="ID_491684848" MODIFIED="1569185813005">
+<node CREATED="1566226239430" ID="ID_491684848" MODIFIED="1581412630625">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -415,11 +415,11 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1566226268999" ID="ID_1548650117" MODIFIED="1569185815685" TEXT="&#xbb38;&#xc81c;">
+<node CREATED="1566226268999" ID="ID_1548650117" MODIFIED="1581412631006" TEXT="&#xbb38;&#xc81c;">
 <node CREATED="1566222759305" ID="ID_1505277749" MODIFIED="1566222767543" TEXT="&#xc774;&#xbc88;&#xc5d4; user &#xd14c;&#xc774;&#xbe14;&#xc774; &#xb9cc;&#xb4e4;&#xc5b4;&#xc9c0;&#xc9c0; &#xc54a;&#xc74c;"/>
 </node>
 <node CREATED="1566225091433" ID="ID_350550880" LINK="https://flywaydb.org/documentation/commandline/migrate#baselineOnMigrate" MODIFIED="1566225091433" TEXT="https://flywaydb.org/documentation/commandline/migrate#baselineOnMigrate"/>
-<node CREATED="1566226273727" ID="ID_92912782" MODIFIED="1569185819877" TEXT="&#xd574;&#xacb0;">
+<node CREATED="1566226273727" FOLDED="true" ID="ID_92912782" MODIFIED="1581412596335" TEXT="&#xd574;&#xacb0;">
 <node CREATED="1566226180078" ID="ID_1224066181" MODIFIED="1566226356779" TEXT="&#xd574;&#xb2f9; flyway.baseline-on-migrate &#xb294; &#xae30;&#xc874;&#xc758; history&#xac00; &#xb0a8;&#xc544;&#xc788;&#xb294;&#xb370;&#xb3c4; &#xc0c8;&#xb86d;&#xac8c; &#xd14c;&#xc774;&#xbe14;&#xc744; &#xb9cc;&#xb4e4;&#xac70;&#xb098; &#xc0bd;&#xc785;&#xd558;&#xb824;&#xace0; &#xd558;&#xb294; &#xd589;&#xc704;&#xb97c; &#xb9c9;&#xc73c;&#xb824;&#xace0; &#xd558;&#xb294; &#xbcf4;&#xd638;&#xc7a5;&#xce58;&#xb97c; &#xac00;&#xb3d9;&#xd558;&#xb294;&#xac83;. "/>
 <node CREATED="1566226357423" ID="ID_75781714" MODIFIED="1566226430515" TEXT="&#xadf8;&#xac83;&#xc744; baseLine&#xc774;&#xb77c;&#xace0; &#xbd80;&#xb974;&#xba70; &#xd574;&#xb2f9; &#xc635;&#xc158;&#xac12;&#xc740; baselineVersion  &#xc73c;&#xb85c; &#xc815;&#xd560;&#xc218; &#xc788;&#xc74c;. &#xc5ec;&#xae30;&#xc11c; &#xc124;&#xc815;&#xd558;&#xb294; &#xbc84;&#xc83c;&#xbcf4;&#xb2e4; &#xb192;&#xc740; &#xac83;&#xb4e4;&#xc740; &#xb2e4; &#xac00;&#xb3d9;&#xc2dc;&#xd0a4;&#xb098;, &#xadf8;&#xb807;&#xc9c0; &#xc54a;&#xc73c;&#xba74; &#xac00;&#xb3d9;&#xc2dc;&#xd0a4;&#xc9c0; &#xc54a;&#xc74c;"/>
 <node CREATED="1566226471975" ID="ID_1379515510" MODIFIED="1566226478723" TEXT="&#xae30;&#xbcf8;&#xac12;&#xc740; 1&#xb85c; &#xc124;&#xc815;&#xb418;&#xc5b4; &#xc788;&#xc74c;."/>
@@ -427,12 +427,12 @@
 <node CREATED="1566226511159" ID="ID_1926873596" MODIFIED="1566226777596" TEXT="&#xb530;&#xb77c;&#xc11c; &#xd574;&#xb2f9; sql &#xd30c;&#xc77c;&#xc744; &#xbcc0;&#xacbd;&#xd560;&#xac70;&#xc784; V1__initial.sql  --&gt; V1.1__initial.sql &#xb85c; &#xbcc0;&#xacbd;."/>
 <node CREATED="1566226778824" ID="ID_538643207" MODIFIED="1566226804540" TEXT="&#xae30;&#xc874;&#xc758; V1.1__user2.sql&#xc740; &#xc55e; &#xbd80;&#xbd84;&#xb9cc; V1.2__user2.sql&#xb85c; &#xbcc0;&#xacbd;"/>
 </node>
-<node CREATED="1566236190131" ID="ID_825754623" MODIFIED="1569185838143" TEXT="&#xac1c;&#xc120;">
+<node CREATED="1566236190131" FOLDED="true" ID="ID_825754623" MODIFIED="1581412596335" TEXT="&#xac1c;&#xc120;">
 <node CREATED="1566236197121" ID="ID_1683759833" MODIFIED="1566236204916" TEXT="&#xba40;&#xd2f0; datasource &#xac00;&#xb2a5; &#xd560; &#xc218; &#xc788;&#xb3c4;&#xb85d;"/>
 </node>
 <node CREATED="1566236207437" ID="ID_1366761329" LINK="https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#howto-configure-a-datasource" MODIFIED="1566236207437" TEXT="https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#howto-configure-a-datasource"/>
 <node CREATED="1566236215273" ID="ID_1851668283" LINK="https://stackoverflow.com/questions/49088847/after-spring-boot-2-0-migration-jdbcurl-is-required-with-driverclassname" MODIFIED="1566236215273" TEXT="https://stackoverflow.com/questions/49088847/after-spring-boot-2-0-migration-jdbcurl-is-required-with-driverclassname"/>
-<node CREATED="1566358929893" ID="ID_763291293" MODIFIED="1569185840311" TEXT="&#xd574;&#xacb0;">
+<node CREATED="1566358929893" FOLDED="true" ID="ID_763291293" MODIFIED="1581412596335" TEXT="&#xd574;&#xacb0;">
 <node CREATED="1566358933675" ID="ID_330139780" MODIFIED="1566358947405" TEXT="&#xd574;&#xb2f9; &#xb450; &#xb9c1;&#xd06c;&#xb97c; &#xc801;&#xc808;&#xd788; &#xc11e;&#xc5b4;&#xc11c; &#xc9c4;&#xd589;&#xc744; &#xd574;&#xc57c;&#xb9cc; &#xd55c;&#xb2e4;."/>
 <node CREATED="1566359294730" FOLDED="true" ID="ID_1511968131" MODIFIED="1572590027921" TEXT="&#xd574;&#xb2f9; &#xd574;&#xacb0;(&#xc774;&#xbbf8;&#xc9c0;)">
 <node CREATED="1566359335226" ID="ID_1238942256" MODIFIED="1566359335226">
@@ -449,7 +449,7 @@
 <node CREATED="1566359538898" ID="ID_981387799" MODIFIED="1566359557806" TEXT="&#xba3c;&#xc800; propertis&#xb97c; &#xac00;&#xc838;&#xc624;&#xb294; &#xd568;&#xc218;&#xb97c; &#xb9cc;&#xb4e0;&#xd6c4; &#xadf8;&#xc5d0; &#xb530;&#xb974;&#xb294; datasource&#xb97c; &#xb9cc;&#xb4e0;&#xb2e4;."/>
 <node CREATED="1566359565090" ID="ID_1880450760" MODIFIED="1572593248928" TEXT="&#xcd94;&#xac00;&#xc801;&#xc73c;&#xb85c; &#xc54c;&#xc544;&#xb46c;&#xc57c; &#xd560;&#xac83;&#xc740; HikariDatasource&#xc778;&#xb370; &#xc774; datasource&#xb294; &#xc880;&#xb354; &#xbe60;&#xb974;&#xb2e4;&#xace0; &#xd55c;&#xb2e4;."/>
 </node>
-<node CREATED="1566359353297" ID="ID_895858694" MODIFIED="1569185849549" TEXT="&#xbc30;&#xce58; &#xae30;&#xbcf8;&#xc801; &#xbd80;&#xbd84;&#xc740; &#xb2e4;&#xc74c;&#xacfc; &#xac19;&#xb2e4;. &#xc5b4;&#xb5bb;&#xac8c; &#xb3d9;&#xc791;&#xd558;&#xb294;&#xc9c0;&#xc5d0; &#xb300;&#xd55c; &#xbd80;&#xbd84;(&#xc774;&#xbbf8;&#xc9c0;)">
+<node CREATED="1566359353297" FOLDED="true" ID="ID_895858694" MODIFIED="1581412596336" TEXT="&#xbc30;&#xce58; &#xae30;&#xbcf8;&#xc801; &#xbd80;&#xbd84;&#xc740; &#xb2e4;&#xc74c;&#xacfc; &#xac19;&#xb2e4;. &#xc5b4;&#xb5bb;&#xac8c; &#xb3d9;&#xc791;&#xd558;&#xb294;&#xc9c0;&#xc5d0; &#xb300;&#xd55c; &#xbd80;&#xbd84;(&#xc774;&#xbbf8;&#xc9c0;)">
 <node CREATED="1566361486631" ID="ID_1745462485" MODIFIED="1566361486631">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -3419,7 +3419,7 @@
 <node CREATED="1569321838984" FOLDED="true" ID="ID_1289431196" MODIFIED="1575975323862" POSITION="right" TEXT="JDBC &#xc624;&#xb958;">
 <node CREATED="1569321843353" ID="ID_437120369" LINK="#ID_1068000342" MODIFIED="1569321851842" TEXT="Failed to determine a suitable driver class "/>
 </node>
-<node COLOR="#3333ff" CREATED="1569954720531" ID="ID_1310219766" MODIFIED="1580630349642" POSITION="right" STYLE="bubble" TEXT="&#xd558;&#xc774;&#xbc84;&#xb124;&#xc774;&#xd2b8;(jpa)">
+<node COLOR="#3333ff" CREATED="1569954720531" FOLDED="true" ID="ID_1310219766" MODIFIED="1581418126194" POSITION="right" STYLE="bubble" TEXT="&#xd558;&#xc774;&#xbc84;&#xb124;&#xc774;&#xd2b8;(jpa)">
 <font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
 <node CREATED="1570118271397" ID="ID_1098857026" LINK="https://www.baeldung.com/spring-data-jpa-multiple-databases" MODIFIED="1571694519760" TEXT="https://www.baeldung.com/spring-data-jpa-multiple-databases"/>
 <node CREATED="1570132753122" FOLDED="true" ID="ID_977131534" MODIFIED="1572414311204" TEXT="select &#xc870;&#xac74;&#xbb38;">
@@ -4463,10 +4463,10 @@
 <node CREATED="1580439578382" ID="ID_530570295" LINK="https://www.baeldung.com/java-snake-yaml" MODIFIED="1580439578382" TEXT="https://www.baeldung.com/java-snake-yaml"/>
 <node CREATED="1580439581602" ID="ID_736703850" LINK="#ID_432910582" MODIFIED="1580439610279" TEXT="datasource &#xc77d;&#xc5b4;&#xc624;&#xae30;&#xb294; &#xc5ec;&#xae30;&#xc11c;"/>
 </node>
-<node CREATED="1581345427875" ID="ID_1885333051" MODIFIED="1581345593182" POSITION="right" TEXT="&#xc2a4;&#xd398;&#xc15c; &#xce90;&#xb9ad;&#xd130; &#xc815;&#xaddc;&#xd45c;&#xd604;&#xc2dd; &#xc790;&#xb3d9;&#xc73c;&#xb85c; &#xbc14;&#xafd4;&#xc8fc;&#xae30; &#xc608;){{ \{\{">
+<node CREATED="1581345427875" FOLDED="true" ID="ID_1885333051" MODIFIED="1581418126194" POSITION="right" TEXT="&#xc2a4;&#xd398;&#xc15c; &#xce90;&#xb9ad;&#xd130; &#xc815;&#xaddc;&#xd45c;&#xd604;&#xc2dd; &#xc790;&#xb3d9;&#xc73c;&#xb85c; &#xbc14;&#xafd4;&#xc8fc;&#xae30; &#xc608;){{ \{\{">
 <node CREATED="1581345576774" LINK="https://stackoverflow.com/questions/60160/how-to-escape-text-for-regular-expression-in-java" MODIFIED="1581345576774" TEXT="https://stackoverflow.com/questions/60160/how-to-escape-text-for-regular-expression-in-java"/>
 </node>
-<node CREATED="1581352196894" ID="ID_883025320" MODIFIED="1581352199554" POSITION="right" TEXT="&#xc774;&#xba54;&#xc77c; &#xae68;&#xc9c0;&#xb294; &#xac83;">
+<node CREATED="1581352196894" FOLDED="true" ID="ID_883025320" MODIFIED="1581418126195" POSITION="right" TEXT="&#xc774;&#xba54;&#xc77c; &#xae68;&#xc9c0;&#xb294; &#xac83;">
 <node CREATED="1581352200028" LINK="https://mkil.tistory.com/340" MODIFIED="1581352200028" TEXT="https://mkil.tistory.com/340"/>
 </node>
 </node>
