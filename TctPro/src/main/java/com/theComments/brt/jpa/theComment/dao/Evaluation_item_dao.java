@@ -13,7 +13,7 @@ public interface Evaluation_item_dao extends JpaRepository<Evaluation_item, Long
 
 	@Query("SELECT item "
 			+ "FROM Evaluation_item item "
-			+ "WHERE item.eval_item_id = :eval_item_id")
+			+ "WHERE item.eval_item_id = :eval_item_id AND item.delYn = 0")
 	@EntityGraph(value = "evaluation_item.listMain",type = EntityGraphType.LOAD)
 	Evaluation_item findEvaluationItemDetail(Long eval_item_id);
 
@@ -23,10 +23,11 @@ public interface Evaluation_item_dao extends JpaRepository<Evaluation_item, Long
 			+ "JOIN ev.works w "
 			+ "JOIN w.type2 t2 "
 			+ "JOIN t2.type1 t1 "
-			+ "WHERE t1.type1_id = :type1 "
+			+ "WHERE t1.type1_id = :type1 AND item.delYn = 0 "
+			+ "AND w.delYn =0 "
 			+ "ORDER BY ev.eval_date desc")
 	@EntityGraph(value = "evaluation_item.listMain",type = EntityGraphType.LOAD)
-	Page<Evaluation_item> selectSeeMain(Long type1, Pageable pageable);
+	Page<Evaluation_item> selectMain(Long type1, Pageable pageable);
 
 	
 }

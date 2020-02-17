@@ -19,29 +19,29 @@
 <node CREATED="1574519932754" ID="ID_612131140" LINK="https://docs.docker.com/docker-for-windows/" MODIFIED="1574519932754" TEXT="https://docs.docker.com/docker-for-windows/"/>
 </node>
 </node>
-<node CREATED="1574520656645" ID="ID_1038660596" MODIFIED="1580998108528" POSITION="right" TEXT="&#xb3c4;&#xcee4;&#xd5c8;&#xbe0c;">
+<node CREATED="1574520656645" FOLDED="true" ID="ID_1038660596" MODIFIED="1581658334401" POSITION="right" TEXT="&#xb3c4;&#xcee4;&#xd5c8;&#xbe0c;">
 <node CREATED="1574520658885" ID="ID_1286753147" LINK="https://hub.docker.com/" MODIFIED="1574520658885" TEXT="https://hub.docker.com/"/>
 </node>
-<node CREATED="1574525945820" ID="ID_1032424159" MODIFIED="1580282593520" POSITION="right" TEXT="&#xba85;&#xb839;&#xc5b4;">
+<node CREATED="1574525945820" ID="ID_1032424159" MODIFIED="1581951523137" POSITION="right" TEXT="&#xba85;&#xb839;&#xc5b4;">
 <node CREATED="1574523707870" FOLDED="true" ID="ID_753691210" MODIFIED="1580282594386" TEXT="docker images">
 <node CREATED="1574523712494" ID="ID_1227617778" MODIFIED="1574523714980" TEXT="&#xbaa8;&#xb4e0; &#xc774;&#xbbf8;&#xc9c0;"/>
 </node>
 <node CREATED="1574692391131" FOLDED="true" ID="ID_1718165181" MODIFIED="1580282594386" TEXT=" docker rmi ImageID">
 <node CREATED="1574692426033" ID="ID_1659325146" MODIFIED="1574692433960" TEXT="&#xb3c4;&#xcee4; &#xc774;&#xbbf8;&#xc9c0; &#xc0ad;&#xc81c;(remove all docker images)"/>
 </node>
-<node CREATED="1574523716082" FOLDED="true" ID="ID_698013111" MODIFIED="1580282594386" TEXT="docker ps">
+<node CREATED="1574523716082" FOLDED="true" ID="ID_698013111" MODIFIED="1581950967911" TEXT="docker ps">
 <node CREATED="1574523718794" ID="ID_1728925180" MODIFIED="1574523720682" TEXT="&#xcee8;&#xd14c;&#xc774;&#xb108;"/>
 <node CREATED="1574523722850" ID="ID_482795353" MODIFIED="1574523731895" TEXT="docker ps -a">
 <node CREATED="1574523733006" ID="ID_787726847" MODIFIED="1574523781334" TEXT="&#xbaa8;&#xb4e0; &#xcee8;&#xd14c;&#xc774;&#xb108;"/>
 </node>
 </node>
-<node CREATED="1574523819554" ID="ID_1382203591" MODIFIED="1580998094818" TEXT="docker stop &#xcee8;&#xd14c;&#xc774;&#xb108;ID">
+<node CREATED="1574523819554" FOLDED="true" ID="ID_1382203591" MODIFIED="1581950935556" TEXT="docker stop &#xcee8;&#xd14c;&#xc774;&#xb108;ID">
 <node CREATED="1574523897184" ID="ID_495037967" MODIFIED="1574523900867" TEXT="&#xcee8;&#xd14c;&#xc774;&#xb108; stop"/>
 </node>
-<node CREATED="1574523904972" ID="ID_390979911" MODIFIED="1580998095800" TEXT="docker rm &#xcee8;&#xd14c;&#xc774;&#xb108;ID">
+<node CREATED="1574523904972" FOLDED="true" ID="ID_390979911" MODIFIED="1581950935557" TEXT="docker rm &#xcee8;&#xd14c;&#xc774;&#xb108;ID">
 <node CREATED="1574523991189" ID="ID_1619109517" MODIFIED="1574523993560" TEXT="&#xcee8;&#xd14c;&#xc774;&#xb108; &#xc0ad;&#xc81c;"/>
 </node>
-<node CREATED="1574524385919" ID="ID_379225031" MODIFIED="1580998131710" TEXT="docker stats &#xcee8;&#xd14c;&#xc774;&#xb108;ID">
+<node CREATED="1574524385919" FOLDED="true" ID="ID_379225031" MODIFIED="1581950935557" TEXT="docker stats &#xcee8;&#xd14c;&#xc774;&#xb108;ID">
 <node CREATED="1574524454968" ID="ID_1976309472" MODIFIED="1574524466793" TEXT="&#xcee8;&#xd14c;&#xc774;&#xb108; &#xd1b5;&#xacc4;"/>
 <node CREATED="1574524472250" ID="ID_1519464362" MODIFIED="1580998133629" TEXT="&#xc774;&#xbbf8;&#xc9c0;">
 <node CREATED="1574524474965" ID="ID_569948563" MODIFIED="1574688558397">
@@ -58,34 +58,34 @@
 </node>
 </node>
 </node>
-<node CREATED="1574525727835" ID="ID_1917853627" MODIFIED="1580286341867" TEXT="sudo docker attach &#xcee8;&#xd14c;&#xc774;&#xb108;ID">
+<node CREATED="1574525727835" ID="ID_1917853627" MODIFIED="1581950993121" TEXT="sudo docker attach &#xcee8;&#xd14c;&#xc774;&#xb108;ID">
 <node CREATED="1574525740245" ID="ID_245426340" MODIFIED="1574525743787" TEXT="&#xc774;&#xac70; &#xc548;&#xba39;&#xd790;&#xb54c;&#xb294;"/>
 <node CREATED="1574525750288" ID="ID_637496210" LINK="https://stackoverflow.com/questions/44733713/why-docker-attach-not-working-and-blocking-my-konsole-on-ubuntu" MODIFIED="1574525750288" TEXT="https://stackoverflow.com/questions/44733713/why-docker-attach-not-working-and-blocking-my-konsole-on-ubuntu"/>
 <node CREATED="1574525751240" ID="ID_1877259114" MODIFIED="1574525766614" TEXT="docker exec -it &#xcee8;&#xd14c;&#xc774;&#xb108;ID bash"/>
 </node>
-<node CREATED="1574525891817" ID="ID_1709287752" MODIFIED="1580998078848" TEXT="docker pause &#xcee8;&#xd14c;&#xc774;&#xb108;ID">
+<node CREATED="1574525891817" ID="ID_1709287752" MODIFIED="1581950992715" TEXT="docker pause &#xcee8;&#xd14c;&#xc774;&#xb108;ID">
 <node CREATED="1574525900963" ID="ID_498369112" MODIFIED="1574525904853" TEXT="&#xcee8;&#xd14c;&#xc774;&#xb108; &#xc77c;&#xc2dc;&#xc911;&#xc9c0;"/>
 </node>
-<node CREATED="1574525891817" ID="ID_530242465" MODIFIED="1580998079653" TEXT="docker unpause &#xcee8;&#xd14c;&#xc774;&#xb108;ID">
+<node CREATED="1574525891817" ID="ID_530242465" MODIFIED="1581950992333" TEXT="docker unpause &#xcee8;&#xd14c;&#xc774;&#xb108;ID">
 <node CREATED="1574525900963" ID="ID_64387864" MODIFIED="1574525923344" TEXT="&#xcee8;&#xd14c;&#xc774;&#xb108; &#xb2e4;&#xc2dc; &#xc2e4;&#xd589;"/>
 </node>
-<node CREATED="1574525891817" ID="ID_1696086037" MODIFIED="1580998080374" TEXT="docker kill &#xcee8;&#xd14c;&#xc774;&#xb108;ID">
+<node CREATED="1574525891817" ID="ID_1696086037" MODIFIED="1581950991787" TEXT="docker kill &#xcee8;&#xd14c;&#xc774;&#xb108;ID">
 <node CREATED="1574525900963" ID="ID_661299190" MODIFIED="1574525964913" TEXT="&#xcee8;&#xd14c;&#xc774;&#xb108; &#xac15;&#xc81c;&#xc885;&#xb8cc;"/>
 </node>
 <node CREATED="1574860607552" ID="ID_544946247" MODIFIED="1574860612485" TEXT="docker run &#xc774;&#xbbf8;&#xc9c0;&#xc774;&#xb984;"/>
 <node CREATED="1580213227154" ID="ID_159420090" MODIFIED="1580213238998" TEXT="docker run -p &#xc678;&#xbd80;&#xd3ec;&#xd2b8;:&#xb0b4;&#xbd80;&#xd3ec;&#xd2b8;"/>
-<node CREATED="1574866641917" ID="ID_1584123281" MODIFIED="1580998082852" TEXT="docker inspect &#xcee8;&#xd14c;&#xc774;&#xb108;ID">
+<node CREATED="1574866641917" ID="ID_1584123281" MODIFIED="1581950937401" TEXT="docker inspect &#xcee8;&#xd14c;&#xc774;&#xb108;ID">
 <node CREATED="1574866652475" ID="ID_1963437284" LINK="https://docs.docker.com/engine/reference/commandline/inspect/" MODIFIED="1574866652475" TEXT="https://docs.docker.com/engine/reference/commandline/inspect/"/>
 <node CREATED="1574866662363" ID="ID_643054445" MODIFIED="1574866662363" TEXT="Return low-level information on Docker objects"/>
 </node>
-<node CREATED="1580216450631" ID="ID_1439258636" MODIFIED="1580379203705" TEXT="docker cp &lt;containerId&gt;:/file/path/within/container /host/path/target">
+<node CREATED="1580216450631" ID="ID_1439258636" MODIFIED="1581950955090" TEXT="docker cp &lt;containerId&gt;:/file/path/within/container /host/path/target">
 <node CREATED="1580216452075" ID="ID_1118788752" MODIFIED="1580275814994" TEXT="copy container image folder"/>
 <node CREATED="1580379211135" ID="ID_1546667065" MODIFIED="1580379216612" TEXT="&#xc774;&#xac78; &#xbc18;&#xb300;&#xb85c; &#xd574;&#xb3c4; &#xb41c;&#xb2e4;."/>
 </node>
-<node CREATED="1580216450631" ID="ID_342485420" MODIFIED="1580379236822" TEXT="docker cp /host/path/target &lt;containerId&gt;:/file/path/within/container">
+<node CREATED="1580216450631" ID="ID_342485420" MODIFIED="1581950954069" TEXT="docker cp /host/path/target &lt;containerId&gt;:/file/path/within/container">
 <node CREATED="1580216452075" ID="ID_80027891" MODIFIED="1580379566332" TEXT="&#xc6b0;&#xbd84;&#xd22c;&#xc5d0; &#xc788;&#xb294;&#xac78; &#xadf8;&#xb300;&#xb85c; &#xcee8;&#xd14c;&#xc774;&#xb108;&#xc5d0; &#xaf2c;&#xb77c;&#xbc15;&#xc544; &#xb123;&#xb294;&#xb2e4;."/>
 </node>
-<node CREATED="1580277920829" ID="ID_560404148" MODIFIED="1581004877709" TEXT="docker build &lt;&#xc635;&#xc158;&gt; &lt;Dockerfile &#xacbd;&#xb85c;&gt;">
+<node CREATED="1580277920829" ID="ID_560404148" MODIFIED="1581950940017" TEXT="docker build &lt;&#xc635;&#xc158;&gt; &lt;Dockerfile &#xacbd;&#xb85c;&gt;">
 <node CREATED="1580277920830" ID="ID_35054002" MODIFIED="1580277920830" TEXT="Dockerfile &#xacbd;&#xb85c;&#xb294; &#xb85c;&#xceec; &#xacbd;&#xb85c;&#xc640; URL&#xc744; &#xc0ac;&#xc6a9;&#xd560; &#xc218; &#xc788;&#xace0;, -&#xb97c; &#xc124;&#xc815;&#xd558;&#xba74; &#xd45c;&#xc900; &#xc785;&#xb825;&#xc73c;&#xb85c; Dockerfile &#xb0b4;&#xc6a9;&#xc744; &#xbc1b;&#xc744; &#xc218; &#xc788;&#xc2b5;&#xb2c8;&#xb2e4;."/>
 <node CREATED="1580277920832" ID="ID_904658016" MODIFIED="1580277920832" TEXT="--force-rm=false: &#xc774;&#xbbf8;&#xc9c0; &#xc0dd;&#xc131;&#xc5d0; &#xc2e4;&#xd328;&#xd588;&#xc744; &#xb54c;&#xb3c4; &#xc784;&#xc2dc; &#xcee8;&#xd14c;&#xc774;&#xb108;&#xb97c; &#xc0ad;&#xc81c;&#xd569;&#xb2c8;&#xb2e4;."/>
 <node CREATED="1580277920834" ID="ID_495420543" MODIFIED="1580277920834" TEXT="--no-cache=false: &#xc774;&#xc804; &#xbe4c;&#xb4dc;&#xc5d0;&#xc11c; &#xc0dd;&#xc131;&#xb41c; &#xce90;&#xc2dc;&#xb97c; &#xc0ac;&#xc6a9;&#xd558;&#xc9c0; &#xc54a;&#xc2b5;&#xb2c8;&#xb2e4;. Docker&#xb294; &#xc774;&#xbbf8;&#xc9c0; &#xc0dd;&#xc131; &#xc2dc;&#xac04;&#xc744; &#xc904;&#xc774;&#xae30; &#xc704;&#xd574;&#xc11c; Dockerfile&#xc758; &#xac01; &#xacfc;&#xc815;&#xc744; &#xce90;&#xc2dc;&#xd558;&#xb294;&#xb370;, &#xc774; &#xce90;&#xc2dc;&#xb97c; &#xc0ac;&#xc6a9;&#xd558;&#xc9c0; &#xc54a;&#xace0; &#xcc98;&#xc74c;&#xbd80;&#xd130; &#xb2e4;&#xc2dc; &#xc774;&#xbbf8;&#xc9c0;&#xb97c; &#xc0dd;&#xc131;&#xd569;&#xb2c8;&#xb2e4;."/>
@@ -104,7 +104,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1580282707934" ID="ID_306202818" MODIFIED="1580282709436" TEXT="docker logs &lt;container name/id&gt;">
+<node CREATED="1580282707934" ID="ID_306202818" MODIFIED="1581950946572" TEXT="docker logs &lt;container name/id&gt;">
 <node COLOR="#3333ff" CREATED="1580282712515" ID="ID_915589164" MODIFIED="1580282722086" STYLE="bubble" TEXT="&#xd574;&#xb2f9; &#xcee8;&#xd14c;&#xc774;&#xb108;&#xc758; &#xb85c;&#xadf8;&#xb97c; &#xbcf4;&#xc5ec;&#xc90c;">
 <font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
 </node>
@@ -114,7 +114,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1574525974304" ID="ID_1793973735" MODIFIED="1580998140399" POSITION="right" TEXT="&#xb3c4;&#xcee4; &#xb77c;&#xc774;&#xd504; &#xc0ac;&#xc774;&#xd074;(&#xc774;&#xbbf8;&#xc9c0;)">
+<node CREATED="1574525974304" FOLDED="true" ID="ID_1793973735" MODIFIED="1581658334402" POSITION="right" TEXT="&#xb3c4;&#xcee4; &#xb77c;&#xc774;&#xd504; &#xc0ac;&#xc774;&#xd074;(&#xc774;&#xbbf8;&#xc9c0;)">
 <node CREATED="1574525997043" ID="ID_235964087" MODIFIED="1574862706132">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -192,15 +192,25 @@
 <node CREATED="1574864679521" ID="ID_1061725179" LINK="http://jmlim.github.io/docker/2019/02/19/dockerfile-tomcat-deploy/" MODIFIED="1574864679521" TEXT="jmlim.github.io &gt; Docker &gt; 2019 &gt; 02 &gt; 19 &gt; Dockerfile-tomcat-deploy"/>
 </node>
 </node>
-<node CREATED="1580280249020" ID="ID_425793075" MODIFIED="1580280251590" POSITION="right" TEXT="&#xc544;&#xd30c;&#xce58;">
+<node CREATED="1580280249020" FOLDED="true" ID="ID_425793075" MODIFIED="1581658334402" POSITION="right" TEXT="&#xc544;&#xd30c;&#xce58;">
 <node CREATED="1580280253006" ID="ID_624375612" MODIFIED="1580280254131" TEXT="&#xb3c4;&#xcee4; &#xd5c8;&#xbe0c;">
 <node CREATED="1580280254502" LINK="https://hub.docker.com/_/httpd/" MODIFIED="1580280254502" TEXT="https://hub.docker.com/_/httpd/"/>
 </node>
 </node>
-<node CREATED="1580287355533" ID="ID_1554938033" MODIFIED="1580287394662" POSITION="right" TEXT="&#xb3c4;&#xcee4; &#xcee8;&#xd14c;&#xc774;&#xb108;&#xc5d0;&#xc11c; bash&#xb85c; &#xb4e4;&#xc5b4;&#xac00; vi &#xc5d0;&#xb514;&#xd130; &#xc0ac;&#xc6a9;&#xd558;&#xae30;">
+<node CREATED="1580287355533" FOLDED="true" ID="ID_1554938033" MODIFIED="1581658334402" POSITION="right" TEXT="&#xb3c4;&#xcee4; &#xcee8;&#xd14c;&#xc774;&#xb108;&#xc5d0;&#xc11c; bash&#xb85c; &#xb4e4;&#xc5b4;&#xac00; vi &#xc5d0;&#xb514;&#xd130; &#xc0ac;&#xc6a9;&#xd558;&#xae30;">
 <node CREATED="1580287365767" ID="ID_458957762" LINK="https://stackoverflow.com/questions/31515863/how-to-run-vi-on-docker-container/43043211" MODIFIED="1580287365767" TEXT="https://stackoverflow.com/questions/31515863/how-to-run-vi-on-docker-container/43043211"/>
 <node CREATED="1580287379977" ID="ID_304713208" MODIFIED="1580287379977" TEXT="apt-get update"/>
 <node CREATED="1580287379978" MODIFIED="1580287379978" TEXT="apt-get install vim"/>
+</node>
+<node CREATED="1581951526884" ID="ID_98238046" MODIFIED="1581951688266" POSITION="right" TEXT="&#xb3c4;&#xcee4;&#xc5d0;&#xc11c; &#xc2dc;&#xac04; &#xd55c;&#xad6d;&#xc2dc;&#xac04;&#xc73c;&#xb85c; &#xbcc0;&#xacbd;&#xd558;&#xae30;[&#xb3c4;&#xcee4;&#xd30c;&#xc77c;]">
+<node CREATED="1581951689123" ID="ID_242227193" MODIFIED="1581951689123" TEXT="RUN ln -sf /usr/share/zoneinfo/Asia/Seoul /etc/localtime"/>
+<node CREATED="1581951690820" ID="ID_1308164626" MODIFIED="1581951701330" TEXT="&#xc5ec;&#xae30;&#xc11c; RUN&#xc774; &#xc544;&#xb9c8;&#xb3c4; &#xb9ac;&#xb205;&#xc2a4; &#xba85;&#xb839;&#xc5b4;&#xb97c; &#xce58;&#xb77c;&#xb294;&#xac70; &#xac19;&#xb2e4;."/>
+<node CREATED="1581951805636" ID="ID_1725277321" MODIFIED="1581951809373" TEXT="&#xbcc0;&#xacbd;&#xd558;&#xb294; &#xac83;&#xc5d0; &#xb300;&#xd55c; &#xc124;&#xba85;">
+<node CREATED="1581951826294" LINK="https://twpower.github.io/95-set-ubuntu-timezone" MODIFIED="1581951826294" TEXT="https://twpower.github.io/95-set-ubuntu-timezone"/>
+</node>
+<node CREATED="1581951811730" ID="ID_1404484911" MODIFIED="1581951813822" TEXT="&#xb3c4;&#xcee4;&#xc5d0;&#xc11c; &#xc65c; &#xc548;&#xb3fc;?">
+<node CREATED="1581951804306" ID="ID_1793382802" LINK="https://stackoverflow.com/questions/53581147/unknown-instruction-sudo-when-i-try-to-build-the-docker-image" MODIFIED="1581951819958" TEXT="https://stackoverflow.com/questions/53581147/unknown-instruction-sudo-when-i-try-to-build-the-docker-image"/>
+</node>
 </node>
 </node>
 </map>

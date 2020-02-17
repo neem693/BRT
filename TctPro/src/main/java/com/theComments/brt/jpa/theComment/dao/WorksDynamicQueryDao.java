@@ -68,6 +68,8 @@ import com.theComments.brt.jpa.theComment.model.Works;
 import com.theComments.brt.jpa.theComment.model.Works_;
 import com.theComments.brt.util.ResultMap;
 
+import net.bytebuddy.description.ModifierReviewable.OfAbstraction;
+
 /***
  * 
  * @author UIO dynamic query or custom query for native query .. etc
@@ -105,12 +107,18 @@ public class WorksDynamicQueryDao {
 		StringBuffer searchTextBuffer = new StringBuffer().append("%").append(worksDto.getSearchText()).append("%");
 		Predicate worksSubjectPre = cb.like(worksRoot.get(Works_.SUBJECT), searchTextBuffer.toString());
 		predicate_list.add(worksSubjectPre);
-
+		
+		Predicate notDelYn = cb.equal(worksRoot.get(Works_.DEL_YN), 0);
+		predicate_list.add(notDelYn);
+		
 		Predicate[] predicate_array = new Predicate[predicate_list.size()];
 		predicate_array = predicate_list.toArray(predicate_array);
 
 		TypedQuery<Works> typeQuery = em.createQuery(cq.select(worksRoot).where(predicate_array));
-		typeQuery.setFirstResult(worksDto.getPageNum() - 1);
+		
+		Pageable pageable = PageRequest.of(worksDto.getPageNum() - 1, PAGE.PAGE_SIZE);
+		
+		typeQuery.setFirstResult((int)pageable.getOffset());
 		typeQuery.setMaxResults(PAGE.PAGE_SIZE);
 
 		Long totalCount = this.selectWorksDynamicTotalCount(worksDto, type2, type1, em);
@@ -162,6 +170,9 @@ public class WorksDynamicQueryDao {
 		StringBuffer searchTextBuffer = new StringBuffer().append("%").append(worksDto.getSearchText()).append("%");
 		Predicate worksSubjectPre = cb.like(worksRoot.get(Works_.SUBJECT), searchTextBuffer.toString());
 		predicate_list.add(worksSubjectPre);
+		
+		Predicate notDelYn = cb.equal(worksRoot.get(Works_.DEL_YN), 0);
+		predicate_list.add(notDelYn);
 
 		Predicate[] predicate_array = new Predicate[predicate_list.size()];
 		predicate_array = predicate_list.toArray(predicate_array);
@@ -247,6 +258,9 @@ public class WorksDynamicQueryDao {
 		StringBuffer searchTextBuffer = new StringBuffer().append("%").append(worksDto.getSearchText()).append("%");
 		Predicate worksSubjectPre = cb.like(worksRoot.get(Works_.SUBJECT), searchTextBuffer.toString());
 		predicate_list.add(worksSubjectPre);
+		
+		Predicate notDelYn = cb.equal(worksRoot.get(Works_.DEL_YN), 0);
+		predicate_list.add(notDelYn);
 
 		Predicate[] predicate_array = new Predicate[predicate_list.size()];
 		predicate_array = predicate_list.toArray(predicate_array);
@@ -259,8 +273,11 @@ public class WorksDynamicQueryDao {
 
 		TypedQuery<Works> typeQuery = em.createQuery(
 				cq.select(worksRoot).where(predicate_array).groupBy(groupListExpression).orderBy(order_array));
-		typeQuery.setFirstResult(worksDto.getPageNum() - 1);
-		typeQuery.setMaxResults(PAGE.PAGE_SIZE);
+		
+		Pageable pageable = PageRequest.of(worksDto.getPageNum() - 1, PAGE.PAGE_SIZE_NINE);
+		
+		typeQuery.setFirstResult((int)pageable.getOffset());
+		typeQuery.setMaxResults(PAGE.PAGE_SIZE_NINE);
 
 //		typeQuery.setHint("javax.persistence.loadgraph", works_create_entityGraph);
 		typeQuery.setHint("javax.persistence.loadgraph", works_filesave_entityGraph);
@@ -338,6 +355,9 @@ public class WorksDynamicQueryDao {
 		StringBuffer searchTextBuffer = new StringBuffer().append("%").append(worksDto.getSearchText()).append("%");
 		Predicate worksSubjectPre = cb.like(worksRoot.get(Works_.SUBJECT), searchTextBuffer.toString());
 		predicate_list.add(worksSubjectPre);
+		
+		Predicate notDelYn = cb.equal(worksRoot.get(Works_.DEL_YN), 0);
+		predicate_list.add(notDelYn);
 
 		Predicate[] predicate_array = new Predicate[predicate_list.size()];
 		predicate_array = predicate_list.toArray(predicate_array);

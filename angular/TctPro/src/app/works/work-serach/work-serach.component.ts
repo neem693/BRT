@@ -118,7 +118,7 @@ export class WorkSerachComponent implements OnInit, AfterViewInit {
     worksList: {
       totalSize: 0,
       pageNum: 1,
-      pageSize: 10,
+      pageSize: 9,
     },
     matter: {
       totalSize: 0,
@@ -172,9 +172,9 @@ export class WorkSerachComponent implements OnInit, AfterViewInit {
       }else if(data['id'] == 0){
         $(".work_detail_outer").removeClass("active");
       }
-
+      //?이후에 읎을 때
       if (this.router.url.split("?").length == 1) {
-        this.worksSearchNativeUrl(1);
+        this.worksSearchNativeUrl(1,2);
       }
 
     })
@@ -186,6 +186,10 @@ export class WorkSerachComponent implements OnInit, AfterViewInit {
         if (this.loading.type == 0) {
           this.search.type1 = x['type1'];
           this.search.type2 = x['type2'];
+        }
+
+        if(this.page.worksList.pageNum != x['pageNum']){
+           this.page.worksList.pageNum = x['pageNum'];
         }
 
         this.worksSearch(x);
@@ -272,8 +276,12 @@ export class WorkSerachComponent implements OnInit, AfterViewInit {
     console.log(this.search.type2 + "type2");
     this.searchChange(index);
   }
-
-  worksSearchNativeUrl(page: number) {
+/**
+ * 
+ * @param page 페이지 넘버
+ * @param state  1 = 페이지 체인지, 2 = 처음 불러오는 것
+ */
+  worksSearchNativeUrl(page: number,state:number) {
 
     let data = {};
 
@@ -315,7 +323,11 @@ export class WorkSerachComponent implements OnInit, AfterViewInit {
       })
     }
 
-    this.worksSearch(data);
+    if(state == 1 || state == 2){
+      
+    }else{
+      this.worksSearch(data);
+    }
 
   }
 
@@ -332,6 +344,7 @@ export class WorkSerachComponent implements OnInit, AfterViewInit {
         this.works_list = Object.assign([], return_data);
         if (this.works_list.length != 0) {
           this.page.worksList.totalSize = this.works_list[0]['totalSize'];
+          console.log(this.page.worksList.totalSize);
         } else {
           this.page.worksList.totalSize = 0;
         }

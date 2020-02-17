@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta property="og:title" th:content="${work.subject}" />
+<meta property="og:type" content="website" />
+<meta property="og:image:type" content="image/png" />
+<!-- <meta property="og:url"  th:content="'http://220.72.89.29:8085/eval/evalDetail/' + ${eval.eval_item_id}" /> -->
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+
+<meta property="og:image"
+	th:content="${baseURL + eval_file.save_file_name}" />
+
+<meta charset="UTF-8">
+<title>titleShare</title>
+</head>
+<body>
+
+
+
+<!-- 	wefwf
+	<div th:text="${eval}"></div>
+	<div th:text="${eval_file.save_file_name}"></div>
+	<div th:text="${eval_file.file_name}"></div>
+	<div th:text="${eval_file.save_file_name}"></div>
+	<div th:text="${baseURL + eval_file.save_file_name}"></div> -->
+	
+	<input type = "hidden" th:value = "${eval.eval_item_id}" id ="eval_id">
+	
+	<script type="text/javascript">
+		var id = document.getElementById("eval_id").value;
+		location.href = "http://the-comment.com/eval/evalDetail/" + id;
+	</script>
+	
+	
+	
+	
+</body>
+</html>

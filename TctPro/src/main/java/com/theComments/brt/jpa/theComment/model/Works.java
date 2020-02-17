@@ -1,7 +1,6 @@
 package com.theComments.brt.jpa.theComment.model;
 
 import java.time.LocalDateTime;
-import java.util.List;
 import java.util.Set;
 
 import javax.persistence.Column;
@@ -16,6 +15,9 @@ import javax.persistence.NamedAttributeNode;
 import javax.persistence.NamedEntityGraph;
 import javax.persistence.NamedSubgraph;
 import javax.persistence.OneToMany;
+
+import lombok.Getter;
+import lombok.Setter;
 
 @Entity
 @NamedEntityGraph(
@@ -43,6 +45,8 @@ import javax.persistence.OneToMany;
 						@NamedAttributeNode("fileSave"),
 						@NamedAttributeNode("type2"),
 		})
+@Getter
+@Setter
 public class Works {
 	
 	@Id
@@ -72,76 +76,8 @@ public class Works {
 	@Column(nullable=false)
 	LocalDateTime create_date;
 	LocalDateTime create_end_date2;
-	public Long getWork_id() {
-		return work_id;
-	}
-	public void setWork_id(Long work_id) {
-		this.work_id = work_id;
-	}
-	public Type2 getType2() {
-		return type2;
-	}
-	public void setType2(Type2 type2) {
-		this.type2 = type2;
-	}
-	public String getSubject() {
-		return subject;
-	}
-	public void setSubject(String subject) {
-		this.subject = subject;
-	}
-	public Set<Evaluate> getEvaluate() {
-		return evaluate;
-	}
-	public void setEvaluate(Set<Evaluate> evaluate) {
-		this.evaluate = evaluate;
-	}
-	public Set<WorksSave> getWorksSave() {
-		return worksSave;
-	}
-	public void setWorksSave(Set<WorksSave> worksSave) {
-		this.worksSave = worksSave;
-	}
-	public Set<Create_art> getCreate() {
-		return create;
-	}
-	public void setCreate(Set<Create_art> create) {
-		this.create = create;
-	}
-	public Set<FileSave> getFileSave() {
-		return fileSave;
-	}
-	public void setFileSave(Set<FileSave> fileSave) {
-		this.fileSave = fileSave;
-	}
-	public int getIs_series() {
-		return is_series;
-	}
-	public void setIs_series(int is_series) {
-		this.is_series = is_series;
-	}
-	public LocalDateTime getCreate_date() {
-		return create_date;
-	}
-	public void setCreate_date(LocalDateTime create_date) {
-		this.create_date = create_date;
-	}
-	public LocalDateTime getCreate_end_date2() {
-		return create_end_date2;
-	}
-	public void setCreate_end_date2(LocalDateTime create_end_date2) {
-		this.create_end_date2 = create_end_date2;
-	}
 	
+	@Column(columnDefinition = "integer default 0")
+	Integer delYn;
 	
-	
-	
-
-	
-	
-	
-	
-	
-
-
 }

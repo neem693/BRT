@@ -411,11 +411,11 @@ public class EvalService {
 
 		Pageable pageable = PageRequest.of(pageNum, pageSize);
 		Long type1 = 1L;
-		Page<Evaluation_item> mainSeeList = eval_item_dao.selectSeeMain(type1,pageable);
+		Page<Evaluation_item> mainSeeList = eval_item_dao.selectMain(type1,pageable);
 		type1 = 2L;
-		Page<Evaluation_item> mainListenList = eval_item_dao.selectSeeMain(type1,pageable);
+		Page<Evaluation_item> mainListenList = eval_item_dao.selectMain(type1,pageable);
 		type1 = 3L;
-		Page<Evaluation_item> mainDoList = eval_item_dao.selectSeeMain(type1,pageable);
+		Page<Evaluation_item> mainDoList = eval_item_dao.selectMain(type1,pageable);
 		
 		List<Evaluation_itemDto> mainSeeListDto = this.toItemDto(mainSeeList.getContent());
 		List<Evaluation_itemDto> mainListenListDto = this.toItemDto(mainListenList.getContent());

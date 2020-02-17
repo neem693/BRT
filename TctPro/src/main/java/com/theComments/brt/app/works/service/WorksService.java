@@ -343,6 +343,7 @@ public class WorksService {
 		
 		ResultMap result = new ResultMap();
 		result.setData(works);
+//		result.setTotalSize(works.get(0).getTotalSize());
 		result.setResult(200);
 		
 		return result;

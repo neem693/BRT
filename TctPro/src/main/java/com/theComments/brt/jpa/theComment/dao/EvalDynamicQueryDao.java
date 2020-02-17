@@ -23,6 +23,8 @@ import javax.persistence.criteria.Root;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Component;
 
 import com.theComments.brt.constFile.PageConst.PAGE;
@@ -215,6 +217,12 @@ public class EvalDynamicQueryDao {
 			}
 		}
 		
+		Predicate notDelYnWorks = cb.equal(rWorksJoinRoot.get(Works_.DEL_YN), 0);
+		predicate_list.add(notDelYnWorks);
+		
+		Predicate notDelYn = cb.equal(rEvalItemRoot.get(Evaluation_item_.DEL_YN), 0);
+		predicate_list.add(notDelYn);
+		
 		Predicate[] predicate_array = new Predicate[predicate_list.size()];
 		predicate_array = predicate_list.toArray(predicate_array);
 
@@ -230,7 +238,9 @@ public class EvalDynamicQueryDao {
 				.groupBy(groupListExpression)
 				.orderBy(order_array)
 				);
-		typeQuery.setFirstResult(itemDto.getPageNum() - 1);
+		Pageable pageable = PageRequest.of(itemDto.getPageNum() - 1, PAGE.PAGE_SIZE);
+		
+		typeQuery.setFirstResult((int)pageable.getOffset());
 		typeQuery.setMaxResults(PAGE.PAGE_SIZE);
 		
 		EntityGraph<Evaluation_item> evalItemListMain = (EntityGraph<Evaluation_item>)em.getEntityGraph("evaluation_item.listMain");
@@ -351,6 +361,12 @@ public class EvalDynamicQueryDao {
 				
 			}
 		}
+		
+		Predicate notDelYnWorks = cb.equal(rWorksJoinRoot.get(Works_.DEL_YN), 0);
+		predicate_list.add(notDelYnWorks);
+		
+		Predicate notDelYn = cb.equal(rEvalItemRoot.get(Evaluation_item_.DEL_YN), 0);
+		predicate_list.add(notDelYn);
 		
 		Predicate[] predicate_array = new Predicate[predicate_list.size()];
 		predicate_array = predicate_list.toArray(predicate_array);

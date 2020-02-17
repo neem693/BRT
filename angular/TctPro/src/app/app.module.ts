@@ -47,6 +47,10 @@ import { StoreDevtoolsModule } from '@ngrx/store-devtools';
 import { SnsJoinComponent } from './member/sns-join/sns-join.component';
 import { HomeService } from './home/home.service';
 import { LoadingSpinComponent } from './common/loading-spin/loading-spin.component';
+import { ShareComponent } from './eval/eval-detail/share/share.component';
+import { ClipboardModule } from 'ngx-clipboard';
+import { SnsShareComponent } from './eval/eval-detail/share/sns-share/sns-share.component';
+import { EvalObjectComponent } from './eval/eval-object/eval-object.component';
 
 const DEFAULT_SWIPER_CONFIG: SwiperConfigInterface = {
   direction: 'horizontal',
@@ -83,6 +87,9 @@ const DEFAULT_SWIPER_CONFIG: SwiperConfigInterface = {
     GlobalDialogComponent,
     SnsJoinComponent,
     LoadingSpinComponent,
+    ShareComponent,
+    SnsShareComponent,
+    EvalObjectComponent,
 
     
   ],
@@ -116,6 +123,7 @@ const DEFAULT_SWIPER_CONFIG: SwiperConfigInterface = {
       maxAge: 25, // Retains last 25 states
       //logOnly: environment.production, // Restrict extension to log-only mode
     }),
+    ClipboardModule,
   ],
   entryComponents: [
     JoinFailComponent,

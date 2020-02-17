@@ -1,0 +1,14 @@
+mat-form-field{
+    display: block;
+    
+}
+
+.message{
+    text-align: center;
+    transition: opacity 0.5s;
+    opacity: 0;
+}
+
+.message.active{
+    opacity: 1;
+}

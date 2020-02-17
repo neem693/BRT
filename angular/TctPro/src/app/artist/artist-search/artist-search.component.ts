@@ -191,6 +191,8 @@ export class ArtistSearchComponent implements OnInit {
 
   artistSearchNativeUrl(page: number) {
 
+    this.search.pageNum = page;
+
     let param = {};
 
     for (let key in this.search) {

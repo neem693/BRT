@@ -1,0 +1,11 @@
+<div class="row">
+    <div class="col-lg-6" style= "margin:auto">
+        <mat-form-field  appearance="legacy">
+            <mat-label>Share URL</mat-label>
+            <input (click) = "copyURL()" [readonly]="true" [formControl]="share.url" matInput placeholder="Placeholder">
+        </mat-form-field>
+        <div class = "message" [ngClass] = "{'active':coping}">클립보드에 저장되었습니다.</div>
+        <app-sns-share [share_url] = "share.url.value"></app-sns-share>
+    </div>
+
+</div>

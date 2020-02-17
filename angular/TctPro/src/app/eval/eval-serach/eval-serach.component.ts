@@ -259,17 +259,17 @@ export class EvalSerachComponent implements OnInit {
           this.page.evalData.totalSize = x[RESULT.TOTALSIZE_KEY];
 
           for(var i =0; i<this.evalData.list.length; i++){
-            let eval_item_data = this.evalData.list[i];
-            if(eval_item_data['ev_value'] >= 1 && eval_item_data['ev_value'] <= 3)
-            {
-              eval_item_data['ev_value_class_name'] = 'gray';
-            }else if(eval_item_data['ev_value'] >= 4 && eval_item_data['ev_value'] <= 5){
-              eval_item_data['ev_value_class_name'] = 'blue';
-            }else if(eval_item_data['ev_value'] >= 6 && eval_item_data['ev_value'] <= 7){
-              eval_item_data['ev_value_class_name'] = 'yellow';
-            }
+            // let eval_item_data = this.evalData.list[i];
+            // if(eval_item_data['ev_value'] >= 1 && eval_item_data['ev_value'] <= 3)
+            // {
+            //   eval_item_data['ev_value_class_name'] = 'gray';
+            // }else if(eval_item_data['ev_value'] >= 4 && eval_item_data['ev_value'] <= 5){
+            //   eval_item_data['ev_value_class_name'] = 'blue';
+            // }else if(eval_item_data['ev_value'] >= 6 && eval_item_data['ev_value'] <= 7){
+            //   eval_item_data['ev_value_class_name'] = 'yellow';
+            // }
             
-            this.evalData.list[i] = eval_item_data;
+            // this.evalData.list[i] = eval_item_data;
 
          
             this.evalShow(i);

@@ -1,0 +1,7 @@
+.sns-go {text-align:center; padding: 20px 0;}
+.sns-go li {display:inline-block; margin: 0 5px; }
+.sns-go li img {border-radius:50%;}	
+
+a{
+    cursor: pointer;
+}

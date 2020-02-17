@@ -11,9 +11,12 @@ import javax.persistence.Query;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Component;
 
 import com.theComments.brt.constFile.PageConst;
+import com.theComments.brt.constFile.PageConst.PAGE;
 import com.theComments.brt.jpa.dto.ArtistDto;
 import com.theComments.brt.jpa.dto.OrderForSearch;
 import com.theComments.brt.jpa.dto.Type1Dto;
@@ -87,7 +90,11 @@ public class ArtistDynamicQueryDao {
 			query_str +="and a.art_name like "+ "'%" + artistDto.getSearchText() + "%'";
 		}
 		
-		query_str+=" group by a.artist_id";
+		query_str+=" and a.delYn = 0";
+		
+		query_str+=" and w.delYn = 0";
+		
+		String group_str = " group by a.artist_id";
 		
 		String order = " order by";
 		if(orderForSearch.getOrder() ==0) {
@@ -110,13 +117,16 @@ public class ArtistDynamicQueryDao {
 			}
 		}
 		
-		int pageNum =artistDto.getPageNum()-1;
+		Pageable pageable = PageRequest.of(artistDto.getPageNum() - 1, PAGE.PAGE_SIZE);
+
+		int pageNum =(int)pageable.getOffset();
 		int pageSize = PageConst.PAGE.PAGE_SIZE;
+		
 		String limit = " limit "+pageNum + "," + pageSize; 
 		
 		System.out.println(select_str + query_str + order+ limit);
 		
-		Query query = em.createNativeQuery(select_str + query_str + order + limit,"artistSearch");
+		Query query = em.createNativeQuery(select_str + query_str + group_str + order + limit,"artistSearch");
 		List<ArtistDto> data = query.getResultList();
 		Query queryCount = em.createNativeQuery("SELECT COUNT(*)" + query_str);
 		BigInteger totalCount;

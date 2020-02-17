@@ -91,9 +91,8 @@ public class Evaluation_item {
 	@OneToMany(mappedBy = "eval_item")
 	Set<FileSave> fileSave;
 
-	
-	
-	
+	@Column(columnDefinition = "integer default 0")
+	Integer delYn;
 	
 
 }

@@ -31,7 +31,7 @@
                 placeholder="Placeholder">
             <mat-hint>Search the works Subject</mat-hint>
         </mat-form-field>
-        <button (click)="worksSearchNativeUrl(1)" mat-raised-button>Search</button>
+        <button (click)="worksSearchNativeUrl(1,0)" mat-raised-button>Search</button>
     </div>
     <div class="order">
         <mat-form-field>
@@ -88,7 +88,7 @@
         <div *ngIf="page.worksList.totalSize > 0" class="pagination_class">
             <ngb-pagination [collectionSize]="page.worksList.totalSize" [pageSize]="page.worksList.pageSize"
                 [(page)]="page.worksList.pageNum" aria-label="Default pagination"
-                (pageChange)="worksSearchNativeUrl(page.worksList.pageNum)">
+                (pageChange)="worksSearchNativeUrl(page.worksList.pageNum,1)">
             </ngb-pagination>
         </div>
     </div>

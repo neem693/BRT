@@ -67,5 +67,8 @@ public class Eva_user {
 	@OneToMany(mappedBy = "eva_user")
 	List<Sns_user> sns_user;
 	
+	@Column(columnDefinition = "integer default 0")
+	Integer delYn;
+	
 	
 }

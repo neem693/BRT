@@ -1,13 +1,13 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1578226990534" ID="ID_1268012643" MODIFIED="1580638256914" TEXT="ngrx">
-<node COLOR="#3333ff" CREATED="1580638256883" ID="ID_1626656109" MODIFIED="1580638263287" POSITION="right" STYLE="bubble" TEXT="getting started">
+<node COLOR="#3333ff" CREATED="1580638256883" FOLDED="true" ID="ID_1626656109" MODIFIED="1581658266296" POSITION="right" STYLE="bubble" TEXT="getting started">
 <font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
 <node CREATED="1580638253804" ID="ID_731708657" LINK="https://ngrx.io/guide/store" MODIFIED="1580638263268" TEXT="https://ngrx.io/guide/store"/>
 </node>
 <node CREATED="1578227090798" ID="ID_1376651798" MODIFIED="1578227113928" POSITION="right" TEXT="&#xae30;&#xbcf8;&#xc801;&#xc73c;&#xb85c; action,reducer &#xadf8;&#xb9ac;&#xace0; &#xc774;&#xbca4;&#xd2b8; &#xadf8;&#xb7ec;&#xb2c8;&#xae4c; effect&#xac00; &#xc788;&#xb2e4;."/>
 <node CREATED="1578227127846" ID="ID_234424256" MODIFIED="1578227328478" POSITION="right" TEXT="&#xac01; &#xbaa8;&#xb4c8;&#xc758; &#xb0b4;&#xc6a9;&#xc744; &#xc694;&#xc57d;&#xd55c;&#xb2e4;&#xae30; &#xbcf4;&#xb2e4;&#xb294; &#xc544;&#xbb34;&#xb798;&#xb3c4; &#xcf54;&#xb4dc;&#xc758; &#xc21c;&#xc11c;&#xb97c; &#xc81c;&#xb300;&#xb85c; &#xd30c;&#xc545;&#xd558;&#xb294;&#xac8c; &#xc88b;&#xc744; &#xb4ef; &#xd558;&#xb2e4;."/>
-<node CREATED="1578227328770" ID="ID_1818536673" MODIFIED="1580703563540" POSITION="right" TEXT="&#xb530;&#xb77c;&#xc11c; &#xb2e4;&#xc74c;&#xacfc; &#xac19;&#xc774; 3&#xac00;&#xc9c0;&#xb85c; &#xb098;&#xb208;&#xb2e4;.">
+<node CREATED="1578227328770" FOLDED="true" ID="ID_1818536673" MODIFIED="1581658266309" POSITION="right" TEXT="&#xb530;&#xb77c;&#xc11c; &#xb2e4;&#xc74c;&#xacfc; &#xac19;&#xc774; 3&#xac00;&#xc9c0;&#xb85c; &#xb098;&#xb208;&#xb2e4;.">
 <node CREATED="1578227351115" ID="ID_779904033" MODIFIED="1578228470838" TEXT="&#xc561;&#xc158;&#xc815;&#xc758;">
 <node CREATED="1578227545116" FOLDED="true" ID="ID_222273391" MODIFIED="1580635523328" TEXT="action&#xc5d0;&#xc11c; &#xc774; &#xc791;&#xc5c5;&#xc744; &#xd55c;&#xb2e4;.(&#xc774;&#xbbf8;&#xc9c0;)">
 <node CREATED="1578227665466" ID="ID_1555328853" MODIFIED="1578227665466">
@@ -189,7 +189,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1580708554188" ID="ID_610126232" MODIFIED="1580708566884" POSITION="right" TEXT="ngrx&#xb97c; dev tool &#xb85c; &#xc4f0;&#xace0; &#xc2f6;&#xb2e4;&#xba74; &#xb2e4;&#xc74c;&#xc744; &#xc784;&#xd3ec;&#xd2b8; &#xd574;&#xc57c; &#xd55c;&#xb2e4;.">
+<node CREATED="1580708554188" FOLDED="true" ID="ID_610126232" MODIFIED="1581658266310" POSITION="right" TEXT="ngrx&#xb97c; dev tool &#xb85c; &#xc4f0;&#xace0; &#xc2f6;&#xb2e4;&#xba74; &#xb2e4;&#xc74c;&#xc744; &#xc784;&#xd3ec;&#xd2b8; &#xd574;&#xc57c; &#xd55c;&#xb2e4;.">
 <node CREATED="1580708703491" ID="ID_527377737" LINK="https://ngrx.io/guide/store-devtools" MODIFIED="1580708704821" TEXT="https://ngrx.io/guide/store-devtools"/>
 <node CREATED="1580708593812" ID="ID_1881560685" LINK="https://stackoverflow.com/questions/52615090/ngrx-redux-devtools-not-showing-store-and-state-details-even-though-applicaton-i" MODIFIED="1580708596048" TEXT="https://stackoverflow.com/questions/52615090/ngrx-redux-devtools-not-showing-store-and-state-details-even-though-applicaton-i"/>
 <node CREATED="1580708573848" ID="ID_832133858" MODIFIED="1580708573848" TEXT="npm install @ngrx/store-devtools --save"/>
@@ -210,7 +210,7 @@
 <node CREATED="1580708579713" ID="ID_1631272570" MODIFIED="1580708579713" TEXT="export class AppModule {}"/>
 </node>
 </node>
-<node CREATED="1580709892243" ID="ID_1975097125" MODIFIED="1580709897712" POSITION="right" TEXT="ngrx &#xc815;&#xb9ac;">
+<node CREATED="1580709892243" FOLDED="true" ID="ID_1975097125" MODIFIED="1581658266311" POSITION="right" TEXT="ngrx &#xc815;&#xb9ac;">
 <node CREATED="1580709901546" ID="ID_61733501" MODIFIED="1580709908595" TEXT="1. @ngrx/store&#xb97c; &#xc124;&#xce58;&#xd55c;&#xb2e4;."/>
 <node CREATED="1580709908986" ID="ID_1922131535" MODIFIED="1580711268774" TEXT="2.  module&#xc5d0; &#xc801;&#xc6a9; &#xbc0f; action reducer &#xc791;&#xc131;"/>
 <node CREATED="1580724814407" ID="ID_945249119" MODIFIED="1580724825639" TEXT="3. AppState&#xc791;&#xc131;">
