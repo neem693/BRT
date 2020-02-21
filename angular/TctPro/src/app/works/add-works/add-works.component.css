@@ -20,6 +20,7 @@
 .work_input.artist_input{
     width:80%;
     float: left;
+    flex-grow: 1;
 }
 
 .work_input.artist_search_button{
@@ -42,6 +43,10 @@
     margin-left: 30px;
 }
 
+
+.artist_rep{
+    margin-top: 20px;
+}
 
 
 
@@ -162,6 +167,12 @@
     float: right;
 }
 
+.artist_detail{
+    float: left;
+    display: flex;
+    width:80%;
+}
+
 @media screen and (max-width: 1060px) {
     .addwork_div {
         width: 100%;
@@ -196,7 +207,8 @@
         width:80%;
     }
     .work_input.artist_input{
-        width:70%;
+        /* width:70%; */
+        /* flex-grow: 1; */
         float: left;
     }
     .work_input.date_input,.work_input.isEndDate{
@@ -204,6 +216,10 @@
         float: left;
         margin-top: 10px;
     }
+    .artist_detail{
+        width:100%;
+    }
+    
 
 
 }

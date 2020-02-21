@@ -359,6 +359,20 @@ export class AddWorksComponent implements OnInit {
 
     })
   }
+/**
+ * 대표
+ * @param index 
+ */
+  selectRep(index:number){
+    
+    for(var i =0; i<this.work.artistList.length; i++){
+      if(i== index){
+        continue;
+      }
+      this.work.artistList[i]['rep'] = false;
+    }
+
+  }
 
 
 

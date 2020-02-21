@@ -93,11 +93,15 @@
                 <input (click)="searchArtist()" readonly matInput placeholder="아티스트">
                 <mat-hint>저작자 이름<br>만약 해당 저작자가 없을 경우<br>저작물을 등록후 저작자 등록 페이지로 가서 <br>새로운 저작자를 등록해주시기 바랍니다.</mat-hint>
             </mat-form-field>
-            <mat-form-field *ngFor="let item of work.artistList" class="work_input artist_input" appearance="fill">
-                <mat-label>{{item.art_name}}</mat-label>
-                <input (click)="searchArtist()" readonly matInput placeholder="아티스트">
-                <mat-hint>저작자 이름</mat-hint>
-            </mat-form-field>
+            <div class = "artist_detail" *ngFor="let item of work.artistList; let i = index">
+                <mat-form-field class="work_input artist_input" appearance="fill">
+                    <mat-label>{{item.art_name}}</mat-label>
+                    <input (click)="searchArtist()" readonly matInput placeholder="아티스트">
+                    <mat-hint>저작자 이름</mat-hint>
+                </mat-form-field>
+                <mat-checkbox (click) = "selectRep(i)" *ngIf="work.artistList.length > 1" color="primary" class="artist_rep" [(ngModel)]="item.rep"
+                    [ngModelOptions]="{standalone: true}">대표<br>저작자</mat-checkbox>
+            </div>
             <button type="button" (click)="searchArtist()" class="work_input artist_search_button" mat-raised-button
                 color="accent">
                 찾기</button>
