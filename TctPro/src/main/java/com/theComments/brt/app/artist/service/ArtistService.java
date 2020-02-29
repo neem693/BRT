@@ -29,7 +29,6 @@ import com.theComments.brt.jpa.theComment.dao.ArtistDynamicQueryDao;
 import com.theComments.brt.jpa.theComment.dao.ArtistSave_dao;
 import com.theComments.brt.jpa.theComment.dao.Artist_dao;
 import com.theComments.brt.jpa.theComment.dao.Create_art_dao;
-import com.theComments.brt.jpa.theComment.dao.DynamicQueryDao;
 import com.theComments.brt.jpa.theComment.dao.Eva_user_dao;
 import com.theComments.brt.jpa.theComment.dao.Works_dao;
 import com.theComments.brt.jpa.theComment.model.Artist;
@@ -91,7 +90,8 @@ public class ArtistService {
 			Artist artistModel = new Artist();
 			artistModel.setAdd_date(LocalDateTime.now());
 			artistModel.setArt_name(data.get("artist_name").toString());
-
+			artistModel.setDelYn(0);
+			
 			artistModel = artistDao.save(artistModel);
 			// 저작자 저장 끝//
 

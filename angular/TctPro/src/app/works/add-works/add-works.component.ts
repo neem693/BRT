@@ -13,6 +13,7 @@ import { MemberServiceService } from 'src/app/member/member-service.service';
 import { GlobalDialogComponent } from 'src/app/global/dialog/global-dialog/global-dialog.component';
 import { member_const } from 'src/app/member/member_const/member_cosnt';
 import { GlobalServiceService } from 'src/app/global/global-service.service';
+import { connect } from 'net';
 declare const $: any;
 
 @Component({
@@ -279,6 +280,33 @@ export class AddWorksComponent implements OnInit {
       }
       //artistList OR OtherArray
       else if (key == "artistList") {
+
+        if(this.work[key]['length'] > 1){
+          //대표 저작자 체크
+          let rep_count:number = 0;
+          let artistList = this.work[key];
+          for(let item of artistList){
+            if(item.rep == undefined || item.rep == false){
+              continue;
+            }
+            if(item.rep == true){
+              rep_count++;
+            }
+          }
+          // console.log(rep_count);
+          //대표저작자를 설정해야 하는데 안함
+          if(rep_count == 0 ){
+            this.globalService.openGlobalAlert("대표 저작자를 설정해주세요.");
+            return;
+          }
+          
+          //대표 저작자를 2명이상 설정한 경우
+          if(rep_count > 1){
+            this.globalService.openGlobalAlert("대표 저작자를 한명만 설정해주세요.");
+            return;
+          }
+        }
+
         f.append(key, JSON.stringify(this.work[key]));
       }
       //나머지 다른 폼 데이터

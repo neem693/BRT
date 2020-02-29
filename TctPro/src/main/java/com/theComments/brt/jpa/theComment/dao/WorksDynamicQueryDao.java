@@ -1,16 +1,13 @@
 package com.theComments.brt.jpa.theComment.dao;
 
-import java.math.BigInteger;
 import java.util.ArrayList;
-import java.util.HashMap;
+import java.util.Collections;
 import java.util.List;
-import java.util.Map;
 import java.util.Set;
 
 import javax.persistence.EntityGraph;
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
-import javax.persistence.Query;
 import javax.persistence.TypedQuery;
 import javax.persistence.criteria.CriteriaBuilder;
 import javax.persistence.criteria.CriteriaQuery;
@@ -24,21 +21,12 @@ import javax.persistence.criteria.Root;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
-import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Component;
 
-import com.querydsl.core.BooleanBuilder;
-import com.querydsl.core.types.ExpressionUtils;
-import com.querydsl.core.types.Projections;
-import com.querydsl.jpa.JPAExpressions;
-import com.querydsl.jpa.impl.JPAQuery;
-import com.querydsl.jpa.impl.JPAQueryFactory;
-import com.theComments.brt.constFile.PageConst;
 import com.theComments.brt.constFile.PageConst.PAGE;
 import com.theComments.brt.jpa.dto.ArtistDto;
-import com.theComments.brt.jpa.dto.Evaluation_itemDto;
 import com.theComments.brt.jpa.dto.FileSaveDto;
 import com.theComments.brt.jpa.dto.OrderForSearch;
 import com.theComments.brt.jpa.dto.Type1Dto;
@@ -49,17 +37,8 @@ import com.theComments.brt.jpa.theComment.model.Create_art;
 import com.theComments.brt.jpa.theComment.model.Create_art_;
 import com.theComments.brt.jpa.theComment.model.Evaluate;
 import com.theComments.brt.jpa.theComment.model.Evaluate_;
-import com.theComments.brt.jpa.theComment.model.Evaluation_item;
-import com.theComments.brt.jpa.theComment.model.Evaluation_item_;
 import com.theComments.brt.jpa.theComment.model.FileSave;
 import com.theComments.brt.jpa.theComment.model.FileSave_;
-import com.theComments.brt.jpa.theComment.model.QArtist;
-import com.theComments.brt.jpa.theComment.model.QCreate_art;
-import com.theComments.brt.jpa.theComment.model.QEvaluate;
-import com.theComments.brt.jpa.theComment.model.QEvaluation_item;
-import com.theComments.brt.jpa.theComment.model.QType1;
-import com.theComments.brt.jpa.theComment.model.QType2;
-import com.theComments.brt.jpa.theComment.model.QWorks;
 import com.theComments.brt.jpa.theComment.model.Type1;
 import com.theComments.brt.jpa.theComment.model.Type1_;
 import com.theComments.brt.jpa.theComment.model.Type2;
@@ -67,8 +46,6 @@ import com.theComments.brt.jpa.theComment.model.Type2_;
 import com.theComments.brt.jpa.theComment.model.Works;
 import com.theComments.brt.jpa.theComment.model.Works_;
 import com.theComments.brt.util.ResultMap;
-
-import net.bytebuddy.description.ModifierReviewable.OfAbstraction;
 
 /***
  * 
@@ -81,7 +58,7 @@ public class WorksDynamicQueryDao {
 	@Qualifier("emFac1")
 	EntityManagerFactory entityManagerFactory;
 
-	public ResultMap SelectWorksDynamic(WorksDto worksDto, Type2Dto type2, Type1Dto type1) {
+	public ResultMap SelectWorksDynamicForDialog(WorksDto worksDto, Type2Dto type2, Type1Dto type1) {
 		EntityManager em = entityManagerFactory.createEntityManager();
 		CriteriaBuilder cb = em.getCriteriaBuilder();
 		CriteriaQuery<Works> cq = cb.createQuery(Works.class);
@@ -121,7 +98,7 @@ public class WorksDynamicQueryDao {
 		typeQuery.setFirstResult((int)pageable.getOffset());
 		typeQuery.setMaxResults(PAGE.PAGE_SIZE);
 
-		Long totalCount = this.selectWorksDynamicTotalCount(worksDto, type2, type1, em);
+		Long totalCount = this.selectWorksDynamicTotalCountForDialog(worksDto, type2, type1, em);
 		List<Works> works_list = typeQuery.getResultList();
 
 		List<WorksDto> worksDtoList = new ArrayList<WorksDto>();
@@ -142,7 +119,7 @@ public class WorksDynamicQueryDao {
 		return result;
 	}
 
-	private Long selectWorksDynamicTotalCount(WorksDto worksDto, Type2Dto type2, Type1Dto type1, EntityManager em) {
+	private Long selectWorksDynamicTotalCountForDialog(WorksDto worksDto, Type2Dto type2, Type1Dto type1, EntityManager em) {
 		// TODO Auto-generated method stub
 
 		// EntityManager em = entityManagerFactory.createEntityManager();
@@ -311,6 +288,9 @@ public class WorksDynamicQueryDao {
 			Set<Create_art> createArt_set = work.getCreate();
 			List<Create_art> createArt_list = new ArrayList<Create_art>();
 			createArt_list.addAll(createArt_set);
+			
+			Collections.sort(createArt_list);
+			
 			List<ArtistDto> artistDto_list = new ArrayList<>();
 			for (Create_art create : createArt_list) {
 				Artist artist = create.getArtist();

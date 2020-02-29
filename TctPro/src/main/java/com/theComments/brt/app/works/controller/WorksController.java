@@ -69,7 +69,7 @@ public class WorksController {
 	@RequestMapping(value = "/selectWorks",method=RequestMethod.POST)
 	public Map<String,Object> selectWorks(@RequestBody WorksDto worksDto){
 		
-		ResultMap result = worksService.selectWorks(worksDto);
+		ResultMap result = worksService.selectWorksForDialog(worksDto);
 		
 		return result.getResultMap();
 	}
@@ -97,7 +97,7 @@ public class WorksController {
 		type2Dto.setType1Dto(type1Dto);
 		worksDto.setType2(type2Dto);
 		
-		ResultMap result = worksService.selectWorksDetail(worksDto);
+		ResultMap result = worksService.selectWorksDetailForDialog(worksDto);
 		
 		return result.getResultMap();
 	}

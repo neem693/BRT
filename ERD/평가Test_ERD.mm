@@ -323,6 +323,7 @@
 <node CREATED="1582273489188" ID="ID_411275928" MODIFIED="1582273609703" TEXT="&#xc65c;&#xb0d0;&#xd558;&#xba74; &#xc800;&#xc791;&#xbb3c; &#xc785;&#xb825;&#xd560; &#xb54c;  &#xc800;&#xc791;&#xc790;&#xb97c; &#xc5ec;&#xb7ec;&#xba85; &#xc785;&#xb825;&#xd560; &#xc218; &#xc788;&#xb2e4;."/>
 <node CREATED="1582273623193" ID="ID_1513624323" MODIFIED="1582273662889" TEXT="&#xadf8;&#xb7ec;&#xb098; &#xc800;&#xc791;&#xc790;&#xac00; &#xd55c;&#xba85;&#xc77c; &#xb54c;&#xb294; &#xadf8; &#xc0ac;&#xb78c;&#xc774; &#xb300;&#xd45c; &#xc800;&#xc791;&#xc790;&#xc774;&#xbbc0;&#xb85c; &#xcd94;&#xac00;&#xc801;&#xc73c;&#xb85c; &#xd560; &#xd544;&#xc694;&#xac00; &#xc5c6;&#xb2e4;."/>
 </node>
+<node CREATED="1582968708255" ID="ID_390956970" MODIFIED="1582968710392" TEXT="&#xae30;&#xc874;&#xc758;"/>
 </node>
 </node>
 </node>

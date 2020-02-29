@@ -2,21 +2,17 @@ package com.theComments.brt.app.eval.service;
 
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
 import java.io.IOException;
-import java.io.OutputStream;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
-import java.util.Set;
 
 import javax.servlet.http.HttpServletRequest;
 
 import org.apache.tomcat.util.codec.binary.Base64;
-import org.bouncycastle.crypto.RuntimeCryptoException;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
@@ -25,13 +21,11 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.fasterxml.jackson.databind.ser.std.StdKeySerializers.Dynamic;
 import com.theComments.brt.app.common.CommonSecure;
 import com.theComments.brt.app.common.FileManager;
 import com.theComments.brt.constFile.FileConst;
 import com.theComments.brt.constFile.PageConst;
 import com.theComments.brt.jpa.dto.ArtistDto;
-import com.theComments.brt.jpa.dto.EvaluateDto;
 import com.theComments.brt.jpa.dto.Evaluation_itemDto;
 import com.theComments.brt.jpa.dto.FileSaveDto;
 import com.theComments.brt.jpa.dto.OrderForSearch;
@@ -39,7 +33,6 @@ import com.theComments.brt.jpa.dto.SimpleUserDto;
 import com.theComments.brt.jpa.dto.Type1Dto;
 import com.theComments.brt.jpa.dto.Type2Dto;
 import com.theComments.brt.jpa.dto.WorksDto;
-import com.theComments.brt.jpa.theComment.dao.DynamicQueryDao;
 import com.theComments.brt.jpa.theComment.dao.Eva_user_dao;
 import com.theComments.brt.jpa.theComment.dao.EvalDynamicQueryDao;
 import com.theComments.brt.jpa.theComment.dao.Evaluate_dao;
@@ -54,8 +47,6 @@ import com.theComments.brt.jpa.theComment.model.Evaluation_item;
 import com.theComments.brt.jpa.theComment.model.FileSave;
 import com.theComments.brt.jpa.theComment.model.Works;
 import com.theComments.brt.util.ResultMap;
-
-import sun.misc.BASE64Decoder;
 
 @Service
 public class EvalService {
