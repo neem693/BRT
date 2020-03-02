@@ -22,7 +22,7 @@
 <node CREATED="1574520656645" FOLDED="true" ID="ID_1038660596" MODIFIED="1581658334401" POSITION="right" TEXT="&#xb3c4;&#xcee4;&#xd5c8;&#xbe0c;">
 <node CREATED="1574520658885" ID="ID_1286753147" LINK="https://hub.docker.com/" MODIFIED="1574520658885" TEXT="https://hub.docker.com/"/>
 </node>
-<node CREATED="1574525945820" ID="ID_1032424159" MODIFIED="1582299259783" POSITION="right" TEXT="&#xba85;&#xb839;&#xc5b4;">
+<node CREATED="1574525945820" FOLDED="true" ID="ID_1032424159" MODIFIED="1582770361364" POSITION="right" TEXT="&#xba85;&#xb839;&#xc5b4;">
 <node CREATED="1574523707870" FOLDED="true" ID="ID_753691210" MODIFIED="1580282594386" TEXT="docker images">
 <node CREATED="1574523712494" ID="ID_1227617778" MODIFIED="1574523714980" TEXT="&#xbaa8;&#xb4e0; &#xc774;&#xbbf8;&#xc9c0;"/>
 </node>
@@ -192,17 +192,17 @@
 <node CREATED="1574864679521" ID="ID_1061725179" LINK="http://jmlim.github.io/docker/2019/02/19/dockerfile-tomcat-deploy/" MODIFIED="1574864679521" TEXT="jmlim.github.io &gt; Docker &gt; 2019 &gt; 02 &gt; 19 &gt; Dockerfile-tomcat-deploy"/>
 </node>
 </node>
-<node CREATED="1580280249020" FOLDED="true" ID="ID_425793075" MODIFIED="1582291776589" POSITION="right" TEXT="&#xc544;&#xd30c;&#xce58;">
+<node CREATED="1580280249020" ID="ID_425793075" MODIFIED="1582770364047" POSITION="right" TEXT="&#xc544;&#xd30c;&#xce58;">
 <node CREATED="1580280253006" ID="ID_624375612" MODIFIED="1580280254131" TEXT="&#xb3c4;&#xcee4; &#xd5c8;&#xbe0c;">
 <node CREATED="1580280254502" LINK="https://hub.docker.com/_/httpd/" MODIFIED="1580280254502" TEXT="https://hub.docker.com/_/httpd/"/>
 </node>
 </node>
-<node CREATED="1580287355533" FOLDED="true" ID="ID_1554938033" MODIFIED="1582299258577" POSITION="right" TEXT="&#xb3c4;&#xcee4; &#xcee8;&#xd14c;&#xc774;&#xb108;&#xc5d0;&#xc11c; bash&#xb85c; &#xb4e4;&#xc5b4;&#xac00; vi &#xc5d0;&#xb514;&#xd130; &#xc0ac;&#xc6a9;&#xd558;&#xae30;">
+<node CREATED="1580287355533" ID="ID_1554938033" MODIFIED="1582770364360" POSITION="right" TEXT="&#xb3c4;&#xcee4; &#xcee8;&#xd14c;&#xc774;&#xb108;&#xc5d0;&#xc11c; bash&#xb85c; &#xb4e4;&#xc5b4;&#xac00; vi &#xc5d0;&#xb514;&#xd130; &#xc0ac;&#xc6a9;&#xd558;&#xae30;">
 <node CREATED="1580287365767" ID="ID_458957762" LINK="https://stackoverflow.com/questions/31515863/how-to-run-vi-on-docker-container/43043211" MODIFIED="1580287365767" TEXT="https://stackoverflow.com/questions/31515863/how-to-run-vi-on-docker-container/43043211"/>
 <node CREATED="1580287379977" ID="ID_304713208" MODIFIED="1580287379977" TEXT="apt-get update"/>
 <node CREATED="1580287379978" MODIFIED="1580287379978" TEXT="apt-get install vim"/>
 </node>
-<node CREATED="1581951526884" ID="ID_98238046" MODIFIED="1582299277610" POSITION="right" TEXT="&#xb3c4;&#xcee4;&#xc5d0;&#xc11c; &#xc2dc;&#xac04; &#xd55c;&#xad6d;&#xc2dc;&#xac04;&#xc73c;&#xb85c; &#xbcc0;&#xacbd;&#xd558;&#xae30;[&#xb3c4;&#xcee4;&#xd30c;&#xc77c;]">
+<node CREATED="1581951526884" FOLDED="true" ID="ID_98238046" MODIFIED="1582770361364" POSITION="right" TEXT="&#xb3c4;&#xcee4;&#xc5d0;&#xc11c; &#xc2dc;&#xac04; &#xd55c;&#xad6d;&#xc2dc;&#xac04;&#xc73c;&#xb85c; &#xbcc0;&#xacbd;&#xd558;&#xae30;[&#xb3c4;&#xcee4;&#xd30c;&#xc77c;]">
 <node CREATED="1581951689123" ID="ID_242227193" MODIFIED="1581951689123" TEXT="RUN ln -sf /usr/share/zoneinfo/Asia/Seoul /etc/localtime"/>
 <node CREATED="1581951690820" ID="ID_1308164626" MODIFIED="1581951701330" TEXT="&#xc5ec;&#xae30;&#xc11c; RUN&#xc774; &#xc544;&#xb9c8;&#xb3c4; &#xb9ac;&#xb205;&#xc2a4; &#xba85;&#xb839;&#xc5b4;&#xb97c; &#xce58;&#xb77c;&#xb294;&#xac70; &#xac19;&#xb2e4;."/>
 <node CREATED="1581951805636" ID="ID_1725277321" MODIFIED="1581951809373" TEXT="&#xbcc0;&#xacbd;&#xd558;&#xb294; &#xac83;&#xc5d0; &#xb300;&#xd55c; &#xc124;&#xba85;">
@@ -221,7 +221,7 @@
 <node CREATED="1582304440406" ID="ID_1523454592" LINK="https://lahuman.jabsiri.co.kr/164" MODIFIED="1582304440406" TEXT="&#xcd9c;&#xcc98;: https://lahuman.jabsiri.co.kr/164 [lahuman &amp; jabsiri &#xb178;&#xd2b8;]"/>
 </node>
 </node>
-<node COLOR="#3333ff" CREATED="1582302840804" ID="ID_752516603" MODIFIED="1582304129371" POSITION="right" STYLE="bubble" TEXT="&#xb3c4;&#xcee4; &#xb85c;&#xadf8; &#xbb38;&#xc81c; &#xd574;&#xacb0;[&#xc815;&#xb9ac;&#xd544;&#xc694;]">
+<node COLOR="#3333ff" CREATED="1582302840804" FOLDED="true" ID="ID_752516603" MODIFIED="1582770361364" POSITION="right" STYLE="bubble" TEXT="&#xb3c4;&#xcee4; &#xb85c;&#xadf8; &#xbb38;&#xc81c; &#xd574;&#xacb0;[&#xc815;&#xb9ac;&#xd544;&#xc694;]">
 <font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
 <node CREATED="1582304118863" ID="ID_1654920058" LINK="https://stackoverflow.com/questions/42510002/how-to-clear-the-logs-properly-for-a-docker-container" MODIFIED="1582304129366" TEXT="https://stackoverflow.com/questions/42510002/how-to-clear-the-logs-properly-for-a-docker-container"/>
 <node CREATED="1582304123881" ID="ID_1717021138" MODIFIED="1582304129366" TEXT="&#xc815;&#xb9ac;&#xd544;&#xc694;"/>
