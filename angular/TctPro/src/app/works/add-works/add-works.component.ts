@@ -13,7 +13,6 @@ import { MemberServiceService } from 'src/app/member/member-service.service';
 import { GlobalDialogComponent } from 'src/app/global/dialog/global-dialog/global-dialog.component';
 import { member_const } from 'src/app/member/member_const/member_cosnt';
 import { GlobalServiceService } from 'src/app/global/global-service.service';
-import { connect } from 'net';
 declare const $: any;
 
 @Component({

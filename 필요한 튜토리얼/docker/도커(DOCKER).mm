@@ -202,7 +202,7 @@
 <node CREATED="1580287379977" ID="ID_304713208" MODIFIED="1580287379977" TEXT="apt-get update"/>
 <node CREATED="1580287379978" MODIFIED="1580287379978" TEXT="apt-get install vim"/>
 </node>
-<node CREATED="1581951526884" FOLDED="true" ID="ID_98238046" MODIFIED="1582770361364" POSITION="right" TEXT="&#xb3c4;&#xcee4;&#xc5d0;&#xc11c; &#xc2dc;&#xac04; &#xd55c;&#xad6d;&#xc2dc;&#xac04;&#xc73c;&#xb85c; &#xbcc0;&#xacbd;&#xd558;&#xae30;[&#xb3c4;&#xcee4;&#xd30c;&#xc77c;]">
+<node CREATED="1581951526884" ID="ID_98238046" MODIFIED="1583576560746" POSITION="right" TEXT="&#xb3c4;&#xcee4;&#xc5d0;&#xc11c; &#xc2dc;&#xac04; &#xd55c;&#xad6d;&#xc2dc;&#xac04;&#xc73c;&#xb85c; &#xbcc0;&#xacbd;&#xd558;&#xae30;[&#xb3c4;&#xcee4;&#xd30c;&#xc77c;]">
 <node CREATED="1581951689123" ID="ID_242227193" MODIFIED="1581951689123" TEXT="RUN ln -sf /usr/share/zoneinfo/Asia/Seoul /etc/localtime"/>
 <node CREATED="1581951690820" ID="ID_1308164626" MODIFIED="1581951701330" TEXT="&#xc5ec;&#xae30;&#xc11c; RUN&#xc774; &#xc544;&#xb9c8;&#xb3c4; &#xb9ac;&#xb205;&#xc2a4; &#xba85;&#xb839;&#xc5b4;&#xb97c; &#xce58;&#xb77c;&#xb294;&#xac70; &#xac19;&#xb2e4;."/>
 <node CREATED="1581951805636" ID="ID_1725277321" MODIFIED="1581951809373" TEXT="&#xbcc0;&#xacbd;&#xd558;&#xb294; &#xac83;&#xc5d0; &#xb300;&#xd55c; &#xc124;&#xba85;">
@@ -221,7 +221,7 @@
 <node CREATED="1582304440406" ID="ID_1523454592" LINK="https://lahuman.jabsiri.co.kr/164" MODIFIED="1582304440406" TEXT="&#xcd9c;&#xcc98;: https://lahuman.jabsiri.co.kr/164 [lahuman &amp; jabsiri &#xb178;&#xd2b8;]"/>
 </node>
 </node>
-<node COLOR="#3333ff" CREATED="1582302840804" FOLDED="true" ID="ID_752516603" MODIFIED="1582770361364" POSITION="right" STYLE="bubble" TEXT="&#xb3c4;&#xcee4; &#xb85c;&#xadf8; &#xbb38;&#xc81c; &#xd574;&#xacb0;[&#xc815;&#xb9ac;&#xd544;&#xc694;]">
+<node COLOR="#3333ff" CREATED="1582302840804" ID="ID_752516603" MODIFIED="1583577838622" POSITION="right" STYLE="bubble" TEXT="&#xb3c4;&#xcee4; &#xb85c;&#xadf8; &#xbb38;&#xc81c; &#xd574;&#xacb0;[&#xc815;&#xb9ac;&#xd544;&#xc694;]">
 <font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
 <node CREATED="1582304118863" ID="ID_1654920058" LINK="https://stackoverflow.com/questions/42510002/how-to-clear-the-logs-properly-for-a-docker-container" MODIFIED="1582304129366" TEXT="https://stackoverflow.com/questions/42510002/how-to-clear-the-logs-properly-for-a-docker-container"/>
 <node CREATED="1582304123881" ID="ID_1717021138" MODIFIED="1582304129366" TEXT="&#xc815;&#xb9ac;&#xd544;&#xc694;"/>
