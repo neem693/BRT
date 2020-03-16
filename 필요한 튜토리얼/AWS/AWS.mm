@@ -659,6 +659,30 @@
 <node CREATED="1582297499532" LINK="https://unix.stackexchange.com/questions/64148/how-do-i-make-ls-show-file-sizes-in-megabytes" MODIFIED="1582297499532" TEXT="https://unix.stackexchange.com/questions/64148/how-do-i-make-ls-show-file-sizes-in-megabytes"/>
 <node CREATED="1582297504990" MODIFIED="1582297504990" TEXT="ls -l --block-size=M"/>
 </node>
+<node CREATED="1584334689543" ID="ID_1096193112" MODIFIED="1584334712301" TEXT="&#xd06c;&#xb860; &#xbc30;&#xce58; &#xc2dc;&#xc2a4;&#xd15c;">
+<node CREATED="1584334776375" ID="ID_696643153" MODIFIED="1584334779301" TEXT="&#xbaa8;&#xb4e0; &#xd06c;&#xb860; &#xc791;&#xc5c5; &#xbcf4;&#xae30;">
+<node CREATED="1584334738785" ID="ID_1875869468" LINK="https://www.liquidweb.com/kb/how-to-display-list-all-jobs-in-cron-crontab/" MODIFIED="1584334839376" TEXT="https://www.liquidweb.com/kb/how-to-display-list-all-jobs-in-cron-crontab/"/>
+<node CREATED="1584334774326" ID="ID_1221131966" MODIFIED="1584334774326" TEXT="crontab -l"/>
+</node>
+<node CREATED="1584334840271" ID="ID_636326287" MODIFIED="1584334992742" TEXT="&#xd06c;&#xb860; &#xcd94;&#xac00;&#xd558;&#xae30;">
+<node CREATED="1584335001639" ID="ID_386033019" LINK="https://www.cyberciti.biz/faq/how-do-i-add-jobs-to-cron-under-linux-or-unix-oses/" MODIFIED="1584335001639" TEXT="https://www.cyberciti.biz/faq/how-do-i-add-jobs-to-cron-under-linux-or-unix-oses/"/>
+<node CREATED="1584335029800" ID="ID_1557378422" MODIFIED="1584335032016" TEXT="&#xc608;&#xc81c;">
+<node CREATED="1584335036504" MODIFIED="1584335036504" TEXT="5 0 * * * /path/to/command"/>
+<node CREATED="1584335039202" MODIFIED="1584335039202" TEXT="15 14 1 * * /path/to/script.sh"/>
+</node>
+<node CREATED="1584335051207" ID="ID_1840060293" MODIFIED="1584335051910" TEXT="&#xac1c;&#xb150;">
+<node CREATED="1584335052241" MODIFIED="1584335052241" TEXT="1: Minute (0-59)"/>
+<node CREATED="1584335052256" MODIFIED="1584335052256" TEXT="2: Hours (0-23)"/>
+<node CREATED="1584335052256" MODIFIED="1584335052256" TEXT="3: Day (0-31)"/>
+<node CREATED="1584335052256" MODIFIED="1584335052256" TEXT="4: Month (0-12 [12 == December])"/>
+<node CREATED="1584335052256" MODIFIED="1584335052256" TEXT="5: Day of the week(0-7 [7 or 0 == sunday])"/>
+<node CREATED="1584335052256" MODIFIED="1584335052256" TEXT="/path/to/command &#x2013; Script or command name to schedule"/>
+</node>
+<node CREATED="1584335057591" ID="ID_1932066852" MODIFIED="1584335062691" TEXT="&#xd06c;&#xb860; &#xcee4;&#xb9e8;&#xb4dc;">
+<node CREATED="1584335062951" ID="ID_1305366320" MODIFIED="1584335062951" TEXT="1 2 3 4 5 /root/backup.sh"/>
+</node>
+</node>
+</node>
 </node>
 </node>
 <node CREATED="1580194352649" FOLDED="true" ID="ID_813749828" MODIFIED="1583578521608" POSITION="right" TEXT="VPC">
