@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1564407011351" ID="ID_1828054490" MODIFIED="1584338391028" TEXT="&#xd544;&#xc694;&#xd55c; &#xc790;&#xbc14; &#xd29c;&#xd1a0;">
+<node CREATED="1564407011351" ID="ID_1828054490" MODIFIED="1584666376911" TEXT="&#xd544;&#xc694;&#xd55c; &#xc790;&#xbc14; &#xd29c;&#xd1a0;">
 <font NAME="SansSerif" SIZE="12"/>
 <hook NAME="accessories/plugins/CreationModificationPlugin_new.properties"/>
 <node COLOR="#3333ff" CREATED="1564407143832" FOLDED="true" ID="ID_54453441" MODIFIED="1584338346356" POSITION="right" STYLE="bubble" TEXT="No goals have been specified for this build. You must specify a valid lifecycle phase or a goal in the format &lt;plugin-prefix&gt;:&lt;goal&gt; or &lt;plugin-group-id&gt;:&lt;plugin-artifact-id&gt;[:&lt;plugin-version&gt;]:&lt;goal&gt;. &#xb2e4;&#xc74c;&#xacfc; &#xac19;&#xc740; &#xba54;&#xc774;&#xbe10; &#xc5d0;&#xb7ec;&#xc77c; &#xb54c;">
@@ -4498,6 +4498,12 @@
 <node CREATED="1582868802359" FOLDED="true" ID="ID_443990801" MODIFIED="1584338391876" POSITION="right" TEXT="&#xb85c;&#xadf8;">
 <node CREATED="1582868819622" ID="ID_1063589233" MODIFIED="1582868819622" TEXT="@SuppressWarnings(&quot;unused&quot;)"/>
 <node CREATED="1582868819622" MODIFIED="1582868819622" TEXT="private LogUtil log = new LogUtil(getClass());"/>
+</node>
+<node COLOR="#3333ff" CREATED="1584666330227" FOLDED="true" ID="ID_1653710934" MODIFIED="1584666367045" POSITION="right" STYLE="bubble" TEXT="aop">
+<font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
+<node CREATED="1584666337291" ID="ID_145341182" MODIFIED="1584666339051" TEXT="&#xae30;&#xcd08;">
+<node CREATED="1584666339394" ID="ID_62009756" LINK="https://www.baeldung.com/spring-aop-annotation" MODIFIED="1584666339394" TEXT="https://www.baeldung.com/spring-aop-annotation"/>
+</node>
 </node>
 </node>
 </map>
