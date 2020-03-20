@@ -4499,7 +4499,7 @@
 <node CREATED="1582868819622" ID="ID_1063589233" MODIFIED="1582868819622" TEXT="@SuppressWarnings(&quot;unused&quot;)"/>
 <node CREATED="1582868819622" MODIFIED="1582868819622" TEXT="private LogUtil log = new LogUtil(getClass());"/>
 </node>
-<node COLOR="#3333ff" CREATED="1584666330227" FOLDED="true" ID="ID_1653710934" MODIFIED="1584666367045" POSITION="right" STYLE="bubble" TEXT="aop">
+<node COLOR="#3333ff" CREATED="1584666330227" ID="ID_1653710934" MODIFIED="1584675328731" POSITION="right" STYLE="bubble" TEXT="aop">
 <font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
 <node CREATED="1584666337291" ID="ID_145341182" MODIFIED="1584666339051" TEXT="&#xae30;&#xcd08;">
 <node CREATED="1584666339394" ID="ID_62009756" LINK="https://www.baeldung.com/spring-aop-annotation" MODIFIED="1584666339394" TEXT="https://www.baeldung.com/spring-aop-annotation"/>
