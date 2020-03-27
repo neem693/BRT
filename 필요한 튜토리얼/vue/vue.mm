@@ -11,8 +11,7 @@
   <body>
     <img src="vue_5413936975524843338.jpeg" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
