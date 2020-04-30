@@ -30,7 +30,7 @@
     "@types/sockjs-client": "^1.1.1",
     "bootstrap": "^4.3.1",
     "classlist.js": "^1.1.20150312",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "js-cookie": "^2.2.1",
     "rxjs": "^6.4.0",
     "tslib": "^1.9.0",
