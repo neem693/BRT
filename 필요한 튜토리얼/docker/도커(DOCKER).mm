@@ -1,15 +1,15 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1574518698807" ID="ID_652907225" MODIFIED="1579847944684" TEXT="&#xb3c4;&#xcee4;(DOCKER)">
-<node CREATED="1574520985825" FOLDED="true" ID="ID_332557311" MODIFIED="1580282591376" POSITION="right" TEXT="&#xb3c4;&#xcee4;&#xd29c;&#xd1a0;">
+<node CREATED="1574520985825" ID="ID_332557311" MODIFIED="1586919462870" POSITION="right" TEXT="&#xb3c4;&#xcee4;&#xd29c;&#xd1a0;">
 <node CREATED="1574520986878" ID="ID_1711626165" LINK="https://www.tutorialspoint.com/docker/docker_hub.htm" MODIFIED="1574520986878" TEXT="https://www.tutorialspoint.com/docker/docker_hub.htm"/>
 </node>
-<node CREATED="1574518744778" FOLDED="true" ID="ID_553498754" MODIFIED="1582299244011" POSITION="right" TEXT="&#xb9ac;&#xb205;&#xc2a4;">
+<node CREATED="1574518744778" ID="ID_553498754" MODIFIED="1586919463683" POSITION="right" TEXT="&#xb9ac;&#xb205;&#xc2a4;">
 <node CREATED="1574518764479" ID="ID_127889830" MODIFIED="1574595691048" TEXT="&#xc124;&#xce58;">
 <node CREATED="1574518765454" ID="ID_1061922675" LINK="https://www.tutorialspoint.com/docker/installing_docker_on_linux.htm" MODIFIED="1574518765454" TEXT="https://www.tutorialspoint.com/docker/installing_docker_on_linux.htm"/>
 </node>
 </node>
-<node CREATED="1574518734978" FOLDED="true" ID="ID_543142848" MODIFIED="1580282589970" POSITION="right" TEXT="&#xc708;&#xb3c4;&#xc6b0;">
+<node CREATED="1574518734978" ID="ID_543142848" MODIFIED="1586919464175" POSITION="right" TEXT="&#xc708;&#xb3c4;&#xc6b0;">
 <node CREATED="1574518742282" ID="ID_913096715" MODIFIED="1574595693926" TEXT="&#xc124;&#xce58;">
 <node CREATED="1574518799074" ID="ID_1857593373" MODIFIED="1574518807825" TEXT="&#xc660;&#xb9cc;&#xd558;&#xba74; docker tool box&#xb97c; &#xc124;&#xce58;&#xd558;&#xb77c;">
 <node CREATED="1574588098602" ID="ID_866455414" LINK="https://github.com/docker/toolbox/releases" MODIFIED="1574588098602" TEXT="https://github.com/docker/toolbox/releases"/>
@@ -19,10 +19,10 @@
 <node CREATED="1574519932754" ID="ID_612131140" LINK="https://docs.docker.com/docker-for-windows/" MODIFIED="1574519932754" TEXT="https://docs.docker.com/docker-for-windows/"/>
 </node>
 </node>
-<node CREATED="1574520656645" FOLDED="true" ID="ID_1038660596" MODIFIED="1581658334401" POSITION="right" TEXT="&#xb3c4;&#xcee4;&#xd5c8;&#xbe0c;">
+<node CREATED="1574520656645" ID="ID_1038660596" MODIFIED="1586919464703" POSITION="right" TEXT="&#xb3c4;&#xcee4;&#xd5c8;&#xbe0c;">
 <node CREATED="1574520658885" ID="ID_1286753147" LINK="https://hub.docker.com/" MODIFIED="1574520658885" TEXT="https://hub.docker.com/"/>
 </node>
-<node CREATED="1574525945820" FOLDED="true" ID="ID_1032424159" MODIFIED="1582770361364" POSITION="right" TEXT="&#xba85;&#xb839;&#xc5b4;">
+<node CREATED="1574525945820" ID="ID_1032424159" MODIFIED="1586919465140" POSITION="right" TEXT="&#xba85;&#xb839;&#xc5b4;">
 <node CREATED="1574523707870" FOLDED="true" ID="ID_753691210" MODIFIED="1580282594386" TEXT="docker images">
 <node CREATED="1574523712494" ID="ID_1227617778" MODIFIED="1574523714980" TEXT="&#xbaa8;&#xb4e0; &#xc774;&#xbbf8;&#xc9c0;"/>
 </node>
@@ -114,7 +114,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1574525974304" FOLDED="true" ID="ID_1793973735" MODIFIED="1582291785682" POSITION="right" TEXT="&#xb3c4;&#xcee4; &#xb77c;&#xc774;&#xd504; &#xc0ac;&#xc774;&#xd074;(&#xc774;&#xbbf8;&#xc9c0;)">
+<node CREATED="1574525974304" ID="ID_1793973735" MODIFIED="1586919465808" POSITION="right" TEXT="&#xb3c4;&#xcee4; &#xb77c;&#xc774;&#xd504; &#xc0ac;&#xc774;&#xd074;(&#xc774;&#xbbf8;&#xc9c0;)">
 <node CREATED="1574525997043" ID="ID_235964087" MODIFIED="1574862706132">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -126,7 +126,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1574526327102" FOLDED="true" ID="ID_1572115796" MODIFIED="1582291784628" POSITION="right" TEXT="&#xb3c4;&#xcee4; &#xc0ac;&#xc6a9; &#xc804; -&#xc804;&#xd1b5;&#xc801; &#xc544;&#xd0a4;&#xd14d;&#xccd0;">
+<node CREATED="1574526327102" ID="ID_1572115796" MODIFIED="1586919466357" POSITION="right" TEXT="&#xb3c4;&#xcee4; &#xc0ac;&#xc6a9; &#xc804; -&#xc804;&#xd1b5;&#xc801; &#xc544;&#xd0a4;&#xd14d;&#xccd0;">
 <node CREATED="1574526586903" ID="ID_1732451224" MODIFIED="1574859587856" TEXT="&#xad6c;&#xc870;(&#xc774;&#xbbf8;&#xc9c0;)">
 <node CREATED="1574526336081" ID="ID_966138698" MODIFIED="1574526591960">
 <richcontent TYPE="NODE"><html>
@@ -147,7 +147,7 @@
 <node CREATED="1574526590964" MODIFIED="1574526590964" TEXT="You would then host your applications on top of each Guest OS."/>
 </node>
 </node>
-<node CREATED="1574526397704" FOLDED="true" ID="ID_525102096" MODIFIED="1582291783683" POSITION="right" TEXT="&#xb3c4;&#xcee4; &#xc0ac;&#xc6a9; &#xd6c4; (&#xc774;&#xbbf8;&#xc9c0;)">
+<node CREATED="1574526397704" ID="ID_525102096" MODIFIED="1586919467754" POSITION="right" TEXT="&#xb3c4;&#xcee4; &#xc0ac;&#xc6a9; &#xd6c4; (&#xc774;&#xbbf8;&#xc9c0;)">
 <node CREATED="1574526596518" ID="ID_215488902" MODIFIED="1574859590643" TEXT="&#xad6c;&#xc870;(&#xc774;&#xbbf8;&#xc9c0;)">
 <node CREATED="1574526573508" ID="ID_1393385210" MODIFIED="1574526599562">
 <richcontent TYPE="NODE"><html>
@@ -168,18 +168,18 @@
 <node CREATED="1574526608906" MODIFIED="1574526608906" TEXT="The clear advantage in this architecture is that you don&#x2019;t need to have extra hardware for Guest OS. Everything works as Docker containers."/>
 </node>
 </node>
-<node CREATED="1574588557493" FOLDED="true" ID="ID_532788729" MODIFIED="1582291782340" POSITION="right" TEXT="&#xb3c4;&#xcee4; &#xc0ac;&#xc6a9;&#xd6c4; &#xbc84;&#xcd94;&#xc5b4; &#xbc15;&#xc2a4; &#xc548;&#xb420; &#xb54c;">
+<node CREATED="1574588557493" ID="ID_532788729" MODIFIED="1586919468775" POSITION="right" TEXT="&#xb3c4;&#xcee4; &#xc0ac;&#xc6a9;&#xd6c4; &#xbc84;&#xcd94;&#xc5b4; &#xbc15;&#xc2a4; &#xc548;&#xb420; &#xb54c;">
 <node CREATED="1574590378123" ID="ID_325141841" LINK="https://www.youtube.com/watch?v=hRl-0lcQjdU" MODIFIED="1574590378123" TEXT="https://www.youtube.com/watch?v=hRl-0lcQjdU"/>
 </node>
-<node CREATED="1574596827786" FOLDED="true" ID="ID_851634636" MODIFIED="1582291781506" POSITION="right" TEXT="&#xc2a4;&#xd504;&#xb9c1;&#xbd80;&#xd2b8; maven build docker">
+<node CREATED="1574596827786" ID="ID_851634636" MODIFIED="1586919469713" POSITION="right" TEXT="&#xc2a4;&#xd504;&#xb9c1;&#xbd80;&#xd2b8; maven build docker">
 <node CREATED="1574597840880" ID="ID_1821338397" LINK="https://codefresh.io/howtos/using-docker-maven-maven-docker/" MODIFIED="1574597841494" TEXT="https://codefresh.io/howtos/using-docker-maven-maven-docker/"/>
 <node CREATED="1574597832137" ID="ID_1246621676" LINK="https://github.com/spotify/dockerfile-maven" MODIFIED="1574597832137" TEXT="https://github.com/spotify/dockerfile-maven"/>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#ff3333" CREATED="1574606155048" FOLDED="true" ID="ID_273680033" MODIFIED="1582291774284" POSITION="right" STYLE="bubble" TEXT="&#xac4d; &#xb3d9;&#xc601;&#xc0c1; &#xbd10;&#xb77c;(&#xc2a4;&#xd504;&#xb9c1;&#xbd80;&#xd2b8;)">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#ff3333" CREATED="1574606155048" ID="ID_273680033" MODIFIED="1586919573561" POSITION="right" STYLE="bubble" TEXT="&#xac4d; &#xb3d9;&#xc601;&#xc0c1; &#xbd10;&#xb77c;(&#xc2a4;&#xd504;&#xb9c1;&#xbd80;&#xd2b8;)">
 <font BOLD="true" NAME="Dialog" SIZE="24"/>
 <node CREATED="1574606164873" ID="ID_640792693" LINK="https://www.youtube.com/watch?v=2v0-aIO_R08&amp;list=PLVz2XdJiJQxzMiFDnwxUDxmuZQU3igcBb&amp;index=4" MODIFIED="1574606166186" TEXT="https://www.youtube.com/watch?v=2v0-aIO_R08&amp;list=PLVz2XdJiJQxzMiFDnwxUDxmuZQU3igcBb&amp;index=4"/>
 </node>
-<node CREATED="1574864656263" FOLDED="true" ID="ID_1096721434" MODIFIED="1582291775524" POSITION="right" TEXT="&#xb3c4;&#xcee4; &#xd1b0;&#xcf13; &#xc640;&#xb974;">
+<node CREATED="1574864656263" ID="ID_1096721434" MODIFIED="1586919470908" POSITION="right" TEXT="&#xb3c4;&#xcee4; &#xd1b0;&#xcf13; &#xc640;&#xb974;">
 <node CREATED="1574864681867" ID="ID_1388602638" MODIFIED="1574864687638" TEXT="&#xb3c4;&#xcee4;&#xd30c;&#xc77c;">
 <node CREATED="1574864662654" ID="ID_1256486125" MODIFIED="1574864690414" TEXT="FROM tomcat:8.0.51-jre7-alpine  # docker &#xc548;&#xc758; tomcat8 &#xc14b;&#xd305;, &#xc0ac;&#xb0b4; &#xbc31;&#xc624;&#xd53c;&#xc2a4;&#xb294; &#xc790;&#xbc14; 7 &#xc0ac;&#xc6a9;."/>
 <node CREATED="1574864662656" ID="ID_686537796" MODIFIED="1574864690416" TEXT="ENV TZ=Asia/Seoul ## &#xd0c0;&#xc784;&#xc874; &#xc11c;&#xc6b8;&#xb85c; &#xc124;&#xc815; &#xd6c4; &#xc801;&#xc6a9;"/>
