@@ -3419,7 +3419,7 @@
 <node CREATED="1569321838984" FOLDED="true" ID="ID_1289431196" MODIFIED="1584338346372" POSITION="right" TEXT="JDBC &#xc624;&#xb958;">
 <node CREATED="1569321843353" ID="ID_437120369" LINK="#ID_1068000342" MODIFIED="1569321851842" TEXT="Failed to determine a suitable driver class "/>
 </node>
-<node COLOR="#3333ff" CREATED="1569954720531" ID="ID_1310219766" MODIFIED="1586746532429" POSITION="right" STYLE="bubble" TEXT="&#xd558;&#xc774;&#xbc84;&#xb124;&#xc774;&#xd2b8;(jpa)">
+<node COLOR="#3333ff" CREATED="1569954720531" FOLDED="true" ID="ID_1310219766" MODIFIED="1590383090161" POSITION="right" STYLE="bubble" TEXT="&#xd558;&#xc774;&#xbc84;&#xb124;&#xc774;&#xd2b8;(jpa)">
 <font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
 <node CREATED="1570118271397" ID="ID_1098857026" LINK="https://www.baeldung.com/spring-data-jpa-multiple-databases" MODIFIED="1571694519760" TEXT="https://www.baeldung.com/spring-data-jpa-multiple-databases"/>
 <node CREATED="1570132753122" FOLDED="true" ID="ID_977131534" MODIFIED="1586746533449" TEXT="select &#xc870;&#xac74;&#xbb38;">
@@ -4228,7 +4228,7 @@
 <node CREATED="1571853446227" ID="ID_1051656455" MODIFIED="1571853452420" TEXT="The field fileList exceeds its maximum permitted size of 1048576 bytes."/>
 <node CREATED="1571853458331" ID="ID_964782129" MODIFIED="1571853495815" TEXT="&#xae30;&#xbcf8;&#xc801;&#xc73c;&#xb85c; file upload size&#xb294; 1mb&#xc774;&#xb2e4;."/>
 </node>
-<node CREATED="1571871623507" ID="ID_1830902921" MODIFIED="1584953425087" POSITION="right" TEXT="&#xc815;&#xaddc;&#xd45c;&#xd600;&#xc2dd; &#xcf00;&#xc774;&#xc2a4;">
+<node CREATED="1571871623507" FOLDED="true" ID="ID_1830902921" MODIFIED="1590383090161" POSITION="right" TEXT="&#xc815;&#xaddc;&#xd45c;&#xd600;&#xc2dd; &#xcf00;&#xc774;&#xc2a4;">
 <node CREATED="1571871640472" ID="ID_1744715019" LINK="https://stackoverflow.com/questions/3436118/is-java-regex-case-insensitive" MODIFIED="1571871640472" TEXT="https://stackoverflow.com/questions/3436118/is-java-regex-case-insensitive"/>
 </node>
 <node CREATED="1571880395284" FOLDED="true" ID="ID_1823777567" MODIFIED="1584338346372" POSITION="right" TEXT="json to map">
@@ -4473,16 +4473,16 @@
 <node CREATED="1580439578382" ID="ID_530570295" LINK="https://www.baeldung.com/java-snake-yaml" MODIFIED="1580439578382" TEXT="https://www.baeldung.com/java-snake-yaml"/>
 <node CREATED="1580439581602" ID="ID_736703850" LINK="#ID_432910582" MODIFIED="1580439610279" TEXT="datasource &#xc77d;&#xc5b4;&#xc624;&#xae30;&#xb294; &#xc5ec;&#xae30;&#xc11c;"/>
 </node>
-<node CREATED="1581345427875" ID="ID_1885333051" MODIFIED="1584953416058" POSITION="right" TEXT="&#xc2a4;&#xd398;&#xc15c; &#xce90;&#xb9ad;&#xd130; &#xc815;&#xaddc;&#xd45c;&#xd604;&#xc2dd; &#xc790;&#xb3d9;&#xc73c;&#xb85c; &#xbc14;&#xafd4;&#xc8fc;&#xae30; &#xc608;){{ \{\{">
+<node CREATED="1581345427875" FOLDED="true" ID="ID_1885333051" MODIFIED="1590383090161" POSITION="right" TEXT="&#xc2a4;&#xd398;&#xc15c; &#xce90;&#xb9ad;&#xd130; &#xc815;&#xaddc;&#xd45c;&#xd604;&#xc2dd; &#xc790;&#xb3d9;&#xc73c;&#xb85c; &#xbc14;&#xafd4;&#xc8fc;&#xae30; &#xc608;){{ \{\{">
 <node CREATED="1581345576774" ID="ID_1629720870" LINK="https://stackoverflow.com/questions/60160/how-to-escape-text-for-regular-expression-in-java" MODIFIED="1581345576774" TEXT="https://stackoverflow.com/questions/60160/how-to-escape-text-for-regular-expression-in-java"/>
 </node>
 <node CREATED="1581352196894" FOLDED="true" ID="ID_883025320" MODIFIED="1584338346388" POSITION="right" TEXT="&#xc774;&#xba54;&#xc77c; &#xae68;&#xc9c0;&#xb294; &#xac83;">
 <node CREATED="1581352200028" ID="ID_990643542" LINK="https://mkil.tistory.com/340" MODIFIED="1581352200028" TEXT="https://mkil.tistory.com/340"/>
 </node>
-<node CREATED="1582972563805" ID="ID_702207424" MODIFIED="1586828822489" POSITION="left" TEXT="arrayList &#xc815;&#xb82c;(compateTo &#xc774;&#xc6a9;&#xbc29;&#xbc95;)">
+<node CREATED="1582972563805" FOLDED="true" ID="ID_702207424" MODIFIED="1590383090161" POSITION="left" TEXT="arrayList &#xc815;&#xb82c;(compateTo &#xc774;&#xc6a9;&#xbc29;&#xbc95;)">
 <node CREATED="1582972566785" ID="ID_496044427" LINK="https://includestdio.tistory.com/35" MODIFIED="1582972566785" TEXT="https://includestdio.tistory.com/35"/>
 </node>
-<node COLOR="#3333ff" CREATED="1583384548615" ID="ID_650895007" MODIFIED="1584953409478" POSITION="left" STYLE="bubble" TEXT="List&#xc758; java.lang.foreach">
+<node COLOR="#3333ff" CREATED="1583384548615" FOLDED="true" ID="ID_650895007" MODIFIED="1590383090161" POSITION="left" STYLE="bubble" TEXT="List&#xc758; java.lang.foreach">
 <font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
 <node CREATED="1583384603010" ID="ID_1821603041" MODIFIED="1586828824004" TEXT="Iterable&#xc758; &#xba54;&#xc18c;&#xb4dc;(&#xc774;&#xbbf8;&#xc9c0;)">
 <node CREATED="1583384664616" ID="ID_688239118" MODIFIED="1583384664616">
@@ -4501,7 +4501,7 @@
 <node CREATED="1582868819622" ID="ID_1063589233" MODIFIED="1582868819622" TEXT="@SuppressWarnings(&quot;unused&quot;)"/>
 <node CREATED="1582868819622" MODIFIED="1582868819622" TEXT="private LogUtil log = new LogUtil(getClass());"/>
 </node>
-<node COLOR="#3333ff" CREATED="1584666330227" ID="ID_1653710934" MODIFIED="1584675328731" POSITION="right" STYLE="bubble" TEXT="aop">
+<node COLOR="#3333ff" CREATED="1584666330227" FOLDED="true" ID="ID_1653710934" MODIFIED="1590383090161" POSITION="right" STYLE="bubble" TEXT="aop">
 <font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
 <node CREATED="1584666337291" ID="ID_145341182" MODIFIED="1584666339051" TEXT="&#xae30;&#xcd08;">
 <node CREATED="1584666339394" ID="ID_62009756" LINK="https://www.baeldung.com/spring-aop-annotation" MODIFIED="1584666339394" TEXT="https://www.baeldung.com/spring-aop-annotation"/>
@@ -4517,10 +4517,52 @@
   <body>
     <img src="&#xd544;&#xc694;&#xd55c; &#xc790;&#xbc14; &#xd29c;&#xd1a0;_8848869880550675843.jpeg" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
+</node>
+<node BACKGROUND_COLOR="#ffffff" COLOR="#ff3333" CREATED="1590050662440" FOLDED="true" ID="ID_599832735" MODIFIED="1590383090161" POSITION="right" STYLE="bubble" TEXT="jqpl in query">
+<font BOLD="true" NAME="Dialog" SIZE="24"/>
+<node CREATED="1590050671574" ID="ID_318248295" LINK="https://stackoverflow.com/questions/4378824/adding-in-clause-list-to-a-jpa-query" MODIFIED="1590050717489" TEXT="https://stackoverflow.com/questions/4378824/adding-in-clause-list-to-a-jpa-query"/>
+<node COLOR="#3333ff" CREATED="1590050684410" ID="ID_30775288" MODIFIED="1590050717489" STYLE="bubble" TEXT="When using IN with a collection-valued parameter you don&apos;t need (...):">
+<font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
+<node COLOR="#3333ff" CREATED="1590050688725" ID="ID_1579368323" MODIFIED="1590050717491" STYLE="bubble">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      @NamedQuery(name = &quot;EventLog.viewDatesInclude&quot;,
+    </p>
+    <p>
+      query = &quot;SELECT el FROM EventLog el WHERE el.timeMark &gt;= :dateFrom AND &quot;
+    </p>
+    <p>
+      + &quot;el.timeMark &lt;= :dateTo AND &quot;
+    </p>
+    <p>
+      + &quot;el.name IN :inclList&quot;)
+    </p>
+  </body>
+</html></richcontent>
+<font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
+</node>
+</node>
+</node>
+<node CREATED="1590112940069" FOLDED="true" ID="ID_839585421" MODIFIED="1590383090161" POSITION="right" TEXT="&#xc8fc;&#xac04;&#xc5c5;&#xbb34;&#xbcf4;&#xace0; &#xc2dc;&#xc5d0; &#xc778;&#xc99d;&#xd604;&#xd669;">
+<node CREATED="1590113187717" ID="ID_1975074334" MODIFIED="1590113197813" TEXT="&#xcf58;&#xd150;&#xce20; &#xd788;&#xc2a4;&#xd1a0;&#xb9ac; &#xd604;&#xd669;">
+<node CREATED="1590113199637" ID="ID_507320560" MODIFIED="1590113235511" TEXT="&#xac01; &#xcf58;&#xd150;&#xce20; &#xc0ac;&#xc774;&#xd2b8; &#xadf8;&#xb8f9;, &#xc544;&#xc774;&#xd15c; &#xadf8;&#xb8f9;&#xd558;&#xc5ec; &#xcffc;&#xb9ac;"/>
+</node>
+<node CREATED="1590113242485" ID="ID_491765116" MODIFIED="1590113246726" TEXT="&#xc778;&#xc99d;&#xc870;&#xd68c; &#xd604;&#xd669;"/>
+</node>
+<node CREATED="1590471226221" ID="ID_248784823" MODIFIED="1590471230700" POSITION="right" TEXT="&#xc774;&#xac8c; &#xc22b;&#xc790;&#xc778;&#xc9c0; &#xd310;&#xb2e8;">
+<node CREATED="1590471231139" ID="ID_1348788645" LINK="https://stackoverflow.com/questions/1102891/how-to-check-if-a-string-is-numeric-in-java" MODIFIED="1590471231139" TEXT="https://stackoverflow.com/questions/1102891/how-to-check-if-a-string-is-numeric-in-java"/>
+</node>
+<node COLOR="#3333ff" CREATED="1590569131484" ID="ID_1901071594" MODIFIED="1590569134388" POSITION="right" STYLE="bubble" TEXT="&#xc4f0;&#xb808;&#xb4dc; &#xcd08;&#xbcf4;">
+<font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
+<node CREATED="1590569134899" ID="ID_41113680" LINK="https://www.baeldung.com/java-start-thread" MODIFIED="1590569134899" TEXT="https://www.baeldung.com/java-start-thread"/>
+<node CREATED="1590569770363" ID="ID_869725420" LINK="https://stackoverflow.com/questions/9148899/returning-value-from-thread" MODIFIED="1590569770363" TEXT="https://stackoverflow.com/questions/9148899/returning-value-from-thread"/>
 </node>
 </node>
 </map>
