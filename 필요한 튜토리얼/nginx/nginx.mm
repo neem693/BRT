@@ -9,5 +9,6 @@
 <node CREATED="1588044278813" ID="ID_653090397" MODIFIED="1588044479125" POSITION="right" TEXT="&#xb9cc;&#xc57d; &#xc124;&#xce58;&#xb418;&#xc5b4; &#xc788;&#xb294;&#xac8c; &#xc544;&#xb2c8;&#xb77c; &#xd3ec;&#xd130;&#xbe14;&#xc774;&#xb77c;&#xba74; ">
 <node CREATED="1588044512676" MODIFIED="1588044512676" TEXT="/usr/local/nginx/sbin"/>
 </node>
+<node CREATED="1592206165994" ID="ID_388834605" MODIFIED="1592206176745" POSITION="right" TEXT="&#xb85c;&#xb4dc;&#xbc38;&#xb7f0;&#xc2f1; FM (&#xc544;&#xc9c1;&#xc548;&#xbd04;)"/>
 </node>
 </map>
