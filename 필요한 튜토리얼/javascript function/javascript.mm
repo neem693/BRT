@@ -2,10 +2,10 @@
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1590720758205" ID="ID_1813722365" MODIFIED="1590721026420" TEXT="&#xb0b4;&#xac00;&#xb9cc;&#xb4e0; &#xd568;&#xc218;">
 <node CREATED="1590721027788" ID="ID_1512170669" MODIFIED="1590721031333" POSITION="right" TEXT="tablesort">
-<node CREATED="1590721032336" FOLDED="true" ID="ID_1106817762" MODIFIED="1590721036707" TEXT="tableSort(sortinfo){">
+<node CREATED="1590721032336" ID="ID_1106817762" MODIFIED="1592992939878" TEXT="tableSort(sortinfo){">
 <node CREATED="1590721032336" MODIFIED="1590721032336" TEXT="let prop = sortinfo.prop;"/>
 <node CREATED="1590721032336" MODIFIED="1590721032336" TEXT="let order = sortinfo.order;"/>
-<node CREATED="1590721032336" ID="ID_438078819" MODIFIED="1590721032336" TEXT="this.tableData = this.tableData.sort((a,b)=&gt;{">
+<node CREATED="1590721032336" FOLDED="true" ID="ID_438078819" MODIFIED="1592992981662" TEXT="this.tableData = this.tableData.sort((a,b)=&gt;{">
 <node CREATED="1590721032336" MODIFIED="1590721032336" TEXT="let key = prop.split(&quot;.&quot;);"/>
 <node CREATED="1590721032336" MODIFIED="1590721032336" TEXT="let object_a = Object.assign(a);"/>
 <node CREATED="1590721032336" MODIFIED="1590721032336" TEXT="let object_b = Object.assign(b);"/>
