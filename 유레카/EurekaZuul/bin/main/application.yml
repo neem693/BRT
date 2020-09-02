@@ -1,0 +1,29 @@
+server:
+  port: 8712
+
+
+spring:
+  application:
+    name: spring-eureka-zuul
+    
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: ${EUREKA_URI:http://127.0.0.1:8711/eureka}
+  instance:
+    prefer-ip-address: true
+    
+zuul:
+  routes:
+    client:
+      path: '/client/**'
+      service-id: spring-cloud-eureka-client
+      
+      
+management:
+  endpoints:
+    web:
+      exposure:
+        include: 'routes'
