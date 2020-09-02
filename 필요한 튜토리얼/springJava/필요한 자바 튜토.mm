@@ -2341,7 +2341,7 @@
 <node CREATED="1570820280004" ID="ID_459888442" MODIFIED="1570820398932" TEXT="csrf&#xc758; permitAll&#xc740; get&#xb9cc; &#xd5c8;&#xc6a9;&#xb41c;&#xb2e4;. post&#xb294; &#xd5c8;&#xc6a9; &#xb418;&#xc9c0; &#xc54a;&#xb294;&#xb2e4;. &#xd1a0;&#xd070;&#xc774; &#xc788;&#xc5b4;&#xc57c; &#xd55c;&#xb2e4;."/>
 <node CREATED="1570822064313" ID="ID_1633839874" MODIFIED="1570822220332" TEXT="&#xadf8;&#xb7ec;&#xb098; &#xd1a0;&#xd070;&#xc774; &#xc0dd;&#xc131;&#xb420; &#xb54c;&#xb294; &#xcfe0;&#xd0a4;&#xb85c; &#xd588;&#xc73c;&#xb974; &#xb54c; &#xd604;&#xc7ac; &#xacbd;&#xb85c;&#xc5d0;&#xc11c; &#xc0dd;&#xc131;&#xb418;&#xc9c0; &#xc54a;&#xace0; &quot;/&quot; &#xb8e8;&#xd2b8;&#xc5d0;&#xc11c; &#xc0dd;&#xc131;&#xb428;&#xc73c;&#xb85c; &#xc815;&#xd655;&#xd55c; &#xacbd;&#xb85c; &#xc124;&#xc815;&#xc774; &#xd544;&#xc694;&#xd558;&#xb2e4;."/>
 </node>
-<node CREATED="1569486116611" FOLDED="true" ID="ID_1594071695" MODIFIED="1599021558889" POSITION="right" TEXT="oauth &#xc815;&#xb9ac;">
+<node CREATED="1569486116611" FOLDED="true" ID="ID_1594071695" MODIFIED="1599037248770" POSITION="right" TEXT="oauth &#xc815;&#xb9ac;">
 <node CREATED="1569486121620" ID="ID_1004995870" MODIFIED="1569486326063" TEXT="&#xc774; &#xc815;&#xb9ac;&#xb294; authorization server&#xc640; resource server &#xc804;&#xc6a9;&#xc73c;&#xb85c; &#xd55c;&#xb2e4;."/>
 <node CREATED="1569851795826" ID="ID_1918509835" MODIFIED="1571799829641" TEXT="&#xcc38;&#xc870;&#xd55c; &#xb9c1;&#xd06c;">
 <node CREATED="1569491563570" ID="ID_239934634" LINK="https://www.tutorialspoint.com/spring_boot/spring_boot_oauth2_with_jwt.htm" MODIFIED="1569491564360" TEXT="https://www.tutorialspoint.com/spring_boot/spring_boot_oauth2_with_jwt.htm"/>
@@ -2849,7 +2849,7 @@
 <node CREATED="1569858669648" ID="ID_1822720078" MODIFIED="1569858706146" TEXT="https://www.daum.net/#access_token=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJUY3RUZXN0QGdtYWlsLmNvbSIsInNjb3BlIjpbInJlYWQiXSwiZXhwIjoxNTY5ODk5OTU2LCJ1c2VySWQiOiIxMjMxMjMiLCJhdXRob3JpdGllcyI6WyJST0xFX1NZU1RFTUFETUlOIl0sImp0aSI6IjQzYTJhM2E3LTc0NDUtNDQxYS05YzNhLTJmMDU3NDVlMWFiNCIsImNsaWVudF9pZCI6InNhbXBsZUNsaW5ldElkIn0.FLPnydth_MiwTY-Bu9UzfH69uQljCbPdBXUT6HQxx_zvGV61n64Rn1PfCZL3u4G6U-L2mPoDovy-pkev-4sZzxrOxjF1xaarDDtJ1gtfmP4Eo763gmnfssbxEZxRC9zimN_-_exloky1ycfv84YSQxWHz60aJJNwA3Zv0ZRU7dlwG7qNSCLe9S1o8EjDZ4YBH3F0XxfOUeliRrmtcKAyxu-rF1_KgNu8WNM_wAEaXbEjQMM9NNb78ZkIySvSvf9EMrGniLuxWBpJ3wDoE1TRgYUn3kZZWKYQDwqWRPD68duVIZSlPsNDlaVl3G0m0Y9M-y5_qJlOUqWz39PLfCXW7g&amp;token_type=bearer&amp;expires_in=43199&amp;userId=123123&amp;jti=43a2a3a7-7445-441a-9c3a-2f05745e1ab4"/>
 </node>
 </node>
-<node CREATED="1569850815584" FOLDED="true" ID="ID_38472663" MODIFIED="1572219194953" TEXT="7, &#xb9ac;&#xc18c;&#xc2a4; &#xc11c;&#xbc84; config">
+<node CREATED="1569850815584" FOLDED="true" ID="ID_38472663" MODIFIED="1599037248766" TEXT="7, &#xb9ac;&#xc18c;&#xc2a4; &#xc11c;&#xbc84; config">
 <node CREATED="1569851589026" FOLDED="true" ID="ID_371823389" MODIFIED="1569874259326" TEXT="&#xcf54;&#xb4dc;">
 <node CREATED="1569851592478" ID="ID_1115590666" MODIFIED="1569851592478" TEXT="package com.example.demo.oAuth2;"/>
 <node CREATED="1569851592480" ID="ID_1557595924" MODIFIED="1569851592480" TEXT="import java.io.IOException;"/>
@@ -2935,7 +2935,7 @@
 <node CREATED="1569851592549" ID="ID_264539936" MODIFIED="1569851592549" TEXT="//        }"/>
 <node CREATED="1569851592550" ID="ID_1873870086" MODIFIED="1569851592550" TEXT="}"/>
 </node>
-<node CREATED="1569851593512" FOLDED="true" ID="ID_947243585" MODIFIED="1569874259327" TEXT="&#xc124;&#xba85;">
+<node CREATED="1569851593512" FOLDED="true" ID="ID_947243585" MODIFIED="1599037248765" TEXT="&#xc124;&#xba85;">
 <node CREATED="1569851596274" ID="ID_796872601" MODIFIED="1569851696589" TEXT="jwt&#xb97c; &#xc790;&#xccb4;&#xc801;&#xc73c;&#xb85c; &#xd1a0;&#xd070;&#xc774; &#xc720;&#xd6a8;&#xd55c;&#xc9c0; &#xd310;&#xb2e8;&#xd55c;&#xb2e4;."/>
 <node CREATED="1569851640728" ID="ID_1920380340" MODIFIED="1569852098557" TEXT="autorization &#xc11c;&#xbc84;&#xc758; check_token&#xc73c;&#xb85c; &#xc811;&#xc18d;&#xd558;&#xc5ec; &#xc77c;&#xc77c;&#xc774; &#xb530;&#xb85c; &#xd574;&#xb2f9; &#xd1a0;&#xd070;&#xc774; &#xc720;&#xd6a8;&#xd55c;&#xc9c0;&#xb3c4; &#xd30c;&#xc545;&#xd560; &#xc218; &#xc788;&#xb2e4;. &#xc774;&#xb7f4; &#xb54c;&#xc5d0;&#xb294; RemoteTokenServices&#xb97c; &#xc774;&#xc6a9;&#xd558;&#xba74; &#xb418;&#xba70;, &#xd604;&#xc7ac; &#xcf54;&#xb4dc;&#xc5d0;&#xc11c;&#xb294; &#xc8fc;&#xc11d;&#xcc98;&#xb9ac; &#xb418;&#xc5b4;&#xc788;&#xb2e4;."/>
 <node CREATED="1569852157514" ID="ID_1751979313" MODIFIED="1569872816472" TEXT="&#xc774;&#xc5d0; &#xb300;&#xd55c; &#xb0b4;&#xc6a9;&#xc740; &#xb2e4;&#xc74c;&#xc5d0; &#xd29c;&#xd1a0;&#xb9ac;&#xc5bc;&#xc5d0;&#xc11c; &#xc911;&#xc810;&#xc801;&#xc73c;&#xb85c; &#xc9c4;&#xd589;&#xc774; &#xb41c;&#xb2e4;.">
@@ -4636,13 +4636,13 @@
 <node CREATED="1593760891695" ID="ID_1469886252" LINK="https://stackoverflow.com/questions/5937373/using-apache-poi-hssf-how-can-i-refresh-all-formula-cells-at-once" MODIFIED="1593760891695" TEXT="https://stackoverflow.com/questions/5937373/using-apache-poi-hssf-how-can-i-refresh-all-formula-cells-at-once"/>
 </node>
 </node>
-<node CREATED="1598938418942" ID="ID_1691530218" MODIFIED="1599024028124" POSITION="right" TEXT="&#xc5d0;&#xb9ac;&#xce74;(&#xc774;&#xc911;&#xd654; &#xb85c;&#xb4dc; &#xbc38;&#xb7f0;&#xc2f1;&#xc744; &#xc704;&#xd55c; &#xc11c;&#xbc84;)">
+<node CREATED="1598938418942" FOLDED="true" ID="ID_1691530218" MODIFIED="1599036948623" POSITION="right" TEXT="&#xc5d0;&#xb9ac;&#xce74;(&#xc774;&#xc911;&#xd654; &#xb85c;&#xb4dc; &#xbc38;&#xb7f0;&#xc2f1;&#xc744; &#xc704;&#xd55c; &#xc11c;&#xbc84;)">
 <node CREATED="1598938429357" ID="ID_908540782" LINK="https://www.baeldung.com/spring-cloud-netflix-eureka" MODIFIED="1598938429357" TEXT="https://www.baeldung.com/spring-cloud-netflix-eureka"/>
 <node CREATED="1598942599229" ID="ID_284497516" MODIFIED="1598942603646" TEXT="&#xc11c;&#xbc84; doc">
 <node CREATED="1598942596403" ID="ID_285268418" LINK="https://docs.spring.io/spring-cloud-netflix/docs/2.2.5.RELEASE/reference/html/" MODIFIED="1598942596403" TEXT="https://docs.spring.io/spring-cloud-netflix/docs/2.2.5.RELEASE/reference/html/"/>
 </node>
 <node CREATED="1599007812659" ID="ID_1606711360" MODIFIED="1599016029336" TEXT="zuul and eureka &#xbb38;&#xc11c;1">
-<node CREATED="1599007817089" LINK="https://www.baeldung.com/zuul-load-balancing" MODIFIED="1599007817089" TEXT="https://www.baeldung.com/zuul-load-balancing"/>
+<node CREATED="1599007817089" ID="ID_1041323688" LINK="https://www.baeldung.com/zuul-load-balancing" MODIFIED="1599007817089" TEXT="https://www.baeldung.com/zuul-load-balancing"/>
 </node>
 <node CREATED="1599008478923" ID="ID_596294235" MODIFIED="1599015983876" TEXT="server standAnlone mode">
 <node CREATED="1599008486346" ID="ID_1172850381" LINK="https://cloud.spring.io/spring-cloud-netflix/multi/multi_spring-cloud-eureka-server.html#spring-cloud-eureka-server-standalone-mode" MODIFIED="1599008486346" TEXT="https://cloud.spring.io/spring-cloud-netflix/multi/multi_spring-cloud-eureka-server.html#spring-cloud-eureka-server-standalone-mode"/>
@@ -4675,6 +4675,9 @@
 <node CREATED="1599024455606" ID="ID_689191728" LINK="https://stackoverflow.com/questions/57242507/spring-cloud-zuul-path-actuator-routes-404-not-found" MODIFIED="1599024455606" TEXT="https://stackoverflow.com/questions/57242507/spring-cloud-zuul-path-actuator-routes-404-not-found"/>
 </node>
 <node CREATED="1599024874727" ID="ID_863073103" MODIFIED="1599026378689" TEXT="&#xc5ec;&#xd2bc; &#xd574;&#xb2f9;&#xd558;&#xb294; web&#xc758; &#xc5d4;&#xb4dc;&#xd3ec;&#xc778;&#xd2b8;&#xb97c; &#xc5f4;&#xc5b4;&#xc8fc;&#xba74; &#xbb38;&#xc81c;&#xb294; &#xd574;&#xacb0;&#xb41c;&#xb2e4;."/>
+</node>
+<node CREATED="1599036806119" ID="ID_1820208808" MODIFIED="1599036807929" TEXT="&#xc815;&#xb9ac;">
+<node CREATED="1599036834403" LINK="https://blog.naver.com/neem693/222078302537" MODIFIED="1599036834403" TEXT="https://blog.naver.com/neem693/222078302537"/>
 </node>
 </node>
 </node>
