@@ -4521,7 +4521,7 @@
 </node>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#ff3333" CREATED="1590050662440" FOLDED="true" ID="ID_599832735" MODIFIED="1594169244037" POSITION="right" STYLE="bubble" TEXT="jqpl in query">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#ff3333" CREATED="1590050662440" ID="ID_599832735" MODIFIED="1599544725469" POSITION="right" STYLE="bubble" TEXT="jqpl in query">
 <font BOLD="true" NAME="Dialog" SIZE="24"/>
 <node CREATED="1590050671574" ID="ID_318248295" LINK="https://stackoverflow.com/questions/4378824/adding-in-clause-list-to-a-jpa-query" MODIFIED="1590050717489" TEXT="https://stackoverflow.com/questions/4378824/adding-in-clause-list-to-a-jpa-query"/>
 <node COLOR="#3333ff" CREATED="1590050684410" ID="ID_30775288" MODIFIED="1590050717489" STYLE="bubble" TEXT="When using IN with a collection-valued parameter you don&apos;t need (...):">
@@ -4679,6 +4679,9 @@
 <node CREATED="1599036806119" ID="ID_1820208808" MODIFIED="1599036807929" TEXT="&#xc815;&#xb9ac;">
 <node CREATED="1599036834403" LINK="https://blog.naver.com/neem693/222078302537" MODIFIED="1599036834403" TEXT="https://blog.naver.com/neem693/222078302537"/>
 </node>
+</node>
+<node CREATED="1599814945200" ID="ID_1720674756" MODIFIED="1599814946939" POSITION="right" TEXT="&#xd558;&#xc704;&#xcffc;&#xb9ac;">
+<node CREATED="1599814955780" MODIFIED="1599814955780" TEXT="SELECT a, (SELECT b FROM testtable WHERE b = 1) AS b FROM temptable"/>
 </node>
 </node>
 </map>
