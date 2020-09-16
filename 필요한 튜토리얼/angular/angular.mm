@@ -1074,7 +1074,7 @@
 <node CREATED="1571532370873" FOLDED="true" ID="ID_979608605" MODIFIED="1582770424624" POSITION="right" TEXT="angular material checkbox color">
 <node CREATED="1571532378740" ID="ID_511694136" LINK="https://stackoverflow.com/questions/37339735/angular-material-change-checkbox-color" MODIFIED="1571532378740" TEXT="https://stackoverflow.com/questions/37339735/angular-material-change-checkbox-color"/>
 </node>
-<node CREATED="1571597855149" FOLDED="true" ID="ID_45472224" MODIFIED="1582770424624" POSITION="right" TEXT="angular copy">
+<node CREATED="1571597855149" ID="ID_45472224" MODIFIED="1600157469084" POSITION="right" TEXT="angular copy">
 <node CREATED="1571597860123" ID="ID_1898138909" LINK="https://stackoverflow.com/questions/34688517/whats-alternative-to-angular-copy-in-angular" MODIFIED="1571597860123" TEXT="https://stackoverflow.com/questions/34688517/whats-alternative-to-angular-copy-in-angular"/>
 <node CREATED="1571597886891" ID="ID_1714103988" MODIFIED="1571597889385" TEXT="&#xcf54;&#xb4dc;">
 <node CREATED="1571597889710" ID="ID_1389048406" MODIFIED="1571597889710" TEXT="Object.assign({},item)"/>

@@ -5,11 +5,11 @@
 <node CREATED="1590721032336" ID="ID_1106817762" MODIFIED="1592992939878" TEXT="tableSort(sortinfo){">
 <node CREATED="1590721032336" MODIFIED="1590721032336" TEXT="let prop = sortinfo.prop;"/>
 <node CREATED="1590721032336" MODIFIED="1590721032336" TEXT="let order = sortinfo.order;"/>
-<node CREATED="1590721032336" FOLDED="true" ID="ID_438078819" MODIFIED="1592992981662" TEXT="this.tableData = this.tableData.sort((a,b)=&gt;{">
+<node CREATED="1590721032336" ID="ID_438078819" MODIFIED="1600157184146" TEXT="this.tableData = this.tableData.sort((a,b)=&gt;{">
 <node CREATED="1590721032336" MODIFIED="1590721032336" TEXT="let key = prop.split(&quot;.&quot;);"/>
 <node CREATED="1590721032336" MODIFIED="1590721032336" TEXT="let object_a = Object.assign(a);"/>
 <node CREATED="1590721032336" MODIFIED="1590721032336" TEXT="let object_b = Object.assign(b);"/>
-<node CREATED="1590721032336" MODIFIED="1590721032336" TEXT="if(key.length &gt; 1){">
+<node CREATED="1590721032336" FOLDED="true" ID="ID_1245225532" MODIFIED="1600157185791" TEXT="if(key.length &gt; 1){">
 <node CREATED="1590721032336" MODIFIED="1590721032336" TEXT="for(var i =0; i&lt;key.length; i++){">
 <node CREATED="1590721032336" MODIFIED="1590721032336" TEXT="if(this.$utils.isEmpty(object_a[key[i]])){">
 <node CREATED="1590721032351" MODIFIED="1590721032351" TEXT="object_a = null;"/>
@@ -29,12 +29,12 @@
 </node>
 <node CREATED="1590721032351" MODIFIED="1590721032351" TEXT="}"/>
 </node>
-<node CREATED="1590721032351" MODIFIED="1590721032351" TEXT="}else{">
+<node CREATED="1590721032351" FOLDED="true" ID="ID_339219010" MODIFIED="1600157185791" TEXT="}else{">
 <node CREATED="1590721032351" MODIFIED="1590721032351" TEXT="object_a = object_a[key[0]];"/>
 <node CREATED="1590721032351" MODIFIED="1590721032351" TEXT="object_b = object_b[key[0]];"/>
 </node>
 <node CREATED="1590721032351" MODIFIED="1590721032351" TEXT="}"/>
-<node CREATED="1590721032351" MODIFIED="1590721032351" TEXT="if(order == &quot;descending&quot;){">
+<node CREATED="1590721032351" FOLDED="true" ID="ID_134325729" MODIFIED="1600157185791" TEXT="if(order == &quot;descending&quot;){">
 <node CREATED="1590721032351" MODIFIED="1590721032351" TEXT="if(this.$utils.isEmpty(object_a)){">
 <node CREATED="1590721032351" MODIFIED="1590721032351" TEXT="return -1;"/>
 </node>
@@ -45,18 +45,18 @@
 <node CREATED="1590721032351" MODIFIED="1590721032351" TEXT="}"/>
 <node CREATED="1590721032351" MODIFIED="1590721032351" TEXT="return object_a.toString().localeCompare(object_b.toString());"/>
 </node>
-<node CREATED="1590721032351" MODIFIED="1590721032351" TEXT="}else if(order == &quot;ascending&quot;){">
+<node CREATED="1590721032351" FOLDED="true" ID="ID_1878899373" MODIFIED="1600157185791" TEXT="}else if(order == &quot;ascending&quot;){">
 <node CREATED="1590721032351" MODIFIED="1590721032351" TEXT="if(this.$utils.isEmpty(object_b)){">
 <node CREATED="1590721032367" MODIFIED="1590721032367" TEXT="return -1;"/>
 </node>
 <node CREATED="1590721032367" MODIFIED="1590721032367" TEXT="}"/>
-<node CREATED="1590721032367" MODIFIED="1590721032367" TEXT="if(this.$utils.isEmpty(object_a)){">
+<node CREATED="1590721032367" ID="ID_854179783" MODIFIED="1590721032367" TEXT="if(this.$utils.isEmpty(object_a)){">
 <node CREATED="1590721032367" MODIFIED="1590721032367" TEXT="return 1;"/>
 </node>
 <node CREATED="1590721032367" MODIFIED="1590721032367" TEXT="}"/>
 <node CREATED="1590721032367" MODIFIED="1590721032367" TEXT="return object_b.toString().localeCompare(object_a.toString());"/>
 </node>
-<node CREATED="1590721032367" MODIFIED="1590721032367" TEXT="}else if(order == null){">
+<node CREATED="1590721032367" FOLDED="true" ID="ID_103977829" MODIFIED="1600157185791" TEXT="}else if(order == null){">
 <node CREATED="1590721032367" MODIFIED="1590721032367" TEXT="// console.log(a[&apos;cd&apos;]);"/>
 <node CREATED="1590721032367" MODIFIED="1590721032367" TEXT="return b[&apos;cd&apos;].toString().localeCompare(a[&apos;cd&apos;].toString());"/>
 </node>
