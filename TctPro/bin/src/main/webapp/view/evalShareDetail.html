@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta property="og:title" th:content="${work.subject}" />
+<meta property="og:type" content="website" />
+<meta property="og:url"  content="http://220.72.89.96/eval/share/353" />
+<meta property="og:image"
+	th:content="'http://220.72.89.96/tctFile/evalImage/' + ${eval_file.save_file_name}" />
+<meta charset="UTF-8">
+<title>titleShare</title>
+</head>
+<body>
+
+	wefwf
+	<div th:text="${eval}"></div>
+	<div th:text="${eval_file.save_file_name}"></div>
+	<div th:text="${eval_file.file_name}"></div>
+
+</body>
+</html>

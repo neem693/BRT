@@ -99,7 +99,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1563894476943" FOLDED="true" ID="ID_543289386" MODIFIED="1582770424624" POSITION="right" TEXT="&#xac4d; &#xc774;&#xba54;&#xc77c;&#xc740; &#xadf8;&#xb0e5; &#xc774;&#xac70; &#xc368;&#xb77c;">
+<node CREATED="1563894476943" FOLDED="true" ID="ID_543289386" MODIFIED="1600307658743" POSITION="right" TEXT="&#xac4d; &#xc774;&#xba54;&#xc77c;&#xc740; &#xadf8;&#xb0e5; &#xc774;&#xac70; &#xc368;&#xb77c;">
 <node CREATED="1563894578067" ID="ID_35178321" LINK="mailto:()\[\]\\.,;:\s@&quot;]+(\.[^" MODIFIED="1563895327656" TEXT="regexp = new RegExp( &#x9;&#xa;/^(([^&lt;&gt;()\[\]\\.,;:\s@&quot;]+(\.[^&lt;&gt;()\[\]\\.,;:\s@&quot;]+)*)|(&quot;.+&quot;))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;"/>
 </node>
 <node COLOR="#3333ff" CREATED="1563896414568" FOLDED="true" ID="ID_391363340" MODIFIED="1582770424624" POSITION="right" STYLE="bubble" TEXT="vscode &#xcf54;&#xb4dc; &#xc815;&#xb82c;">
@@ -539,7 +539,7 @@
 <node CREATED="1570552097301" LINK="https://stackoverflow.com/questions/5777210/how-to-write-hover-condition-for-abefore-and-aafter" MODIFIED="1570552097301" TEXT="https://stackoverflow.com/questions/5777210/how-to-write-hover-condition-for-abefore-and-aafter"/>
 </node>
 </node>
-<node CREATED="1570409067852" FOLDED="true" ID="ID_981427335" MODIFIED="1582770424624" POSITION="right" TEXT="&#xd558;&#xc774;&#xd37c;&#xb9c1;&#xd06c; &#xbbf8;&#xb9ac;&#xbcf4;&#xae30;">
+<node CREATED="1570409067852" FOLDED="true" ID="ID_981427335" MODIFIED="1602494484347" POSITION="right" TEXT="&#xd558;&#xc774;&#xd37c;&#xb9c1;&#xd06c; &#xbbf8;&#xb9ac;&#xbcf4;&#xae30;">
 <node CREATED="1570409074546" ID="ID_266553586" MODIFIED="1570409083255" TEXT="&#xc774; &#xd558;&#xc774;&#xd37c;&#xb9c1;&#xd06c; &#xbbf8;&#xb9ac;&#xbcf4;&#xae30;&#xb294; &#xc624;&#xd508; &#xadf8;&#xb798;&#xd504; &#xd504;&#xb85c;&#xd1a0;&#xcf5c;&#xc774;&#xb2e4;."/>
 <node CREATED="1570409083899" ID="ID_673890638" LINK="https://ogp.me/" MODIFIED="1570409083899" TEXT="https://ogp.me/"/>
 <node CREATED="1570409089098" ID="ID_312897652" MODIFIED="1570409096918" TEXT="&#xd574;&#xb2f9;&#xd558;&#xb294;&#xac78; &#xc5f0;&#xad6c;&#xd574;&#xbcf4;&#xba74; &#xb420;&#xb4ef; &#xd558;&#xb2e4;."/>
@@ -1202,7 +1202,7 @@
 <node BACKGROUND_COLOR="#ffff00" CREATED="1573530735929" FOLDED="true" ID="ID_954361884" MODIFIED="1582770424624" POSITION="right" TEXT="getCurrentUrl">
 <node CREATED="1573530740204" LINK="https://stackoverflow.com/questions/45184969/get-current-url-in-angular" MODIFIED="1573530740204" TEXT="https://stackoverflow.com/questions/45184969/get-current-url-in-angular"/>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#ff3333" CREATED="1573595886036" FOLDED="true" ID="ID_1434455979" MODIFIED="1582770424624" POSITION="right" STYLE="bubble" TEXT="dynamic viewChild">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#ff3333" CREATED="1573595886036" FOLDED="true" ID="ID_1434455979" MODIFIED="1600307648175" POSITION="right" STYLE="bubble" TEXT="dynamic viewChild">
 <font BOLD="true" NAME="Dialog" SIZE="24"/>
 <node CREATED="1573595892361" ID="ID_388630614" LINK="https://stackoverflow.com/questions/39366981/viewchild-in-ngif" MODIFIED="1573595894408" TEXT="https://stackoverflow.com/questions/39366981/viewchild-in-ngif"/>
 <node COLOR="#3333ff" CREATED="1573595896097" ID="ID_161545769" MODIFIED="1573595900200" STYLE="bubble" TEXT="set&#xc744; &#xc774;&#xc6a9;&#xd558;&#xb77c;!">
@@ -1214,8 +1214,8 @@
 </node>
 <node BACKGROUND_COLOR="#ffff00" CREATED="1573650509086" ID="ID_706093719" MODIFIED="1573650520106" TEXT="&#xc800;&#xb807;&#xac8c; &#xd558;&#xba74; &#xacc4;&#xc18d; &#xc5c5;&#xb370;&#xc774;&#xd2b8; &#xb41c;&#xb2e4;."/>
 </node>
-<node BACKGROUND_COLOR="#ffff00" CREATED="1573658363573" FOLDED="true" ID="ID_1488302838" MODIFIED="1582770424624" POSITION="right" TEXT="angular last trigger">
-<node CREATED="1573658376668" LINK="https://stackoverflow.com/questions/35819264/angular-2-callback-when-ngfor-has-finished" MODIFIED="1573658376668" TEXT="https://stackoverflow.com/questions/35819264/angular-2-callback-when-ngfor-has-finished"/>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1573658363573" FOLDED="true" ID="ID_1488302838" MODIFIED="1600307649503" POSITION="right" TEXT="angular last trigger">
+<node CREATED="1573658376668" ID="ID_1663617771" LINK="https://stackoverflow.com/questions/35819264/angular-2-callback-when-ngfor-has-finished" MODIFIED="1573658376668" TEXT="https://stackoverflow.com/questions/35819264/angular-2-callback-when-ngfor-has-finished"/>
 </node>
 </node>
 </map>
