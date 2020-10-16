@@ -4363,7 +4363,7 @@
 <node CREATED="1574865204487" ID="ID_1363890770" LINK="https://beyondj2ee.wordpress.com/2017/03/17/springboot-%EB%B0%B0%EB%84%88-%EB%A7%8C%EB%93%A4%EA%B8%B0/" MODIFIED="1574865205211" TEXT="https://beyondj2ee.wordpress.com/2017/03/17/springboot-%EB%B0%B0%EB%84%88-%EB%A7%8C%EB%93%A4%EA%B8%B0/"/>
 <node CREATED="1574865085804" ID="ID_539869463" LINK="http://patorjk.com/software/taag" MODIFIED="1574865085804" TEXT="patorjk.com &gt; Software &gt; Taag"/>
 </node>
-<node COLOR="#3333ff" CREATED="1575385346435" FOLDED="true" ID="ID_1894901996" MODIFIED="1584338346372" POSITION="right" STYLE="bubble" TEXT="&#xc774;&#xd074;&#xb9bd;&#xc2a4; &#xc0ac;&#xc6a9;&#xc911;&#xc778; &#xd568;&#xc218;&#xc778;&#xc9c0; &#xc0b4;&#xd3b4;&#xbcf4;&#xae30;">
+<node COLOR="#3333ff" CREATED="1575385346435" ID="ID_1894901996" MODIFIED="1602740646365" POSITION="right" STYLE="bubble" TEXT="&#xc774;&#xd074;&#xb9bd;&#xc2a4; &#xc0ac;&#xc6a9;&#xc911;&#xc778; &#xd568;&#xc218;&#xc778;&#xc9c0; &#xc0b4;&#xd3b4;&#xbcf4;&#xae30;">
 <font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
 <node COLOR="#3333ff" CREATED="1575385360139" ID="ID_1563346745" MODIFIED="1575385369655" STYLE="bubble" TEXT="CTRL + ALT + H">
 <font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
@@ -4442,7 +4442,7 @@
 <node CREATED="1576583116697" FOLDED="true" ID="ID_1597748331" MODIFIED="1584338346372" POSITION="right" TEXT="base64 to file">
 <node CREATED="1576583820535" LINK="https://stackoverflow.com/questions/20879639/write-base64-encoded-image-to-file" MODIFIED="1576583820535" TEXT="https://stackoverflow.com/questions/20879639/write-base64-encoded-image-to-file"/>
 </node>
-<node CREATED="1576583854374" FOLDED="true" ID="ID_409579815" MODIFIED="1584338346372" POSITION="right" TEXT="&#xc774;&#xd074;&#xb9bd;&#xc2a4; &#xb2e8;&#xcd95;&#xd0a4;">
+<node CREATED="1576583854374" FOLDED="true" ID="ID_409579815" MODIFIED="1602740754271" POSITION="right" TEXT="&#xc774;&#xd074;&#xb9bd;&#xc2a4; &#xb2e8;&#xcd95;&#xd0a4;">
 <node CREATED="1576583831382" ID="ID_1743853932" MODIFIED="1576583840211" TEXT="&#xc774;&#xd074;&#xb9bd;&#xc2a4; &#xd604;&#xc7ac; &#xc0ac;&#xc6a9;&#xc911;&#xc778; method">
 <node CREATED="1576583858613" ID="ID_1441668379" LINK="https://stackoverflow.com/questions/5268998/find-methods-calls-in-eclipse-project" MODIFIED="1576583858613" TEXT="https://stackoverflow.com/questions/5268998/find-methods-calls-in-eclipse-project"/>
 <node CREATED="1576583859747" ID="ID_92472382" MODIFIED="1576583865647" TEXT="ctrl + alt + h"/>
