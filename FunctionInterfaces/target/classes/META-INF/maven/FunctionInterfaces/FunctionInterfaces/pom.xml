@@ -3,6 +3,16 @@
   <groupId>FunctionInterfaces</groupId>
   <artifactId>FunctionInterfaces</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <dependencies>
+	  <!-- https://mvnrepository.com/artifact/com.google.guava/guava -->
+	<dependency>
+	    <groupId>com.google.guava</groupId>
+	    <artifactId>guava</artifactId>
+	    <version>30.0-jre</version>
+	</dependency>
+	  
+	  
+  </dependencies>
   <build>
     <sourceDirectory>src</sourceDirectory>
     <plugins>

@@ -4,8 +4,7 @@ import java.util.Map;
 public class TwoArityFunctionSpecialization {
 	
 	public static void main(String[] args) {
-		
-		
+				
 		Map<String,Integer> salaries = new HashMap<>();
 		salaries.put("Jone", 40000);
 		salaries.put("Freddy", 30000);

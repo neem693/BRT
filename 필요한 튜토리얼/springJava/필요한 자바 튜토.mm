@@ -3419,7 +3419,7 @@
 <node CREATED="1569321838984" FOLDED="true" ID="ID_1289431196" MODIFIED="1584338346372" POSITION="right" TEXT="JDBC &#xc624;&#xb958;">
 <node CREATED="1569321843353" ID="ID_437120369" LINK="#ID_1068000342" MODIFIED="1569321851842" TEXT="Failed to determine a suitable driver class "/>
 </node>
-<node COLOR="#3333ff" CREATED="1569954720531" FOLDED="true" ID="ID_1310219766" MODIFIED="1602723557030" POSITION="right" STYLE="bubble" TEXT="&#xd558;&#xc774;&#xbc84;&#xb124;&#xc774;&#xd2b8;(jpa)">
+<node COLOR="#3333ff" CREATED="1569954720531" ID="ID_1310219766" MODIFIED="1603090344115" POSITION="right" STYLE="bubble" TEXT="&#xd558;&#xc774;&#xbc84;&#xb124;&#xc774;&#xd2b8;(jpa)">
 <font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
 <node CREATED="1602136650114" FOLDED="true" ID="ID_1705942387" MODIFIED="1602723531141" TEXT="jpa &#xc124;&#xc815;">
 <node CREATED="1602136655177" ID="ID_1728261160" LINK="https://www.baeldung.com/the-persistence-layer-with-spring-and-jpa" MODIFIED="1602136655177" TEXT="https://www.baeldung.com/the-persistence-layer-with-spring-and-jpa"/>
@@ -3671,7 +3671,7 @@
 <node BACKGROUND_COLOR="#ffffff" COLOR="#ff3333" CREATED="1571804542933" ID="ID_449463916" LINK="#ID_1524617429" MODIFIED="1571804555468" STYLE="bubble" TEXT="dto">
 <font BOLD="true" NAME="Dialog" SIZE="24"/>
 </node>
-<node COLOR="#3333ff" CREATED="1573209693900" FOLDED="true" ID="ID_1406562232" MODIFIED="1602723531141" STYLE="bubble" TEXT="@SqlResultSetMapping">
+<node COLOR="#3333ff" CREATED="1573209693900" FOLDED="true" ID="ID_1406562232" MODIFIED="1603183852785" STYLE="bubble" TEXT="@SqlResultSetMapping">
 <font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
 <node CREATED="1573209728696" ID="ID_814435658" LINK="https://www.baeldung.com/jpa-sql-resultset-mapping" MODIFIED="1573209728696" TEXT="https://www.baeldung.com/jpa-sql-resultset-mapping"/>
 <node CREATED="1573209753658" ID="ID_1992068077" LINK="https://medium.com/@SlackBeck/jpa-native-query-%EC%82%AC%EC%9A%A9%EC%8B%9C-dto%EB%A1%9C-%EB%A7%A4%ED%95%91-%ED%95%98%EA%B8%B0-64625780c758" MODIFIED="1573209753658" TEXT="https://medium.com/@SlackBeck/jpa-native-query-%EC%82%AC%EC%9A%A9%EC%8B%9C-dto%EB%A1%9C-%EB%A7%A4%ED%95%91-%ED%95%98%EA%B8%B0-64625780c758"/>
@@ -3680,7 +3680,7 @@
 <node CREATED="1573210004917" ID="ID_925715025" MODIFIED="1573210044618" TEXT="&#xc774;&#xb7f4; &#xb54c; &#xc4f0;&#xb294; &#xbc29;&#xbc95;&#xc774; none entity dto&#xb97c; &#xc774;&#xc6a9;&#xd55c; &#xbc29;&#xbc95;&#xc778;&#xb370;"/>
 <node CREATED="1573210045337" ID="ID_1021734551" MODIFIED="1573210063571" TEXT="&#xc77c;&#xb2e8; &#xd574;&#xb2f9;&#xd558;&#xb294; &#xc5d4;&#xd2f0;&#xd2f0;&#xc5d0; &#xbbf8;&#xb9ac; result set mapping&#xc744; &#xcd94;&#xac00;&#xd574;&#xc8fc;&#xace0;"/>
 <node CREATED="1573210094165" ID="ID_1122825062" MODIFIED="1573210294951" TEXT="dto&#xc5d0; &#xd574;&#xb2f9;&#xd558;&#xb294; &#xcee8;&#xc2a4;&#xd2b8;&#xb7ed;&#xd130;&#xb97c; &#xb9cc;&#xb4e4;&#xc5b4;&#xc900; &#xd6c4; &#xd574;&#xb2f9; &#xceec;&#xb7fc;&#xc744; &#xc62e;&#xaca8;&#xc8fc;&#xae30;&#xb9cc; &#xd558;&#xba74; &#xb41c;&#xb2e4;."/>
-<node CREATED="1573210389987" FOLDED="true" ID="ID_1318418754" MODIFIED="1573210765759" TEXT="&#xcf54;&#xb4dc; &#xc5d4;&#xd2f0;&#xd2f0; &#xc218;&#xc815;">
+<node CREATED="1573210389987" ID="ID_1318418754" MODIFIED="1603090344150" TEXT="&#xcf54;&#xb4dc; &#xc5d4;&#xd2f0;&#xd2f0; &#xc218;&#xc815;">
 <node CREATED="1573210406993" ID="ID_262983666" MODIFIED="1573210406993" TEXT="@SqlResultSetMapping(">
 <node COLOR="#3333ff" CREATED="1573210406993" ID="ID_1831193610" MODIFIED="1573210655482" STYLE="bubble" TEXT="name = &quot;selectSubjectMatterGroup&quot;,">
 <arrowlink DESTINATION="ID_1839875404" ENDARROW="None" ENDINCLINATION="1318;0;" ID="Arrow_ID_1022277653" STARTARROW="Default" STARTINCLINATION="1318;0;"/>
@@ -3702,7 +3702,7 @@
 <node CREATED="1573210406993" MODIFIED="1573210406993" TEXT="})"/>
 </node>
 <node CREATED="1573210406993" MODIFIED="1573210406993" TEXT="@Entity"/>
-<node CREATED="1573210406993" MODIFIED="1573210406993" TEXT="public class Evaluation_item {"/>
+<node CREATED="1573210406993" ID="ID_1789629468" MODIFIED="1573210406993" TEXT="public class Evaluation_item {"/>
 </node>
 <node CREATED="1573210410519" FOLDED="true" ID="ID_1416434820" MODIFIED="1601971353525" TEXT="&#xc9c1;&#xc811; &#xc0ac;&#xc6a9; &#xcf54;&#xb4dc;">
 <node CREATED="1573210435909" ID="ID_824077148" MODIFIED="1573210697382" TEXT="public ResultMap selectMatter(Long work_id,int page, int size) {">
