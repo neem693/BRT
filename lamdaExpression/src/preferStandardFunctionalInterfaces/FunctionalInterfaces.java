@@ -1,4 +1,4 @@
-package lamdaExpression;
+package preferStandardFunctionalInterfaces;
 
 import java.util.function.Function;
 

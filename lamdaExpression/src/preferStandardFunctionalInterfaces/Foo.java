@@ -1,4 +1,4 @@
-package lamdaExpression;
+package preferStandardFunctionalInterfaces;
 
 @FunctionalInterface
 public interface Foo {
