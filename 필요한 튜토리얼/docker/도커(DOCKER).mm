@@ -4,12 +4,12 @@
 <node CREATED="1574520985825" FOLDED="true" ID="ID_332557311" MODIFIED="1604476630566" POSITION="right" TEXT="&#xb3c4;&#xcee4;&#xd29c;&#xd1a0;">
 <node CREATED="1574520986878" ID="ID_1711626165" LINK="https://www.tutorialspoint.com/docker/docker_hub.htm" MODIFIED="1574520986878" TEXT="https://www.tutorialspoint.com/docker/docker_hub.htm"/>
 </node>
-<node CREATED="1574518744778" FOLDED="true" ID="ID_553498754" MODIFIED="1604476630566" POSITION="right" TEXT="&#xb9ac;&#xb205;&#xc2a4;">
+<node CREATED="1574518744778" ID="ID_553498754" MODIFIED="1604560298454" POSITION="right" TEXT="&#xb9ac;&#xb205;&#xc2a4;">
 <node CREATED="1574518764479" ID="ID_127889830" MODIFIED="1574595691048" TEXT="&#xc124;&#xce58;">
 <node CREATED="1574518765454" ID="ID_1061922675" LINK="https://www.tutorialspoint.com/docker/installing_docker_on_linux.htm" MODIFIED="1574518765454" TEXT="https://www.tutorialspoint.com/docker/installing_docker_on_linux.htm"/>
 </node>
 </node>
-<node CREATED="1574518734978" FOLDED="true" ID="ID_543142848" MODIFIED="1604476630566" POSITION="right" TEXT="&#xc708;&#xb3c4;&#xc6b0;">
+<node CREATED="1574518734978" ID="ID_543142848" MODIFIED="1604560299780" POSITION="right" TEXT="&#xc708;&#xb3c4;&#xc6b0;">
 <node CREATED="1574518742282" ID="ID_913096715" MODIFIED="1574595693926" TEXT="&#xc124;&#xce58;">
 <node CREATED="1574518799074" ID="ID_1857593373" MODIFIED="1574518807825" TEXT="&#xc660;&#xb9cc;&#xd558;&#xba74; docker tool box&#xb97c; &#xc124;&#xce58;&#xd558;&#xb77c;">
 <node CREATED="1574588098602" ID="ID_866455414" LINK="https://github.com/docker/toolbox/releases" MODIFIED="1574588098602" TEXT="https://github.com/docker/toolbox/releases"/>
@@ -19,10 +19,10 @@
 <node CREATED="1574519932754" ID="ID_612131140" LINK="https://docs.docker.com/docker-for-windows/" MODIFIED="1574519932754" TEXT="https://docs.docker.com/docker-for-windows/"/>
 </node>
 </node>
-<node CREATED="1574520656645" FOLDED="true" ID="ID_1038660596" MODIFIED="1604476630566" POSITION="right" TEXT="&#xb3c4;&#xcee4;&#xd5c8;&#xbe0c;">
+<node CREATED="1574520656645" ID="ID_1038660596" MODIFIED="1604560300382" POSITION="right" TEXT="&#xb3c4;&#xcee4;&#xd5c8;&#xbe0c;">
 <node CREATED="1574520658885" ID="ID_1286753147" LINK="https://hub.docker.com/" MODIFIED="1574520658885" TEXT="https://hub.docker.com/"/>
 </node>
-<node CREATED="1574525945820" FOLDED="true" ID="ID_1032424159" MODIFIED="1604557817441" POSITION="right" TEXT="&#xba85;&#xb839;&#xc5b4;">
+<node CREATED="1574525945820" ID="ID_1032424159" MODIFIED="1604560301401" POSITION="right" TEXT="&#xba85;&#xb839;&#xc5b4;">
 <node CREATED="1574523707870" ID="ID_753691210" MODIFIED="1604557606341" TEXT="docker images">
 <node CREATED="1574523712494" ID="ID_1227617778" MODIFIED="1574523714980" TEXT="&#xbaa8;&#xb4e0; &#xc774;&#xbbf8;&#xc9c0;"/>
 </node>
@@ -86,6 +86,21 @@
 <node CREATED="1604556077930" ID="ID_1757386652" MODIFIED="1604556080463" TEXT="&#xc73c;&#xb85c; &#xd480;&#xc218; &#xc788;&#xb2e4;."/>
 </node>
 </node>
+<node CREATED="1604561744931" ID="ID_1821948009" MODIFIED="1604561760160" TEXT="&#xacb0;&#xad6d; &#xc774;&#xb7ec;&#xd55c; -v&#xb97c; &#xc0ac;&#xc6a9;&#xd558;&#xba74; &#xb2e4;&#xc74c;&#xacfc; &#xac19;&#xc740; &#xba85;&#xb839;&#xc5b4;&#xb97c; &#xc0ac;&#xc6a9;&#xd560; &#xc218; &#xc788;&#xb2e4;.">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#ff3333" CREATED="1604561760601" ID="ID_1502426904" MODIFIED="1604566897389" STYLE="bubble" TEXT="docker run -p 80:80 -p 443:443 -v /etc/letsencrypt/:/etc/letsencrypt/ --name thecomment_front thecomment_apache:v1.4">
+<font BOLD="true" NAME="Dialog" SIZE="24"/>
+</node>
+<node COLOR="#3333ff" CREATED="1604561795714" ID="ID_102279506" MODIFIED="1604561855673" STYLE="bubble" TEXT="lets encrypt &#xad00;&#xb828; &#xb0b4;&#xc6a9;&#xc744; &#xd3ec;&#xd568;&#xc2dc;&#xd0a8;&#xac83;">
+<font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
+<node CREATED="1604561929011" ID="ID_1175553763" MODIFIED="1604561940076" TEXT="&#xd574;&#xb2f9; &#xb0b4;&#xc6a9;&#xc740; AWS&#xc758; EC2 &#xb9ac;&#xb205;&#xc2a4; &#xcc38;&#xc870;&#xd560;&#xac83;"/>
+</node>
+<node CREATED="1604561858618" ID="ID_548885356" MODIFIED="1604564733381" TEXT="/etc/letsencrypt/ &#xc758; &#xd638;&#xc2a4;&#xd2b8; &#xb514;&#xb809;&#xd1a0;&#xb9ac;&#xb97c;"/>
+<node CREATED="1604561894282" ID="ID_29813006" MODIFIED="1604564741850" TEXT="/etc/letsencrypt &#xcee8;&#xd14c;&#xc774;&#xb108; &#xb514;&#xb809;&#xd1a0;&#xb9ac;&#xc640; &#xb3d9;&#xc77c;&#xc2dc; &#xd558;&#xaca0;&#xb2e4;&#xb294; &#xac83;"/>
+<node CREATED="1604564997189" ID="ID_980938224" MODIFIED="1604566729612" TEXT="&#xb514;&#xb809;&#xd1a0;&#xb9ac;&#xb97c; &#xb9e4;&#xc6b0; &#xd06c;&#xac8c; &#xc7a1;&#xc740; &#xac83;&#xc778;&#xb370;, &#xc2e4;&#xc81c;&#xc0ac;&#xc6a9;&#xd558;&#xb824;&#xace0; &#xd558;&#xb294; &#xd30c;&#xc77c;&#xb4e4;&#xc740; /etc/letsencrypt/archive/[dir]/cert2.pem &#xb4f1;&#xc5d0; &#xc788;&#xb2e4;."/>
+<node CREATED="1604566671916" ID="ID_937953845" MODIFIED="1604566745596" TEXT="&#xb610; &#xcd5c;&#xc2e0;&#xd654; &#xb418;&#xc5b4;&#xc788;&#xb294; &#xd30c;&#xc77c;&#xb4e4;&#xc740;  /etc/letsencrypt/live/[dir]/cert.pem &#xc774;&#xacf3; &#xb4f1;&#xc5d0; &#xc788;&#xb2e4;."/>
+<node CREATED="1604566745866" ID="ID_1825849966" MODIFIED="1604566882894" TEXT="&#xcd5c;&#xc2e0;&#xd654; &#xb418;&#xc5b4;&#xc788;&#xb294; &#xd30c;&#xc77c;&#xb4e4;&#xc740; &#xc2ec;&#xbcfc;&#xb9ad; &#xb9c1;&#xd06c;&#xb77c;&#xace0; &#xd574;&#xc11c; &#xbc14;&#xb85c;&#xac00;&#xae30;&#xb85c; &#xc778;&#xc99d;&#xc11c;&#xac00; &#xcd5c;&#xc2e0;&#xd654; &#xb418;&#xb294;&#xb370;, &#xbcfc;&#xb968;&#xc744; &#xc801;&#xac8c; &#xc7a1;&#xc544;&#xbc84;&#xb9ac;&#xba74; &#xbc14;&#xb85c;&#xac00;&#xae30; &#xacbd;&#xb85c;&#xc5d0; &#xc5c6;&#xae30;&#xc5d0;  &#xbb38;&#xc81c;&#xac00; &#xbc1c;&#xc0dd;&#xd55c;&#xb2e4;. &#xc6d0;&#xd560;&#xd55c; &#xc2ec;&#xbcfc;&#xb9ad; &#xb9c1;&#xd06c; &#xbc14;&#xb85c;&#xac00;&#xae30;&#xb97c; &#xc704;&#xd574;&#xc11c;&#xb77c;&#xb3c4; &#xbcfc;&#xb968;&#xc744; &#xd06c;&#xac8c; &#xc7a1;&#xc544;&#xbc84;&#xb9b0;&#xac83;"/>
+<node CREATED="1604567168018" ID="ID_263748624" MODIFIED="1604567189912" TEXT="&#xb610;&#xd55c; &#xbcfc;&#xb968;&#xc744; &#xd638;&#xc2a4;&#xd2b8;&#xb85c; &#xc62e;&#xae40;&#xc73c;&#xb85c;&#xc368;, &#xd638;&#xc2a4;&#xd2b8;&#xc5d0;&#xc11c; &#xc778;&#xc99d;&#xc11c;&#xb97c; &#xac31;&#xc2e0;&#xd558;&#xb354;&#xb77c;&#xb3c4; &#xc544;&#xbb34;&#xb7f0; &#xbb38;&#xc81c;&#xac00; &#xc5c6;&#xac8c; &#xb41c;&#xb2e4;."/>
+</node>
 </node>
 <node CREATED="1574866641917" ID="ID_1584123281" MODIFIED="1604557597915" TEXT="docker inspect &#xcee8;&#xd14c;&#xc774;&#xb108;ID">
 <node CREATED="1574866652475" ID="ID_1963437284" LINK="https://docs.docker.com/engine/reference/commandline/inspect/" MODIFIED="1574866652475" TEXT="https://docs.docker.com/engine/reference/commandline/inspect/"/>
@@ -98,7 +113,7 @@
 <node CREATED="1580216450631" FOLDED="true" ID="ID_342485420" MODIFIED="1604555761755" TEXT="docker cp /host/path/target &lt;containerId&gt;:/file/path/within/container">
 <node CREATED="1580216452075" ID="ID_80027891" MODIFIED="1580379566332" TEXT="&#xc6b0;&#xbd84;&#xd22c;&#xc5d0; &#xc788;&#xb294;&#xac78; &#xadf8;&#xb300;&#xb85c; &#xcee8;&#xd14c;&#xc774;&#xb108;&#xc5d0; &#xaf2c;&#xb77c;&#xbc15;&#xc544; &#xb123;&#xb294;&#xb2e4;."/>
 </node>
-<node CREATED="1580277920829" FOLDED="true" ID="ID_560404148" MODIFIED="1604555761755" TEXT="docker build &lt;&#xc635;&#xc158;&gt; &lt;Dockerfile &#xacbd;&#xb85c;&gt;">
+<node CREATED="1580277920829" ID="ID_560404148" MODIFIED="1604560895752" TEXT="docker build &lt;&#xc635;&#xc158;&gt; &lt;Dockerfile &#xacbd;&#xb85c;&gt;">
 <node CREATED="1580277920830" ID="ID_35054002" MODIFIED="1580277920830" TEXT="Dockerfile &#xacbd;&#xb85c;&#xb294; &#xb85c;&#xceec; &#xacbd;&#xb85c;&#xc640; URL&#xc744; &#xc0ac;&#xc6a9;&#xd560; &#xc218; &#xc788;&#xace0;, -&#xb97c; &#xc124;&#xc815;&#xd558;&#xba74; &#xd45c;&#xc900; &#xc785;&#xb825;&#xc73c;&#xb85c; Dockerfile &#xb0b4;&#xc6a9;&#xc744; &#xbc1b;&#xc744; &#xc218; &#xc788;&#xc2b5;&#xb2c8;&#xb2e4;."/>
 <node CREATED="1580277920832" ID="ID_904658016" MODIFIED="1580277920832" TEXT="--force-rm=false: &#xc774;&#xbbf8;&#xc9c0; &#xc0dd;&#xc131;&#xc5d0; &#xc2e4;&#xd328;&#xd588;&#xc744; &#xb54c;&#xb3c4; &#xc784;&#xc2dc; &#xcee8;&#xd14c;&#xc774;&#xb108;&#xb97c; &#xc0ad;&#xc81c;&#xd569;&#xb2c8;&#xb2e4;."/>
 <node CREATED="1580277920834" ID="ID_495420543" MODIFIED="1580277920834" TEXT="--no-cache=false: &#xc774;&#xc804; &#xbe4c;&#xb4dc;&#xc5d0;&#xc11c; &#xc0dd;&#xc131;&#xb41c; &#xce90;&#xc2dc;&#xb97c; &#xc0ac;&#xc6a9;&#xd558;&#xc9c0; &#xc54a;&#xc2b5;&#xb2c8;&#xb2e4;. Docker&#xb294; &#xc774;&#xbbf8;&#xc9c0; &#xc0dd;&#xc131; &#xc2dc;&#xac04;&#xc744; &#xc904;&#xc774;&#xae30; &#xc704;&#xd574;&#xc11c; Dockerfile&#xc758; &#xac01; &#xacfc;&#xc815;&#xc744; &#xce90;&#xc2dc;&#xd558;&#xb294;&#xb370;, &#xc774; &#xce90;&#xc2dc;&#xb97c; &#xc0ac;&#xc6a9;&#xd558;&#xc9c0; &#xc54a;&#xace0; &#xcc98;&#xc74c;&#xbd80;&#xd130; &#xb2e4;&#xc2dc; &#xc774;&#xbbf8;&#xc9c0;&#xb97c; &#xc0dd;&#xc131;&#xd569;&#xb2c8;&#xb2e4;."/>
@@ -184,7 +199,7 @@
 <node CREATED="1574588557493" FOLDED="true" ID="ID_532788729" MODIFIED="1604482393904" POSITION="right" TEXT="&#xb3c4;&#xcee4; &#xc0ac;&#xc6a9;&#xd6c4; &#xbc84;&#xcd94;&#xc5b4; &#xbc15;&#xc2a4; &#xc548;&#xb420; &#xb54c;">
 <node CREATED="1574590378123" ID="ID_325141841" LINK="https://www.youtube.com/watch?v=hRl-0lcQjdU" MODIFIED="1574590378123" TEXT="https://www.youtube.com/watch?v=hRl-0lcQjdU"/>
 </node>
-<node CREATED="1574596827786" FOLDED="true" ID="ID_851634636" MODIFIED="1604482393904" POSITION="right" TEXT="&#xc2a4;&#xd504;&#xb9c1;&#xbd80;&#xd2b8; maven build docker">
+<node CREATED="1574596827786" ID="ID_851634636" MODIFIED="1604560878629" POSITION="right" TEXT="&#xc2a4;&#xd504;&#xb9c1;&#xbd80;&#xd2b8; maven build docker">
 <node CREATED="1574597840880" ID="ID_1821338397" LINK="https://codefresh.io/howtos/using-docker-maven-maven-docker/" MODIFIED="1574597841494" TEXT="https://codefresh.io/howtos/using-docker-maven-maven-docker/"/>
 <node CREATED="1574597832137" ID="ID_1246621676" LINK="https://github.com/spotify/dockerfile-maven" MODIFIED="1574597832137" TEXT="https://github.com/spotify/dockerfile-maven"/>
 </node>
@@ -215,7 +230,7 @@
 <node CREATED="1580287379977" ID="ID_304713208" MODIFIED="1580287379977" TEXT="apt-get update"/>
 <node CREATED="1580287379978" MODIFIED="1580287379978" TEXT="apt-get install vim"/>
 </node>
-<node CREATED="1581951526884" FOLDED="true" ID="ID_98238046" MODIFIED="1604482393904" POSITION="right" TEXT="&#xb3c4;&#xcee4;&#xc5d0;&#xc11c; &#xc2dc;&#xac04; &#xd55c;&#xad6d;&#xc2dc;&#xac04;&#xc73c;&#xb85c; &#xbcc0;&#xacbd;&#xd558;&#xae30;[&#xb3c4;&#xcee4;&#xd30c;&#xc77c;]">
+<node CREATED="1581951526884" FOLDED="true" ID="ID_98238046" MODIFIED="1604561018859" POSITION="right" TEXT="&#xb3c4;&#xcee4;&#xc5d0;&#xc11c; &#xc2dc;&#xac04; &#xd55c;&#xad6d;&#xc2dc;&#xac04;&#xc73c;&#xb85c; &#xbcc0;&#xacbd;&#xd558;&#xae30;[&#xb3c4;&#xcee4;&#xd30c;&#xc77c;]">
 <node CREATED="1581951689123" ID="ID_242227193" MODIFIED="1581951689123" TEXT="RUN ln -sf /usr/share/zoneinfo/Asia/Seoul /etc/localtime"/>
 <node CREATED="1581951690820" ID="ID_1308164626" MODIFIED="1581951701330" TEXT="&#xc5ec;&#xae30;&#xc11c; RUN&#xc774; &#xc544;&#xb9c8;&#xb3c4; &#xb9ac;&#xb205;&#xc2a4; &#xba85;&#xb839;&#xc5b4;&#xb97c; &#xce58;&#xb77c;&#xb294;&#xac70; &#xac19;&#xb2e4;."/>
 <node CREATED="1581951805636" ID="ID_1725277321" MODIFIED="1581951809373" TEXT="&#xbcc0;&#xacbd;&#xd558;&#xb294; &#xac83;&#xc5d0; &#xb300;&#xd55c; &#xc124;&#xba85;">
