@@ -22,7 +22,7 @@
 <node CREATED="1573700107872" ID="ID_911287260" MODIFIED="1573700107872" TEXT="openssl req -new -newkey rsa:2048 -nodes -out D:\key\oratree.csr -keyout D:\key\oratree.key -subj &quot;/C=KR/ST=mapo/L=seoul/O=BM_Cunsulting/OU=developer/CN=www.example.com&quot;"/>
 <node CREATED="1573700107874" ID="ID_1510040510" MODIFIED="1573700107874" TEXT="openssl x509 -req -in D:\key\oratree.csr -signkey D:\key\oratree.key -out D:\key\oratree.crt"/>
 </node>
-<node CREATED="1573700118701" ID="ID_1802056153" MODIFIED="1573700122259" POSITION="right" TEXT="conf &#xc124;&#xc815;">
+<node CREATED="1573700118701" FOLDED="true" ID="ID_1802056153" MODIFIED="1604561726331" POSITION="right" TEXT="conf &#xc124;&#xc815;">
 <node CREATED="1573700122527" ID="ID_1599890253" MODIFIED="1573700122527" TEXT="Listen 80"/>
 <node CREATED="1573700122527" ID="ID_465854624" MODIFIED="1573700122527" TEXT="Listen 443"/>
 <node CREATED="1604558986774" ID="ID_1384704392" MODIFIED="1604559010559" TEXT="LoadModule ssl_module modules/mod_ssl.so">
@@ -35,8 +35,11 @@
 <node CREATED="1573700122530" ID="ID_125963362" MODIFIED="1573700122530" TEXT="SSLCertificateFile &quot;D:/key/oratree.crt&quot;"/>
 <node CREATED="1573700122530" ID="ID_624747993" MODIFIED="1573700122530" TEXT="SSLCertificateKeyFile &quot;D:/key/oratree.key&quot;"/>
 </node>
-<node CREATED="1573700122530" ID="ID_234365876" MODIFIED="1573700122530" TEXT="#        SSLCertificateChainFile &quot;D:/key/oratree.crt&quot;"/>
+<node CREATED="1573700122530" ID="ID_234365876" MODIFIED="1604561661850" TEXT="update"/>
 <node CREATED="1573700122531" ID="ID_123806031" MODIFIED="1573700122531" TEXT="&lt;/VirtualHost&gt;"/>
+<node COLOR="#3333ff" CREATED="1604560465924" ID="ID_955843670" MODIFIED="1604560478165" STYLE="bubble" TEXT="&#xd504;&#xb85d;&#xc2dc;&#xb97c; &#xc0ac;&#xc6a9;&#xd560; &#xacbd;&#xc6b0; SSLProxyEngine&#xc744; &#xcf1c;&#xc57c; &#xd55c;&#xb2e4;.">
+<font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
+</node>
 <node CREATED="1604559637813" ID="ID_1132566" MODIFIED="1604559640294" TEXT="&#xc608;)">
 <node CREATED="1604559672166" ID="ID_1791688997" MODIFIED="1604559673290" TEXT="&#xc774;&#xbbf8;&#xc9c0;">
 <node CREATED="1604559673814" ID="ID_95728531" MODIFIED="1604559673814">
@@ -47,8 +50,7 @@
   <body>
     <img src="apacheTuto_5735461485881403793.jpeg" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>

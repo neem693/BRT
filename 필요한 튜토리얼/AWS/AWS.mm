@@ -1,13 +1,13 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1576732444216" ID="ID_1650274313" MODIFIED="1583576885169" TEXT="AWS">
-<node BACKGROUND_COLOR="#ffffff" COLOR="#ff3333" CREATED="1580314634770" ID="ID_1438109617" MODIFIED="1604543156632" POSITION="right" STYLE="bubble" TEXT="&#xcf58;&#xc194; IAM&#xb9c1;&#xd06c;">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#ff3333" CREATED="1580314634770" FOLDED="true" ID="ID_1438109617" MODIFIED="1604561944090" POSITION="right" STYLE="bubble" TEXT="&#xcf58;&#xc194; IAM&#xb9c1;&#xd06c;">
 <font BOLD="true" NAME="Dialog" SIZE="24"/>
 <node BACKGROUND_COLOR="#ffffff" COLOR="#ff3333" CREATED="1580314643923" ID="ID_625040316" LINK="https://574844189779.signin.aws.amazon.com/console" MODIFIED="1580314648545" STYLE="bubble" TEXT="https://574844189779.signin.aws.amazon.com/console">
 <font BOLD="true" NAME="Dialog" SIZE="24"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#ff3333" CREATED="1604475768431" ID="ID_1952501483" MODIFIED="1604475775013" POSITION="right" STYLE="bubble" TEXT="ssh key&#xb85c; &#xc811;&#xc18d; &#xbc29;&#xbc95;">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#ff3333" CREATED="1604475768431" FOLDED="true" ID="ID_1952501483" MODIFIED="1604561944090" POSITION="right" STYLE="bubble" TEXT="ssh key&#xb85c; &#xc811;&#xc18d; &#xbc29;&#xbc95;">
 <font BOLD="true" NAME="Dialog" SIZE="24"/>
 <node CREATED="1604475776332" ID="ID_111787677" LINK="https://www.nepirity.com/blog/ssh-key-login/" MODIFIED="1604475776332" TEXT="https://www.nepirity.com/blog/ssh-key-login/"/>
 <node CREATED="1604475784605" ID="ID_1093461458" MODIFIED="1604475796917" TEXT="pem &#xc77c;&#xb54c; &#xc774; &#xbc29;&#xbc95;&#xc774; &#xb9de;&#xb2e4;."/>
@@ -25,7 +25,7 @@
 </node>
 <node CREATED="1576732610584" ID="ID_172411559" MODIFIED="1576732634674" POSITION="right" TEXT="AWS &#xc0ac;&#xc758; &#xc11c;&#xbe44;&#xc2a4;&#xb4e4;&#xc740; ARN(Amazon Resource Number)&#xbc88;&#xd638; &#xbd99;&#xc74c;"/>
 <node CREATED="1576732825710" ID="ID_873317767" MODIFIED="1576732830042" POSITION="right" TEXT="CDN &#xc6f9; &#xcf58;&#xd150;&#xce20;"/>
-<node CREATED="1576733112270" FOLDED="true" ID="ID_1029962564" MODIFIED="1604476553038" POSITION="right" TEXT="&#xc11c;&#xbe44;&#xc2a4;">
+<node CREATED="1576733112270" ID="ID_1029962564" MODIFIED="1604568201091" POSITION="right" TEXT="&#xc11c;&#xbe44;&#xc2a4;">
 <node CREATED="1576732843730" FOLDED="true" ID="ID_1715326610" MODIFIED="1576734587696" TEXT="&#xcef4;&#xd4e8;&#xd305;">
 <node CREATED="1576732845374" ID="ID_1036479344" MODIFIED="1576732848213" TEXT="EC2">
 <node CREATED="1576732850586" ID="ID_1019026111" MODIFIED="1576732864546" TEXT="Elastic Compute Cloud"/>
@@ -51,7 +51,7 @@
 <node CREATED="1576733085186" ID="ID_634981325" MODIFIED="1576733102361" TEXT="&#xc11c;&#xbc84; &#xb7f0;&#xd0c0;&#xc784;&#xbd80;&#xd130; &#xc6b4;&#xc601;&#xccb4;&#xc81c; &#xd658;&#xacbd;&#xae4c;&#xc9c0; &#xad00;&#xb9ac; &#xd574;&#xc8fc;&#xba70; &#xac1c;&#xbc1c;&#xc790;&#xb294; &#xc18c;&#xc2a4;&#xcf54;&#xb4dc;&#xb9cc; &#xc5c5;&#xb85c;&#xb4dc;&#xd558;&#xc5ec; &#xbc14;&#xb85c; &#xc6b4;&#xc601;&#xd560; &#xc218; &#xc788;&#xc74c;"/>
 </node>
 </node>
-<node CREATED="1576733117959" FOLDED="true" ID="ID_712424965" MODIFIED="1576734587696" TEXT="&#xc2a4;&#xd1a0;&#xb9ac;&#xc9c0;">
+<node CREATED="1576733117959" FOLDED="true" ID="ID_712424965" MODIFIED="1604568201063" TEXT="&#xc2a4;&#xd1a0;&#xb9ac;&#xc9c0;">
 <node CREATED="1576733123654" ID="ID_153816062" MODIFIED="1576733128635" TEXT="S3">
 <node CREATED="1576733129202" ID="ID_1509889099" MODIFIED="1576733139913" TEXT="&#xc544;&#xb9c8;&#xc874; &#xc6f9; &#xc11c;&#xbe44;&#xc2a4;&#xc5d0;&#xc11c; &#xac00;&#xc7a5; &#xc5ed;&#xc0ac;&#xac00; &#xc624;&#xb798;&#xb41c; &#xc11c;&#xbe44;&#xc2a4;"/>
 <node CREATED="1576733140097" ID="ID_834857519" MODIFIED="1576733150036" TEXT="&#xb2e4;&#xb978; &#xc0c1;&#xc6a9; &#xd074;&#xb77c;&#xc6b0;&#xb4dc;&#xc5d0; &#xbe44;&#xd574; &#xc6d4;&#xb4f1;&#xd55c; &#xc131;&#xb2a5;&#xc744; &#xbcf4;&#xc5ec;&#xc8fc;&#xb294; &#xc2a4;&#xd1a0;&#xb9ac;&#xc9c0; &#xc11c;&#xbe44;&#xc2a4;"/>
@@ -91,7 +91,7 @@
 <node CREATED="1576733631179" ID="ID_1023313999" MODIFIED="1576733647335" TEXT="&#xd398;&#xd0c0; &#xbc14;&#xc774;&#xd2b8; &#xaddc;&#xbaa8;&#xc758; &#xb370;&#xc774;&#xd130; &#xcffc;&#xb9ac;&#xb97c; &#xc800;&#xb834;&#xd55c; &#xac00;&#xaca9;&#xc5d0; &#xc720;&#xc9c0; &#xbcf4;&#xc218; &#xbc0f; &#xc6b4;&#xc601;&#xd560; &#xc218; &#xc788;&#xb3c4;&#xb85d; &#xb9cc;&#xb4ec;"/>
 </node>
 </node>
-<node CREATED="1576733655109" FOLDED="true" ID="ID_978657543" MODIFIED="1604474781286" TEXT="&#xb124;&#xd2b8;&#xc6cc;&#xd06c;">
+<node CREATED="1576733655109" ID="ID_978657543" MODIFIED="1604568201122" TEXT="&#xb124;&#xd2b8;&#xc6cc;&#xd06c;">
 <node CREATED="1576733657462" ID="ID_158426359" MODIFIED="1576733659714" TEXT="VPC">
 <node CREATED="1576733660295" ID="ID_932156246" MODIFIED="1576733680477" TEXT="VPC&#xb294; AWS&#xc5d0;&#xc11c; &apos;&#xac00;&#xc0c1; &#xb124;&#xd2b8;&#xc6cc;&#xd06c;&#xb9dd;&apos; &#xad6c;&#xcd95; &#xc9c0;&#xc6d0; &#xc11c;&#xbe44;&#xc2a4;"/>
 <node CREATED="1576733680776" ID="ID_855877974" MODIFIED="1576733704386" TEXT="&#xc11c;&#xbe44;&#xc2a4; &#xbcf4;&#xc548; &#xc218;&#xc900;&#xc744; &#xacb0;&#xc815;&#xd558;&#xac70;&#xb098; EC2&#xb098; RDS&#xc640; &#xac19;&#xc740; AWS &#xc11c;&#xbe44;&#xc2a4;&#xb4e4;&#xc5d0; &#xc801;&#xd569;&#xd55c; &#xad8c;&#xd55c;&#xc774; &#xc788;&#xb294; &#xc0ac;&#xc6a9;&#xc790;&#xb4e4;&#xb9cc; &#xc811;&#xc18d;&#xd560; &#xc218; &#xc788;&#xac8c; &#xd568;"/>
@@ -519,18 +519,18 @@
 </node>
 </node>
 </node>
-<node CREATED="1579877608458" ID="ID_324617351" MODIFIED="1604476556145" POSITION="right" TEXT="EC2">
-<node CREATED="1582293965645" ID="ID_1659000465" MODIFIED="1604545240835" TEXT="&#xad8c;&#xd55c;">
+<node CREATED="1579877608458" ID="ID_324617351" MODIFIED="1604561944736" POSITION="right" TEXT="EC2">
+<node CREATED="1582293965645" ID="ID_1659000465" MODIFIED="1604568181753" TEXT="&#xad8c;&#xd55c;">
 <node CREATED="1582293973947" ID="ID_1468331654" MODIFIED="1582293977854" TEXT="sudo &#xc640; su">
 <node CREATED="1582293978938" ID="ID_1831552657" LINK="https://brownbears.tistory.com/227" MODIFIED="1582293978938" TEXT="https://brownbears.tistory.com/227"/>
 </node>
 <node CREATED="1582293980773" ID="ID_1535830054" MODIFIED="1582293984990" TEXT="sudo &#xb294; &#xad8c;&#xd55c;&#xc744; &#xbe4c;&#xb9ac;&#xb294; &#xac83;"/>
 <node CREATED="1582293985347" ID="ID_1262158927" MODIFIED="1582293991080" TEXT="sudo su&#xb294; root &#xacc4;&#xc815;&#xc73c;&#xb85c; &#xbcc0;&#xacbd;"/>
 </node>
-<node CREATED="1579877611932" ID="ID_459850482" MODIFIED="1604545240196" TEXT="fileZila">
+<node CREATED="1579877611932" FOLDED="true" ID="ID_459850482" MODIFIED="1604568232050" TEXT="fileZila">
 <node CREATED="1579877618755" ID="ID_1312948013" LINK="https://hyeonstorage.tistory.com/272" MODIFIED="1579877618755" TEXT="https://hyeonstorage.tistory.com/272"/>
 </node>
-<node CREATED="1580192948909" ID="ID_1914948133" MODIFIED="1604545239494" TEXT="&#xb3c4;&#xcee4; &#xc124;&#xce58;(&#xc6b0;&#xbd84;&#xd22c;)">
+<node CREATED="1580192948909" FOLDED="true" ID="ID_1914948133" MODIFIED="1604568227369" TEXT="&#xb3c4;&#xcee4; &#xc124;&#xce58;(&#xc6b0;&#xbd84;&#xd22c;)">
 <node CREATED="1580192951169" ID="ID_1076906586" LINK="https://docs.docker.com/install/linux/docker-ce/ubuntu/" MODIFIED="1580192951169" TEXT="https://docs.docker.com/install/linux/docker-ce/ubuntu/"/>
 <node CREATED="1580323778505" ID="ID_1562668762" MODIFIED="1580323795936" TEXT="&#xc124;&#xce58; &#xc644;&#xb8cc; &#xd6c4;&#xc5d0; &#xc624;&#xc9c1; root &#xac8c;&#xc815;&#xb9cc; &#xb9cc;&#xc9c8; &#xc218; &#xc788;&#xc744; &#xb54c; &#xd574;&#xacb0;&#xbc29;&#xbc95;">
 <node CREATED="1580324087649" ID="ID_59463938" MODIFIED="1580324087649" TEXT="sudo usermod -aG docker your-user"/>
@@ -538,17 +538,17 @@
 <node CREATED="1580324107730" ID="ID_106522406" MODIFIED="1580324114008" TEXT="&#xc774;&#xac70; &#xd55c; &#xd6c4; session&#xc885;&#xb8cc; &#xd6c4; &#xb2e4;&#xc2dc; &#xc811;&#xc18d;"/>
 </node>
 </node>
-<node CREATED="1580313782298" ID="ID_492431614" MODIFIED="1604545238892" TEXT="&#xc5d0;&#xb7ec; &#xbc1c;&#xc0dd;&#xc2dc;">
+<node CREATED="1580313782298" FOLDED="true" ID="ID_492431614" MODIFIED="1604568228233" TEXT="&#xc5d0;&#xb7ec; &#xbc1c;&#xc0dd;&#xc2dc;">
 <node CREATED="1580313784837" ID="ID_661938759" LINK="https://kgu0724.tistory.com/71" MODIFIED="1580313784837" TEXT="https://kgu0724.tistory.com/71"/>
 </node>
-<node CREATED="1580280121659" ID="ID_1286435419" MODIFIED="1604477095328" TEXT="&#xb9ac;&#xb205;&#xc2a4;">
+<node CREATED="1580280121659" ID="ID_1286435419" MODIFIED="1604568228400" TEXT="&#xb9ac;&#xb205;&#xc2a4;">
 <node CREATED="1580280125326" FOLDED="true" ID="ID_764810834" MODIFIED="1604555619252" TEXT="&#xb85c;&#xadf8; live">
 <node CREATED="1580280150845" ID="ID_77481304" MODIFIED="1580280150845" TEXT="tail -f /path/thefile.log"/>
 </node>
 <node CREATED="1580281236530" FOLDED="true" ID="ID_781663478" MODIFIED="1604555619252" TEXT="&#xbaa8;&#xb4e0; &#xc11c;&#xbe44;&#xc2a4; &#xbcf4;&#xae30;">
 <node CREATED="1580281239426" ID="ID_632277568" MODIFIED="1580281239426" TEXT="service --status-all|grep +"/>
 </node>
-<node CREATED="1580286689726" FOLDED="true" ID="ID_1402451353" MODIFIED="1604555619252" TEXT="&#xad8c;&#xd55c;">
+<node CREATED="1580286689726" ID="ID_1402451353" MODIFIED="1604568265117" TEXT="&#xad8c;&#xd55c;">
 <node CREATED="1580286697729" ID="ID_1601941785" MODIFIED="1580286698594" TEXT="&#xac1c;&#xb150;">
 <node CREATED="1580286698958" ID="ID_295912013" LINK="https://withcoding.com/103" MODIFIED="1580286698958" TEXT="https://withcoding.com/103"/>
 </node>
@@ -566,7 +566,7 @@
 <node CREATED="1580287123200" FOLDED="true" ID="ID_12230323" MODIFIED="1604555619252" TEXT="&#xbaa8;&#xb450; &#xbcf4;&#xc5ec;&#xc8fc;&#xae30;">
 <node CREATED="1580287141033" ID="ID_1026797230" MODIFIED="1580287144681" TEXT="ls -a -l"/>
 </node>
-<node CREATED="1580287524862" ID="ID_1627820506" MODIFIED="1604557827669" TEXT="vi &#xc5d0;&#xb514;&#xd130;">
+<node CREATED="1580287524862" FOLDED="true" ID="ID_1627820506" MODIFIED="1604568229496" TEXT="vi &#xc5d0;&#xb514;&#xd130;">
 <node CREATED="1582297002975" FOLDED="true" ID="ID_83482464" MODIFIED="1604545225811" TEXT="&#xc124;&#xce58;">
 <node CREATED="1582297005042" ID="ID_1389438278" MODIFIED="1582297010609" TEXT="apt-get update"/>
 <node CREATED="1582297011101" ID="ID_822607799" MODIFIED="1582297015293" TEXT="apt-get install vim"/>
@@ -705,7 +705,7 @@
 <node CREATED="1589874375670" ID="ID_656061454" LINK="https://ironmask.net/355" MODIFIED="1589874375670" TEXT="https://ironmask.net/355"/>
 </node>
 </node>
-<node CREATED="1604555623931" ID="ID_576644880" MODIFIED="1604555624942" TEXT="&#xc0ad;&#xc81c;">
+<node CREATED="1604555623931" FOLDED="true" ID="ID_576644880" MODIFIED="1604568229496" TEXT="&#xc0ad;&#xc81c;">
 <node CREATED="1604555633108" ID="ID_33195677" MODIFIED="1604555635240" TEXT="&#xd30c;&#xc77c; &#xc0ad;&#xc81c;">
 <node CREATED="1604555662242" MODIFIED="1604555662242" TEXT="rm test"/>
 </node>
@@ -716,7 +716,7 @@
 <node CREATED="1604555646491" LINK="https://webdir.tistory.com/140" MODIFIED="1604555646491" TEXT="https://webdir.tistory.com/140"/>
 </node>
 </node>
-<node COLOR="#3333ff" CREATED="1604382218421" FOLDED="true" ID="ID_396802534" MODIFIED="1604555619252" STYLE="bubble" TEXT="&#xac1c;&#xbc29;&#xd615; &#xc778;&#xc99d;&#xae30;&#xad00;">
+<node COLOR="#3333ff" CREATED="1604382218421" FOLDED="true" ID="ID_396802534" MODIFIED="1604568229496" STYLE="bubble" TEXT="&#xac1c;&#xbc29;&#xd615; &#xc778;&#xc99d;&#xae30;&#xad00;">
 <font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
 <node BACKGROUND_COLOR="#ffffff" COLOR="#ff3333" CREATED="1604382206908" ID="ID_1583176643" MODIFIED="1604382264627" STYLE="bubble" TEXT="lets encrypt">
 <font BOLD="true" NAME="Dialog" SIZE="24"/>
@@ -726,7 +726,33 @@
 <node CREATED="1604382575684" ID="ID_1036668962" LINK="https://certbot.eff.org/instructions" MODIFIED="1604382575684" TEXT="https://certbot.eff.org/instructions"/>
 <node CREATED="1604382589459" ID="ID_1409524901" MODIFIED="1604382608254" TEXT="&#xc5ec;&#xae30;&#xc11c; &#xc2dc;&#xc2a4;&#xd15c;&#xc744; &#xc120;&#xd0dd;&#xd558;&#xace0; &#xd558;&#xb77c;&#xb294; &#xb370;&#xb85c; &#xd558;&#xba74; &#xc778;&#xc99d;&#xc11c;&#xb97c; &#xbc1b;&#xc744; &#xc218; &#xc788;&#xb2e4;."/>
 </node>
-<node CREATED="1604543891317" LINK="https://lynlab.co.kr/blog/72" MODIFIED="1604543891317" TEXT="https://lynlab.co.kr/blog/72"/>
+<node CREATED="1604543891317" ID="ID_62076251" LINK="https://lynlab.co.kr/blog/72" MODIFIED="1604543891317" TEXT="https://lynlab.co.kr/blog/72">
+<node CREATED="1604562115618" ID="ID_1885887764" MODIFIED="1604562120436" TEXT="certbot&#xc744; &#xb2e4;&#xc6b4;&#xbc1b;&#xace0;"/>
+<node CREATED="1604562123017" ID="ID_287011473" MODIFIED="1604562127609" TEXT="&#xb2e4;&#xc74c;&#xacfc; &#xac19;&#xc774; docker&#xb97c; &#xc2e4;&#xd589;">
+<node CREATED="1604562128081" ID="ID_276860556" MODIFIED="1604562128081" TEXT="docker run -it --rm --name certbot \">
+<node CREATED="1604562128081" MODIFIED="1604562128081" TEXT="-v &apos;/etc/letsencrypt:/etc/letsencrypt&apos; \"/>
+<node CREATED="1604562128081" MODIFIED="1604562128081" TEXT="-v &apos;/var/lib/letsencrypt:/var/lib/letsencrypt&apos; \"/>
+<node CREATED="1604562128081" LINK="https://acme-v02.api.letsencrypt.org/directory" MODIFIED="1604562128081" TEXT="certbot/certbot certonly -d &apos;*.yourdomain.com&apos; --manual --preferred-challenges dns --server https://acme-v02.api.letsencrypt.org/directory"/>
+</node>
+</node>
+<node CREATED="1604562129121" ID="ID_1065733323" MODIFIED="1604562146093" TEXT="TXT &#xad00;&#xb828; &#xb0b4;&#xc6a9;&#xc744; &#xb808;&#xcf54;&#xb4dc;&#xc5d0; &#xc800;&#xc7a5;&#xd558;&#xb294;&#xac83;&#xc73c;&#xb85c; &#xb9c8;&#xbb34;&#xb9ac;"/>
+</node>
+<node CREATED="1604564791853" ID="ID_1414510322" MODIFIED="1604564844930" TEXT="&#xb3c4;&#xcee4;&#xc5d0;&#xc11c; &#xc2e4;&#xd589;&#xc744; &#xd560; &#xb54c; &#xb514;&#xb809;&#xd1a0;&#xb9ac;&#xb294; live/[dir]/&#xd30c;&#xc77c; &#xc774;&#xb2e4;."/>
+<node CREATED="1604564845117" ID="ID_709664797" MODIFIED="1604564853306" TEXT="&#xadf8;&#xb7f0;&#xb370; &#xc774; &#xd30c;&#xc77c;&#xb4e4;&#xc740; &#xbaa8;&#xb450; &#xc2ec;&#xbcfc;&#xb9ad; &#xb9c1;&#xd06c;&#xc774;&#xb2e4;.">
+<node CREATED="1604564853797" ID="ID_253375969" MODIFIED="1604564860456" TEXT="&#xc2ec;&#xbcfc;&#xb9ad; &#xb9c1;&#xd06c;&#xb294; &#xc77c;&#xc885;&#xc758; &#xbc14;&#xb85c;&#xac00;&#xae30;&#xc774;&#xb2e4;."/>
+<node CREATED="1604564948933" ID="ID_1705429809" LINK="#ID_508848588" MODIFIED="1604564953061" TEXT="&#xc774;&#xacf3;&#xc744; &#xcc38;&#xc870;&#xd558;&#xb77c;"/>
+<node CREATED="1604564969037" ID="ID_274045615" MODIFIED="1604564978842" TEXT="&#xb530;&#xb77c;&#xc11c; &#xc804;&#xccb4;&#xb97c; &#xbaa8;&#xb450; &#xbcfc;&#xb968;&#xc870;&#xc808;&#xc774; &#xd544;&#xc694;&#xd558;&#xb2e4;."/>
+<node CREATED="1604564979037" ID="ID_1946473317" MODIFIED="1604564990896" TEXT="&#xc790;&#xc138;&#xd55c; &#xb0b4;&#xc6a9;&#xc740; &#xb3c4;&#xcee4; run &#xbd80;&#xbd84;&#xc744; &#xcc38;&#xc870; &#xd560;&#xac83;"/>
+</node>
+</node>
+<node CREATED="1604564893693" FOLDED="true" ID="ID_508848588" MODIFIED="1604568229496" TEXT="&#xc2ec;&#xbcfc;&#xb9ad; &#xb9c1;&#xd06c;">
+<node CREATED="1604564902752" ID="ID_822701856" MODIFIED="1604564902752" TEXT="ln -s [&#xc6d0;&#xbcf8; &#xd30c;&#xc77c; &#xb610;&#xb294; &#xb514;&#xb809;&#xd1a0;&#xb9ac;] [&#xc2ec;&#xbcfc;&#xb9ad; &#xb9c1;&#xd06c; &#xc774;&#xb984;]"/>
+<node CREATED="1604564919661" ID="ID_1715833764" MODIFIED="1604564920757" TEXT="&#xc608;">
+<node CREATED="1604564937645" ID="ID_430489588" MODIFIED="1604564939290" TEXT="[tour@tourWeb ~]$ ln -s ./test ./test22"/>
+</node>
+<node CREATED="1604564942101" ID="ID_1087125748" MODIFIED="1604564943732" TEXT="&#xcc38;&#xc870;">
+<node CREATED="1604564958869" LINK="https://fruitdev.tistory.com/85" MODIFIED="1604564958869" TEXT="https://fruitdev.tistory.com/85"/>
+</node>
 </node>
 </node>
 </node>
@@ -940,7 +966,7 @@
 <node CREATED="1580186348073" LINK="https://tools.ietf.org/html/rfc1918" MODIFIED="1580186348073" TEXT="https://tools.ietf.org/html/rfc1918"/>
 </node>
 </node>
-<node CREATED="1580978826450" FOLDED="true" ID="ID_158648183" MODIFIED="1604475763077" POSITION="right" TEXT="&#xb3c4;&#xba54;&#xc778; &#xc124;&#xc815;">
+<node CREATED="1580978826450" ID="ID_158648183" MODIFIED="1604568206606" POSITION="right" TEXT="&#xb3c4;&#xba54;&#xc778; &#xc124;&#xc815;">
 <node CREATED="1580978831244" ID="ID_1764888069" MODIFIED="1580978853938" TEXT="&#xac00;&#xbe44;&#xc544;&#xc5d0;&#xc11c; &#xc0b0;&#xac83; &#xc801;&#xc6a9;">
 <node CREATED="1580978854300" ID="ID_938622242" LINK="https://teddylee777.github.io/aws/%EC%95%84%EB%A7%88%EC%A1%B4AWS-%EC%9D%B8%EC%8A%A4%ED%84%B4%EC%8A%A4-%EB%8F%84%EB%A9%94%EC%9D%B8-%EC%97%B0%EA%B2%B0%ED%95%98%EA%B8%B0" MODIFIED="1580978854300" TEXT="https://teddylee777.github.io/aws/%EC%95%84%EB%A7%88%EC%A1%B4AWS-%EC%9D%B8%EC%8A%A4%ED%84%B4%EC%8A%A4-%EB%8F%84%EB%A9%94%EC%9D%B8-%EC%97%B0%EA%B2%B0%ED%95%98%EA%B8%B0"/>
 </node>
@@ -959,7 +985,7 @@
 <node CREATED="1581006312902" ID="ID_281271959" LINK="https://console.aws.amazon.com/support/cases#/" MODIFIED="1581006312902" TEXT="https://console.aws.amazon.com/support/cases#/"/>
 </node>
 </node>
-<node CREATED="1581009443316" FOLDED="true" ID="ID_1184344303" MODIFIED="1604475763077" POSITION="right" TEXT="s3 &#xd30c;&#xc77c; &#xc5c5;&#xb85c;&#xb4dc;">
+<node CREATED="1581009443316" ID="ID_1184344303" MODIFIED="1604568210295" POSITION="right" TEXT="s3 &#xd30c;&#xc77c; &#xc5c5;&#xb85c;&#xb4dc;">
 <node CREATED="1581054815869" ID="ID_833051714" LINK="https://www.baeldung.com/aws-s3-java" MODIFIED="1581054816648" TEXT="https://www.baeldung.com/aws-s3-java"/>
 <node CREATED="1581055531096" ID="ID_106818959" MODIFIED="1581055711475" TEXT="&#xd30c;&#xc77c; &#xc5c5;&#xb85c;&#xb4dc; &#xd560; &#xb54c; &#xad8c;&#xd55c; &#xbb38;&#xc81c;">
 <node CREATED="1581055712466" ID="ID_1081272997" LINK="https://stackoverflow.com/questions/6524041/how-do-you-make-an-s3-object-public-via-the-aws-java-sdk" MODIFIED="1581055712466" TEXT="https://stackoverflow.com/questions/6524041/how-do-you-make-an-s3-object-public-via-the-aws-java-sdk"/>
