@@ -1,8 +1,8 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1563522454767" ID="ID_1812649479" MODIFIED="1582770421913" TEXT="angular">
-<hook NAME="accessories/plugins/RevisionPlugin.properties"/>
 <hook NAME="accessories/plugins/CreationModificationPlugin_new.properties"/>
+<hook NAME="accessories/plugins/RevisionPlugin.properties"/>
 <node CREATED="1563522718142" FOLDED="true" ID="ID_1024043872" MODIFIED="1582770424624" POSITION="right" TEXT="&#xd604;&#xc7ac; &#xd29c;&#xd1a0;&#xb9ac;&#xc5bc;">
 <node CREATED="1563522713920" ID="ID_792755994" LINK="https://www.tutorialspoint.com/angular7/angular7_project_setup.htm" MODIFIED="1563522716082" TEXT="https://www.tutorialspoint.com/angular7/angular7_project_setup.htm"/>
 </node>
@@ -175,7 +175,7 @@
 <node CREATED="1563902886404" ID="ID_1257991095" MODIFIED="1563902886404" TEXT="}"/>
 </node>
 </node>
-<node COLOR="#3333ff" CREATED="1564062824311" ID="ID_1449702870" MODIFIED="1603847314095" POSITION="right" STYLE="bubble" TEXT="angular/meterial/datepicker &#xc774;&#xc6a9;&#xd560; &#xb54c;">
+<node COLOR="#3333ff" CREATED="1564062824311" FOLDED="true" ID="ID_1449702870" MODIFIED="1604474908703" POSITION="right" STYLE="bubble" TEXT="angular/meterial/datepicker &#xc774;&#xc6a9;&#xd560; &#xb54c;">
 <font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
 <node CREATED="1564062857846" ID="ID_818220073" LINK="https://material.angular.io/components/datepicker/overview" MODIFIED="1564062857846" TEXT="https://material.angular.io/components/datepicker/overview"/>
 <node CREATED="1564062858847" ID="ID_1638069554" MODIFIED="1571631790621" TEXT="&#xae30;&#xbcf8;&#xc801;&#xc778; &#xb85c;&#xc9c1;&#xc740; &#xc5ec;&#xae30;&#xc5d0; &#xc788;&#xb2e4;.">
@@ -539,7 +539,7 @@
 <node CREATED="1570552097301" LINK="https://stackoverflow.com/questions/5777210/how-to-write-hover-condition-for-abefore-and-aafter" MODIFIED="1570552097301" TEXT="https://stackoverflow.com/questions/5777210/how-to-write-hover-condition-for-abefore-and-aafter"/>
 </node>
 </node>
-<node CREATED="1570409067852" ID="ID_981427335" MODIFIED="1603847328977" POSITION="right" TEXT="&#xd558;&#xc774;&#xd37c;&#xb9c1;&#xd06c; &#xbbf8;&#xb9ac;&#xbcf4;&#xae30;">
+<node CREATED="1570409067852" FOLDED="true" ID="ID_981427335" MODIFIED="1604474908703" POSITION="right" TEXT="&#xd558;&#xc774;&#xd37c;&#xb9c1;&#xd06c; &#xbbf8;&#xb9ac;&#xbcf4;&#xae30;">
 <node CREATED="1570409074546" ID="ID_266553586" MODIFIED="1570409083255" TEXT="&#xc774; &#xd558;&#xc774;&#xd37c;&#xb9c1;&#xd06c; &#xbbf8;&#xb9ac;&#xbcf4;&#xae30;&#xb294; &#xc624;&#xd508; &#xadf8;&#xb798;&#xd504; &#xd504;&#xb85c;&#xd1a0;&#xcf5c;&#xc774;&#xb2e4;."/>
 <node CREATED="1570409083899" ID="ID_673890638" LINK="https://ogp.me/" MODIFIED="1570409083899" TEXT="https://ogp.me/"/>
 <node CREATED="1570409089098" ID="ID_312897652" MODIFIED="1570409096918" TEXT="&#xd574;&#xb2f9;&#xd558;&#xb294;&#xac78; &#xc5f0;&#xad6c;&#xd574;&#xbcf4;&#xba74; &#xb420;&#xb4ef; &#xd558;&#xb2e4;."/>
@@ -1074,7 +1074,7 @@
 <node CREATED="1571532370873" FOLDED="true" ID="ID_979608605" MODIFIED="1582770424624" POSITION="right" TEXT="angular material checkbox color">
 <node CREATED="1571532378740" ID="ID_511694136" LINK="https://stackoverflow.com/questions/37339735/angular-material-change-checkbox-color" MODIFIED="1571532378740" TEXT="https://stackoverflow.com/questions/37339735/angular-material-change-checkbox-color"/>
 </node>
-<node CREATED="1571597855149" ID="ID_45472224" MODIFIED="1600157469084" POSITION="right" TEXT="angular copy">
+<node CREATED="1571597855149" FOLDED="true" ID="ID_45472224" MODIFIED="1604474908703" POSITION="right" TEXT="angular copy">
 <node CREATED="1571597860123" ID="ID_1898138909" LINK="https://stackoverflow.com/questions/34688517/whats-alternative-to-angular-copy-in-angular" MODIFIED="1571597860123" TEXT="https://stackoverflow.com/questions/34688517/whats-alternative-to-angular-copy-in-angular"/>
 <node CREATED="1571597886891" ID="ID_1714103988" MODIFIED="1571597889385" TEXT="&#xcf54;&#xb4dc;">
 <node CREATED="1571597889710" ID="ID_1389048406" MODIFIED="1571597889710" TEXT="Object.assign({},item)"/>
@@ -1217,7 +1217,7 @@
 <node BACKGROUND_COLOR="#ffff00" CREATED="1573658363573" FOLDED="true" ID="ID_1488302838" MODIFIED="1600307649503" POSITION="right" TEXT="angular last trigger">
 <node CREATED="1573658376668" ID="ID_1663617771" LINK="https://stackoverflow.com/questions/35819264/angular-2-callback-when-ngfor-has-finished" MODIFIED="1573658376668" TEXT="https://stackoverflow.com/questions/35819264/angular-2-callback-when-ngfor-has-finished"/>
 </node>
-<node CREATED="1603940830939" ID="ID_257589387" MODIFIED="1603940833395" POSITION="right" TEXT="array to string">
+<node CREATED="1603940830939" FOLDED="true" ID="ID_257589387" MODIFIED="1604474908703" POSITION="right" TEXT="array to string">
 <node CREATED="1603940838828" LINK="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/join" MODIFIED="1603940838828" TEXT="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/join"/>
 </node>
 </node>

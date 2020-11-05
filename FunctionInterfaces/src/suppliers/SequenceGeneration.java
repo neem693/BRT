@@ -18,11 +18,6 @@ public class SequenceGeneration {
 		
 		System.out.println(fibonacci.findFirst().get());
 		
-		
-		for(int i =0; i< fibs.length; i++) {
-			System.out.println(i + " : " +fibs[i]);
-		}
-		
 	}
 
 }
