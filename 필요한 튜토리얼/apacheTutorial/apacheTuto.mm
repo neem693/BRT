@@ -1,7 +1,7 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1573689650585" ID="ID_1368327091" MODIFIED="1573689812084" TEXT="APACHE">
-<node CREATED="1573689801864" ID="ID_160058529" MODIFIED="1573689806305" POSITION="right" TEXT="apache ssl">
+<node CREATED="1573689801864" FOLDED="true" ID="ID_160058529" MODIFIED="1604811053401" POSITION="right" TEXT="apache ssl">
 <node CREATED="1573689806744" ID="ID_443614598" LINK="https://www.digicert.com/csr-ssl-installation/apache-openssl.htm" MODIFIED="1573689806744" TEXT="https://www.digicert.com/csr-ssl-installation/apache-openssl.htm"/>
 <node CREATED="1586920041676" ID="ID_908173942" MODIFIED="1586920046884" TEXT="&#xc18d;&#xc131;&#xc774;&#xb984;">
 <node CREATED="1586923990979" ID="ID_1424204733" MODIFIED="1586923990979" TEXT="Country Name : &#xc774;&#xac83;&#xc740; &#xb450; &#xc790;&#xb85c; &#xb41c; ISO &#xd615;&#xc2dd;&#xc758; &#xad6d;&#xac00; &#xcf54;&#xb4dc;&#xc785;&#xb2c8;&#xb2e4;."/>
@@ -18,11 +18,11 @@
 <node CREATED="1586926206099" ID="ID_1939430547" LINK="https://blog.didierstevens.com/2015/03/30/howto-make-your-own-cert-with-openssl-on-windows/" MODIFIED="1586926206099" TEXT="https://blog.didierstevens.com/2015/03/30/howto-make-your-own-cert-with-openssl-on-windows/"/>
 </node>
 </node>
-<node CREATED="1573700104207" ID="ID_727107818" MODIFIED="1573700107543" POSITION="right" TEXT="openssl &#xb9cc;&#xb4e4;&#xae30;">
+<node CREATED="1573700104207" FOLDED="true" ID="ID_727107818" MODIFIED="1604811055113" POSITION="right" TEXT="openssl &#xb9cc;&#xb4e4;&#xae30;">
 <node CREATED="1573700107872" ID="ID_911287260" MODIFIED="1573700107872" TEXT="openssl req -new -newkey rsa:2048 -nodes -out D:\key\oratree.csr -keyout D:\key\oratree.key -subj &quot;/C=KR/ST=mapo/L=seoul/O=BM_Cunsulting/OU=developer/CN=www.example.com&quot;"/>
 <node CREATED="1573700107874" ID="ID_1510040510" MODIFIED="1573700107874" TEXT="openssl x509 -req -in D:\key\oratree.csr -signkey D:\key\oratree.key -out D:\key\oratree.crt"/>
 </node>
-<node CREATED="1573700118701" FOLDED="true" ID="ID_1802056153" MODIFIED="1604561726331" POSITION="right" TEXT="conf &#xc124;&#xc815;">
+<node CREATED="1573700118701" FOLDED="true" ID="ID_1802056153" MODIFIED="1604811050306" POSITION="right" TEXT="conf &#xc124;&#xc815;">
 <node CREATED="1573700122527" ID="ID_1599890253" MODIFIED="1573700122527" TEXT="Listen 80"/>
 <node CREATED="1573700122527" ID="ID_465854624" MODIFIED="1573700122527" TEXT="Listen 443"/>
 <node CREATED="1604558986774" ID="ID_1384704392" MODIFIED="1604559010559" TEXT="LoadModule ssl_module modules/mod_ssl.so">
@@ -55,12 +55,12 @@
 </node>
 </node>
 </node>
-<node CREATED="1582781585350" ID="ID_1218941641" MODIFIED="1582781588146" POSITION="right" TEXT="rewrite">
+<node CREATED="1582781585350" FOLDED="true" ID="ID_1218941641" MODIFIED="1604811050306" POSITION="right" TEXT="rewrite">
 <node CREATED="1582781588630" ID="ID_964033550" MODIFIED="1582782956563" TEXT=" &#xc815;&#xaddc;&#xd45c;&#xd604;&#xc2dd; is not function">
 <node CREATED="1582781600069" ID="ID_1159894405" LINK="https://www.regextester.com/15" MODIFIED="1582781600069" TEXT="https://www.regextester.com/15"/>
 </node>
 </node>
-<node CREATED="1580375808773" ID="ID_1191707198" MODIFIED="1580375810579" POSITION="right" TEXT="&#xd504;&#xb85d;&#xc2dc;">
+<node CREATED="1580375808773" FOLDED="true" ID="ID_1191707198" MODIFIED="1604811050307" POSITION="right" TEXT="&#xd504;&#xb85d;&#xc2dc;">
 <node CREATED="1580327978932" ID="ID_1317658100" MODIFIED="1604559594942" TEXT="rewrite">
 <node CREATED="1580327981984" ID="ID_1450635901" MODIFIED="1580327984475" TEXT="p &#xd50c;&#xb798;&#xadf8;">
 <node CREATED="1580327988200" ID="ID_283345267" MODIFIED="1580327990693" TEXT="&#xd504;&#xb85d;&#xc2dc;&#xb97c; &#xc758;&#xbbf8;&#xd55c;&#xb2e4;."/>

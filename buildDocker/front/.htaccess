@@ -4,10 +4,13 @@
 
 #localStorage 특정상 해당 도메인을 바꿀 수 없기에
 #www가 앞에 붙어 있으면 www 빼고 진행하는 것으로 한다.
-
+		RewriteCond %{HTTPS} off [OR]
+		RewriteCond %{SERVER_PORT} 80
+		RewriteRule ^.*$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+		
 		RewriteCond %{HTTP_HOST} ^www\. [NC]
 		RewriteCond %{HTTP_HOST} ^(?:www\.)?(.+)$ [NC]
-		RewriteRule ^ http://%1%{REQUEST_URI} [L,NE,R=301]
+		RewriteRule ^ https://%1%{REQUEST_URI} [L,NE,R=301]
 
 #v1은 restApi
 #SPA이기 때문에 index.html 로 옮기기 
@@ -16,5 +19,7 @@
         Rewritecond %{REQUEST_URI} !\..*$
         Rewritecond %{REQUEST_URI} !^/v\d.*$
         RewriteRule ^ /index.html
+		
+
 
 </IfModule>

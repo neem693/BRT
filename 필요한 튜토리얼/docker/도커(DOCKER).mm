@@ -87,19 +87,24 @@
 </node>
 </node>
 <node CREATED="1604561744931" ID="ID_1821948009" MODIFIED="1604561760160" TEXT="&#xacb0;&#xad6d; &#xc774;&#xb7ec;&#xd55c; -v&#xb97c; &#xc0ac;&#xc6a9;&#xd558;&#xba74; &#xb2e4;&#xc74c;&#xacfc; &#xac19;&#xc740; &#xba85;&#xb839;&#xc5b4;&#xb97c; &#xc0ac;&#xc6a9;&#xd560; &#xc218; &#xc788;&#xb2e4;.">
-<node BACKGROUND_COLOR="#ffffff" COLOR="#ff3333" CREATED="1604561760601" ID="ID_1502426904" MODIFIED="1604566897389" STYLE="bubble" TEXT="docker run -p 80:80 -p 443:443 -v /etc/letsencrypt/:/etc/letsencrypt/ --name thecomment_front thecomment_apache:v1.4">
-<font BOLD="true" NAME="Dialog" SIZE="24"/>
-</node>
 <node COLOR="#3333ff" CREATED="1604561795714" ID="ID_102279506" MODIFIED="1604561855673" STYLE="bubble" TEXT="lets encrypt &#xad00;&#xb828; &#xb0b4;&#xc6a9;&#xc744; &#xd3ec;&#xd568;&#xc2dc;&#xd0a8;&#xac83;">
 <font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
-<node CREATED="1604561929011" ID="ID_1175553763" MODIFIED="1604561940076" TEXT="&#xd574;&#xb2f9; &#xb0b4;&#xc6a9;&#xc740; AWS&#xc758; EC2 &#xb9ac;&#xb205;&#xc2a4; &#xcc38;&#xc870;&#xd560;&#xac83;"/>
+<node CREATED="1604561760601" ID="ID_1502426904" MODIFIED="1604819206337" TEXT="docker run -p 80:80 -p 443:443 -v /etc/letsencrypt/:/etc/letsencrypt/ --name thecomment_front thecomment_apache:v1.4">
+<font NAME="SansSerif" SIZE="12"/>
 </node>
+<node CREATED="1604561929011" ID="ID_1175553763" MODIFIED="1604561940076" TEXT="&#xd574;&#xb2f9; &#xb0b4;&#xc6a9;&#xc740; AWS&#xc758; EC2 &#xb9ac;&#xb205;&#xc2a4; &#xcc38;&#xc870;&#xd560;&#xac83;"/>
 <node CREATED="1604561858618" ID="ID_548885356" MODIFIED="1604564733381" TEXT="/etc/letsencrypt/ &#xc758; &#xd638;&#xc2a4;&#xd2b8; &#xb514;&#xb809;&#xd1a0;&#xb9ac;&#xb97c;"/>
 <node CREATED="1604561894282" ID="ID_29813006" MODIFIED="1604564741850" TEXT="/etc/letsencrypt &#xcee8;&#xd14c;&#xc774;&#xb108; &#xb514;&#xb809;&#xd1a0;&#xb9ac;&#xc640; &#xb3d9;&#xc77c;&#xc2dc; &#xd558;&#xaca0;&#xb2e4;&#xb294; &#xac83;"/>
 <node CREATED="1604564997189" ID="ID_980938224" MODIFIED="1604566729612" TEXT="&#xb514;&#xb809;&#xd1a0;&#xb9ac;&#xb97c; &#xb9e4;&#xc6b0; &#xd06c;&#xac8c; &#xc7a1;&#xc740; &#xac83;&#xc778;&#xb370;, &#xc2e4;&#xc81c;&#xc0ac;&#xc6a9;&#xd558;&#xb824;&#xace0; &#xd558;&#xb294; &#xd30c;&#xc77c;&#xb4e4;&#xc740; /etc/letsencrypt/archive/[dir]/cert2.pem &#xb4f1;&#xc5d0; &#xc788;&#xb2e4;."/>
 <node CREATED="1604566671916" ID="ID_937953845" MODIFIED="1604566745596" TEXT="&#xb610; &#xcd5c;&#xc2e0;&#xd654; &#xb418;&#xc5b4;&#xc788;&#xb294; &#xd30c;&#xc77c;&#xb4e4;&#xc740;  /etc/letsencrypt/live/[dir]/cert.pem &#xc774;&#xacf3; &#xb4f1;&#xc5d0; &#xc788;&#xb2e4;."/>
 <node CREATED="1604566745866" ID="ID_1825849966" MODIFIED="1604566882894" TEXT="&#xcd5c;&#xc2e0;&#xd654; &#xb418;&#xc5b4;&#xc788;&#xb294; &#xd30c;&#xc77c;&#xb4e4;&#xc740; &#xc2ec;&#xbcfc;&#xb9ad; &#xb9c1;&#xd06c;&#xb77c;&#xace0; &#xd574;&#xc11c; &#xbc14;&#xb85c;&#xac00;&#xae30;&#xb85c; &#xc778;&#xc99d;&#xc11c;&#xac00; &#xcd5c;&#xc2e0;&#xd654; &#xb418;&#xb294;&#xb370;, &#xbcfc;&#xb968;&#xc744; &#xc801;&#xac8c; &#xc7a1;&#xc544;&#xbc84;&#xb9ac;&#xba74; &#xbc14;&#xb85c;&#xac00;&#xae30; &#xacbd;&#xb85c;&#xc5d0; &#xc5c6;&#xae30;&#xc5d0;  &#xbb38;&#xc81c;&#xac00; &#xbc1c;&#xc0dd;&#xd55c;&#xb2e4;. &#xc6d0;&#xd560;&#xd55c; &#xc2ec;&#xbcfc;&#xb9ad; &#xb9c1;&#xd06c; &#xbc14;&#xb85c;&#xac00;&#xae30;&#xb97c; &#xc704;&#xd574;&#xc11c;&#xb77c;&#xb3c4; &#xbcfc;&#xb968;&#xc744; &#xd06c;&#xac8c; &#xc7a1;&#xc544;&#xbc84;&#xb9b0;&#xac83;"/>
 <node CREATED="1604567168018" ID="ID_263748624" MODIFIED="1604567189912" TEXT="&#xb610;&#xd55c; &#xbcfc;&#xb968;&#xc744; &#xd638;&#xc2a4;&#xd2b8;&#xb85c; &#xc62e;&#xae40;&#xc73c;&#xb85c;&#xc368;, &#xd638;&#xc2a4;&#xd2b8;&#xc5d0;&#xc11c; &#xc778;&#xc99d;&#xc11c;&#xb97c; &#xac31;&#xc2e0;&#xd558;&#xb354;&#xb77c;&#xb3c4; &#xc544;&#xbb34;&#xb7f0; &#xbb38;&#xc81c;&#xac00; &#xc5c6;&#xac8c; &#xb41c;&#xb2e4;."/>
+</node>
+<node CREATED="1604819209640" ID="ID_48077897" MODIFIED="1604819223081" TEXT="htdocs &#xd3f4;&#xb354; &#xd638;&#xc2a4;&#xd2b8;&#xb85c; &#xbe80;&#xac83;">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#ff3333" CREATED="1604819197006" ID="ID_119626493" MODIFIED="1604819477004" STYLE="bubble" TEXT="docker run -p 80:80 -p 443:443 -v /etc/letsencrypt/:/etc/letsencrypt/ -v /home/ubuntu/apache/htdocs/:/usr/local/apache2/htdocs/ thecomment_apache:v1.5">
+<font BOLD="true" NAME="Dialog" SIZE="24"/>
+</node>
+</node>
 </node>
 </node>
 <node CREATED="1574866641917" ID="ID_1584123281" MODIFIED="1604557597915" TEXT="docker inspect &#xcee8;&#xd14c;&#xc774;&#xb108;ID">

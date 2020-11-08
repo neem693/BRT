@@ -1,7 +1,7 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1576732444216" ID="ID_1650274313" MODIFIED="1583576885169" TEXT="AWS">
-<node BACKGROUND_COLOR="#ffffff" COLOR="#ff3333" CREATED="1580314634770" FOLDED="true" ID="ID_1438109617" MODIFIED="1604561944090" POSITION="right" STYLE="bubble" TEXT="&#xcf58;&#xc194; IAM&#xb9c1;&#xd06c;">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#ff3333" CREATED="1580314634770" ID="ID_1438109617" MODIFIED="1604811154314" POSITION="right" STYLE="bubble" TEXT="&#xcf58;&#xc194; IAM&#xb9c1;&#xd06c;">
 <font BOLD="true" NAME="Dialog" SIZE="24"/>
 <node BACKGROUND_COLOR="#ffffff" COLOR="#ff3333" CREATED="1580314643923" ID="ID_625040316" LINK="https://574844189779.signin.aws.amazon.com/console" MODIFIED="1580314648545" STYLE="bubble" TEXT="https://574844189779.signin.aws.amazon.com/console">
 <font BOLD="true" NAME="Dialog" SIZE="24"/>
@@ -639,7 +639,7 @@
 <node CREATED="1580372602451" ID="ID_278952794" MODIFIED="1580372608331" TEXT="ex) !301"/>
 </node>
 </node>
-<node CREATED="1580287983054" FOLDED="true" ID="ID_1081549309" MODIFIED="1589874309478" TEXT="mv(&#xd30c;&#xc77c;&#xc774;&#xb3d9;, &#xbcc0;&#xacbd;)">
+<node CREATED="1580287983054" ID="ID_1081549309" MODIFIED="1604811045727" TEXT="mv(&#xd30c;&#xc77c;&#xc774;&#xb3d9;, &#xbcc0;&#xacbd;)">
 <node CREATED="1580288012043" ID="ID_200380086" MODIFIED="1580288021065" TEXT="mv file1 file2">
 <node CREATED="1580288043207" ID="ID_1364876567" MODIFIED="1580288046680" TEXT="&#xd30c;&#xc77c; &#xc774;&#xb984; &#xbcc0;&#xacbd;"/>
 </node>
