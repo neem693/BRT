@@ -5,7 +5,7 @@
   "author": "neem693 <37389515+neem693@users.noreply.github.com>",
   "private": true,
   "scripts": {
-    "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
+    "dev": "webpack-dev-server --host 0.0.0.0 --disableHostCheck true --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
     "unit": "jest --config test/unit/jest.conf.js --coverage",
     "e2e": "node test/e2e/runner.js",
@@ -15,7 +15,9 @@
   },
   "dependencies": {
     "vue": "^2.5.2",
+    "vue-float-action-button": "^0.6.6",
     "vue-iamport": "^0.1.2",
+    "vue-radial-menu": "^1.1.1",
     "vue-router": "^3.0.1"
   },
   "devDependencies": {

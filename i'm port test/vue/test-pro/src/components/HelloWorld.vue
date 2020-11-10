@@ -81,13 +81,56 @@
       </li>
     </ul>
     <button @click="pay()">결제</button>
+    <floatingActionExample></floatingActionExample>
+    <radialMenuEx class ="fix"></radialMenuEx>
+    <br><br>
+    <br><br>
+
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+        <br><br>
+    <br><br>
+
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+        <br><br>
+    <br><br>
+
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+        <br><br>
+    <br><br>
+
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+
+
   </div>
 </template>
 
 <script>
 
+import radialMenuEx from './radialMenuEx';
+import floatingActionExample from './floatingAction';
+
 const { IMP } = window;
-IMP.init('imp49163872');
+// IMP.init('imp49163872');
 
 export default {
 
@@ -101,6 +144,10 @@ export default {
 
 
 
+  },
+  components : {
+    radialMenuEx,
+    floatingActionExample
   },
   methods: {
     pay(){
@@ -151,5 +198,12 @@ li {
 }
 a {
   color: #42b983;
+}
+
+.fix{
+  left: calc(50% - 25px);
+  /* left: 300px; */
+  position:fixed;
+  bottom: -30px;
 }
 </style>

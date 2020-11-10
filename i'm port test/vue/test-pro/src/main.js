@@ -4,7 +4,18 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 
+import VueFab from 'vue-float-action-button'
+
 Vue.config.productionTip = false
+
+Vue.use(VueFab,{
+  scrollAutoHide: false,
+  hidden: false,
+  autoHideDirection: 'down',
+  size: 'big'
+
+})
+
 
 /* eslint-disable no-new */
 new Vue({

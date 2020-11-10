@@ -101,7 +101,12 @@
 <node CREATED="1604567168018" ID="ID_263748624" MODIFIED="1604567189912" TEXT="&#xb610;&#xd55c; &#xbcfc;&#xb968;&#xc744; &#xd638;&#xc2a4;&#xd2b8;&#xb85c; &#xc62e;&#xae40;&#xc73c;&#xb85c;&#xc368;, &#xd638;&#xc2a4;&#xd2b8;&#xc5d0;&#xc11c; &#xc778;&#xc99d;&#xc11c;&#xb97c; &#xac31;&#xc2e0;&#xd558;&#xb354;&#xb77c;&#xb3c4; &#xc544;&#xbb34;&#xb7f0; &#xbb38;&#xc81c;&#xac00; &#xc5c6;&#xac8c; &#xb41c;&#xb2e4;."/>
 </node>
 <node CREATED="1604819209640" ID="ID_48077897" MODIFIED="1604819223081" TEXT="htdocs &#xd3f4;&#xb354; &#xd638;&#xc2a4;&#xd2b8;&#xb85c; &#xbe80;&#xac83;">
-<node BACKGROUND_COLOR="#ffffff" COLOR="#ff3333" CREATED="1604819197006" ID="ID_119626493" MODIFIED="1604819477004" STYLE="bubble" TEXT="docker run -p 80:80 -p 443:443 -v /etc/letsencrypt/:/etc/letsencrypt/ -v /home/ubuntu/apache/htdocs/:/usr/local/apache2/htdocs/ thecomment_apache:v1.5">
+<node CREATED="1604819197006" ID="ID_119626493" MODIFIED="1604891634039" TEXT="docker run -p 80:80 -p 443:443 -v /etc/letsencrypt/:/etc/letsencrypt/ -v /home/ubuntu/apache/htdocs/:/usr/local/apache2/htdocs/ thecomment_apache:v1.5">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1604891626782" ID="ID_455590408" MODIFIED="1604891631019" TEXT="conf &#xd30c;&#xc77c;&#xb3c4; &#xbe7c;&#xb0c4;">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#ff3333" CREATED="1604891631478" ID="ID_1807457916" MODIFIED="1604891632856" STYLE="bubble" TEXT="docker run -p 80:80 -p 443:443 -v /etc/letsencrypt/:/etc/letsencrypt/ -v /home/ubuntu/apache/htdocs/:/usr/local/apache2/htdocs/ -v /home/ubuntu/apache/conf/httpd.conf:/usr/local/apache2/conf/httpd.conf thecomment_apache:v1.5">
 <font BOLD="true" NAME="Dialog" SIZE="24"/>
 </node>
 </node>

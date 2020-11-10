@@ -1,8 +1,8 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1563522454767" ID="ID_1812649479" MODIFIED="1582770421913" TEXT="angular">
-<hook NAME="accessories/plugins/CreationModificationPlugin_new.properties"/>
 <hook NAME="accessories/plugins/RevisionPlugin.properties"/>
+<hook NAME="accessories/plugins/CreationModificationPlugin_new.properties"/>
 <node CREATED="1563522718142" FOLDED="true" ID="ID_1024043872" MODIFIED="1582770424624" POSITION="right" TEXT="&#xd604;&#xc7ac; &#xd29c;&#xd1a0;&#xb9ac;&#xc5bc;">
 <node CREATED="1563522713920" ID="ID_792755994" LINK="https://www.tutorialspoint.com/angular7/angular7_project_setup.htm" MODIFIED="1563522716082" TEXT="https://www.tutorialspoint.com/angular7/angular7_project_setup.htm"/>
 </node>
@@ -544,7 +544,7 @@
 <node CREATED="1570409083899" ID="ID_673890638" LINK="https://ogp.me/" MODIFIED="1570409083899" TEXT="https://ogp.me/"/>
 <node CREATED="1570409089098" ID="ID_312897652" MODIFIED="1570409096918" TEXT="&#xd574;&#xb2f9;&#xd558;&#xb294;&#xac78; &#xc5f0;&#xad6c;&#xd574;&#xbcf4;&#xba74; &#xb420;&#xb4ef; &#xd558;&#xb2e4;."/>
 </node>
-<node CREATED="1570476346448" FOLDED="true" ID="ID_1860587586" MODIFIED="1582770424624" POSITION="right" TEXT="&#xad6c;&#xae00; &#xba54;&#xd130;&#xb9ac;&#xc5bc; &#xc544;&#xc774;&#xcf58;">
+<node CREATED="1570476346448" ID="ID_1860587586" MODIFIED="1604900772135" POSITION="right" TEXT="&#xad6c;&#xae00; &#xba54;&#xd130;&#xb9ac;&#xc5bc; &#xc544;&#xc774;&#xcf58;">
 <node CREATED="1570476419679" ID="ID_410829210" LINK="https://material.io/resources/icons/?style=baseline" MODIFIED="1570476419679" TEXT="https://material.io/resources/icons/?style=baseline"/>
 <node CREATED="1570478039783" ID="ID_245834576" MODIFIED="1570478042065" TEXT="&#xc0ac;&#xc774;&#xc988;&#xb294; md">
 <node CREATED="1570478049991" LINK="https://google.github.io/material-design-icons/" MODIFIED="1570478049991" TEXT="https://google.github.io/material-design-icons/"/>
