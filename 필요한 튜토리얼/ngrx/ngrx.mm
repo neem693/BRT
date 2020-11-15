@@ -1,7 +1,7 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1578226990534" ID="ID_1268012643" MODIFIED="1580638256914" TEXT="ngrx">
-<node COLOR="#3333ff" CREATED="1580638256883" FOLDED="true" ID="ID_1626656109" MODIFIED="1581658266296" POSITION="right" STYLE="bubble" TEXT="getting started">
+<node COLOR="#3333ff" CREATED="1580638256883" ID="ID_1626656109" MODIFIED="1605001819622" POSITION="right" STYLE="bubble" TEXT="getting started">
 <font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
 <node CREATED="1580638253804" ID="ID_731708657" LINK="https://ngrx.io/guide/store" MODIFIED="1580638263268" TEXT="https://ngrx.io/guide/store"/>
 </node>
@@ -210,7 +210,7 @@
 <node CREATED="1580708579713" ID="ID_1631272570" MODIFIED="1580708579713" TEXT="export class AppModule {}"/>
 </node>
 </node>
-<node CREATED="1580709892243" FOLDED="true" ID="ID_1975097125" MODIFIED="1581658266311" POSITION="right" TEXT="ngrx &#xc815;&#xb9ac;">
+<node CREATED="1580709892243" ID="ID_1975097125" MODIFIED="1605001821800" POSITION="right" TEXT="ngrx &#xc815;&#xb9ac;">
 <node CREATED="1580709901546" ID="ID_61733501" MODIFIED="1580709908595" TEXT="1. @ngrx/store&#xb97c; &#xc124;&#xce58;&#xd55c;&#xb2e4;."/>
 <node CREATED="1580709908986" ID="ID_1922131535" MODIFIED="1580711268774" TEXT="2.  module&#xc5d0; &#xc801;&#xc6a9; &#xbc0f; action reducer &#xc791;&#xc131;"/>
 <node CREATED="1580724814407" ID="ID_945249119" MODIFIED="1580724825639" TEXT="3. AppState&#xc791;&#xc131;">

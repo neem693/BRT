@@ -716,7 +716,7 @@
 <node CREATED="1604555646491" LINK="https://webdir.tistory.com/140" MODIFIED="1604555646491" TEXT="https://webdir.tistory.com/140"/>
 </node>
 </node>
-<node COLOR="#3333ff" CREATED="1604382218421" FOLDED="true" ID="ID_396802534" MODIFIED="1604568229496" STYLE="bubble" TEXT="&#xac1c;&#xbc29;&#xd615; &#xc778;&#xc99d;&#xae30;&#xad00;">
+<node COLOR="#3333ff" CREATED="1604382218421" ID="ID_396802534" MODIFIED="1605443487495" STYLE="bubble" TEXT="&#xac1c;&#xbc29;&#xd615; &#xc778;&#xc99d;&#xae30;&#xad00;">
 <font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
 <node BACKGROUND_COLOR="#ffffff" COLOR="#ff3333" CREATED="1604382206908" ID="ID_1583176643" MODIFIED="1604382264627" STYLE="bubble" TEXT="lets encrypt">
 <font BOLD="true" NAME="Dialog" SIZE="24"/>
