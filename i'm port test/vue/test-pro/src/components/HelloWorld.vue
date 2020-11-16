@@ -1,5 +1,7 @@
 <template>
   <div class="hello">
+    
+<customElMenu></customElMenu>
     <h1>{{ msg }}</h1>
     <h2>Essential Links</h2>
     <ul>
@@ -120,14 +122,15 @@
     <br><br>
     <br><br>
 
-
   </div>
+
 </template>
 
 <script>
 
 import radialMenuEx from './radialMenuEx';
 import floatingActionExample from './floatingAction';
+import customElMenu from './customElMenu';
 
 const { IMP } = window;
 // IMP.init('imp49163872');
@@ -147,7 +150,8 @@ export default {
   },
   components : {
     radialMenuEx,
-    floatingActionExample
+    floatingActionExample,
+    customElMenu
   },
   methods: {
     pay(){
@@ -202,7 +206,7 @@ a {
 
 .fix{
   left: calc(50% - 25px);
-  /* left: 300px; */
+  left: 300px; 
   position:fixed;
   bottom: -30px;
 }
