@@ -3974,11 +3974,14 @@
 <node CREATED="1575977490764" ID="ID_761759515" LINK="https://docs.jboss.org/hibernate/orm/5.0/topical/html/metamodelgen/MetamodelGenerator.html" MODIFIED="1575977490764" TEXT="https://docs.jboss.org/hibernate/orm/5.0/topical/html/metamodelgen/MetamodelGenerator.html"/>
 </node>
 </node>
-<node CREATED="1582686574195" FOLDED="true" ID="ID_360851908" MODIFIED="1602136647468" TEXT="JsonView&#xc640; Valid">
+<node CREATED="1582686574195" ID="ID_360851908" MODIFIED="1605691421230" TEXT="JsonView&#xc640; Valid">
 <node CREATED="1582686582996" ID="ID_1569750350" MODIFIED="1582686597214" TEXT="&#xd574;&#xb2f9;&#xd558;&#xb294; &#xbaa8;&#xb4c8;&#xc740; &#xbaa8;&#xb450; Interface&#xc774;&#xb2e4;."/>
 <node CREATED="1582686689723" ID="ID_1098398151" MODIFIED="1582686696787" TEXT="jsonView">
 <node CREATED="1582686602602" ID="ID_481078069" MODIFIED="1582686702243" TEXT="jsonView&#xb294; Entity&#xc5d0;&#xc11c; &#xd574;&#xb2f9;&#xd558;&#xb294; &#xceec;&#xb7fc;&#xc5d0; &#xc9c0;&#xc815;&#xc744; &#xd574;&#xc900;&#xb2e4;."/>
 <node CREATED="1582686619562" ID="ID_465167676" MODIFIED="1582686702243" TEXT="&#xadf8;&#xb9ac;&#xace0; &#xcee8;&#xd2b8;&#xb864;&#xb7ec;&#xc5d0;&#xc11c; &#xb9ac;&#xd134; &#xb420; &#xb54c; &#xc704;&#xc758; jsonView&#xb97c; &#xc9c0;&#xc815;&#xd574;&#xc8fc;&#xba74; &#xd574;&#xb2f9;&#xd558;&#xb294; &#xceec;&#xb7fc;&#xc758; &#xb0b4;&#xc6a9;&#xb4e4;&#xb9cc; response&#xb41c;&#xb2e4;."/>
+<node CREATED="1605691734160" ID="ID_1222760341" MODIFIED="1605691736402" TEXT="&#xc4f0;&#xb294;&#xbc29;&#xbc95;">
+<node CREATED="1605691732908" ID="ID_1084044347" LINK="https://stackoverflow.com/questions/34535599/spring-and-jsonview-with-multiple-identifiers" MODIFIED="1605691732908" TEXT="https://stackoverflow.com/questions/34535599/spring-and-jsonview-with-multiple-identifiers"/>
+</node>
 </node>
 <node CREATED="1582686697190" ID="ID_9843489" MODIFIED="1582686700503" TEXT="Valid">
 <node CREATED="1586746605493" ID="ID_1305896888" LINK="https://www.baeldung.com/javax-validation" MODIFIED="1586746605493" TEXT="https://www.baeldung.com/javax-validation"/>
@@ -4523,7 +4526,7 @@
 <node CREATED="1582868819622" ID="ID_1063589233" MODIFIED="1582868819622" TEXT="@SuppressWarnings(&quot;unused&quot;)"/>
 <node CREATED="1582868819622" ID="ID_1701482316" MODIFIED="1582868819622" TEXT="private LogUtil log = new LogUtil(getClass());"/>
 </node>
-<node COLOR="#3333ff" CREATED="1584666330227" FOLDED="true" ID="ID_1653710934" MODIFIED="1602666917999" POSITION="right" STYLE="bubble" TEXT="aop">
+<node COLOR="#3333ff" CREATED="1584666330227" ID="ID_1653710934" MODIFIED="1605662322456" POSITION="right" STYLE="bubble" TEXT="aop">
 <font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
 <node CREATED="1584666337291" ID="ID_145341182" MODIFIED="1584666339051" TEXT="&#xae30;&#xcd08;">
 <node CREATED="1584666339394" ID="ID_62009756" LINK="https://www.baeldung.com/spring-aop-annotation" MODIFIED="1584666339394" TEXT="https://www.baeldung.com/spring-aop-annotation"/>
