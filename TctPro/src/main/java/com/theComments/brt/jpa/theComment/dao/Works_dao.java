@@ -48,5 +48,18 @@ public interface Works_dao extends JpaRepository<Works, Long> {
 					)
 	Page<Works> searchWorksSeeListenDoo(Long id,Long type1, Pageable pageable);
 	
+	@Query(value = "SELECT w FROM Works w "
+			+ " LEFT JOIN w.create wc "
+			+ " LEFT JOIN wc.artist a "
+			+ " LEFT JOIN w.type2 t2 "
+			+ " LEFT JOIN w.fileSave file "
+			+ " LEFT JOIN t2.type1 t1 "
+			+ " WHERE w.delYn = 0"
+			+ "   AND ( :type2 IS NULL OR t2.type2_id = :type2 ) " 
+			+ "   AND ( :type1 IS NULL OR t1.type1_id = :type1 ) "
+			+ " GROUP BY w.work_id "
+			)
+	Page<Works> search(Long type1, Long type2, Pageable pageable);
+	
 
 }

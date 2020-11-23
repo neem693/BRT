@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.theComments.brt.app.artist.service.ArtistService;
+import com.theComments.brt.jpa.theComment.model.Artist;
 import com.theComments.brt.util.ResultMap;
 
 @RestController
@@ -19,9 +20,10 @@ public class ArtistPublicRestController {
 	ArtistService artistService;
 	
 	@RequestMapping(value ="/artistSearch",method=RequestMethod.GET)
-	public Map<String,Object> artsitSearch(@RequestParam Map<String,Object> param){
+	public Map<String,Object> artsitSearch(Long type1, Long type2, String searchText, Integer order, Integer order2,
+			Integer pageNum){
 		
-		ResultMap result = artistService.artistSearch(param);
+		ResultMap result = artistService.artistSearch(type1, type2, searchText, order, order2, pageNum);
 		
 		return result.getResultMap();
 	}

@@ -11,23 +11,35 @@ import javax.persistence.ManyToOne;
 import org.hibernate.annotations.Fetch;
 import org.hibernate.annotations.FetchMode;
 
-import lombok.Setter;
+import com.fasterxml.jackson.annotation.JsonView;
+import com.theComments.brt.jsonView.BRTJsonView;
 
+import lombok.Setter;
+import lombok.Data;
 import lombok.Getter;
 
 @Entity
-@Getter
-@Setter
+@Data
 public class FileSave {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
+	@JsonView(BRTJsonView.FileSave.class)
 	Long file_id;
 
+	@JsonView(BRTJsonView.FileSaveCommon.class)
 	String file_name;
+
+	@JsonView(BRTJsonView.FileSaveCommon.class)
 	String file_path;
+
+	@JsonView(BRTJsonView.FileSaveCommon.class)
 	String save_file_name;
+
+	@JsonView(BRTJsonView.FileSaveCommon.class)
 	String save_file_path;
+
+	@JsonView(BRTJsonView.FileSaveCommon.class)
 	String file_type;
 
 	@ManyToOne(fetch = FetchType.LAZY)

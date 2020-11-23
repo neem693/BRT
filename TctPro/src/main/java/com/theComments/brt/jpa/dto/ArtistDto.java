@@ -5,11 +5,9 @@ import java.util.List;
 
 import com.theComments.brt.jpa.theComment.model.Create_art;
 
-import lombok.Getter;
-import lombok.Setter;
+import lombok.Data;
 
-@Getter
-@Setter
+@Data
 public class ArtistDto extends Page{
 	
 	Long artist_id;

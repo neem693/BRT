@@ -16,6 +16,9 @@ import javax.persistence.NamedEntityGraph;
 import javax.persistence.NamedSubgraph;
 import javax.persistence.OneToMany;
 
+import com.fasterxml.jackson.annotation.JsonView;
+import com.theComments.brt.jsonView.BRTJsonView;
+
 import lombok.Getter;
 import lombok.Setter;
 
@@ -51,33 +54,46 @@ public class Works {
 	
 	@Id
 	@GeneratedValue(strategy=GenerationType.AUTO)
+	@JsonView(BRTJsonView.Works.class)
 	Long work_id;
 	
 	@ManyToOne(fetch = FetchType.LAZY)
 	@JoinColumn(name="type2_id")
+	@JsonView(BRTJsonView.Works.class)
 	Type2 type2;
 	
+	@JsonView(BRTJsonView.WorksCommon.class)
 	String subject;
 	
+	
 	@OneToMany(mappedBy="works")
+	@JsonView(BRTJsonView.Works.class)
 	Set<Evaluate> evaluate;
 	
 	@OneToMany(mappedBy="works")
+	@JsonView(BRTJsonView.Works.class)
 	Set<WorksSave> worksSave;
 	
 	@OneToMany(mappedBy="works")
+	@JsonView(BRTJsonView.WorksCommon.class)
 	Set<Create_art> create;
 	
 	@OneToMany(mappedBy="works")
+	@JsonView(BRTJsonView.WorksCommon.class)
 	Set<FileSave> fileSave;
-	
+
+	@JsonView(BRTJsonView.WorksCommon.class)
 	int is_series;
 	
 	@Column(nullable=false)
+	@JsonView(BRTJsonView.WorksCommon.class)
 	LocalDateTime create_date;
+
+	@JsonView(BRTJsonView.WorksCommon.class)
 	LocalDateTime create_end_date2;
 	
-	@Column(columnDefinition = "integer default 0")
-	Integer delYn;
+	@Column
+	@JsonView(BRTJsonView.Works.class)
+	Integer delYn = 0;
 	
 }

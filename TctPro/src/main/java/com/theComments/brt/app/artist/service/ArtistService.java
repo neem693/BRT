@@ -14,6 +14,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
+import org.springframework.data.domain.Sort;
+import org.springframework.data.jpa.domain.JpaSort;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -221,20 +223,21 @@ public class ArtistService {
 		return result;
 	}
 
-	public ResultMap artistSearch(Map<String, Object> param) {
+	public ResultMap artistSearch(Long type1, Long type2, String searchText, Integer order, Integer order2,
+			Integer pageNum) {
 		// TODO Auto-generated method stub
 		
-		int pageNum = Integer.parseInt(param.get("pageNum").toString());
-		int order = Integer.parseInt(param.get("order").toString());
-		int order2 = Integer.parseInt(param.get("order2").toString());
-		
-		Long type1 = Long.parseLong(param.get("type1").toString());
-		Long type2 = Long.parseLong(param.get("type2").toString());
-		
-		String searchText = "";
-		if(param.get("searchText") != null) {
-			searchText = param.get("searchText").toString();
-		}
+//		int pageNum = Integer.parseInt(param.get("pageNum").toString());
+//		int order = Integer.parseInt(param.get("order").toString());
+//		int order2 = Integer.parseInt(param.get("order2").toString());
+//		
+//		Long type1 = Long.parseLong(param.get("type1").toString());
+//		Long type2 = Long.parseLong(param.get("type2").toString());
+//		
+//		String searchText = "";
+//		if(param.get("searchText") != null) {
+//			searchText = param.get("searchText").toString();
+//		}
 		
 		ArtistDto artistDto = new ArtistDto();
 		artistDto.setSearchText(searchText);
@@ -250,11 +253,38 @@ public class ArtistService {
 		orderForSearch.setOrder(order);
 		orderForSearch.setOrder2(order2);
 		
+		String art_name = artistDto.getSearchText() == null ? "" : artistDto.getSearchText() ;
+		
+		
+//		Pageable pageable = PageRequest.of(pageNum - 1, 10, JpaSort.unsafe(Sort.Direction.DESC,"(worksMax)").and(JpaSort.unsafe(Sort.Direction.DESC,"(count)")));
+		Sort sort = Sort.unsorted();
+		if(order == 0) {
+			sort.and(JpaSort.unsafe(Sort.Direction.DESC,"MAX(w.create_date)"));
+		}
+		
+		if(order == 1) {
+			sort.and(JpaSort.unsafe(Sort.Direction.DESC,"COUNT(t1.type1_id)"));
+		}
+		
+		Pageable pageable = PageRequest.of(pageNum - 1, 10, sort);
+		
+		if(type1 == 0) {
+			type1 = null;
+		}
+		
+		if(type2 == 0) {
+			type2  = null;
+		}
+		
+		Page<Map<String,Object>> pageArtist = artistDao.search(type1,type2,pageable);
+		
+		List<Map<String,Object>> artistList = pageArtist.getContent();
+		
 		Map<String,Object> returnData = artistDynamicQueryDao.searchArtistDynamic(artistDto,type1Dto,type2Dto,orderForSearch);
 		
 		ResultMap result = new ResultMap();
-		result.setData(returnData.get("data"));
-		result.setTotalSize(Long.parseLong(returnData.get("totalSize").toString()));
+		result.setData(artistList);
+		result.setTotalSize(pageArtist.getTotalElements());
 		result.setResult(200);
 		
 //		List list = mybatisDynamicQueryDao.searchArtist();
@@ -262,5 +292,4 @@ public class ArtistService {
 		
 		return result;
 	}
-
 }

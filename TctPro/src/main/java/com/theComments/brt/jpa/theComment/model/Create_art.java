@@ -11,6 +11,9 @@ import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 
+import com.fasterxml.jackson.annotation.JsonView;
+import com.theComments.brt.jsonView.BRTJsonView;
+
 import lombok.Data;
 
 @Entity
@@ -19,21 +22,27 @@ public class Create_art implements Comparable<Create_art>{
 	
 	@Id
 	@GeneratedValue(strategy=GenerationType.AUTO)
+	@JsonView(BRTJsonView.Create.class)
 	Long create_id;
 	
 	@ManyToOne
 	@JoinColumn(name="artist_id")
+	@JsonView(BRTJsonView.CreateArtist.class)
 	Artist artist;	
 	
 	@ManyToOne
 	@JoinColumn(name="work_id")
+	@JsonView(BRTJsonView.CreateWorks.class)
 	Works works;
 	
+	@JsonView(BRTJsonView.CreateCommon.class)
 	LocalDateTime save_date;
 	
+	@JsonView(BRTJsonView.CreateCommon.class)
 	Integer rep;
 	
 	@Deprecated
+	@JsonView(BRTJsonView.CreateCommon.class)
 	Integer artist_rank;
 	
 	@Override

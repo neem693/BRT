@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.theComments.brt.app.artist.service.ArtistService;
 import com.theComments.brt.jpa.dto.ArtistDto;
+import com.theComments.brt.jpa.theComment.model.Artist;
 import com.theComments.brt.util.ResultMap;
 
 @RestController
@@ -56,9 +57,9 @@ public class ArtistController {
 	 * @return
 	 */
 	@RequestMapping(value = "/artistSearch",method=RequestMethod.GET)
-	public Map<String,Object> artistSearch(@RequestParam Map<String,Object> param){
-		
-		ResultMap result = artistService.artistSearch(param);
+	public Map<String,Object> artistSearch(Long type1, Long type2, String searchText, Integer order, Integer order2, Integer pageNum){
+
+		ResultMap result = artistService.artistSearch(type1,type2,searchText,order,order2,pageNum);
 		
 		return result.getResultMap();
 	}

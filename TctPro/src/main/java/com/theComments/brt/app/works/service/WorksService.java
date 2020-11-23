@@ -346,9 +346,9 @@ public class WorksService {
 	public ResultMap worksSearch(Map<String, Object> param) {
 		// TODO Auto-generated method stub
 
-		int pageNum = Integer.parseInt(param.get("pageNum").toString());
-		int order = Integer.parseInt(param.get("order").toString());
-		int order2 = Integer.parseInt(param.get("order2").toString());
+		Integer pageNum = Integer.parseInt(param.get("pageNum").toString());
+		Integer order = Integer.parseInt(param.get("order").toString());
+		Integer order2 = Integer.parseInt(param.get("order2").toString());
 
 		Long type1 = Long.parseLong(param.get("type1").toString());
 		Long type2 = Long.parseLong(param.get("type2").toString());
@@ -371,12 +371,27 @@ public class WorksService {
 		OrderForSearch orderForSearch = new OrderForSearch();
 		orderForSearch.setOrder(order);
 		orderForSearch.setOrder2(order2);
+		
+		Pageable pageable = PageRequest.of(pageNum -1, 10);
+		
+		if(type1 == 0L) {
+			type1 = null;
+		}
+		
+		if(type2 == 0L) {
+			type2 = null;
+		}
+		
+		Page<Works> pageWorks = worksDao.search(type1,type2,pageable);
 
-		List<WorksDto> works = worksDynamicQueryDao.searchWorksDynamic(worksDto, type1Dto, type2Dto, orderForSearch);
+//		List<WorksDto> works = worksDynamicQueryDao.searchWorksDynamic(worksDto, type1Dto, type2Dto, orderForSearch);
+		
+		
+		
 
 		ResultMap result = new ResultMap();
-		result.setData(works);
-//		result.setTotalSize(works.get(0).getTotalSize());
+		result.setData(pageWorks.getContent());
+		result.setTotalSize(pageWorks.getTotalElements());
 		result.setResult(200);
 
 		return result;

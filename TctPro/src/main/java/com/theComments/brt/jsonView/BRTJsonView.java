@@ -1,0 +1,18 @@
+package com.theComments.brt.jsonView;
+
+public class BRTJsonView {
+	
+	public static interface Works extends WorksCommon{};
+	public static interface WorksCommon extends CreateArtist, ArtistCommon,FileSaveCommon{};
+	
+	public static interface Create extends CreateArtist,CreateWorks,CreateCommon{};
+	public static interface CreateArtist extends CreateCommon {};
+	public static interface CreateWorks extends CreateCommon{};
+	public static interface CreateCommon {};
+
+	public static interface Artist {};
+	public static interface ArtistCommon {};
+	
+	public static interface FileSave {};
+	public static interface FileSaveCommon {};
+}
