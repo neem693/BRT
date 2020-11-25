@@ -1,8 +1,8 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1590720758205" ID="ID_1813722365" MODIFIED="1590721026420" TEXT="&#xb0b4;&#xac00;&#xb9cc;&#xb4e0; &#xd568;&#xc218;">
-<node CREATED="1590721027788" FOLDED="true" ID="ID_1512170669" MODIFIED="1604905391600" POSITION="right" TEXT="tablesort">
-<node CREATED="1590721032336" FOLDED="true" ID="ID_1106817762" MODIFIED="1604905391787" TEXT="tableSort(sortinfo){">
+<node CREATED="1590721027788" ID="ID_1512170669" MODIFIED="1606267499925" POSITION="right" TEXT="tablesort">
+<node CREATED="1590721032336" FOLDED="true" ID="ID_1106817762" MODIFIED="1606267501929" TEXT="tableSort(sortinfo){">
 <node CREATED="1590721032336" MODIFIED="1590721032336" TEXT="let prop = sortinfo.prop;"/>
 <node CREATED="1590721032336" MODIFIED="1590721032336" TEXT="let order = sortinfo.order;"/>
 <node CREATED="1590721032336" ID="ID_438078819" MODIFIED="1600157184146" TEXT="this.tableData = this.tableData.sort((a,b)=&gt;{">
@@ -87,6 +87,10 @@
 <node CREATED="1590721032382" MODIFIED="1590721032382" TEXT="// console.log(this.tableData);"/>
 <node CREATED="1590721032382" MODIFIED="1590721032382" TEXT="}"/>
 </node>
+</node>
+<node CREATED="1606267502930" ID="ID_1332116361" MODIFIED="1606267511234" POSITION="right" TEXT="youtube api">
+<node CREATED="1606267511602" ID="ID_96080193" LINK="https://developers.google.com/youtube/player_parameters?hl=ko" MODIFIED="1606267511602" TEXT="https://developers.google.com/youtube/player_parameters?hl=ko"/>
+<node CREATED="1606267755497" ID="ID_335623507" MODIFIED="1606267759906" TEXT="&#xae30;&#xbcf8;&#xc801;&#xc73c;&#xb85c; &#xc774;&#xc6a9;&#xd558;&#xb824;&#xba74;"/>
 </node>
 </node>
 </map>

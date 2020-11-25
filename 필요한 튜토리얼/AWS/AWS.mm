@@ -541,7 +541,7 @@
 <node CREATED="1580313782298" FOLDED="true" ID="ID_492431614" MODIFIED="1604568228233" TEXT="&#xc5d0;&#xb7ec; &#xbc1c;&#xc0dd;&#xc2dc;">
 <node CREATED="1580313784837" ID="ID_661938759" LINK="https://kgu0724.tistory.com/71" MODIFIED="1580313784837" TEXT="https://kgu0724.tistory.com/71"/>
 </node>
-<node CREATED="1580280121659" FOLDED="true" ID="ID_1286435419" MODIFIED="1605862464596" TEXT="&#xb9ac;&#xb205;&#xc2a4;">
+<node CREATED="1580280121659" FOLDED="true" ID="ID_1286435419" MODIFIED="1606108840075" TEXT="&#xb9ac;&#xb205;&#xc2a4;">
 <node CREATED="1580280125326" FOLDED="true" ID="ID_764810834" MODIFIED="1604555619252" TEXT="&#xb85c;&#xadf8; live">
 <node CREATED="1580280150845" ID="ID_77481304" MODIFIED="1580280150845" TEXT="tail -f /path/thefile.log"/>
 </node>
@@ -672,12 +672,12 @@
 <node CREATED="1582297499532" ID="ID_709101315" LINK="https://unix.stackexchange.com/questions/64148/how-do-i-make-ls-show-file-sizes-in-megabytes" MODIFIED="1582297499532" TEXT="https://unix.stackexchange.com/questions/64148/how-do-i-make-ls-show-file-sizes-in-megabytes"/>
 <node CREATED="1582297504990" ID="ID_696500625" MODIFIED="1582297504990" TEXT="ls -l --block-size=M"/>
 </node>
-<node CREATED="1584334689543" FOLDED="true" ID="ID_1096193112" MODIFIED="1604555619252" TEXT="&#xd06c;&#xb860; &#xbc30;&#xce58; &#xc2dc;&#xc2a4;&#xd15c;">
-<node CREATED="1584334776375" FOLDED="true" ID="ID_696643153" MODIFIED="1589874316082" TEXT="&#xbaa8;&#xb4e0; &#xd06c;&#xb860; &#xc791;&#xc5c5; &#xbcf4;&#xae30;">
+<node CREATED="1584334689543" ID="ID_1096193112" MODIFIED="1606107412370" TEXT="&#xd06c;&#xb860; &#xbc30;&#xce58; &#xc2dc;&#xc2a4;&#xd15c;">
+<node CREATED="1584334776375" ID="ID_696643153" MODIFIED="1606107413002" TEXT="&#xbaa8;&#xb4e0; &#xd06c;&#xb860; &#xc791;&#xc5c5; &#xbcf4;&#xae30;">
 <node CREATED="1584334738785" ID="ID_1875869468" LINK="https://www.liquidweb.com/kb/how-to-display-list-all-jobs-in-cron-crontab/" MODIFIED="1584334839376" TEXT="https://www.liquidweb.com/kb/how-to-display-list-all-jobs-in-cron-crontab/"/>
 <node CREATED="1584334774326" ID="ID_1221131966" MODIFIED="1584334774326" TEXT="crontab -l"/>
 </node>
-<node CREATED="1584334840271" FOLDED="true" ID="ID_636326287" MODIFIED="1589874314969" TEXT="&#xd06c;&#xb860; &#xcd94;&#xac00;&#xd558;&#xae30;">
+<node CREATED="1584334840271" ID="ID_636326287" MODIFIED="1606107414291" TEXT="&#xd06c;&#xb860; &#xcd94;&#xac00;&#xd558;&#xae30;">
 <node CREATED="1584335001639" ID="ID_386033019" LINK="https://www.cyberciti.biz/faq/how-do-i-add-jobs-to-cron-under-linux-or-unix-oses/" MODIFIED="1584335001639" TEXT="https://www.cyberciti.biz/faq/how-do-i-add-jobs-to-cron-under-linux-or-unix-oses/"/>
 <node CREATED="1584335029800" ID="ID_1557378422" MODIFIED="1584335032016" TEXT="&#xc608;&#xc81c;">
 <node CREATED="1584335036504" MODIFIED="1584335036504" TEXT="5 0 * * * /path/to/command"/>
