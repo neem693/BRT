@@ -1,8 +1,8 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1563522454767" ID="ID_1812649479" MODIFIED="1582770421913" TEXT="angular">
-<hook NAME="accessories/plugins/RevisionPlugin.properties"/>
 <hook NAME="accessories/plugins/CreationModificationPlugin_new.properties"/>
+<hook NAME="accessories/plugins/RevisionPlugin.properties"/>
 <node CREATED="1563522718142" FOLDED="true" ID="ID_1024043872" MODIFIED="1582770424624" POSITION="right" TEXT="&#xd604;&#xc7ac; &#xd29c;&#xd1a0;&#xb9ac;&#xc5bc;">
 <node CREATED="1563522713920" ID="ID_792755994" LINK="https://www.tutorialspoint.com/angular7/angular7_project_setup.htm" MODIFIED="1563522716082" TEXT="https://www.tutorialspoint.com/angular7/angular7_project_setup.htm"/>
 </node>
@@ -11,7 +11,7 @@
 <font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
 <node CREATED="1563522500194" ID="ID_137429030" MODIFIED="1563522517468" TEXT="ng serve"/>
 </node>
-<node COLOR="#3333ff" CREATED="1572342866560" FOLDED="true" ID="ID_1123000244" MODIFIED="1582770424624" POSITION="right" STYLE="bubble">
+<node COLOR="#3333ff" CREATED="1572342866560" ID="ID_1123000244" MODIFIED="1606300066740" POSITION="right" STYLE="bubble">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -31,9 +31,10 @@
 <node CREATED="1572342974095" MODIFIED="1572343042177" TEXT="npm install --save-dev @angular-devkit/build-angular"/>
 </node>
 </node>
-<node COLOR="#3333ff" CREATED="1572613755037" FOLDED="true" ID="ID_783700363" MODIFIED="1582770424624" POSITION="right" STYLE="bubble" TEXT="ng serve &#xc678;&#xbd80; ip &#xc811;&#xc18d;">
+<node COLOR="#3333ff" CREATED="1572613755037" ID="ID_783700363" MODIFIED="1606300070804" POSITION="right" STYLE="bubble" TEXT="ng serve &#xc678;&#xbd80; ip &#xc811;&#xc18d;">
 <font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
 <node CREATED="1572613852864" ID="ID_1398593216" LINK="https://github.com/angular/angular-cli/issues/2542" MODIFIED="1572613852864" TEXT="https://github.com/angular/angular-cli/issues/2542"/>
+<node CREATED="1606300200109" ID="ID_1134438173" MODIFIED="1606300200109" TEXT="ng serve --host=0.0.0.0"/>
 </node>
 <node CREATED="1563539766218" ID="ID_1186572759" MODIFIED="1563539774077" POSITION="right" TEXT="IE&#xc5d0;&#xc11c; template&#xb294; &#xba39;&#xd788;&#xc9c0; &#xc54a;&#xc73c;&#xb2c8; &#xc8fc;&#xc758;&#xd560; &#xac83;"/>
 <node CREATED="1563539774431" FOLDED="true" ID="ID_1207941584" MODIFIED="1582770424624" POSITION="right" TEXT="IE&#xc5d0;&#xc11c; angular &#xb744;&#xc6b0;&#xb294; &#xbc29;&#xbc95;">

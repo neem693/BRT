@@ -4,7 +4,6 @@ import { WorksSerivceService } from '../works-serivce.service';
 import { FormControl, Validators } from '@angular/forms';
 import { RESULT } from 'src/const/publicConst';
 import { environment } from 'src/environments/environment';
-import { HttpParams } from '@angular/common/http';
 import { Router, ActivatedRoute, Params } from '@angular/router';
 
 declare const $: any;
@@ -342,8 +341,8 @@ export class WorkSerachComponent implements OnInit, AfterViewInit {
       if (result == 200) {
         let return_data = x[RESULT.DATA_KEY];
         this.works_list = Object.assign([], return_data);
-        if (this.works_list.length != 0) {
-          this.page.worksList.totalSize = this.works_list[0]['totalSize'];
+        if (x[RESULT.TOTALSIZE_KEY] != 0) {
+          this.page.worksList.totalSize = x[RESULT.TOTALSIZE_KEY];
           console.log(this.page.worksList.totalSize);
         } else {
           this.page.worksList.totalSize = 0;

@@ -64,9 +64,9 @@
             <div (click)="searchWorksDetailNativeUrl(item.work_id)"
                 *ngFor="let item of works_list; let i = index; let last = last" id = "workItem{{i}}" class="work_item representation">
                 <div class="img">
-                    <img *ngIf="item.fileSaveDto.length == 0" src="/assets/noImage/not-available.jpg">
-                    <img *ngIf="item.fileSaveDto.length > 0"
-                        [src]="dir.image + item.fileSaveDto[0].file_path +'/' + item.fileSaveDto[0].save_file_name">
+                    <img *ngIf="item.fileSave.length == 0" src="/assets/noImage/not-available.jpg">
+                    <img *ngIf="item.fileSave.length > 0"
+                        [src]="dir.image + item.fileSave[0].file_path +'/' + item.fileSave[0].save_file_name">
                 </div>
                 <div class="detail_01">
                     <div class="subject_02">
@@ -74,10 +74,10 @@
                     </div>
                     <div class="artist_02">
                         <span class="artist_name"
-                            *ngIf="item.artistDtoList.length > 0">{{item.artistDtoList[0]?.art_name}}</span><span
+                            *ngIf="item.create.length > 0">{{item.create[0].artist?.art_name}}</span><span
                             class="multiple_artist"
-                            *ngIf="item.artistDtoList.length > 1">외{{item.artistDtoList.length -1 }}명</span>
-                        <span *ngIf="item.artistDtoList.length == 0" class="warn">저작자 없음</span>
+                            *ngIf="item.create.length > 1">외{{item.create.length -1 }}명</span>
+                        <span *ngIf="item.create.length == 0" class="warn">저작자 없음</span>
                     </div>
                     <div class="createDate_02">
                         <span>{{item.create_date | date:'yyyy-MM-dd'}}</span>

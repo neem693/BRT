@@ -54,7 +54,7 @@ public class Works {
 	
 	@Id
 	@GeneratedValue(strategy=GenerationType.AUTO)
-	@JsonView(BRTJsonView.Works.class)
+	@JsonView(BRTJsonView.WorksCommon.class)
 	Long work_id;
 	
 	@ManyToOne(fetch = FetchType.LAZY)
