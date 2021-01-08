@@ -16,20 +16,20 @@
     >
   
       <el-menu-item index="1">
-         <i class="el-icon-location"></i>
-          <span slot="title">Navigator One</span>
+         <i class="el-icon-s-home"></i>
+          <span slot="title">홈</span>
       </el-menu-item>
       <el-menu-item index="2">
-        <i class="el-icon-menu"></i>
-        <span slot="title">Navigator Two</span>
+        <i class="el-icon-location"></i>
+        <span slot="title">지리정보데이터</span>
       </el-menu-item>
       <el-menu-item index="3" >
-        <i class="el-icon-document"></i>
-        <span slot="title">Navigator Three</span>
+        <i class="el-icon-pie-chart"></i>
+        <span slot="title">통계</span>
       </el-menu-item>
       <el-menu-item index="4">
-        <i class="el-icon-setting"></i>
-        <span slot="title">Navigator Four</span>
+        <i class="el-icon-goods"></i>
+        <span slot="title">콘텐츠 정보</span>
       </el-menu-item>
     </el-menu>
       <!-- <div v-if = "customCollapse == false">
@@ -136,16 +136,16 @@ export default {
 
       switch(Number(index)){
         case 1 : 
-          addClass = "el-icon-location";
+          addClass = "el-icon-s-home";
           break;
         case 2 :
-          addClass = "el-icon-menu";
+          addClass = "el-icon-location";
           break;
         case 3 :
-          addClass = "el-icon-document";
+          addClass = "el-icon-pie-chart";
           break;
         case 4 :
-          addClass = "el-icon-setting"
+          addClass = "el-icon-goods"
           break;
       }
 

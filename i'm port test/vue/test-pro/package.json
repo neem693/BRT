@@ -11,15 +11,16 @@
     "e2e": "node test/e2e/runner.js",
     "test": "npm run unit && npm run e2e",
     "lint": "eslint --ext .js,.vue src test/unit test/e2e/specs",
-    "build": "node build/build.js"
+    "build": "node build/build.js",
+    "serve": "vue-cli-service serve --host 0.0.0.0 --port 8081"
   },
   "dependencies": {
     "element-ui": "^2.14.1",
-    "vue": "^2.5.2",
+    "vue": "^2.6.11",
     "vue-float-action-button": "^0.6.6",
     "vue-iamport": "^0.1.2",
     "vue-radial-menu": "^1.1.1",
-    "vue-router": "^3.0.1"
+    "vue-router": "^3.4.9"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
@@ -45,7 +46,7 @@
     "eslint-config-standard": "^10.2.1",
     "eslint-friendly-formatter": "^3.0.0",
     "eslint-loader": "^1.7.1",
-    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-node": "^5.2.0",
     "eslint-plugin-promise": "^3.4.0",
     "eslint-plugin-standard": "^3.0.1",

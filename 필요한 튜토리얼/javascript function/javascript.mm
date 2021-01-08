@@ -1,7 +1,7 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1590720758205" ID="ID_1813722365" MODIFIED="1590721026420" TEXT="&#xb0b4;&#xac00;&#xb9cc;&#xb4e0; &#xd568;&#xc218;">
-<node CREATED="1590721027788" ID="ID_1512170669" MODIFIED="1606267499925" POSITION="right" TEXT="tablesort">
+<node CREATED="1590721027788" FOLDED="true" ID="ID_1512170669" MODIFIED="1608115009131" POSITION="right" TEXT="tablesort">
 <node CREATED="1590721032336" FOLDED="true" ID="ID_1106817762" MODIFIED="1606267501929" TEXT="tableSort(sortinfo){">
 <node CREATED="1590721032336" MODIFIED="1590721032336" TEXT="let prop = sortinfo.prop;"/>
 <node CREATED="1590721032336" MODIFIED="1590721032336" TEXT="let order = sortinfo.order;"/>
@@ -88,9 +88,64 @@
 <node CREATED="1590721032382" MODIFIED="1590721032382" TEXT="}"/>
 </node>
 </node>
-<node CREATED="1606267502930" ID="ID_1332116361" MODIFIED="1606267511234" POSITION="right" TEXT="youtube api">
+<node CREATED="1606267502930" FOLDED="true" ID="ID_1332116361" MODIFIED="1608115009141" POSITION="right" TEXT="youtube api">
 <node CREATED="1606267511602" ID="ID_96080193" LINK="https://developers.google.com/youtube/player_parameters?hl=ko" MODIFIED="1606267511602" TEXT="https://developers.google.com/youtube/player_parameters?hl=ko"/>
+<node CREATED="1607407801012" ID="ID_1783887322" LINK="https://developers.google.com/youtube/iframe_api_reference" MODIFIED="1607407807275" TEXT="https://developers.google.com/youtube/iframe_api_reference"/>
 <node CREATED="1606267755497" ID="ID_335623507" MODIFIED="1606267759906" TEXT="&#xae30;&#xbcf8;&#xc801;&#xc73c;&#xb85c; &#xc774;&#xc6a9;&#xd558;&#xb824;&#xba74;"/>
+</node>
+<node CREATED="1608015989538" FOLDED="true" ID="ID_1715093254" MODIFIED="1608115009144" POSITION="right" TEXT="split">
+<node CREATED="1608015992022" MODIFIED="1608015992022">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="javascript_8796179082825805127.jpeg" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1608016700321" FOLDED="true" ID="ID_960789365" MODIFIED="1608115009151" POSITION="right" TEXT="check multifoward">
+<node CREATED="1608016709209" ID="ID_1794663454" MODIFIED="1608016713605" TEXT="&#xd3ec;&#xc6cc;&#xb529;&#xc774; &#xc5ec;&#xb7ec;&#xac00;&#xc9c0;"/>
+<node CREATED="1608016714377" ID="ID_1547096235" LINK="https://wfwefewewf.com$en$www.naver.com" MODIFIED="1608016714377" TEXT="var str = &quot;$$MULTI$KR$https://wfwefewewf.com$en$www.naver.com&quot;;"/>
+<node CREATED="1608016714407" ID="ID_1583648662" MODIFIED="1608016714407" TEXT="var matchRes = str.match(/\$(..)\$/g);"/>
+<node CREATED="1608016714407" ID="ID_1950996326" MODIFIED="1608016714407" TEXT="alert(matchRes);"/>
+<node CREATED="1608016714407" ID="ID_573385833" MODIFIED="1608016714407" TEXT="var res = str.split(/\$..\$/);"/>
+<node CREATED="1608016714407" ID="ID_102484712" MODIFIED="1608016714407" TEXT="document.getElementById(&quot;demo&quot;).innerHTML = res;"/>
+</node>
+<node CREATED="1608017644871" FOLDED="true" ID="ID_290170772" MODIFIED="1608115009151" POSITION="right" TEXT="&#xacc4;&#xc18d; &#xd587;&#xac08;&#xb9bc; of &#xc640; in">
+<node CREATED="1608017656631" ID="ID_844857800" MODIFIED="1608017659214" TEXT="&#xc774;&#xbbf8;&#xc9c0;">
+<node CREATED="1608017659567" ID="ID_1638108031" MODIFIED="1608017659567">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="javascript_3038031294942482609.jpeg" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1608017667335" ID="ID_1002483169" MODIFIED="1608017671347" TEXT="&#xcc38;&#xc870;">
+<node CREATED="1608017671647" LINK="https://stackoverflow.com/questions/29285897/what-is-the-difference-between-for-in-and-for-of-statements-in-jav" MODIFIED="1608017671647" TEXT="https://stackoverflow.com/questions/29285897/what-is-the-difference-between-for-in-and-for-of-statements-in-jav"/>
+</node>
+</node>
+<node CREATED="1608018319038" FOLDED="true" ID="ID_710566172" MODIFIED="1608115009151" POSITION="right" TEXT="indexof">
+<node CREATED="1608018323207" ID="ID_1504692700" MODIFIED="1608018328114" TEXT="&#xc774;&#xbbf8;&#xc9c0;">
+<node CREATED="1608018325112" ID="ID_880441662" MODIFIED="1608018325112">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="javascript_5185170094432695362.jpeg" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1608115009811" ID="ID_636851740" MODIFIED="1608115013071" POSITION="right" TEXT="replaceAll &#xd568;&#xc218;">
+<node CREATED="1608115013526" ID="ID_418286662" LINK="https://stackoverflow.com/questions/13340131/string-prototype-replaceall-not-working" MODIFIED="1608115013526" TEXT="https://stackoverflow.com/questions/13340131/string-prototype-replaceall-not-working"/>
 </node>
 </node>
 </map>

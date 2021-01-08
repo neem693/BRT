@@ -68,11 +68,10 @@
             "proxyConfig": "proxy.conf.json"
           },
           "configurations": {
-          
             "production": {
               "browserTarget": "TheComment:build:production"
             },
-            "es5":{
+            "es5": {
               "browserTarget": "TheComment:build:es5"
             }
           }
@@ -126,6 +125,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "TheComment"
+    }
+  },
+  "defaultProject": "TheComment",
+  "cli": {
+    "analytics": "2f299c40-4bb6-45e7-83dd-3c00fa77fd39"
+  }
 }

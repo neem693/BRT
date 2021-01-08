@@ -6,7 +6,8 @@ import customElMenu from '@/components/customElMenu'
 Vue.use(Router)
 
 export default new Router({
-  mode: "history",
+  mode: 'history',
+  useEslint: false,
   routes: [
     {
       path: '/HelloWorld',

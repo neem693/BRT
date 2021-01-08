@@ -28,6 +28,14 @@
 <node CREATED="1592374185034" ID="ID_1600784659" LINK="https://vuejs.org/v2/guide/components-props.html#Passing-an-Array" MODIFIED="1592374185034" TEXT="https://vuejs.org/v2/guide/components-props.html#Passing-an-Array"/>
 </node>
 <node CREATED="1594002998121" ID="ID_856194597" MODIFIED="1594003007464" POSITION="right" TEXT="dom&#xc744; &#xbabb;&#xac00;&#xc9c0;&#xace0; &#xc62c; &#xb54c;"/>
+<node COLOR="#3333ff" CREATED="1607408007611" ID="ID_1158718170" MODIFIED="1607408017154" POSITION="right" STYLE="bubble" TEXT="&#xc601;&#xc0c1; &#xbc31;&#xadf8;&#xb77c;&#xc6b4;&#xb4dc;">
+<font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
+<node CREATED="1607408026420" ID="ID_1957815764" LINK="https://github.com/avidofood/vue-responsive-video-background-player" MODIFIED="1607408026420" TEXT="https://github.com/avidofood/vue-responsive-video-background-player"/>
+</node>
+<node CREATED="1607408296026" ID="ID_1749336043" MODIFIED="1607408301585" POSITION="right" TEXT="youtube vue">
+<node CREATED="1607408302043" ID="ID_672638762" LINK="https://www.npmjs.com/package/vue-youtube" MODIFIED="1607408302043" TEXT="https://www.npmjs.com/package/vue-youtube"/>
+</node>
+<node CREATED="1609987735175" ID="ID_615459020" MODIFIED="1609987741570" POSITION="right" TEXT="vue/"/>
 <node CREATED="1586422232140" FOLDED="true" ID="ID_650780738" MODIFIED="1600157217211" POSITION="left" TEXT="&#xc54c;&#xc544;&#xc57c; &#xd560;&#xc810;">
 <node CREATED="1586422252140" ID="ID_619718976" MODIFIED="1586422278943" TEXT="&#xd574;&#xb2f9;&#xd558;&#xb294; &#xd504;&#xb85c;&#xd37c;&#xd2f0;&#xc5d0;&#xc11c; &#xc815;&#xd574;&#xc9c4; &#xd0a4;&#xac00; &#xc544;&#xc774;&#xc5d0; &#xc5c6;&#xb2e4;&#xace0; &#xd588;&#xc744; &#xb54c;"/>
 <node CREATED="1586422282636" ID="ID_1113240830" MODIFIED="1586422290400" TEXT="&#xd574;&#xb2f9; &#xd0a4;&#xac00; &#xac12;&#xc774; &#xb4e4;&#xc5b4;&#xc628;&#xb2e4;&#xace0; &#xd574;&#xb3c4;"/>

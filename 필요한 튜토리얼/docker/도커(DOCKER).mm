@@ -22,7 +22,7 @@
 <node CREATED="1574520656645" FOLDED="true" ID="ID_1038660596" MODIFIED="1605001788314" POSITION="right" TEXT="&#xb3c4;&#xcee4;&#xd5c8;&#xbe0c;">
 <node CREATED="1574520658885" ID="ID_1286753147" LINK="https://hub.docker.com/" MODIFIED="1574520658885" TEXT="https://hub.docker.com/"/>
 </node>
-<node CREATED="1574525945820" ID="ID_1032424159" MODIFIED="1605443370990" POSITION="right" TEXT="&#xba85;&#xb839;&#xc5b4;">
+<node CREATED="1574525945820" FOLDED="true" ID="ID_1032424159" MODIFIED="1608685737522" POSITION="right" TEXT="&#xba85;&#xb839;&#xc5b4;">
 <node CREATED="1574523707870" ID="ID_753691210" MODIFIED="1604557606341" TEXT="docker images">
 <node CREATED="1574523712494" ID="ID_1227617778" MODIFIED="1574523714980" TEXT="&#xbaa8;&#xb4e0; &#xc774;&#xbbf8;&#xc9c0;"/>
 </node>
@@ -152,7 +152,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1574525974304" ID="ID_1793973735" MODIFIED="1605443369921" POSITION="right" TEXT="&#xb3c4;&#xcee4; &#xb77c;&#xc774;&#xd504; &#xc0ac;&#xc774;&#xd074;(&#xc774;&#xbbf8;&#xc9c0;)">
+<node CREATED="1574525974304" FOLDED="true" ID="ID_1793973735" MODIFIED="1608685737522" POSITION="right" TEXT="&#xb3c4;&#xcee4; &#xb77c;&#xc774;&#xd504; &#xc0ac;&#xc774;&#xd074;(&#xc774;&#xbbf8;&#xc9c0;)">
 <node CREATED="1574525997043" ID="ID_235964087" MODIFIED="1574862706132">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -164,7 +164,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1574526327102" ID="ID_1572115796" MODIFIED="1605443368641" POSITION="right" TEXT="&#xb3c4;&#xcee4; &#xc0ac;&#xc6a9; &#xc804; -&#xc804;&#xd1b5;&#xc801; &#xc544;&#xd0a4;&#xd14d;&#xccd0;">
+<node CREATED="1574526327102" FOLDED="true" ID="ID_1572115796" MODIFIED="1608685737522" POSITION="right" TEXT="&#xb3c4;&#xcee4; &#xc0ac;&#xc6a9; &#xc804; -&#xc804;&#xd1b5;&#xc801; &#xc544;&#xd0a4;&#xd14d;&#xccd0;">
 <node CREATED="1574526586903" ID="ID_1732451224" MODIFIED="1574859587856" TEXT="&#xad6c;&#xc870;(&#xc774;&#xbbf8;&#xc9c0;)">
 <node CREATED="1574526336081" ID="ID_966138698" MODIFIED="1574526591960">
 <richcontent TYPE="NODE"><html>
@@ -185,7 +185,7 @@
 <node CREATED="1574526590964" MODIFIED="1574526590964" TEXT="You would then host your applications on top of each Guest OS."/>
 </node>
 </node>
-<node CREATED="1574526397704" ID="ID_525102096" MODIFIED="1605443366080" POSITION="right" TEXT="&#xb3c4;&#xcee4; &#xc0ac;&#xc6a9; &#xd6c4; (&#xc774;&#xbbf8;&#xc9c0;)">
+<node CREATED="1574526397704" FOLDED="true" ID="ID_525102096" MODIFIED="1608685737522" POSITION="right" TEXT="&#xb3c4;&#xcee4; &#xc0ac;&#xc6a9; &#xd6c4; (&#xc774;&#xbbf8;&#xc9c0;)">
 <node CREATED="1574526596518" ID="ID_215488902" MODIFIED="1574859590643" TEXT="&#xad6c;&#xc870;(&#xc774;&#xbbf8;&#xc9c0;)">
 <node CREATED="1574526573508" ID="ID_1393385210" MODIFIED="1574526599562">
 <richcontent TYPE="NODE"><html>
@@ -206,10 +206,10 @@
 <node CREATED="1574526608906" MODIFIED="1574526608906" TEXT="The clear advantage in this architecture is that you don&#x2019;t need to have extra hardware for Guest OS. Everything works as Docker containers."/>
 </node>
 </node>
-<node CREATED="1574588557493" ID="ID_532788729" MODIFIED="1605443364635" POSITION="right" TEXT="&#xb3c4;&#xcee4; &#xc0ac;&#xc6a9;&#xd6c4; &#xbc84;&#xcd94;&#xc5b4; &#xbc15;&#xc2a4; &#xc548;&#xb420; &#xb54c;">
+<node CREATED="1574588557493" FOLDED="true" ID="ID_532788729" MODIFIED="1608685737522" POSITION="right" TEXT="&#xb3c4;&#xcee4; &#xc0ac;&#xc6a9;&#xd6c4; &#xbc84;&#xcd94;&#xc5b4; &#xbc15;&#xc2a4; &#xc548;&#xb420; &#xb54c;">
 <node CREATED="1574590378123" ID="ID_325141841" LINK="https://www.youtube.com/watch?v=hRl-0lcQjdU" MODIFIED="1574590378123" TEXT="https://www.youtube.com/watch?v=hRl-0lcQjdU"/>
 </node>
-<node CREATED="1574596827786" ID="ID_851634636" MODIFIED="1605443363684" POSITION="right" TEXT="&#xc2a4;&#xd504;&#xb9c1;&#xbd80;&#xd2b8; maven build docker">
+<node CREATED="1574596827786" FOLDED="true" ID="ID_851634636" MODIFIED="1608685737522" POSITION="right" TEXT="&#xc2a4;&#xd504;&#xb9c1;&#xbd80;&#xd2b8; maven build docker">
 <node CREATED="1574597840880" ID="ID_1821338397" LINK="https://codefresh.io/howtos/using-docker-maven-maven-docker/" MODIFIED="1574597841494" TEXT="https://codefresh.io/howtos/using-docker-maven-maven-docker/"/>
 <node CREATED="1574597832137" ID="ID_1246621676" LINK="https://github.com/spotify/dockerfile-maven" MODIFIED="1574597832137" TEXT="https://github.com/spotify/dockerfile-maven"/>
 </node>
