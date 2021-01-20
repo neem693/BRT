@@ -4575,12 +4575,18 @@
 <node CREATED="1582868819622" ID="ID_1063589233" MODIFIED="1582868819622" TEXT="@SuppressWarnings(&quot;unused&quot;)"/>
 <node CREATED="1582868819622" ID="ID_1701482316" MODIFIED="1582868819622" TEXT="private LogUtil log = new LogUtil(getClass());"/>
 </node>
-<node COLOR="#3333ff" CREATED="1584666330227" FOLDED="true" ID="ID_1653710934" MODIFIED="1610433834289" POSITION="right" STYLE="bubble" TEXT="aop">
+<node COLOR="#3333ff" CREATED="1584666330227" FOLDED="true" ID="ID_1653710934" MODIFIED="1611105471135" POSITION="right" STYLE="bubble" TEXT="aop">
 <font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
-<node CREATED="1584666337291" FOLDED="true" ID="ID_145341182" MODIFIED="1610092711349" TEXT="&#xae30;&#xcd08;">
+<node CREATED="1584666337291" ID="ID_145341182" MODIFIED="1611104609964" TEXT="&#xae30;&#xcd08;">
 <node CREATED="1584666339394" ID="ID_62009756" LINK="https://www.baeldung.com/spring-aop-annotation" MODIFIED="1584666339394" TEXT="https://www.baeldung.com/spring-aop-annotation"/>
 </node>
-<node CREATED="1610091963478" FOLDED="true" ID="ID_975922034" MODIFIED="1610092711349" TEXT="&#xac1c;&#xb150;">
+<node CREATED="1611104680023" ID="ID_156579748" MODIFIED="1611104682171" TEXT="&#xac1c;&#xb150;&#xb9c8;&#xc2a4;&#xd130;">
+<node CREATED="1611104682371" ID="ID_1134960024" LINK="https://ehdvudee.tistory.com/22" MODIFIED="1611104682371" TEXT="https://ehdvudee.tistory.com/22"/>
+</node>
+<node CREATED="1611104693751" ID="ID_458564099" MODIFIED="1611104701990" TEXT="aop&#xc720;&#xd615;">
+<node CREATED="1611104702401" ID="ID_1520342314" LINK="https://www.baeldung.com/spring-aop-pointcut-tutorial" MODIFIED="1611104702401" TEXT="https://www.baeldung.com/spring-aop-pointcut-tutorial"/>
+</node>
+<node CREATED="1610091963478" FOLDED="true" ID="ID_975922034" MODIFIED="1611105385311" TEXT="&#xac1c;&#xb150;">
 <node CREATED="1610091968942" ID="ID_1141497370" MODIFIED="1610091974697" TEXT="&#xac1c;&#xb150;(&#xc774;&#xbbf8;&#xc9c0;)">
 <node CREATED="1610092001582" MODIFIED="1610092001582">
 <richcontent TYPE="NODE"><html>
@@ -4595,7 +4601,7 @@
 </node>
 <node CREATED="1610092003790" ID="ID_1552863737" MODIFIED="1610092015282" TEXT="AOP&#xb294; Aspect Oriented Programing&#xc758; &#xc57d;&#xc790;&#xb85c;, &#xad00;&#xc810; &#xc9c0;&#xd5a5; &#xd504;&#xb85c;&#xadf8;&#xb798;&#xbc0d;&#xc744; &#xb73b;&#xd55c;&#xb2e4;. &#xacf5;&#xd1b5; &#xad00;&#xc2ec;&#xc0ac;(Aspect)&#xc758; &#xbd84;&#xb9ac;(&#xbaa8;&#xb4c8;&#xd654;)&#xb97c; &#xd1b5;&#xd574; &#xc18c;&#xc2a4;&#xcf54;&#xb4dc;&#xc758; &#xc911;&#xbcf5;&#xc758; &#xd574;&#xc18c; &#xbc0f; &#xc5b4;&#xd50c;&#xb9ac;&#xcf00;&#xc774;&#xc158;&#xc758; &#xcc45;&#xc784; &#xc6d0;&#xce59;&#xc744; &#xc880;&#xb355; &#xd68d;&#xc77c;&#xd654;&#xd55c;&#xb2e4;. &#xd558;&#xb098;&#xc758; &#xc608;&#xb294; &#xd2b8;&#xb79c;&#xc7ad;&#xc158; &#xc7a1;&#xc5c5;&#xacfc; &#xc778;&#xc99d; &#xc808;&#xcc28;&#xb97c; &#xc608;&#xb97c;&#xb4e4; &#xc218; &#xc788;&#xb2e4;. &#xc989;, &#xae30;&#xb2a5; &#xc911;&#xc5d0; &#xc8fc; &#xae30;&#xb2a5;&#xc5d0;&#xb9cc; &#xc9d1;&#xc911;&#xd558;&#xace0;, &#xbd80;&#xac00; &#xae30;&#xb2a5;&#xc740; Aspect&#xb85c; &#xb2e4; &#xbd84;&#xb9ac; &#xc2dc;&#xd0a8;&#xb2e4;. "/>
 </node>
-<node CREATED="1610092023278" FOLDED="true" ID="ID_1894326239" MODIFIED="1610433833473" TEXT="&#xc885;&#xb958;">
+<node CREATED="1610092023278" FOLDED="true" ID="ID_1894326239" MODIFIED="1611104627560" TEXT="&#xc885;&#xb958;">
 <node CREATED="1610092027878" ID="ID_1598696434" MODIFIED="1610092687369" TEXT="Spring AOP">
 <node CREATED="1610092057446" ID="ID_764780668" MODIFIED="1610092057446" TEXT="IoC/DI/&#xd504;&#xb85d;&#xc2dc; &#xd328;&#xd134;/&#xc790;&#xb3d9; &#xd504;&#xb85d;&#xc2dc; &#xc0dd;&#xc131; &#xae30;&#xbc95;/&#xbe48; &#xc624;&#xbe0c;&#xc81d;&#xd2b8;&#xc758; &#xd6c4;&#xcc98;&#xb9ac; &#xc870;&#xc791;&#xae30;&#xbc95; &#xb4f1;&#xc744; &#xd1b5;&#xd574; AOP&#xb97c; &#xc9c0;&#xc6d0;&#xd558;&#xba70;, &#xc774;&#xc640; &#xac19;&#xc740; AOP&#xb294; &#xc2a4;&#xd504;&#xb9c1;&#xacfc; &#xae30;&#xbcf8; JDK&#xb97c; &#xd1b5;&#xd574; &#xad6c;&#xd604; &#xac00;&#xb2a5;&#xd558;&#xb2e4;. &#xc989; &#xac04;&#xc811;&#xc801;&#xc778; &#xbc29;&#xc2dd;&#xc744; &#xd1b5;&#xd574; AOP&#xb97c; &#xc9c0;&#xc6d0;&#xd55c;&#xb2e4;. &#xd574;&#xb2f9; Spring AOP&#xb294; &#xd504;&#xb85d;&#xc2dc; &#xbc29;&#xc2dd;&#xc758; AOP&#xc774;&#xb2e4;. &#xc989; &#xd504;&#xb85d;&#xc2dc; &#xb514;&#xc790;&#xc778; &#xd328;&#xd134;&#xc744; &#xc0ac;&#xc6a9;&#xd55c;&#xb2e4;."/>
 <node CREATED="1610092057446" MODIFIED="1610092057446" TEXT="&#xc2a4;&#xd504;&#xb9c1; AOP&#xc758; &#xd504;&#xb85d;&#xc2dc; &#xbe48; &#xc0dd;&#xc131; &#xc808;&#xcc28;&#xb294; &#xb2e4;&#xc74c;&#xacfc; &#xac19;&#xb2e4;.">
@@ -4609,7 +4615,7 @@
 <node CREATED="1610092062708" MODIFIED="1610092062708" TEXT="&#xbc14;&#xc774;&#xd2b8;&#xcf54;&#xb4dc; &#xc0dd;&#xc131;&#xacfc; &#xc870;&#xc791;&#xc744; &#xd1b5;&#xd574; AOP&#xb97c; &#xc2e4;&#xd604;&#xd55c;&#xb2e4;. Target &#xc624;&#xbe0c;&#xc81d;&#xd2b8;&#xb97c; &#xb72f;&#xc5b4; &#xace0;&#xccd0;&#xc11c; &#xbd80;&#xac00;&#xae30;&#xb2a5;&#xc744; &#xc9c1;&#xc811; &#xb123;&#xc5b4;&#xc8fc;&#xb294; &#xc9c1;&#xc811;&#xc801;&#xc778; &#xbc29;&#xc2dd;&#xc774;&#xb2e4;."/>
 </node>
 </node>
-<node CREATED="1610092067765" ID="ID_918978638" MODIFIED="1610092965317" TEXT="&#xc6a9;&#xc5b4;">
+<node CREATED="1610092067765" ID="ID_918978638" MODIFIED="1611105385799" TEXT="&#xc6a9;&#xc5b4;">
 <node CREATED="1610092077438" ID="ID_1523655336" MODIFIED="1610092079765" TEXT="Target">
 <node CREATED="1610092083654" ID="ID_1272899277" MODIFIED="1610092083654" TEXT="&#xbd80;&#xac00;&#xae30;&#xb2a5;&#xc744; &#xbd80;&#xc5ec;&#xd560; &#xb300;&#xc0c1;&#xc744; &#xb73b;&#xd55c;&#xb2e4;. &#xc989;, &#xc8fc;&#xae30;&#xb2a5;&#xc744; &#xc598;&#xae30;&#xd55c;&#xb2e4;."/>
 </node>
@@ -4648,7 +4654,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1610092256630" FOLDED="true" ID="ID_1401712634" MODIFIED="1610433834289" TEXT="AOP Weaving">
+<node CREATED="1610092256630" FOLDED="true" ID="ID_1401712634" MODIFIED="1611104631208" TEXT="AOP Weaving">
 <node CREATED="1610092424006" ID="ID_1359553088" MODIFIED="1610092460274" TEXT="Aspect(&#xbd80;&#xac00;&#xae30;&#xb2a5;)&#xc640; Application(&#xd575;&#xc2ec;&#xae30;&#xb2a5;)&#xc758; Linking&#xd558;&#xb294; &#xacfc;&#xc815;"/>
 <node CREATED="1610092460957" ID="ID_1294628410" MODIFIED="1610092475101" TEXT="&#xd574;&#xb2f9; &#xac1d;&#xccb4;&#xb4e4;&#xc744; &#xbb36;&#xc5b4; &#xc0c8;&#xb85c;&#xc6b4; &#xac1d;&#xccb4; &#xc0dd;&#xc131;"/>
 <node CREATED="1610092519029" ID="ID_1651806669" MODIFIED="1610092525293" TEXT="SpringAop">
@@ -4877,6 +4883,10 @@
 <node BACKGROUND_COLOR="#ffffff" COLOR="#ff3333" CREATED="1610434059360" FOLDED="true" ID="ID_933177484" MODIFIED="1610611364683" POSITION="left" STYLE="bubble" TEXT="openJdk">
 <font BOLD="true" NAME="Dialog" SIZE="24"/>
 <node CREATED="1610434062927" ID="ID_1831848659" LINK="https://github.com/ojdkbuild/ojdkbuild" MODIFIED="1610434069273" TEXT="https://github.com/ojdkbuild/ojdkbuild"/>
+</node>
+<node COLOR="#3333ff" CREATED="1611105493279" ID="ID_1331755415" MODIFIED="1611105509614" POSITION="left" STYLE="bubble" TEXT="springboot&#xb791; &#xac19;&#xc774; &#xc2e4;&#xd589;">
+<font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
+<node CREATED="1611105500775" ID="ID_1816457558" MODIFIED="1611105509614" TEXT="ApplicationRunner"/>
 </node>
 </node>
 </map>
