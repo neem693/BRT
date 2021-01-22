@@ -3,6 +3,7 @@ package com.aopTest.aop.aspect;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
+import org.aspectj.lang.annotation.Pointcut;
 import org.springframework.stereotype.Component;
 
 @Aspect
@@ -20,5 +21,16 @@ public class ExampleAspect {
 	    System.out.println(joinPoint.getSignature() + " executed in " + executionTime + "ms");
 	    return proceed;
 	}
+	
+
+	
+	@Around("repositoryClassMethods()")
+	public Object measureMethodExecutionTime(ProceedingJoinPoint pjp) throws Throwable {
+		
+		return pjp.proceed();
+		
+	}
+	
+	
 
 }
