@@ -22,15 +22,6 @@ public class ExampleAspect {
 	    return proceed;
 	}
 	
-
-	
-	@Around("repositoryClassMethods()")
-	public Object measureMethodExecutionTime(ProceedingJoinPoint pjp) throws Throwable {
-		
-		return pjp.proceed();
-		
-	}
-	
 	
 
 }

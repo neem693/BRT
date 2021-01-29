@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1564407011351" ID="ID_1828054490" MODIFIED="1610516774460" TEXT="&#xd544;&#xc694;&#xd55c; &#xc790;&#xbc14; &#xd29c;&#xd1a0;">
+<node CREATED="1564407011351" ID="ID_1828054490" MODIFIED="1611639969806" TEXT="&#xd544;&#xc694;&#xd55c; &#xc790;&#xbc14; &#xd29c;&#xd1a0;">
 <font NAME="SansSerif" SIZE="12"/>
 <hook NAME="accessories/plugins/CreationModificationPlugin_new.properties"/>
 <node COLOR="#3333ff" CREATED="1564407143832" FOLDED="true" ID="ID_54453441" MODIFIED="1606783723184" POSITION="right" STYLE="bubble" TEXT="No goals have been specified for this build. You must specify a valid lifecycle phase or a goal in the format &lt;plugin-prefix&gt;:&lt;goal&gt; or &lt;plugin-group-id&gt;:&lt;plugin-artifact-id&gt;[:&lt;plugin-version&gt;]:&lt;goal&gt;. &#xb2e4;&#xc74c;&#xacfc; &#xac19;&#xc740; &#xba54;&#xc774;&#xbe10; &#xc5d0;&#xb7ec;&#xc77c; &#xb54c;">
@@ -23,7 +23,7 @@
 <node COLOR="#3333ff" CREATED="1564407170599" ID="ID_967912806" MODIFIED="1564407177170" POSITION="right" STYLE="bubble" TEXT="&#xc800; &#xd30c;&#xb780;&#xac83;&#xc744; &#xcd94;&#xac00;&#xd574;&#xc8fc;&#xba74; &#xb41c;&#xb2e4;.">
 <font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
 </node>
-<node CREATED="1564413592018" FOLDED="true" ID="ID_603628225" MODIFIED="1606783723189" POSITION="right" TEXT="&#xd06c;&#xb860;">
+<node CREATED="1564413592018" FOLDED="true" ID="ID_603628225" MODIFIED="1611639954550" POSITION="right" TEXT="&#xd06c;&#xb860;">
 <node CREATED="1564413594189" ID="ID_212916880" LINK="https://docs.oracle.com/cd/E12058_01/doc/doc.1014/e12030/cron_expressions.htm" MODIFIED="1564413594189" TEXT="https://docs.oracle.com/cd/E12058_01/doc/doc.1014/e12030/cron_expressions.htm"/>
 </node>
 <node BACKGROUND_COLOR="#ffffff" COLOR="#ff3333" CREATED="1564414947378" FOLDED="true" ID="ID_1752837018" MODIFIED="1606783723189" POSITION="right" STYLE="bubble" TEXT="jvm &#xd658;&#xacbd;&#xc5d0;&#xc11c; &#xb2e4;&#xc74c;&#xc744; &#xc785;&#xb825;&#xd558;&#xc5ec; &#xc778;&#xc99d;&#xc11c; &#xb9cc;&#xb4e4; &#xc218; &#xc788;&#xc74c;">
@@ -177,7 +177,7 @@
 <node CREATED="1565647048431" FOLDED="true" ID="ID_1370038050" MODIFIED="1606783723189" POSITION="right" TEXT="gmail less secure app">
 <node CREATED="1565647059045" LINK="https://myaccount.google.com/lesssecureapps?pli=1" MODIFIED="1565647059045" TEXT="https://myaccount.google.com/lesssecureapps?pli=1"/>
 </node>
-<node CREATED="1565714861390" FOLDED="true" ID="ID_295040871" MODIFIED="1606783723189" POSITION="right" TEXT="websocket">
+<node CREATED="1565714861390" FOLDED="true" ID="ID_295040871" MODIFIED="1611917563032" POSITION="right" TEXT="websocket">
 <node CREATED="1565714885843" ID="ID_449998338" LINK="https://www.tutorialspoint.com/spring_boot/spring_boot_web_socket.htm" MODIFIED="1565714886630" TEXT="https://www.tutorialspoint.com/spring_boot/spring_boot_web_socket.htm"/>
 <node CREATED="1565714887694" ID="ID_1540854741" MODIFIED="1565714956013" TEXT="&#xd29c;&#xd1a0;&#xb9ac;&#xc5bc; &#xd3ec;&#xc778;&#xd2b8;&#xc5d0;&#xc11c; &#xc6f9; &#xc18c;&#xcf13;&#xc5d0; &#xb300;&#xd55c; &#xb0b4;&#xc6a9;&#xc774; &#xc788;&#xb294;&#xb370;"/>
 <node CREATED="1565714956190" ID="ID_671373614" MODIFIED="1565714965785" TEXT="&#xc5ec;&#xae30;&#xc11c; &#xd544;&#xc694;&#xd55c; &#xd074;&#xb798;&#xc2a4;&#xac00; &#xc798; &#xb098;&#xc624;&#xc9c0; &#xc54a;&#xb294;&#xb370; &#xbc11;&#xc744; &#xcc38;&#xace0;&#xd558;&#xba74; &#xc798; &#xb098;&#xc628;&#xb2e4;."/>
@@ -255,17 +255,17 @@
 <node CREATED="1565799689378" ID="ID_928810396" MODIFIED="1565799689378" TEXT="to angular-clis polyfill.ts file. right now couldn&apos;t see any sideeffects"/>
 </node>
 </node>
-<node CREATED="1565932198016" FOLDED="true" ID="ID_718731204" MODIFIED="1606783723189" POSITION="right" TEXT="&#xc6f9; &#xc18c;&#xcf13;&#xc5d0; &#xb300;&#xd55c; &#xc815;&#xb9ac;">
+<node CREATED="1565932198016" FOLDED="true" ID="ID_718731204" MODIFIED="1611917563067" POSITION="right" TEXT="&#xc6f9; &#xc18c;&#xcf13;&#xc5d0; &#xb300;&#xd55c; &#xc815;&#xb9ac;">
 <node CREATED="1565932222238" ID="ID_169774616" MODIFIED="1565932236394" TEXT="&#xae30;&#xbcf8;&#xc801;&#xc73c;&#xb85c; angular 8 + spring 2.1.6&#xc744; &#xc0ac;&#xc6a9;&#xd55c; &#xac83;"/>
-<node CREATED="1565932331134" FOLDED="true" ID="ID_1296553527" MODIFIED="1602652912116" TEXT="&#xd29c;&#xd1a0;&#xb9ac;&#xc5bc; &#xd3ec;&#xc778;&#xd2b8;&#xb97c; &#xae30;&#xbcf8;&#xc801;&#xc73c;&#xb85c; &#xcc38;&#xace0;">
+<node CREATED="1565932331134" ID="ID_1296553527" MODIFIED="1611911588858" TEXT="&#xd29c;&#xd1a0;&#xb9ac;&#xc5bc; &#xd3ec;&#xc778;&#xd2b8;&#xb97c; &#xae30;&#xbcf8;&#xc801;&#xc73c;&#xb85c; &#xcc38;&#xace0;">
 <node CREATED="1565932338271" ID="ID_81431862" LINK="https://www.tutorialspoint.com/spring_boot/spring_boot_web_socket.htm" MODIFIED="1565932338271" TEXT="https://www.tutorialspoint.com/spring_boot/spring_boot_web_socket.htm"/>
 </node>
-<node CREATED="1565932339349" FOLDED="true" ID="ID_1790914735" MODIFIED="1602652912116" TEXT="angular 8&#xc5d0;&#xc11c; &#xc0ac;&#xc6a9;&#xd55c; &#xbaa8;&#xb4c8;">
+<node CREATED="1565932339349" ID="ID_1790914735" MODIFIED="1611911590030" TEXT="angular 8&#xc5d0;&#xc11c; &#xc0ac;&#xc6a9;&#xd55c; &#xbaa8;&#xb4c8;">
 <node CREATED="1565932441342" ID="ID_960084271" MODIFIED="1565932444673" TEXT="npm install @types/sockjs"/>
 <node CREATED="1565932594115" ID="ID_909739163" MODIFIED="1565933126706" TEXT="npm install @types/sockjs-client"/>
 <node CREATED="1565932452901" ID="ID_1794270471" LINK="#ID_126925543" MODIFIED="1565932471714" TEXT="sockjs&#xb294; global &#xbcc0;&#xc218;&#xac00; &#xc5c6;&#xb2e4;&#xace0; &#xb728;&#xb2c8; &#xb2e4;&#xc74c;&#xc744; &#xcc38;&#xace0;"/>
 </node>
-<node CREATED="1565932655061" FOLDED="true" ID="ID_187154817" MODIFIED="1580439357599" TEXT="&#xcd08;&#xae30;&#xd654;(&#xc774;&#xbbf8;&#xc9c0;)">
+<node CREATED="1565932655061" ID="ID_187154817" MODIFIED="1611911596450" TEXT="&#xcd08;&#xae30;&#xd654;(&#xc774;&#xbbf8;&#xc9c0;)">
 <node CREATED="1565932832902" ID="ID_932637870" MODIFIED="1565932832902">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -277,7 +277,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1565932669550" FOLDED="true" ID="ID_1543561114" MODIFIED="1580439359902" TEXT="response&#xb300;&#xae30; &amp; response &#xbc1c;&#xc1a1;(&#xc774;&#xbbf8;&#xc9c0;)">
+<node CREATED="1565932669550" ID="ID_1543561114" MODIFIED="1611911634340" TEXT="response&#xb300;&#xae30; &amp; response &#xbc1c;&#xc1a1;(&#xc774;&#xbbf8;&#xc9c0;)">
 <node CREATED="1565932848803" ID="ID_1133023370" MODIFIED="1565932848803">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -301,7 +301,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1565932801094" FOLDED="true" ID="ID_378806869" MODIFIED="1602652912116" TEXT="&#xc6f9; &#xc18c;&#xcf13; &#xc2a4;&#xcf00;&#xc974;&#xb9c1;(&#xc774;&#xbbf8;&#xc9c0;)">
+<node CREATED="1565932801094" FOLDED="true" ID="ID_378806869" MODIFIED="1611645769734" TEXT="&#xc6f9; &#xc18c;&#xcf13; &#xc2a4;&#xcf00;&#xc974;&#xb9c1;(&#xc774;&#xbbf8;&#xc9c0;)">
 <node CREATED="1565932905882" ID="ID_266505493" MODIFIED="1565932905882">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -462,7 +462,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1566377216061" FOLDED="true" ID="ID_773715394" MODIFIED="1606783723194" POSITION="right" TEXT="kafka&#xc624;&#xb958;">
+<node CREATED="1566377216061" FOLDED="true" ID="ID_773715394" MODIFIED="1611910584314" POSITION="right" TEXT="kafka&#xc624;&#xb958;">
 <node CREATED="1566566164289" FOLDED="true" ID="ID_474549072" MODIFIED="1569165928944" TEXT="&#xae30;&#xbcf8;&#xc801;&#xc778; &#xac1c;&#xb150;&#xb3c4;(&#xc774;&#xbbf8;&#xc9c0;)">
 <node CREATED="1566566169604" MODIFIED="1566566169604">
 <richcontent TYPE="NODE"><html>
@@ -515,7 +515,7 @@
 <node CREATED="1566479885524" ID="ID_846640087" LINK="https://github.com/spring-projects/spring-kafka" MODIFIED="1566479885524" TEXT="https://github.com/spring-projects/spring-kafka"/>
 <node CREATED="1566566535130" ID="ID_893255264" MODIFIED="1566566544471" TEXT="TOPIC&#xc774; &#xc911;&#xc694;&#xd55c;&#xac1c;&#xb150;, &#xc989; &#xbc29;&#xc774;&#xb77c;&#xb294; &#xb73b;"/>
 </node>
-<node CREATED="1566562637454" FOLDED="true" ID="ID_774230446" MODIFIED="1572219189548" TEXT="&#xbb38;&#xc81c;">
+<node CREATED="1566562637454" FOLDED="true" ID="ID_774230446" MODIFIED="1611910584298" TEXT="&#xbb38;&#xc81c;">
 <node CREATED="1566547842069" ID="ID_1601511798" MODIFIED="1566547842069" TEXT="Timeout expired while fetching topic metadata"/>
 <node CREATED="1566562993596" ID="ID_676844990" MODIFIED="1566562996420" TEXT="&#xac00;&#xc7a5; &#xc9c0;&#xb784;&#xac19;&#xc558;&#xb358; &#xbb38;&#xc81c;"/>
 </node>
@@ -3419,7 +3419,7 @@
 <node CREATED="1569321838984" FOLDED="true" ID="ID_1289431196" MODIFIED="1606783723204" POSITION="right" TEXT="JDBC &#xc624;&#xb958;">
 <node CREATED="1569321843353" ID="ID_437120369" LINK="#ID_1068000342" MODIFIED="1569321851842" TEXT="Failed to determine a suitable driver class "/>
 </node>
-<node COLOR="#3333ff" CREATED="1569954720531" FOLDED="true" ID="ID_1310219766" MODIFIED="1607565801286" POSITION="right" STYLE="bubble" TEXT="&#xd558;&#xc774;&#xbc84;&#xb124;&#xc774;&#xd2b8;(jpa)">
+<node COLOR="#3333ff" CREATED="1569954720531" FOLDED="true" ID="ID_1310219766" MODIFIED="1611917563067" POSITION="right" STYLE="bubble" TEXT="&#xd558;&#xc774;&#xbc84;&#xb124;&#xc774;&#xd2b8;(jpa)">
 <font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
 <node CREATED="1602136650114" FOLDED="true" ID="ID_1705942387" MODIFIED="1605443172019" TEXT="jpa &#xc124;&#xc815;">
 <node CREATED="1602136655177" ID="ID_1728261160" LINK="https://www.baeldung.com/the-persistence-layer-with-spring-and-jpa" MODIFIED="1602136655177" TEXT="https://www.baeldung.com/the-persistence-layer-with-spring-and-jpa"/>
@@ -3457,7 +3457,7 @@
 <node CREATED="1570395949140" ID="ID_124777700" MODIFIED="1570396828216" TEXT="&#xc870;&#xc778;&#xc744; &#xba85;&#xc2dc;&#xc801;&#xc73c;&#xb85c; &#xd558;&#xc5ec; &#xbd88;&#xb7ec;&#xc628;&#xb2e4;&#xb294; &#xac83;&#xc774;&#xb2e4;."/>
 </node>
 </node>
-<node CREATED="1572313369339" FOLDED="true" ID="ID_1561153760" MODIFIED="1605443172019" TEXT="fetch inner join (&#xcf54;&#xb4dc;)">
+<node CREATED="1572313369339" FOLDED="true" ID="ID_1561153760" MODIFIED="1611911536531" TEXT="fetch inner join (&#xcf54;&#xb4dc;)">
 <node CREATED="1572313382716" ID="ID_987460043" MODIFIED="1572313382716" TEXT="SELECT a FROM Artist a JOIN FETCH a.create c"/>
 <node CREATED="1572313390089" ID="ID_905347401" MODIFIED="1572313405110" TEXT="&#xc5ec;&#xae30;&#xc11c; &#xadf8;&#xb0e5; JOIN &#xd558;&#xba74; &#xac12;&#xc744; &#xc548;&#xac00;&#xc838;&#xc634;"/>
 </node>
@@ -3778,10 +3778,10 @@
 <node CREATED="1573318290264" ID="ID_977593743" MODIFIED="1573318290264" TEXT="Order order = cb.desc(cb.count(evalRoot.get(&quot;eval_id&quot;)));"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#ff3333" CREATED="1573359930180" ID="ID_392554766" MODIFIED="1607416358117" STYLE="bubble" TEXT="EntiityGraph">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#ff3333" CREATED="1573359930180" FOLDED="true" ID="ID_392554766" MODIFIED="1611911536531" STYLE="bubble" TEXT="EntiityGraph">
 <font BOLD="true" NAME="Dialog" SIZE="24"/>
 <node CREATED="1573360108583" ID="ID_1997380661" MODIFIED="1573360139876" TEXT="oneToMany &#xc77c;&#xb54c; &#xb370;&#xc774;&#xd130;&#xb97c; fetch lazy&#xb97c; &#xc7a0;&#xc2dc; earlty&#xb85c; &#xbc14;&#xafd4;&#xc8fc;&#xb294;&#xac8c; &#xc788;&#xb2e4;."/>
-<node CREATED="1573360152226" FOLDED="true" ID="ID_416168530" MODIFIED="1607416359272" TEXT="&#xb610;&#xd55c; &#xc774;&#xac78; &#xc368;&#xc57c;&#xc9c0;&#xb9cc; Entity&#xc5d0; &#xc790;&#xb3d9;&#xc73c;&#xb85c; &#xb123;&#xc5b4;&#xc8fc;&#xb294; &#xac83;&#xb3c4; &#xc788;&#xb2e4;.">
+<node CREATED="1573360152226" FOLDED="true" ID="ID_416168530" MODIFIED="1611910603745" TEXT="&#xb610;&#xd55c; &#xc774;&#xac78; &#xc368;&#xc57c;&#xc9c0;&#xb9cc; Entity&#xc5d0; &#xc790;&#xb3d9;&#xc73c;&#xb85c; &#xb123;&#xc5b4;&#xc8fc;&#xb294; &#xac83;&#xb3c4; &#xc788;&#xb2e4;.">
 <node CREATED="1573360264852" ID="ID_495981160" MODIFIED="1573360276182" TEXT="&#xc774;&#xac8c; &#xbb34;&#xc2a8; &#xb9d0;&#xc774;&#xb0d0;&#xba74; &#xadf8;&#xb0e5; fetch join&#xc744; &#xc4f0;&#xac8c; &#xb418;&#xba74;"/>
 <node CREATED="1573360276786" ID="ID_1387312240" MODIFIED="1573360288573" TEXT="One To Many &#xc77c;&#xb54c; N+1 &#xac1c; &#xb098;&#xc624;&#xac8c; &#xb41c;&#xb2e4;."/>
 <node CREATED="1573360289190" ID="ID_447523473" MODIFIED="1573360303767" TEXT="&#xc774;&#xac78; &#xc790;&#xb3d9;&#xc73c;&#xb85c; &#xae30;&#xc874; entity&#xc5d0; &#xb123;&#xc5b4;&#xc900;&#xb2e4;&#xb294; &#xac83;&#xc774;&#xb2e4;."/>
@@ -3872,7 +3872,7 @@
 <node CREATED="1575981357183" ID="ID_232161649" MODIFIED="1575981357183" TEXT="EntityGraph eg = entityManager.getEntityGraph(&quot;Sms.fetchSims&quot;);"/>
 </node>
 </node>
-<node COLOR="#3333ff" CREATED="1573360405386" FOLDED="true" ID="ID_1288050623" MODIFIED="1607492046038" STYLE="bubble" TEXT="&#xadf8;&#xb0e5; dao&#xb97c; &#xc0ac;&#xc6a9;&#xd568;&#xc73c;&#xb85c; &#xc368; &#xc0ac;&#xc6a9;&#xd558;&#xb294; &#xbc95;">
+<node COLOR="#3333ff" CREATED="1573360405386" ID="ID_1288050623" MODIFIED="1611910603786" STYLE="bubble" TEXT="&#xadf8;&#xb0e5; dao&#xb97c; &#xc0ac;&#xc6a9;&#xd568;&#xc73c;&#xb85c; &#xc368; &#xc0ac;&#xc6a9;&#xd558;&#xb294; &#xbc95;">
 <font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
 <node CREATED="1573360507336" ID="ID_1107830837" LINK="https://blog.leocat.kr/notes/2019/05/26/spring-data-using-entitygraph-to-customize-fetch-graph" MODIFIED="1573360510776" TEXT="https://blog.leocat.kr/notes/2019/05/26/spring-data-using-entitygraph-to-customize-fetch-graph"/>
 <node CREATED="1573360516979" FOLDED="true" ID="ID_941614623" MODIFIED="1607492045414" TEXT="&#xcf54;&#xb4dc;">
@@ -4040,7 +4040,7 @@
 </node>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#ff3333" CREATED="1607415158610" ID="ID_118765808" MODIFIED="1607415167594" STYLE="bubble" TEXT="&#xac1c;&#xb150;&#xc740; &#xacc4;&#xc18d; &#xc7a1;&#xb294;&#xac8c; &#xc88b;&#xb2e4;.">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#ff3333" CREATED="1607415158610" FOLDED="true" ID="ID_118765808" MODIFIED="1611911536531" STYLE="bubble" TEXT="&#xac1c;&#xb150;&#xc740; &#xacc4;&#xc18d; &#xc7a1;&#xb294;&#xac8c; &#xc88b;&#xb2e4;.">
 <font BOLD="true" NAME="Dialog" SIZE="24"/>
 <node COLOR="#3333ff" CREATED="1607415167594" ID="ID_639842857" MODIFIED="1607415196305" STYLE="bubble" TEXT="&#xc989;&#xc2dc;&#xb85c;&#xb529;&#xacfc; &#xc9c0;&#xc5f0;&#xb85c;&#xb529;(FetchType.LAZY or EAGER">
 <font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
@@ -4575,18 +4575,18 @@
 <node CREATED="1582868819622" ID="ID_1063589233" MODIFIED="1582868819622" TEXT="@SuppressWarnings(&quot;unused&quot;)"/>
 <node CREATED="1582868819622" ID="ID_1701482316" MODIFIED="1582868819622" TEXT="private LogUtil log = new LogUtil(getClass());"/>
 </node>
-<node COLOR="#3333ff" CREATED="1584666330227" FOLDED="true" ID="ID_1653710934" MODIFIED="1611221133580" POSITION="right" STYLE="bubble" TEXT="aop">
+<node COLOR="#3333ff" CREATED="1584666330227" FOLDED="true" ID="ID_1653710934" MODIFIED="1611639954566" POSITION="right" STYLE="bubble" TEXT="aop">
 <font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
-<node CREATED="1584666337291" FOLDED="true" ID="ID_145341182" MODIFIED="1611221133252" TEXT="&#xae30;&#xcd08;">
+<node CREATED="1584666337291" ID="ID_145341182" MODIFIED="1611565360642" TEXT="&#xae30;&#xcd08;">
 <node CREATED="1584666339394" ID="ID_62009756" LINK="https://www.baeldung.com/spring-aop-annotation" MODIFIED="1584666339394" TEXT="https://www.baeldung.com/spring-aop-annotation"/>
 </node>
-<node CREATED="1611104680023" FOLDED="true" ID="ID_156579748" MODIFIED="1611221130926" TEXT="&#xac1c;&#xb150;&#xb9c8;&#xc2a4;&#xd130;">
+<node CREATED="1611104680023" FOLDED="true" ID="ID_156579748" MODIFIED="1611565573412" TEXT="&#xac1c;&#xb150;&#xb9c8;&#xc2a4;&#xd130;">
 <node CREATED="1611104682371" ID="ID_1134960024" LINK="https://ehdvudee.tistory.com/22" MODIFIED="1611104682371" TEXT="https://ehdvudee.tistory.com/22"/>
 </node>
-<node CREATED="1611104693751" FOLDED="true" ID="ID_458564099" MODIFIED="1611221132031" TEXT="aop&#xc720;&#xd615;">
+<node CREATED="1611104693751" ID="ID_458564099" MODIFIED="1611565575153" TEXT="aop&#xc720;&#xd615;">
 <node CREATED="1611104702401" ID="ID_1520342314" LINK="https://www.baeldung.com/spring-aop-pointcut-tutorial" MODIFIED="1611104702401" TEXT="https://www.baeldung.com/spring-aop-pointcut-tutorial"/>
 </node>
-<node CREATED="1610091963478" FOLDED="true" ID="ID_975922034" MODIFIED="1611221128764" TEXT="&#xac1c;&#xb150;">
+<node CREATED="1610091963478" FOLDED="true" ID="ID_975922034" MODIFIED="1611565570372" TEXT="&#xac1c;&#xb150;">
 <node CREATED="1610091968942" ID="ID_1141497370" MODIFIED="1610091974697" TEXT="&#xac1c;&#xb150;(&#xc774;&#xbbf8;&#xc9c0;)">
 <node CREATED="1610092001582" MODIFIED="1610092001582">
 <richcontent TYPE="NODE"><html>
@@ -4601,7 +4601,7 @@
 </node>
 <node CREATED="1610092003790" ID="ID_1552863737" MODIFIED="1610092015282" TEXT="AOP&#xb294; Aspect Oriented Programing&#xc758; &#xc57d;&#xc790;&#xb85c;, &#xad00;&#xc810; &#xc9c0;&#xd5a5; &#xd504;&#xb85c;&#xadf8;&#xb798;&#xbc0d;&#xc744; &#xb73b;&#xd55c;&#xb2e4;. &#xacf5;&#xd1b5; &#xad00;&#xc2ec;&#xc0ac;(Aspect)&#xc758; &#xbd84;&#xb9ac;(&#xbaa8;&#xb4c8;&#xd654;)&#xb97c; &#xd1b5;&#xd574; &#xc18c;&#xc2a4;&#xcf54;&#xb4dc;&#xc758; &#xc911;&#xbcf5;&#xc758; &#xd574;&#xc18c; &#xbc0f; &#xc5b4;&#xd50c;&#xb9ac;&#xcf00;&#xc774;&#xc158;&#xc758; &#xcc45;&#xc784; &#xc6d0;&#xce59;&#xc744; &#xc880;&#xb355; &#xd68d;&#xc77c;&#xd654;&#xd55c;&#xb2e4;. &#xd558;&#xb098;&#xc758; &#xc608;&#xb294; &#xd2b8;&#xb79c;&#xc7ad;&#xc158; &#xc7a1;&#xc5c5;&#xacfc; &#xc778;&#xc99d; &#xc808;&#xcc28;&#xb97c; &#xc608;&#xb97c;&#xb4e4; &#xc218; &#xc788;&#xb2e4;. &#xc989;, &#xae30;&#xb2a5; &#xc911;&#xc5d0; &#xc8fc; &#xae30;&#xb2a5;&#xc5d0;&#xb9cc; &#xc9d1;&#xc911;&#xd558;&#xace0;, &#xbd80;&#xac00; &#xae30;&#xb2a5;&#xc740; Aspect&#xb85c; &#xb2e4; &#xbd84;&#xb9ac; &#xc2dc;&#xd0a8;&#xb2e4;. "/>
 </node>
-<node CREATED="1610092023278" FOLDED="true" ID="ID_1894326239" MODIFIED="1611221129676" TEXT="&#xc885;&#xb958;">
+<node CREATED="1610092023278" FOLDED="true" ID="ID_1894326239" MODIFIED="1611564622395" TEXT="&#xc885;&#xb958;">
 <node CREATED="1610092027878" ID="ID_1598696434" MODIFIED="1610092687369" TEXT="Spring AOP">
 <node CREATED="1610092057446" ID="ID_764780668" MODIFIED="1610092057446" TEXT="IoC/DI/&#xd504;&#xb85d;&#xc2dc; &#xd328;&#xd134;/&#xc790;&#xb3d9; &#xd504;&#xb85d;&#xc2dc; &#xc0dd;&#xc131; &#xae30;&#xbc95;/&#xbe48; &#xc624;&#xbe0c;&#xc81d;&#xd2b8;&#xc758; &#xd6c4;&#xcc98;&#xb9ac; &#xc870;&#xc791;&#xae30;&#xbc95; &#xb4f1;&#xc744; &#xd1b5;&#xd574; AOP&#xb97c; &#xc9c0;&#xc6d0;&#xd558;&#xba70;, &#xc774;&#xc640; &#xac19;&#xc740; AOP&#xb294; &#xc2a4;&#xd504;&#xb9c1;&#xacfc; &#xae30;&#xbcf8; JDK&#xb97c; &#xd1b5;&#xd574; &#xad6c;&#xd604; &#xac00;&#xb2a5;&#xd558;&#xb2e4;. &#xc989; &#xac04;&#xc811;&#xc801;&#xc778; &#xbc29;&#xc2dd;&#xc744; &#xd1b5;&#xd574; AOP&#xb97c; &#xc9c0;&#xc6d0;&#xd55c;&#xb2e4;. &#xd574;&#xb2f9; Spring AOP&#xb294; &#xd504;&#xb85d;&#xc2dc; &#xbc29;&#xc2dd;&#xc758; AOP&#xc774;&#xb2e4;. &#xc989; &#xd504;&#xb85d;&#xc2dc; &#xb514;&#xc790;&#xc778; &#xd328;&#xd134;&#xc744; &#xc0ac;&#xc6a9;&#xd55c;&#xb2e4;."/>
 <node CREATED="1610092057446" MODIFIED="1610092057446" TEXT="&#xc2a4;&#xd504;&#xb9c1; AOP&#xc758; &#xd504;&#xb85d;&#xc2dc; &#xbe48; &#xc0dd;&#xc131; &#xc808;&#xcc28;&#xb294; &#xb2e4;&#xc74c;&#xacfc; &#xac19;&#xb2e4;.">
@@ -4615,16 +4615,16 @@
 <node CREATED="1610092062708" MODIFIED="1610092062708" TEXT="&#xbc14;&#xc774;&#xd2b8;&#xcf54;&#xb4dc; &#xc0dd;&#xc131;&#xacfc; &#xc870;&#xc791;&#xc744; &#xd1b5;&#xd574; AOP&#xb97c; &#xc2e4;&#xd604;&#xd55c;&#xb2e4;. Target &#xc624;&#xbe0c;&#xc81d;&#xd2b8;&#xb97c; &#xb72f;&#xc5b4; &#xace0;&#xccd0;&#xc11c; &#xbd80;&#xac00;&#xae30;&#xb2a5;&#xc744; &#xc9c1;&#xc811; &#xb123;&#xc5b4;&#xc8fc;&#xb294; &#xc9c1;&#xc811;&#xc801;&#xc778; &#xbc29;&#xc2dd;&#xc774;&#xb2e4;."/>
 </node>
 </node>
-<node CREATED="1610092067765" FOLDED="true" ID="ID_918978638" MODIFIED="1611221125100" TEXT="&#xc6a9;&#xc5b4;">
-<node CREATED="1610092077438" ID="ID_1523655336" MODIFIED="1611221012595" TEXT="Target">
+<node CREATED="1610092067765" FOLDED="true" ID="ID_918978638" MODIFIED="1611565357787" TEXT="&#xc6a9;&#xc5b4;">
+<node CREATED="1610092077438" FOLDED="true" ID="ID_1523655336" MODIFIED="1611565296790" TEXT="Target">
 <node CREATED="1610092083654" ID="ID_1272899277" MODIFIED="1610092083654" TEXT="&#xbd80;&#xac00;&#xae30;&#xb2a5;&#xc744; &#xbd80;&#xc5ec;&#xd560; &#xb300;&#xc0c1;&#xc744; &#xb73b;&#xd55c;&#xb2e4;. &#xc989;, &#xc8fc;&#xae30;&#xb2a5;&#xc744; &#xc598;&#xae30;&#xd55c;&#xb2e4;."/>
 </node>
-<node CREATED="1610092086382" ID="ID_1920757482" MODIFIED="1611221012914" TEXT="Aspect">
+<node CREATED="1610092086382" FOLDED="true" ID="ID_1920757482" MODIFIED="1611565296790" TEXT="Aspect">
 <node CREATED="1610092096951" ID="ID_310216247" MODIFIED="1610092096951" TEXT="AOP&#xc758; &#xae30;&#xbcf8; &#xbaa8;&#xb4c8;&#xc774;&#xb2e4;. &#xd55c;&#xac1c; &#xb610;&#xb294; &#xadf8; &#xc774;&#xc0c1;&#xc758; &#xd3ec;&#xc778;&#xd2b8;&#xcef7;&#xacfc; &#xc5b4;&#xb4dc;&#xbc14;&#xc774;&#xc2a4;&#xc758; &#xc870;&#xd569;&#xc73c;&#xb85c; &#xb9cc;&#xb4e4;&#xc5b4;&#xc9c4;&#xb2e4;."/>
 </node>
-<node CREATED="1610092118277" ID="ID_1238977138" MODIFIED="1611221013285" TEXT="Advice">
+<node CREATED="1610092118277" FOLDED="true" ID="ID_1238977138" MODIFIED="1611565296790" TEXT="Advice">
 <node CREATED="1610092123579" ID="ID_840155892" MODIFIED="1610092123579" TEXT="&#xc2e4;&#xc9c8;&#xc801;&#xc73c;&#xb85c; &#xbd80;&#xac00; &#xae30;&#xb2a5;&#xc758; &#xad6c;&#xd604;&#xccb4;&#xc774;&#xb2e4;. Advice&#xc758; &#xc720;&#xd615;&#xc740; &#xb2e4;&#xc74c;&#xacfc; &#xac19;&#xb2e4;. Before, After, Around, AfterReturning, AfterThrowing&#xc774; &#xc788;&#xb2e4;."/>
-<node CREATED="1610092129302" FOLDED="true" ID="ID_895668894" MODIFIED="1611221001268" TEXT="&#xc885;&#xb958;">
+<node CREATED="1610092129302" ID="ID_895668894" MODIFIED="1611564629878" TEXT="&#xc885;&#xb958;">
 <node CREATED="1610092134356" ID="ID_1779151027" MODIFIED="1610092134356" TEXT="- Before: Target&#xc744; &#xc2e4;&#xd589;&#xd558;&#xae30;&#xc804;&#xc5d0; &#xbd80;&#xac00; &#xae30;&#xb2a5; &#xc2e4;&#xd589;"/>
 <node CREATED="1610092134365" ID="ID_578364122" MODIFIED="1610092134365" TEXT="- After: Target&#xc2e4;&#xd589; &#xd6c4; (&#xd574;&#xb2f9; Target Exception &#xb610;&#xb294; &#xc815;&#xc0c1;&#xb9ac;&#xd134; &#xc5ec;&#xbd80; &#xc0c1;&#xad00;&#xc5c6;&#xc774;) &#xc2e4;&#xd589;"/>
 <node CREATED="1610092134365" ID="ID_1729206008" MODIFIED="1610092134365" TEXT="- Around: Before + AfterReturning"/>
@@ -4632,10 +4632,10 @@
 <node CREATED="1610092134365" ID="ID_196003562" MODIFIED="1610092134365" TEXT="- AfterThrowing: Target &#xc2e4;&#xd589;&#xd558;&#xb2e4;, Exception &#xb358;&#xc9c8; &#xb54c;"/>
 </node>
 </node>
-<node CREATED="1610093005309" ID="ID_1089551571" MODIFIED="1611221003878" TEXT="Join-Point">
+<node CREATED="1610093005309" FOLDED="true" ID="ID_1089551571" MODIFIED="1611565296790" TEXT="Join-Point">
 <node CREATED="1610093014972" ID="ID_1681464065" MODIFIED="1610093014972" TEXT="Advice&#xac00; &#xc801;&#xc6a9;&#xb420; &#xc704;&#xce58;&#xb97c; &#xd45c;&#xc2dc;&#xd55c;&#xb2e4;(ex:&#xba54;&#xc18c;&#xb4dc; &#xc2e4;&#xd589; &#xb2e8;&#xacc4;)."/>
 </node>
-<node CREATED="1610092151749" ID="ID_1950202175" MODIFIED="1611221004271" TEXT="Point-Cut">
+<node CREATED="1610092151749" FOLDED="true" ID="ID_1950202175" MODIFIED="1611565296790" TEXT="Point-Cut">
 <node CREATED="1610092157573" ID="ID_748176287" MODIFIED="1610092157573" TEXT="Advice&#xb97c; &#xc801;&#xc6a9;&#xd560; Target&#xb97c; &#xc120;&#xbcc4;&#xd558;&#xb294; &#xc5ed;&#xd560;&#xc744; &#xd55c;&#xb2e4;. Annotation &#xb610;&#xb294; &#xba54;&#xc18c;&#xb4dc;&#xc758; &#xc815;&#xaddc;&#xc2dd;&#xc744; &#xd1b5;&#xd574; &#xd45c;&#xd604;&#xd55c;&#xb2e4;."/>
 </node>
 <node CREATED="1610092164206" FOLDED="true" ID="ID_1268614969" MODIFIED="1611221010094" TEXT="Cross-Cutting Concertn">
@@ -4884,11 +4884,11 @@
 <font BOLD="true" NAME="Dialog" SIZE="24"/>
 <node CREATED="1610434062927" ID="ID_1831848659" LINK="https://github.com/ojdkbuild/ojdkbuild" MODIFIED="1610434069273" TEXT="https://github.com/ojdkbuild/ojdkbuild"/>
 </node>
-<node COLOR="#3333ff" CREATED="1611105493279" ID="ID_1331755415" MODIFIED="1611105509614" POSITION="left" STYLE="bubble" TEXT="springboot&#xb791; &#xac19;&#xc774; &#xc2e4;&#xd589;">
+<node COLOR="#3333ff" CREATED="1611105493279" FOLDED="true" ID="ID_1331755415" MODIFIED="1611639954566" POSITION="left" STYLE="bubble" TEXT="springboot&#xb791; &#xac19;&#xc774; &#xc2e4;&#xd589;">
 <font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
 <node CREATED="1611105500775" ID="ID_1816457558" MODIFIED="1611105509614" TEXT="ApplicationRunner"/>
 </node>
-<node CREATED="1611300118764" ID="ID_850119877" MODIFIED="1611300125917" POSITION="right" TEXT="erdCloud">
+<node CREATED="1611300118764" FOLDED="true" ID="ID_850119877" MODIFIED="1611639954566" POSITION="right" TEXT="erdCloud">
 <node CREATED="1611310772879" LINK="https://www.erdcloud.com" MODIFIED="1611310772879" TEXT="https://www.erdcloud.com"/>
 </node>
 </node>
