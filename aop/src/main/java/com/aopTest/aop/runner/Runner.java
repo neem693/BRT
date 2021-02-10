@@ -5,6 +5,9 @@ import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
 import org.springframework.stereotype.Component;
 
+import com.aopTest.aop.foo.Bar;
+import com.aopTest.aop.foo.Foo;
+import com.aopTest.aop.foo.FooDao;
 import com.aopTest.aop.service.Service_;
 
 @Component
@@ -18,6 +21,11 @@ public class Runner implements ApplicationRunner {
 		// TODO Auto-generated method stub
 		
 		service.test();
+		
+		service.method();
+		
+
+		
 		
 	}
 	

@@ -1000,7 +1000,7 @@
 <node CREATED="1581006312902" ID="ID_281271959" LINK="https://console.aws.amazon.com/support/cases#/" MODIFIED="1581006312902" TEXT="https://console.aws.amazon.com/support/cases#/"/>
 </node>
 </node>
-<node CREATED="1581009443316" FOLDED="true" ID="ID_1184344303" MODIFIED="1607934264183" POSITION="right" TEXT="s3 &#xd30c;&#xc77c; &#xc5c5;&#xb85c;&#xb4dc;">
+<node CREATED="1581009443316" ID="ID_1184344303" MODIFIED="1612140314108" POSITION="right" TEXT="s3 &#xd30c;&#xc77c; &#xc5c5;&#xb85c;&#xb4dc;">
 <node CREATED="1581054815869" ID="ID_833051714" LINK="https://www.baeldung.com/aws-s3-java" MODIFIED="1581054816648" TEXT="https://www.baeldung.com/aws-s3-java"/>
 <node CREATED="1581055531096" ID="ID_106818959" MODIFIED="1581055711475" TEXT="&#xd30c;&#xc77c; &#xc5c5;&#xb85c;&#xb4dc; &#xd560; &#xb54c; &#xad8c;&#xd55c; &#xbb38;&#xc81c;">
 <node CREATED="1581055712466" ID="ID_1081272997" LINK="https://stackoverflow.com/questions/6524041/how-do-you-make-an-s3-object-public-via-the-aws-java-sdk" MODIFIED="1581055712466" TEXT="https://stackoverflow.com/questions/6524041/how-do-you-make-an-s3-object-public-via-the-aws-java-sdk"/>
