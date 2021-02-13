@@ -11,19 +11,23 @@ import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonView;
+import com.theComments.brt.jsonView.BRTJsonView;
 
 @Entity
 public class Type2 {
 	
 	@Id
 	@GeneratedValue(strategy=GenerationType.AUTO)
+	@JsonView(BRTJsonView.Type2.class)
 	Long type2_id;
 	
+	@JsonView(BRTJsonView.Type2Common.class)
 	String type2_name;
 	
 	@ManyToOne(fetch=FetchType.LAZY)
 	@JoinColumn(name="type1_id")
+	@JsonView(BRTJsonView.Type2Common.class)
 	Type1 type1;
 	
 	@OneToMany(mappedBy="type2")

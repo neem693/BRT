@@ -5,6 +5,7 @@ import { FormControl, Validators } from '@angular/forms';
 import { RESULT } from 'src/const/publicConst';
 import { environment } from 'src/environments/environment';
 import { Router, ActivatedRoute, Params } from '@angular/router';
+import {WorkOne} from 'src/app/vo/WorkOne';
 
 declare const $: any;
 
@@ -91,28 +92,7 @@ export class WorkSerachComponent implements OnInit, AfterViewInit {
    * of 
    * Detail
    */
-  targetWork = {
-    work: {
-      type2:{
-        type2_name:"",
-        type1Dto:{
-          type1_name:""
-        }
-      },
-      create_date:"",
-      create_date2:"",
-      subject:"",
-      work_id:0,
-      artistDtoList:[],
-      fileSaveDto:[{
-        file_path:"",
-        save_file_name:""
-      }],
-      is_series:0
-    },
-    matter: {},
-    matterSize: 0,
-  };
+  targetWork:WorkOne;
   page = {
     worksList: {
       totalSize: 0,
@@ -384,7 +364,7 @@ export class WorkSerachComponent implements OnInit, AfterViewInit {
       if (result == 200) {
         data = x[RESULT.DATA_KEY];
       }
-      this.targetWork.work = data['work'];
+      this.targetWork = data['work'];
       this.targetWork.matter = data['matter'];
       this.targetWork.matterSize = data['matterSize'];
       this.page.matter.totalSize = this.targetWork.matterSize;
@@ -448,7 +428,7 @@ export class WorkSerachComponent implements OnInit, AfterViewInit {
 
   registEval(){
     
-    let work_id = this.targetWork.work['work_id'];
+    let work_id = this.targetWork.work_id;
     this.router.navigate(['/eval/addEval/',work_id]);
 
   }

@@ -8,14 +8,21 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
 
+import com.fasterxml.jackson.annotation.JsonView;
+import com.theComments.brt.jsonView.BRTJsonView;
+import com.theComments.brt.jsonView.BRTJsonView.Type1Common;
+
 
 @Entity
 public class Type1 {
 	
 	@Id
 	@GeneratedValue(strategy=GenerationType.AUTO)
+	@JsonView(BRTJsonView.Type1.class)
 	Long type1_id;
 	
+	
+	@JsonView(BRTJsonView.Type1Common.class)
 	String type1_name;
 	
 	

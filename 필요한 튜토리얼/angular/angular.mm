@@ -11,7 +11,7 @@
 <font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
 <node CREATED="1563522500194" ID="ID_137429030" MODIFIED="1563522517468" TEXT="ng serve"/>
 </node>
-<node COLOR="#3333ff" CREATED="1572342866560" ID="ID_1123000244" MODIFIED="1606300066740" POSITION="right" STYLE="bubble">
+<node COLOR="#3333ff" CREATED="1572342866560" FOLDED="true" ID="ID_1123000244" MODIFIED="1613210900873" POSITION="right" STYLE="bubble">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -31,13 +31,13 @@
 <node CREATED="1572342974095" MODIFIED="1572343042177" TEXT="npm install --save-dev @angular-devkit/build-angular"/>
 </node>
 </node>
-<node COLOR="#3333ff" CREATED="1572613755037" ID="ID_783700363" MODIFIED="1606300070804" POSITION="right" STYLE="bubble" TEXT="ng serve &#xc678;&#xbd80; ip &#xc811;&#xc18d;">
+<node COLOR="#3333ff" CREATED="1572613755037" FOLDED="true" ID="ID_783700363" MODIFIED="1613210900874" POSITION="right" STYLE="bubble" TEXT="ng serve &#xc678;&#xbd80; ip &#xc811;&#xc18d;">
 <font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
 <node CREATED="1572613852864" ID="ID_1398593216" LINK="https://github.com/angular/angular-cli/issues/2542" MODIFIED="1572613852864" TEXT="https://github.com/angular/angular-cli/issues/2542"/>
 <node CREATED="1606300200109" ID="ID_1134438173" MODIFIED="1606300200109" TEXT="ng serve --host=0.0.0.0"/>
 </node>
 <node CREATED="1563539766218" ID="ID_1186572759" MODIFIED="1563539774077" POSITION="right" TEXT="IE&#xc5d0;&#xc11c; template&#xb294; &#xba39;&#xd788;&#xc9c0; &#xc54a;&#xc73c;&#xb2c8; &#xc8fc;&#xc758;&#xd560; &#xac83;"/>
-<node CREATED="1563539774431" FOLDED="true" ID="ID_1207941584" MODIFIED="1582770424624" POSITION="right" TEXT="IE&#xc5d0;&#xc11c; angular &#xb744;&#xc6b0;&#xb294; &#xbc29;&#xbc95;">
+<node CREATED="1563539774431" FOLDED="true" ID="ID_1207941584" MODIFIED="1613210301995" POSITION="right" TEXT="IE&#xc5d0;&#xc11c; angular &#xb744;&#xc6b0;&#xb294; &#xbc29;&#xbc95;">
 <node CREATED="1563539796867" ID="ID_425692759" LINK="https://stackoverflow.com/questions/56379067/how-do-i-support-internet-explorer-in-an-angular-8-application" MODIFIED="1563539797870" TEXT="https://stackoverflow.com/questions/56379067/how-do-i-support-internet-explorer-in-an-angular-8-application"/>
 <node CREATED="1563539791370" ID="ID_1546286933" LINK="https://github.com/angular/angular-cli/issues/14455" MODIFIED="1563539791370" TEXT="https://github.com/angular/angular-cli/issues/14455"/>
 <node COLOR="#3333ff" CREATED="1563539846048" ID="ID_1106477685" MODIFIED="1571077271263" STYLE="bubble" TEXT="&#xc8fc;&#xc758;&#xd560;&#xac74; angular.json&#xc5d0;&#xc11c; es5&#xb97c; &#xc801;&#xc744; &#xb54c; &#xccab; &#xbb38;&#xc790;&#xac00; &#xd504;&#xb85c;&#xc81d;&#xd2b8; &#xc774;&#xb984;&#xc774;&#xb77c;&#xb294; &#xac83; ">
@@ -125,7 +125,7 @@
 <font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
 </node>
 </node>
-<node CREATED="1563899020482" FOLDED="true" ID="ID_461820893" MODIFIED="1582770424624" POSITION="right" TEXT="formGroup&#xc744; &#xc0ac;&#xc6a9;&#xd560;&#xc2dc;">
+<node CREATED="1563899020482" FOLDED="true" ID="ID_461820893" MODIFIED="1613210305665" POSITION="right" TEXT="formGroup&#xc744; &#xc0ac;&#xc6a9;&#xd560;&#xc2dc;">
 <node CREATED="1563899036418" ID="ID_1678306153" MODIFIED="1563899036418" TEXT="Can&apos;t bind to &apos;formGroup&apos; since it isn&apos;t a known property of &apos;form&apos;. ("/>
 <node CREATED="1563899037346" ID="ID_1833468736" MODIFIED="1563899041889" TEXT="&#xb2e4;&#xc74c;&#xacfc; &#xac19;&#xc740; &#xc624;&#xb958;&#xac00; &#xb098;&#xc62c; &#xc218;&#xac00; &#xc788;&#xb2e4;."/>
 <node CREATED="1563899314087" ID="ID_1309310290" MODIFIED="1563899321217" TEXT="&#xc774;&#xb294; &#xb2e4;&#xc74c;&#xc744; &#xc784;&#xd3ec;&#xd2b8; &#xd574;&#xc57c; &#xd55c;&#xb2e4;&#xace0; &#xd55c;&#xb2e4;.(REACTIVE_FORM_DIRECTIVES )"/>
@@ -287,10 +287,10 @@
 <node CREATED="1565750226234" ID="ID_319098530" MODIFIED="1565750230358" TEXT="&#xbcc4;&#xb85c; &#xcd94;&#xcc9c;&#xc740; &#xd558;&#xace0; &#xc2f6;&#xc9c0; &#xc54a;&#xb2e4;."/>
 <node CREATED="1565750230562" ID="ID_1677494858" MODIFIED="1565750246030" TEXT="&#xadf8;&#xb0e5; bootstrap&#xae54;&#xace0; &#xadf8; css&#xb9cc; w3s &#xbcf4;&#xace0; &#xc774;&#xc6a9;&#xd558;&#xb294;&#xac8c; &#xb354; &#xc88b;&#xc9c0; &#xc54a;&#xc744;&#xae4c; &#xc2f6;&#xb2e4;."/>
 </node>
-<node CREATED="1565790667764" FOLDED="true" ID="ID_1046086711" MODIFIED="1582770424624" POSITION="right" TEXT="subcribe">
-<node CREATED="1565790673151" FOLDED="true" ID="ID_670401797" MODIFIED="1568492013301" TEXT="this.service.getTheProductList().subscribe(">
+<node CREATED="1565790667764" FOLDED="true" ID="ID_1046086711" MODIFIED="1613210307227" POSITION="right" TEXT="subcribe">
+<node CREATED="1565790673151" FOLDED="true" ID="ID_670401797" MODIFIED="1613210307226" TEXT="this.service.getTheProductList().subscribe(">
 <node CREATED="1565790673152" MODIFIED="1565790673152" TEXT="(data)=&gt;{">
-<node CREATED="1565790673153" MODIFIED="1565790673153" TEXT="this.jsonData = data;"/>
+<node CREATED="1565790673153" ID="ID_1596933719" MODIFIED="1565790673153" TEXT="this.jsonData = data;"/>
 <node CREATED="1565790673154" MODIFIED="1565790673154" TEXT="console.log(&quot;&#xc2e4;&#xd589;&#xc911;&quot;);"/>
 <node CREATED="1565790673155" MODIFIED="1565790673155" TEXT="this.afterAuthFunction();"/>
 </node>
@@ -545,7 +545,7 @@
 <node CREATED="1570409083899" ID="ID_673890638" LINK="https://ogp.me/" MODIFIED="1570409083899" TEXT="https://ogp.me/"/>
 <node CREATED="1570409089098" ID="ID_312897652" MODIFIED="1570409096918" TEXT="&#xd574;&#xb2f9;&#xd558;&#xb294;&#xac78; &#xc5f0;&#xad6c;&#xd574;&#xbcf4;&#xba74; &#xb420;&#xb4ef; &#xd558;&#xb2e4;."/>
 </node>
-<node CREATED="1570476346448" ID="ID_1860587586" MODIFIED="1604900772135" POSITION="right" TEXT="&#xad6c;&#xae00; &#xba54;&#xd130;&#xb9ac;&#xc5bc; &#xc544;&#xc774;&#xcf58;">
+<node CREATED="1570476346448" FOLDED="true" ID="ID_1860587586" MODIFIED="1613210900874" POSITION="right" TEXT="&#xad6c;&#xae00; &#xba54;&#xd130;&#xb9ac;&#xc5bc; &#xc544;&#xc774;&#xcf58;">
 <node CREATED="1570476419679" ID="ID_410829210" LINK="https://material.io/resources/icons/?style=baseline" MODIFIED="1570476419679" TEXT="https://material.io/resources/icons/?style=baseline"/>
 <node CREATED="1570478039783" ID="ID_245834576" MODIFIED="1570478042065" TEXT="&#xc0ac;&#xc774;&#xc988;&#xb294; md">
 <node CREATED="1570478049991" LINK="https://google.github.io/material-design-icons/" MODIFIED="1570478049991" TEXT="https://google.github.io/material-design-icons/"/>
@@ -726,6 +726,42 @@
 </node>
 <node CREATED="1570660236098" ID="ID_1452636517" MODIFIED="1570660236098" TEXT="}"/>
 </node>
+</node>
+<node BACKGROUND_COLOR="#ffff00" COLOR="#ff3333" CREATED="1613210908764" ID="ID_246912999" MODIFIED="1613211342719" POSITION="right" STYLE="bubble" TEXT="typescript &#xc911;&#xc694;!!(21-02-13)">
+<font BOLD="true" NAME="Dialog" SIZE="24"/>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1613210950231" ID="ID_1785867541" MODIFIED="1613210970236" TEXT="typescript&#xb294; &#xba85;&#xd655;&#xd55c; &#xd0c0;&#xc785;&#xc744; &#xc815;&#xc758;&#xd574;&#xc57c; &#xd558;&#xb294; &#xc758;&#xb3c4;&#xac00; &#xbd84;&#xba85;&#xd788; &#xc815;&#xd574;&#xc838; &#xc788;&#xb294; &#xc5b8;&#xc5b4;&#xc774;&#xb2e4;."/>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1613210970770" ID="ID_2839115" MODIFIED="1613211027016" TEXT="angular&#xc5d0;&#xc11c; typescript &#xd504;&#xb85c;&#xd37c;&#xd2f0;&#xb97c; &#xbc14;&#xc778;&#xb529; &#xd560; &#xc2dc;&#xc5d0; &#xd574;&#xb2f9; &#xd504;&#xb85c;&#xd37c;&#xd2f0; &#xd558;&#xb098;&#xd558;&#xb098;&#xb3c4; &#xb2e4; &#xd0c0;&#xc785;&#xc744; &#xc9c0;&#xc815;&#xd574;&#xc918;&#xc57c; &#xd558;&#xb294; &#xc774;&#xc720;&#xc774;&#xb2e4;."/>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1613211027832" FOLDED="true" ID="ID_1080842430" MODIFIED="1613211303335" TEXT="&#xc548;&#xadf8;&#xb7fc; ts2339&#xc744; &#xbcf4;&#xac8c; &#xb420; &#xac83;&#xc774;&#xb2e4;.">
+<node CREATED="1613211102586" ID="ID_22203000" LINK="https://stackoverflow.com/questions/38324949/error-ts2339-property-x-does-not-exist-on-type-y" MODIFIED="1613211102586" TEXT="https://stackoverflow.com/questions/38324949/error-ts2339-property-x-does-not-exist-on-type-y"/>
+</node>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1613211105294" ID="ID_369776530" MODIFIED="1613211123330" TEXT="&#xadf8;&#xb798;&#xc11c; &#xb098;&#xb294; &#xc9c0;&#xae08;&#xbd80;&#xd130; &#xd574;&#xb2f9;&#xd558;&#xb294; &#xd504;&#xb85c;&#xd37c;&#xd2f0; &#xbc14;&#xc778;&#xb529;&#xc744; &#xc778;&#xd130;&#xd398;&#xc774;&#xc2a4;&#xb85c; &#xc120;&#xc5b8;&#xd558;&#xace0;&#xc790; &#xd55c;&#xb2e4;."/>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1613211124011" FOLDED="true" ID="ID_1390479914" MODIFIED="1613211344894" TEXT="&#xc778;&#xd130;&#xd398;&#xc774;&#xc2a4;&#xb294; vo&#xd3f4;&#xb354;&#xc5d0; &#xb4e4;&#xc5b4;&#xac00; &#xc788;&#xb2e4;(&#xc774;&#xbbf8;&#xc9c0;)">
+<node CREATED="1613211201904" ID="ID_1002515562" MODIFIED="1613211201904">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="angular_1886673412013891261.jpeg" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1613211203762" FOLDED="true" ID="ID_726288451" MODIFIED="1613211345792" TEXT="&#xadf8;&#xb9ac;&#xace0; &#xc774;&#xb7ec;&#xd55c; &#xc778;&#xd130;&#xd398;&#xc774;&#xc2a4;&#xb294; &#xb2e4;&#xc74c;&#xacfc; &#xac19;&#xc774; &#xd504;&#xb85c;&#xd37c;&#xd2f0; &#xbc14;&#xc778;&#xb529; &#xd560; &#xc2dc;&#xc5d0; &#xc0ac;&#xc6a9; &#xac00;&#xb2a5;&#xd558;&#xb2e4;.(&#xc774;&#xbbf8;&#xc9c0;)">
+<node CREATED="1613211286876" ID="ID_546992472" MODIFIED="1613211286876">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="angular_7466191883326497043.jpeg" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1613211354590" ID="ID_221598604" MODIFIED="1613211356023" TEXT="&#xc774;&#xc0c1;&#xc774;&#xb2e4;."/>
 </node>
 <node COLOR="#3333ff" CREATED="1570695075995" FOLDED="true" ID="ID_1761422779" MODIFIED="1582770424624" POSITION="right" STYLE="bubble" TEXT="angular-material form Filed">
 <font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
@@ -966,7 +1002,7 @@
 <node CREATED="1571072122962" ID="ID_1780711004" MODIFIED="1571072128191" TEXT="ngModelChange &#xb97c; &#xc368;&#xb77c;"/>
 </node>
 </node>
-<node CREATED="1571174163102" FOLDED="true" ID="ID_1979358088" MODIFIED="1582770424624" POSITION="right" TEXT="JSON to  application/x-www-form-urlencoded &#xcffc;&#xb9ac; &#xc2a4;&#xd2b8;&#xb9c1; &#xd615;&#xd0dc;&#xb85c; &#xbc14;&#xafd4;&#xc11c; &#xbcf4;&#xb0b4;&#xae30;">
+<node CREATED="1571174163102" FOLDED="true" ID="ID_1979358088" MODIFIED="1613210900874" POSITION="right" TEXT="JSON to  application/x-www-form-urlencoded &#xcffc;&#xb9ac; &#xc2a4;&#xd2b8;&#xb9c1; &#xd615;&#xd0dc;&#xb85c; &#xbc14;&#xafd4;&#xc11c; &#xbcf4;&#xb0b4;&#xae30;">
 <node COLOR="#3333ff" CREATED="1571174919494" ID="ID_1110896494" MODIFIED="1571183599948" STYLE="bubble" TEXT="&#xc790;&#xbc14;&#xc2a4;&#xd06c;&#xb9bd;&#xd2b8;&#xc5d0;&#xc11c;&#xb294; &#xc0c8;&#xb85c; &#xb9cc;&#xb4e4;&#xac70;&#xb098; URLSearchParams &#xc0ac;&#xc6a9;&#xd558;&#xae30;(&#xcd94;&#xcc9c;)">
 <font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
 </node>
@@ -1221,7 +1257,7 @@
 <node CREATED="1603940830939" FOLDED="true" ID="ID_257589387" MODIFIED="1604474908703" POSITION="right" TEXT="array to string">
 <node CREATED="1603940838828" LINK="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/join" MODIFIED="1603940838828" TEXT="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/join"/>
 </node>
-<node CREATED="1611550432341" ID="ID_53124237" MODIFIED="1611550433537" POSITION="right" TEXT="&#xcc28;&#xd2b8;">
+<node CREATED="1611550432341" FOLDED="true" ID="ID_53124237" MODIFIED="1613210900874" POSITION="right" TEXT="&#xcc28;&#xd2b8;">
 <node CREATED="1611550002022" ID="ID_1400262913" MODIFIED="1611550005199" TEXT="apache echarts">
 <node CREATED="1611550005817" ID="ID_1798111831" LINK="https://www.npmjs.com/package/echarts" MODIFIED="1611550005817" TEXT="https://www.npmjs.com/package/echarts"/>
 </node>
@@ -1229,7 +1265,7 @@
 <node CREATED="1611550439598" ID="ID_1309196663" LINK="https://www.chartjs.org/" MODIFIED="1611550439598" TEXT="https://www.chartjs.org/"/>
 </node>
 </node>
-<node CREATED="1611552424313" ID="ID_1735909206" MODIFIED="1611552428107" POSITION="right" TEXT="&#xb9f5; &#xb77c;&#xc774;&#xbe0c;&#xb7ec;&#xb9ac;">
+<node CREATED="1611552424313" FOLDED="true" ID="ID_1735909206" MODIFIED="1613210900875" POSITION="right" TEXT="&#xb9f5; &#xb77c;&#xc774;&#xbe0c;&#xb7ec;&#xb9ac;">
 <node CREATED="1611552428771" ID="ID_1156087177" LINK="https://sites.google.com/site/bimprinciple/in-the-news/topjavascriptmapapiwalaibeuleoli" MODIFIED="1611552428771" TEXT="https://sites.google.com/site/bimprinciple/in-the-news/topjavascriptmapapiwalaibeuleoli"/>
 <node CREATED="1611554153357" ID="ID_458335219" MODIFIED="1611554157890" TEXT="leaflet">
 <node CREATED="1611554480068" ID="ID_200238510" LINK="https://leafletjs.com/examples.html" MODIFIED="1611554480068" TEXT="https://leafletjs.com/examples.html"/>

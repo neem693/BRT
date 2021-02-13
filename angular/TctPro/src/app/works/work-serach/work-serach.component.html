@@ -97,34 +97,34 @@
         <mat-icon class="reply" (click)="toggleFold()">reply</mat-icon>
         <div class="work_detail">
             <div class="img">
-                <img *ngIf="targetWork.work.fileSaveDto.length == 0" src="/assets/noImage/not-available.jpg">
-                <img *ngIf="targetWork.work.fileSaveDto.length >0"
-                    [src]="dir.image + targetWork.work.fileSaveDto[detail.picIndex].file_path +'/' + targetWork.work.fileSaveDto[detail.picIndex].save_file_name">
+                <img *ngIf="targetWork.fileSave.length == 0" src="/assets/noImage/not-available.jpg">
+                <img *ngIf="targetWork.fileSave.length >0"
+                    [src]="dir.image + targetWork.fileSave[detail.picIndex].file_path +'/' + targetWork.fileSave[detail.picIndex].save_file_name">
 
             </div>
-            <div class="small_img" *ngIf="targetWork.work.fileSaveDto != undefined">
+            <div class="small_img" *ngIf="targetWork.fileSave != undefined">
                 <div (click)="changeDetailPicIndex(i)" [ngClass]="{'active':i == detail.picIndex}"
-                    *ngFor="let item of targetWork.work.fileSaveDto;let i = index;">
+                    *ngFor="let item of targetWork.fileSave;let i = index;">
                     <img [src]="dir.image + item.file_path +'/' + item.save_file_name">
                 </div>
             </div>
             <div class="type_info_03">
-                <span class="type1_info_03">{{targetWork.work.type2.type1Dto.type1_name}}</span>
-                <span class="type2_info_03">{{targetWork.work.type2.type2_name}}</span>
+                <span class="type1_info_03">{{targetWork.type2.type1.type1_name}}</span>
+                <span class="type2_info_03">{{targetWork.type2.type2_name}}</span>
             </div>
             <div class="subject_name_03">
-                <span>{{targetWork.work.subject}}</span>
+                <span>{{targetWork.subject}}</span>
             </div>
-            <div *ngIf="targetWork.work.artistDtoList.length !=0" class="artist_name_pre">By</div>
+            <div *ngIf="targetWork.create.length !=0" class="artist_name_pre">By</div>
             <div class="artist_name_03 list">
-                <div *ngIf="targetWork.work.artistDtoList.length ==0" class="artist_none">저작자 없음</div>
-                <div *ngFor="let item of targetWork.work.artistDtoList; let i = index;">{{item.art_name}}</div>
+                <div *ngIf="targetWork.create.length ==0" class="artist_none">저작자 없음</div>
+                <div *ngFor="let item of targetWork.create; let i = index;">{{item.artist.art_name}}</div>
             </div>
             <div class="create_date_03">
-                <span>{{targetWork.work.create_date | date:'yyyy-MM-dd'}}</span>
+                <span>{{targetWork.create_date | date:'yyyy-MM-dd'}}</span>
             </div>
             <div class="attr">
-                <span *ngIf="targetWork.work.is_series == 1">SERISE</span>
+                <span *ngIf="targetWork.is_series == 1">SERISE</span>
             </div>
             <div class="matter_list">
                 <div *ngFor="let item of targetWork.matter" class="matter">
@@ -147,7 +147,7 @@
             <div *ngIf="page.matter.totalSize > 0" class="pagination_class">
                 <ngb-pagination [collectionSize]="page.matter.totalSize" [pageSize]="page.matter.pageSize"
                     [(page)]="page.matter.pageNum" aria-label="Default pagination"
-                    (pageChange)="searchWorksDetail(targetWork.work.work_id)">
+                    (pageChange)="searchWorksDetail(targetWork.work_id)">
                 </ngb-pagination>
             </div>
             <button mat-raised-button color="primary" (click) = "registEval()">평가등록</button>

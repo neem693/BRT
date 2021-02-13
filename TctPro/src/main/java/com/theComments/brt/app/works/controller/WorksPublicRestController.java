@@ -41,6 +41,7 @@ public class WorksPublicRestController {
 	}
 	
 	@RequestMapping(value = "/worksSearchDetail",method = RequestMethod.GET)
+	@JsonView(BRTJsonView.WorksCommon.class)
 	public Map<String,Object> worksSearchDetail(@RequestParam Map<String,Object> param){
 		
 		ResultMap result = worksService.worksSearchDetail(param);

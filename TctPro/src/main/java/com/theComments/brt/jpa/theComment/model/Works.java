@@ -59,7 +59,7 @@ public class Works {
 	
 	@ManyToOne(fetch = FetchType.LAZY)
 	@JoinColumn(name="type2_id")
-	@JsonView(BRTJsonView.Works.class)
+	@JsonView(BRTJsonView.WorksCommon.class)
 	Type2 type2;
 	
 	@JsonView(BRTJsonView.WorksCommon.class)

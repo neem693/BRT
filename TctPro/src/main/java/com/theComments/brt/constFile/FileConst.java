@@ -6,7 +6,7 @@ public class FileConst {
 		public static final String UPLOAD_BASE_PATH = "/tctFile";
 		public static final String WORK_IMAGE_BASE_PATH ="/workImage";
 		public static final String EVAL_IMAGE_BASE_PATH ="/evalImage";
-		public static final String S3_URL = "https://tct-file.s3.ap-northeast-2.amazonaws.com";
+		public static final String S3_URL = "https://tctfile.s3.ap-northeast-2.amazonaws.com";
 	}
 	
 	public static class FILE_SIZE{

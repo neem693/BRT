@@ -435,13 +435,13 @@ public class WorksService {
 		create_artList.addAll(works.getCreate());
 		Collections.sort(create_artList);
 		List<ArtistDto> artistDtoList = new ArrayList<ArtistDto>();
-		for (Create_art cr_art : create_artList) {
-
-			ArtistDto artist = new ArtistDto();
-			BeanUtils.copyProperties(cr_art.getArtist(), artist);
-			artistDtoList.add(artist);
-
-		}
+//		for (Create_art cr_art : create_artList) {
+//
+//			ArtistDto artist = new ArtistDto();
+//			BeanUtils.copyProperties(cr_art.getArtist(), artist);
+//			artistDtoList.add(artist);
+//
+//		}
 		worksDto.setArtistDtoList(artistDtoList);
 		//// artist end////
 		//// type/////
@@ -460,7 +460,8 @@ public class WorksService {
 		Map<String, Object> data = new HashMap<String, Object>();
 
 		data.put("matter", evalResult.getData());
-		data.put("work", worksDto);
+//		data.put("work", worksDto);
+		data.put("work", works);
 		data.put("matterSize", evalResult.getTotalSize());
 
 		ResultMap result = new ResultMap();
