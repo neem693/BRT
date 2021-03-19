@@ -162,9 +162,9 @@ public class ArtistService {
 			return result;
 		}
 
-		ArtistDto artistDto = new ArtistDto();
-		BeanUtils.copyProperties(artistData.get(), artistDto);
-		data.put("artistDto", artistDto);
+//		ArtistDto artistDto = new ArtistDto();
+//		BeanUtils.copyProperties(artistData.get(), artistDto);
+//		data.put("artistDto", artistDto);
 
 		List<Create_art> create_art_list = artistData.get().getCreate();
 
@@ -173,7 +173,7 @@ public class ArtistService {
 			result.setData(data);
 			return result;
 		}
-
+		//가장 최근 create를 불러옴
 		Create_art create = create_art_list.get(create_art_list.size() - 1);
 		;
 		Works work = create.getWorks();
@@ -206,17 +206,17 @@ public class ArtistService {
 		Page<Artist> artistListPage = artistDao.artistSelectList(art_name, pageable);
 
 		List<Artist> artistList = artistListPage.getContent();
-		List<ArtistDto> artistDtoList = new ArrayList<>();
-		for (Artist artist : artistList) {
-			ArtistDto dto = new ArtistDto();
-
-			BeanUtils.copyProperties(artist, dto);
-
-			artistDtoList.add(dto);
-		}
+//		List<ArtistDto> artistDtoList = new ArrayList<>();
+//		for (Artist artist : artistList) {
+//			ArtistDto dto = new ArtistDto();
+//
+//			BeanUtils.copyProperties(artist, dto);
+//
+//			artistDtoList.add(dto);
+//		}
 
 		ResultMap result = new ResultMap();
-		result.setData(artistDtoList);
+		result.setData(artistList);
 		result.setTotalSize(artistListPage.getTotalElements());
 		result.setResult(200);
 

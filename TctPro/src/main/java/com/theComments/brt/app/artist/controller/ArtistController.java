@@ -9,9 +9,11 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.fasterxml.jackson.annotation.JsonView;
 import com.theComments.brt.app.artist.service.ArtistService;
 import com.theComments.brt.jpa.dto.ArtistDto;
 import com.theComments.brt.jpa.theComment.model.Artist;
+import com.theComments.brt.jsonView.BRTJsonView;
 import com.theComments.brt.util.ResultMap;
 
 @RestController
@@ -43,6 +45,7 @@ public class ArtistController {
 	 * @return
 	 */
 	@RequestMapping(value = "/selectArtistList",method=RequestMethod.POST)
+	@JsonView(BRTJsonView.ArtistCommon.class)
 	public Map<String,Object> selectArtistList(@RequestBody ArtistDto artistDto){
 		
 		ResultMap result =  artistService.selectArtistList(artistDto);
