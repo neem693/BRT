@@ -1,8 +1,8 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1563522454767" ID="ID_1812649479" MODIFIED="1582770421913" TEXT="angular">
-<hook NAME="accessories/plugins/CreationModificationPlugin_new.properties"/>
 <hook NAME="accessories/plugins/RevisionPlugin.properties"/>
+<hook NAME="accessories/plugins/CreationModificationPlugin_new.properties"/>
 <node CREATED="1563522718142" FOLDED="true" ID="ID_1024043872" MODIFIED="1582770424624" POSITION="right" TEXT="&#xd604;&#xc7ac; &#xd29c;&#xd1a0;&#xb9ac;&#xc5bc;">
 <node CREATED="1563522713920" ID="ID_792755994" LINK="https://www.tutorialspoint.com/angular7/angular7_project_setup.htm" MODIFIED="1563522716082" TEXT="https://www.tutorialspoint.com/angular7/angular7_project_setup.htm"/>
 </node>
@@ -744,8 +744,7 @@
   <body>
     <img src="angular_1886673412013891261.jpeg" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node BACKGROUND_COLOR="#ffff00" CREATED="1613211203762" FOLDED="true" ID="ID_726288451" MODIFIED="1613211345792" TEXT="&#xadf8;&#xb9ac;&#xace0; &#xc774;&#xb7ec;&#xd55c; &#xc778;&#xd130;&#xd398;&#xc774;&#xc2a4;&#xb294; &#xb2e4;&#xc74c;&#xacfc; &#xac19;&#xc774; &#xd504;&#xb85c;&#xd37c;&#xd2f0; &#xbc14;&#xc778;&#xb529; &#xd560; &#xc2dc;&#xc5d0; &#xc0ac;&#xc6a9; &#xac00;&#xb2a5;&#xd558;&#xb2e4;.(&#xc774;&#xbbf8;&#xc9c0;)">
@@ -757,8 +756,7 @@
   <body>
     <img src="angular_7466191883326497043.jpeg" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node BACKGROUND_COLOR="#ffff00" CREATED="1613211354590" ID="ID_221598604" MODIFIED="1613211356023" TEXT="&#xc774;&#xc0c1;&#xc774;&#xb2e4;."/>
@@ -1276,5 +1274,8 @@
 </node>
 </node>
 <node CREATED="1611819888831" ID="ID_1859286686" MODIFIED="1611819894458" POSITION="right" TEXT="cdn &#xbc29;&#xc2dd;&#xc774;&#xb780; &#xac1c;&#xb150; &#xc54c;&#xc544;&#xb450;&#xae30;"/>
+<node CREATED="1614670647350" FOLDED="true" ID="ID_1965252276" MODIFIED="1616142121631" POSITION="right" TEXT="javascript foreach&#xc5d0;&#xc11c;&#xb3c4; &#xac12;&#xc744; &#xbc14;&#xafc0; &#xc218; &#xc788;&#xb2e4;.">
+<node CREATED="1614670654385" ID="ID_1861354056" LINK="https://stackoverflow.com/questions/12482961/change-values-in-array-when-doing-foreach" MODIFIED="1614670654385" TEXT="https://stackoverflow.com/questions/12482961/change-values-in-array-when-doing-foreach"/>
+</node>
 </node>
 </map>

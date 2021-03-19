@@ -38,6 +38,9 @@
 <node CREATED="1609987735175" FOLDED="true" ID="ID_615459020" MODIFIED="1611218601869" POSITION="right" TEXT="vue &#xd658;&#xacbd;&#xbcc0;&#xc218;">
 <node CREATED="1611131154459" LINK="https://cli.vuejs.org/config/#vue-config-js" MODIFIED="1611131154459" TEXT="https://cli.vuejs.org/config/#vue-config-js"/>
 </node>
+<node CREATED="1615192835637" ID="ID_1509320750" MODIFIED="1615192841229" POSITION="right" TEXT="this&#xac00; &#xac00;&#xc9c0;&#xace0; &#xc788;&#xb294; &#xc758;&#xbbf8;">
+<node CREATED="1615192841583" ID="ID_302616284" LINK="https://stackoverflow.com/questions/38399050/vue-equivalent-of-settimeout" MODIFIED="1615192841583" TEXT="https://stackoverflow.com/questions/38399050/vue-equivalent-of-settimeout"/>
+</node>
 <node CREATED="1586422232140" FOLDED="true" ID="ID_650780738" MODIFIED="1611218604524" POSITION="left" TEXT="&#xc54c;&#xc544;&#xc57c; &#xd560;&#xc810;">
 <node CREATED="1586422252140" ID="ID_619718976" MODIFIED="1586422278943" TEXT="&#xd574;&#xb2f9;&#xd558;&#xb294; &#xd504;&#xb85c;&#xd37c;&#xd2f0;&#xc5d0;&#xc11c; &#xc815;&#xd574;&#xc9c4; &#xd0a4;&#xac00; &#xc544;&#xc774;&#xc5d0; &#xc5c6;&#xb2e4;&#xace0; &#xd588;&#xc744; &#xb54c;"/>
 <node CREATED="1586422282636" ID="ID_1113240830" MODIFIED="1586422290400" TEXT="&#xd574;&#xb2f9; &#xd0a4;&#xac00; &#xac12;&#xc774; &#xb4e4;&#xc5b4;&#xc628;&#xb2e4;&#xace0; &#xd574;&#xb3c4;"/>
