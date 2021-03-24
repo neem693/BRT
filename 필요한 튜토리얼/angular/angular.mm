@@ -1,8 +1,8 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1563522454767" ID="ID_1812649479" MODIFIED="1616143212905" TEXT="angular">
-<hook NAME="accessories/plugins/RevisionPlugin.properties"/>
 <hook NAME="accessories/plugins/CreationModificationPlugin_new.properties"/>
+<hook NAME="accessories/plugins/RevisionPlugin.properties"/>
 <node CREATED="1563522718142" ID="ID_1024043872" MODIFIED="1616143187016" POSITION="right" TEXT="&#xd604;&#xc7ac; &#xd29c;&#xd1a0;&#xb9ac;&#xc5bc;">
 <node CREATED="1563522713920" ID="ID_792755994" LINK="https://www.tutorialspoint.com/angular7/angular7_project_setup.htm" MODIFIED="1563522716082" TEXT="https://www.tutorialspoint.com/angular7/angular7_project_setup.htm"/>
 </node>
@@ -11,7 +11,7 @@
 <font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
 <node CREATED="1563522500194" ID="ID_137429030" MODIFIED="1563522517468" TEXT="ng serve"/>
 </node>
-<node COLOR="#3333ff" CREATED="1572342866560" ID="ID_1123000244" MODIFIED="1616143316398" POSITION="right" STYLE="bubble">
+<node COLOR="#3333ff" CREATED="1572342866560" FOLDED="true" ID="ID_1123000244" MODIFIED="1616379509303" POSITION="right" STYLE="bubble">
 <richcontent TYPE="NODE"><html>
   <head>
     
