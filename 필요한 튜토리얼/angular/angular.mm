@@ -1,8 +1,8 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1563522454767" ID="ID_1812649479" MODIFIED="1616143212905" TEXT="angular">
-<hook NAME="accessories/plugins/CreationModificationPlugin_new.properties"/>
 <hook NAME="accessories/plugins/RevisionPlugin.properties"/>
+<hook NAME="accessories/plugins/CreationModificationPlugin_new.properties"/>
 <node CREATED="1563522718142" ID="ID_1024043872" MODIFIED="1616143187016" POSITION="right" TEXT="&#xd604;&#xc7ac; &#xd29c;&#xd1a0;&#xb9ac;&#xc5bc;">
 <node CREATED="1563522713920" ID="ID_792755994" LINK="https://www.tutorialspoint.com/angular7/angular7_project_setup.htm" MODIFIED="1563522716082" TEXT="https://www.tutorialspoint.com/angular7/angular7_project_setup.htm"/>
 </node>
@@ -1276,6 +1276,9 @@
 <node CREATED="1611819888831" ID="ID_1859286686" MODIFIED="1611819894458" POSITION="right" TEXT="cdn &#xbc29;&#xc2dd;&#xc774;&#xb780; &#xac1c;&#xb150; &#xc54c;&#xc544;&#xb450;&#xae30;"/>
 <node CREATED="1614670647350" FOLDED="true" ID="ID_1965252276" MODIFIED="1616142121631" POSITION="right" TEXT="javascript foreach&#xc5d0;&#xc11c;&#xb3c4; &#xac12;&#xc744; &#xbc14;&#xafc0; &#xc218; &#xc788;&#xb2e4;.">
 <node CREATED="1614670654385" ID="ID_1861354056" LINK="https://stackoverflow.com/questions/12482961/change-values-in-array-when-doing-foreach" MODIFIED="1614670654385" TEXT="https://stackoverflow.com/questions/12482961/change-values-in-array-when-doing-foreach"/>
+</node>
+<node CREATED="1616646682456" ID="ID_420066845" MODIFIED="1616646687433" POSITION="right" TEXT="swipe &#xc774;&#xbca4;&#xd2b8;">
+<node CREATED="1616646687928" ID="ID_932594843" LINK="https://stackoverflow.com/questions/2264072/detect-a-finger-swipe-through-javascript-on-the-iphone-and-android" MODIFIED="1616646687928" TEXT="https://stackoverflow.com/questions/2264072/detect-a-finger-swipe-through-javascript-on-the-iphone-and-android"/>
 </node>
 </node>
 </map>
