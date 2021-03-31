@@ -4,5 +4,8 @@ import lombok.Data;
 
 @Data
 public class Address {
-	Integer houseNumber;
+	/**
+	 * 
+	 */
+	int houseNumber;
 }

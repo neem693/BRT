@@ -14,6 +14,6 @@ public class Person2 implements Serializable {
 	
 	private int age;
 	private String name;
-	private Address country; // must be serializable too
+	private transient Address country; // must be serializable too
 
 }
