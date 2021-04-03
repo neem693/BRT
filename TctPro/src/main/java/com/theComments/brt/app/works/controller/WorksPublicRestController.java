@@ -55,9 +55,10 @@ public class WorksPublicRestController {
 	 * @return
 	 */
 	@RequestMapping(value = "/selectWorksByArtist",method = RequestMethod.GET)
-	public Map<String,Object> selectWorksByArtist(@RequestParam Map<String,Object> param){
+	@JsonView(BRTJsonView.WorksCommon.class)
+	public Map<String,Object> selectWorksByArtist(Long id){
 		
-		ResultMap result = worksService.selectWorksByArtist(param);
+		ResultMap result = worksService.selectWorksByArtist(id);
 		
 		return result.getResultMap();
 		

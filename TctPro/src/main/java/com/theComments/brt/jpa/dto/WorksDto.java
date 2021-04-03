@@ -3,20 +3,6 @@ package com.theComments.brt.jpa.dto;
 import java.time.LocalDateTime;
 import java.util.List;
 
-import javax.persistence.Column;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.JoinColumn;
-import javax.persistence.ManyToOne;
-import javax.persistence.OneToMany;
-
-import com.theComments.brt.jpa.theComment.model.Create_art;
-import com.theComments.brt.jpa.theComment.model.Evaluate;
-import com.theComments.brt.jpa.theComment.model.FileSave;
-import com.theComments.brt.jpa.theComment.model.Type2;
-import com.theComments.brt.jpa.theComment.model.WorksSave;
-
 import lombok.Getter;
 import lombok.Setter;
 
