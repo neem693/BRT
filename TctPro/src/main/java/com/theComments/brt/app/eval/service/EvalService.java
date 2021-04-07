@@ -408,14 +408,14 @@ public class EvalService {
 		type1 = 3L;
 		Page<Evaluation_item> mainDoList = eval_item_dao.selectMain(type1,pageable);
 		
-		List<Evaluation_itemDto> mainSeeListDto = this.toItemDto(mainSeeList.getContent());
-		List<Evaluation_itemDto> mainListenListDto = this.toItemDto(mainListenList.getContent());
-		List<Evaluation_itemDto> mainDoListDto = this.toItemDto(mainDoList.getContent());
+//		List<Evaluation_itemDto> mainSeeListDto = this.toItemDto(mainSeeList.getContent());
+//		List<Evaluation_itemDto> mainListenListDto = this.toItemDto(mainListenList.getContent());
+//		List<Evaluation_itemDto> mainDoListDto = this.toItemDto(mainDoList.getContent());
 		
 		Map<String,Object> dtoMap = new HashMap<String, Object>();
-		dtoMap.put("see", mainSeeListDto);
-		dtoMap.put("listen", mainListenListDto);
-		dtoMap.put("do", mainDoListDto);
+		dtoMap.put("see", mainSeeList.getContent());
+		dtoMap.put("listen", mainListenList.getContent());
+		dtoMap.put("do", mainDoList.getContent());
 		
 		ResultMap result = new ResultMap();
 		result.setData(dtoMap);
