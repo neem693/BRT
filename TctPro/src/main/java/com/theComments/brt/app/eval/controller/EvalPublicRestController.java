@@ -8,8 +8,10 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.fasterxml.jackson.annotation.JsonView;
 import com.theComments.brt.app.eval.service.EvalService;
 import com.theComments.brt.jpa.dto.Evaluation_itemDto;
+import com.theComments.brt.jsonView.BRTJsonView;
 import com.theComments.brt.util.ResultMap;
 
 @RestController
@@ -40,6 +42,7 @@ public class EvalPublicRestController {
 	}
 	
 	@RequestMapping(value = "/mainEvalList",method = RequestMethod.GET)
+	@JsonView(BRTJsonView.Evaluation_item.class)
 	public Map<String,Object> mainEvalList(){
 		ResultMap result = evalService.evalMainEvalList();
 		

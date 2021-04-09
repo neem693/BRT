@@ -14,11 +14,10 @@ import javax.persistence.NamedAttributeNode;
 import javax.persistence.NamedEntityGraph;
 import javax.persistence.NamedSubgraph;
 import javax.persistence.OneToMany;
-import javax.persistence.OneToOne;
-import javax.persistence.OrderColumn;
 import javax.persistence.SqlResultSetMapping;
 
-import org.springframework.web.bind.annotation.RequestMapping;
+import com.fasterxml.jackson.annotation.JsonView;
+import com.theComments.brt.jsonView.BRTJsonView;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -74,24 +73,37 @@ public class Evaluation_item {
 	
 	@Id
 	@GeneratedValue(strategy=GenerationType.AUTO)
+	@JsonView(BRTJsonView.Evaluation_itemCommon.class)
 	Long eval_item_id;
 	
+
+	@JsonView(BRTJsonView.Evaluation_itemCommon.class)
 	String subjectMatter;
 	
+
+	@JsonView(BRTJsonView.Evaluation_itemCommon.class)
 	String ev_text1;
+	
+
+	@JsonView(BRTJsonView.Evaluation_itemCommon.class)
 	String ev_text2;
+	
 	@Column(nullable = false)
+	@JsonView(BRTJsonView.Evaluation_itemCommon.class)
 	Integer ev_value;
 	
 	String donation;
 	
 	@OneToMany(mappedBy = "evaluation_item")
+	@JsonView(BRTJsonView.Evaluation_item.class)
 	List<Evaluate> evaluate;
 	
 	@OneToMany(mappedBy = "eval_item")
+	@JsonView(BRTJsonView.Evaluation_item.class)
 	Set<FileSave> fileSave;
 
 	@Column
+	@JsonView(BRTJsonView.Evaluation_itemCommon.class)
 	Integer delYn = 0;
 	
 

@@ -462,7 +462,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1566377216061" FOLDED="true" ID="ID_773715394" MODIFIED="1613380182340" POSITION="right" TEXT="kafka&#xc624;&#xb958;">
+<node CREATED="1566377216061" FOLDED="true" ID="ID_773715394" MODIFIED="1617843622625" POSITION="right" TEXT="kafka&#xc624;&#xb958;">
 <node CREATED="1566566164289" FOLDED="true" ID="ID_474549072" MODIFIED="1569165928944" TEXT="&#xae30;&#xbcf8;&#xc801;&#xc778; &#xac1c;&#xb150;&#xb3c4;(&#xc774;&#xbbf8;&#xc9c0;)">
 <node CREATED="1566566169604" MODIFIED="1566566169604">
 <richcontent TYPE="NODE"><html>
@@ -520,13 +520,13 @@
 <node CREATED="1566562993596" ID="ID_676844990" MODIFIED="1566562996420" TEXT="&#xac00;&#xc7a5; &#xc9c0;&#xb784;&#xac19;&#xc558;&#xb358; &#xbb38;&#xc81c;"/>
 </node>
 <node CREATED="1566547902160" ID="ID_1760383901" LINK="https://stackoverflow.com/questions/53783938/org-springframework-context-applicationcontextexception-failed-to-start-bean-o" MODIFIED="1566547902160" TEXT="https://stackoverflow.com/questions/53783938/org-springframework-context-applicationcontextexception-failed-to-start-bean-o"/>
-<node CREATED="1566562671012" FOLDED="true" ID="ID_1339774673" MODIFIED="1568739918086" TEXT="&#xd574;&#xacb0;">
+<node CREATED="1566562671012" ID="ID_1339774673" MODIFIED="1617843620303" TEXT="&#xd574;&#xacb0;">
 <node CREATED="1566562673149" ID="ID_776535020" MODIFIED="1566564038755" TEXT="consumer &#xc758; &#xd3ec;&#xd2b8; &#xb610;&#xd55c; &#xc8fc;&#xd0a4;&#xd37c;&#xac00; &#xc544;&#xb2cc; &#xce74;&#xd504;&#xce74;&#xb85c; &#xd574;&#xc57c;&#xd55c;&#xb2e4;. &#xc774;&#xbd80;&#xbd84;&#xc740; tutorial point&#xac00; &#xc798;&#xbabb;&#xb41c; &#xac83;&#xc73c;&#xb85c; &#xbcf4;&#xc778;&#xb2e4;. &#xd639;&#xc740; &#xbc84;&#xc83c;&#xb54c;&#xbb38;&#xc5d0; &#xb2ec;&#xb77c;&#xc9c4;&#xac83;&#xc77c;&#xc9c0;&#xb3c4;"/>
 <node CREATED="1566562703107" ID="ID_1105788051" MODIFIED="1566562716072" TEXT="&#xc989; 9092&#xb85c; &#xbc14;&#xafd4;&#xc57c; &#xd55c;&#xb2e4;. 2181&#xac00; &#xc544;&#xb2c8;&#xb2e4;."/>
 <node CREATED="1566563734709" ID="ID_542782870" MODIFIED="1566563735346" TEXT="&#xc18c;&#xc2a4;">
 <node CREATED="1566563735744" MODIFIED="1566563735744" TEXT="@Bean"/>
 <node CREATED="1566563735745" ID="ID_444680598" MODIFIED="1566563735745" TEXT="public ProducerFactory&lt;String, String&gt; producerFactory(){">
-<node CREATED="1566563735746" MODIFIED="1566563735746" TEXT="Map&lt;String,Object&gt; configProps = new HashMap&lt;String,Object&gt;();"/>
+<node CREATED="1566563735746" ID="ID_1365099931" MODIFIED="1566563735746" TEXT="Map&lt;String,Object&gt; configProps = new HashMap&lt;String,Object&gt;();"/>
 <node COLOR="#3333ff" CREATED="1566563735746" ID="ID_763220060" MODIFIED="1566563738016" STYLE="bubble" TEXT="configProps.put(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG, &quot;localhost:9092&quot;);//&#xc774;&#xbd80;&#xbd84; 2181&#xac00; &#xc544;&#xb2cc; 9092&#xb85c;">
 <font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
 </node>
@@ -4048,8 +4048,7 @@
   <body>
     <img src="&#xd544;&#xc694;&#xd55c; &#xc790;&#xbc14; &#xd29c;&#xd1a0;_4545604313337723488.jpeg" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1616579215054" ID="ID_1748903902" MODIFIED="1616579216224" TEXT="&#xc124;&#xba85;">

@@ -9,6 +9,9 @@ import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 
+import com.fasterxml.jackson.annotation.JsonView;
+import com.theComments.brt.jsonView.BRTJsonView;
+
 import lombok.Setter;
 
 import lombok.Getter;
@@ -20,6 +23,7 @@ public class Evaluate {
 	
 	@Id
 	@GeneratedValue(strategy=GenerationType.AUTO)
+	@JsonView(BRTJsonView.EvaluateCommon.class)
 	Long eval_id;
 	
 	@ManyToOne
@@ -36,6 +40,7 @@ public class Evaluate {
 	
 	////더 많은 조인 컬럼들
 
+	@JsonView(BRTJsonView.EvaluateCommon.class)
 	LocalDateTime eval_date;
 	
 	

@@ -22,4 +22,10 @@ public class BRTJsonView {
 	public static interface Type1 {};
 	public static interface Type1Common {};
 	
+	public static interface Evaluation_item extends Evaluation_itemCommon, Evaluate,FileSaveCommon {};
+	public static interface Evaluation_itemCommon {};
+	
+	public static interface Evaluate extends EvaluateCommon,WorksCommon {};
+	public static interface EvaluateCommon {};
+	
 }

@@ -24,7 +24,7 @@
 <node CREATED="1586745061932" ID="ID_1401931544" LINK="https://github.com/babel/babel-loader/issues/84#issuecomment-120138968" MODIFIED="1586745084933" TEXT="https://github.com/babel/babel-loader/issues/84#issuecomment-120138968"/>
 </node>
 <node CREATED="1588043529918" ID="ID_1531905088" MODIFIED="1588043534859" POSITION="right" TEXT="nginx"/>
-<node CREATED="1592374173336" FOLDED="true" ID="ID_875885870" MODIFIED="1611218600098" POSITION="right" TEXT="vue&#xc5d0;&#xc11c; props &#xd0c0;&#xc785;">
+<node CREATED="1592374173336" ID="ID_875885870" MODIFIED="1617843639480" POSITION="right" TEXT="vue&#xc5d0;&#xc11c; props &#xd0c0;&#xc785;">
 <node CREATED="1592374185034" ID="ID_1600784659" LINK="https://vuejs.org/v2/guide/components-props.html#Passing-an-Array" MODIFIED="1592374185034" TEXT="https://vuejs.org/v2/guide/components-props.html#Passing-an-Array"/>
 </node>
 <node CREATED="1594002998121" ID="ID_856194597" MODIFIED="1594003007464" POSITION="right" TEXT="dom&#xc744; &#xbabb;&#xac00;&#xc9c0;&#xace0; &#xc62c; &#xb54c;"/>
@@ -40,6 +40,21 @@
 </node>
 <node CREATED="1615192835637" ID="ID_1509320750" MODIFIED="1615192841229" POSITION="right" TEXT="this&#xac00; &#xac00;&#xc9c0;&#xace0; &#xc788;&#xb294; &#xc758;&#xbbf8;">
 <node CREATED="1615192841583" ID="ID_302616284" LINK="https://stackoverflow.com/questions/38399050/vue-equivalent-of-settimeout" MODIFIED="1615192841583" TEXT="https://stackoverflow.com/questions/38399050/vue-equivalent-of-settimeout"/>
+</node>
+<node CREATED="1617848876783" ID="ID_1914849484" MODIFIED="1617849272796" POSITION="right" TEXT="v-calendar">
+<node CREATED="1617849255005" ID="ID_1026927231" LINK="https://vcalendar.io/" MODIFIED="1617849255005" TEXT="https://vcalendar.io/"/>
+<node CREATED="1617849272788" ID="ID_1109330995" MODIFIED="1617849461873" TEXT="&#xb370;&#xc774;&#xd130; &#xd53c;&#xcee4;">
+<node CREATED="1617849270246" ID="ID_1657437512" LINK="https://vcalendar.io/datepicker.html" MODIFIED="1617849279546" TEXT="https://vcalendar.io/datepicker.html"/>
+</node>
+<node CREATED="1617849314236" ID="ID_991077737" MODIFIED="1617849461595" TEXT="&#xc774;&#xbca4;&#xd2b8;">
+<node CREATED="1617849316890" ID="ID_1945529366" LINK="https://vcalendar.io/api/v1.0/datepicker.html#events" MODIFIED="1617849316890" TEXT="https://vcalendar.io/api/v1.0/datepicker.html#events"/>
+</node>
+<node CREATED="1617849401788" ID="ID_607600768" MODIFIED="1617849461262" TEXT="&#xb0a0;&#xc9dc; &#xd53d; &#xc81c;&#xd55c;">
+<node CREATED="1617849407045" ID="ID_313858664" LINK="https://vcalendar.io/disable-dates.html#_2-explicitly-via-max-date" MODIFIED="1617849407045" TEXT="https://vcalendar.io/disable-dates.html#_2-explicitly-via-max-date"/>
+</node>
+</node>
+<node CREATED="1617871062091" ID="ID_229194916" MODIFIED="1617871066868" POSITION="right" TEXT="vue &#xb2e4;&#xb978; &#xb2ec;&#xb825;">
+<node CREATED="1617871067301" ID="ID_269004141" LINK="https://madewithvuejs.com/blog/best-vue-js-datepickers" MODIFIED="1617871067301" TEXT="https://madewithvuejs.com/blog/best-vue-js-datepickers"/>
 </node>
 <node CREATED="1586422232140" FOLDED="true" ID="ID_650780738" MODIFIED="1611218604524" POSITION="left" TEXT="&#xc54c;&#xc544;&#xc57c; &#xd560;&#xc810;">
 <node CREATED="1586422252140" ID="ID_619718976" MODIFIED="1586422278943" TEXT="&#xd574;&#xb2f9;&#xd558;&#xb294; &#xd504;&#xb85c;&#xd37c;&#xd2f0;&#xc5d0;&#xc11c; &#xc815;&#xd574;&#xc9c4; &#xd0a4;&#xac00; &#xc544;&#xc774;&#xc5d0; &#xc5c6;&#xb2e4;&#xace0; &#xd588;&#xc744; &#xb54c;"/>
