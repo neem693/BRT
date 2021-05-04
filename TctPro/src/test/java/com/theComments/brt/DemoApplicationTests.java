@@ -22,7 +22,7 @@ public class DemoApplicationTests {
 	@Test
 	public void doit() {
 		
-//		List<Artist> list = dao.queryArtistExam();
+		List<Artist> list = dao.queryArtistExam();
 //		List<Create_art> list2 = list.get(0).getCreate();
 //		System.out.println(list2);
 //		System.out.println(list2.get(0).getWorks());

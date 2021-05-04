@@ -1,10 +1,10 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1574518698807" ID="ID_652907225" MODIFIED="1579847944684" TEXT="&#xb3c4;&#xcee4;(DOCKER)">
-<node CREATED="1574520985825" ID="ID_332557311" MODIFIED="1612034587614" POSITION="right" TEXT="&#xb3c4;&#xcee4;&#xd29c;&#xd1a0;">
+<node CREATED="1574520985825" FOLDED="true" ID="ID_332557311" MODIFIED="1619485958153" POSITION="right" TEXT="&#xb3c4;&#xcee4;&#xd29c;&#xd1a0;">
 <node CREATED="1574520986878" ID="ID_1711626165" LINK="https://www.tutorialspoint.com/docker/docker_hub.htm" MODIFIED="1574520986878" TEXT="https://www.tutorialspoint.com/docker/docker_hub.htm"/>
 </node>
-<node CREATED="1574518744778" ID="ID_553498754" MODIFIED="1612034589358" POSITION="right" TEXT="&#xb9ac;&#xb205;&#xc2a4;">
+<node CREATED="1574518744778" FOLDED="true" ID="ID_553498754" MODIFIED="1619485958161" POSITION="right" TEXT="&#xb9ac;&#xb205;&#xc2a4;">
 <node CREATED="1574518764479" ID="ID_127889830" MODIFIED="1574595691048" TEXT="&#xc124;&#xce58;">
 <node CREATED="1574518765454" ID="ID_1061922675" LINK="https://www.tutorialspoint.com/docker/installing_docker_on_linux.htm" MODIFIED="1574518765454" TEXT="https://www.tutorialspoint.com/docker/installing_docker_on_linux.htm"/>
 <node CREATED="1611993646554" ID="ID_1999675615" LINK="https://docs.docker.com/engine/install/ubuntu/" MODIFIED="1611993646554" TEXT="https://docs.docker.com/engine/install/ubuntu/"/>
@@ -23,7 +23,7 @@
 <node CREATED="1574520656645" FOLDED="true" ID="ID_1038660596" MODIFIED="1611996893782" POSITION="right" TEXT="&#xb3c4;&#xcee4;&#xd5c8;&#xbe0c;">
 <node CREATED="1574520658885" ID="ID_1286753147" LINK="https://hub.docker.com/" MODIFIED="1574520658885" TEXT="https://hub.docker.com/"/>
 </node>
-<node CREATED="1574525945820" ID="ID_1032424159" MODIFIED="1611997207744" POSITION="right" TEXT="&#xba85;&#xb839;&#xc5b4;">
+<node CREATED="1574525945820" FOLDED="true" ID="ID_1032424159" MODIFIED="1619760926809" POSITION="right" TEXT="&#xba85;&#xb839;&#xc5b4;">
 <node CREATED="1574523707870" FOLDED="true" ID="ID_753691210" MODIFIED="1612050021636" TEXT="docker images">
 <node CREATED="1574523712494" ID="ID_1227617778" MODIFIED="1574523714980" TEXT="&#xbaa8;&#xb4e0; &#xc774;&#xbbf8;&#xc9c0;"/>
 </node>

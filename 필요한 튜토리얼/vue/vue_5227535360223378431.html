@@ -1,0 +1,272 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>vue</title>
+<style type="text/css">
+    li { list-style: none;  margin: 0; }
+    p { margin: 0; }
+    span.foldopened { color: white; font-size: xx-small;
+    border-width: 1; font-family: monospace; padding: 0em 0.25em 0em 0.25em; background: #e0e0e0;
+    VISIBILITY: visible;
+    cursor:pointer; }
+
+
+    span.foldclosed { color: #666666; font-size: xx-small;
+    border-width: 1; font-family: monospace; padding: 0em 0.25em 0em 0.25em; background: #e0e0e0;
+    VISIBILITY: hidden;
+    cursor:pointer; }
+
+    span.foldspecial { color: #666666; font-size: xx-small; border-style: none solid solid none;
+    border-color: #CCCCCC; border-width: 1; font-family: sans-serif; padding: 0em 0.1em 0em 0.1em; background: #e0e0e0;
+    cursor:pointer; }
+
+    span.l { color: red; font-weight: bold; }
+
+    a.mapnode:link {text-decoration: none; color: black; }
+    a.mapnode:visited {text-decoration: none; color: black; }
+    a.mapnode:active {text-decoration: none; color: black; }
+    a.mapnode:hover {text-decoration: none; color: black; background: #eeeee0; }
+
+</style>
+<!-- ^ Position is not set to relative / absolute here because of Mozilla -->
+</head>
+<body>
+
+<script type="text/javascript">
+   // Here we implement folding. It works fine with MSIE5.5, MSIE6.0 and
+   // Mozilla 0.9.6.
+
+   if (document.layers) {
+      //Netscape 4 specific code
+      pre = 'document.';
+      post = ''; }
+   if (document.getElementById) {
+      //Netscape 6 specific code
+      pre = 'document.getElementById("';
+      post = '").style'; }
+   if (document.all) {
+      //IE4+ specific code
+      pre = 'document.all.';
+      post = '.style'; }
+
+function layer_exists(layer) {
+   try {
+      eval(pre + layer + post);
+      return true; }
+   catch (error) {
+      return false; }}
+
+function show_layer(layer) {
+   eval(pre + layer + post).position = 'relative'; 
+   eval(pre + layer + post).visibility = 'visible'; }
+
+function hide_layer(layer) {
+   eval(pre + layer + post).visibility = 'hidden';
+   eval(pre + layer + post).position = 'absolute'; }
+
+function hide_folder(folder) {
+    hide_folding_layer(folder)
+    show_layer('show'+folder);
+
+    scrollBy(0,0); // This is a work around to make it work in Browsers (Explorer, Mozilla)
+}
+
+function show_folder(folder) {
+    // Precondition: all subfolders are folded
+
+    show_layer('hide'+folder);
+    hide_layer('show'+folder);
+    show_layer('fold'+folder);
+
+    scrollBy(0,0); // This is a work around to make it work in Browsers (Explorer, Mozilla)
+
+    var i;
+    for (i=1; layer_exists('fold'+folder+'_'+i); ++i) {
+       show_layer('show'+folder+'_'+i); }
+}
+function show_folder_completely(folder) {
+    // Precondition: all subfolders are folded
+
+    show_layer('hide'+folder);
+    hide_layer('show'+folder);
+    show_layer('fold'+folder);
+
+    scrollBy(0,0); // This is a work around to make it work in Browsers (Explorer, Mozilla)
+
+    var i;
+    for (i=1; layer_exists('fold'+folder+'_'+i); ++i) {
+       show_folder_completely(folder+'_'+i); }
+}
+
+
+
+function hide_folding_layer(folder) {
+   var i;
+   for (i=1; layer_exists('fold'+folder+'_'+i); ++i) {
+       hide_folding_layer(folder+'_'+i); }
+
+   hide_layer('hide'+folder);
+   hide_layer('show'+folder);
+   hide_layer('fold'+folder);
+
+   scrollBy(0,0); // This is a work around to make it work in Browsers (Explorer, Mozilla)
+}
+
+function fold_document() {
+   var i;
+   var folder = '1';
+   for (i=1; layer_exists('fold'+folder+'_'+i); ++i) {
+       hide_folder(folder+'_'+i); }
+}
+
+function unfold_document() {
+   var i;
+   var folder = '1';
+   for (i=1; layer_exists('fold'+folder+'_'+i); ++i) {
+       show_folder_completely(folder+'_'+i); }
+}
+
+</script>
+<SPAN class="foldspecial" onclick="fold_document()">All +</SPAN>
+<SPAN class="foldspecial" onclick="unfold_document()">All -</SPAN>
+<p>vue
+<ul><li><span id="show1_1" class="foldclosed" onClick="show_folder('1_1')" style="POSITION: absolute">+</span> <span id="hide1_1" class="foldopened" onClick="hide_folder('1_1')">-</span>
+&#50508;&#50500;&#50556; &#54624;&#51216;
+<ul id="fold1_1" style="POSITION: relative; VISIBILITY: visible;"><li>&#54644;&#45817;&#54616;&#45716; &#54532;&#47196;&#54140;&#54000;&#50640;&#49436;&nbsp;&#51221;&#54644;&#51652;&nbsp;&#53412;&#44032;&nbsp;&#50500;&#51060;&#50640;&nbsp;&#50630;&#45796;&#44256;&nbsp;&#54664;&#51012;&nbsp;&#46412;
+
+</li>
+<li>&#54644;&#45817; &#53412;&#44032;&nbsp;&#44050;&#51060;&nbsp;&#46308;&#50612;&#50728;&#45796;&#44256;&nbsp;&#54644;&#46020;
+
+</li>
+<li>&#51204;&#54784; &#50577;&#48169;&#54693;&#51060;&nbsp;&#51060;&#47364;&#51648;&#51648;&nbsp;&#50506;&#45716;&#45796;.
+
+</li>
+
+</ul>
+</li>
+<li><span id="show1_2" class="foldclosed" onClick="show_folder('1_2')" style="POSITION: absolute">+</span> <span id="hide1_2" class="foldopened" onClick="hide_folder('1_2')">-</span>
+vue &#46972;&#51060;&#54532;&nbsp;&#49324;&#51060;&#53364;
+<ul id="fold1_2" style="POSITION: relative; VISIBILITY: visible;"><li>&#51060;&#48120;&#51648;
+<ul><li>&#xa;    <img src="vue_5413936975524843338.jpeg" >&#xa;  
+</li>
+</ul>
+</li>
+
+</ul>
+</li>
+<li><span id="show1_3" class="foldclosed" onClick="show_folder('1_3')" style="POSITION: absolute">+</span> <span id="hide1_3" class="foldopened" onClick="hide_folder('1_3')">-</span>
+&#44592;&#48376; &#48148;&#51064;&#46377;
+<ul id="fold1_3" style="POSITION: relative; VISIBILITY: visible;"><li><a href="https://blog.j2p.io/vue-js-img-src-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EA%B0%92-%EB%84%A3%EA%B8%B0" target="_blank"><span class=l>~</span>&nbsp;https://blog.j2p.io/vue-js-img-src-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EA%B0%92-%EB%84%A3%EA%B8%B0
+</a>
+
+</li>
+
+</ul>
+</li>
+<li><span id="show1_4" class="foldclosed" onClick="show_folder('1_4')" style="POSITION: absolute">+</span> <span id="hide1_4" class="foldopened" onClick="hide_folder('1_4')">-</span>
+<span style="color: #3333ff;font-size: 133%;font-family: ±¼¸², sans-serif; font-weight: bold; ">of &#50504;&#47673;&#55184;&nbsp;&#46412;</span>
+<ul id="fold1_4" style="POSITION: relative; VISIBILITY: visible;"><li>Uncaught TypeError: myObject[Symbol.iterator]
+
+</li>
+<li><a href="https://github.com/babel/babel-loader/issues/84#issuecomment-120138968" target="_blank"><span class=l>~</span>&nbsp;https://github.com/babel/babel-loader/issues/84#issuecomment-120138968
+</a>
+
+</li>
+
+</ul>
+</li>
+<li>nginx
+
+</li>
+<li>vue&#50640;&#49436; props &#53440;&#51077;
+<ul><li><a href="https://vuejs.org/v2/guide/components-props.html#Passing-an-Array" target="_blank"><span class=l>~</span>&nbsp;https://vuejs.org/v2/guide/components-props.html#Passing-an-Array
+</a>
+
+</li>
+
+</ul>
+</li>
+<li>dom&#51012; &#47803;&#44032;&#51648;&#44256;&nbsp;&#50732;&nbsp;&#46412;
+
+</li>
+<li><span id="show1_5" class="foldclosed" onClick="show_folder('1_5')" style="POSITION: absolute">+</span> <span id="hide1_5" class="foldopened" onClick="hide_folder('1_5')">-</span>
+<span style="color: #3333ff;font-size: 133%;font-family: ±¼¸², sans-serif; font-weight: bold; ">&#50689;&#49345; &#48177;&#44536;&#46972;&#50868;&#46300;</span>
+<ul id="fold1_5" style="POSITION: relative; VISIBILITY: visible;"><li><a href="https://github.com/avidofood/vue-responsive-video-background-player" target="_blank"><span class=l>~</span>&nbsp;https://github.com/avidofood/vue-responsive-video-background-player
+</a>
+
+</li>
+
+</ul>
+</li>
+<li><span id="show1_6" class="foldclosed" onClick="show_folder('1_6')" style="POSITION: absolute">+</span> <span id="hide1_6" class="foldopened" onClick="hide_folder('1_6')">-</span>
+youtube vue
+<ul id="fold1_6" style="POSITION: relative; VISIBILITY: visible;"><li><a href="https://www.npmjs.com/package/vue-youtube" target="_blank"><span class=l>~</span>&nbsp;https://www.npmjs.com/package/vue-youtube
+</a>
+
+</li>
+
+</ul>
+</li>
+<li><span id="show1_7" class="foldclosed" onClick="show_folder('1_7')" style="POSITION: absolute">+</span> <span id="hide1_7" class="foldopened" onClick="hide_folder('1_7')">-</span>
+vue &#54872;&#44221;&#48320;&#49688;
+<ul id="fold1_7" style="POSITION: relative; VISIBILITY: visible;"><li><a href="https://cli.vuejs.org/config/#vue-config-js" target="_blank"><span class=l>~</span>&nbsp;https://cli.vuejs.org/config/#vue-config-js
+</a>
+
+</li>
+
+</ul>
+</li>
+<li>this&#44032; &#44032;&#51648;&#44256;&nbsp;&#51080;&#45716;&nbsp;&#51032;&#48120;
+<ul><li><a href="https://stackoverflow.com/questions/38399050/vue-equivalent-of-settimeout" target="_blank"><span class=l>~</span>&nbsp;https://stackoverflow.com/questions/38399050/vue-equivalent-of-settimeout
+</a>
+
+</li>
+
+</ul>
+</li>
+<li>v-calendar
+<ul><li><a href="https://vcalendar.io/" target="_blank"><span class=l>~</span>&nbsp;https://vcalendar.io/
+</a>
+
+</li>
+<li>&#45936;&#51060;&#53552; &#54588;&#52964;
+<ul><li><a href="https://vcalendar.io/datepicker.html" target="_blank"><span class=l>~</span>&nbsp;https://vcalendar.io/datepicker.html
+</a>
+
+</li>
+
+</ul>
+</li>
+<li>&#51060;&#48292;&#53944;
+<ul><li><a href="https://vcalendar.io/api/v1.0/datepicker.html#events" target="_blank"><span class=l>~</span>&nbsp;https://vcalendar.io/api/v1.0/datepicker.html#events
+</a>
+
+</li>
+
+</ul>
+</li>
+<li>&#45216;&#51676; &#54589;&nbsp;&#51228;&#54620;
+<ul><li><a href="https://vcalendar.io/disable-dates.html#_2-explicitly-via-max-date" target="_blank"><span class=l>~</span>&nbsp;https://vcalendar.io/disable-dates.html#_2-explicitly-via-max-date
+</a>
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li>vue &#45796;&#47480;&nbsp;&#45804;&#47141;
+<ul><li><a href="https://madewithvuejs.com/blog/best-vue-js-datepickers" target="_blank"><span class=l>~</span>&nbsp;https://madewithvuejs.com/blog/best-vue-js-datepickers
+</a>
+
+</li>
+
+</ul>
+</li>
+
+</ul><SCRIPT type="text/javascript">
+fold_document();
+</SCRIPT>
+</body>
+</html>

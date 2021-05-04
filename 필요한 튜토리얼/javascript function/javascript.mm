@@ -147,5 +147,13 @@
 <node CREATED="1608115009811" ID="ID_636851740" MODIFIED="1608115013071" POSITION="right" TEXT="replaceAll &#xd568;&#xc218;">
 <node CREATED="1608115013526" ID="ID_418286662" LINK="https://stackoverflow.com/questions/13340131/string-prototype-replaceall-not-working" MODIFIED="1608115013526" TEXT="https://stackoverflow.com/questions/13340131/string-prototype-replaceall-not-working"/>
 </node>
+<node CREATED="1620026116471" ID="ID_1175252321" MODIFIED="1620026125900" POSITION="right" TEXT="firefox localstorage error">
+<node CREATED="1620026126335" ID="ID_1816398453" LINK="https://stackoverflow.com/questions/18877643/error-in-local-storage-ns-error-file-corrupted-firefox" MODIFIED="1620026126335" TEXT="https://stackoverflow.com/questions/18877643/error-in-local-storage-ns-error-file-corrupted-firefox"/>
+<node CREATED="1620026127703" ID="ID_592936096" MODIFIED="1620026150636" TEXT="&#xc774;&#xac8c; &#xbb34;&#xc5c7;&#xc774;&#xb0d0;&#xba74; localstorage&#xc5d0; &#xc811;&#xadfc;&#xd558;&#xba74; ">
+<node CREATED="1620026171015" ID="ID_1203109945" MODIFIED="1620026171015" TEXT="0x80004005 (NS ERROR FAILURE)"/>
+<node CREATED="1620026174479" ID="ID_364883158" MODIFIED="1620026177383" TEXT="&#xb77c;&#xb294; &#xc624;&#xb958;&#xb97c; &#xbc49;&#xc5b4;&#xb0b8;&#xb2e4;."/>
+</node>
+<node CREATED="1620026178071" ID="ID_29543520" MODIFIED="1620026192147" TEXT="&#xb09c; &#xc774;&#xac70;&#xb97c; &#xd574;&#xb2f9; &#xd3f0;&#xc5d0; &#xc788;&#xb294; &#xd30c;&#xd3ed;&#xc744; &#xd55c;&#xbc88; &#xc885;&#xb8cc;&#xd588;&#xb2e4;&#xac00; &#xb2e4;&#xc2dc; &#xd0a4;&#xb294;&#xac78;&#xb85c; &#xd574;&#xacb0;&#xd588;&#xb2e4;."/>
+</node>
 </node>
 </map>

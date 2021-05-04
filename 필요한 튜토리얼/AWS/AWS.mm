@@ -519,7 +519,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1579877608458" FOLDED="true" ID="ID_324617351" MODIFIED="1617333264192" POSITION="right" TEXT="EC2">
+<node CREATED="1579877608458" ID="ID_324617351" MODIFIED="1619760696952" POSITION="right" TEXT="EC2">
 <node CREATED="1582293965645" FOLDED="true" ID="ID_1659000465" MODIFIED="1617325731040" TEXT="&#xad8c;&#xd55c;">
 <node CREATED="1582293973947" ID="ID_1468331654" MODIFIED="1582293977854" TEXT="sudo &#xc640; su">
 <node CREATED="1582293978938" ID="ID_1831552657" LINK="https://brownbears.tistory.com/227" MODIFIED="1582293978938" TEXT="https://brownbears.tistory.com/227"/>
@@ -542,7 +542,7 @@
 <node CREATED="1580313784837" ID="ID_661938759" LINK="https://kgu0724.tistory.com/71" MODIFIED="1580313784837" TEXT="https://kgu0724.tistory.com/71"/>
 </node>
 <node CREATED="1580280121659" ID="ID_1286435419" MODIFIED="1617325732712" TEXT="&#xb9ac;&#xb205;&#xc2a4;">
-<node CREATED="1580280125326" FOLDED="true" ID="ID_764810834" MODIFIED="1617327152475" TEXT="&#xb85c;&#xadf8; live">
+<node CREATED="1580280125326" ID="ID_764810834" MODIFIED="1618376876636" TEXT="&#xb85c;&#xadf8; live">
 <node CREATED="1580280150845" ID="ID_77481304" MODIFIED="1580280150845" TEXT="tail -f /path/thefile.log"/>
 </node>
 <node CREATED="1580281236530" FOLDED="true" ID="ID_781663478" MODIFIED="1617327153195" TEXT="&#xbaa8;&#xb4e0; &#xc11c;&#xbe44;&#xc2a4; &#xbcf4;&#xae30;">
@@ -731,36 +731,36 @@
 <node CREATED="1604555646491" LINK="https://webdir.tistory.com/140" MODIFIED="1604555646491" TEXT="https://webdir.tistory.com/140"/>
 </node>
 </node>
-<node COLOR="#3333ff" CREATED="1604382218421" FOLDED="true" ID="ID_396802534" MODIFIED="1617325687937" STYLE="bubble" TEXT="&#xac1c;&#xbc29;&#xd615; &#xc778;&#xc99d;&#xae30;&#xad00;">
+<node COLOR="#3333ff" CREATED="1604382218421" ID="ID_396802534" MODIFIED="1619760696960" STYLE="bubble" TEXT="&#xac1c;&#xbc29;&#xd615; &#xc778;&#xc99d;&#xae30;&#xad00;">
 <font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#ff3333" CREATED="1604382206908" ID="ID_1583176643" MODIFIED="1604382264627" STYLE="bubble" TEXT="lets encrypt">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#ff3333" CREATED="1604382206908" ID="ID_1583176643" MODIFIED="1619760942407" STYLE="bubble" TEXT="lets encrypt">
 <font BOLD="true" NAME="Dialog" SIZE="24"/>
 <node CREATED="1604382213496" ID="ID_595149560" LINK="https://letsencrypt.org/ko/" MODIFIED="1604382264627" TEXT="https://letsencrypt.org/ko/"/>
 </node>
-<node CREATED="1604382298210" ID="ID_590068027" MODIFIED="1604382515487" TEXT="&#xc5ec;&#xae30;&#xc11c;&#xb294; shell access&#xc5d0; &#xad8c;&#xd55c;&#xc774; &#xc788;&#xb294; &#xacbd;&#xc6b0; certbot ACME &#xd074;&#xb77c;&#xc774;&#xc5b8;&#xd2b8;&#xb85c; &#xc0ac;&#xc6a9;&#xd558;&#xb294;&#xac78; &#xad8c;&#xc7a5;&#xd55c;&#xb2e4;.">
+<node CREATED="1604382298210" FOLDED="true" ID="ID_590068027" MODIFIED="1619760710752" TEXT="&#xc5ec;&#xae30;&#xc11c;&#xb294; shell access&#xc5d0; &#xad8c;&#xd55c;&#xc774; &#xc788;&#xb294; &#xacbd;&#xc6b0; certbot ACME &#xd074;&#xb77c;&#xc774;&#xc5b8;&#xd2b8;&#xb85c; &#xc0ac;&#xc6a9;&#xd558;&#xb294;&#xac78; &#xad8c;&#xc7a5;&#xd55c;&#xb2e4;.">
 <node CREATED="1604382575684" ID="ID_1036668962" LINK="https://certbot.eff.org/instructions" MODIFIED="1604382575684" TEXT="https://certbot.eff.org/instructions"/>
 <node CREATED="1604382589459" ID="ID_1409524901" MODIFIED="1604382608254" TEXT="&#xc5ec;&#xae30;&#xc11c; &#xc2dc;&#xc2a4;&#xd15c;&#xc744; &#xc120;&#xd0dd;&#xd558;&#xace0; &#xd558;&#xb77c;&#xb294; &#xb370;&#xb85c; &#xd558;&#xba74; &#xc778;&#xc99d;&#xc11c;&#xb97c; &#xbc1b;&#xc744; &#xc218; &#xc788;&#xb2e4;."/>
 </node>
-<node CREATED="1604543891317" ID="ID_62076251" LINK="https://lynlab.co.kr/blog/72" MODIFIED="1604543891317" TEXT="https://lynlab.co.kr/blog/72">
+<node CREATED="1604543891317" ID="ID_62076251" LINK="https://lynlab.co.kr/blog/72" MODIFIED="1619760742728" TEXT="https://lynlab.co.kr/blog/72">
 <node CREATED="1604562115618" ID="ID_1885887764" MODIFIED="1604562120436" TEXT="certbot&#xc744; &#xb2e4;&#xc6b4;&#xbc1b;&#xace0;"/>
 <node CREATED="1604562123017" ID="ID_287011473" MODIFIED="1604562127609" TEXT="&#xb2e4;&#xc74c;&#xacfc; &#xac19;&#xc774; docker&#xb97c; &#xc2e4;&#xd589;">
 <node CREATED="1604562128081" ID="ID_276860556" MODIFIED="1604562128081" TEXT="docker run -it --rm --name certbot \">
-<node CREATED="1604562128081" MODIFIED="1604562128081" TEXT="-v &apos;/etc/letsencrypt:/etc/letsencrypt&apos; \"/>
-<node CREATED="1604562128081" MODIFIED="1604562128081" TEXT="-v &apos;/var/lib/letsencrypt:/var/lib/letsencrypt&apos; \"/>
-<node CREATED="1604562128081" LINK="https://acme-v02.api.letsencrypt.org/directory" MODIFIED="1604562128081" TEXT="certbot/certbot certonly -d &apos;*.yourdomain.com&apos; --manual --preferred-challenges dns --server https://acme-v02.api.letsencrypt.org/directory"/>
+<node CREATED="1604562128081" ID="ID_144541398" MODIFIED="1604562128081" TEXT="-v &apos;/etc/letsencrypt:/etc/letsencrypt&apos; \"/>
+<node CREATED="1604562128081" ID="ID_1312908527" MODIFIED="1604562128081" TEXT="-v &apos;/var/lib/letsencrypt:/var/lib/letsencrypt&apos; \"/>
+<node CREATED="1604562128081" ID="ID_1832894721" LINK="https://acme-v02.api.letsencrypt.org/directory" MODIFIED="1604562128081" TEXT="certbot/certbot certonly -d &apos;*.yourdomain.com&apos; --manual --preferred-challenges dns --server https://acme-v02.api.letsencrypt.org/directory"/>
 </node>
 </node>
 <node CREATED="1604562129121" ID="ID_1065733323" MODIFIED="1604562146093" TEXT="TXT &#xad00;&#xb828; &#xb0b4;&#xc6a9;&#xc744; &#xb808;&#xcf54;&#xb4dc;&#xc5d0; &#xc800;&#xc7a5;&#xd558;&#xb294;&#xac83;&#xc73c;&#xb85c; &#xb9c8;&#xbb34;&#xb9ac;"/>
 </node>
 <node CREATED="1604564791853" ID="ID_1414510322" MODIFIED="1604564844930" TEXT="&#xb3c4;&#xcee4;&#xc5d0;&#xc11c; &#xc2e4;&#xd589;&#xc744; &#xd560; &#xb54c; &#xb514;&#xb809;&#xd1a0;&#xb9ac;&#xb294; live/[dir]/&#xd30c;&#xc77c; &#xc774;&#xb2e4;."/>
-<node CREATED="1604564845117" ID="ID_709664797" MODIFIED="1604564853306" TEXT="&#xadf8;&#xb7f0;&#xb370; &#xc774; &#xd30c;&#xc77c;&#xb4e4;&#xc740; &#xbaa8;&#xb450; &#xc2ec;&#xbcfc;&#xb9ad; &#xb9c1;&#xd06c;&#xc774;&#xb2e4;.">
+<node CREATED="1604564845117" ID="ID_709664797" MODIFIED="1619760844321" TEXT="&#xadf8;&#xb7f0;&#xb370; &#xc774; &#xd30c;&#xc77c;&#xb4e4;&#xc740; &#xbaa8;&#xb450; &#xc2ec;&#xbcfc;&#xb9ad; &#xb9c1;&#xd06c;&#xc774;&#xb2e4;.">
 <node CREATED="1604564853797" ID="ID_253375969" MODIFIED="1604564860456" TEXT="&#xc2ec;&#xbcfc;&#xb9ad; &#xb9c1;&#xd06c;&#xb294; &#xc77c;&#xc885;&#xc758; &#xbc14;&#xb85c;&#xac00;&#xae30;&#xc774;&#xb2e4;."/>
 <node CREATED="1604564948933" ID="ID_1705429809" LINK="#ID_508848588" MODIFIED="1604564953061" TEXT="&#xc774;&#xacf3;&#xc744; &#xcc38;&#xc870;&#xd558;&#xb77c;"/>
 <node CREATED="1604564969037" ID="ID_274045615" MODIFIED="1604564978842" TEXT="&#xb530;&#xb77c;&#xc11c; &#xc804;&#xccb4;&#xb97c; &#xbaa8;&#xb450; &#xbcfc;&#xb968;&#xc870;&#xc808;&#xc774; &#xd544;&#xc694;&#xd558;&#xb2e4;."/>
 <node CREATED="1604564979037" ID="ID_1946473317" MODIFIED="1604564990896" TEXT="&#xc790;&#xc138;&#xd55c; &#xb0b4;&#xc6a9;&#xc740; &#xb3c4;&#xcee4; run &#xbd80;&#xbd84;&#xc744; &#xcc38;&#xc870; &#xd560;&#xac83;"/>
 </node>
 </node>
-<node CREATED="1604564893693" FOLDED="true" ID="ID_508848588" MODIFIED="1617325688951" TEXT="&#xc2ec;&#xbcfc;&#xb9ad; &#xb9c1;&#xd06c;">
+<node CREATED="1604564893693" ID="ID_508848588" MODIFIED="1619760847562" TEXT="&#xc2ec;&#xbcfc;&#xb9ad; &#xb9c1;&#xd06c;">
 <node CREATED="1604564902752" ID="ID_822701856" MODIFIED="1604564902752" TEXT="ln -s [&#xc6d0;&#xbcf8; &#xd30c;&#xc77c; &#xb610;&#xb294; &#xb514;&#xb809;&#xd1a0;&#xb9ac;] [&#xc2ec;&#xbcfc;&#xb9ad; &#xb9c1;&#xd06c; &#xc774;&#xb984;]"/>
 <node CREATED="1604564919661" ID="ID_1715833764" MODIFIED="1604564920757" TEXT="&#xc608;">
 <node CREATED="1604564937645" ID="ID_430489588" MODIFIED="1604564939290" TEXT="[tour@tourWeb ~]$ ln -s ./test ./test22"/>
