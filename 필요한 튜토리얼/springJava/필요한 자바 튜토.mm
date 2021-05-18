@@ -3419,7 +3419,7 @@
 <node CREATED="1569321838984" FOLDED="true" ID="ID_1289431196" MODIFIED="1618481998819" POSITION="right" TEXT="JDBC &#xc624;&#xb958;">
 <node CREATED="1569321843353" ID="ID_437120369" LINK="#ID_1068000342" MODIFIED="1569321851842" TEXT="Failed to determine a suitable driver class "/>
 </node>
-<node COLOR="#3333ff" CREATED="1569954720531" ID="ID_1310219766" MODIFIED="1620905278157" POSITION="right" STYLE="bubble" TEXT="&#xd558;&#xc774;&#xbc84;&#xb124;&#xc774;&#xd2b8;(jpa)">
+<node COLOR="#3333ff" CREATED="1569954720531" FOLDED="true" ID="ID_1310219766" MODIFIED="1620954942848" POSITION="right" STYLE="bubble" TEXT="&#xd558;&#xc774;&#xbc84;&#xb124;&#xc774;&#xd2b8;(jpa)">
 <font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
 <node CREATED="1602136650114" FOLDED="true" ID="ID_1705942387" MODIFIED="1605443172019" TEXT="jpa &#xc124;&#xc815;">
 <node CREATED="1602136655177" ID="ID_1728261160" LINK="https://www.baeldung.com/the-persistence-layer-with-spring-and-jpa" MODIFIED="1602136655177" TEXT="https://www.baeldung.com/the-persistence-layer-with-spring-and-jpa"/>
