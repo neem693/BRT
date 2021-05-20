@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1564407011351" ID="ID_1828054490" MODIFIED="1614245578889" TEXT="&#xd544;&#xc694;&#xd55c; &#xc790;&#xbc14; &#xd29c;&#xd1a0;">
+<node CREATED="1564407011351" ID="ID_1828054490" MODIFIED="1621475789715" TEXT="&#xd544;&#xc694;&#xd55c; &#xc790;&#xbc14; &#xd29c;&#xd1a0;">
 <font NAME="SansSerif" SIZE="12"/>
 <hook NAME="accessories/plugins/CreationModificationPlugin_new.properties"/>
 <node COLOR="#3333ff" CREATED="1564407143832" FOLDED="true" ID="ID_54453441" MODIFIED="1621472968354" POSITION="right" STYLE="bubble" TEXT="No goals have been specified for this build. You must specify a valid lifecycle phase or a goal in the format &lt;plugin-prefix&gt;:&lt;goal&gt; or &lt;plugin-group-id&gt;:&lt;plugin-artifact-id&gt;[:&lt;plugin-version&gt;]:&lt;goal&gt;. &#xb2e4;&#xc74c;&#xacfc; &#xac19;&#xc740; &#xba54;&#xc774;&#xbe10; &#xc5d0;&#xb7ec;&#xc77c; &#xb54c;">
@@ -4342,7 +4342,7 @@
 <node CREATED="1571871623507" FOLDED="true" ID="ID_1830902921" MODIFIED="1621472968362" POSITION="right" TEXT="&#xc815;&#xaddc;&#xd45c;&#xd600;&#xc2dd; &#xcf00;&#xc774;&#xc2a4;">
 <node CREATED="1571871640472" ID="ID_1744715019" LINK="https://stackoverflow.com/questions/3436118/is-java-regex-case-insensitive" MODIFIED="1571871640472" TEXT="https://stackoverflow.com/questions/3436118/is-java-regex-case-insensitive"/>
 </node>
-<node CREATED="1571880395284" FOLDED="true" ID="ID_1823777567" MODIFIED="1621472968362" POSITION="right" TEXT="json to map">
+<node CREATED="1571880395284" FOLDED="true" ID="ID_1823777567" MODIFIED="1621475788827" POSITION="right" TEXT="json to map">
 <node CREATED="1571880398344" ID="ID_1856075071" LINK="https://stackoverflow.com/questions/2525042/how-to-convert-a-json-string-to-a-mapstring-string-with-jackson-json" MODIFIED="1571880398344" TEXT="https://stackoverflow.com/questions/2525042/how-to-convert-a-json-string-to-a-mapstring-string-with-jackson-json"/>
 </node>
 <node COLOR="#3333ff" CREATED="1572219203831" FOLDED="true" ID="ID_1056616026" MODIFIED="1621472968362" POSITION="right" STYLE="bubble" TEXT="LocalDateTime &#xd604;&#xc7ac;&#xc2dc;&#xac04;">
