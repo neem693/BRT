@@ -1,6 +1,7 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1583382991179" ID="ID_1471698489" MODIFIED="1600157218299" TEXT="vue">
+<node CREATED="1583382991179" ID="ID_1471698489" MODIFIED="1619485204065" TEXT="vue">
+<font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1583383001438" FOLDED="true" ID="ID_92099625" MODIFIED="1611218607955" POSITION="right" TEXT="vue &#xb77c;&#xc774;&#xd504; &#xc0ac;&#xc774;&#xd074;">
 <node CREATED="1583383014349" ID="ID_525627372" MODIFIED="1611218607453" TEXT="&#xc774;&#xbbf8;&#xc9c0;">
 <node CREATED="1583383077964" ID="ID_1461793263" MODIFIED="1583383077964">
@@ -32,10 +33,10 @@
 <font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
 <node CREATED="1607408026420" ID="ID_1957815764" LINK="https://github.com/avidofood/vue-responsive-video-background-player" MODIFIED="1607408026420" TEXT="https://github.com/avidofood/vue-responsive-video-background-player"/>
 </node>
-<node CREATED="1607408296026" FOLDED="true" ID="ID_1749336043" MODIFIED="1611218601638" POSITION="right" TEXT="youtube vue">
+<node CREATED="1607408296026" ID="ID_1749336043" MODIFIED="1619485509825" POSITION="right" TEXT="youtube vue">
 <node CREATED="1607408302043" ID="ID_672638762" LINK="https://www.npmjs.com/package/vue-youtube" MODIFIED="1607408302043" TEXT="https://www.npmjs.com/package/vue-youtube"/>
 </node>
-<node CREATED="1609987735175" FOLDED="true" ID="ID_615459020" MODIFIED="1611218601869" POSITION="right" TEXT="vue &#xd658;&#xacbd;&#xbcc0;&#xc218;">
+<node CREATED="1609987735175" ID="ID_615459020" MODIFIED="1619485510880" POSITION="right" TEXT="vue &#xd658;&#xacbd;&#xbcc0;&#xc218;">
 <node CREATED="1611131154459" LINK="https://cli.vuejs.org/config/#vue-config-js" MODIFIED="1611131154459" TEXT="https://cli.vuejs.org/config/#vue-config-js"/>
 </node>
 <node CREATED="1615192835637" ID="ID_1509320750" MODIFIED="1615192841229" POSITION="right" TEXT="this&#xac00; &#xac00;&#xc9c0;&#xace0; &#xc788;&#xb294; &#xc758;&#xbbf8;">

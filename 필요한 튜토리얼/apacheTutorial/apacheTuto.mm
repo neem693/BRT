@@ -18,11 +18,11 @@
 <node CREATED="1586926206099" ID="ID_1939430547" LINK="https://blog.didierstevens.com/2015/03/30/howto-make-your-own-cert-with-openssl-on-windows/" MODIFIED="1586926206099" TEXT="https://blog.didierstevens.com/2015/03/30/howto-make-your-own-cert-with-openssl-on-windows/"/>
 </node>
 </node>
-<node CREATED="1573700104207" FOLDED="true" ID="ID_727107818" MODIFIED="1604811055113" POSITION="right" TEXT="openssl &#xb9cc;&#xb4e4;&#xae30;">
+<node CREATED="1573700104207" ID="ID_727107818" MODIFIED="1620636852549" POSITION="right" TEXT="openssl &#xb9cc;&#xb4e4;&#xae30;">
 <node CREATED="1573700107872" ID="ID_911287260" MODIFIED="1573700107872" TEXT="openssl req -new -newkey rsa:2048 -nodes -out D:\key\oratree.csr -keyout D:\key\oratree.key -subj &quot;/C=KR/ST=mapo/L=seoul/O=BM_Cunsulting/OU=developer/CN=www.example.com&quot;"/>
 <node CREATED="1573700107874" ID="ID_1510040510" MODIFIED="1573700107874" TEXT="openssl x509 -req -in D:\key\oratree.csr -signkey D:\key\oratree.key -out D:\key\oratree.crt"/>
 </node>
-<node CREATED="1573700118701" FOLDED="true" ID="ID_1802056153" MODIFIED="1604811050306" POSITION="right" TEXT="conf &#xc124;&#xc815;">
+<node CREATED="1573700118701" ID="ID_1802056153" MODIFIED="1620636853332" POSITION="right" TEXT="conf &#xc124;&#xc815;">
 <node CREATED="1573700122527" ID="ID_1599890253" MODIFIED="1573700122527" TEXT="Listen 80"/>
 <node CREATED="1573700122527" ID="ID_465854624" MODIFIED="1573700122527" TEXT="Listen 443"/>
 <node CREATED="1604558986774" ID="ID_1384704392" MODIFIED="1604559010559" TEXT="LoadModule ssl_module modules/mod_ssl.so">
@@ -55,12 +55,12 @@
 </node>
 </node>
 </node>
-<node CREATED="1582781585350" FOLDED="true" ID="ID_1218941641" MODIFIED="1604811050306" POSITION="right" TEXT="rewrite">
+<node CREATED="1582781585350" ID="ID_1218941641" MODIFIED="1620636853569" POSITION="right" TEXT="rewrite">
 <node CREATED="1582781588630" ID="ID_964033550" MODIFIED="1582782956563" TEXT=" &#xc815;&#xaddc;&#xd45c;&#xd604;&#xc2dd; is not function">
 <node CREATED="1582781600069" ID="ID_1159894405" LINK="https://www.regextester.com/15" MODIFIED="1582781600069" TEXT="https://www.regextester.com/15"/>
 </node>
 </node>
-<node CREATED="1580375808773" FOLDED="true" ID="ID_1191707198" MODIFIED="1604811050307" POSITION="right" TEXT="&#xd504;&#xb85d;&#xc2dc;">
+<node CREATED="1580375808773" ID="ID_1191707198" MODIFIED="1620636869618" POSITION="right" TEXT="&#xd504;&#xb85d;&#xc2dc;">
 <node CREATED="1580327978932" ID="ID_1317658100" MODIFIED="1604559594942" TEXT="rewrite">
 <node CREATED="1580327981984" ID="ID_1450635901" MODIFIED="1580327984475" TEXT="p &#xd50c;&#xb798;&#xadf8;">
 <node CREATED="1580327988200" ID="ID_283345267" MODIFIED="1580327990693" TEXT="&#xd504;&#xb85d;&#xc2dc;&#xb97c; &#xc758;&#xbbf8;&#xd55c;&#xb2e4;."/>

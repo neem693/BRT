@@ -1,8 +1,8 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1563522454767" ID="ID_1812649479" MODIFIED="1616143212905" TEXT="angular">
-<hook NAME="accessories/plugins/RevisionPlugin.properties"/>
 <hook NAME="accessories/plugins/CreationModificationPlugin_new.properties"/>
+<hook NAME="accessories/plugins/RevisionPlugin.properties"/>
 <node CREATED="1563522718142" ID="ID_1024043872" MODIFIED="1616143187016" POSITION="right" TEXT="&#xd604;&#xc7ac; &#xd29c;&#xd1a0;&#xb9ac;&#xc5bc;">
 <node CREATED="1563522713920" ID="ID_792755994" LINK="https://www.tutorialspoint.com/angular7/angular7_project_setup.htm" MODIFIED="1563522716082" TEXT="https://www.tutorialspoint.com/angular7/angular7_project_setup.htm"/>
 </node>
@@ -809,7 +809,7 @@
 <node CREATED="1570715298284" ID="ID_317628907" MODIFIED="1570715312850" TEXT="errors&#xac00; null&#xc774; &#xc544;&#xb2c8;&#xba74; &#xc5d0;&#xb7ec;&#xb85c; &#xd310;&#xb2e8;"/>
 </node>
 </node>
-<node CREATED="1570698034197" FOLDED="true" ID="ID_205469231" MODIFIED="1616143265976" POSITION="right" TEXT="&#xc554;&#xd638; &#xc815;&#xaddc; &#xd45c;&#xd604;&#xc2dd;">
+<node CREATED="1570698034197" FOLDED="true" ID="ID_205469231" MODIFIED="1620352520235" POSITION="right" TEXT="&#xc554;&#xd638; &#xc815;&#xaddc; &#xd45c;&#xd604;&#xc2dd;">
 <node CREATED="1570698043468" ID="ID_1007231637" LINK="https://stackoverflow.com/questions/19605150/regex-for-password-must-contain-at-least-eight-characters-at-least-one-number-a" MODIFIED="1570698043468" TEXT="https://stackoverflow.com/questions/19605150/regex-for-password-must-contain-at-least-eight-characters-at-least-one-number-a"/>
 </node>
 <node COLOR="#3333ff" CREATED="1570713856555" FOLDED="true" ID="ID_1003029451" MODIFIED="1616143266712" POSITION="right" STYLE="bubble" TEXT="object for (key &#xbd84;&#xb9ac;&#xd568;)">
@@ -829,13 +829,13 @@
 </node>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#ff3333" CREATED="1570728891653" FOLDED="true" ID="ID_1041003978" MODIFIED="1616143267520" POSITION="right" STYLE="bubble" TEXT="Material Dialog(&#xb2e4;&#xc774;&#xc5bc;&#xb85c;&#xadf8; &#xbb38;&#xc81c; &#xc67c;&#xcabd;&#xc73c;&#xb85c; &#xb098;&#xc624;&#xb294; &#xbb38;&#xc81c; &#xb4f1;&#xb4f1;)">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#ff3333" CREATED="1570728891653" FOLDED="true" ID="ID_1041003978" MODIFIED="1620352693401" POSITION="right" STYLE="bubble" TEXT="Material Dialog(&#xb2e4;&#xc774;&#xc5bc;&#xb85c;&#xadf8; &#xbb38;&#xc81c; &#xc67c;&#xcabd;&#xc73c;&#xb85c; &#xb098;&#xc624;&#xb294; &#xbb38;&#xc81c; &#xb4f1;&#xb4f1;)">
 <font BOLD="true" NAME="Dialog" SIZE="24"/>
-<node CREATED="1570729058059" ID="ID_1105461681" MODIFIED="1571166144614" TEXT="&#xbb38;&#xc81c;">
+<node CREATED="1570729058059" FOLDED="true" ID="ID_1105461681" MODIFIED="1620352683794" TEXT="&#xbb38;&#xc81c;">
 <node CREATED="1570729074755" ID="ID_834457035" MODIFIED="1571166144615" TEXT="No component factory found for ConfirmComponent. Did you add it to @NgModule.entryComponents?"/>
 <node CREATED="1570729083244" ID="ID_842617751" MODIFIED="1571166144615" TEXT="matrial &#xb2e4;&#xc774;&#xc5bc;&#xb85c;&#xadf8;&#xb97c; &#xc0ac;&#xc6a9;&#xd560; &#xb54c; &#xc886;&#xb3c4; &#xc548;&#xb418;&#xba74;&#xc11c; &#xc800;&#xb7f0; &#xc624;&#xb958;&#xac00; &#xb72c;&#xb2e4;."/>
 </node>
-<node CREATED="1570729221916" ID="ID_736019745" MODIFIED="1571166144615" TEXT="&#xd574;&#xacb0;">
+<node CREATED="1570729221916" FOLDED="true" ID="ID_736019745" MODIFIED="1620352683794" TEXT="&#xd574;&#xacb0;">
 <node CREATED="1570729222869" ID="ID_145829090" LINK="https://stackoverflow.com/questions/46990389/angular-4-no-component-factory-found-did-you-add-it-to-ngmodule-entrycomponent" MODIFIED="1571166144620" TEXT="https://stackoverflow.com/questions/46990389/angular-4-no-component-factory-found-did-you-add-it-to-ngmodule-entrycomponent"/>
 <node CREATED="1570729405756" ID="ID_913564391" MODIFIED="1571166144624" TEXT="entryComponents&#xcd94;&#xac00;&#xd574;&#xc11c; &#xcef4;&#xd3ec;&#xb10c;&#xd2b8; &#xcd94;&#xac00;&#xd574;&#xc57c; &#xd55c;&#xb2e4;."/>
 <node CREATED="1570729397108" ID="ID_45183191" MODIFIED="1571166144624" TEXT="&#xcf54;&#xb4dc;">
@@ -1277,7 +1277,7 @@
 <node CREATED="1614670647350" FOLDED="true" ID="ID_1965252276" MODIFIED="1616142121631" POSITION="right" TEXT="javascript foreach&#xc5d0;&#xc11c;&#xb3c4; &#xac12;&#xc744; &#xbc14;&#xafc0; &#xc218; &#xc788;&#xb2e4;.">
 <node CREATED="1614670654385" ID="ID_1861354056" LINK="https://stackoverflow.com/questions/12482961/change-values-in-array-when-doing-foreach" MODIFIED="1614670654385" TEXT="https://stackoverflow.com/questions/12482961/change-values-in-array-when-doing-foreach"/>
 </node>
-<node CREATED="1616646682456" ID="ID_420066845" MODIFIED="1616646687433" POSITION="right" TEXT="swipe &#xc774;&#xbca4;&#xd2b8;">
+<node CREATED="1616646682456" FOLDED="true" ID="ID_420066845" MODIFIED="1620352680212" POSITION="right" TEXT="swipe &#xc774;&#xbca4;&#xd2b8;">
 <node CREATED="1616646687928" ID="ID_932594843" LINK="https://stackoverflow.com/questions/2264072/detect-a-finger-swipe-through-javascript-on-the-iphone-and-android" MODIFIED="1616646687928" TEXT="https://stackoverflow.com/questions/2264072/detect-a-finger-swipe-through-javascript-on-the-iphone-and-android"/>
 </node>
 </node>
