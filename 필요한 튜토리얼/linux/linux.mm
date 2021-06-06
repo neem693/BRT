@@ -122,5 +122,14 @@
 </node>
 </node>
 </node>
+<node CREATED="1622953574820" ID="ID_924234364" MODIFIED="1622953578602" POSITION="right" TEXT="&#xadf8;&#xb8f9;&#xacfc; &#xc720;&#xc800;&#xb9ac;&#xc2a4;&#xd2b8; &#xc870;&#xd68c;">
+<node CREATED="1622953578940" ID="ID_469051099" LINK="http://www.kwangsiklee.com/2018/02/%EB%A6%AC%EB%88%85%EC%8A%A4%EC%97%90%EC%84%9C-%EC%A0%84%EC%B2%B4-group%EC%9D%B4%EB%82%98-user-%EB%A6%AC%EC%8A%A4%ED%8A%B8-%EC%B6%9C%EB%A0%A5%ED%95%98%EA%B8%B0/" MODIFIED="1622953578940" TEXT="kwangsiklee.com &gt; 2018 &gt; 02 &gt; %EB%A6%AC%EB%88%85%EC%8A%A4%EC%97%90%EC%84%9C-%EC%A0%84%EC%B2%B4-group%EC%9D%B4%EB%82%98-user-%EB%A6%AC%EC%8A%A4%ED%8A%B8-%EC%B6%9C%EB%A0%A5%ED%95%98%EA%B8%B0"/>
+</node>
+<node CREATED="1622952930479" ID="ID_1804407209" MODIFIED="1622953160135" POSITION="right" TEXT="sftp &#xc138;&#xd305;">
+<node COLOR="#3333ff" CREATED="1622955690760" ID="ID_1783571610" LINK="https://faq.hostway.co.kr/Linux_ETC/8213" MODIFIED="1622955694305" STYLE="bubble" TEXT="https://faq.hostway.co.kr/Linux_ETC/8213">
+<font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
+</node>
+<node CREATED="1622953160645" ID="ID_1837942490" LINK="https://overcode.tistory.com/entry/%EB%A6%AC%EB%88%85%EC%8A%A4-%EC%82%AC%EC%9A%A9%EC%9E%90-%EB%AA%A9%EB%A1%9D-%ED%99%95%EC%9D%B8-Linux-User-List" MODIFIED="1622953160645" TEXT="https://overcode.tistory.com/entry/%EB%A6%AC%EB%88%85%EC%8A%A4-%EC%82%AC%EC%9A%A9%EC%9E%90-%EB%AA%A9%EB%A1%9D-%ED%99%95%EC%9D%B8-Linux-User-List"/>
+</node>
 </node>
 </map>

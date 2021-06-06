@@ -1,7 +1,8 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1564407011351" ID="ID_1828054490" MODIFIED="1621475789715" TEXT="&#xd544;&#xc694;&#xd55c; &#xc790;&#xbc14; &#xd29c;&#xd1a0;">
+<node CREATED="1564407011351" ID="ID_1828054490" MODIFIED="1622618770547" TEXT="&#xd544;&#xc694;&#xd55c; &#xc790;&#xbc14; &#xd29c;&#xd1a0;">
 <font NAME="SansSerif" SIZE="12"/>
+<hook NAME="accessories/plugins/CreationModificationPlugin_new.properties"/>
 <hook NAME="MapStyle">
 <properties EDGECOLORCONFIGURATION="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" FIT_TO_VIEWPORT="false"/>
 <map_styles>
@@ -67,7 +68,6 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="accessories/plugins/CreationModificationPlugin_new.properties"/>
 <node COLOR="#3333ff" CREATED="1564407143832" FOLDED="true" ID="ID_54453441" MODIFIED="1621472968354" POSITION="right" STYLE="bubble" TEXT="No goals have been specified for this build. You must specify a valid lifecycle phase or a goal in the format &lt;plugin-prefix&gt;:&lt;goal&gt; or &lt;plugin-group-id&gt;:&lt;plugin-artifact-id&gt;[:&lt;plugin-version&gt;]:&lt;goal&gt;. &#xb2e4;&#xc74c;&#xacfc; &#xac19;&#xc740; &#xba54;&#xc774;&#xbe10; &#xc5d0;&#xb7ec;&#xc77c; &#xb54c;">
 <font BOLD="true" NAME="Dialog" SIZE="16"/>
 <node CREATED="1564407165766" ID="ID_825190785" MODIFIED="1564407165766" TEXT="&lt;build&gt;">
@@ -4658,7 +4658,7 @@
 <node CREATED="1581352196894" FOLDED="true" ID="ID_883025320" MODIFIED="1621472968362" POSITION="right" TEXT="&#xc774;&#xba54;&#xc77c; &#xae68;&#xc9c0;&#xb294; &#xac83;">
 <node CREATED="1581352200028" ID="ID_990643542" LINK="https://mkil.tistory.com/340" MODIFIED="1581352200028" TEXT="https://mkil.tistory.com/340"/>
 </node>
-<node CREATED="1582972563805" ID="ID_702207424" MODIFIED="1621472968362" POSITION="left" TEXT="arrayList &#xc815;&#xb82c;(compateTo &#xc774;&#xc6a9;&#xbc29;&#xbc95;)">
+<node CREATED="1582972563805" FOLDED="true" ID="ID_702207424" MODIFIED="1622623150747" POSITION="left" TEXT="arrayList &#xc815;&#xb82c;(compateTo &#xc774;&#xc6a9;&#xbc29;&#xbc95;)">
 <node CREATED="1582972566785" ID="ID_496044427" LINK="https://includestdio.tistory.com/35" MODIFIED="1582972566785" TEXT="https://includestdio.tistory.com/35"/>
 </node>
 <node COLOR="#3333ff" CREATED="1583384548615" FOLDED="true" ID="ID_650895007" MODIFIED="1621472968362" POSITION="left" STYLE="bubble" TEXT="List&#xc758; java.lang.foreach">
@@ -4985,7 +4985,7 @@
 <node CREATED="1608027306681" FOLDED="true" ID="ID_973740719" MODIFIED="1621472968370" POSITION="right" TEXT="maxmindDB">
 <node CREATED="1608027308745" ID="ID_1562375436" LINK="https://www.maxmind.com/en/accounts/440125/geoip/downloads" MODIFIED="1608027308745" TEXT="https://www.maxmind.com/en/accounts/440125/geoip/downloads"/>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#ff3333" CREATED="1610434059360" ID="ID_933177484" MODIFIED="1622534111889" POSITION="left" STYLE="bubble" TEXT="openJdk">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#ff3333" CREATED="1610434059360" FOLDED="true" ID="ID_933177484" MODIFIED="1622623150749" POSITION="left" STYLE="bubble" TEXT="openJdk">
 <font BOLD="true" NAME="Dialog" SIZE="24"/>
 <node CREATED="1610434062927" ID="ID_1831848659" LINK="https://github.com/ojdkbuild/ojdkbuild" MODIFIED="1610434069273" TEXT="https://github.com/ojdkbuild/ojdkbuild"/>
 <node CREATED="1622526303985" ID="ID_261470816" MODIFIED="1622534113557" TEXT="mac">
@@ -5000,11 +5000,11 @@
 <node CREATED="1622535376468" ID="ID_1021014537" LINK="https://findstar.pe.kr/2019/01/20/install-openjdk-by-homebrew/" MODIFIED="1622535376468" TEXT="https://findstar.pe.kr/2019/01/20/install-openjdk-by-homebrew/"/>
 </node>
 <node CREATED="1622610295819" ID="ID_558114759" MODIFIED="1622610506577" TEXT="&#xadf8;&#xb0e5; &#xb2e4; &#xbb34;&#xc2dc;&#xd558;&#xace0;  &#xc624;&#xb85c;&#xc9c0;  &#xba54;&#xb274;&#xc5bc;&#xb85c;  &#xb2e4;&#xac00;   adoptiveopenjdk &#xba54;&#xb274;&#xc5bc;&#xb85c; &#xc124;&#xce58;">
-<node CREATED="1622610591030" LINK="https://adoptopenjdk.net/" MODIFIED="1622610591030" TEXT="https://adoptopenjdk.net/"/>
+<node CREATED="1622610591030" ID="ID_1668521115" LINK="https://adoptopenjdk.net/" MODIFIED="1622610591030" TEXT="https://adoptopenjdk.net/"/>
 </node>
 </node>
 </node>
-<node COLOR="#3333ff" CREATED="1611105493279" ID="ID_1331755415" MODIFIED="1622526026536" POSITION="left" STYLE="bubble" TEXT="springboot&#xb791; &#xac19;&#xc774; &#xc2e4;&#xd589;">
+<node COLOR="#3333ff" CREATED="1611105493279" FOLDED="true" ID="ID_1331755415" MODIFIED="1622623150749" POSITION="left" STYLE="bubble" TEXT="springboot&#xb791; &#xac19;&#xc774; &#xc2e4;&#xd589;">
 <font BOLD="true" NAME="Dialog" SIZE="16"/>
 <node CREATED="1611105500775" ID="ID_1816457558" MODIFIED="1611105509614" TEXT="ApplicationRunner"/>
 </node>
@@ -5051,6 +5051,15 @@
 <node CREATED="1620886228631" FOLDED="true" ID="ID_522655161" MODIFIED="1621472968370" POSITION="right" TEXT="html&#xc744; &#xc774;&#xbbf8;&#xc9c0;&#xb85c; &#xbcc0;&#xd658;&#xd558;&#xb294;&#xac78; &#xc790;&#xbc14;&#xc5d0;&#xc11c; &#xd558;&#xae30;">
 <node CREATED="1620886246664" ID="ID_1708562186" LINK="https://whitecold89.tistory.com/48" MODIFIED="1620886246664" TEXT="https://whitecold89.tistory.com/48"/>
 </node>
+<node BACKGROUND_COLOR="#ffffff" COLOR="#ff3333" CREATED="1622688972479" ID="ID_1852474085" MODIFIED="1622688975578" POSITION="right" STYLE="bubble" TEXT="yaml">
+<font BOLD="true" NAME="Dialog" SIZE="24"/>
+<node CREATED="1622688979053" ID="ID_927363965" LINK="https://stackoverflow.com/questions/3790454/how-do-i-break-a-string-in-yaml-over-multiple-lines" MODIFIED="1622688979053" TEXT="https://stackoverflow.com/questions/3790454/how-do-i-break-a-string-in-yaml-over-multiple-lines"/>
+<node CREATED="1622688980238" ID="ID_1283708668" MODIFIED="1622689023938" TEXT="- &#xb77c;&#xb294; &#xac12;&#xc774; new line&#xc758; &#xac1c;&#xd589;&#xc73c;&#xb85c; &#xb4e4;&#xc5b4;&#xac04;&#xb2e4;."/>
+</node>
+<node CREATED="1622692742297" ID="ID_1789817337" MODIFIED="1622692745738" POSITION="right" TEXT="redis cache">
+<node CREATED="1622692746376" ID="ID_335660259" LINK="https://velog.io/@ayoung0073/springboot-redis-cache" MODIFIED="1622692746376" TEXT="https://velog.io/@ayoung0073/springboot-redis-cache"/>
+<node CREATED="1622950018168" ID="ID_1237089089" LINK="https://yonguri.tistory.com/82" MODIFIED="1622950018168" TEXT="https://yonguri.tistory.com/82"/>
+</node>
 <node CREATED="1613370929160" FOLDED="true" ID="ID_759038728" MODIFIED="1621472968370" POSITION="left" TEXT="&#xb85c;&#xceec; &#xb370;&#xc774;&#xd2b8; &#xd0c0;&#xc784; post&#xb85c; &#xb358;&#xc838; &#xc138;&#xc774;&#xbe0c; &#xd560; &#xc2dc;&#xc5d0;">
 <node CREATED="1613370941359" ID="ID_1960003342" LINK="https://lejewk.github.io/jpa-localdatetime-jsonformat/" MODIFIED="1613370941359" TEXT="https://lejewk.github.io/jpa-localdatetime-jsonformat/"/>
 </node>
@@ -5060,6 +5069,57 @@
 <node COLOR="#3333ff" CREATED="1620639257050" FOLDED="true" ID="ID_825833406" MODIFIED="1621472968370" POSITION="left" STYLE="bubble" TEXT="maven &#xba54;&#xc774;&#xbe10; goals &#xc720;&#xd615;">
 <font BOLD="true" NAME="Dialog" SIZE="16"/>
 <node CREATED="1620639270345" ID="ID_1573768780" LINK="https://wikidocs.net/18341" MODIFIED="1620639361485" TEXT="https://wikidocs.net/18341"/>
+</node>
+<node CREATED="1622618774676" ID="ID_483332880" MODIFIED="1622642670765" POSITION="left" STYLE="fork" TEXT="&#xc778;&#xd154;&#xb9ac;&#xc81c;&#xc774;">
+<font NAME="SansSerif" SIZE="12"/>
+<node CREATED="1622618783306" ID="ID_999273512" MODIFIED="1622618791608" TEXT="java version &#xbcc0;&#xacbd;"/>
+<node CREATED="1622642678330" ID="ID_657532712" MODIFIED="1622642684597" TEXT="java.util.concurrent.CompletionException: java.net.BindException: Address already in use: bind &#xc624;&#xb958;">
+<node CREATED="1622642757298" LINK="https://blog.gthd.app/2020/12/02/intellij-idea-address-already-in-use-how-to-deal-with/" MODIFIED="1622642757298" TEXT="https://blog.gthd.app/2020/12/02/intellij-idea-address-already-in-use-how-to-deal-with/"/>
+</node>
+<node CREATED="1622644531716" ID="ID_1056789630" MODIFIED="1622644535298" TEXT="junit &#xc138;&#xd305;">
+<node CREATED="1622644536031" LINK="https://jojoldu.tistory.com/450" MODIFIED="1622644536031" TEXT="https://jojoldu.tistory.com/450"/>
+</node>
+<node CREATED="1622646675864" ID="ID_1284860205" MODIFIED="1622646679634" TEXT="&#xb2e8;&#xcd95;&#xd0a4;">
+<node CREATED="1622646681339" ID="ID_1500572248" MODIFIED="1622646682385" TEXT="&#xc708;&#xb3c4;&#xc6b0;">
+<node CREATED="1622646699519" ID="ID_951922569" MODIFIED="1622646711931" TEXT="&#xd30c;&#xc77c;&#xac80;&#xc0c9;">
+<node CREATED="1622646714039" ID="ID_1351271320" MODIFIED="1622646716471" TEXT="&#xc26c;&#xd504;&#xd2b8; &#xb450;&#xbc88;"/>
+</node>
+<node CREATED="1622646717770" ID="ID_1647917070" MODIFIED="1622646719527" TEXT="&#xcf54;&#xb4dc; &#xac80;&#xc0c9;">
+<node CREATED="1622646720497" ID="ID_139087584" MODIFIED="1622646726630" TEXT="ctrl +shift + F"/>
+</node>
+<node CREATED="1622646727516" ID="ID_878161622" MODIFIED="1622646823707" TEXT="&#xd074;&#xb798;&#xc2a4; &#xacc4;&#xce35;">
+<node CREATED="1622646824695" ID="ID_304109678" MODIFIED="1622646829579" TEXT="CTRL + H"/>
+</node>
+<node CREATED="1622646838137" ID="ID_1556272832" MODIFIED="1622646842436" TEXT="&#xcd5c;&#xadfc; &#xd30c;&#xc77c;">
+<node CREATED="1622646843345" ID="ID_1937037107" MODIFIED="1622646846198" TEXT="ctrl + E"/>
+</node>
+<node CREATED="1622653955054" ID="ID_1805406273" MODIFIED="1622653956896" TEXT="rename">
+<node CREATED="1622653958504" ID="ID_69115666" MODIFIED="1622653962891" TEXT="shift + F6"/>
+</node>
+<node CREATED="1622688184955" ID="ID_1208549034" MODIFIED="1622688186592" TEXT="line &#xc0ad;&#xc81c;">
+<node CREATED="1622688188114" ID="ID_214514386" MODIFIED="1622688193592" TEXT="ctrl + y"/>
+</node>
+<node CREATED="1622688376235" ID="ID_948203658" MODIFIED="1622690661933" TEXT="&#xac1d;&#xccb4;&#xc0dd;&#xc131;">
+<node CREATED="1622688384795" ID="ID_282403278" MODIFIED="1622688401605" TEXT="alt + insert"/>
+</node>
+<node CREATED="1622690617875" ID="ID_1973617986" MODIFIED="1622690619534" TEXT="&#xbb38;&#xc81c;&#xd574;&#xacb0;">
+<node CREATED="1622690620342" ID="ID_1943559502" MODIFIED="1622690624737" TEXT="alt + enter"/>
+</node>
+<node CREATED="1622690735262" ID="ID_963299601" MODIFIED="1622690738155" TEXT="&#xc790;&#xb3d9; &#xc784;&#xd3ec;&#xd2b8;">
+<node CREATED="1622690738899" ID="ID_723172410" MODIFIED="1622690738899" TEXT="CTRL + ALT + O &quot;Optimize Imports&quot;"/>
+<node CREATED="1622690811922" ID="ID_768300785" MODIFIED="1622690888613" TEXT="&#xd574;&#xb2f9; &#xbd80;&#xbd84;&#xc740; &#xc778;&#xd154;&#xb9ac;&#xc81c;&#xc774; &#xc635;&#xc158;&#xc5d0;&#xc11c; &#xc124;&#xc815;&#xc774; &#xd544;&#xc694;&#xd558;&#xb2e4;">
+<node CREATED="1622690889286" ID="ID_790710348" LINK="https://hjjungdev.tistory.com/102" MODIFIED="1622690889286" TEXT="https://hjjungdev.tistory.com/102"/>
+</node>
+</node>
+<node CREATED="1622921923371" ID="ID_418893646" MODIFIED="1622921925692" TEXT="&#xc790;&#xb3d9;&#xc815;&#xb82c;">
+<node CREATED="1622921926374" MODIFIED="1622921926374" TEXT="Ctrl + Alt + L"/>
+</node>
+</node>
+<node CREATED="1622646683602" ID="ID_1788731151" MODIFIED="1622646684383" TEXT="&#xb9e5;"/>
+</node>
+</node>
+<node CREATED="1622655195034" ID="ID_681287401" MODIFIED="1622655210878" POSITION="left" TEXT="&#xb85c;&#xadf8;4j2 jdbc driver">
+<node CREATED="1622655347564" ID="ID_1550855467" LINK="https://mvnrepository.com/artifact/org.bgee.log4jdbc-log4j2/log4jdbc-log4j2-jdbc4.1" MODIFIED="1622655347564" TEXT="https://mvnrepository.com/artifact/org.bgee.log4jdbc-log4j2/log4jdbc-log4j2-jdbc4.1"/>
 </node>
 </node>
 </map>
