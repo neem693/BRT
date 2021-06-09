@@ -130,7 +130,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#3333ff" CREATED="1574525727835" FOLDED="true" ID="ID_1917853627" MODIFIED="1622951913035" STYLE="bubble" TEXT="sudo docker attach &#xcee8;&#xd14c;&#xc774;&#xb108;ID">
+<node COLOR="#3333ff" CREATED="1574525727835" ID="ID_1917853627" MODIFIED="1623044692932" STYLE="bubble" TEXT="sudo docker attach &#xcee8;&#xd14c;&#xc774;&#xb108;ID">
 <font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
 <node CREATED="1574525740245" ID="ID_245426340" MODIFIED="1620698508054" TEXT="&#xc774;&#xac70; &#xc548;&#xba39;&#xd790;&#xb54c;&#xb294;"/>
 <node CREATED="1574525750288" ID="ID_637496210" LINK="https://stackoverflow.com/questions/44733713/why-docker-attach-not-working-and-blocking-my-konsole-on-ubuntu" MODIFIED="1620698508054" TEXT="https://stackoverflow.com/questions/44733713/why-docker-attach-not-working-and-blocking-my-konsole-on-ubuntu"/>
