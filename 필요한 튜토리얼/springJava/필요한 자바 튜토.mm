@@ -2,6 +2,7 @@
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1564407011351" ID="ID_1828054490" MODIFIED="1622618770547" TEXT="&#xd544;&#xc694;&#xd55c; &#xc790;&#xbc14; &#xd29c;&#xd1a0;">
 <font NAME="SansSerif" SIZE="12"/>
+<hook NAME="accessories/plugins/CreationModificationPlugin_new.properties"/>
 <hook NAME="MapStyle">
 <properties EDGECOLORCONFIGURATION="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" FIT_TO_VIEWPORT="false"/>
 <map_styles>
@@ -67,7 +68,6 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="accessories/plugins/CreationModificationPlugin_new.properties"/>
 <node COLOR="#3333ff" CREATED="1564407143832" FOLDED="true" ID="ID_54453441" MODIFIED="1623117426205" POSITION="right" STYLE="bubble" TEXT="No goals have been specified for this build. You must specify a valid lifecycle phase or a goal in the format &lt;plugin-prefix&gt;:&lt;goal&gt; or &lt;plugin-group-id&gt;:&lt;plugin-artifact-id&gt;[:&lt;plugin-version&gt;]:&lt;goal&gt;. &#xb2e4;&#xc74c;&#xacfc; &#xac19;&#xc740; &#xba54;&#xc774;&#xbe10; &#xc5d0;&#xb7ec;&#xc77c; &#xb54c;">
 <font BOLD="true" NAME="Dialog" SIZE="16"/>
 <node CREATED="1564407165766" ID="ID_825190785" MODIFIED="1564407165766" TEXT="&lt;build&gt;">
@@ -5121,10 +5121,10 @@
 <node CREATED="1622688376235" FOLDED="true" ID="ID_948203658" MODIFIED="1623058304098" TEXT="&#xac1d;&#xccb4;&#xc0dd;&#xc131;">
 <node CREATED="1622688384795" ID="ID_282403278" MODIFIED="1622688401605" TEXT="alt + insert"/>
 </node>
-<node CREATED="1622690617875" FOLDED="true" ID="ID_1973617986" MODIFIED="1623058304098" TEXT="&#xbb38;&#xc81c;&#xd574;&#xacb0;">
+<node CREATED="1622690617875" ID="ID_1973617986" MODIFIED="1623318197139" TEXT="&#xbb38;&#xc81c;&#xd574;&#xacb0;">
 <node CREATED="1622690620342" ID="ID_1943559502" MODIFIED="1622690624737" TEXT="alt + enter"/>
 </node>
-<node CREATED="1622690735262" FOLDED="true" ID="ID_963299601" MODIFIED="1623058304098" TEXT="&#xc790;&#xb3d9; &#xc784;&#xd3ec;&#xd2b8;">
+<node CREATED="1622690735262" ID="ID_963299601" MODIFIED="1623318032582" TEXT="&#xc790;&#xb3d9; &#xc784;&#xd3ec;&#xd2b8;">
 <node CREATED="1622690738899" ID="ID_723172410" MODIFIED="1622690738899" TEXT="CTRL + ALT + O &quot;Optimize Imports&quot;"/>
 <node CREATED="1622690811922" ID="ID_768300785" MODIFIED="1622690888613" TEXT="&#xd574;&#xb2f9; &#xbd80;&#xbd84;&#xc740; &#xc778;&#xd154;&#xb9ac;&#xc81c;&#xc774; &#xc635;&#xc158;&#xc5d0;&#xc11c; &#xc124;&#xc815;&#xc774; &#xd544;&#xc694;&#xd558;&#xb2e4;">
 <node CREATED="1622690889286" ID="ID_790710348" LINK="https://hjjungdev.tistory.com/102" MODIFIED="1622690889286" TEXT="https://hjjungdev.tistory.com/102"/>
@@ -5134,10 +5134,13 @@
 <node CREATED="1622921926374" MODIFIED="1622921926374" TEXT="Ctrl + Alt + L"/>
 </node>
 </node>
-<node CREATED="1622646683602" ID="ID_1788731151" MODIFIED="1622646684383" TEXT="&#xb9e5;">
+<node CREATED="1622646683602" FOLDED="true" ID="ID_1788731151" MODIFIED="1623316869909" TEXT="&#xb9e5;">
 <node CREATED="1623063659799" ID="ID_454399647" MODIFIED="1623063666974" TEXT="&#xc0dd;&#xc131;&#xc790; &#xc790;&#xb3d9; &#xb9cc;&#xb4e4;&#xae30;">
 <node CREATED="1623063675359" ID="ID_1433495820" MODIFIED="1623063680922" TEXT="alt  + insert"/>
 </node>
+</node>
+<node CREATED="1623316874444" ID="ID_67257819" MODIFIED="1623316878303" TEXT="psvm">
+<node CREATED="1623316880731" ID="ID_1976225524" MODIFIED="1623316890799" TEXT="&#xd558;&#xace0; tab&#xc744; &#xb204;&#xb974;&#xba74; void main &#xb9cc;&#xb4e4;&#xc5b4;&#xc9d0;"/>
 </node>
 </node>
 </node>
