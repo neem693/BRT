@@ -2,6 +2,9 @@
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1619658860567" ID="ID_816396359" MODIFIED="1619658864087" TEXT="elk">
 <node CREATED="1619675157996" ID="ID_1937836568" MODIFIED="1619675164575" POSITION="right" TEXT="elastic search">
+<node CREATED="1623680771947" ID="ID_745522900" MODIFIED="1623680778814" TEXT="&#xd604;&#xc7ac; &#xb9f5;&#xd551;&#xb418;&#xc5b4;&#xc788;&#xb294; &#xbaa8;&#xb4e0; &#xac83;">
+<node CREATED="1623680779255" ID="ID_1378105429" MODIFIED="1623680779255" TEXT="localhost:9200/_all/_mapping"/>
+</node>
 <node CREATED="1619675165347" ID="ID_777242759" MODIFIED="1619675166706" TEXT="&#xc18c;&#xac1c;">
 <node CREATED="1619675167132" ID="ID_531771982" LINK="https://ela.st/es-intro-kr" MODIFIED="1619675167132" TEXT="https://ela.st/es-intro-kr"/>
 <node CREATED="1619675174732" ID="ID_1790667624" LINK="https://www.youtube.com/watch?v=CU2hFK5ZMYA" MODIFIED="1619675174732" TEXT="https://www.youtube.com/watch?v=CU2hFK5ZMYA"/>
