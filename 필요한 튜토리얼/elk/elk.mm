@@ -11,7 +11,7 @@
 </node>
 <node CREATED="1623301491042" ID="ID_658150637" MODIFIED="1623301495047" TEXT="&#xc5d8;&#xb77c;&#xc2a4;&#xd2f1;&#xc11c;&#xce58; &#xac00;&#xc774;&#xb4dc; &#xbd81;">
 <node CREATED="1623301525348" ID="ID_450255586" LINK="https://esbook.kimjmin.net/" MODIFIED="1623301525348" TEXT="https://esbook.kimjmin.net/"/>
-<node CREATED="1623301532506" ID="ID_582270902" MODIFIED="1623301533839" TEXT="&#xd56d;&#xbaa9;">
+<node CREATED="1623301532506" FOLDED="true" ID="ID_582270902" MODIFIED="1623592958862" TEXT="&#xd56d;&#xbaa9;">
 <node CREATED="1623301534105" FOLDED="true" ID="ID_1413197604" MODIFIED="1623301624443" TEXT="1. &#xc11c;&#xbb38;">
 <node CREATED="1623301534105" ID="ID_1160737058" MODIFIED="1623301534105" TEXT="1.1 Elastic Stack &#xc18c;&#xac1c;">
 <node CREATED="1623301534106" ID="ID_261916146" MODIFIED="1623301534106" TEXT="1.1.1 Elasticsearch"/>
@@ -112,6 +112,9 @@
 <node CREATED="1623301534133" ID="ID_963463101" MODIFIED="1623301534133" TEXT="8.4 &#xd30c;&#xc774;&#xd504;&#xb77c;&#xc778; - Pipeline Aggregations"/>
 </node>
 </node>
+<node CREATED="1623592961501" ID="ID_109184535" MODIFIED="1623592963633" TEXT="&#xcffc;&#xb9ac;">
+<node CREATED="1623592960009" ID="ID_1244686930" LINK="https://www.youtube.com/watch?v=XHOTfs7upWk&amp;t=471s" MODIFIED="1623592960009" TEXT="https://www.youtube.com/watch?v=XHOTfs7upWk&amp;t=471s"/>
+</node>
 </node>
 <node CREATED="1622977605841" ID="ID_516837434" MODIFIED="1622977624908" TEXT="&#xc5ec;&#xae30;&#xc11c; &#xb9d0;&#xd574;&#xc900; &#xb370;&#xb85c; docker-compose&#xb97c; &#xc774;&#xc6a9;&#xd574;&#xc11c; &#xac00;&#xc0c1;&#xd658;&#xacbd;&#xc5d0;&#xc11c; &#xad6c;&#xd604;&#xd55c;&#xb2e4;&#xace0; &#xd560; &#xb54c;">
 <node CREATED="1622977625396" ID="ID_1359014457" LINK="https://www.elastic.co/guide/en/elasticsearch/reference/current/docker.html#_set_vm_max_map_count_to_at_least_262144" MODIFIED="1622977625396" TEXT="https://www.elastic.co/guide/en/elasticsearch/reference/current/docker.html#_set_vm_max_map_count_to_at_least_262144"/>
@@ -133,8 +136,7 @@
   <body>
     <img src="elk_4452996719879580786.jpeg" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>

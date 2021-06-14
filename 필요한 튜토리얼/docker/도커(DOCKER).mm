@@ -347,8 +347,8 @@
 <node CREATED="1582304440406" ID="ID_1523454592" LINK="https://lahuman.jabsiri.co.kr/164" MODIFIED="1582304440406" TEXT="&#xcd9c;&#xcc98;: https://lahuman.jabsiri.co.kr/164 [lahuman &amp; jabsiri &#xb178;&#xd2b8;]"/>
 </node>
 </node>
-<node COLOR="#3333ff" CREATED="1582302840804" FOLDED="true" ID="ID_752516603" MODIFIED="1620698268859" POSITION="right" STYLE="bubble" TEXT="&#xb3c4;&#xcee4; &#xb85c;&#xadf8; &#xbb38;&#xc81c; &#xd574;&#xacb0;[&#xc815;&#xb9ac;&#xd544;&#xc694;]">
-<font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
+<node COLOR="#3333ff" CREATED="1582302840804" FOLDED="true" ID="ID_752516603" MODIFIED="1623575591341" POSITION="right" STYLE="bubble" TEXT="&#xb3c4;&#xcee4; &#xb85c;&#xadf8; &#xbb38;&#xc81c; &#xd574;&#xacb0;[&#xc815;&#xb9ac;&#xd544;&#xc694;]">
+<font BOLD="true" ITALIC="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
 <node CREATED="1582304118863" ID="ID_1654920058" LINK="https://stackoverflow.com/questions/42510002/how-to-clear-the-logs-properly-for-a-docker-container" MODIFIED="1582304129366" TEXT="https://stackoverflow.com/questions/42510002/how-to-clear-the-logs-properly-for-a-docker-container"/>
 <node CREATED="1582304123881" ID="ID_1717021138" MODIFIED="1582304129366" TEXT="&#xc815;&#xb9ac;&#xd544;&#xc694;"/>
 </node>
