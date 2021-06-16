@@ -14,7 +14,7 @@
 </node>
 <node CREATED="1623301491042" ID="ID_658150637" MODIFIED="1623301495047" TEXT="&#xc5d8;&#xb77c;&#xc2a4;&#xd2f1;&#xc11c;&#xce58; &#xac00;&#xc774;&#xb4dc; &#xbd81;">
 <node CREATED="1623301525348" ID="ID_450255586" LINK="https://esbook.kimjmin.net/" MODIFIED="1623301525348" TEXT="https://esbook.kimjmin.net/"/>
-<node CREATED="1623301532506" FOLDED="true" ID="ID_582270902" MODIFIED="1623592958862" TEXT="&#xd56d;&#xbaa9;">
+<node CREATED="1623301532506" ID="ID_582270902" MODIFIED="1623833302961" TEXT="&#xd56d;&#xbaa9;">
 <node CREATED="1623301534105" FOLDED="true" ID="ID_1413197604" MODIFIED="1623301624443" TEXT="1. &#xc11c;&#xbb38;">
 <node CREATED="1623301534105" ID="ID_1160737058" MODIFIED="1623301534105" TEXT="1.1 Elastic Stack &#xc18c;&#xac1c;">
 <node CREATED="1623301534106" ID="ID_261916146" MODIFIED="1623301534106" TEXT="1.1.1 Elasticsearch"/>
@@ -23,7 +23,7 @@
 <node CREATED="1623301534107" ID="ID_1740307766" MODIFIED="1623301534107" TEXT="1.1.4 Beats"/>
 </node>
 </node>
-<node CREATED="1623301534107" FOLDED="true" ID="ID_54685979" MODIFIED="1623301628178" TEXT="2. Elasticsearch &#xc2dc;&#xc791;&#xd558;&#xae30;">
+<node CREATED="1623301534107" ID="ID_54685979" MODIFIED="1623833305492" TEXT="2. Elasticsearch &#xc2dc;&#xc791;&#xd558;&#xae30;">
 <node CREATED="1623301534108" ID="ID_1815974764" MODIFIED="1623301534108" TEXT="2.1 &#xb370;&#xc774;&#xd130; &#xc0c9;&#xc778;"/>
 <node CREATED="1623301534108" ID="ID_1689667521" MODIFIED="1623301534108" TEXT="2.2 &#xc124;&#xce58; &#xbc0f; &#xc2e4;&#xd589;">
 <node CREATED="1623301534108" ID="ID_236916204" MODIFIED="1623301534108" TEXT="2.2.1 &#xb2e4;&#xc6b4;&#xb85c;&#xb4dc; &#xc124;&#xce58; &#xbc0f; &#xc2e4;&#xd589;"/>
@@ -37,7 +37,7 @@
 <node CREATED="1623301534112" ID="ID_379157450" MODIFIED="1623301534112" TEXT="2.3.4 &#xcee4;&#xb9e8;&#xb4dc; &#xb77c;&#xc778; &#xc124;&#xc815;"/>
 </node>
 </node>
-<node CREATED="1623301534112" FOLDED="true" ID="ID_395486842" MODIFIED="1623301629114" TEXT="3. Elasticsearch &#xc2dc;&#xc2a4;&#xd15c; &#xad6c;&#xc870;">
+<node CREATED="1623301534112" ID="ID_395486842" MODIFIED="1623833304956" TEXT="3. Elasticsearch &#xc2dc;&#xc2a4;&#xd15c; &#xad6c;&#xc870;">
 <node CREATED="1623301534112" ID="ID_1700332157" MODIFIED="1623301534112" TEXT="3.1 &#xd074;&#xb7ec;&#xc2a4;&#xd130; &#xad6c;&#xc131;"/>
 <node CREATED="1623301534113" ID="ID_414299291" MODIFIED="1623301534113" TEXT="3.2 &#xc778;&#xb371;&#xc2a4;&#xc640; &#xc0e4;&#xb4dc; - Index &amp; Shards"/>
 <node CREATED="1623301534113" ID="ID_1325936665" MODIFIED="1623301534113" TEXT="3.3 &#xb9c8;&#xc2a4;&#xd130; &#xb178;&#xb4dc;&#xc640; &#xb370;&#xc774;&#xd130; &#xb178;&#xb4dc; - Master &amp; Data Nodes"/>
@@ -49,7 +49,7 @@
 <node CREATED="1623301534114" ID="ID_1678185678" MODIFIED="1623301632395" TEXT="4.3 &#xbc8c;&#xd06c; API - _bulk API"/>
 <node CREATED="1623301534115" ID="ID_1428372567" MODIFIED="1623301632395" TEXT="4.4 &#xac80;&#xc0c9; API - _search API"/>
 </node>
-<node COLOR="#3333ff" CREATED="1623301534115" FOLDED="true" ID="ID_464402550" MODIFIED="1623301632613" STYLE="bubble" TEXT="5. &#xac80;&#xc0c9;&#xacfc; &#xcffc;&#xb9ac; -  Query DSL">
+<node COLOR="#3333ff" CREATED="1623301534115" ID="ID_464402550" MODIFIED="1623833303993" STYLE="bubble" TEXT="5. &#xac80;&#xc0c9;&#xacfc; &#xcffc;&#xb9ac; -  Query DSL">
 <font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
 <node CREATED="1623301534115" ID="ID_678873558" MODIFIED="1623301534115" TEXT="5.1 &#xd480; &#xd14d;&#xc2a4;&#xd2b8; &#xcffc;&#xb9ac; - Full Text Query"/>
 <node CREATED="1623301534115" ID="ID_998035901" MODIFIED="1623301534115" TEXT="5.2 Bool &#xbcf5;&#xd569; &#xcffc;&#xb9ac; - Bool Query"/>
@@ -58,7 +58,7 @@
 <node CREATED="1623301534116" ID="ID_1688520184" MODIFIED="1623301534116" TEXT="5.5 &#xc815;&#xd655;&#xac12; &#xcffc;&#xb9ac; - Exact Value Query"/>
 <node CREATED="1623301534117" ID="ID_1538871003" MODIFIED="1623301534117" TEXT="5.6 &#xbc94;&#xc704; &#xcffc;&#xb9ac; - Range Query"/>
 </node>
-<node COLOR="#3333ff" CREATED="1623301534117" FOLDED="true" ID="ID_430070448" MODIFIED="1623301634130" STYLE="bubble" TEXT="6. &#xb370;&#xc774;&#xd130; &#xc0c9;&#xc778;&#xacfc; &#xd14d;&#xc2a4;&#xd2b8; &#xbd84;&#xc11d;">
+<node COLOR="#3333ff" CREATED="1623301534117" ID="ID_430070448" MODIFIED="1623833306987" STYLE="bubble" TEXT="6. &#xb370;&#xc774;&#xd130; &#xc0c9;&#xc778;&#xacfc; &#xd14d;&#xc2a4;&#xd2b8; &#xbd84;&#xc11d;">
 <font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
 <node CREATED="1623301534117" ID="ID_1073743640" MODIFIED="1623301534117" TEXT="6.1 &#xc5ed; &#xc778;&#xb371;&#xc2a4; - Inverted Index"/>
 <node CREATED="1623301534118" ID="ID_87500980" MODIFIED="1623301534118" TEXT="6.2 &#xd14d;&#xc2a4;&#xd2b8; &#xbd84;&#xc11d; - Text Analysis"/>
@@ -91,7 +91,7 @@
 <node CREATED="1623301534126" ID="ID_1649630342" MODIFIED="1623301534126" TEXT="6.7.2 &#xb178;&#xb9ac; (nori) &#xd55c;&#xae00; &#xd615;&#xd0dc;&#xc18c; &#xbd84;&#xc11d;&#xae30;"/>
 </node>
 </node>
-<node COLOR="#3333ff" CREATED="1623301534126" FOLDED="true" ID="ID_309360345" MODIFIED="1623301639787" STYLE="bubble" TEXT="7. &#xc778;&#xb371;&#xc2a4; &#xc124;&#xc815;&#xacfc; &#xb9e4;&#xd551; - Settings &amp; Mappings">
+<node COLOR="#3333ff" CREATED="1623301534126" ID="ID_309360345" MODIFIED="1623833307969" STYLE="bubble" TEXT="7. &#xc778;&#xb371;&#xc2a4; &#xc124;&#xc815;&#xacfc; &#xb9e4;&#xd551; - Settings &amp; Mappings">
 <font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
 <node CREATED="1623301534126" ID="ID_510738043" MODIFIED="1623301636394" TEXT="7.1 &#xc124;&#xc815; - Settings"/>
 <node COLOR="#3333ff" CREATED="1623301534127" FOLDED="true" ID="ID_1428715817" MODIFIED="1623301639426" STYLE="bubble" TEXT="7.2 &#xb9e4;&#xd551; - Mappings">
@@ -108,7 +108,7 @@
 </node>
 <node CREATED="1623301534131" ID="ID_1111899022" MODIFIED="1623301636394" TEXT="7.3 &#xba40;&#xd2f0; (&#xb2e4;&#xc911;) &#xd544;&#xb4dc; - Multi Field"/>
 </node>
-<node CREATED="1623301534132" FOLDED="true" ID="ID_1291934528" MODIFIED="1623301624444" TEXT="8. &#xc9d1;&#xacc4; - Aggregations">
+<node CREATED="1623301534132" ID="ID_1291934528" MODIFIED="1623833310092" TEXT="8. &#xc9d1;&#xacc4; - Aggregations">
 <node CREATED="1623301534132" ID="ID_1972676238" MODIFIED="1623301534132" TEXT="8.1 &#xba54;&#xd2b8;&#xb9ad; - Metrics Aggregations"/>
 <node CREATED="1623301534132" ID="ID_1286570991" MODIFIED="1623301534132" TEXT="8.2 &#xbc84;&#xd0b7; - Bucket Aggregations"/>
 <node CREATED="1623301534133" ID="ID_1549682057" MODIFIED="1623301534133" TEXT="8.3 &#xd558;&#xc704; - sub-aggregations"/>

@@ -2,7 +2,6 @@
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1564407011351" ID="ID_1828054490" MODIFIED="1622618770547" TEXT="&#xd544;&#xc694;&#xd55c; &#xc790;&#xbc14; &#xd29c;&#xd1a0;">
 <font NAME="SansSerif" SIZE="12"/>
-<hook NAME="accessories/plugins/CreationModificationPlugin_new.properties"/>
 <hook NAME="MapStyle">
 <properties EDGECOLORCONFIGURATION="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" FIT_TO_VIEWPORT="false"/>
 <map_styles>
@@ -68,6 +67,7 @@
 </stylenode>
 </map_styles>
 </hook>
+<hook NAME="accessories/plugins/CreationModificationPlugin_new.properties"/>
 <node COLOR="#3333ff" CREATED="1564407143832" FOLDED="true" ID="ID_54453441" MODIFIED="1623117426205" POSITION="right" STYLE="bubble" TEXT="No goals have been specified for this build. You must specify a valid lifecycle phase or a goal in the format &lt;plugin-prefix&gt;:&lt;goal&gt; or &lt;plugin-group-id&gt;:&lt;plugin-artifact-id&gt;[:&lt;plugin-version&gt;]:&lt;goal&gt;. &#xb2e4;&#xc74c;&#xacfc; &#xac19;&#xc740; &#xba54;&#xc774;&#xbe10; &#xc5d0;&#xb7ec;&#xc77c; &#xb54c;">
 <font BOLD="true" NAME="Dialog" SIZE="16"/>
 <node CREATED="1564407165766" ID="ID_825190785" MODIFIED="1564407165766" TEXT="&lt;build&gt;">
@@ -96,7 +96,7 @@
 <node CREATED="1564414966606" ID="ID_811643343" MODIFIED="1564414968465" TEXT="keytool -genkey -alias tomcat -storetype PKCS12 -keyalg RSA -keysize 2048 -keystore keystore.p12 -validity 3650"/>
 </node>
 <node CREATED="1564415243815" ID="ID_909544120" MODIFIED="1564415252755" POSITION="right" TEXT="&#xc708;&#xb3c4;&#xc6b0; &#xd658;&#xacbd;&#xc5d0;&#xc11c;&#xb294; cmd&#xb97c; &#xad00;&#xb9ac;&#xc790;&#xad8c;&#xd55c;&#xc73c;&#xb85c; &#xd574;&#xc57c;&#xd568;"/>
-<node CREATED="1564480786947" ID="ID_1743514445" MODIFIED="1623125667314" POSITION="right" TEXT="&#xd29c;&#xd1a0;&#xb9ac;&#xc5bc; &#xd3ec;&#xc778;&#xd2b8;&#xc5d0; &#xb3c5;&#xb9bd;&#xc801;&#xc73c;&#xb85c; &#xc0ac;&#xc6a9;&#xac04;&#xc73c;&#xd55c; &#xc11c;&#xbc84; &#xc885;&#xb958;&#xac00; &#xc788;&#xb2e4;.">
+<node CREATED="1564480786947" FOLDED="true" ID="ID_1743514445" MODIFIED="1623835088751" POSITION="right" TEXT="&#xd29c;&#xd1a0;&#xb9ac;&#xc5bc; &#xd3ec;&#xc778;&#xd2b8;&#xc5d0; &#xb3c5;&#xb9bd;&#xc801;&#xc73c;&#xb85c; &#xc0ac;&#xc6a9;&#xac04;&#xc73c;&#xd55c; &#xc11c;&#xbc84; &#xc885;&#xb958;&#xac00; &#xc788;&#xb2e4;.">
 <node CREATED="1564480867438" ID="ID_184338903" MODIFIED="1564480882265" TEXT="&#xd574;&#xb2f9;&#xd558;&#xb294; &#xb3c5;&#xb9bd;&#xc801;&#xc778; &#xc11c;&#xbc84;&#xb294; &#xb2e4;&#xc74c;&#xc5d0; &#xc788;&#xb2e4;.">
 <node CREATED="1564480910830" ID="ID_801792153" LINK="https://start.spring.io/" MODIFIED="1564480910830" TEXT="https://start.spring.io/"/>
 </node>
@@ -5079,69 +5079,76 @@
 <node CREATED="1623071077760" FOLDED="true" ID="ID_425418434" MODIFIED="1623117426218" POSITION="right" TEXT="&#xc2a4;&#xd504;&#xb9c1;&#xd074;&#xb77c;&#xc6b0;&#xb4dc; &#xac8c;&#xc774;&#xd2b8; &#xc6e8;&#xc774;">
 <node CREATED="1623071100560" ID="ID_584179823" LINK="https://www.baeldung.com/spring-cloud-gateway" MODIFIED="1623071100560" TEXT="https://www.baeldung.com/spring-cloud-gateway"/>
 </node>
-<node CREATED="1613370929160" ID="ID_759038728" MODIFIED="1623121761891" POSITION="left" TEXT="&#xb85c;&#xceec; &#xb370;&#xc774;&#xd2b8; &#xd0c0;&#xc784; post&#xb85c; &#xb358;&#xc838; &#xc138;&#xc774;&#xbe0c; &#xd560; &#xc2dc;&#xc5d0;">
+<node CREATED="1613370929160" FOLDED="true" ID="ID_759038728" MODIFIED="1623838590883" POSITION="left" TEXT="&#xb85c;&#xceec; &#xb370;&#xc774;&#xd2b8; &#xd0c0;&#xc784; post&#xb85c; &#xb358;&#xc838; &#xc138;&#xc774;&#xbe0c; &#xd560; &#xc2dc;&#xc5d0;">
 <node CREATED="1613370941359" ID="ID_1960003342" LINK="https://lejewk.github.io/jpa-localdatetime-jsonformat/" MODIFIED="1613370941359" TEXT="https://lejewk.github.io/jpa-localdatetime-jsonformat/"/>
 </node>
-<node CREATED="1620116178319" FOLDED="true" ID="ID_1412774746" MODIFIED="1623117426218" POSITION="left" TEXT="logback.xml &#xb9cc;&#xc9c0;&#xb294;&#xbc95;">
+<node CREATED="1620116178319" FOLDED="true" ID="ID_1412774746" MODIFIED="1623838590400" POSITION="left" TEXT="logback.xml &#xb9cc;&#xc9c0;&#xb294;&#xbc95;">
 <node CREATED="1620116188824" ID="ID_1642479479" LINK="https://github.com/logstash/logstash-logback-encoder" MODIFIED="1620116188824" TEXT="https://github.com/logstash/logstash-logback-encoder"/>
 </node>
 <node COLOR="#3333ff" CREATED="1620639257050" FOLDED="true" ID="ID_825833406" MODIFIED="1623117426218" POSITION="left" STYLE="bubble" TEXT="maven &#xba54;&#xc774;&#xbe10; goals &#xc720;&#xd615;">
 <font BOLD="true" NAME="Dialog" SIZE="16"/>
 <node CREATED="1620639270345" ID="ID_1573768780" LINK="https://wikidocs.net/18341" MODIFIED="1620639361485" TEXT="https://wikidocs.net/18341"/>
 </node>
-<node CREATED="1622618774676" ID="ID_483332880" MODIFIED="1623121764425" POSITION="left" STYLE="fork" TEXT="&#xc778;&#xd154;&#xb9ac;&#xc81c;&#xc774;">
+<node CREATED="1622618774676" ID="ID_483332880" MODIFIED="1623838595201" POSITION="left" STYLE="fork" TEXT="&#xc778;&#xd154;&#xb9ac;&#xc81c;&#xc774;">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1622618783306" ID="ID_999273512" MODIFIED="1622618791608" TEXT="java version &#xbcc0;&#xacbd;"/>
-<node CREATED="1622642678330" ID="ID_657532712" MODIFIED="1622642684597" TEXT="java.util.concurrent.CompletionException: java.net.BindException: Address already in use: bind &#xc624;&#xb958;">
+<node CREATED="1622642678330" FOLDED="true" ID="ID_657532712" MODIFIED="1623835073183" TEXT="java.util.concurrent.CompletionException: java.net.BindException: Address already in use: bind &#xc624;&#xb958;">
 <node CREATED="1622642757298" LINK="https://blog.gthd.app/2020/12/02/intellij-idea-address-already-in-use-how-to-deal-with/" MODIFIED="1622642757298" TEXT="https://blog.gthd.app/2020/12/02/intellij-idea-address-already-in-use-how-to-deal-with/"/>
 </node>
-<node CREATED="1622644531716" ID="ID_1056789630" MODIFIED="1622644535298" TEXT="junit &#xc138;&#xd305;">
+<node CREATED="1622644531716" ID="ID_1056789630" MODIFIED="1623838596424" TEXT="junit &#xc138;&#xd305;">
 <node CREATED="1622644536031" LINK="https://jojoldu.tistory.com/450" MODIFIED="1622644536031" TEXT="https://jojoldu.tistory.com/450"/>
 </node>
-<node CREATED="1622646675864" ID="ID_1284860205" MODIFIED="1622646679634" TEXT="&#xb2e8;&#xcd95;&#xd0a4;">
+<node CREATED="1622646675864" ID="ID_1284860205" MODIFIED="1623838596870" TEXT="&#xb2e8;&#xcd95;&#xd0a4;">
 <node CREATED="1622646681339" ID="ID_1500572248" MODIFIED="1622646682385" TEXT="&#xc708;&#xb3c4;&#xc6b0;">
-<node CREATED="1622646699519" FOLDED="true" ID="ID_951922569" MODIFIED="1623058304082" TEXT="&#xd30c;&#xc77c;&#xac80;&#xc0c9;">
+<node CREATED="1622646699519" FOLDED="true" ID="ID_951922569" MODIFIED="1623838874613" TEXT="&#xd30c;&#xc77c;&#xac80;&#xc0c9;">
 <node CREATED="1622646714039" ID="ID_1351271320" MODIFIED="1622646716471" TEXT="&#xc26c;&#xd504;&#xd2b8; &#xb450;&#xbc88;"/>
 </node>
-<node CREATED="1622646717770" ID="ID_1647917070" MODIFIED="1623584594934" TEXT="&#xcf54;&#xb4dc; &#xac80;&#xc0c9;">
+<node CREATED="1622646717770" FOLDED="true" ID="ID_1647917070" MODIFIED="1623838874614" TEXT="&#xcf54;&#xb4dc; &#xac80;&#xc0c9;">
 <node CREATED="1622646720497" ID="ID_139087584" MODIFIED="1622646726630" TEXT="ctrl +shift + F"/>
 </node>
-<node CREATED="1622646727516" ID="ID_878161622" MODIFIED="1623058309730" TEXT="&#xd074;&#xb798;&#xc2a4; &#xacc4;&#xce35;">
+<node CREATED="1622646727516" FOLDED="true" ID="ID_878161622" MODIFIED="1623838874614" TEXT="&#xd074;&#xb798;&#xc2a4; &#xacc4;&#xce35;">
 <node CREATED="1622646824695" ID="ID_304109678" MODIFIED="1622646829579" TEXT="CTRL + H"/>
 </node>
-<node CREATED="1622646838137" ID="ID_1556272832" MODIFIED="1623610043498" TEXT="&#xcd5c;&#xadfc; &#xd30c;&#xc77c;">
+<node CREATED="1622646838137" FOLDED="true" ID="ID_1556272832" MODIFIED="1623838874614" TEXT="&#xcd5c;&#xadfc; &#xd30c;&#xc77c;">
 <node CREATED="1622646843345" ID="ID_1937037107" MODIFIED="1622646846198" TEXT="ctrl + E"/>
 </node>
-<node CREATED="1622653955054" ID="ID_1805406273" MODIFIED="1623064803510" TEXT="rename">
+<node CREATED="1622653955054" FOLDED="true" ID="ID_1805406273" MODIFIED="1623838874614" TEXT="rename">
 <node CREATED="1622653958504" ID="ID_69115666" MODIFIED="1622653962891" TEXT="shift + F6"/>
 </node>
-<node CREATED="1622688184955" ID="ID_1208549034" MODIFIED="1623610044823" TEXT="line &#xc0ad;&#xc81c;">
+<node CREATED="1622688184955" FOLDED="true" ID="ID_1208549034" MODIFIED="1623838874614" TEXT="line &#xc0ad;&#xc81c;">
 <node CREATED="1622688188114" ID="ID_214514386" MODIFIED="1622688193592" TEXT="ctrl + y"/>
 </node>
-<node CREATED="1622688376235" ID="ID_948203658" MODIFIED="1623610045253" TEXT="&#xac1d;&#xccb4;&#xc0dd;&#xc131;">
+<node CREATED="1622688376235" FOLDED="true" ID="ID_948203658" MODIFIED="1623838874614" TEXT="&#xac1d;&#xccb4;&#xc0dd;&#xc131;">
 <node CREATED="1622688384795" ID="ID_282403278" MODIFIED="1622688401605" TEXT="alt + insert"/>
+<node CREATED="1623834985160" ID="ID_988690720" MODIFIED="1623835000014" TEXT="&#xd074;&#xb798;&#xc2a4; &#xc774;&#xb984;&#xc5d0;&#xb2e4;&#xac00; &#xb418;&#xace0; &#xd560; &#xacbd;&#xc6b0; &#xcee8;&#xc2a4;&#xd2b8;&#xb7ed;&#xd130; &#xb9cc;&#xb4e4; &#xc218; &#xc788;&#xc74c;"/>
 </node>
-<node CREATED="1622690617875" ID="ID_1973617986" MODIFIED="1623318197139" TEXT="&#xbb38;&#xc81c;&#xd574;&#xacb0;">
+<node CREATED="1622690617875" FOLDED="true" ID="ID_1973617986" MODIFIED="1623838874614" TEXT="&#xbb38;&#xc81c;&#xd574;&#xacb0;">
 <node CREATED="1622690620342" ID="ID_1943559502" MODIFIED="1622690624737" TEXT="alt + enter"/>
 </node>
-<node CREATED="1622690735262" ID="ID_963299601" MODIFIED="1623318032582" TEXT="&#xc790;&#xb3d9; &#xc784;&#xd3ec;&#xd2b8;">
+<node CREATED="1622690735262" FOLDED="true" ID="ID_963299601" MODIFIED="1623838874615" TEXT="&#xc790;&#xb3d9; &#xc784;&#xd3ec;&#xd2b8;">
 <node CREATED="1622690738899" ID="ID_723172410" MODIFIED="1622690738899" TEXT="CTRL + ALT + O &quot;Optimize Imports&quot;"/>
 <node CREATED="1622690811922" ID="ID_768300785" MODIFIED="1622690888613" TEXT="&#xd574;&#xb2f9; &#xbd80;&#xbd84;&#xc740; &#xc778;&#xd154;&#xb9ac;&#xc81c;&#xc774; &#xc635;&#xc158;&#xc5d0;&#xc11c; &#xc124;&#xc815;&#xc774; &#xd544;&#xc694;&#xd558;&#xb2e4;">
 <node CREATED="1622690889286" ID="ID_790710348" LINK="https://hjjungdev.tistory.com/102" MODIFIED="1622690889286" TEXT="https://hjjungdev.tistory.com/102"/>
 </node>
 </node>
-<node CREATED="1622921923371" ID="ID_418893646" MODIFIED="1623610046303" TEXT="&#xc790;&#xb3d9;&#xc815;&#xb82c;">
+<node CREATED="1622921923371" FOLDED="true" ID="ID_418893646" MODIFIED="1623838874615" TEXT="&#xc790;&#xb3d9;&#xc815;&#xb82c;">
 <node CREATED="1622921926374" MODIFIED="1622921926374" TEXT="Ctrl + Alt + L"/>
 </node>
-<node CREATED="1623576484307" ID="ID_83053586" MODIFIED="1623576487095" TEXT="&#xb418;&#xb3cc;&#xb9ac;&#xae30; &#xcde8;&#xc18c;">
+<node CREATED="1623576484307" FOLDED="true" ID="ID_83053586" MODIFIED="1623838874615" TEXT="&#xb418;&#xb3cc;&#xb9ac;&#xae30; &#xcde8;&#xc18c;">
 <node CREATED="1623576487787" ID="ID_1379567106" MODIFIED="1623576494510" TEXT="ctrl + shift + z"/>
 </node>
-<node CREATED="1623610047286" ID="ID_1966979292" MODIFIED="1623610052956" TEXT="&#xc2a4;&#xd2b8;&#xb7ed;&#xccd0;&#xbcf4;&#xae30;(outline)">
+<node CREATED="1623610047286" FOLDED="true" ID="ID_1966979292" MODIFIED="1623838874615" TEXT="&#xc2a4;&#xd2b8;&#xb7ed;&#xccd0;&#xbcf4;&#xae30;(outline)">
 <node CREATED="1623610053797" ID="ID_1419688643" MODIFIED="1623610057643" TEXT="alt + 7"/>
 </node>
-<node CREATED="1623611097819" ID="ID_1507763401" MODIFIED="1623611101915" TEXT="&#xb9ac;&#xd50c;&#xb808;&#xc774;&#xc2a4;">
+<node CREATED="1623611097819" FOLDED="true" ID="ID_1507763401" MODIFIED="1623838874615" TEXT="&#xb9ac;&#xd50c;&#xb808;&#xc774;&#xc2a4;">
 <node CREATED="1623611102739" ID="ID_538831913" MODIFIED="1623611107190" TEXT="ctrl + r"/>
 <node CREATED="1623611107739" ID="ID_1038833226" MODIFIED="1623611120010" TEXT="&#xc5ec;&#xae30;&#xc11c; &#xc140;&#xb809;&#xd2b8; &#xd558;&#xace0; &#xadf8; &#xc548;&#xc5d0;&#xc11c; replace &#xac00;&#xb2a5;"/>
+</node>
+<node CREATED="1623838607848" FOLDED="true" ID="ID_214770709" MODIFIED="1623838874615" TEXT="&#xd604;&#xc7ac; &#xd074;&#xb798;&#xc2a4; &#xbaa8;&#xb4e0; &#xba54;&#xc18c;&#xb4dc;">
+<node CREATED="1623838617441" ID="ID_1542993951" MODIFIED="1623838621104" TEXT="ctrl + f12"/>
+</node>
+<node CREATED="1623838856020" FOLDED="true" ID="ID_1483971509" MODIFIED="1623838874615" TEXT="&#xd574;&#xb2f9; &#xba54;&#xc18c;&#xb4dc; &#xc0ac;&#xc6a9;&#xd558;&#xb294; &#xacf3; &#xcc3e;&#xae30;">
+<node CREATED="1623838864861" ID="ID_762029567" MODIFIED="1623838872755" TEXT="ctrl + alt + F7"/>
 </node>
 </node>
 <node CREATED="1622646683602" FOLDED="true" ID="ID_1788731151" MODIFIED="1623316869909" TEXT="&#xb9e5;">
