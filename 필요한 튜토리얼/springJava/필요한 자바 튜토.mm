@@ -3522,7 +3522,7 @@
 <node CREATED="1570395949140" ID="ID_124777700" MODIFIED="1570396828216" TEXT="&#xc870;&#xc778;&#xc744; &#xba85;&#xc2dc;&#xc801;&#xc73c;&#xb85c; &#xd558;&#xc5ec; &#xbd88;&#xb7ec;&#xc628;&#xb2e4;&#xb294; &#xac83;&#xc774;&#xb2e4;."/>
 </node>
 </node>
-<node CREATED="1572313369339" ID="ID_1561153760" MODIFIED="1624094060832" TEXT="fetch inner join (&#xcf54;&#xb4dc;)">
+<node CREATED="1572313369339" FOLDED="true" ID="ID_1561153760" MODIFIED="1624101465211" TEXT="fetch inner join (&#xcf54;&#xb4dc;)">
 <node CREATED="1572313382716" ID="ID_987460043" MODIFIED="1572313382716" TEXT="SELECT a FROM Artist a JOIN FETCH a.create c"/>
 <node CREATED="1572313390089" ID="ID_905347401" MODIFIED="1572313405110" TEXT="&#xc5ec;&#xae30;&#xc11c; &#xadf8;&#xb0e5; JOIN &#xd558;&#xba74; &#xac12;&#xc744; &#xc548;&#xac00;&#xc838;&#xc634;"/>
 </node>
@@ -4179,10 +4179,10 @@
 <node CREATED="1623881153097" FOLDED="true" ID="ID_406208741" MODIFIED="1623905402691" TEXT="&#xba40;&#xd2f0;&#xbc31;&#xc775;&#xc149;&#xc158; &#xc9c0;&#xc874;">
 <node CREATED="1623881157788" ID="ID_33969001" LINK="https://jojoldu.tistory.com/457" MODIFIED="1623881157788" TEXT="https://jojoldu.tistory.com/457"/>
 </node>
-<node CREATED="1623952887083" ID="ID_1667024133" MODIFIED="1623952924222" TEXT="&#xae30;&#xbcf8;&#xd0a4;&#xac00; null&#xc774;&#xb77c;&#xc11c; &#xb370;&#xc774;&#xd130; &#xc548;&#xb4e4;&#xc5b4;&#xac04;&#xb2e4;&#xace0; &#xb4e4;&#xc5c8;&#xc744; &#xb54c; identity &#xc640; sequence">
+<node CREATED="1623952887083" FOLDED="true" ID="ID_1667024133" MODIFIED="1624101465211" TEXT="&#xae30;&#xbcf8;&#xd0a4;&#xac00; null&#xc774;&#xb77c;&#xc11c; &#xb370;&#xc774;&#xd130; &#xc548;&#xb4e4;&#xc5b4;&#xac04;&#xb2e4;&#xace0; &#xb4e4;&#xc5c8;&#xc744; &#xb54c; identity &#xc640; sequence">
 <node CREATED="1623952902115" ID="ID_1186305316" LINK="https://stackoverflow.com/questions/29027693/hibernate-joincolumn-error-on-not-null-constraint/29028369#29028369" MODIFIED="1623952902115" TEXT="https://stackoverflow.com/questions/29027693/hibernate-joincolumn-error-on-not-null-constraint/29028369#29028369"/>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#ff3333" CREATED="1624094039733" ID="ID_542623515" MODIFIED="1624094052180" STYLE="bubble" TEXT="join fetch count &#xcffc;&#xb9ac; &#xb0a0;&#xb9b4;&#xb54c;&#xb294; &#xbd88;&#xac00;&#xb2a5; &#xd558;&#xb2e4;.">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#ff3333" CREATED="1624094039733" FOLDED="true" ID="ID_542623515" MODIFIED="1624101465211" STYLE="bubble" TEXT="join fetch count &#xcffc;&#xb9ac; &#xb0a0;&#xb9b4;&#xb54c;&#xb294; &#xbd88;&#xac00;&#xb2a5; &#xd558;&#xb2e4;.">
 <font BOLD="true" NAME="Dialog" SIZE="24"/>
 <node CREATED="1624094051665" LINK="https://traeper.tistory.com/205" MODIFIED="1624094052168" TEXT="https://traeper.tistory.com/205"/>
 </node>
@@ -5110,7 +5110,7 @@
 <font BOLD="true" NAME="Dialog" SIZE="16"/>
 <node CREATED="1620639270345" ID="ID_1573768780" LINK="https://wikidocs.net/18341" MODIFIED="1620639361485" TEXT="https://wikidocs.net/18341"/>
 </node>
-<node CREATED="1622618774676" FOLDED="true" ID="ID_483332880" MODIFIED="1624094029325" POSITION="left" STYLE="fork" TEXT="&#xc778;&#xd154;&#xb9ac;&#xc81c;&#xc774;">
+<node CREATED="1622618774676" ID="ID_483332880" MODIFIED="1624101526494" POSITION="left" STYLE="fork" TEXT="&#xc778;&#xd154;&#xb9ac;&#xc81c;&#xc774;">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1622618783306" ID="ID_999273512" MODIFIED="1622618791608" TEXT="java version &#xbcc0;&#xacbd;"/>
 <node CREATED="1622642678330" FOLDED="true" ID="ID_657532712" MODIFIED="1623835073183" TEXT="java.util.concurrent.CompletionException: java.net.BindException: Address already in use: bind &#xc624;&#xb958;">
@@ -5170,6 +5170,9 @@
 </node>
 <node CREATED="1623838856020" ID="ID_1483971509" MODIFIED="1624011370117" TEXT="&#xd574;&#xb2f9; &#xba54;&#xc18c;&#xb4dc; &#xc0ac;&#xc6a9;&#xd558;&#xb294; &#xacf3; &#xcc3e;&#xae30;">
 <node CREATED="1623838864861" ID="ID_762029567" MODIFIED="1623838872755" TEXT="ctrl + alt + F7"/>
+</node>
+<node CREATED="1624101530839" ID="ID_733373553" MODIFIED="1624101534244" TEXT="&#xc778;&#xd130;&#xd398;&#xc774;&#xc2a4; &#xad6c;&#xd604;">
+<node CREATED="1624101534978" ID="ID_692356472" MODIFIED="1624101538143" TEXT="ctrl + i"/>
 </node>
 </node>
 <node CREATED="1622646683602" ID="ID_1788731151" MODIFIED="1624089829153" TEXT="&#xb9e5;">
