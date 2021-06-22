@@ -5111,7 +5111,7 @@
 <font BOLD="true" NAME="Dialog" SIZE="16"/>
 <node CREATED="1620639270345" ID="ID_1573768780" LINK="https://wikidocs.net/18341" MODIFIED="1620639361485" TEXT="https://wikidocs.net/18341"/>
 </node>
-<node CREATED="1622618774676" FOLDED="true" ID="ID_483332880" MODIFIED="1624359603240" POSITION="left" STYLE="fork" TEXT="&#xc778;&#xd154;&#xb9ac;&#xc81c;&#xc774;">
+<node CREATED="1622618774676" ID="ID_483332880" MODIFIED="1624377993103" POSITION="left" STYLE="fork" TEXT="&#xc778;&#xd154;&#xb9ac;&#xc81c;&#xc774;">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1622618783306" ID="ID_999273512" MODIFIED="1622618791608" TEXT="java version &#xbcc0;&#xacbd;"/>
 <node CREATED="1622642678330" FOLDED="true" ID="ID_657532712" MODIFIED="1623835073183" TEXT="java.util.concurrent.CompletionException: java.net.BindException: Address already in use: bind &#xc624;&#xb958;">
@@ -5121,7 +5121,7 @@
 <node CREATED="1622644536031" ID="ID_1845195941" LINK="https://jojoldu.tistory.com/450" MODIFIED="1622644536031" TEXT="https://jojoldu.tistory.com/450"/>
 </node>
 <node CREATED="1622646675864" ID="ID_1284860205" MODIFIED="1623838596870" TEXT="&#xb2e8;&#xcd95;&#xd0a4;">
-<node CREATED="1622646681339" ID="ID_1500572248" MODIFIED="1624351196780" TEXT="&#xc708;&#xb3c4;&#xc6b0;">
+<node CREATED="1622646681339" ID="ID_1500572248" MODIFIED="1624400498579" TEXT="&#xc708;&#xb3c4;&#xc6b0;">
 <node CREATED="1622646699519" ID="ID_951922569" MODIFIED="1624343871320" TEXT="&#xd30c;&#xc77c;&#xac80;&#xc0c9;">
 <node CREATED="1622646714039" ID="ID_1351271320" MODIFIED="1622646716471" TEXT="&#xc26c;&#xd504;&#xd2b8; &#xb450;&#xbc88;"/>
 </node>
@@ -5181,19 +5181,30 @@
 <node CREATED="1624359373007" ID="ID_51426079" MODIFIED="1624359387456" TEXT="&#xc810;&#xd504; to &#xad6c;&#xd604;&#xb41c; &#xba54;&#xc18c;&#xb4dc;">
 <node CREATED="1624359388429" ID="ID_1885403929" MODIFIED="1624359391986" TEXT="ctrl + alt + B"/>
 </node>
+<node CREATED="1624400500673" ID="ID_921981823" MODIFIED="1624400503175" TEXT="&#xd2b8;&#xb77c;&#xc774; &#xce90;&#xce58;">
+<node CREATED="1624400503787" ID="ID_1529659427" MODIFIED="1624400508118" TEXT="ctrl + alt + t"/>
 </node>
-<node CREATED="1622646683602" ID="ID_1788731151" MODIFIED="1624351204015" TEXT="&#xb9e5;">
+</node>
+<node CREATED="1622646683602" FOLDED="true" ID="ID_1788731151" MODIFIED="1624377998636" TEXT="&#xb9e5;">
 <node CREATED="1623063659799" ID="ID_454399647" MODIFIED="1623063666974" TEXT="&#xc0dd;&#xc131;&#xc790; &#xc790;&#xb3d9; &#xb9cc;&#xb4e4;&#xae30;">
 <node CREATED="1623063675359" ID="ID_1433495820" MODIFIED="1623063680922" TEXT="alt  + insert"/>
 </node>
 </node>
-<node CREATED="1623316874444" ID="ID_67257819" MODIFIED="1624351202541" TEXT="psvm">
+<node CREATED="1623316874444" FOLDED="true" ID="ID_67257819" MODIFIED="1624377998636" TEXT="psvm">
 <node CREATED="1623316880731" ID="ID_1976225524" MODIFIED="1623316890799" TEXT="&#xd558;&#xace0; tab&#xc744; &#xb204;&#xb974;&#xba74; void main &#xb9cc;&#xb4e4;&#xc5b4;&#xc9d0;"/>
 </node>
 </node>
 </node>
 <node CREATED="1622655195034" FOLDED="true" ID="ID_681287401" MODIFIED="1623117426219" POSITION="left" TEXT="&#xb85c;&#xadf8;4j2 jdbc driver">
 <node CREATED="1622655347564" ID="ID_1550855467" LINK="https://mvnrepository.com/artifact/org.bgee.log4jdbc-log4j2/log4jdbc-log4j2-jdbc4.1" MODIFIED="1622655347564" TEXT="https://mvnrepository.com/artifact/org.bgee.log4jdbc-log4j2/log4jdbc-log4j2-jdbc4.1"/>
+</node>
+<node CREATED="1624378008636" ID="ID_289634357" MODIFIED="1624378010360" POSITION="left" TEXT="builder">
+<node CREATED="1624378011275" ID="ID_470880909" MODIFIED="1624378019432" TEXT="error: builder() in KeywordsMatchingDto cannot hide builder"/>
+<node CREATED="1624378035788" ID="ID_1805187252" MODIFIED="1624378046600" TEXT="&#xb9cc;&#xc57d; &#xc0c1;&#xc18d;&#xc774; &#xc788;&#xb2e4;&#xba74;">
+<node CREATED="1624378150927" ID="ID_462646090" MODIFIED="1624378150927" TEXT="@NoArgsConstructor(access = AccessLevel.PROTECTED)"/>
+<node CREATED="1624378153508" ID="ID_527650743" MODIFIED="1624378156336" TEXT="&#xc774;&#xac83;&#xc744; &#xc0ac;&#xc6a9;&#xd574;&#xc900;&#xb2e4;."/>
+<node CREATED="1624378244884" ID="ID_588779068" MODIFIED="1624378254391" TEXT="&#xadf8;&#xb9ac;&#xace0; builder&#xb294; &#xd574;&#xb2f9; &#xc0dd;&#xc131;&#xc790;&#xc5d0;&#xc11c; &#xc0ac;&#xc6a9;&#xd574;&#xc8fc;&#xc9c0; &#xc54a;&#xb294;&#xb2e4;."/>
+</node>
 </node>
 </node>
 </map>
