@@ -19,5 +19,18 @@
 </node>
 <node CREATED="1622949906124" ID="ID_1158481752" MODIFIED="1622949916450" TEXT="&#xc740;&#xd589; &#xd504;&#xb85c;&#xadf8;&#xb7a8; &#xc9c0;&#xc6cc;&#xbd24;&#xb294;&#xb370; &#xb41c;&#xac70;&#xac19;&#xb2e4;. &#xadfc;&#xb370; &#xc544;&#xb2cc;&#xac83;&#xb3c4; &#xac19;&#xace0;"/>
 </node>
+<node CREATED="1625651186475" ID="ID_906537341" MODIFIED="1625651198139" POSITION="right" TEXT="wsl &#xb0b4;&#xbd80;&#xc5d0;&#xc11c; &#xc778;&#xd130;&#xb137; &#xc811;&#xc18d;&#xc774; &#xc548;&#xb420; &#xb54c;">
+<node CREATED="1625651207165" ID="ID_1348650460" LINK="https://www.google.com/search?q=wsl+internet+not+working&amp;hl=ko&amp;sxsrf=ALeKk01KssramlgLbqnAacX4Z5AMiMeG6Q%3A1625650849883&amp;ei=oXblYJG4NYWIr7wPxMaKoAE&amp;oq=wsl+internet+&amp;gs_lcp=Cgdnd3Mtd2l6EAMYADICCAAyAggAMgIIADICCAAyAggAMgQIABAeMgQIABAeMgQIABAeMgQIABAeMgQIABAeOgcIIxCwAxAnOgQIIxAnOggIABCxAxCDAToFCAAQsQM6DQgAEIcCELEDEIMBEBQ6BwgAEIcCEBQ6CggAEA0QChAeECo6BggAEA0QHjoICAAQDRAKEB46BwgjEOoCECc6BAgAEEM6CggAELEDEIMBEENKBAhBGAFQ-GNY2Y4BYJGWAWgJcAB4AYABvwGIAYUTkgEEMC4xOZgBAKABAaoBB2d3cy13aXqwAQrIAQHAAQE&amp;sclient=gws-wiz" MODIFIED="1625651207165" TEXT="https://www.google.com/search?q=wsl+internet+not+working&amp;hl=ko&amp;sxsrf=ALeKk01KssramlgLbqnAacX4Z5AMiMeG6Q%3A1625650849883&amp;ei=oXblYJG4NYWIr7wPxMaKoAE&amp;oq=wsl+internet+&amp;gs_lcp=Cgdnd3Mtd2l6EAMYADICCAAyAggAMgIIADICCAAyAggAMgQIABAeMgQIABAeMgQIABAeMgQIABAeMgQIABAeOgcIIxCwAxAnOgQIIxAnOggIABCxAxCDAToFCAAQsQM6DQgAEIcCELEDEIMBEBQ6BwgAEIcCEBQ6CggAEA0QChAeECo6BggAEA0QHjoICAAQDRAKEB46BwgjEOoCECc6BAgAEEM6CggAELEDEIMBEENKBAhBGAFQ-GNY2Y4BYJGWAWgJcAB4AYABvwGIAYUTkgEEMC4xOZgBAKABAaoBB2d3cy13aXqwAQrIAQHAAQE&amp;sclient=gws-wiz"/>
+<node CREATED="1625651216878" ID="ID_1758683945" LINK="https://stackoverflow.com/questions/62314789/no-internet-connection-on-wsl-ubuntu-windows-subsystem-for-linux" MODIFIED="1625651216878" TEXT="https://stackoverflow.com/questions/62314789/no-internet-connection-on-wsl-ubuntu-windows-subsystem-for-linux"/>
+</node>
+<node CREATED="1625657992146" ID="ID_585052663" MODIFIED="1625657996237" POSITION="right" TEXT="&#xc708;&#xb3c4;&#xc6b0; &#xc811;&#xadfc;">
+<node CREATED="1625657997034" ID="ID_771895300" MODIFIED="1625657998186" TEXT="mnt"/>
+</node>
+<node CREATED="1625668108226" ID="ID_1234802793" MODIFIED="1625668120192" POSITION="right" TEXT="&#xd558;&#xc774;&#xd37c;&#xad00;&#xb9ac;&#xc790;">
+<node CREATED="1625668105982" ID="ID_629038562" LINK="http://shaun289.blogspot.com/2020/06/wsl2-ubuntu-2004.html" MODIFIED="1625668114837" TEXT="shaun289.blogspot.com &gt; 2020 &gt; 06 &gt; Wsl2-ubuntu-2004"/>
+</node>
+<node CREATED="1625679991330" ID="ID_295282448" MODIFIED="1625679991330" POSITION="right" TEXT="Temporary failure in name resolution">
+<node CREATED="1625679999392" LINK="https://blog.naver.com/neem693/222424003910" MODIFIED="1625679999392" TEXT="https://blog.naver.com/neem693/222424003910"/>
+</node>
 </node>
 </map>

@@ -66,7 +66,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<node CREATED="1574057446666" ID="ID_776495852" MODIFIED="1621917974776" POSITION="right" TEXT="&#xbc84;&#xcd94;&#xc5b4; &#xbc15;&#xc2a4; &#xc124;&#xce58;">
+<node CREATED="1574057446666" FOLDED="true" ID="ID_776495852" MODIFIED="1625638579668" POSITION="right" TEXT="&#xbc84;&#xcd94;&#xc5b4; &#xbc15;&#xc2a4; &#xc124;&#xce58;">
 <node CREATED="1574062840958" ID="ID_585410409" MODIFIED="1621917969403" TEXT="&#xcc38;&#xc870;">
 <node CREATED="1574062850698" ID="ID_1214102242" LINK="https://websiteforstudents.com/install-opencart-on-ubuntu-16-04-lts-with-apache2-mariadb-and-php-7-1-support/" MODIFIED="1574062850698" TEXT="https://websiteforstudents.com/install-opencart-on-ubuntu-16-04-lts-with-apache2-mariadb-and-php-7-1-support/"/>
 <node COLOR="#3333ff" CREATED="1574062866105" ID="ID_1901246191" LINK="https://hostadvice.com/how-to/how-to-install-opencart-on-ubuntu-18-04-with-apache-mariadb-and-php-7/" MODIFIED="1574062867125" STYLE="bubble" TEXT="https://hostadvice.com/how-to/how-to-install-opencart-on-ubuntu-18-04-with-apache-mariadb-and-php-7/">
@@ -85,10 +85,10 @@
 </node>
 <node CREATED="1621918155909" ID="ID_1588529395" MODIFIED="1621918190047" TEXT="&#xbc84;&#xcd94;&#xc5b4;&#xbc15;&#xc2a4;&#xb85c; &#xc2dc;&#xc791;&#xd558;&#xb294; &#xacbd;&#xc6b0; &#xd3ec;&#xd2b8;&#xd3ec;&#xc6cc;&#xb529;&#xc744; &#xd574;&#xc918;&#xc57c;&#xd568;"/>
 </node>
-<node CREATED="1574215137840" ID="ID_1709275642" MODIFIED="1621918154833" POSITION="right" TEXT="&#xb9ac;&#xb205;&#xc2a4; find">
+<node CREATED="1574215137840" FOLDED="true" ID="ID_1709275642" MODIFIED="1625638579668" POSITION="right" TEXT="&#xb9ac;&#xb205;&#xc2a4; find">
 <node CREATED="1574215227206" ID="ID_446564335" MODIFIED="1574215227206" TEXT="find / -name &#xd3f4;&#xb354;&#xba85; -type d"/>
 </node>
-<node CREATED="1580280082029" ID="ID_886773617" MODIFIED="1580280083248" POSITION="right" TEXT="&#xd3ec;&#xd2b8;&#xc5f4;&#xae30;">
+<node CREATED="1580280082029" FOLDED="true" ID="ID_886773617" MODIFIED="1625638581460" POSITION="right" TEXT="&#xd3ec;&#xd2b8;&#xc5f4;&#xae30;">
 <node CREATED="1621942793987" ID="ID_537373711" MODIFIED="1621942797801" TEXT="&#xcc38;&#xc870;">
 <node CREATED="1621942798503" ID="ID_898455139" LINK="https://www.lesstif.com/system-admin/rhel-centos-firewall-22053128.html" MODIFIED="1621942798503" TEXT="https://www.lesstif.com/system-admin/rhel-centos-firewall-22053128.html"/>
 </node>
@@ -122,14 +122,20 @@
 </node>
 </node>
 </node>
-<node CREATED="1622953574820" ID="ID_924234364" MODIFIED="1622953578602" POSITION="right" TEXT="&#xadf8;&#xb8f9;&#xacfc; &#xc720;&#xc800;&#xb9ac;&#xc2a4;&#xd2b8; &#xc870;&#xd68c;">
+<node CREATED="1625638582312" ID="ID_1277399464" MODIFIED="1625638585407" POSITION="right" TEXT="&#xc6b0;&#xbd84;&#xd22c; &#xbc29;&#xd654;&#xbcbd;">
+<node CREATED="1625638585995" ID="ID_1176382005" LINK="https://webdir.tistory.com/206" MODIFIED="1625638585995" TEXT="https://webdir.tistory.com/206"/>
+</node>
+<node CREATED="1622953574820" FOLDED="true" ID="ID_924234364" MODIFIED="1625638579668" POSITION="right" TEXT="&#xadf8;&#xb8f9;&#xacfc; &#xc720;&#xc800;&#xb9ac;&#xc2a4;&#xd2b8; &#xc870;&#xd68c;">
 <node CREATED="1622953578940" ID="ID_469051099" LINK="http://www.kwangsiklee.com/2018/02/%EB%A6%AC%EB%88%85%EC%8A%A4%EC%97%90%EC%84%9C-%EC%A0%84%EC%B2%B4-group%EC%9D%B4%EB%82%98-user-%EB%A6%AC%EC%8A%A4%ED%8A%B8-%EC%B6%9C%EB%A0%A5%ED%95%98%EA%B8%B0/" MODIFIED="1622953578940" TEXT="kwangsiklee.com &gt; 2018 &gt; 02 &gt; %EB%A6%AC%EB%88%85%EC%8A%A4%EC%97%90%EC%84%9C-%EC%A0%84%EC%B2%B4-group%EC%9D%B4%EB%82%98-user-%EB%A6%AC%EC%8A%A4%ED%8A%B8-%EC%B6%9C%EB%A0%A5%ED%95%98%EA%B8%B0"/>
 </node>
-<node CREATED="1622952930479" ID="ID_1804407209" MODIFIED="1622953160135" POSITION="right" TEXT="sftp &#xc138;&#xd305;">
+<node CREATED="1622952930479" FOLDED="true" ID="ID_1804407209" MODIFIED="1625638579668" POSITION="right" TEXT="sftp &#xc138;&#xd305;">
 <node COLOR="#3333ff" CREATED="1622955690760" ID="ID_1783571610" LINK="https://faq.hostway.co.kr/Linux_ETC/8213" MODIFIED="1622955694305" STYLE="bubble" TEXT="https://faq.hostway.co.kr/Linux_ETC/8213">
 <font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
 </node>
 <node CREATED="1622953160645" ID="ID_1837942490" LINK="https://overcode.tistory.com/entry/%EB%A6%AC%EB%88%85%EC%8A%A4-%EC%82%AC%EC%9A%A9%EC%9E%90-%EB%AA%A9%EB%A1%9D-%ED%99%95%EC%9D%B8-Linux-User-List" MODIFIED="1622953160645" TEXT="https://overcode.tistory.com/entry/%EB%A6%AC%EB%88%85%EC%8A%A4-%EC%82%AC%EC%9A%A9%EC%9E%90-%EB%AA%A9%EB%A1%9D-%ED%99%95%EC%9D%B8-Linux-User-List"/>
+</node>
+<node CREATED="1625639513268" ID="ID_514211006" MODIFIED="1625639515476" POSITION="right" TEXT="curl">
+<node CREATED="1625639522073" LINK="https://racoonlotty.tistory.com/entry/CURL-%EC%9D%B4%EB%9E%80" MODIFIED="1625639522073" TEXT="https://racoonlotty.tistory.com/entry/CURL-%EC%9D%B4%EB%9E%80"/>
 </node>
 </node>
 </map>
