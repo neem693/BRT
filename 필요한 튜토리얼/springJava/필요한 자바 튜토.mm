@@ -144,7 +144,7 @@
 <node CREATED="1565202033021" FOLDED="true" ID="ID_1142579295" MODIFIED="1623117426207" POSITION="right" TEXT="swagger-ui.html&#xc774; 404 &#xb5a8;&#xc5b4;&#xc9c8;&#xb54c;">
 <node CREATED="1565202046273" ID="ID_356155014" MODIFIED="1565202747081" TEXT="swagger-ui.html 404 &#xc5d0;&#xb7ec; &#xb098; &#xac19;&#xc740; &#xacbd;&#xc6b0; &#xc2a4;&#xd504;&#xb9c1; &#xbd80;&#xd2b8; 2.1.6 &#xc0ac;&#xc6a9;&#xd558;&#xace0; &#xc788;&#xc744; &#xb584; springfox-swagger2&#xc640; springfox-swagger-ui&#xb97c; &#xc0ac;&#xc6a9;&#xd560;&#xb54c; /v2/api-docs &#xb294; &#xc798;&#xb418;&#xb294;&#xb370; swagger-ui.html&#xc774; &#xc528;&#xc54c;&#xb3c4; &#xc548;&#xba39;&#xd788;&#xb354;&#xb77c;. &#xadf8;&#xb798;&#xc11c; swagger&#xc640; ui&#xb97c; 2.7.0&#xc73c;&#xb85c; &#xbc14;&#xafb8;&#xb2c8;&#xae4c; &#xc798;&#xb418;&#xb354;&#xb77c;. &#xcc38;&#xace0;&#xbc14;&#xb78c; "/>
 </node>
-<node CREATED="1565211325121" FOLDED="true" ID="ID_1017006133" MODIFIED="1623905238820" POSITION="right" TEXT="&#xd3ec;&#xd2b8; &#xd655;&#xc778;">
+<node CREATED="1565211325121" ID="ID_1017006133" MODIFIED="1626696177126" POSITION="right" TEXT="&#xd3ec;&#xd2b8; &#xd655;&#xc778;">
 <node CREATED="1565211327619" ID="ID_798013240" MODIFIED="1565624634640" TEXT="netstat -ano"/>
 <node CREATED="1565624758878" ID="ID_1113092189" MODIFIED="1565624758878" TEXT="taskkill /F /PID 3792"/>
 <node CREATED="1565624764382" ID="ID_930944999" MODIFIED="1565624768464" TEXT="3792&#xb97c; &#xc8fd;&#xc784;"/>
@@ -2406,7 +2406,7 @@
 <node CREATED="1570820280004" ID="ID_459888442" MODIFIED="1570820398932" TEXT="csrf&#xc758; permitAll&#xc740; get&#xb9cc; &#xd5c8;&#xc6a9;&#xb41c;&#xb2e4;. post&#xb294; &#xd5c8;&#xc6a9; &#xb418;&#xc9c0; &#xc54a;&#xb294;&#xb2e4;. &#xd1a0;&#xd070;&#xc774; &#xc788;&#xc5b4;&#xc57c; &#xd55c;&#xb2e4;."/>
 <node CREATED="1570822064313" ID="ID_1633839874" MODIFIED="1570822220332" TEXT="&#xadf8;&#xb7ec;&#xb098; &#xd1a0;&#xd070;&#xc774; &#xc0dd;&#xc131;&#xb420; &#xb54c;&#xb294; &#xcfe0;&#xd0a4;&#xb85c; &#xd588;&#xc73c;&#xb974; &#xb54c; &#xd604;&#xc7ac; &#xacbd;&#xb85c;&#xc5d0;&#xc11c; &#xc0dd;&#xc131;&#xb418;&#xc9c0; &#xc54a;&#xace0; &quot;/&quot; &#xb8e8;&#xd2b8;&#xc5d0;&#xc11c; &#xc0dd;&#xc131;&#xb428;&#xc73c;&#xb85c; &#xc815;&#xd655;&#xd55c; &#xacbd;&#xb85c; &#xc124;&#xc815;&#xc774; &#xd544;&#xc694;&#xd558;&#xb2e4;."/>
 </node>
-<node CREATED="1569486116611" ID="ID_1594071695" MODIFIED="1626172571571" POSITION="right" TEXT="oauth &#xc815;&#xb9ac;">
+<node CREATED="1569486116611" FOLDED="true" ID="ID_1594071695" MODIFIED="1626253546780" POSITION="right" TEXT="oauth &#xc815;&#xb9ac;">
 <node CREATED="1569486121620" ID="ID_1004995870" MODIFIED="1569486326063" TEXT="&#xc774; &#xc815;&#xb9ac;&#xb294; authorization server&#xc640; resource server &#xc804;&#xc6a9;&#xc73c;&#xb85c; &#xd55c;&#xb2e4;."/>
 <node CREATED="1569851795826" FOLDED="true" ID="ID_1918509835" MODIFIED="1610433786409" TEXT="&#xcc38;&#xc870;&#xd55c; &#xb9c1;&#xd06c;">
 <node CREATED="1569491563570" ID="ID_239934634" LINK="https://www.tutorialspoint.com/spring_boot/spring_boot_oauth2_with_jwt.htm" MODIFIED="1569491564360" TEXT="https://www.tutorialspoint.com/spring_boot/spring_boot_oauth2_with_jwt.htm"/>
@@ -4294,7 +4294,7 @@
 <font BOLD="true" NAME="Dialog" SIZE="16"/>
 <node CREATED="1570381223900" ID="ID_237953713" MODIFIED="1570381227799" TEXT="&#xadf8;&#xb0e5; &#xbcf4;&#xc548;&#xc0c1; &#xadf8;&#xac70; &#xc4f0;&#xb798; &#xc528;&#xbc1c;"/>
 </node>
-<node CREATED="1570398499501" FOLDED="true" ID="ID_438936036" MODIFIED="1623117426214" POSITION="right" TEXT="&#xc720;&#xb2db; &#xd14c;&#xc2a4;&#xd2b8; &#xd560; &#xb54c;">
+<node CREATED="1570398499501" FOLDED="true" ID="ID_438936036" MODIFIED="1626671927650" POSITION="right" TEXT="&#xc720;&#xb2db; &#xd14c;&#xc2a4;&#xd2b8; &#xd560; &#xb54c;">
 <node CREATED="1570398518920" ID="ID_160186925" MODIFIED="1570398525097" TEXT="&#xbb38;&#xc81c;">
 <node CREATED="1570398509065" ID="ID_1790794922" MODIFIED="1570398509065" TEXT="java.lang.IllegalStateException: Unable to find a @SpringBootConfiguration, you need to use @ContextConfiguration or @SpringBootTest(classes=...) with your test"/>
 </node>
@@ -5099,7 +5099,7 @@
 <font BOLD="true" NAME="Dialog" SIZE="24"/>
 <node CREATED="1619006314116" ID="ID_271111082" LINK="https://www.javainuse.com/spring/springboot-microservice-elk" MODIFIED="1619006316500" TEXT="https://www.javainuse.com/spring/springboot-microservice-elk"/>
 </node>
-<node CREATED="1619423255029" FOLDED="true" ID="ID_1802438026" MODIFIED="1623905263092" POSITION="right" TEXT="springboot &#xb85c;&#xae45;">
+<node CREATED="1619423255029" FOLDED="true" ID="ID_1802438026" MODIFIED="1626764252334" POSITION="right" TEXT="springboot &#xb85c;&#xae45;">
 <node CREATED="1619423481646" ID="ID_1799123569" MODIFIED="1619774606007" TEXT="logging.file(yml &#xc124;&#xc815;&#xbc29;&#xbc95;)">
 <node CREATED="1619423354701" ID="ID_7098965" LINK="https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#boot-features-logging-file-output" MODIFIED="1619423354701" TEXT="https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#boot-features-logging-file-output"/>
 </node>
@@ -5122,22 +5122,22 @@
 </node>
 </node>
 </node>
-<node CREATED="1620092329751" FOLDED="true" ID="ID_936177846" MODIFIED="1623905262420" POSITION="right" TEXT="apk &#xae4c;&#xbcf4;&#xae30;">
+<node CREATED="1620092329751" FOLDED="true" ID="ID_936177846" MODIFIED="1626764253430" POSITION="right" TEXT="apk &#xae4c;&#xbcf4;&#xae30;">
 <node CREATED="1620092333586" ID="ID_843213046" LINK="https://github.com/skylot/jadx/releases/tag/v1.2.0" MODIFIED="1620092333586" TEXT="https://github.com/skylot/jadx/releases/tag/v1.2.0"/>
 </node>
-<node CREATED="1620886228631" FOLDED="true" ID="ID_522655161" MODIFIED="1623905261764" POSITION="right" TEXT="html&#xc744; &#xc774;&#xbbf8;&#xc9c0;&#xb85c; &#xbcc0;&#xd658;&#xd558;&#xb294;&#xac78; &#xc790;&#xbc14;&#xc5d0;&#xc11c; &#xd558;&#xae30;">
+<node CREATED="1620886228631" FOLDED="true" ID="ID_522655161" MODIFIED="1626764253724" POSITION="right" TEXT="html&#xc744; &#xc774;&#xbbf8;&#xc9c0;&#xb85c; &#xbcc0;&#xd658;&#xd558;&#xb294;&#xac78; &#xc790;&#xbc14;&#xc5d0;&#xc11c; &#xd558;&#xae30;">
 <node CREATED="1620886246664" ID="ID_1708562186" LINK="https://whitecold89.tistory.com/48" MODIFIED="1620886246664" TEXT="https://whitecold89.tistory.com/48"/>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#ff3333" CREATED="1622688972479" FOLDED="true" ID="ID_1852474085" MODIFIED="1623905258772" POSITION="right" STYLE="bubble" TEXT="yaml">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#ff3333" CREATED="1622688972479" FOLDED="true" ID="ID_1852474085" MODIFIED="1626764254735" POSITION="right" STYLE="bubble" TEXT="yaml">
 <font BOLD="true" NAME="Dialog" SIZE="24"/>
 <node CREATED="1622688979053" ID="ID_927363965" LINK="https://stackoverflow.com/questions/3790454/how-do-i-break-a-string-in-yaml-over-multiple-lines" MODIFIED="1622688979053" TEXT="https://stackoverflow.com/questions/3790454/how-do-i-break-a-string-in-yaml-over-multiple-lines"/>
 <node CREATED="1622688980238" ID="ID_1283708668" MODIFIED="1622689023938" TEXT="- &#xb77c;&#xb294; &#xac12;&#xc774; new line&#xc758; &#xac1c;&#xd589;&#xc73c;&#xb85c; &#xb4e4;&#xc5b4;&#xac04;&#xb2e4;."/>
 </node>
-<node CREATED="1622692742297" FOLDED="true" ID="ID_1789817337" MODIFIED="1623905259715" POSITION="right" TEXT="redis cache">
+<node CREATED="1622692742297" FOLDED="true" ID="ID_1789817337" MODIFIED="1626764255005" POSITION="right" TEXT="redis cache">
 <node CREATED="1622692746376" ID="ID_335660259" LINK="https://velog.io/@ayoung0073/springboot-redis-cache" MODIFIED="1622692746376" TEXT="https://velog.io/@ayoung0073/springboot-redis-cache"/>
 <node CREATED="1622950018168" ID="ID_1237089089" LINK="https://yonguri.tistory.com/82" MODIFIED="1622950018168" TEXT="https://yonguri.tistory.com/82"/>
 </node>
-<node CREATED="1623071077760" FOLDED="true" ID="ID_425418434" MODIFIED="1623905260580" POSITION="right" TEXT="&#xc2a4;&#xd504;&#xb9c1;&#xd074;&#xb77c;&#xc6b0;&#xb4dc; &#xac8c;&#xc774;&#xd2b8; &#xc6e8;&#xc774;">
+<node CREATED="1623071077760" FOLDED="true" ID="ID_425418434" MODIFIED="1626764255347" POSITION="right" TEXT="&#xc2a4;&#xd504;&#xb9c1;&#xd074;&#xb77c;&#xc6b0;&#xb4dc; &#xac8c;&#xc774;&#xd2b8; &#xc6e8;&#xc774;">
 <node CREATED="1623071100560" ID="ID_584179823" LINK="https://www.baeldung.com/spring-cloud-gateway" MODIFIED="1623071100560" TEXT="https://www.baeldung.com/spring-cloud-gateway"/>
 </node>
 <node CREATED="1613370929160" FOLDED="true" ID="ID_759038728" MODIFIED="1624089573828" POSITION="left" TEXT="&#xb85c;&#xceec; &#xb370;&#xc774;&#xd2b8; &#xd0c0;&#xc784; post&#xb85c; &#xb358;&#xc838; &#xc138;&#xc774;&#xbe0c; &#xd560; &#xc2dc;&#xc5d0;">
@@ -5150,7 +5150,7 @@
 <font BOLD="true" NAME="Dialog" SIZE="16"/>
 <node CREATED="1620639270345" ID="ID_1573768780" LINK="https://wikidocs.net/18341" MODIFIED="1620639361485" TEXT="https://wikidocs.net/18341"/>
 </node>
-<node CREATED="1622618774676" ID="ID_483332880" MODIFIED="1626176873356" POSITION="left" STYLE="fork" TEXT="&#xc778;&#xd154;&#xb9ac;&#xc81c;&#xc774;">
+<node CREATED="1622618774676" FOLDED="true" ID="ID_483332880" MODIFIED="1626253546781" POSITION="left" STYLE="fork" TEXT="&#xc778;&#xd154;&#xb9ac;&#xc81c;&#xc774;">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1622618783306" ID="ID_999273512" MODIFIED="1622618791608" TEXT="java version &#xbcc0;&#xacbd;"/>
 <node CREATED="1622642678330" FOLDED="true" ID="ID_657532712" MODIFIED="1623835073183" TEXT="java.util.concurrent.CompletionException: java.net.BindException: Address already in use: bind &#xc624;&#xb958;">
@@ -5264,6 +5264,14 @@
 </node>
 <node CREATED="1626167486043" FOLDED="true" ID="ID_1326292112" MODIFIED="1626172565020" POSITION="left" TEXT="spring security &#xc2a4;&#xd504;&#xb9c1; &#xc2dc;&#xd050;&#xb9ac;&#xd2f0; &#xcee4;&#xc2a4;&#xd140; &#xc5d0;&#xb7ec; &#xba54;&#xc138;&#xc9c0;">
 <node CREATED="1626167499119" LINK="https://stackoverflow.com/questions/46256206/spring-boot-security-custom-messages-while-user-login" MODIFIED="1626167499119" TEXT="https://stackoverflow.com/questions/46256206/spring-boot-security-custom-messages-while-user-login"/>
+</node>
+<node CREATED="1626261963814" FOLDED="true" ID="ID_1879887227" MODIFIED="1626671927654" POSITION="left" TEXT="&#xc2a4;&#xd504;&#xb9c1;&#xd074;&#xb77c;&#xc6b0;&#xb4dc; &#xac8c;&#xc774;&#xd2b8;&#xc6e8;&#xc774;">
+<node CREATED="1626262070367" ID="ID_1224668701" MODIFIED="1626262072320" TEXT="&#xc624;&#xb958;">
+<node CREATED="1626262072867" ID="ID_1179885519" MODIFIED="1626262072867" TEXT="java.net.UnknownHostException: failed to resolve &apos;DESKTOP-MJ618AP.mshome.net&apos; after 4 queries"/>
+</node>
+<node CREATED="1626262074265" ID="ID_295825682" MODIFIED="1626262074886" TEXT="&#xd574;&#xacb0;">
+<node CREATED="1626264574835" ID="ID_252488371" MODIFIED="1626264596382" TEXT="&#xbaa8;&#xb4e0; &#xc778;&#xc2a4;&#xd134;&#xc2a4;&#xc758; eureka.instance.hostname&#xc744; localhost&#xb85c; &#xbcc0;&#xacbd;&#xd558;&#xba74; &#xd574;&#xacb0;"/>
+</node>
 </node>
 </node>
 </map>
