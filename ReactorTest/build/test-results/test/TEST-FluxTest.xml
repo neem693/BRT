@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="FluxTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-07-22T19:47:53" hostname="DESKTOP-FKOLVOQ" time="12.138">
+  <properties/>
+  <testcase name="test1()" classname="FluxTest" time="12.138"/>
+  <system-out><![CDATA[[ INFO] (Test worker) | onSubscribe([Synchronous Fuseable] FluxArray.ArraySubscription)
+[ INFO] (Test worker) | request(unbounded)
+[ INFO] (Test worker) | onNext(1)
+[ INFO] (Test worker) | onNext(2)
+[ INFO] (Test worker) | onNext(3)
+[ INFO] (Test worker) | onNext(4)
+[ INFO] (Test worker) | onComplete()
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
