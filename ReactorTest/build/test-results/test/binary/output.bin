@@ -1,0 +1,7 @@
+X[ INFO] (Test worker) | onSubscribe([Synchronous Fuseable] FluxArray.ArraySubscription)
++[ INFO] (Test worker) | request(unbounded)
+"[ INFO] (Test worker) | onNext(1)
+"[ INFO] (Test worker) | onNext(2)
+"[ INFO] (Test worker) | onNext(3)
+"[ INFO] (Test worker) | onNext(4)
+%[ INFO] (Test worker) | onComplete()

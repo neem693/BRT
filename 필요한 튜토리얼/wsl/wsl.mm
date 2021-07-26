@@ -32,5 +32,16 @@
 <node CREATED="1625679991330" ID="ID_295282448" MODIFIED="1625679991330" POSITION="right" TEXT="Temporary failure in name resolution">
 <node CREATED="1625679999392" LINK="https://blog.naver.com/neem693/222424003910" MODIFIED="1625679999392" TEXT="https://blog.naver.com/neem693/222424003910"/>
 </node>
+<node CREATED="1627166297221" ID="ID_191203143" MODIFIED="1627166409857" POSITION="right" TEXT="portFowarding &#xd6c4;&#xc5d0; &#xc778;&#xd130;&#xb137;&#xc774; &#xc548;&#xb420; &#xb54c;">
+<node CREATED="1627166409847" ID="ID_1710798412" MODIFIED="1627166410988" TEXT="&#xbb38;&#xc81c;">
+<node CREATED="1627166354431" ID="ID_1105916787" MODIFIED="1627166361946" TEXT="&#xac11;&#xc790;&#xae30; docker search&#xb77c;&#xb4e0;&#xac00; &#xadf8;&#xb7f0;&#xac8c; &#xc548;&#xb420; &#xb54c;"/>
+<node CREATED="1627166379239" ID="ID_36550334" MODIFIED="1627166408247" TEXT="dial tcp: lookup index.docker.io on 172.19.0.1:53: read udp 172.19.0.1:49196-&gt;172.19.0.1:53: read: connection refused"/>
+<node CREATED="1627166413288" ID="ID_1426156032" MODIFIED="1627166421003" TEXT="&#xc774;&#xac8c; &#xd3ec;&#xd2b8;&#xd3ec;&#xc6cc;&#xb529; cmd &#xb3cc;&#xb9ac;&#xace0; &#xb098;&#xc11c; &#xc774;&#xb7f0;&#xc77c;&#xc774; &#xbc1c;&#xc0dd;"/>
+</node>
+<node CREATED="1627166422949" ID="ID_1368636383" MODIFIED="1627166423686" TEXT="&#xd574;&#xacb0;">
+<node CREATED="1627166524646" ID="ID_345970346" LINK="https://lemontia.tistory.com/814" MODIFIED="1627166524646" TEXT="https://lemontia.tistory.com/814"/>
+<node CREATED="1627166530161" ID="ID_1325346486" MODIFIED="1627166538687" TEXT="&#xb124;&#xc784;&#xc11c;&#xbc84;&#xb97c; &#xb4e4;&#xc5b4;&#xac00;&#xc11c; 8.8.8.8&#xb85c; &#xbc14;&#xafd4;&#xc8fc;&#xb2c8; &#xd574;&#xacb0;&#xb410;&#xb2e4;."/>
+</node>
+</node>
 </node>
 </map>
