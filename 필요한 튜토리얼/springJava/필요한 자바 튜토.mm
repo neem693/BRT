@@ -2,6 +2,7 @@
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1564407011351" ID="ID_1828054490" MODIFIED="1622618770547" TEXT="&#xd544;&#xc694;&#xd55c; &#xc790;&#xbc14; &#xd29c;&#xd1a0;">
 <font NAME="SansSerif" SIZE="12"/>
+<hook NAME="accessories/plugins/CreationModificationPlugin_new.properties"/>
 <hook NAME="MapStyle">
 <properties EDGECOLORCONFIGURATION="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" FIT_TO_VIEWPORT="false"/>
 <map_styles>
@@ -67,7 +68,6 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="accessories/plugins/CreationModificationPlugin_new.properties"/>
 <node COLOR="#3333ff" CREATED="1564407143832" FOLDED="true" ID="ID_54453441" MODIFIED="1623117426205" POSITION="right" STYLE="bubble" TEXT="No goals have been specified for this build. You must specify a valid lifecycle phase or a goal in the format &lt;plugin-prefix&gt;:&lt;goal&gt; or &lt;plugin-group-id&gt;:&lt;plugin-artifact-id&gt;[:&lt;plugin-version&gt;]:&lt;goal&gt;. &#xb2e4;&#xc74c;&#xacfc; &#xac19;&#xc740; &#xba54;&#xc774;&#xbe10; &#xc5d0;&#xb7ec;&#xc77c; &#xb54c;">
 <font BOLD="true" NAME="Dialog" SIZE="16"/>
 <node CREATED="1564407165766" ID="ID_825190785" MODIFIED="1564407165766" TEXT="&lt;build&gt;">
@@ -144,7 +144,7 @@
 <node CREATED="1565202033021" FOLDED="true" ID="ID_1142579295" MODIFIED="1623117426207" POSITION="right" TEXT="swagger-ui.html&#xc774; 404 &#xb5a8;&#xc5b4;&#xc9c8;&#xb54c;">
 <node CREATED="1565202046273" ID="ID_356155014" MODIFIED="1565202747081" TEXT="swagger-ui.html 404 &#xc5d0;&#xb7ec; &#xb098; &#xac19;&#xc740; &#xacbd;&#xc6b0; &#xc2a4;&#xd504;&#xb9c1; &#xbd80;&#xd2b8; 2.1.6 &#xc0ac;&#xc6a9;&#xd558;&#xace0; &#xc788;&#xc744; &#xb584; springfox-swagger2&#xc640; springfox-swagger-ui&#xb97c; &#xc0ac;&#xc6a9;&#xd560;&#xb54c; /v2/api-docs &#xb294; &#xc798;&#xb418;&#xb294;&#xb370; swagger-ui.html&#xc774; &#xc528;&#xc54c;&#xb3c4; &#xc548;&#xba39;&#xd788;&#xb354;&#xb77c;. &#xadf8;&#xb798;&#xc11c; swagger&#xc640; ui&#xb97c; 2.7.0&#xc73c;&#xb85c; &#xbc14;&#xafb8;&#xb2c8;&#xae4c; &#xc798;&#xb418;&#xb354;&#xb77c;. &#xcc38;&#xace0;&#xbc14;&#xb78c; "/>
 </node>
-<node CREATED="1565211325121" ID="ID_1017006133" MODIFIED="1626696177126" POSITION="right" TEXT="&#xd3ec;&#xd2b8; &#xd655;&#xc778;">
+<node CREATED="1565211325121" FOLDED="true" ID="ID_1017006133" MODIFIED="1627338633980" POSITION="right" TEXT="&#xd3ec;&#xd2b8; &#xd655;&#xc778;">
 <node CREATED="1565211327619" ID="ID_798013240" MODIFIED="1565624634640" TEXT="netstat -ano"/>
 <node CREATED="1565624758878" ID="ID_1113092189" MODIFIED="1565624758878" TEXT="taskkill /F /PID 3792"/>
 <node CREATED="1565624764382" ID="ID_930944999" MODIFIED="1565624768464" TEXT="3792&#xb97c; &#xc8fd;&#xc784;"/>
@@ -5150,7 +5150,7 @@
 <font BOLD="true" NAME="Dialog" SIZE="16"/>
 <node CREATED="1620639270345" ID="ID_1573768780" LINK="https://wikidocs.net/18341" MODIFIED="1620639361485" TEXT="https://wikidocs.net/18341"/>
 </node>
-<node CREATED="1622618774676" ID="ID_483332880" MODIFIED="1626883248554" POSITION="left" STYLE="fork" TEXT="&#xc778;&#xd154;&#xb9ac;&#xc81c;&#xc774;">
+<node CREATED="1622618774676" FOLDED="true" ID="ID_483332880" MODIFIED="1627338633980" POSITION="left" STYLE="fork" TEXT="&#xc778;&#xd154;&#xb9ac;&#xc81c;&#xc774;">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1622618783306" ID="ID_999273512" MODIFIED="1622618791608" TEXT="java version &#xbcc0;&#xacbd;"/>
 <node CREATED="1622642678330" FOLDED="true" ID="ID_657532712" MODIFIED="1623835073183" TEXT="java.util.concurrent.CompletionException: java.net.BindException: Address already in use: bind &#xc624;&#xb958;">
