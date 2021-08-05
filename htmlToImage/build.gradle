@@ -1,0 +1,37 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
+    // https://mvnrepository.com/artifact/org.projectlombok/lombok
+    compileOnly group: 'org.projectlombok', name: 'lombok', version: '1.18.20'
+    // https://mvnrepository.com/artifact/com.guicedee.services/slf4j
+    implementation group: 'com.guicedee.services', name: 'slf4j', version: '1.1.1.9-jre16'
+//// https://mvnrepository.com/artifact/gui.ava/html2image
+//    implementation group: 'gui.ava', name: 'html2image', version: '2.0.1'
+// https://mvnrepository.com/artifact/com.github.xuwei-k/html2image
+    implementation group: 'com.github.xuwei-k', name: 'html2image', version: '0.1.0'
+// https://mvnrepository.com/artifact/org.openjfx/javafx-controls
+    implementation group: 'org.openjfx', name: 'javafx-controls', version: '11.0.2'
+
+
+
+
+
+
+
+
+}
+
+test {
+    useJUnitPlatform()
+}
